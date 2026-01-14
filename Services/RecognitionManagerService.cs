@@ -1,23 +1,21 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.ServiceModel;
 using training.gov.au.services;
 
 namespace TgaGateway2.Services
 {
     /// <summary>
-    /// Service for fetching data from TGA (Training.gov.au) web services
+    /// Service for fetching RecognitionManager data from TGA (Training.gov.au) web services
     /// </summary>
-    public class TgaDataService : IDisposable
+    public class RecognitionManagerService : IDisposable
     {
         private TrainingComponentServiceClient _trainingComponentClient;
         private bool _disposed = false;
 
         /// <summary>
-        /// Initializes a new instance of TgaDataService with default credentials
+        /// Initializes a new instance of RecognitionManagerService with default credentials
         /// </summary>
-        public TgaDataService()
+        public RecognitionManagerService()
         {
             _trainingComponentClient = new TrainingComponentServiceClient("TrainingComponentServiceBasicHttpEndpoint");
             _trainingComponentClient.ClientCredentials.UserName.UserName = "WebService.Read";
@@ -25,9 +23,9 @@ namespace TgaGateway2.Services
         }
 
         /// <summary>
-        /// Initializes a new instance of TgaDataService with custom credentials
+        /// Initializes a new instance of RecognitionManagerService with custom credentials
         /// </summary>
-        public TgaDataService(string username, string password)
+        public RecognitionManagerService(string username, string password)
         {
             _trainingComponentClient = new TrainingComponentServiceClient("TrainingComponentServiceBasicHttpEndpoint");
             _trainingComponentClient.ClientCredentials.UserName.UserName = username;
@@ -35,19 +33,19 @@ namespace TgaGateway2.Services
         }
 
         /// <summary>
-        /// Gets the server time from TGA service
+        /// Gets all recognition managers from TGA service
         /// </summary>
-        public DateTime GetServerTime()
+        public RecognitionManager[] GetRecognitionManagers()
         {
             EnsureNotDisposed();
-            return _trainingComponentClient.GetServerTime();
+            return _trainingComponentClient.GetRecognitionManagers();
         }
 
         private void EnsureNotDisposed()
         {
             if (_disposed)
             {
-                throw new ObjectDisposedException(nameof(TgaDataService));
+                throw new ObjectDisposedException(nameof(RecognitionManagerService));
             }
         }
 

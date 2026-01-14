@@ -1,6 +1,6 @@
 using System;
 using System.Threading.Tasks;
-using TgaGateway2.Handlers;
+using TgaGateway2.Handlers.TrainingComponentService;
 using TgaGateway2.Services;
 
 namespace TgaGateway2
@@ -22,23 +22,23 @@ namespace TgaGateway2
                     Console.WriteLine($"Server time: {serverTime}\n");
 
                     // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
-                    var recognitionManagers = await RecognitionManagerHandler.ProcessRecognitionManagers(
-                        tgaService,
-                        supabaseService);
+                    using (var recognitionManagerService = new RecognitionManagerService())
+                    {
+                        var recognitionManagers = await RecognitionManagerHandler.ProcessRecognitionManagers(
+                            recognitionManagerService,
+                            supabaseService);
+                    }
 
-                    // 3. Get Training Component Details
-                    // NOTE: Replace "BSB40520" with an actual training component code
-                    string trainingComponentCode = "BSB40520";
-                    TrainingComponentHandler.ProcessTrainingComponentDetails(
-                        tgaService,
-                        trainingComponentCode,
-                        recognitionManagers,
-                        showReleases: true,
-                        showRecognitionManagers: true,
-                        showContacts: true,
-                        showClassifications: true,
-                        showFullStructure: true
-                    );
+                    // 3. Process Training Component Summaries (fetch and save to Supabase)
+                    using (var summaryService = new TrainingComponentSummaryService())
+                    {
+                        var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
+                            summaryService,
+                            supabaseService,
+                            startDate: DateTime.Now.AddYears(-10), // Search last 10 years
+                            endDate: DateTime.Now,
+                            maxResults: 100); // 0 = fetch all via pagination
+                    }
                 }
             }
             catch (Exception ex)

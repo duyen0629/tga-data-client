@@ -123,9 +123,72 @@ namespace TgaGateway2.Services
                     try
                     {
                         var value = prop.GetValue(item);
-                        var jsonValue = value?.ToString() ?? string.Empty;
-                        var dbFieldName = ConvertToSnakeCase(prop.Name);
-                        jsonFields.Add($"\"{dbFieldName}\":\"{EscapeJson(jsonValue)}\"");
+                        var dbFieldName = MapFieldName(ConvertToSnakeCase(prop.Name));
+                        string jsonValue;
+
+                        // Handle WCF DateTimeOffset struct (has DateTime and OffsetMinutes properties)
+                        if (value != null && prop.PropertyType.Name == "DateTimeOffset")
+                        {
+                            try
+                            {
+                                var dateTimeProp = prop.PropertyType.GetProperty("DateTime", BindingFlags.Public | BindingFlags.Instance);
+
+                                if (dateTimeProp != null)
+                                {
+                                    var dateTimeValue = dateTimeProp.GetValue(value);
+                                    if (dateTimeValue is DateTime dt)
+                                    {
+                                        // Format as ISO 8601 with UTC timezone
+                                        jsonValue = dt.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ");
+                                    }
+                                    else
+                                    {
+                                        jsonValue = string.Empty;
+                                    }
+                                }
+                                else
+                                {
+                                    jsonValue = value?.ToString() ?? string.Empty;
+                                }
+                            }
+                            catch
+                            {
+                                jsonValue = value?.ToString() ?? string.Empty;
+                            }
+                        }
+                        // Handle nullable bool
+                        else if (value != null && prop.PropertyType == typeof(bool?))
+                        {
+                            var boolValue = (bool?)value;
+                            jsonValue = boolValue.HasValue ? boolValue.Value.ToString().ToLower() : "null";
+                        }
+                        // Handle enums
+                        else if (value != null && prop.PropertyType.IsEnum)
+                        {
+                            jsonValue = value.ToString();
+                        }
+                        // Handle null values
+                        else if (value == null)
+                        {
+                            jsonValue = "null";
+                        }
+                        else
+                        {
+                            jsonValue = value.ToString() ?? string.Empty;
+                        }
+
+                        // Only add field if it's not null (or if it's explicitly null for nullable types)
+                        if (jsonValue != "null" || prop.PropertyType.IsGenericType && prop.PropertyType.GetGenericTypeDefinition() == typeof(Nullable<>))
+                        {
+                            if (jsonValue == "null")
+                            {
+                                jsonFields.Add($"\"{dbFieldName}\":null");
+                            }
+                            else
+                            {
+                                jsonFields.Add($"\"{dbFieldName}\":\"{EscapeJson(jsonValue)}\"");
+                            }
+                        }
                     }
                     catch (Exception ex)
                     {
@@ -282,6 +345,24 @@ namespace TgaGateway2.Services
                 .Replace("\n", "\\n")
                 .Replace("\r", "\\r")
                 .Replace("\t", "\\t");
+        }
+
+        /// <summary>
+        /// Maps field names to correct database column names (handles typos in service contracts)
+        /// </summary>
+        private static string MapFieldName(string fieldName)
+        {
+            if (string.IsNullOrEmpty(fieldName))
+                return fieldName;
+
+            // Handle typo in TrainingComponentSummary.UsageReccomendation (one 'm')
+            // Maps to correct spelling: usage_recommendation (two 'm's)
+            if (string.Equals(fieldName, "usage_reccomendation", StringComparison.OrdinalIgnoreCase))
+            {
+                return "usage_recommendation";
+            }
+
+            return fieldName;
         }
 
         /// <summary>

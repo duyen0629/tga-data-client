@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using TgaGateway2.Services;
 using training.gov.au.services;
 
-namespace TgaGateway2.Handlers
+namespace TgaGateway2.Handlers.TrainingComponentService
 {
     /// <summary>
     /// Handler for RecognitionManager operations - fetching and saving to database
@@ -13,15 +13,15 @@ namespace TgaGateway2.Handlers
         /// <summary>
         /// Fetches all RecognitionManagers from TGA service, displays them, and saves to Supabase
         /// </summary>
-        /// <param name="tgaService">TGA data service instance</param>
+        /// <param name="recognitionManagerService">Recognition manager service instance</param>
         /// <param name="supabaseService">Supabase service instance</param>
         /// <returns>Array of RecognitionManagers (or null if none found)</returns>
         public static async Task<RecognitionManager[]> ProcessRecognitionManagers(
-            TgaDataService tgaService,
+            RecognitionManagerService recognitionManagerService,
             SupabaseService supabaseService)
         {
             Console.WriteLine("=== Getting Recognition Managers ===");
-            var recognitionManagers = tgaService.GetRecognitionManagers();
+            var recognitionManagers = recognitionManagerService.GetRecognitionManagers();
 
             Console.WriteLine(" Count of Recognition Managers:" + recognitionManagers.Length);
             if (recognitionManagers != null && recognitionManagers.Length > 0)

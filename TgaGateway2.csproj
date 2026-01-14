@@ -48,16 +48,19 @@
     <Reference Include="System.Web.Extensions" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Handlers\RecognitionManagerHandler.cs" />
-    <Compile Include="Handlers\TrainingComponentHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\RecognitionManagerHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\TrainingComponentSummaryHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\RecognitionManagerService.cs" />
     <Compile Include="Services\SupabaseService.cs" />
     <Compile Include="Services\TgaDataService.cs" />
+    <Compile Include="Services\TrainingComponentSummaryService.cs" />
     <Compile Include="TgaTraining.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="scripts\training-component-service\training_component_summaries_table.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
