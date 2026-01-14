@@ -48,8 +48,11 @@
     <Reference Include="System.Web.Extensions" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Handlers\RecognitionManagerHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\SupabaseService.cs" />
+    <Compile Include="Services\TgaDataService.cs" />
     <Compile Include="TgaTraining.cs" />
   </ItemGroup>
   <ItemGroup>

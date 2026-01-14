@@ -1,0 +1,63 @@
+using System;
+using System.Threading.Tasks;
+using TgaGateway2.Services;
+using training.gov.au.services;
+
+namespace TgaGateway2.Handlers
+{
+    /// <summary>
+    /// Handler for RecognitionManager operations - fetching and saving to database
+    /// </summary>
+    public static class RecognitionManagerHandler
+    {
+        /// <summary>
+        /// Fetches all RecognitionManagers from TGA service, displays them, and saves to Supabase
+        /// </summary>
+        /// <param name="tgaService">TGA data service instance</param>
+        /// <param name="supabaseService">Supabase service instance</param>
+        /// <returns>Array of RecognitionManagers (or null if none found)</returns>
+        public static async Task<RecognitionManager[]> ProcessRecognitionManagers(
+            TgaDataService tgaService,
+            SupabaseService supabaseService)
+        {
+            Console.WriteLine("=== Getting Recognition Managers ===");
+            var recognitionManagers = tgaService.GetRecognitionManagers();
+
+            Console.WriteLine(" Count of Recognition Managers:" + recognitionManagers.Length);
+            if (recognitionManagers != null && recognitionManagers.Length > 0)
+            {
+                foreach (var rm in recognitionManagers)
+                {
+                    Console.WriteLine($"Code: {rm.Code}");
+                    Console.WriteLine($"Description: {rm.Description}");
+                    Console.WriteLine($"ShortName: {rm.ShortName}");
+                    Console.WriteLine();
+                }
+
+                // Save to Supabase
+                Console.WriteLine("=== Saving Recognition Managers to Supabase ===");
+                try
+                {
+                    await supabaseService.SaveToSupabase(recognitionManagers, "recognition_managers");
+                    Console.WriteLine($"Successfully saved {recognitionManagers.Length} Recognition Managers to Supabase!\n");
+                }
+                catch (Exception supabaseEx)
+                {
+                    Console.WriteLine($"ERROR: Failed to save to Supabase: {supabaseEx.Message}");
+                    if (supabaseEx.InnerException != null)
+                    {
+                        Console.WriteLine($"Inner Exception: {supabaseEx.InnerException.Message}");
+                    }
+                    Console.WriteLine("Continuing with rest of the application...\n");
+                }
+
+                return recognitionManagers;
+            }
+            else
+            {
+                Console.WriteLine("No recognition managers found.\n");
+                return null;
+            }
+        }
+    }
+}
