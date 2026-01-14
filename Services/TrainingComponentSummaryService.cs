@@ -51,9 +51,11 @@ namespace TgaGateway2.Services
                 endDate = DateTime.Now;
 
             // Convert to WCF DateTimeOffset struct (required by the API)
+            // Note: Using WCF DateTimeOffset from TgaTraining.cs (not System.DateTimeOffset)
             var startDateUtc = DateTime.SpecifyKind(startDate.Value, DateTimeKind.Utc);
             var endDateUtc = DateTime.SpecifyKind(endDate.Value, DateTimeKind.Utc);
 
+#pragma warning disable CS0436 // Type conflicts with imported type
             var startDateOffset = new System.DateTimeOffset
             {
                 DateTime = startDateUtc,
@@ -65,6 +67,7 @@ namespace TgaGateway2.Services
                 DateTime = endDateUtc,
                 OffsetMinutes = 0
             };
+#pragma warning restore CS0436
 
             Console.WriteLine($"  Searching training components modified between {startDate.Value:yyyy-MM-dd} and {endDate.Value:yyyy-MM-dd}");
 

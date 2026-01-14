@@ -53,7 +53,7 @@ namespace TgaGateway2.Handlers.TrainingComponentService
 
             if (summaries.Count > 10)
             {
-                Console.WriteLine($"... and {summaries.Count - 10} more summaries.\n");
+                Console.WriteLine($"....................................... and {summaries.Count - 10} more summaries.\n");
             }
 
             // Save to Supabase
