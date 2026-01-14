@@ -35,9 +35,9 @@ namespace TgaGateway2
                         var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
                             summaryService,
                             supabaseService,
-                            startDate: DateTime.Now.AddYears(-10), // Search last 10 years
-                            endDate: DateTime.Now,
-                            maxResults: 100); // 0 = fetch all via pagination
+                            startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                            endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                            maxResults: 0); // 0 = fetch all via pagination
                     }
                 }
             }

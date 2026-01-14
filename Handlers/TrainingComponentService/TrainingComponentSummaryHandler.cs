@@ -17,67 +17,77 @@ namespace TgaGateway2.Handlers.TrainingComponentService
         /// </summary>
         /// <param name="summaryService">Training component summary service instance</param>
         /// <param name="supabaseService">Supabase service instance</param>
-        /// <param name="startDate">Start date for search (defaults to 10 years ago)</param>
-        /// <param name="endDate">End date for search (defaults to now)</param>
+        /// <param name="startDate">Start date for search</param>
+        /// <param name="endDate">End date for search</param>
         /// <param name="maxResults">Maximum number of results to return (0 = try to get all via pagination)</param>
         /// <returns>List of TrainingComponentSummary objects (or null if none found)</returns>
         public static async Task<List<TrainingComponentSummary>> ProcessTrainingComponentSummaries(
             TrainingComponentSummaryService summaryService,
             SupabaseService supabaseService,
-            DateTime? startDate = null,
-            DateTime? endDate = null,
+            DateTime startDate,
+            DateTime endDate,
             int maxResults = 0)
         {
-            Console.WriteLine("=== Getting Training Component Summaries ===");
+            Console.WriteLine("=== Getting and Saving Training Component Summaries ===");
+            Console.WriteLine("(Saving per page for progress preservation)\n");
 
-            var summaries = summaryService.SearchByModifiedDate(startDate, endDate, maxResults);
+            var allSummaries = new List<TrainingComponentSummary>();
+            bool firstPage = true;
 
-            if (summaries == null || summaries.Count == 0)
-            {
-                Console.WriteLine("No training component summaries found.\n");
-                return null;
-            }
-
-            Console.WriteLine($"\nFound {summaries.Count} training component summaries.");
-
-            // Display first few summaries as sample
-            Console.WriteLine("\n--- Sample Training Component Summaries (first 10) ---");
-            foreach (var summary in summaries.Take(10))
-            {
-                Console.WriteLine($"Code: {summary.Code}");
-                Console.WriteLine($"Title: {summary.Title ?? "N/A"}");
-                Console.WriteLine($"Component Type: {summary.ComponentType}");
-                Console.WriteLine($"Is Current: {summary.IsCurrent?.ToString() ?? "N/A"}");
-                Console.WriteLine();
-            }
-
-            if (summaries.Count > 10)
-            {
-                Console.WriteLine($"....................................... and {summaries.Count - 10} more summaries.\n");
-            }
-
-            // Save to Supabase
-            Console.WriteLine("=== Saving Training Component Summaries to Supabase ===");
-            Console.WriteLine($"Attempting to save {summaries.Count} training component summaries to table 'training_component_summaries'...");
             try
             {
-                await supabaseService.SaveToSupabase(summaries.ToArray(), "training_component_summaries");
-                Console.WriteLine($"✓ Successfully saved {summaries.Count} Training Component Summaries to Supabase!\n");
-            }
-            catch (Exception supabaseEx)
-            {
-                Console.WriteLine($"✗ ERROR: Failed to save to Supabase!");
-                Console.WriteLine($"Exception Type: {supabaseEx.GetType().Name}");
-                Console.WriteLine($"Exception Message: {supabaseEx.Message}");
-                if (supabaseEx.InnerException != null)
-                {
-                    Console.WriteLine($"Inner Exception: {supabaseEx.InnerException.Message}");
-                }
-                Console.WriteLine($"Stack Trace: {supabaseEx.StackTrace}");
-                Console.WriteLine("Continuing with rest of the application...\n");
-            }
+                int totalProcessed = await summaryService.SearchByModifiedDateWithCallback(
+                    async (pageResults, pageNumber, totalSoFar) =>
+                    {
+                        // Save this page to Supabase immediately
+                        Console.WriteLine($"  Saving Page {pageNumber} ({pageResults.Length} records) to Supabase...");
+                        await supabaseService.SaveToSupabase(pageResults, "training_component_summaries");
+                        Console.WriteLine($"  ✓ Page {pageNumber} saved successfully! (Total saved so far: {totalSoFar + pageResults.Length})");
 
-            return summaries;
+                        // Keep track of all summaries for return value
+                        allSummaries.AddRange(pageResults);
+
+                        // Display sample from first page only
+                        if (firstPage && pageResults.Length > 0)
+                        {
+                            Console.WriteLine("\n--- Sample Training Component Summaries (first 10) ---");
+                            foreach (var summary in pageResults.Take(10))
+                            {
+                                Console.WriteLine($"Code: {summary.Code}");
+                                Console.WriteLine($"Title: {summary.Title ?? "N/A"}");
+                                Console.WriteLine($"Component Type: {summary.ComponentType}");
+                                Console.WriteLine($"Is Current: {summary.IsCurrent?.ToString() ?? "N/A"}");
+                                Console.WriteLine();
+                            }
+                            firstPage = false;
+                        }
+                    },
+                    startDate,
+                    endDate,
+                    maxResults);
+
+                if (totalProcessed == 0)
+                {
+                    Console.WriteLine("No training component summaries found.\n");
+                    return null;
+                }
+
+                Console.WriteLine($"\n✓ Successfully processed and saved {totalProcessed} Training Component Summaries to Supabase!\n");
+                return allSummaries;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"\n✗ ERROR: Failed during processing!");
+                Console.WriteLine($"Exception Type: {ex.GetType().Name}");
+                Console.WriteLine($"Exception Message: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
+                Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+                Console.WriteLine($"\nNote: {allSummaries.Count} records were successfully saved before the error occurred.\n");
+                return allSummaries.Count > 0 ? allSummaries : null;
+            }
         }
     }
 }
