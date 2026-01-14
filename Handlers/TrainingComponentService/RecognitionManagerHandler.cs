@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using TgaGateway2.Services;
 using training.gov.au.services;
@@ -38,8 +39,15 @@ namespace TgaGateway2.Handlers.TrainingComponentService
                 Console.WriteLine("=== Saving Recognition Managers to Supabase ===");
                 try
                 {
+                    var saveStopwatch = Stopwatch.StartNew();
                     await supabaseService.SaveToSupabase(recognitionManagers, "recognition_managers");
-                    Console.WriteLine($"Successfully saved {recognitionManagers.Length} Recognition Managers to Supabase!\n");
+                    saveStopwatch.Stop();
+
+                    var originalColor = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"\n✓ Successfully saved {recognitionManagers.Length} Recognition Managers to Supabase!");
+                    Console.WriteLine($"Time taken to save: {saveStopwatch.Elapsed}\n");
+                    Console.ForegroundColor = originalColor;
                 }
                 catch (Exception supabaseEx)
                 {

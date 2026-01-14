@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using TgaGateway2.Services;
 using training.gov.au.services;
@@ -29,10 +29,9 @@ namespace TgaGateway2.Handlers.TrainingComponentService
             int maxResults = 0)
         {
             Console.WriteLine("=== Getting and Saving Training Component Summaries ===");
-            Console.WriteLine("(Saving per page for progress preservation)\n");
 
             var allSummaries = new List<TrainingComponentSummary>();
-            bool firstPage = true;
+            var saveStopwatch = Stopwatch.StartNew();
 
             try
             {
@@ -43,24 +42,10 @@ namespace TgaGateway2.Handlers.TrainingComponentService
                         Console.WriteLine($"  Saving Page {pageNumber} ({pageResults.Length} records) to Supabase...");
                         await supabaseService.SaveToSupabase(pageResults, "training_component_summaries");
                         Console.WriteLine($"  ✓ Page {pageNumber} saved successfully! (Total saved so far: {totalSoFar + pageResults.Length})");
+                        Console.WriteLine();
 
                         // Keep track of all summaries for return value
                         allSummaries.AddRange(pageResults);
-
-                        // Display sample from first page only
-                        if (firstPage && pageResults.Length > 0)
-                        {
-                            Console.WriteLine("\n--- Sample Training Component Summaries (first 10) ---");
-                            foreach (var summary in pageResults.Take(10))
-                            {
-                                Console.WriteLine($"Code: {summary.Code}");
-                                Console.WriteLine($"Title: {summary.Title ?? "N/A"}");
-                                Console.WriteLine($"Component Type: {summary.ComponentType}");
-                                Console.WriteLine($"Is Current: {summary.IsCurrent?.ToString() ?? "N/A"}");
-                                Console.WriteLine();
-                            }
-                            firstPage = false;
-                        }
                     },
                     startDate,
                     endDate,
@@ -71,8 +56,14 @@ namespace TgaGateway2.Handlers.TrainingComponentService
                     Console.WriteLine("No training component summaries found.\n");
                     return null;
                 }
+                saveStopwatch.Stop();
 
-                Console.WriteLine($"\n✓ Successfully processed and saved {totalProcessed} Training Component Summaries to Supabase!\n");
+                var originalColor = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"\n✓ Successfully processed and saved {totalProcessed} Training Component Summaries to Supabase!");
+                Console.WriteLine($"Time taken to save: {saveStopwatch.Elapsed}\n");
+                Console.ForegroundColor = originalColor;
+
                 return allSummaries;
             }
             catch (Exception ex)
