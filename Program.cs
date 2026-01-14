@@ -1,4 +1,6 @@
 using System;
+using System.IO;
+using System.Text;
 using System.Threading.Tasks;
 using TgaGateway2.Handlers.TrainingComponentService;
 using TgaGateway2.Services;
@@ -9,6 +11,14 @@ namespace TgaGateway2
     {
         static async Task Main(string[] args)
         {
+            var runStart = DateTime.Now;
+            var logBuilder = new StringBuilder();
+            var originalOut = Console.Out;
+            var originalErr = Console.Error;
+            var teeWriter = new TeeTextWriter(originalOut, logBuilder);
+            Console.SetOut(teeWriter);
+            Console.SetError(teeWriter);
+
             try
             {
                 // Initialize services
@@ -55,10 +65,80 @@ namespace TgaGateway2
                 }
                 Console.WriteLine($"Stack Trace: {ex.StackTrace}");
             }
+            finally
+            {
+                try
+                {
+                    var logPath = SaveLogToFile(logBuilder.ToString(), runStart);
+                    Console.SetOut(originalOut);
+                    Console.SetError(originalErr);
+                    Console.WriteLine($"Run log saved to: {logPath}");
+                }
+                catch (Exception logEx)
+                {
+                    Console.SetOut(originalOut);
+                    Console.SetError(originalErr);
+                    Console.WriteLine($"Failed to save run log: {logEx.Message}");
+                }
+            }
 
             Console.WriteLine();
             Console.Write("Press Enter to exit...");
             Console.ReadLine();
+        }
+
+        private static string SaveLogToFile(string logContent, DateTime runStart)
+        {
+            var logsDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs");
+            Directory.CreateDirectory(logsDirectory);
+
+            var fileName = $"run-{runStart:yyyyMMdd-HHmmss}.txt";
+            var filePath = Path.Combine(logsDirectory, fileName);
+            File.WriteAllText(filePath, logContent, new UTF8Encoding(false));
+
+            return filePath;
+        }
+
+        private sealed class TeeTextWriter : TextWriter
+        {
+            private readonly TextWriter _consoleWriter;
+            private readonly StringBuilder _buffer;
+            private readonly object _lock = new object();
+
+            public TeeTextWriter(TextWriter consoleWriter, StringBuilder buffer)
+            {
+                _consoleWriter = consoleWriter ?? throw new ArgumentNullException(nameof(consoleWriter));
+                _buffer = buffer ?? throw new ArgumentNullException(nameof(buffer));
+            }
+
+            public override Encoding Encoding => _consoleWriter.Encoding;
+
+            public override void Write(char value)
+            {
+                lock (_lock)
+                {
+                    _buffer.Append(value);
+                    _consoleWriter.Write(value);
+                }
+            }
+
+            public override void Write(string value)
+            {
+                lock (_lock)
+                {
+                    _buffer.Append(value);
+                    _consoleWriter.Write(value);
+                }
+            }
+
+            public override void WriteLine(string value)
+            {
+                lock (_lock)
+                {
+                    _buffer.AppendLine(value);
+                    _consoleWriter.WriteLine(value);
+                }
+            }
         }
     }
 }
