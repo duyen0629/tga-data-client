@@ -1,8 +1,6 @@
 -- Drop existing objects if they exist (in reverse order of dependencies)
-DROP TRIGGER IF EXISTS update_recognition_managers_updated_at ON recognition_managers;
-DROP INDEX IF EXISTS idx_recognition_managers_code;
-DROP TABLE IF EXISTS recognition_managers;
-DROP FUNCTION IF EXISTS update_updated_at_column();
+-- Drop table first (this will cascade and drop triggers/indexes automatically)
+DROP TABLE IF EXISTS recognition_managers CASCADE;
 
 -- Create recognition_managers table
 CREATE TABLE recognition_managers (
@@ -19,8 +17,9 @@ CREATE TABLE recognition_managers (
 -- Create index on code for faster lookups (though it's already the primary key)
 CREATE INDEX idx_recognition_managers_code ON recognition_managers(code);
 
--- Create function to automatically update updated_at timestamp
-CREATE FUNCTION update_updated_at_column()
+-- Create or replace function to automatically update updated_at timestamp
+-- (Using OR REPLACE in case function already exists from other tables)
+CREATE OR REPLACE FUNCTION update_updated_at_column()
 RETURNS TRIGGER AS $$
 BEGIN
     NEW.updated_at = NOW();
