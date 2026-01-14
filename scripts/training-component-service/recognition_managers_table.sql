@@ -10,8 +10,8 @@ CREATE TABLE recognition_managers (
     extension_data_present BOOLEAN DEFAULT FALSE,
     extension_data_element_count INTEGER,
     extension_data TEXT,
-    created_at TIMESTAMPTZ DEFAULT NOW(),
-    updated_at TIMESTAMPTZ DEFAULT NOW()
+    fetched_created_at TIMESTAMPTZ DEFAULT NOW(),
+    fetched_updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
 -- Create index on code for faster lookups (though it's already the primary key)
@@ -22,7 +22,7 @@ CREATE INDEX idx_recognition_managers_code ON recognition_managers(code);
 CREATE OR REPLACE FUNCTION update_updated_at_column()
 RETURNS TRIGGER AS $$
 BEGIN
-    NEW.updated_at = NOW();
+    NEW.fetched_updated_at = NOW();
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;

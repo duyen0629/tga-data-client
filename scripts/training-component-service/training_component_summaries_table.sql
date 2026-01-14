@@ -30,9 +30,9 @@ CREATE TABLE training_component_summaries (
     extension_data_element_count INTEGER,
     extension_data TEXT,
     
-    -- Timestamps
-    created_at TIMESTAMPTZ DEFAULT NOW(),
-    updated_at TIMESTAMPTZ DEFAULT NOW()
+    -- Timestamps (fetch metadata)
+    fetched_created_at TIMESTAMPTZ DEFAULT NOW(),
+    fetched_updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
 -- Create indexes for faster lookups
@@ -45,7 +45,7 @@ CREATE INDEX idx_training_component_summaries_title ON training_component_summar
 CREATE OR REPLACE FUNCTION update_updated_at_column()
 RETURNS TRIGGER AS $$
 BEGIN
-    NEW.updated_at = NOW();
+    NEW.fetched_updated_at = NOW();
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;

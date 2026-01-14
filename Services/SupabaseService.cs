@@ -200,8 +200,8 @@ namespace TgaGateway2.Services
                 // Process ExtensionData if present
                 ProcessExtensionData(extensionDataProperty, item, jsonFields);
 
-                // Add updated_at timestamp
-                jsonFields.Add($"\"updated_at\":\"{utcNow}\"");
+                // Add fetched_updated_at timestamp
+                jsonFields.Add($"\"fetched_updated_at\":\"{utcNow}\"");
 
                 var recordJson = "{" + string.Join(",", jsonFields) + "}";
                 jsonRecords.Add(recordJson);
