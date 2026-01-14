@@ -1,11 +1,7 @@
 using System;
-using System.Collections;
-using System.Linq;
-using System.Reflection;
 using System.Threading.Tasks;
 using TgaGateway2.Handlers;
 using TgaGateway2.Services;
-using training.gov.au.services;
 
 namespace TgaGateway2
 {
@@ -25,86 +21,24 @@ namespace TgaGateway2
                     var serverTime = tgaService.GetServerTime();
                     Console.WriteLine($"Server time: {serverTime}\n");
 
-                    // 2. Process Recognition Managers (fetch, display, and save to Supabase)
+                    // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
                     var recognitionManagers = await RecognitionManagerHandler.ProcessRecognitionManagers(
                         tgaService,
                         supabaseService);
 
-                    // 4. Get Training Component Details
+                    // 3. Get Training Component Details
                     // NOTE: Replace "BSB40520" with an actual training component code
-                    string trainingComponentCode = "BSB40520"; // Example code - change this!
-
-                    Console.WriteLine($"=== Training Component Details for Code: {trainingComponentCode} ===");
-
-                    var component = tgaService.GetTrainingComponentDetails(
+                    string trainingComponentCode = "BSB40520";
+                    TrainingComponentHandler.ProcessTrainingComponentDetails(
+                        tgaService,
                         trainingComponentCode,
+                        recognitionManagers,
                         showReleases: true,
                         showRecognitionManagers: true,
                         showContacts: true,
-                        showClassifications: true
+                        showClassifications: true,
+                        showFullStructure: true
                     );
-
-                    if (component != null)
-                    {
-                        Console.WriteLine($"Code: {component.Code}");
-                        Console.WriteLine($"Title: {component.Title}");
-                        Console.WriteLine($"Component Type: {component.ComponentType}");
-                        Console.WriteLine();
-
-                        // Get Release Date(s)
-                        Console.WriteLine("--- Releases (Release Dates) ---");
-                        if (component.Releases != null && component.Releases.Length > 0)
-                        {
-                            foreach (var release in component.Releases)
-                            {
-                                Console.WriteLine($"Release Number: {release.ReleaseNumber}");
-                                Console.WriteLine($"Release Date: {release.ReleaseDate}");
-                                Console.WriteLine($"Currency: {release.Currency}");
-                                if (!string.IsNullOrEmpty(release.IscApprovalDate))
-                                    Console.WriteLine($"ISC Approval Date: {release.IscApprovalDate}");
-                                Console.WriteLine();
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("No releases found.");
-                            Console.WriteLine();
-                        }
-
-                        // Get Recognition Manager Assignments
-                        Console.WriteLine("--- Recognition Manager Assignments ---");
-                        if (component.RecognitionManagers != null && component.RecognitionManagers.Length > 0)
-                        {
-                            foreach (var rmAssignment in component.RecognitionManagers)
-                            {
-                                Console.WriteLine($"Recognition Manager Code: {rmAssignment.Code}");
-                                Console.WriteLine($"Start Date: {rmAssignment.StartDate}");
-                                Console.WriteLine($"End Date: {rmAssignment.EndDate}");
-
-                                // Look up the full details (Description) from the recognition managers list
-                                var rmDetails = recognitionManagers?.FirstOrDefault(r => r.Code == rmAssignment.Code);
-                                if (rmDetails != null)
-                                {
-                                    Console.WriteLine($"Recognition Manager Description: {rmDetails.Description}");
-                                    Console.WriteLine($"Recognition Manager ShortName: {rmDetails.ShortName}");
-                                }
-                                Console.WriteLine();
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("No recognition managers assigned to this component.");
-                            Console.WriteLine();
-                        }
-
-                        // Show full component structure (optional - for debugging)
-                        Console.WriteLine("--- Full Component Structure (for reference) ---");
-                        Dump(component);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Training component with code '{trainingComponentCode}' not found.");
-                    }
                 }
             }
             catch (Exception ex)
@@ -126,53 +60,5 @@ namespace TgaGateway2
             Console.Write("Press Enter to exit...");
             Console.ReadLine();
         }
-
-        // Helper method to dump objects
-        static void Dump(object obj, int indent = 0, int depth = 0, int maxDepth = 4)
-        {
-            if (obj == null) { Indent(indent); Console.WriteLine("null"); return; }
-            if (depth > maxDepth) { Indent(indent); Console.WriteLine("…"); return; }
-
-            var t = obj.GetType();
-
-            // Primitive-ish / strings
-            if (t.IsPrimitive || obj is string || obj is DateTime || obj is decimal || obj is Guid || obj is TimeSpan)
-            {
-                Indent(indent); Console.WriteLine(obj);
-                return;
-            }
-
-            // IEnumerable (arrays, lists)
-            if (obj is IEnumerable en && !(obj is string))
-            {
-                int i = 0;
-                foreach (var item in en)
-                {
-                    Indent(indent); Console.WriteLine($"[{i++}]");
-                    Dump(item, indent + 2, depth + 1, maxDepth);
-                }
-                if (i == 0)
-                {
-                    Indent(indent); Console.WriteLine("(empty)");
-                }
-                return;
-            }
-
-            // Complex object: show public props
-            Indent(indent); Console.WriteLine(t.FullName);
-            var props = t.GetProperties(BindingFlags.Public | BindingFlags.Instance)
-                         .Where(p => p.CanRead);
-            foreach (var p in props)
-            {
-                object val;
-                try { val = p.GetValue(obj, null); }
-                catch { val = "(unreadable)"; }
-
-                Indent(indent + 2); Console.WriteLine($"{p.Name}:");
-                Dump(val, indent + 4, depth + 1, maxDepth);
-            }
-        }
-
-        static void Indent(int n) => Console.Write(new string(' ', n));
     }
 }
