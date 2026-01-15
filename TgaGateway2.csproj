@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,6 +67,7 @@
     <Compile Include="Handlers\TrainingComponentService\ContactRoleHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\DataManagerAssignmentHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\DataManagerHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\ReleaseHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\RecognitionManagerAssignmentHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\RecognitionManagerHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\TrainingComponentSummaryHandler.cs" />
@@ -60,10 +76,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\DataManagerAssignmentRecord.cs" />
     <Compile Include="Models\RecognitionManagerAssignmentRecord.cs" />
+    <Compile Include="Models\ReleaseRecord.cs" />
     <Compile Include="Services\AddressStateService.cs" />
     <Compile Include="Services\ContactRoleService.cs" />
     <Compile Include="Services\DataManagerAssignmentService.cs" />
     <Compile Include="Services\DataManagerService.cs" />
+    <Compile Include="Services\ReleaseService.cs" />
     <Compile Include="Services\RecognitionManagerService.cs" />
     <Compile Include="Services\RecognitionManagerAssignmentService.cs" />
     <Compile Include="Services\SupabaseService.cs" />
@@ -78,9 +96,22 @@
     <None Include="scripts\training-component-service\contact_roles_table.sql" />
     <None Include="scripts\training-component-service\data_manager_assignments_table.sql" />
     <None Include="scripts\training-component-service\data_managers_table.sql" />
+    <None Include="scripts\training-component-service\releases_table.sql" />
     <None Include="scripts\training-component-service\training_component_summaries_table.sql" />
     <None Include="scripts\training-component-service\validation_codes_table.sql" />
     <None Include="scripts\training-component-service\recognition_manager_assignments_table.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
