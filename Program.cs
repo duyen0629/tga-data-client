@@ -47,7 +47,15 @@ namespace TgaGateway2
                             supabaseService);
                     }
 
-                    // 4. Process Training Component Summaries (fetch and save to Supabase)
+                    // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
+                    using (var validationCodeService = new ValidationCodeService())
+                    {
+                        var validationCodes = await ValidationCodeHandler.ProcessValidationCodes(
+                            validationCodeService,
+                            supabaseService);
+                    }
+
+                    // 5. Process Training Component Summaries (fetch and save to Supabase)
                     using (var summaryService = new TrainingComponentSummaryService())
                     {
                         var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
