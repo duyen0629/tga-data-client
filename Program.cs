@@ -55,7 +55,15 @@ namespace TgaGateway2
                             supabaseService);
                     }
 
-                    // 5. Process Training Component Summaries (fetch and save to Supabase)
+                    // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
+                    using (var contactRoleService = new ContactRoleService())
+                    {
+                        var contactRoles = await ContactRoleHandler.ProcessContactRoles(
+                            contactRoleService,
+                            supabaseService);
+                    }
+
+                    // 6. Process Training Component Summaries (fetch and save to Supabase)
                     using (var summaryService = new TrainingComponentSummaryService())
                     {
                         var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
