@@ -31,51 +31,64 @@ namespace TgaGateway2
                     var serverTime = tgaService.GetServerTime();
                     Console.WriteLine($"Server time: {serverTime}\n");
 
-                    // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
-                    using (var recognitionManagerService = new RecognitionManagerService())
-                    {
-                        var recognitionManagers = await RecognitionManagerHandler.ProcessRecognitionManagers(
-                            recognitionManagerService,
-                            supabaseService);
-                    }
+                    // // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
+                    // using (var recognitionManagerService = new RecognitionManagerService())
+                    // {
+                    //     var recognitionManagers = await RecognitionManagerHandler.ProcessRecognitionManagers(
+                    //         recognitionManagerService,
+                    //         supabaseService);
+                    // }
 
-                    // 3. Process ALL Data Managers (fetch, display, and save to Supabase)
-                    using (var dataManagerService = new DataManagerService())
-                    {
-                        var dataManagers = await DataManagerHandler.ProcessDataManagers(
-                            dataManagerService,
-                            supabaseService);
-                    }
+                    // // 3. Process ALL Data Managers (fetch, display, and save to Supabase)
+                    // using (var dataManagerService = new DataManagerService())
+                    // {
+                    //     var dataManagers = await DataManagerHandler.ProcessDataManagers(
+                    //         dataManagerService,
+                    //         supabaseService);
+                    // }
 
-                    // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
-                    using (var validationCodeService = new ValidationCodeService())
-                    {
-                        var validationCodes = await ValidationCodeHandler.ProcessValidationCodes(
-                            validationCodeService,
-                            supabaseService);
-                    }
+                    // // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
+                    // using (var validationCodeService = new ValidationCodeService())
+                    // {
+                    //     var validationCodes = await ValidationCodeHandler.ProcessValidationCodes(
+                    //         validationCodeService,
+                    //         supabaseService);
+                    // }
 
-                    // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
-                    using (var contactRoleService = new ContactRoleService())
-                    {
-                        var contactRoles = await ContactRoleHandler.ProcessContactRoles(
-                            contactRoleService,
-                            supabaseService);
-                    }
+                    // // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
+                    // using (var contactRoleService = new ContactRoleService())
+                    // {
+                    //     var contactRoles = await ContactRoleHandler.ProcessContactRoles(
+                    //         contactRoleService,
+                    //         supabaseService);
+                    // }
 
-                    // 6. Process ALL Address States (fetch, display, and save to Supabase)
-                    using (var addressStateService = new AddressStateService())
-                    {
-                        var addressStates = await AddressStateHandler.ProcessAddressStates(
-                            addressStateService,
-                            supabaseService);
-                    }
+                    // // 6. Process ALL Address States (fetch, display, and save to Supabase)
+                    // using (var addressStateService = new AddressStateService())
+                    // {
+                    //     var addressStates = await AddressStateHandler.ProcessAddressStates(
+                    //         addressStateService,
+                    //         supabaseService);
+                    // }
 
-                    // 7. Process Recognition Manager Assignments (via GetDetails)
+                    // // 7. Process Recognition Manager Assignments (via GetDetails)
+                    // using (var summaryService = new TrainingComponentSummaryService())
+                    // using (var assignmentService = new RecognitionManagerAssignmentService())
+                    // {
+                    //     var recognitionManagerAssignments = await RecognitionManagerAssignmentHandler.ProcessRecognitionManagerAssignments(
+                    //         summaryService,
+                    //         assignmentService,
+                    //         supabaseService,
+                    //         startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    //         endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    //         maxResults: 0); // 0 = fetch all via pagination
+                    // }
+
+                    // 8. Process Data Manager Assignments (via GetDetails)
                     using (var summaryService = new TrainingComponentSummaryService())
-                    using (var assignmentService = new RecognitionManagerAssignmentService())
+                    using (var assignmentService = new DataManagerAssignmentService())
                     {
-                        var recognitionManagerAssignments = await RecognitionManagerAssignmentHandler.ProcessRecognitionManagerAssignments(
+                        var dataManagerAssignments = await DataManagerAssignmentHandler.ProcessDataManagerAssignments(
                             summaryService,
                             assignmentService,
                             supabaseService,
@@ -84,16 +97,16 @@ namespace TgaGateway2
                             maxResults: 0); // 0 = fetch all via pagination
                     }
 
-                    // 8. Process Training Component Summaries (fetch and save to Supabase)
-                    using (var summaryService = new TrainingComponentSummaryService())
-                    {
-                        var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
-                            summaryService,
-                            supabaseService,
-                            startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                            endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                            maxResults: 0); // 0 = fetch all via pagination
-                    }
+                    // // 9. Process Training Component Summaries (fetch and save to Supabase)
+                    // using (var summaryService = new TrainingComponentSummaryService())
+                    // {
+                    //     var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
+                    //         summaryService,
+                    //         supabaseService,
+                    //         startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    //         endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    //         maxResults: 0); // 0 = fetch all via pagination
+                    // }
                 }
             }
             catch (Exception ex)
