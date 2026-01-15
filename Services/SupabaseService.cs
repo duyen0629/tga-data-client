@@ -177,17 +177,14 @@ namespace TgaGateway2.Services
                             jsonValue = value.ToString() ?? string.Empty;
                         }
 
-                        // Only add field if it's not null (or if it's explicitly null for nullable types)
-                        if (jsonValue != "null" || prop.PropertyType.IsGenericType && prop.PropertyType.GetGenericTypeDefinition() == typeof(Nullable<>))
+                        // Always add the field to keep object keys consistent across records
+                        if (jsonValue == "null")
                         {
-                            if (jsonValue == "null")
-                            {
-                                jsonFields.Add($"\"{dbFieldName}\":null");
-                            }
-                            else
-                            {
-                                jsonFields.Add($"\"{dbFieldName}\":\"{EscapeJson(jsonValue)}\"");
-                            }
+                            jsonFields.Add($"\"{dbFieldName}\":null");
+                        }
+                        else
+                        {
+                            jsonFields.Add($"\"{dbFieldName}\":\"{EscapeJson(jsonValue)}\"");
                         }
                     }
                     catch (Exception ex)

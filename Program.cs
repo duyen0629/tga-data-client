@@ -39,7 +39,15 @@ namespace TgaGateway2
                             supabaseService);
                     }
 
-                    // 3. Process Training Component Summaries (fetch and save to Supabase)
+                    // 3. Process ALL Data Managers (fetch, display, and save to Supabase)
+                    using (var dataManagerService = new DataManagerService())
+                    {
+                        var dataManagers = await DataManagerHandler.ProcessDataManagers(
+                            dataManagerService,
+                            supabaseService);
+                    }
+
+                    // 4. Process Training Component Summaries (fetch and save to Supabase)
                     using (var summaryService = new TrainingComponentSummaryService())
                     {
                         var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
