@@ -49,7 +49,8 @@ namespace TgaGateway2.Handlers.TrainingComponentService
                     },
                     startDate,
                     endDate,
-                    maxResults);
+                    maxResults,
+                    pageSize: 500);
 
                 if (totalProcessed == 0)
                 {

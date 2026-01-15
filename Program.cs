@@ -71,7 +71,20 @@ namespace TgaGateway2
                             supabaseService);
                     }
 
-                    // 7. Process Training Component Summaries (fetch and save to Supabase)
+                    // 7. Process Recognition Manager Assignments (via GetDetails)
+                    using (var summaryService = new TrainingComponentSummaryService())
+                    using (var assignmentService = new RecognitionManagerAssignmentService())
+                    {
+                        var recognitionManagerAssignments = await RecognitionManagerAssignmentHandler.ProcessRecognitionManagerAssignments(
+                            summaryService,
+                            assignmentService,
+                            supabaseService,
+                            startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                            endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                            maxResults: 0); // 0 = fetch all via pagination
+                    }
+
+                    // 8. Process Training Component Summaries (fetch and save to Supabase)
                     using (var summaryService = new TrainingComponentSummaryService())
                     {
                         var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
