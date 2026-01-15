@@ -63,7 +63,15 @@ namespace TgaGateway2
                             supabaseService);
                     }
 
-                    // 6. Process Training Component Summaries (fetch and save to Supabase)
+                    // 6. Process ALL Address States (fetch, display, and save to Supabase)
+                    using (var addressStateService = new AddressStateService())
+                    {
+                        var addressStates = await AddressStateHandler.ProcessAddressStates(
+                            addressStateService,
+                            supabaseService);
+                    }
+
+                    // 7. Process Training Component Summaries (fetch and save to Supabase)
                     using (var summaryService = new TrainingComponentSummaryService())
                     {
                         var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(

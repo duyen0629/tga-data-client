@@ -48,6 +48,7 @@
     <Reference Include="System.Web.Extensions" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Handlers\TrainingComponentService\AddressStateHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ContactRoleHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\DataManagerHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\RecognitionManagerHandler.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Handlers\TrainingComponentService\ValidationCodeHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AddressStateService.cs" />
     <Compile Include="Services\ContactRoleService.cs" />
     <Compile Include="Services\DataManagerService.cs" />
     <Compile Include="Services\RecognitionManagerService.cs" />
@@ -66,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="scripts\training-component-service\address_states_table.sql" />
     <None Include="scripts\training-component-service\contact_roles_table.sql" />
     <None Include="scripts\training-component-service\data_managers_table.sql" />
     <None Include="scripts\training-component-service\training_component_summaries_table.sql" />
