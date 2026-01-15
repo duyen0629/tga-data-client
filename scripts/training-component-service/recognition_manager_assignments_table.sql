@@ -1,12 +1,9 @@
--- Non-destructive update for existing table (keeps data)
--- end_date must be nullable, so it cannot be part of the primary key
+-- One training component can have multiple recognition managers
 ALTER TABLE IF EXISTS recognition_manager_assignments
     DROP CONSTRAINT IF EXISTS recognition_manager_assignments_pkey;
 
--- Full rebuild (drops data) - uncomment if you want a clean recreate
 DROP TABLE IF EXISTS recognition_manager_assignments CASCADE;
 
--- Create recognition_manager_assignments table
 CREATE TABLE IF NOT EXISTS recognition_manager_assignments (
     training_component_code TEXT NOT NULL,
     recognition_manager_code TEXT NOT NULL,
@@ -48,11 +45,9 @@ BEGIN
     END IF;
 END $$;
 
--- Create indexes for faster lookups
 CREATE INDEX IF NOT EXISTS idx_rec_mgr_assignments_component_code ON recognition_manager_assignments(training_component_code);
 CREATE INDEX IF NOT EXISTS idx_rec_mgr_assignments_manager_code ON recognition_manager_assignments(recognition_manager_code);
 
--- Create or replace function to automatically update fetched_updated_at timestamp
 CREATE OR REPLACE FUNCTION update_updated_at_column()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -61,13 +56,9 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Create trigger to automatically update fetched_updated_at on row updates
 DROP TRIGGER IF EXISTS update_recognition_manager_assignments_updated_at ON recognition_manager_assignments;
 CREATE TRIGGER update_recognition_manager_assignments_updated_at
     BEFORE UPDATE ON recognition_manager_assignments
     FOR EACH ROW
     EXECUTE FUNCTION update_updated_at_column();
 
--- Grant necessary permissions (adjust as needed for your Supabase setup)
--- GRANT SELECT, INSERT, UPDATE ON recognition_manager_assignments TO authenticated;
--- GRANT SELECT ON recognition_manager_assignments TO anon;
