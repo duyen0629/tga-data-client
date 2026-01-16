@@ -66,6 +66,7 @@
     <Compile Include="Handlers\TrainingComponentService\AddressStateHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ClassificationHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ContactHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\MappingHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ContactRoleHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\DataManagerAssignmentHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\DataManagerHandler.cs" />
@@ -80,10 +81,12 @@
     <Compile Include="Models\ClassificationRecord.cs" />
     <Compile Include="Models\RecognitionManagerAssignmentRecord.cs" />
     <Compile Include="Models\ContactRecord.cs" />
+    <Compile Include="Models\MappingRecord.cs" />
     <Compile Include="Models\ReleaseRecord.cs" />
     <Compile Include="Services\AddressStateService.cs" />
     <Compile Include="Services\ClassificationService.cs" />
     <Compile Include="Services\ContactService.cs" />
+    <Compile Include="Services\MappingService.cs" />
     <Compile Include="Services\ContactRoleService.cs" />
     <Compile Include="Services\DataManagerAssignmentService.cs" />
     <Compile Include="Services\DataManagerService.cs" />
@@ -101,6 +104,7 @@
     <None Include="scripts\training-component-service\address_states_table.sql" />
     <None Include="scripts\training-component-service\classifications_table.sql" />
     <None Include="scripts\training-component-service\contacts_table.sql" />
+    <None Include="scripts\training-component-service\mappings_table.sql" />
     <None Include="scripts\training-component-service\contact_roles_table.sql" />
     <None Include="scripts\training-component-service\data_manager_assignments_table.sql" />
     <None Include="scripts\training-component-service\data_managers_table.sql" />
