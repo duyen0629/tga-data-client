@@ -100,7 +100,10 @@ namespace TgaGateway2
                 // 10. Process Contacts (via GetDetails)
                 await ProcessContacts(supabaseService);
 
-                // 11. Process Training Component Summaries (fetch and save to Supabase)
+                // 11. Process Classifications (via GetDetails)
+                await ProcessClassifications(supabaseService);
+
+                // 12. Process Training Component Summaries (fetch and save to Supabase)
                 await ProcessTrainingComponentSummaries(supabaseService);
             }
         }
@@ -208,6 +211,21 @@ namespace TgaGateway2
                 var contacts = await ContactHandler.ProcessContacts(
                     summaryService,
                     contactService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessClassifications(SupabaseService supabaseService)
+        {
+            using (var summaryService = new TrainingComponentSummaryService())
+            using (var classificationService = new ClassificationService())
+            {
+                var classifications = await ClassificationHandler.ProcessClassifications(
+                    summaryService,
+                    classificationService,
                     supabaseService,
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
