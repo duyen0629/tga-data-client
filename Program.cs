@@ -66,21 +66,11 @@ namespace TgaGateway2
             using (var tgaService = new TgaDataService())
             using (var supabaseService = new SupabaseService())
             {
-                Console.WriteLine("=== Training Component Service Demo ===\n");
+                Console.WriteLine("=== Training Component Service Getting Data ===\n");
 
                 // 1. Get Server Time
                 var serverTime = tgaService.GetServerTime();
                 Console.WriteLine($"Server time: {serverTime}\n");
-
-                // Quick release diagnostics (one-off test codes)
-                TestReleaseCodes(new[]
-                {
-                    "PSP42108",
-                    "RII31815",
-                    "DEF40317",
-                    "PMB07",
-                    "PMA08"
-                });
 
                 // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
                 await ProcessRecognitionManagers(supabaseService);
@@ -103,10 +93,14 @@ namespace TgaGateway2
                 // 8. Process Data Manager Assignments (via GetDetails)
                 await ProcessDataManagerAssignments(supabaseService);
 
-                // 9. Process Releases (via GetDetails) // Commented out as there is no data for releases in the database
+                // Commented out as there is no data for releases in the database
+                // 9. Process Releases (via GetDetails) 
                 // await ProcessReleases(supabaseService);
 
-                // 10. Process Training Component Summaries (fetch and save to Supabase)
+                // 10. Process Contacts (via GetDetails)
+                await ProcessContacts(supabaseService);
+
+                // 11. Process Training Component Summaries (fetch and save to Supabase)
                 await ProcessTrainingComponentSummaries(supabaseService);
             }
         }
@@ -119,20 +113,6 @@ namespace TgaGateway2
                     recognitionManagerService,
                     supabaseService);
             }
-        }
-
-        private static void TestReleaseCodes(IEnumerable<string> codes)
-        {
-            Console.WriteLine("=== Release Diagnostics (GetDetails) ===");
-            using (var releaseService = new ReleaseService())
-            {
-                foreach (var code in codes)
-                {
-                    var releases = releaseService.GetReleases(code);
-                    Console.WriteLine($"  {code} -> releases: {releases.Length}");
-                }
-            }
-            Console.WriteLine();
         }
 
         private static async Task ProcessDataManagers(SupabaseService supabaseService)
@@ -213,6 +193,21 @@ namespace TgaGateway2
                 var releases = await ReleaseHandler.ProcessReleases(
                     summaryService,
                     releaseService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessContacts(SupabaseService supabaseService)
+        {
+            using (var summaryService = new TrainingComponentSummaryService())
+            using (var contactService = new ContactService())
+            {
+                var contacts = await ContactHandler.ProcessContacts(
+                    summaryService,
+                    contactService,
                     supabaseService,
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
