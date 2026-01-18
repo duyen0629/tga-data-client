@@ -106,7 +106,10 @@ namespace TgaGateway2
                 // 12. Process Mapping Information (via GetDetails)
                 await ProcessMappings(supabaseService);
 
-                // 13. Process Training Component Summaries (fetch and save to Supabase)
+                // 13. Process Currency Periods (via GetDetails)
+                await ProcessCurrencyPeriods(supabaseService);
+
+                // 14. Process Training Component Summaries (fetch and save to Supabase)
                 await ProcessTrainingComponentSummaries(supabaseService);
             }
         }
@@ -244,6 +247,21 @@ namespace TgaGateway2
                 var mappings = await MappingHandler.ProcessMappings(
                     summaryService,
                     mappingService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessCurrencyPeriods(SupabaseService supabaseService)
+        {
+            using (var summaryService = new TrainingComponentSummaryService())
+            using (var currencyPeriodService = new CurrencyPeriodService())
+            {
+                var currencyPeriods = await CurrencyPeriodHandler.ProcessCurrencyPeriods(
+                    summaryService,
+                    currencyPeriodService,
                     supabaseService,
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
