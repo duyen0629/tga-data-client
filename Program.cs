@@ -109,8 +109,11 @@ namespace TgaGateway2
                 // 13. Process Currency Periods (via GetDetails)
                 await ProcessCurrencyPeriods(supabaseService);
 
-                // 14. Process Training Component Summaries (fetch and save to Supabase)
-                await ProcessTrainingComponentSummaries(supabaseService);
+                // 14. Process Usage Recommendations (via GetDetails)
+                await ProcessUsageRecommendations(supabaseService);
+
+                // 15. Process Training Component Summaries (fetch and save to Supabase)
+                // await ProcessTrainingComponentSummaries(supabaseService);
             }
         }
 
@@ -262,6 +265,21 @@ namespace TgaGateway2
                 var currencyPeriods = await CurrencyPeriodHandler.ProcessCurrencyPeriods(
                     summaryService,
                     currencyPeriodService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessUsageRecommendations(SupabaseService supabaseService)
+        {
+            using (var summaryService = new TrainingComponentSummaryService())
+            using (var usageRecommendationService = new UsageRecommendationService())
+            {
+                var usageRecommendations = await UsageRecommendationHandler.ProcessUsageRecommendations(
+                    summaryService,
+                    usageRecommendationService,
                     supabaseService,
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
