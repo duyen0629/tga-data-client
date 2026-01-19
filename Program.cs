@@ -105,25 +105,28 @@ namespace TgaGateway2
                 // 11. Process Release Components (via GetDetails)
                 // await ProcessReleaseComponents(supabaseService);
 
-                // 12. Process Contacts (via GetDetails)
+                // 12. Process Unit Grid Entries (via GetDetails), UnitGridEntries live inside Release.UnitGrid
+                await ProcessUnitGridEntries(supabaseService);
+
+                // 13. Process Contacts (via GetDetails)
                 await ProcessContacts(supabaseService);
 
-                // 13. Process Classifications (via GetDetails)
+                // 14. Process Classifications (via GetDetails)
                 await ProcessClassifications(supabaseService);
 
-                // 14. Process Mapping Information (via GetDetails)
+                // 15. Process Mapping Information (via GetDetails)
                 await ProcessMappings(supabaseService);
 
-                // 15. Process Currency Periods (via GetDetails)
+                // 16. Process Currency Periods (via GetDetails)
                 await ProcessCurrencyPeriods(supabaseService);
 
-                // 16. Process Usage Recommendations (via GetDetails)
+                // 17. Process Usage Recommendations (via GetDetails)
                 await ProcessUsageRecommendations(supabaseService);
 
-                // 17. Process Completion Mappings (via GetDetails)
+                // 18. Process Completion Mappings (via GetDetails)
                 await ProcessCompletionMappings(supabaseService);
 
-                // 18. Process Training Component Summaries (fetch and save to Supabase)
+                // 19. Process Training Component Summaries (fetch and save to Supabase)
                 await ProcessTrainingComponentSummaries(supabaseService);
             }
         }
@@ -334,6 +337,21 @@ namespace TgaGateway2
             using (var releaseService = new ReleaseService())
             {
                 var releaseComponents = await ReleaseComponentHandler.ProcessReleaseComponents(
+                    summaryService,
+                    releaseService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessUnitGridEntries(SupabaseService supabaseService)
+        {
+            using (var summaryService = new TrainingComponentSummaryService())
+            using (var releaseService = new ReleaseService())
+            {
+                var unitGridEntries = await TgaGateway2.Handlers.TrainingComponentService.UnitGridEntryHandler.ProcessUnitGridEntries(
                     summaryService,
                     releaseService,
                     supabaseService,
