@@ -105,8 +105,9 @@ namespace TgaGateway2
                 // 11. Process Release Components (via GetDetails)
                 // await ProcessReleaseComponents(supabaseService);
 
+                // Commented out as there is no data for release_files in the database
                 // 12. Process Unit Grid Entries (via GetDetails), UnitGridEntries live inside Release.UnitGrid
-                await ProcessUnitGridEntries(supabaseService);
+                // await ProcessUnitGridEntries(supabaseService);
 
                 // 13. Process Contacts (via GetDetails)
                 await ProcessContacts(supabaseService);
