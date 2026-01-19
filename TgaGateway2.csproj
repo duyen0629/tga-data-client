@@ -68,6 +68,7 @@
     <Compile Include="Handlers\TrainingComponentService\ContactHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\CurrencyPeriodHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\CompletionMappingHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\ReleaseComponentHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ReleaseFileHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\UsageRecommendationHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\MappingHandler.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Models\ContactRecord.cs" />
     <Compile Include="Models\CurrencyPeriodRecord.cs" />
     <Compile Include="Models\CompletionMappingRecord.cs" />
+    <Compile Include="Models\ReleaseComponentRecord.cs" />
     <Compile Include="Models\ReleaseFileRecord.cs" />
     <Compile Include="Models\UsageRecommendationRecord.cs" />
     <Compile Include="Models\MappingRecord.cs" />
@@ -117,6 +119,7 @@
     <None Include="scripts\training-component-service\contacts_table.sql" />
     <None Include="scripts\training-component-service\currency_periods_table.sql" />
     <None Include="scripts\training-component-service\completion_mappings_table.sql" />
+    <None Include="scripts\training-component-service\release_components_table.sql" />
     <None Include="scripts\training-component-service\release_files_table.sql" />
     <None Include="scripts\training-component-service\usage_recommendations_table.sql" />
     <None Include="scripts\training-component-service\mappings_table.sql" />
