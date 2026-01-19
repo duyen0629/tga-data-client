@@ -129,6 +129,9 @@ namespace TgaGateway2
 
                 // 19. Process Training Component Summaries (fetch and save to Supabase)
                 await ProcessTrainingComponentSummaries(supabaseService);
+
+                // 20. Process Deleted Training Components (via SearchDeletedByDeletedDate)
+                await ProcessDeletedTrainingComponents(supabaseService);
             }
         }
 
@@ -372,6 +375,20 @@ namespace TgaGateway2
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
                     maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessDeletedTrainingComponents(SupabaseService supabaseService)
+        {
+            using (var deletedService = new DeletedTrainingComponentService())
+            {
+                var deletedTrainingComponents = await DeletedTrainingComponentHandler.ProcessDeletedTrainingComponents(
+                    deletedService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0,                        // 0 = fetch all via pagination
+                    pageSize: 500);
             }
         }
 
