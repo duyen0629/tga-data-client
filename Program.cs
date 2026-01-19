@@ -97,25 +97,29 @@ namespace TgaGateway2
                 // 9. Process Releases (via GetDetails) 
                 // await ProcessReleases(supabaseService);
 
-                // 10. Process Contacts (via GetDetails)
+                // Commented out as there is no data for release_files in the database
+                // 10. Process Release Files (via GetDetails)
+                // await ProcessReleaseFiles(supabaseService);
+
+                // 11. Process Contacts (via GetDetails)
                 await ProcessContacts(supabaseService);
 
-                // 11. Process Classifications (via GetDetails)
+                // 12. Process Classifications (via GetDetails)
                 await ProcessClassifications(supabaseService);
 
-                // 12. Process Mapping Information (via GetDetails)
+                // 13. Process Mapping Information (via GetDetails)
                 await ProcessMappings(supabaseService);
 
-                // 13. Process Currency Periods (via GetDetails)
+                // 14. Process Currency Periods (via GetDetails)
                 await ProcessCurrencyPeriods(supabaseService);
 
-                // 14. Process Usage Recommendations (via GetDetails)
+                // 15. Process Usage Recommendations (via GetDetails)
                 await ProcessUsageRecommendations(supabaseService);
 
-                // 15. Process Completion Mappings (via GetDetails)
+                // 16. Process Completion Mappings (via GetDetails)
                 await ProcessCompletionMappings(supabaseService);
 
-                // 16. Process Training Component Summaries (fetch and save to Supabase)
+                // 17. Process Training Component Summaries (fetch and save to Supabase)
                 await ProcessTrainingComponentSummaries(supabaseService);
             }
         }
@@ -298,6 +302,21 @@ namespace TgaGateway2
                 var completionMappings = await CompletionMappingHandler.ProcessCompletionMappings(
                     summaryService,
                     completionMappingService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessReleaseFiles(SupabaseService supabaseService)
+        {
+            using (var summaryService = new TrainingComponentSummaryService())
+            using (var releaseService = new ReleaseService())
+            {
+                var releaseFiles = await ReleaseFileHandler.ProcessReleaseFiles(
+                    summaryService,
+                    releaseService,
                     supabaseService,
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
