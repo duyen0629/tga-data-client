@@ -112,8 +112,11 @@ namespace TgaGateway2
                 // 14. Process Usage Recommendations (via GetDetails)
                 await ProcessUsageRecommendations(supabaseService);
 
-                // 15. Process Training Component Summaries (fetch and save to Supabase)
-                // await ProcessTrainingComponentSummaries(supabaseService);
+                // 15. Process Completion Mappings (via GetDetails)
+                await ProcessCompletionMappings(supabaseService);
+
+                // 16. Process Training Component Summaries (fetch and save to Supabase)
+                await ProcessTrainingComponentSummaries(supabaseService);
             }
         }
 
@@ -280,6 +283,21 @@ namespace TgaGateway2
                 var usageRecommendations = await UsageRecommendationHandler.ProcessUsageRecommendations(
                     summaryService,
                     usageRecommendationService,
+                    supabaseService,
+                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
+                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task ProcessCompletionMappings(SupabaseService supabaseService)
+        {
+            using (var summaryService = new TrainingComponentSummaryService())
+            using (var completionMappingService = new CompletionMappingService())
+            {
+                var completionMappings = await CompletionMappingHandler.ProcessCompletionMappings(
+                    summaryService,
+                    completionMappingService,
                     supabaseService,
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026

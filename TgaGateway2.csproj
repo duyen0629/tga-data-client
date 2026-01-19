@@ -67,6 +67,7 @@
     <Compile Include="Handlers\TrainingComponentService\ClassificationHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ContactHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\CurrencyPeriodHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\CompletionMappingHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\UsageRecommendationHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\MappingHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ContactRoleHandler.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Models\RecognitionManagerAssignmentRecord.cs" />
     <Compile Include="Models\ContactRecord.cs" />
     <Compile Include="Models\CurrencyPeriodRecord.cs" />
+    <Compile Include="Models\CompletionMappingRecord.cs" />
     <Compile Include="Models\UsageRecommendationRecord.cs" />
     <Compile Include="Models\MappingRecord.cs" />
     <Compile Include="Models\ReleaseRecord.cs" />
@@ -91,6 +93,7 @@
     <Compile Include="Services\ClassificationService.cs" />
     <Compile Include="Services\ContactService.cs" />
     <Compile Include="Services\CurrencyPeriodService.cs" />
+    <Compile Include="Services\CompletionMappingService.cs" />
     <Compile Include="Services\UsageRecommendationService.cs" />
     <Compile Include="Services\MappingService.cs" />
     <Compile Include="Services\ContactRoleService.cs" />
@@ -111,6 +114,7 @@
     <None Include="scripts\training-component-service\classifications_table.sql" />
     <None Include="scripts\training-component-service\contacts_table.sql" />
     <None Include="scripts\training-component-service\currency_periods_table.sql" />
+    <None Include="scripts\training-component-service\completion_mappings_table.sql" />
     <None Include="scripts\training-component-service\usage_recommendations_table.sql" />
     <None Include="scripts\training-component-service\mappings_table.sql" />
     <None Include="scripts\training-component-service\contact_roles_table.sql" />
