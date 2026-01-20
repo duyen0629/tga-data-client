@@ -87,6 +87,9 @@ namespace TgaGateway2
                 // 4.2 Process ALL Classification Purposes (fetch, display, and save to Supabase)
                 await ProcessClassificationPurposes(supabaseService);
 
+                // 4.3 Process ALL Lookups (fetch, display, and save to Supabase)
+                await ProcessLookups(supabaseService);
+
                 // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
                 await ProcessContactRoles(supabaseService);
 
@@ -187,6 +190,16 @@ namespace TgaGateway2
             {
                 var purposes = await ClassificationPurposeHandler.ProcessClassificationPurposes(
                     purposeService,
+                    supabaseService);
+            }
+        }
+
+        private static async Task ProcessLookups(SupabaseService supabaseService)
+        {
+            using (var lookupService = new LookupService())
+            {
+                var lookups = await LookupHandler.ProcessLookups(
+                    lookupService,
                     supabaseService);
             }
         }

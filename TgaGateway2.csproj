@@ -67,6 +67,7 @@
     <Compile Include="Handlers\TrainingComponentService\ClassificationHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ClassificationPurposeHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ClassificationSchemeHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\LookupHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ContactHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\CurrencyPeriodHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\CompletionMappingHandler.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Models\ClassificationPurposeRecord.cs" />
     <Compile Include="Models\ClassificationSchemeRecord.cs" />
     <Compile Include="Models\ClassificationSchemeValueRecord.cs" />
+    <Compile Include="Models\LookupRecord.cs" />
     <Compile Include="Models\RecognitionManagerAssignmentRecord.cs" />
     <Compile Include="Models\ContactRecord.cs" />
     <Compile Include="Models\CurrencyPeriodRecord.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Services\ClassificationService.cs" />
     <Compile Include="Services\ClassificationPurposeService.cs" />
     <Compile Include="Services\ClassificationSchemeService.cs" />
+    <Compile Include="Services\LookupService.cs" />
     <Compile Include="Services\ContactService.cs" />
     <Compile Include="Services\CurrencyPeriodService.cs" />
     <Compile Include="Services\CompletionMappingService.cs" />
@@ -130,6 +133,7 @@
     <None Include="scripts\training-component-service\classification_purposes_table.sql" />
     <None Include="scripts\training-component-service\classification_schemes_table.sql" />
     <None Include="scripts\training-component-service\classification_scheme_values_table.sql" />
+    <None Include="scripts\training-component-service\lookups_table.sql" />
     <None Include="scripts\training-component-service\contacts_table.sql" />
     <None Include="scripts\training-component-service\currency_periods_table.sql" />
     <None Include="scripts\training-component-service\completion_mappings_table.sql" />
