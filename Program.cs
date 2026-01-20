@@ -69,8 +69,11 @@ namespace TgaGateway2
                 //-----------Training Component Service -----------
                 // await RunTrainingComponentServiceProcesses(tgaService, supabaseService);
 
+                //-----------Organisation Service -----------
+                await RunOrganisationServiceProcesses(supabaseService);
+
                 //-----------Classification Service -----------
-                await RunClassificationServiceProcesses(supabaseService);
+                // await RunClassificationServiceProcesses(supabaseService);
             }
         }
 
