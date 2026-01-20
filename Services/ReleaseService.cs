@@ -44,7 +44,10 @@ namespace TgaGateway2.Services
                 Code = trainingComponentCode,
                 InformationRequest = new TrainingComponentInformationRequested
                 {
-                    ShowReleases = true
+                    ShowReleases = true,
+                    ShowUnitGrid = true,
+                    ShowComponents = true,
+                    ShowFiles = true
                 }
             };
 
