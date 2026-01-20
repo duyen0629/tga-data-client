@@ -112,7 +112,7 @@ namespace TgaGateway2.Handlers.TrainingComponentService
             }
         }
 
-        private static string BuildClassificationKey(string trainingComponentCode, Classification classification)
+        private static string BuildClassificationKey(string trainingComponentCode, training.gov.au.services.Classification classification)
         {
             var raw = string.Join("|", new[]
             {

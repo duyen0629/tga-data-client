@@ -8,7 +8,7 @@ using TgaGateway2.Services;
 
 namespace TgaGateway2
 {
-    internal class Program
+    internal partial class Program
     {
         static async Task Main(string[] args)
         {
@@ -66,369 +66,103 @@ namespace TgaGateway2
             using (var tgaService = new TgaDataService())
             using (var supabaseService = new SupabaseService())
             {
-                Console.WriteLine("=== Training Component Service Getting Data ===\n");
+                //-----------Training Component Service -----------
+                // await RunTrainingComponentServiceProcesses(tgaService, supabaseService);
 
-                // 1. Get Server Time
-                var serverTime = tgaService.GetServerTime();
-                Console.WriteLine($"Server time: {serverTime}\n");
-
-                // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
-                await ProcessRecognitionManagers(supabaseService);
-
-                // 3. Process ALL Data Managers (fetch, display, and save to Supabase)
-                await ProcessDataManagers(supabaseService);
-
-                // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
-                await ProcessValidationCodes(supabaseService);
-
-                // 4.1 Process ALL Classification Schemes (fetch, display, and save to Supabase)
-                await ProcessClassificationSchemes(supabaseService);
-
-                // 4.2 Process ALL Classification Purposes (fetch, display, and save to Supabase)
-                await ProcessClassificationPurposes(supabaseService);
-
-                // 4.3 Process ALL Lookups (fetch, display, and save to Supabase)
-                await ProcessLookups(supabaseService);
-
-                // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
-                await ProcessContactRoles(supabaseService);
-
-                // 6. Process ALL Address States (fetch, display, and save to Supabase)
-                await ProcessAddressStates(supabaseService);
-
-                // 7. Process Recognition Manager Assignments (via GetDetails)
-                await ProcessRecognitionManagerAssignments(supabaseService);
-
-                // 8. Process Data Manager Assignments (via GetDetails)
-                await ProcessDataManagerAssignments(supabaseService);
-
-                // Commented out as there is no data for releases in the database
-                // 9. Process Releases (via GetDetails) 
-                // await ProcessReleases(supabaseService);
-
-                // Commented out as there is no data for release_files in the database
-                // 10. Process Release Files (via GetDetails)
-                // await ProcessReleaseFiles(supabaseService);
-
-                // Commented out as there is no data for release_files in the database
-                // 11. Process Release Components (via GetDetails)
-                // await ProcessReleaseComponents(supabaseService);
-
-                // Commented out as there is no data for release_files in the database
-                // 12. Process Unit Grid Entries (via GetDetails), UnitGridEntries live inside Release.UnitGrid
-                // await ProcessUnitGridEntries(supabaseService);
-
-                // 13. Process Contacts (via GetDetails)
-                await ProcessContacts(supabaseService);
-
-                // 14. Process Classifications (via GetDetails)
-                await ProcessClassifications(supabaseService);
-
-                // 15. Process Mapping Information (via GetDetails)
-                await ProcessMappings(supabaseService);
-
-                // 16. Process Currency Periods (via GetDetails)
-                await ProcessCurrencyPeriods(supabaseService);
-
-                // 17. Process Usage Recommendations (via GetDetails)
-                await ProcessUsageRecommendations(supabaseService);
-
-                // 18. Process Completion Mappings (via GetDetails)
-                await ProcessCompletionMappings(supabaseService);
-
-                // 19. Process Training Component Summaries (fetch and save to Supabase)
-                await ProcessTrainingComponentSummaries(supabaseService);
-
-                // 20. Process Deleted Training Components (via SearchDeletedByDeletedDate)
-                await ProcessDeletedTrainingComponents(supabaseService);
+                //-----------Classification Service -----------
+                await RunClassificationServiceProcesses(supabaseService);
             }
         }
 
-        private static async Task ProcessRecognitionManagers(SupabaseService supabaseService)
+        private static async Task RunClassificationServiceProcesses(SupabaseService supabaseService)
         {
-            using (var recognitionManagerService = new RecognitionManagerService())
-            {
-                var recognitionManagers = await RecognitionManagerHandler.ProcessRecognitionManagers(
-                    recognitionManagerService,
-                    supabaseService);
-            }
+            Console.WriteLine("=== Classification Service Getting Data ===\n");
+
+            // 21. Process Classification Schemes (Classification Service)
+            await ProcessClassificationSchemesFromClassificationService(supabaseService);
         }
 
-        private static async Task ProcessDataManagers(SupabaseService supabaseService)
+        private static async Task RunTrainingComponentServiceProcesses(
+            TgaDataService tgaService,
+            SupabaseService supabaseService)
         {
-            using (var dataManagerService = new DataManagerService())
-            {
-                var dataManagers = await DataManagerHandler.ProcessDataManagers(
-                    dataManagerService,
-                    supabaseService);
-            }
-        }
 
-        private static async Task ProcessValidationCodes(SupabaseService supabaseService)
-        {
-            using (var validationCodeService = new ValidationCodeService())
-            {
-                var validationCodes = await ValidationCodeHandler.ProcessValidationCodes(
-                    validationCodeService,
-                    supabaseService);
-            }
-        }
+            Console.WriteLine("=== Training Component Service Getting Data ===\n");
 
-        private static async Task ProcessClassificationSchemes(SupabaseService supabaseService)
-        {
-            using (var schemeService = new ClassificationSchemeService())
-            {
-                var schemes = await ClassificationSchemeHandler.ProcessClassificationSchemes(
-                    schemeService,
-                    supabaseService);
-            }
-        }
+            // 1.Get Server Time
+            var serverTime = tgaService.GetServerTime();
+            Console.WriteLine($"Server time: {serverTime}\n");
 
-        private static async Task ProcessClassificationPurposes(SupabaseService supabaseService)
-        {
-            using (var purposeService = new ClassificationPurposeService())
-            {
-                var purposes = await ClassificationPurposeHandler.ProcessClassificationPurposes(
-                    purposeService,
-                    supabaseService);
-            }
-        }
+            // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
+            await ProcessRecognitionManagers(supabaseService);
 
-        private static async Task ProcessLookups(SupabaseService supabaseService)
-        {
-            using (var lookupService = new LookupService())
-            {
-                var lookups = await LookupHandler.ProcessLookups(
-                    lookupService,
-                    supabaseService);
-            }
-        }
+            // 3. Process ALL Data Managers (fetch, display, and save to Supabase)
+            await ProcessDataManagers(supabaseService);
 
-        private static async Task ProcessContactRoles(SupabaseService supabaseService)
-        {
-            using (var contactRoleService = new ContactRoleService())
-            {
-                var contactRoles = await ContactRoleHandler.ProcessContactRoles(
-                    contactRoleService,
-                    supabaseService);
-            }
-        }
+            // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
+            await ProcessValidationCodes(supabaseService);
 
-        private static async Task ProcessAddressStates(SupabaseService supabaseService)
-        {
-            using (var addressStateService = new AddressStateService())
-            {
-                var addressStates = await AddressStateHandler.ProcessAddressStates(
-                    addressStateService,
-                    supabaseService);
-            }
-        }
+            // 4.1 Process ALL Classification Schemes (fetch, display, and save to Supabase)
+            await ProcessClassificationSchemes(supabaseService);
 
-        private static async Task ProcessRecognitionManagerAssignments(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var assignmentService = new RecognitionManagerAssignmentService())
-            {
-                var recognitionManagerAssignments = await RecognitionManagerAssignmentHandler.ProcessRecognitionManagerAssignments(
-                    summaryService,
-                    assignmentService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 4.2 Process ALL Classification Purposes (fetch, display, and save to Supabase)
+            await ProcessClassificationPurposes(supabaseService);
 
-        private static async Task ProcessDataManagerAssignments(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var assignmentService = new DataManagerAssignmentService())
-            {
-                var dataManagerAssignments = await DataManagerAssignmentHandler.ProcessDataManagerAssignments(
-                    summaryService,
-                    assignmentService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 4.3 Process ALL Lookups (fetch, display, and save to Supabase)
+            await ProcessLookups(supabaseService);
 
-        private static async Task ProcessReleases(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var releaseService = new ReleaseService())
-            {
-                var releases = await ReleaseHandler.ProcessReleases(
-                    summaryService,
-                    releaseService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
+            await ProcessContactRoles(supabaseService);
 
-        private static async Task ProcessContacts(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var contactService = new ContactService())
-            {
-                var contacts = await ContactHandler.ProcessContacts(
-                    summaryService,
-                    contactService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 6. Process ALL Address States (fetch, display, and save to Supabase)
+            await ProcessAddressStates(supabaseService);
 
-        private static async Task ProcessClassifications(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var classificationService = new ClassificationService())
-            {
-                var classifications = await ClassificationHandler.ProcessClassifications(
-                    summaryService,
-                    classificationService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 7. Process Recognition Manager Assignments (via GetDetails)
+            await ProcessRecognitionManagerAssignments(supabaseService);
 
-        private static async Task ProcessMappings(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var mappingService = new MappingService())
-            {
-                var mappings = await MappingHandler.ProcessMappings(
-                    summaryService,
-                    mappingService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 8. Process Data Manager Assignments (via GetDetails)
+            await ProcessDataManagerAssignments(supabaseService);
 
-        private static async Task ProcessCurrencyPeriods(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var currencyPeriodService = new CurrencyPeriodService())
-            {
-                var currencyPeriods = await CurrencyPeriodHandler.ProcessCurrencyPeriods(
-                    summaryService,
-                    currencyPeriodService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // Commented out as there is no data for releases in the database
+            // 9.Process Releases(via GetDetails)
+            //await ProcessReleases(supabaseService);
 
-        private static async Task ProcessUsageRecommendations(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var usageRecommendationService = new UsageRecommendationService())
-            {
-                var usageRecommendations = await UsageRecommendationHandler.ProcessUsageRecommendations(
-                    summaryService,
-                    usageRecommendationService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // Commented out as there is no data for release_files in the database
+            // 10.Process Release Files(via GetDetails)
+            // await ProcessReleaseFiles(supabaseService);
 
-        private static async Task ProcessCompletionMappings(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var completionMappingService = new CompletionMappingService())
-            {
-                var completionMappings = await CompletionMappingHandler.ProcessCompletionMappings(
-                    summaryService,
-                    completionMappingService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // Commented out as there is no data for release_files in the database
+            // 11.Process Release Components(via GetDetails)
+            // await ProcessReleaseComponents(supabaseService);
 
-        private static async Task ProcessReleaseFiles(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var releaseService = new ReleaseService())
-            {
-                var releaseFiles = await ReleaseFileHandler.ProcessReleaseFiles(
-                    summaryService,
-                    releaseService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // Commented out as there is no data for release_files in the database
+            // 12.Process Unit Grid Entries(via GetDetails), UnitGridEntries live inside Release.UnitGrid
+            // await ProcessUnitGridEntries(supabaseService);
 
-        private static async Task ProcessReleaseComponents(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var releaseService = new ReleaseService())
-            {
-                var releaseComponents = await ReleaseComponentHandler.ProcessReleaseComponents(
-                    summaryService,
-                    releaseService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 13. Process Contacts (via GetDetails)
+            await ProcessContacts(supabaseService);
 
-        private static async Task ProcessUnitGridEntries(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            using (var releaseService = new ReleaseService())
-            {
-                var unitGridEntries = await TgaGateway2.Handlers.TrainingComponentService.UnitGridEntryHandler.ProcessUnitGridEntries(
-                    summaryService,
-                    releaseService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 14. Process Classifications (via GetDetails)
+            await ProcessClassifications(supabaseService);
 
-        private static async Task ProcessTrainingComponentSummaries(SupabaseService supabaseService)
-        {
-            using (var summaryService = new TrainingComponentSummaryService())
-            {
-                var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
-                    summaryService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0); // 0 = fetch all via pagination
-            }
-        }
+            // 15. Process Mapping Information (via GetDetails)
+            await ProcessMappings(supabaseService);
 
-        private static async Task ProcessDeletedTrainingComponents(SupabaseService supabaseService)
-        {
-            using (var deletedService = new DeletedTrainingComponentService())
-            {
-                var deletedTrainingComponents = await DeletedTrainingComponentHandler.ProcessDeletedTrainingComponents(
-                    deletedService,
-                    supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
-                    maxResults: 0,                        // 0 = fetch all via pagination
-                    pageSize: 500);
-            }
+            // 16. Process Currency Periods (via GetDetails)
+            await ProcessCurrencyPeriods(supabaseService);
+
+            // 17. Process Usage Recommendations (via GetDetails)
+            await ProcessUsageRecommendations(supabaseService);
+
+            // 18. Process Completion Mappings (via GetDetails)
+            await ProcessCompletionMappings(supabaseService);
+
+            // 19. Process Training Component Summaries (fetch and save to Supabase)
+            await ProcessTrainingComponentSummaries(supabaseService);
+
+            // Commented out as there is no data for release_files in the database
+            // 20. Process Deleted Training Components (via SearchDeletedByDeletedDate)
+            // await ProcessDeletedTrainingComponents(supabaseService);
         }
 
         private static string SaveLogToFile(string logContent, DateTime runStart)
