@@ -81,6 +81,9 @@ namespace TgaGateway2
                 // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
                 await ProcessValidationCodes(supabaseService);
 
+                // 4.1 Process ALL Classification Schemes (fetch, display, and save to Supabase)
+                await ProcessClassificationSchemes(supabaseService);
+
                 // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
                 await ProcessContactRoles(supabaseService);
 
@@ -161,6 +164,16 @@ namespace TgaGateway2
             {
                 var validationCodes = await ValidationCodeHandler.ProcessValidationCodes(
                     validationCodeService,
+                    supabaseService);
+            }
+        }
+
+        private static async Task ProcessClassificationSchemes(SupabaseService supabaseService)
+        {
+            using (var schemeService = new ClassificationSchemeService())
+            {
+                var schemes = await ClassificationSchemeHandler.ProcessClassificationSchemes(
+                    schemeService,
                     supabaseService);
             }
         }

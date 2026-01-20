@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Handlers\TrainingComponentService\AddressStateHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ClassificationHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentService\ClassificationSchemeHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ContactHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\CurrencyPeriodHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\CompletionMappingHandler.cs" />
@@ -86,6 +87,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\DataManagerAssignmentRecord.cs" />
     <Compile Include="Models\ClassificationRecord.cs" />
+    <Compile Include="Models\ClassificationSchemeRecord.cs" />
+    <Compile Include="Models\ClassificationSchemeValueRecord.cs" />
     <Compile Include="Models\RecognitionManagerAssignmentRecord.cs" />
     <Compile Include="Models\ContactRecord.cs" />
     <Compile Include="Models\CurrencyPeriodRecord.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Models\ReleaseRecord.cs" />
     <Compile Include="Services\AddressStateService.cs" />
     <Compile Include="Services\ClassificationService.cs" />
+    <Compile Include="Services\ClassificationSchemeService.cs" />
     <Compile Include="Services\ContactService.cs" />
     <Compile Include="Services\CurrencyPeriodService.cs" />
     <Compile Include="Services\CompletionMappingService.cs" />
@@ -120,6 +124,8 @@
     <None Include="App.config" />
     <None Include="scripts\training-component-service\address_states_table.sql" />
     <None Include="scripts\training-component-service\classifications_table.sql" />
+    <None Include="scripts\training-component-service\classification_schemes_table.sql" />
+    <None Include="scripts\training-component-service\classification_scheme_values_table.sql" />
     <None Include="scripts\training-component-service\contacts_table.sql" />
     <None Include="scripts\training-component-service\currency_periods_table.sql" />
     <None Include="scripts\training-component-service\completion_mappings_table.sql" />
