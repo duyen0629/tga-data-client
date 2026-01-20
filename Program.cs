@@ -84,6 +84,9 @@ namespace TgaGateway2
                 // 4.1 Process ALL Classification Schemes (fetch, display, and save to Supabase)
                 await ProcessClassificationSchemes(supabaseService);
 
+                // 4.2 Process ALL Classification Purposes (fetch, display, and save to Supabase)
+                await ProcessClassificationPurposes(supabaseService);
+
                 // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
                 await ProcessContactRoles(supabaseService);
 
@@ -174,6 +177,16 @@ namespace TgaGateway2
             {
                 var schemes = await ClassificationSchemeHandler.ProcessClassificationSchemes(
                     schemeService,
+                    supabaseService);
+            }
+        }
+
+        private static async Task ProcessClassificationPurposes(SupabaseService supabaseService)
+        {
+            using (var purposeService = new ClassificationPurposeService())
+            {
+                var purposes = await ClassificationPurposeHandler.ProcessClassificationPurposes(
+                    purposeService,
                     supabaseService);
             }
         }
