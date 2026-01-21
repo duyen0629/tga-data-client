@@ -33,6 +33,7 @@ namespace TgaGateway2.Handlers.TrainingComponentService
             var allReleaseFiles = new List<ReleaseFileRecord>();
             var saveStopwatch = Stopwatch.StartNew();
             var totalReleaseFilesSaved = 0;
+            const int supabaseBatchSize = 200;
 
             try
             {
@@ -70,7 +71,11 @@ namespace TgaGateway2.Handlers.TrainingComponentService
                         Console.WriteLine($"  Saving Page {pageNumber} (processed {pageResults.Length} components, {pageReleaseFiles.Count} release files) to Supabase...");
                         if (pageReleaseFiles.Count > 0)
                         {
-                            await supabaseService.SaveToSupabase(pageReleaseFiles.ToArray(), "release_files");
+                            for (int i = 0; i < pageReleaseFiles.Count; i += supabaseBatchSize)
+                            {
+                                var batch = pageReleaseFiles.Skip(i).Take(supabaseBatchSize).ToArray();
+                                await supabaseService.SaveToSupabase(batch, "release_files");
+                            }
                         }
                         totalReleaseFilesSaved += pageReleaseFiles.Count;
                         Console.WriteLine($"  ✓ Page {pageNumber} saved successfully! (Total components processed: {totalSoFar + pageResults.Length}, total release files saved: {totalReleaseFilesSaved})");

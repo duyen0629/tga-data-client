@@ -130,10 +130,10 @@ namespace TgaGateway2
             // await ProcessReleases(supabaseService);
 
             // 10.Process Release Files(via GetDetails)
-            // await ProcessReleaseFiles(supabaseService);
+            await ProcessReleaseFiles(supabaseService);
 
             // 11.Process Release Components(via GetDetails)
-            await ProcessReleaseComponents(supabaseService);
+            // await ProcessReleaseComponents(supabaseService);
 
             // // Commented out as there is no data for release_files in the database
             // // 12.Process Unit Grid Entries(via GetDetails), UnitGridEntries live inside Release.UnitGrid
