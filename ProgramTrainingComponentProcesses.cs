@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using TgaGateway2.Handlers.TrainingComponentDocuments;
 using TgaGateway2.Handlers.TrainingComponentService;
 using TgaGateway2.Services;
 
@@ -235,6 +236,23 @@ namespace TgaGateway2
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
+        }
+
+        private static async Task ProcessTrainingComponentDocumentForCode(SupabaseService supabaseService, string trainingComponentCode)
+        {
+            await TrainingComponentDocumentHandler.ProcessTrainingComponentDocumentForCode(
+                supabaseService,
+                trainingComponentCode);
+        }
+
+        private static async Task RunTrainingComponentDocumentProcess(SupabaseService supabaseService)
+        {
+            // await ProcessTrainingComponentDocumentForCode(supabaseService, "UETDRVC012");
+            // await ProcessTrainingComponentDocumentForCode(supabaseService, "WRWSL201A");
+            // await ProcessTrainingComponentDocumentForCode(supabaseService, "CPCCSI2005A");
+            await ProcessTrainingComponentDocumentForCode(supabaseService, "BSBITU111");
+            // await ProcessTrainingComponentDocumentForCode(supabaseService, "RIICOM201E");
+            // await TrainingComponentDocumentHandler.ProcessTrainingComponentDocumentsForAll(supabaseService, 200);
         }
 
         private static async Task ProcessReleaseComponents(SupabaseService supabaseService)

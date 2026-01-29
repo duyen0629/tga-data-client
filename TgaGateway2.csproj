@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -61,6 +61,42 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="Microsoft.Bcl.HashCode">
+      <HintPath>packages\Microsoft.Bcl.HashCode.6.0.0\lib\net462\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>packages\System.Buffers.4.6.0\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>packages\System.Memory.4.6.0\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>packages\System.Numerics.Vectors.4.6.0\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="UglyToad.PdfPig">
+      <HintPath>packages\PdfPig.0.1.13\lib\net462\UglyToad.PdfPig.dll</HintPath>
+    </Reference>
+    <Reference Include="UglyToad.PdfPig.Core">
+      <HintPath>packages\PdfPig.0.1.13\lib\net462\UglyToad.PdfPig.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UglyToad.PdfPig.DocumentLayoutAnalysis">
+      <HintPath>packages\PdfPig.0.1.13\lib\net462\UglyToad.PdfPig.DocumentLayoutAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="UglyToad.PdfPig.Fonts">
+      <HintPath>packages\PdfPig.0.1.13\lib\net462\UglyToad.PdfPig.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="UglyToad.PdfPig.Package">
+      <HintPath>packages\PdfPig.0.1.13\lib\net462\UglyToad.PdfPig.Package.dll</HintPath>
+    </Reference>
+    <Reference Include="UglyToad.PdfPig.Tokenization">
+      <HintPath>packages\PdfPig.0.1.13\lib\net462\UglyToad.PdfPig.Tokenization.dll</HintPath>
+    </Reference>
+    <Reference Include="UglyToad.PdfPig.Tokens">
+      <HintPath>packages\PdfPig.0.1.13\lib\net462\UglyToad.PdfPig.Tokens.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Handlers\TrainingComponentService\AddressStateHandler.cs" />
@@ -85,6 +121,7 @@
     <Compile Include="Handlers\TrainingComponentService\RecognitionManagerHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\TrainingComponentSummaryHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ValidationCodeHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\TrainingComponentDocumentHandler.cs" />
     <Compile Include="Handlers\Classification\ClassificationSchemeSearchHandler.cs" />
     <Compile Include="Handlers\Organization\OrganisationSummaryHandler.cs" />
     <Compile Include="Program.cs" />
@@ -104,6 +141,8 @@
     <Compile Include="Models\CompletionMappingRecord.cs" />
     <Compile Include="Models\ReleaseComponentRecord.cs" />
     <Compile Include="Models\ReleaseFileRecord.cs" />
+    <Compile Include="Models\JsonRaw.cs" />
+    <Compile Include="Models\TrainingComponentDocumentRecord.cs" />
     <Compile Include="Models\UnitGridEntryRecord.cs" />
     <Compile Include="Models\UsageRecommendationRecord.cs" />
     <Compile Include="Models\MappingRecord.cs" />
@@ -136,6 +175,7 @@
     <Compile Include="Services\RecognitionManagerService.cs" />
     <Compile Include="Services\RecognitionManagerAssignmentService.cs" />
     <Compile Include="Services\SupabaseService.cs" />
+    <Compile Include="Services\SupabaseQueryService.cs" />
     <Compile Include="Services\TgaDataService.cs" />
     <Compile Include="Services\TrainingComponentSummaryService.cs" />
     <Compile Include="Services\ValidationCodeService.cs" />
@@ -166,6 +206,8 @@
     <None Include="scripts\training-component-service\training_component_summaries_table.sql" />
     <None Include="scripts\training-component-service\validation_codes_table.sql" />
     <None Include="scripts\training-component-service\recognition_manager_assignments_table.sql" />
+    <None Include="scripts\training-component-documents\training_component_documents_table.sql" />
+    <None Include="scripts\training-component-documents\training_component_item_status_table.sql" />
     <None Include="scripts\classification\nrt_classification_schemes_table.sql" />
     <None Include="scripts\classification\nrt_classification_scheme_values_table.sql" />
     <None Include="scripts\classification\rto_classification_schemes_table.sql" />

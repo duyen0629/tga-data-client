@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
 
 namespace TgaGateway2.Services
 {
@@ -167,6 +168,21 @@ namespace TgaGateway2.Services
                         {
                             jsonValue = value.ToString();
                         }
+                        // Handle JsonRaw (write raw JSON without quotes)
+                        if (value != null && prop.PropertyType == typeof(TgaGateway2.Models.JsonRaw))
+                        {
+                            var raw = ((TgaGateway2.Models.JsonRaw)value)?.Value;
+                            raw = SanitizeRawJson(raw);
+                            if (string.IsNullOrWhiteSpace(raw))
+                            {
+                                jsonFields.Add($"\"{dbFieldName}\":null");
+                            }
+                            else
+                            {
+                                jsonFields.Add($"\"{dbFieldName}\":{raw}");
+                            }
+                            continue;
+                        }
                         // Handle null values
                         else if (value == null)
                         {
@@ -214,9 +230,6 @@ namespace TgaGateway2.Services
         {
             if (extensionDataProperty == null)
             {
-                jsonFields.Add($"\"extension_data_present\":false");
-                jsonFields.Add($"\"extension_data_element_count\":0");
-                jsonFields.Add($"\"extension_data\":null");
                 return;
             }
 
@@ -342,6 +355,19 @@ namespace TgaGateway2.Services
                 .Replace("\n", "\\n")
                 .Replace("\r", "\\r")
                 .Replace("\t", "\\t");
+        }
+
+        /// <summary>
+        /// Ensures raw JSON values are valid (no 'undefined' tokens).
+        /// </summary>
+        private static string SanitizeRawJson(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                return input;
+            }
+
+            return Regex.Replace(input, @"\bundefined\b", "null");
         }
 
         /// <summary>

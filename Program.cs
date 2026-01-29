@@ -67,7 +67,10 @@ namespace TgaGateway2
             using (var supabaseService = new SupabaseService())
             {
                 //-----------Training Component Service -----------
-                await RunTrainingComponentServiceProcesses(tgaService, supabaseService);
+                // await RunTrainingComponentServiceProcesses(tgaService, supabaseService);
+
+                //-----------Training Component Documents -----------
+                await RunTrainingComponentDocumentProcess(supabaseService);
 
                 //-----------Organisation Service -----------
                 // await RunOrganisationServiceProcesses(supabaseService);
@@ -96,69 +99,68 @@ namespace TgaGateway2
             var serverTime = tgaService.GetServerTime();
             Console.WriteLine($"Server time: {serverTime}\n");
 
-            // // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
-            // await ProcessRecognitionManagers(supabaseService);
+            // 2. Process ALL Recognition Managers (fetch, display, and save to Supabase)
+            await ProcessRecognitionManagers(supabaseService);
 
-            // // 3. Process ALL Data Managers (fetch, display, and save to Supabase)
-            // await ProcessDataManagers(supabaseService);
+            // 3. Process ALL Data Managers (fetch, display, and save to Supabase)
+            await ProcessDataManagers(supabaseService);
 
-            // // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
-            // await ProcessValidationCodes(supabaseService);
+            // 4. Process ALL Validation Codes (fetch, display, and save to Supabase)
+            await ProcessValidationCodes(supabaseService);
 
-            // // 4.1 Process ALL Classification Schemes (fetch, display, and save to Supabase)
-            // await ProcessClassificationSchemes(supabaseService);
+            // 4.1 Process ALL Classification Schemes (fetch, display, and save to Supabase)
+            await ProcessClassificationSchemes(supabaseService);
 
-            // // 4.2 Process ALL Classification Purposes (fetch, display, and save to Supabase)
-            // await ProcessClassificationPurposes(supabaseService);
+            // 4.2 Process ALL Classification Purposes (fetch, display, and save to Supabase)
+            await ProcessClassificationPurposes(supabaseService);
 
-            // // 4.3 Process ALL Lookups (fetch, display, and save to Supabase)
-            // await ProcessLookups(supabaseService);
+            // 4.3 Process ALL Lookups (fetch, display, and save to Supabase)
+            await ProcessLookups(supabaseService);
 
-            // // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
-            // await ProcessContactRoles(supabaseService);
+            // 5. Process ALL Contact Roles (fetch, display, and save to Supabase)
+            await ProcessContactRoles(supabaseService);
 
-            // // 6. Process ALL Address States (fetch, display, and save to Supabase)
-            // await ProcessAddressStates(supabaseService);
+            // 6. Process ALL Address States (fetch, display, and save to Supabase)
+            await ProcessAddressStates(supabaseService);
 
-            // // 7. Process Recognition Manager Assignments (via GetDetails)
-            // await ProcessRecognitionManagerAssignments(supabaseService);
+            // 7. Process Recognition Manager Assignments (via GetDetails)
+            await ProcessRecognitionManagerAssignments(supabaseService);
 
-            // // 8. Process Data Manager Assignments (via GetDetails)
-            // await ProcessDataManagerAssignments(supabaseService);
+            // 8. Process Data Manager Assignments (via GetDetails)
+            await ProcessDataManagerAssignments(supabaseService);
 
             // 9.Process Releases(via GetDetails)
-            // await ProcessReleases(supabaseService);
+            await ProcessReleases(supabaseService);
 
             // 10.Process Release Files(via GetDetails)
             await ProcessReleaseFiles(supabaseService);
 
             // 11.Process Release Components(via GetDetails)
-            // await ProcessReleaseComponents(supabaseService);
+            await ProcessReleaseComponents(supabaseService);
 
-            // // Commented out as there is no data for release_files in the database
-            // // 12.Process Unit Grid Entries(via GetDetails), UnitGridEntries live inside Release.UnitGrid
-            // // await ProcessUnitGridEntries(supabaseService);
+            // 12.Process Unit Grid Entries(via GetDetails), UnitGridEntries live inside Release.UnitGrid
+            await ProcessUnitGridEntries(supabaseService);
 
-            // // 13. Process Contacts (via GetDetails)
-            // await ProcessContacts(supabaseService);
+            // 13. Process Contacts (via GetDetails)
+            await ProcessContacts(supabaseService);
 
-            // // 14. Process Classifications (via GetDetails)
-            // await ProcessClassifications(supabaseService);
+            // 14. Process Classifications (via GetDetails)
+            await ProcessClassifications(supabaseService);
 
-            // // 15. Process Mapping Information (via GetDetails)
-            // await ProcessMappings(supabaseService);
+            // 15. Process Mapping Information (via GetDetails)
+            await ProcessMappings(supabaseService);
 
-            // // 16. Process Currency Periods (via GetDetails)
-            // await ProcessCurrencyPeriods(supabaseService);
+            // 16. Process Currency Periods (via GetDetails)
+            await ProcessCurrencyPeriods(supabaseService);
 
-            // // 17. Process Usage Recommendations (via GetDetails)
-            // await ProcessUsageRecommendations(supabaseService);
+            // 17. Process Usage Recommendations (via GetDetails)
+            await ProcessUsageRecommendations(supabaseService);
 
-            // // 18. Process Completion Mappings (via GetDetails)
-            // await ProcessCompletionMappings(supabaseService);
+            // 18. Process Completion Mappings (via GetDetails)
+            await ProcessCompletionMappings(supabaseService);
 
-            // // 19. Process Training Component Summaries (fetch and save to Supabase)
-            // await ProcessTrainingComponentSummaries(supabaseService);
+            // 19. Process Training Component Summaries (fetch and save to Supabase)
+            await ProcessTrainingComponentSummaries(supabaseService);
 
             // Commented out as there is no data for release_files in the database
             // 20. Process Deleted Training Components (via SearchDeletedByDeletedDate)
