@@ -691,6 +691,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 }
             }
 
+            var activeRowSpans = new List<RowSpanCell>();
+            for (var i = 0; i < columns.Count; i++)
+            {
+                activeRowSpans.Add(null);
+            }
+
             for (var i = 0; i < tableRows.Count; i++)
             {
                 if (i == headerIndex)
@@ -708,10 +714,53 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 }
 
                 var rowCells = new List<List<SectionItem>>();
-                for (var colIndex = 0; colIndex < cells.Count; colIndex++)
+                for (var colIndex = 0; colIndex < columns.Count; colIndex++)
                 {
-                    var cellItems = ParseCellItemsFromTd(cells[colIndex], ns, sectionKey, rows.Count + 1, colIndex + 1);
-                    rowCells.Add(cellItems);
+                    rowCells.Add(null);
+                }
+
+                var nextCellIndex = 0;
+                var rowIndex = rows.Count + 1;
+
+                // Fill cells, respecting rowspans from previous rows.
+                for (var colIndex = 0; colIndex < columns.Count; colIndex++)
+                {
+                    if (activeRowSpans[colIndex] == null)
+                    {
+                        continue;
+                    }
+
+                    rowCells[colIndex] = activeRowSpans[colIndex].Items;
+                    activeRowSpans[colIndex].RemainingRows--;
+                    if (activeRowSpans[colIndex].RemainingRows <= 0)
+                    {
+                        activeRowSpans[colIndex] = null;
+                    }
+                }
+
+                for (var cellIndex = 0; cellIndex < cells.Count; cellIndex++)
+                {
+                    while (nextCellIndex < columns.Count && rowCells[nextCellIndex] != null)
+                    {
+                        nextCellIndex++;
+                    }
+
+                    if (nextCellIndex >= columns.Count)
+                    {
+                        break;
+                    }
+
+                    var cell = cells[cellIndex];
+                    var cellItems = ParseCellItemsFromTd(cell, ns, sectionKey, rowIndex, nextCellIndex + 1);
+                    rowCells[nextCellIndex] = cellItems;
+
+                    var rowspanValue = cell.Attribute("rowspan")?.Value;
+                    if (int.TryParse(rowspanValue, out var rowspan) && rowspan > 1)
+                    {
+                        activeRowSpans[nextCellIndex] = new RowSpanCell(cellItems, rowspan - 1);
+                    }
+
+                    nextCellIndex++;
                 }
 
                 rows.Add(new GenericTableRow { cells = rowCells });
@@ -722,6 +771,18 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 columns = columns,
                 rows = rows
             };
+        }
+
+        private sealed class RowSpanCell
+        {
+            public RowSpanCell(List<SectionItem> items, int remainingRows)
+            {
+                Items = items;
+                RemainingRows = remainingRows;
+            }
+
+            public List<SectionItem> Items { get; }
+            public int RemainingRows { get; set; }
         }
 
         private static string ExtractInlineText(XElement element)
@@ -1273,22 +1334,22 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             var order = 1;
 
             var paragraphs = td.Descendants(ns + "p").ToList();
-                if (paragraphs.Count == 0)
+            if (paragraphs.Count == 0)
             {
                 var text = ExtractInlineText(td);
                 if (!string.IsNullOrWhiteSpace(text))
                 {
                     // item_id format: {key}_cell-{row}_{column}_{paragraphIndex}
-                        var paragraphItem = new SectionItem
+                    var paragraphItem = new SectionItem
                     {
                         item_id = $"{sectionKey}_cell-{rowIndex}_{columnIndex}_{order}",
                         type = "paragraph",
                         text = text.Trim(),
                         order = order++,
                         indent = null
-                        };
-                        items.Add(paragraphItem);
-                        lastParagraphItemId = paragraphItem.item_id;
+                    };
+                    items.Add(paragraphItem);
+                    lastParagraphItemId = paragraphItem.item_id;
                 }
                 return items;
             }
