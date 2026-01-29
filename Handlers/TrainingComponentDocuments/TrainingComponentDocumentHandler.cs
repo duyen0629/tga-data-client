@@ -660,7 +660,9 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             var maxColumns = 0;
             foreach (var tr in tableRows)
             {
-                var tdCount = tr.Elements(ns + "td").Count();
+                var tdCount = tr.Elements(ns + "td")
+                    .Select(td => GetSpanValue(td, "colspan"))
+                    .Sum();
                 if (tdCount > maxColumns)
                 {
                     maxColumns = tdCount;
@@ -672,14 +674,22 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             {
                 var headerCells = tableRows[headerIndex]
                     .Elements(ns + "td")
-                    .Select(ExtractInlineText)
-                    .Select(t => t.Trim())
-                    .Where(t => !string.IsNullOrWhiteSpace(t))
                     .ToList();
 
-                if (headerCells.Count > 0)
+                foreach (var td in headerCells)
                 {
-                    columns.AddRange(headerCells);
+                    var text = ExtractInlineText(td).Trim();
+                    var span = GetSpanValue(td, "colspan");
+                    if (span < 1)
+                    {
+                        span = 1;
+                    }
+
+                    columns.Add(string.IsNullOrWhiteSpace(text) ? $"Column {columns.Count + 1}" : text);
+                    for (var i = 1; i < span; i++)
+                    {
+                        columns.Add($"Column {columns.Count + 1}");
+                    }
                 }
             }
 
@@ -752,15 +762,31 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
 
                     var cell = cells[cellIndex];
                     var cellItems = ParseCellItemsFromTd(cell, ns, sectionKey, rowIndex, nextCellIndex + 1);
-                    rowCells[nextCellIndex] = cellItems;
-
-                    var rowspanValue = cell.Attribute("rowspan")?.Value;
-                    if (int.TryParse(rowspanValue, out var rowspan) && rowspan > 1)
+                    var colspan = GetSpanValue(cell, "colspan");
+                    if (colspan < 1)
                     {
-                        activeRowSpans[nextCellIndex] = new RowSpanCell(cellItems, rowspan - 1);
+                        colspan = 1;
                     }
 
-                    nextCellIndex++;
+                    for (var spanOffset = 0; spanOffset < colspan && (nextCellIndex + spanOffset) < columns.Count; spanOffset++)
+                    {
+                        rowCells[nextCellIndex + spanOffset] = spanOffset == 0
+                            ? cellItems
+                            : new List<SectionItem>();
+                    }
+
+                    var rowspan = GetSpanValue(cell, "rowspan");
+                    if (rowspan > 1)
+                    {
+                        for (var spanOffset = 0; spanOffset < colspan && (nextCellIndex + spanOffset) < columns.Count; spanOffset++)
+                        {
+                            activeRowSpans[nextCellIndex + spanOffset] = new RowSpanCell(
+                                spanOffset == 0 ? cellItems : new List<SectionItem>(),
+                                rowspan - 1);
+                        }
+                    }
+
+                    nextCellIndex += colspan;
                 }
 
                 rows.Add(new GenericTableRow { cells = rowCells });
@@ -783,6 +809,17 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
 
             public List<SectionItem> Items { get; }
             public int RemainingRows { get; set; }
+        }
+
+        private static int GetSpanValue(XElement td, string attributeName)
+        {
+            if (td == null)
+            {
+                return 1;
+            }
+
+            var value = td.Attribute(attributeName)?.Value;
+            return int.TryParse(value, out var span) && span > 0 ? span : 1;
         }
 
         private static string ExtractInlineText(XElement element)
