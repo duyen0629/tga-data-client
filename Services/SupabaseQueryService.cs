@@ -60,50 +60,28 @@ namespace TgaGateway2.Services
             }
         }
 
-        public async Task<List<ReleaseFileRow>> GetAllReleaseFiles(int pageSize = 1000)
+        public async Task<List<ReleaseFileRow>> GetReleaseFilesPage(int limit, int offset)
         {
-            var allRows = new List<ReleaseFileRow>();
-            var offset = 0;
+            var endpointUrl = $"{_supabaseUrl}/rest/v1/release_files" +
+                              $"?select=training_component_code,release_number,relative_path" +
+                              $"&limit={limit}&offset={offset}";
 
-            while (true)
+            using (var httpClient = new HttpClient())
             {
-                var endpointUrl = $"{_supabaseUrl}/rest/v1/release_files" +
-                                  $"?select=training_component_code,release_number,relative_path" +
-                                  $"&limit={pageSize}&offset={offset}";
+                httpClient.DefaultRequestHeaders.Add("apikey", _supabaseKey);
+                httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_supabaseKey}");
 
-                using (var httpClient = new HttpClient())
+                var response = await httpClient.GetAsync(endpointUrl);
+                if (!response.IsSuccessStatusCode)
                 {
-                    httpClient.DefaultRequestHeaders.Add("apikey", _supabaseKey);
-                    httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_supabaseKey}");
-
-                    var response = await httpClient.GetAsync(endpointUrl);
-                    if (!response.IsSuccessStatusCode)
-                    {
-                        var errorContent = await response.Content.ReadAsStringAsync();
-                        throw new Exception($"Supabase API error ({response.StatusCode}): {errorContent}");
-                    }
-
-                    var json = await response.Content.ReadAsStringAsync();
-                    var serializer = new JavaScriptSerializer();
-                    var rows = serializer.Deserialize<List<ReleaseFileRow>>(json) ?? new List<ReleaseFileRow>();
-
-                    if (rows.Count == 0)
-                    {
-                        break;
-                    }
-
-                    allRows.AddRange(rows);
-
-                    if (rows.Count < pageSize)
-                    {
-                        break;
-                    }
-
-                    offset += pageSize;
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Supabase API error ({response.StatusCode}): {errorContent}");
                 }
-            }
 
-            return allRows;
+                var json = await response.Content.ReadAsStringAsync();
+                var serializer = new JavaScriptSerializer();
+                return serializer.Deserialize<List<ReleaseFileRow>>(json) ?? new List<ReleaseFileRow>();
+            }
         }
     }
 

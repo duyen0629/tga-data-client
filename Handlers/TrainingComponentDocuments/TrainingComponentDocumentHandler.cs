@@ -30,7 +30,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 throw new ArgumentException("Training component code is required.", nameof(trainingComponentCode));
             }
 
-            Console.WriteLine($"=== Processing Training Component Document: {trainingComponentCode} ===");
+            Console.WriteLine($"  == Processing Training Component Document: {trainingComponentCode} ==  ");
 
             var queryService = new SupabaseQueryService();
             var releaseFiles = await queryService.GetReleaseFilesByCode(trainingComponentCode);
@@ -46,32 +46,82 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
 
         public static async Task ProcessTrainingComponentDocumentsForAll(SupabaseService supabaseService, int batchSize)
         {
-            Console.WriteLine("=== Processing Training Component Documents: ALL ===");
+            Console.WriteLine("===  Getting and Saving Training Component Documents ===");
 
-            var queryService = new SupabaseQueryService();
-            var releaseFiles = await queryService.GetAllReleaseFiles(batchSize);
-            if (releaseFiles == null || releaseFiles.Count == 0)
+            var saveStopwatch = System.Diagnostics.Stopwatch.StartNew();
+
+            try
             {
-                Console.WriteLine("No release files found.");
-                return;
+                var queryService = new SupabaseQueryService();
+                Console.WriteLine();
+
+                var offset = 0;
+                var totalReleaseFilesProcessed = 0;
+                var totalTrainingDocumentsSaved = 0;
+                var pageNumber = 0;
+
+                while (true)
+                {
+                    pageNumber++;
+                    Console.WriteLine($" Attempting search release files - Page {pageNumber}, PageSize {batchSize}...");
+                    var releaseFiles = await queryService.GetReleaseFilesPage(batchSize, offset);
+
+                    if (releaseFiles.Count == 0)
+                    {
+                        break;
+                    }
+
+                    var grouped = releaseFiles
+                        .Where(r => !string.IsNullOrWhiteSpace(r.training_component_code))
+                        .GroupBy(r => r.training_component_code)
+                        .OrderBy(g => g.Key)
+                        .ToList();
+
+                    Console.WriteLine($"  Page {pageNumber}: Found {grouped.Count} training code");
+
+                    var pageSaved = 0;
+                    foreach (var group in grouped)
+                    {
+                        await ProcessTrainingComponentDocumentForCode(supabaseService, group.Key);
+                        pageSaved++;
+                    }
+
+                    totalReleaseFilesProcessed += releaseFiles.Count;
+                    totalTrainingDocumentsSaved += pageSaved;
+                    Console.WriteLine($"  ✓ Page {pageNumber} saved successfully! (Total release_files processed: {totalReleaseFilesProcessed}, training code: {grouped.Count}, total training document saved: {totalTrainingDocumentsSaved})");
+                    Console.WriteLine();
+
+                    if (releaseFiles.Count < batchSize)
+                    {
+                        break;
+                    }
+
+                    offset += batchSize;
+                }
+
+                saveStopwatch.Stop();
+
+                var originalColor = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"\n✓ Successfully processed {totalTrainingDocumentsSaved} components.");
+                Console.WriteLine($"Time taken to save: {saveStopwatch.Elapsed}\n");
+                Console.ForegroundColor = originalColor;
             }
-
-            var grouped = releaseFiles
-                .Where(r => !string.IsNullOrWhiteSpace(r.training_component_code))
-                .GroupBy(r => r.training_component_code)
-                .OrderBy(g => g.Key)
-                .ToList();
-
-            foreach (var group in grouped)
+            catch (Exception ex)
             {
-                await ProcessTrainingComponentDocumentForReleaseFiles(
-                    supabaseService,
-                    group.Key,
-                    group.ToList());
+                Console.WriteLine($"\n✗ ERROR: Failed during processing!");
+                Console.WriteLine($"Exception Type: {ex.GetType().Name}");
+                Console.WriteLine($"Exception Message: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
+                Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+                Console.WriteLine("\nNote: Some training component documents may have been saved before the error occurred.\n");
             }
         }
 
-        private static async Task ProcessTrainingComponentDocumentForReleaseFiles(
+        private static async Task<string> ProcessTrainingComponentDocumentForReleaseFiles(
             SupabaseService supabaseService,
             string trainingComponentCode,
             List<ReleaseFileRow> releaseFiles)
@@ -79,11 +129,11 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             var candidate = SelectReleaseFiles(releaseFiles, trainingComponentCode);
             if (candidate == null)
             {
-                Console.WriteLine("No matching Complete XML file found.");
-                return;
+                Console.WriteLine($"No matching Complete XML file found for {trainingComponentCode}.");
+                return null;
             }
 
-            Console.WriteLine($"Using release {candidate.ReleaseNumber}.");
+            Console.WriteLine($"   Using release {candidate.ReleaseNumber}.");
 
             var completeResult = await LoadLinesXmlOnly(candidate.Complete);
             var completeLines = completeResult.Lines;
@@ -126,7 +176,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             };
 
             await supabaseService.SaveToSupabase(new[] { record }, "training_component_documents");
-            Console.WriteLine("✓ training_component_documents saved.");
+            Console.WriteLine("   ✓ training_component_documents saved.");
+            return candidate.ReleaseNumber;
         }
 
         private static ReleaseFileSelection SelectReleaseFiles(List<ReleaseFileRow> releaseFiles, string code)
