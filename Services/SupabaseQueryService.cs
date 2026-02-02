@@ -41,23 +41,7 @@ namespace TgaGateway2.Services
             var endpointUrl = $"{_supabaseUrl}/rest/v1/release_files" +
                               $"?select=training_component_code,release_number,relative_path" +
                               $"&training_component_code=eq.{Uri.EscapeDataString(trainingComponentCode)}";
-
-            using (var httpClient = new HttpClient())
-            {
-                httpClient.DefaultRequestHeaders.Add("apikey", _supabaseKey);
-                httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_supabaseKey}");
-
-                var response = await httpClient.GetAsync(endpointUrl);
-                if (!response.IsSuccessStatusCode)
-                {
-                    var errorContent = await response.Content.ReadAsStringAsync();
-                    throw new Exception($"Supabase API error ({response.StatusCode}): {errorContent}");
-                }
-
-                var json = await response.Content.ReadAsStringAsync();
-                var serializer = new JavaScriptSerializer();
-                return serializer.Deserialize<List<ReleaseFileRow>>(json) ?? new List<ReleaseFileRow>();
-            }
+            return await GetWithRetry(endpointUrl, "release_files by code");
         }
 
         public async Task<List<ReleaseFileRow>> GetReleaseFilesPage(int limit, int offset)
@@ -65,23 +49,63 @@ namespace TgaGateway2.Services
             var endpointUrl = $"{_supabaseUrl}/rest/v1/release_files" +
                               $"?select=training_component_code,release_number,relative_path" +
                               $"&limit={limit}&offset={offset}";
+            return await GetWithRetry(endpointUrl, $"release_files page (limit={limit}, offset={offset})");
+        }
 
-            using (var httpClient = new HttpClient())
+        private async Task<List<ReleaseFileRow>> GetWithRetry(string endpointUrl, string label)
+        {
+            var delaysMs = new[] { 1000, 2000, 4000 };
+            Exception lastException = null;
+
+            for (var attempt = 0; attempt <= delaysMs.Length; attempt++)
             {
-                httpClient.DefaultRequestHeaders.Add("apikey", _supabaseKey);
-                httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_supabaseKey}");
-
-                var response = await httpClient.GetAsync(endpointUrl);
-                if (!response.IsSuccessStatusCode)
+                try
                 {
-                    var errorContent = await response.Content.ReadAsStringAsync();
-                    throw new Exception($"Supabase API error ({response.StatusCode}): {errorContent}");
-                }
+                    using (var httpClient = new HttpClient())
+                    {
+                        httpClient.DefaultRequestHeaders.Add("apikey", _supabaseKey);
+                        httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_supabaseKey}");
 
-                var json = await response.Content.ReadAsStringAsync();
-                var serializer = new JavaScriptSerializer();
-                return serializer.Deserialize<List<ReleaseFileRow>>(json) ?? new List<ReleaseFileRow>();
+                        var response = await httpClient.GetAsync(endpointUrl);
+                        if (!response.IsSuccessStatusCode)
+                        {
+                            var errorContent = await response.Content.ReadAsStringAsync();
+                            var exception = new Exception($"Supabase API error ({response.StatusCode}): {errorContent}");
+                            if (!IsRetryableSupabaseError(exception))
+                            {
+                                throw exception;
+                            }
+                            throw exception;
+                        }
+
+                        var json = await response.Content.ReadAsStringAsync();
+                        var serializer = new JavaScriptSerializer();
+                        return serializer.Deserialize<List<ReleaseFileRow>>(json) ?? new List<ReleaseFileRow>();
+                    }
+                }
+                catch (Exception ex) when (IsRetryableSupabaseError(ex) && attempt < delaysMs.Length)
+                {
+                    lastException = ex;
+                    Console.WriteLine($"  ⚠ Supabase query failed for {label}. Retrying in {delaysMs[attempt]}ms...");
+                    await Task.Delay(delaysMs[attempt]);
+                }
+                catch (Exception ex)
+                {
+                    lastException = ex;
+                    break;
+                }
             }
+
+            throw lastException ?? new Exception("Supabase query failed.");
+        }
+
+        private static bool IsRetryableSupabaseError(Exception ex)
+        {
+            var message = ex?.Message ?? string.Empty;
+            return message.IndexOf("PGRST002", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                   message.IndexOf("schema cache", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                   message.IndexOf("ServiceUnavailable", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                   message.IndexOf("503", StringComparison.OrdinalIgnoreCase) >= 0;
         }
     }
 

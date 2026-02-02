@@ -247,12 +247,7 @@ namespace TgaGateway2
 
         private static async Task RunTrainingComponentDocumentProcess(SupabaseService supabaseService)
         {
-            // await ProcessTrainingComponentDocumentForCode(supabaseService, "UETDRVC012");
-            // await ProcessTrainingComponentDocumentForCode(supabaseService, "WRWSL201A");
-            // await ProcessTrainingComponentDocumentForCode(supabaseService, "CPCCSI2005A");
-            await ProcessTrainingComponentDocumentForCode(supabaseService, "BSBITU111");
-            // await ProcessTrainingComponentDocumentForCode(supabaseService, "RIICOM201E");
-            // await TrainingComponentDocumentHandler.ProcessTrainingComponentDocumentsForAll(supabaseService, 200);
+            await TrainingComponentDocumentHandler.ProcessTrainingComponentDocumentsForAll(supabaseService, 1000);
         }
 
         private static async Task ProcessReleaseComponents(SupabaseService supabaseService)

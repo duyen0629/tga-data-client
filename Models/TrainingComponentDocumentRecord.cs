@@ -28,5 +28,8 @@ namespace TgaGateway2.Models
 
         [DataMember]
         public string ParsedAt { get; set; }
+
+        [DataMember]
+        public string ProcessError { get; set; }
     }
 }

@@ -9,6 +9,7 @@ CREATE TABLE training_component_documents (
     source_files JSONB, -- e.g., { complete: { relative_path, generated_date }, assessment_requirements: { ... } }
     content_json JSONB, -- merged, display-ready sections
     raw_xml TEXT, -- raw XML file contents
+    process_error TEXT, -- error message if processing failed
     parsed_at TIMESTAMPTZ,
     fetched_created_at TIMESTAMPTZ DEFAULT NOW(),
     fetched_updated_at TIMESTAMPTZ DEFAULT NOW(),

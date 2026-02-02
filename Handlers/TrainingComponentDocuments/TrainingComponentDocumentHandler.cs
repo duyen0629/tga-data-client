@@ -31,17 +31,23 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             }
 
             Console.WriteLine($"  == Processing Training Component Document: {trainingComponentCode} ==  ");
-
-            var queryService = new SupabaseQueryService();
-            var releaseFiles = await queryService.GetReleaseFilesByCode(trainingComponentCode);
-
-            if (releaseFiles == null || releaseFiles.Count == 0)
+            try
             {
-                Console.WriteLine("No release files found.");
-                return;
-            }
+                var queryService = new SupabaseQueryService();
+                var releaseFiles = await queryService.GetReleaseFilesByCode(trainingComponentCode);
 
-            await ProcessTrainingComponentDocumentForReleaseFiles(supabaseService, trainingComponentCode, releaseFiles);
+                if (releaseFiles == null || releaseFiles.Count == 0)
+                {
+                    Console.WriteLine("No release files found.");
+                    return;
+                }
+
+                await ProcessTrainingComponentDocumentForReleaseFiles(supabaseService, trainingComponentCode, releaseFiles);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"  ⚠ Failed to process {trainingComponentCode}. {BuildProcessError(ex)}");
+            }
         }
 
         public static async Task ProcessTrainingComponentDocumentsForAll(SupabaseService supabaseService, int batchSize)
@@ -82,7 +88,14 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                     var pageSaved = 0;
                     foreach (var group in grouped)
                     {
-                        await ProcessTrainingComponentDocumentForCode(supabaseService, group.Key);
+                        try
+                        {
+                            await ProcessTrainingComponentDocumentForCode(supabaseService, group.Key);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"  ⚠ Failed to process {group.Key}. {BuildProcessError(ex)}");
+                        }
                         pageSaved++;
                     }
 
@@ -121,66 +134,136 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             }
         }
 
-        private static async Task<string> ProcessTrainingComponentDocumentForReleaseFiles(
+        private static async Task<int> ProcessTrainingComponentDocumentForReleaseFiles(
             SupabaseService supabaseService,
             string trainingComponentCode,
             List<ReleaseFileRow> releaseFiles)
         {
-            var candidate = SelectReleaseFiles(releaseFiles, trainingComponentCode);
-            if (candidate == null)
+            var candidates = SelectReleaseFilesByRelease(releaseFiles);
+            if (candidates.Count == 0)
             {
-                Console.WriteLine($"No matching Complete XML file found for {trainingComponentCode}.");
-                return null;
+                Console.WriteLine($"No matching XML file found for {trainingComponentCode}.");
+                return 0;
             }
 
-            Console.WriteLine($"   Using release {candidate.ReleaseNumber}.");
-
-            var completeResult = await LoadLinesXmlOnly(candidate.Complete);
-            var completeLines = completeResult.Lines;
-
-            var title = ExtractTitle(trainingComponentCode, completeLines)
-                        ?? trainingComponentCode;
-
-            var completeSections = ParseSectionsFromXml(completeResult.Bytes);
-
-            var mergedSections = completeSections;
-
-            var sourceFiles = new
+            var savedCount = 0;
+            foreach (var candidate in candidates)
             {
-                complete = new
+                Console.WriteLine($"   Using release {candidate.ReleaseNumber}.");
+
+                try
                 {
-                    relative_path = completeResult.SelectedRelativePath,
-                    format = completeResult.FormatUsed
+                    var completeResult = await LoadLinesXmlOnly(candidate.Complete);
+                    var completeLines = completeResult.Lines;
+
+                    var title = ExtractTitle(trainingComponentCode, completeLines)
+                                ?? trainingComponentCode;
+
+                    var completeSections = ParseSectionsFromXml(completeResult.Bytes);
+
+                    var mergedSections = completeSections;
+
+                    var sourceFiles = new
+                    {
+                        complete = new
+                        {
+                            relative_path = completeResult.SelectedRelativePath,
+                            format = completeResult.FormatUsed
+                        }
+                    };
+
+                    var contentJson = new
+                    {
+                        sections = mergedSections,
+                        source = sourceFiles
+                    };
+
+                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
+                    var sourceFilesJson = SanitizeJson(serializer.Serialize(sourceFiles));
+                    var contentJsonRaw = SanitizeJson(serializer.Serialize(contentJson));
+                    var rawXml = completeResult.Bytes != null ? Encoding.UTF8.GetString(completeResult.Bytes) : null;
+                    var record = new TrainingComponentDocumentRecord
+                    {
+                        TrainingComponentCode = trainingComponentCode,
+                        ReleaseNumber = candidate.ReleaseNumber,
+                        Title = title,
+                        SourceFiles = new JsonRaw(sourceFilesJson),
+                        ContentJson = new JsonRaw(contentJsonRaw),
+                        RawXml = rawXml,
+                        ParsedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ", CultureInfo.InvariantCulture)
+                    };
+
+                    await supabaseService.SaveToSupabase(new[] { record }, "training_component_documents");
+                    Console.WriteLine("   ✓ training_component_documents saved.");
+                    savedCount++;
                 }
-            };
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"   ⚠ Failed to process {trainingComponentCode} release {candidate.ReleaseNumber}. Saving error record...");
+                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
+                    var sourceFiles = new
+                    {
+                        complete = new
+                        {
+                            relative_path = candidate?.Complete?.XmlPath,
+                            format = "xml"
+                        }
+                    };
+                    var sourceFilesJson = SanitizeJson(serializer.Serialize(sourceFiles));
+                    var errorRecord = new TrainingComponentDocumentRecord
+                    {
+                        TrainingComponentCode = trainingComponentCode,
+                        ReleaseNumber = candidate.ReleaseNumber,
+                        Title = trainingComponentCode,
+                        SourceFiles = new JsonRaw(sourceFilesJson),
+                        ContentJson = null,
+                        RawXml = null,
+                        ParsedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ", CultureInfo.InvariantCulture),
+                        ProcessError = BuildProcessError(ex)
+                    };
 
-            var contentJson = new
-            {
-                sections = mergedSections,
-                source = sourceFiles
-            };
+                    try
+                    {
+                        await supabaseService.SaveToSupabase(new[] { errorRecord }, "training_component_documents");
+                        Console.WriteLine("   ✓ training_component_documents error saved.");
+                    }
+                    catch (Exception saveEx)
+                    {
+                        Console.WriteLine($"   ⚠ Failed to save error record for {trainingComponentCode} release {candidate.ReleaseNumber}: {BuildProcessError(saveEx)}");
+                    }
+                }
+            }
 
-            var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
-            var sourceFilesJson = SanitizeJson(serializer.Serialize(sourceFiles));
-            var contentJsonRaw = SanitizeJson(serializer.Serialize(contentJson));
-            var rawXml = completeResult.Bytes != null ? Encoding.UTF8.GetString(completeResult.Bytes) : null;
-            var record = new TrainingComponentDocumentRecord
-            {
-                TrainingComponentCode = trainingComponentCode,
-                ReleaseNumber = candidate.ReleaseNumber,
-                Title = title,
-                SourceFiles = new JsonRaw(sourceFilesJson),
-                ContentJson = new JsonRaw(contentJsonRaw),
-                RawXml = rawXml,
-                ParsedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ", CultureInfo.InvariantCulture)
-            };
-
-            await supabaseService.SaveToSupabase(new[] { record }, "training_component_documents");
-            Console.WriteLine("   ✓ training_component_documents saved.");
-            return candidate.ReleaseNumber;
+            return savedCount;
         }
 
-        private static ReleaseFileSelection SelectReleaseFiles(List<ReleaseFileRow> releaseFiles, string code)
+        private static bool IsStatementTimeout(Exception ex)
+        {
+            var message = ex?.Message ?? string.Empty;
+            return message.IndexOf("57014", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                   message.IndexOf("statement timeout", StringComparison.OrdinalIgnoreCase) >= 0;
+        }
+
+        private static string BuildProcessError(Exception ex)
+        {
+            if (ex == null)
+            {
+                return "Unknown error.";
+            }
+
+            var innerMessage = ex.InnerException != null ? ex.InnerException.Message : null;
+            var typeName = ex.GetType().Name;
+            var summary = $"[{typeName}] {ex.Message}";
+
+            if (!string.IsNullOrWhiteSpace(innerMessage))
+            {
+                summary += $" | Inner: {innerMessage}";
+            }
+
+            return summary;
+        }
+
+        private static List<ReleaseFileSelection> SelectReleaseFilesByRelease(List<ReleaseFileRow> releaseFiles)
         {
             var grouped = releaseFiles
                 .Where(r => !string.IsNullOrWhiteSpace(r.relative_path))
@@ -194,7 +277,10 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                     var completeXml = xmlFiles.FirstOrDefault(r =>
                         r.relative_path.IndexOf("_Complete_", StringComparison.OrdinalIgnoreCase) >= 0);
 
-                    var selectedXml = completeXml ?? xmlFiles.FirstOrDefault();
+                    var releaseXml = xmlFiles.FirstOrDefault(r =>
+                        r.relative_path.IndexOf("_R", StringComparison.OrdinalIgnoreCase) >= 0);
+
+                    var selectedXml = completeXml ?? releaseXml ?? xmlFiles.FirstOrDefault();
 
                     return new ReleaseFileSelection
                     {
@@ -209,7 +295,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 .OrderByDescending(x => ParseReleaseNumber(x.ReleaseNumber))
                 .ToList();
 
-            return grouped.FirstOrDefault();
+            return grouped;
         }
 
         private static int ParseReleaseNumber(string releaseNumber)
