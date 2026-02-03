@@ -247,7 +247,7 @@ namespace TgaGateway2
 
         private static async Task RunTrainingComponentDocumentProcess(SupabaseService supabaseService)
         {
-            await TrainingComponentDocumentHandler.ProcessTrainingComponentDocumentsForAll(supabaseService, 1000);
+            await TrainingComponentDocumentHandler.ProcessTrainingComponentDocumentsForAll(supabaseService, 0, batchSize: 1000);
         }
 
         private static async Task ProcessReleaseComponents(SupabaseService supabaseService)

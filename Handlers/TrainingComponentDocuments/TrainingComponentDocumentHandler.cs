@@ -50,7 +50,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             }
         }
 
-        public static async Task ProcessTrainingComponentDocumentsForAll(SupabaseService supabaseService, int batchSize)
+        public static async Task ProcessTrainingComponentDocumentsForAll(SupabaseService supabaseService, int pageOffset, int batchSize)
         {
             Console.WriteLine("===  Getting and Saving Training Component Documents ===");
 
@@ -61,10 +61,10 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 var queryService = new SupabaseQueryService();
                 Console.WriteLine();
 
-                var offset = 0;
+                var offset = Math.Max(0, pageOffset) * batchSize;
                 var totalReleaseFilesProcessed = 0;
                 var totalTrainingDocumentsSaved = 0;
-                var pageNumber = 0;
+                var pageNumber = Math.Max(0, pageOffset);
 
                 while (true)
                 {
