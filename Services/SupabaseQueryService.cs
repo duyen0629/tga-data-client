@@ -52,6 +52,68 @@ namespace TgaGateway2.Services
             return await GetWithRetry(endpointUrl, $"release_files page (limit={limit}, offset={offset})");
         }
 
+        public async Task<bool> TrainingComponentDocumentExistsByCode(string trainingComponentCode)
+        {
+            if (string.IsNullOrWhiteSpace(trainingComponentCode))
+            {
+                return false;
+            }
+
+            Console.WriteLine($" Checking training_component_documents for code: {trainingComponentCode}...");
+
+            var endpointUrl = $"{_supabaseUrl}/rest/v1/training_component_documents" +
+                              $"?select=training_component_code" +
+                              $"&training_component_code=eq.{Uri.EscapeDataString(trainingComponentCode)}" +
+                              $"&limit=1";
+
+            var rows = await GetWithRetry(endpointUrl, $"training_component_documents by code ({trainingComponentCode})");
+            Console.WriteLine($"  Code {trainingComponentCode} {(rows.Count > 0 ? "exists" : "not found")}.");
+            return rows.Count > 0;
+        }
+
+        public async Task<TrainingComponentDocumentRow> GetLatestTrainingComponentDocument(string trainingComponentCode)
+        {
+            if (string.IsNullOrWhiteSpace(trainingComponentCode))
+            {
+                return null;
+            }
+
+            var endpointUrl = $"{_supabaseUrl}/rest/v1/training_component_documents" +
+                              $"?select=training_component_code,release_number,content_json" +
+                              $"&training_component_code=eq.{Uri.EscapeDataString(trainingComponentCode)}" +
+                              $"&order=release_number.desc" +
+                              $"&limit=1";
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.DefaultRequestHeaders.Add("apikey", _supabaseKey);
+                httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_supabaseKey}");
+
+                var response = await httpClient.GetAsync(endpointUrl);
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Supabase API error ({response.StatusCode}): {errorContent}");
+                }
+
+                var json = await response.Content.ReadAsStringAsync();
+                var serializer = new JavaScriptSerializer();
+                var rows = serializer.Deserialize<List<Dictionary<string, object>>>(json) ?? new List<Dictionary<string, object>>();
+                if (rows.Count == 0)
+                {
+                    return null;
+                }
+
+                var row = rows[0];
+                return new TrainingComponentDocumentRow
+                {
+                    TrainingComponentCode = row.ContainsKey("training_component_code") ? row["training_component_code"]?.ToString() : null,
+                    ReleaseNumber = row.ContainsKey("release_number") ? row["release_number"]?.ToString() : null,
+                    ContentJson = row.ContainsKey("content_json") ? row["content_json"] : null
+                };
+            }
+        }
+
         private async Task<List<ReleaseFileRow>> GetWithRetry(string endpointUrl, string label)
         {
             var delaysMs = new[] { 1000, 2000, 4000 };
@@ -114,5 +176,12 @@ namespace TgaGateway2.Services
         public string training_component_code { get; set; }
         public string release_number { get; set; }
         public string relative_path { get; set; }
+    }
+
+    public class TrainingComponentDocumentRow
+    {
+        public string TrainingComponentCode { get; set; }
+        public string ReleaseNumber { get; set; }
+        public object ContentJson { get; set; }
     }
 }

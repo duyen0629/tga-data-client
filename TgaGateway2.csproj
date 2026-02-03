@@ -122,6 +122,7 @@
     <Compile Include="Handlers\TrainingComponentService\TrainingComponentSummaryHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ValidationCodeHandler.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\TrainingComponentDocumentHandler.cs" />
+    <Compile Include="CSVTrainingCodeCheck.cs" />
     <Compile Include="Handlers\Classification\ClassificationSchemeSearchHandler.cs" />
     <Compile Include="Handlers\Organization\OrganisationSummaryHandler.cs" />
     <Compile Include="Program.cs" />
