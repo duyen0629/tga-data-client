@@ -1,0 +1,515 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CHC\\CHCCDE024_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the performance outcomes, skills and knowledge required to support the community to represent their own priorities and aspirations through social and public action.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to workers using a community development approach to carry out work in the health, community services or other sectors. Workers at this level are part of a professional team and have the responsibility of supervision of others.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills in this unit must be applied in accordance with Commonwealth and State or Territory legislation, Australian standards and industry codes of practice.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No occupational licensing, certification or specific legislative requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Nil",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "competency_field",
+            "items": [
+                {
+                    "text": "Community Development",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "competency_field-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Competency Field"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Community Services",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 6,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Plan and implement opportunities for stakeholders to identify and advance community priorities and aspirations."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Identify models of participation and action research methods."
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify, develop and agree on strategies for meeting community priorities."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Respond to community priorities."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Assess suitability of activities proposed to address community priorities."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Determine amount and type of resources required to undertake proposed activities and assist in securing access to resources."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Support community and stakeholders to undertake advocacy and lobbying activities."
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Facilitate collaboration and cooperation between community stakeholders."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Support identified community priorities."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Evaluate the effectiveness of activities in meeting community priorities using accepted strategies and mechanisms."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Review progress of strategies with key stakeholders and update as required to ensure strategies continue to support community priorities."
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Document outcomes of evaluations and report according to organisational policies and procedures."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Evaluate effectiveness of community action."
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and isequivalent to CHCCDE008 Support community action.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=5e0c25cc-3d9d-4b43-80d3-bd22cc4f1e53",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence of the ability to complete tasks outlined in elements and performance criteria of this unit in the context of the job role, and:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "support at least one community to identify their rights and represent their priorities and aspirations through social and public action.",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "Demonstrated knowledge required to complete the tasks outlined in elements and performance criteria of this unit:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Commonwealth, State or Territory legislation and public policies impacting on community development processes",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "social, community and youth issues impacting the local community",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "social structures and systems in the community",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "principles and practices of community development work:",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "structural disadvantage and inequality",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "social justice and human rights:",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "individual",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "family",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "community",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "society",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "current social policy and its implementation programs",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "components of strategic planning",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "decision-making systems and leadership",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "community development principles relevant to social action, public action and asset-based approaches",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "principles of community engagement",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "techniques for negotiation and conflict management",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "processes for undertaking action research",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "role and means of social movements as the driver for social change",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "techniques for service promotion",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-20",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "general and cultural issues relevant to specific community group",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-21",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "strategies and mechanisms for evaluation of activities",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-22",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "organisational policies and procedures for documentation.",
+                    "type": "bullet",
+                    "order": 23,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-23",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills must be demonstrated in the workplace or in a simulated environment that reflects workplace conditions.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must ensure:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "access to facilities, equipment and resources that reflect real working conditions and model industry operating conditions and contingencies",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "access to Commonwealth, State or Territory legislation and public policies impacting on community development processes",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "access to organisational policies and procedures",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "opportunities for engagement with community stakeholders.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "Assessors must satisfy the Standards for Registered Training Organisations’ requirements for assessors.",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

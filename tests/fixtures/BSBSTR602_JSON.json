@@ -1,0 +1,924 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "BSB\\BSBSTR602_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with BSB Business Services Training Package Version 7.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to establish the strategic direction of the organisation, sustain competitive advantage and enhance competitiveness. It covers analysis and interpretation of relevant markets, capability assessment of the organisation and analysis of the organisation’s existing and potential competitors and allies. It also covers implementing the strategic plan and developing specific actions and initiatives that will be undertaken by people working in various roles.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The unit applies to individuals working in senior roles in the organisation who have responsibility for ensuring that the organisation is positioned to ensure its long-term viability and success.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Critical Thinking and Problem Solving – Business Strategy",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 4,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify organisation’s strategic direction, vision and mission"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Consult with relevant stakeholders on required changes to vision and mission"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Review and develop or revise organisational values to support the vision and mission statement"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Seek support for strategic planning process from all relevant stakeholders"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Confirm vision and mission of the organisation"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Analyse and undertake research to understand external environment"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Undertake political, economic, social, and technological (PEST) analysis"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Undertake capability assessment of competitor organisations"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Analyse organisation’s strengths, weaknesses, opportunities and threats (SWOT)"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Establish cooperative ventures, that are supported by risk and cost benefit analyses, according to organisational vision, mission and values and provide for due diligence, where required"
+                            },
+                            {
+                                "id": "criteria-2_6",
+                                "text": "2.6 Seek and respond to feedback from relevant stakeholders on analysis internal and external environments"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Analyse internal and external environment"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Document relevant research and background for inclusion in the strategic plan"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Develop objectives and strategies relevant for the future"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Detail each strategy with a priority, a timeframe, responsible stakeholders and measurable performance indicators"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Identify risks and develop a risk management plan"
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Circulate strategic plan and risk management plan for feedback and endorsement"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Develop strategic organisational plan"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Communicate strategic plan to all relevant stakeholders"
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Develop actions and initiatives for team members to undertake"
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Assign team members’ roles in relation to strategic objectives"
+                            },
+                            {
+                                "id": "criteria-4_4",
+                                "text": "4.4 Use performance indicators to monitor progress in implementing plan and make refinements to plan"
+                            },
+                            {
+                                "id": "criteria-4_5",
+                                "text": "4.5 Evaluate achievement of objectives at agreed milestones with relevant stakeholders"
+                            },
+                            {
+                                "id": "criteria-4_6",
+                                "text": "4.6 Review effectiveness of plan and consider methods for improving strategic planning processes"
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Implement strategic organisational plan"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "This section describes those language, literacy, numeracy and employment skills that are essential to performance but not explicit in the performance criteria.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Reading",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Identifies and analyses complex organisational texts to determine business requirements",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Reviews, evaluates, interprets and applies content from a range of sources to aid in development of strategies",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-1_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Writing",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Prepares strategic plans for relevant stakeholders incorporating appropriate vocabulary, grammatical structure and conventions",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Incorporates amendments to documents according to organisational requirements",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Collates and compiles data to convey specific information, requirements and recommendations",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Oral communication",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Presents information and seeks advice using language and register appropriate to audience",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Participates in discussions using listening and questioning to elicit the views of others and to clarify or confirm understanding",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Numeracy",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Interprets and analyses data and information to identify trends and to estimate resource implications of proposed strategies",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Self-management",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-5_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Works autonomously making high level decisions to achieve and improve organisational goals",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-5_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Seeks feedback or expert advice, where required",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-5_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Initiative and enterprise",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-6_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Takes a lead role in the development of strategies to achieve organisational goals",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-6_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Selects and uses appropriate conventions and protocols when communicating with internal and external stakeholders to seek or share information",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-6_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Planning and organising",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-7_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Develops flexible plans for complex, high impact activities with strategic implications, taking into account capabilities, efficiencies and effectiveness",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-7_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Teamwork",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-8_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Collaborates with others to achieve joint outcomes, playing an active role in facilitating effective group interaction, influencing direction and taking a leadership role",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-8_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Problem solving",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-9_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Applies problem solving processes to identify risks, evaluate options and determine solutions",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-9_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Evaluates outcomes to identify opportunities for improvement",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-9_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Systematically gathers and analyses all relevant information and evaluates options to inform decisions about organisational strategies",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-9_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 2,
+                "columns": [
+                    "SKILL",
+                    "DESCRIPTION"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and is equivalent to BSBMGT616 Develop and implement strategic plans.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=11ef6853-ceed-4ba7-9d87-4da407e23c10",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must demonstrate the ability to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including evidence of the ability to:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "consult and communicate with relevant stakeholders, and develop and implement one strategic plan for an organisation on at least one occasion, including:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "revising mission, vision and values",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "analysing and validating findings of research and analysis",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "obtaining input to and endorsement of strategic plans",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "brief relevant parties about strategic plan.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "In the course of the above, the candidate must:",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "analyse organisation’s internal and external environment to formulate strategic plans, including:",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                },
+                {
+                    "text": "background and research relevant to strategic plan",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "performance_evidence-9",
+                    "parent_bullet_item_id": "performance_evidence-8"
+                },
+                {
+                    "text": "legislation, regulations and codes of practice, including for intellectual property",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "performance_evidence-10",
+                    "parent_bullet_item_id": "performance_evidence-8"
+                },
+                {
+                    "text": "objectives, strategies and priorities",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "performance_evidence-11",
+                    "parent_bullet_item_id": "performance_evidence-8"
+                },
+                {
+                    "text": "roles and responsibilities",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "performance_evidence-12",
+                    "parent_bullet_item_id": "performance_evidence-8"
+                },
+                {
+                    "text": "performance indicators",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "performance_evidence-13",
+                    "parent_bullet_item_id": "performance_evidence-8"
+                },
+                {
+                    "text": "timeframes",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "performance_evidence-14",
+                    "parent_bullet_item_id": "performance_evidence-8"
+                },
+                {
+                    "text": "cost-benefit and risk analysis",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "performance_evidence-15",
+                    "parent_bullet_item_id": "performance_evidence-8"
+                },
+                {
+                    "text": "seek advice from appropriate experts",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "performance_evidence-16",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                },
+                {
+                    "text": "monitor and evaluate the implementation of strategic plan and make refinements",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "performance_evidence-17",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                },
+                {
+                    "text": "review effectiveness of planning processes and identify opportunities for improvement.",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 0,
+                    "item_id": "performance_evidence-18",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate knowledge to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "legislation, regulations and codes of practice relevant to organisation’s strategic plan",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "organisation’s strategic direction, vision and mission",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "methods for conducting capability assessment",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "organisation’s strengths, weaknesses, opportunities and threats",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "strengths and weaknesses of existing and potential competitors",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "key features of cooperative ventures",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "methods for conducting cost benefit analysis",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "key features of due diligence processes",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "risks and risk management strategies relevant to strategic planning, including:",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "intellectual property rights and responsibilities",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-10"
+                },
+                {
+                    "text": "other risks",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-10"
+                },
+                {
+                    "text": "strategic planning methodologies, including:",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "political, economic, social and technological (PEST) analysis",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-13"
+                },
+                {
+                    "text": "strengths, weaknesses, opportunities and threats analysis (SWOT)",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-13"
+                },
+                {
+                    "text": "internal and external sources of information relevant to the organisation’s market, competitors, customer base, vision, values and capabilities",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "techniques for developing organisational values.",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills in this unit must be demonstrated in a workplace or simulated environment where the conditions are typical of those in a working environment in this industry.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This includes access to:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "relevant legislation, regulations, standards and codes",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "workplace documentation and resources relevant to performance evidence.",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "Assessors of this unit must satisfy the requirements for assessors in applicable vocational education and training legislation, frameworks and/or standards.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

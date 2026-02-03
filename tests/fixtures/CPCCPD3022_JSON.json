@@ -1,0 +1,804 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CPC\\CPCCPD3022_Complete_R3.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 3",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Updated reference to general construction induction training program.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 2",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 6.4.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Correction to Training Package title in the Modification History from CPC Property Services to CPC Construction, Plumbing and Services Training Package.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with CPC Property Services Training Package Release 5.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Supersedes and is equivalent to CPCCPD3022A Apply paint by brush and roller. Updated to meet the Standards for Training Packages 2012.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "To demonstrate competency, a candidate must meet the performance criteria of this unit by applying paint finishes by brush, roller or a brush roller combination to a range of surfaces, including:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "one room, at a minimum of three metres by three metres, including the ceiling",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "a timber panel door:",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "one oil based application",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "one water based application",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "a flush door:",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "one oil based application",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-6"
+                },
+                {
+                    "text": "one water based application",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-6"
+                },
+                {
+                    "text": "a timber window, including architrave and frame with moving parts (e.g. box frame, hopper and awning)",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "performance_evidence-9",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "a timber surface to minimum of one square metre using two pack.",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "performance_evidence-10",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "All finishes must be to specification, including in terms of defects, thickness, sheen, opacity, colour and sharpness.",
+                    "type": "paragraph",
+                    "order": 11,
+                    "indent": null,
+                    "item_id": "performance_evidence-11",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "All work must be performed to the standard required in the workplace and must meet the requirements of work health and safety (WHS), Commonwealth and state or territory legislation, manufacturers’ specifications, and environmental plans and obligations.",
+                    "type": "paragraph",
+                    "order": 12,
+                    "indent": null,
+                    "item_id": "performance_evidence-12",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "To be competent in this unit, a candidate must demonstrate knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "safety requirements relevant to applying paint by brush and roller",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "environmental requirements relevant to applying paint by brush and roller",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "processes for the calculation of material requirements relevant to applying paint by brush and roller",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "quality requirements relevant to applying paint by brush and roller",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "responsibilities with regard to:",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "environmental requirements",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-6"
+                },
+                {
+                    "text": "heritage listed buildings",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-6"
+                },
+                {
+                    "text": "paint coatings:",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "solvent-based",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "two-pack",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "water repellent for timber",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "water-based",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "sealers",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "primers",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "sealer and undercoats",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "intermediate coats",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "finish coats",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "surface coating technology, including specification of paint systems for interior and exterior painting projects to maximise durability, protection and aesthetic considerations",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "testing processes for paint applied by brush and roller",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-20",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "theoretical principles relating to adhesion and cohesion of paint",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-21",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "theoretical principles relating to pigmentation and colouring agents, drying and curing processes and the role of solvents",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-22",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "wet film thickness tests",
+                    "type": "bullet",
+                    "order": 23,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-23",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "types, uses and limitations of commonly used tools and equipment:",
+                    "type": "bullet",
+                    "order": 24,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-24",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "brushware and accessories",
+                    "type": "bullet",
+                    "order": 25,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-25",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "drop sheets",
+                    "type": "bullet",
+                    "order": 26,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-26",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "paint pots and buckets",
+                    "type": "bullet",
+                    "order": 27,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-27",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "paint stirrers",
+                    "type": "bullet",
+                    "order": 28,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-28",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "roller frames",
+                    "type": "bullet",
+                    "order": 29,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-29",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "roller sleeves, lambs’ wool rollers, foam rollers, micro-fibre rollers, nylon rollers and applicator pads",
+                    "type": "bullet",
+                    "order": 30,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-30",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "variances in work carried out within sectors of painting and decorating industry for:",
+                    "type": "bullet",
+                    "order": 31,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-31",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "new building (residential, commercial and high rise)",
+                    "type": "bullet",
+                    "order": 32,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-32",
+                    "parent_bullet_item_id": "knowledge_evidence-31"
+                },
+                {
+                    "text": "maintenance, renovation and refurbishment",
+                    "type": "bullet",
+                    "order": 33,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-33",
+                    "parent_bullet_item_id": "knowledge_evidence-31"
+                },
+                {
+                    "text": "restoration",
+                    "type": "bullet",
+                    "order": 34,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-34",
+                    "parent_bullet_item_id": "knowledge_evidence-31"
+                },
+                {
+                    "text": "conservation.",
+                    "type": "bullet",
+                    "order": 35,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-35",
+                    "parent_bullet_item_id": "knowledge_evidence-31"
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessors must meet the requirements for assessors contained in the Standards for Registered Training Organisations.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit must be assessed:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "in the workplace or a close simulation of the workplace environment, provided that simulated or project-based assessment techniques replicate construction workplace conditions, materials, activities, responsibilities and procedures",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "using realistic tasks or simulated tasks, relevant specifications and work instructions, standard work practices, safety requirements and environmental constraints.",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Assessment Conditions"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion volumes to this training package are available at the VETNet website - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=7e15fa6a-68b8-4097-b099-030a5569b1ad",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit of competency specifies the skills and knowledge required to apply brushed or rolled paint coatings to different materials to form a protective and decorative painted finish.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The unit includes preparation of the work area, mixing of materials, application of paint, finishing of the surface and completion of clean-up activities.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "A person who has achieved this unit of competency would be expected to take responsibility for organising and completing these tasks with a high degree of self direction.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Completion of the general construction induction training program specified by the model Code of Practice for Construction Work is required for any person who is to carry out construction work. Achievement of CPCWHS1001Prepare to work safely in the construction industrymeets this requirement.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "application-5",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "CPCCWHS2001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Apply WHS requirements, policies and procedures in the construction industry",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Painting and Decorating",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 9,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Review work instructions to apply paint by brush and roller."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Plan all work to meet relevant requirements of work health and safety (WHS), Commonwealth and state or territory legislation, environmental plans and obligations, manufacturers’ specifications, and workplace requirements."
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Conduct work with regard to responsibilities in heritage-listed buildings."
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Select and fit personal protective equipment (PPE) as required for each task."
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Inspect work site, assess hazards and apply risk controls, including required signage and barricades."
+                            },
+                            {
+                                "id": "criteria-1_6",
+                                "text": "1.6 Identify materials appropriate to the work application, calculate quantities and prepare, handle safely and locate ready for use."
+                            },
+                            {
+                                "id": "criteria-1_7",
+                                "text": "1.7 Select tools and equipment, check for serviceability and report any faults."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Plan and prepare."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Check that materials and substrate surfaces are prepared in accordance with manufacturers’ recommendations and relevant Australian Standards."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Protect surrounding surfaces with drop sheets, masking or removal of objects."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Check that where doors, windows and associated furniture are removed they are safely stacked, stored and protected."
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Check work site to ensure provision of adequate ventilation and implementation of precautions to prevent fire and explosion."
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Implement measures to ensure application area remains free of dust and foreign matter."
+                            },
+                            {
+                                "id": "criteria-2_6",
+                                "text": "2.6 Mix each of oil based, water based and two pack paint, to designed proportion, consistency, specified ratio and drying time."
+                            },
+                            {
+                                "id": "criteria-2_7",
+                                "text": "2.7 Stir paint and colours thoroughly using separate stirring sticks or other devices."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Prepare work area and materials."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Select brush, roller or brush/roller combination for surface profile, size of area, type of paint and finish."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Apply paint to achieve required level of opacity, finish, texture and sheen."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Apply paint with brush or roller."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Clean up, meeting all legislative and workplace requirements for safety, waste disposal, materials handling and protection of the environment."
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Clear work area, reuse or recycle materials and place waste and unwanted materials into job waste bins or rubbish stockpile."
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Check and maintain tools and equipment and clean with appropriate solvents."
+                            },
+                            {
+                                "id": "criteria-4_4",
+                                "text": "4.4 Dispose of paint waste and water and solvents used in cleaning painting equipment in an environmentally sustainable manner."
+                            },
+                            {
+                                "id": "criteria-4_5",
+                                "text": "4.5 Store tools, equipment and sealed unused materials to avoid spontaneous ignition."
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Clean up."
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and equivalent to CPCCPD3022A Apply paint by brush and roller.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Unit Mapping Information"
+        }
+    ]
+}

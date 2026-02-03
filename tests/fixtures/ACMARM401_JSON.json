@@ -1,0 +1,619 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "ACM\\ACMARM401_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version released with ACM Animal Care and Management Training Package Version 4.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to identify and apply relevant animal management legislative, regulatory and policy requirements applicable within a jurisdiction and workplace.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to authorised officers who access, interpret and enforce regulatory requirements according to workplace procedures. They work autonomously and apply specialist knowledge and skills to provide solutions for predictable and unpredictable problems.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "All work must be carried out to comply with workplace procedures according to Commonwealth and state/territory health and safety and animal welfare regulations, legislation and standards that apply to the workplace.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Some animal control functions administered by state/territory and local governments require licensing or authorisation. Legislative requirements vary across jurisdictions and users are advised to check with the relevant regulatory authority for current requirements.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Nil",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Animal Regulation and Management (ARM)",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 5,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Access and maintain current information about the industry and workplace, and apply within daily activities"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Document roles, needs and expectations of key internal and external stakeholders"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify sources of assistance in undertaking own work role"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Follow workplace policies and procedures to carry out work tasks effectively"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Obtain and use industry information"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Identify legislation and regulations relevant to the organisation and workplace activities"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Identify and document key principles contained in legislation and regulations"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Confirm statutory powers provided under legislation and the boundaries of those powers"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Enforce legislation as required within day-to-day work activities"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Work within the boundaries and powers contained in animal management legislation and workplace requirements"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Review and implement relevant animal management legislative and regulatory requirements"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Access a workplace information management system"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Enter new or amend existing records accurately in a workplace management system"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Complete and store records according to workplace policies and procedures and legislative requirements"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Maintain records"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "This section describes those language, literacy, numeracy and employment skills that are essential for performance in this unit of competency but are not explicit in the performance criteria.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Reading",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Interpret information in legislative and workplace documentation",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Oral communication",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Use appropriate language and tone to communicate with internal and external stakeholders to seek or provide information",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 2,
+                "columns": [
+                    "Skill",
+                    "Description"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [],
+            "order": 7,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Code and title current version",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "unit_mapping_information_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Code and title previous version",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "unit_mapping_information_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "unit_mapping_information_cell-1_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Equivalence status",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "unit_mapping_information_cell-1_4_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "ACMARM401 Administer animal management and regulatory requirements",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "ACMACR401 Comply with animal control and regulation requirements",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Title changed",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-2_3_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Minor changes to terminology for clarity and consistency",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-2_3_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Assessment requirements updated",
+                                    "type": "paragraph",
+                                    "order": 3,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-2_3_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Equivalent",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-2_4_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2",
+                    "Column 3",
+                    "Column 4"
+                ]
+            },
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volumes, including Implementation Guides, are available at VETNet: - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=b75f4b23-54c9-4cc9-a5db-d3502d154103",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "An individual demonstrating competency must satisfy all of the elements and performance criteria in this unit.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "There must be evidence that the individual has:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "summarised the key principles and statutory powers contained within legislation and regulations relevant to work undertaken in the animal management and regulation workplace",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "applied relevant legislation and workplace information to complete at least three day-to-day work activities, including at least one serious breach of compliance involving an animal",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "used workplace information management system to access existing records, accurately create or update records, and store according to workplace and legislative requirements on at least three occasions.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "An individual must be able to demonstrate the knowledge required to perform the tasks outlined in the elements and performance criteria of this unit. This includes knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "enabling Commonwealth, state/territory and local government legislation, regulations, standards and codes of practice relevant to an animal regulation and management environment",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "workplace policies and procedures relevant to animal management and regulation",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "workplace organisational and reporting structure for animal management and regulation",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "key internal and external stakeholders",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "features of workplace management system, including operations and record-keeping requirements.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessment of the skills in this unit of competency must take place under the following conditions:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "physical conditions:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "a workplace or an environment that accurately represents workplace conditions",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "resources, equipment and materials:",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "equipment and/or resources necessary to complete tasks in an animal management and regulatory environment",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "workplace information management or record-keeping system",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "specifications:",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "access to relevant animal management legislation, regulations and workplace documentation.",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-7"
+                },
+                {
+                    "text": "Assessors of this unit must satisfy the requirements for assessors in applicable vocational education and training legislation, frameworks and/or standards.",
+                    "type": "paragraph",
+                    "order": 9,
+                    "indent": null,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

@@ -1,0 +1,672 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "BSB\\BSBESB302_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with BSB Business Services Training Package Version 7.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to research the viability of ideas for business opportunities and develop and present proposals for viable options in formats suiting a range of stakeholders.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The unit applies to those establishing or operating a business providing self-employment, as well as those establishing a new venture as part of a larger organisation. The proposals may relate to products and/or services offered by the business.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Business Competence – Entrepreneurship and Small Business",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 4,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify ideas relating to business opportunities"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Research key factors influencing their financial viability"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Analyse business ideas to determine viability of business opportunity"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Record outcomes of evaluation according to workplace procedures"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Evaluate business ideas"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Identify potential risks associated with opportunity ideas and viability of business"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Communicate with relevant stakeholders the potential risks"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Assist relevant stakeholders to develop risk management systems"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Manage risk associated with business proposal"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Identify audience for proposal, and required structure and content"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Establish budget according to financial viability"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Develop description of business idea according to identified budget and business opportunities"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Confirm that draft proposal meets requirements"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Develop proposal for viable business idea"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Determine presentation method suited to audience"
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Provide customised business proposal to target audience"
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Seek feedback to inform future proposals"
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Present business proposal"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "This section describes those language, literacy, numeracy and employment skills that are essential to performance but not explicit in the performance criteria.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Reading",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Interprets information from a range of sources",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Writing",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Uses information and industry-related terminology to complete required documentation",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Numeracy",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Extracts, evaluates and compares numerical information",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Initiative and enterprise skills",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Plans and implements tasks required to prepare and present a business proposal",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Analyses and evaluates options before making decisions, considering needs, resources and constraints",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-4_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Technology",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-5_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Uses a range of digital tools to access, organise, integrate and present relevant information",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-5_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 2,
+                "columns": [
+                    "Skill",
+                    "Description"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and is equivalent to BSBSMB302 Develop a micro business proposal.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=11ef6853-ceed-4ba7-9d87-4da407e23c10",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must demonstrate the ability to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including evidence of the ability to:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "develop and present a business proposal for a product or service.",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "In the course of the above, the candidate must:",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "analyse information from a range of sources to evaluate the viability of the business opportunities, including:",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "consideration of personal commitments",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-4"
+                },
+                {
+                    "text": "risk identification and assessment",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-4"
+                },
+                {
+                    "text": "personal skills and attributes analysis against required skills",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-4"
+                },
+                {
+                    "text": "anticipated financial returns.",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-4"
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate knowledge to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "factors influencing financial viability of business ventures, including financial returns",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "factors influencing viability of business ideas, including:",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "impact of emerging or changing technology",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-3"
+                },
+                {
+                    "text": "personal circumstances and suitability of own skills profile",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-3"
+                },
+                {
+                    "text": "assessed risks",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-3"
+                },
+                {
+                    "text": "availability of required resources",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-3"
+                },
+                {
+                    "text": "key requirements for business proposals, including:",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "information relating to legislative requirements, regulations, standards and codes or practice",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "structure and content suited to audience needs",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "formats and methods of presentations",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "description of products and/or services",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "workplace procedures for:",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "recording outcomes of proposal evaluation",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-13"
+                },
+                {
+                    "text": "establishing income and expenditure costing for business proposal",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-13"
+                },
+                {
+                    "text": "principles of risk assessment relevant to business opportunity described in performance evidence.",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills in this unit must be demonstrated in a workplace or simulated environment where the conditions are typical of those in a working environment in this industry.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This includes access to:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "business technology, including internet access and presentation software",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "legislation, regulations, standards and codes of practice relating to business proposal described in performance evidence",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "workplace documentation and resources relevant to performance evidence",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "interaction with others for presentation purposes.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "Assessors of this unit must satisfy the requirements for assessors in applicable vocational education and training legislation, frameworks and/or standards.",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

@@ -1,0 +1,1953 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CPC08\\CPCCBC4047A_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Not Applicable",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "unit_descriptor",
+            "items": [
+                {
+                    "text": "Unit descriptor",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_descriptor-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit of competency specifies the outcomes required to quality assure fire-rated lining systems, including walls, ceilings, structures, openings and penetrations. The unit covers planning and preparation for the work, identification of authorised installation requirements, and inspection and certification that all materials and installation techniques comply with authorised standards.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "unit_descriptor-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Unit Descriptor"
+        },
+        {
+            "key": "application_of_the_unit",
+            "items": [
+                {
+                    "text": "Application of the unit",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application_of_the_unit-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit of competency supports the needs of experienced tradespersons with a responsibility for certifying that lining systems including walls, ceilings, structures, openings and penetrations comply with authorised standards.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application_of_the_unit-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Application of the Unit"
+        },
+        {
+            "key": "licensing_regulatory_information",
+            "items": [
+                {
+                    "text": "Not Applicable",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "licensing_regulatory_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Licensing/Regulatory Information"
+        },
+        {
+            "key": "pre_requisites",
+            "items": [
+                {
+                    "text": "Prerequisite units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisites-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Nil",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "pre_requisites-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Pre-Requisites"
+        },
+        {
+            "key": "employability_skills_information",
+            "items": [
+                {
+                    "text": "Employability skills",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "employability_skills_information-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit contains employability skills.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "employability_skills_information-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Employability Skills Information"
+        },
+        {
+            "key": "elements_and_performance_criteria_pre_content",
+            "items": [
+                {
+                    "text": "Elements describe the essential outcomes of a unit of competency.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "elements_and_performance_criteria_pre_content-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Performance criteria describe the performance needed to demonstrate achievement of the element. Where bold italicised text is used, further information is detailed in the required skills and knowledge section and the range statement. Assessment of performance is to be consistent with the evidence guide.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "elements_and_performance_criteria_pre_content-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Elements and Performance Criteria Pre-Content"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 8,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Work instructions, including plans, specifications, quality requirements and operational details for context of fire-rated systems are obtained, confirmed and applied."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Safety (OHS) requirements are followed in accordance with safety plans and policies."
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Signage and barricade requirements are identified and implemented."
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Tools and equipment selected to carry out tasks are consistent with job requirements, checked for serviceability, and any faults are rectified or reported prior to commencement."
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Environmental protection requirements for the project are identified and applied in accordance with environmental plans and regulatory obligations."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Plan and prepare for work."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Authorised materials and installation techniques for walls, partitions, ceilings, openings and penetrations are identified and confirmed from the plan, relevant standards and codes and manufacturer specifications."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Authorised materials and installation techniques for air handling, structural encasement and fire escape systems are identified and confirmed from the plan, relevant standards and codes and manufacturer specifications."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Most suitable system is selected to meet job specifications."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Identify authorised installation materials and techniques."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Installation is progressively inspected to confirm that materials and work comply with the authorised plan and standards and rigidly follow the test and/or sponsored investigation documents."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Fire rating, including resistance levels and resistance to incipient spread of fire, is confirmed."
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 At each stage of installation, walls, ceilings, openings, penetrations and other special needs are inspected and confirmed as being compliant."
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Steel componentry and fastener loadings are inspected and confirmed as being compliant."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Inspect for compliance with authorised standards."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Results of inspections, including certification, are completed in accordance with authorised procedures."
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Inspection findings, including non-conformance sheets, are completed and reported to appropriate authority."
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Feedback and advice are provided at the work site in accordance with authorised procedures and industry practice."
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Record and report the results of inspections."
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "required_skills_and_knowledge",
+            "items": [
+                {
+                    "text": "REQUIRED SKILLS AND KNOWLEDGE",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "required_skills_and_knowledge-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This section describes the skills and knowledge required for this unit.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "required_skills_and_knowledge-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Required skills",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "required_skills_and_knowledge-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Required skills for this unit are:",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "required_skills_and_knowledge-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "communication skills to:",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-5",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-4"
+                },
+                {
+                    "text": "enable clear and direct communication, using questioning to identify and confirm requirements, share information, listen and understand",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "required_skills_and_knowledge-6",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-5"
+                },
+                {
+                    "text": "read and interpret:",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "required_skills_and_knowledge-7",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-5"
+                },
+                {
+                    "text": "codes and standards",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 2,
+                    "item_id": "required_skills_and_knowledge-8",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-7"
+                },
+                {
+                    "text": "documentation from a variety of sources",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 2,
+                    "item_id": "required_skills_and_knowledge-9",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-7"
+                },
+                {
+                    "text": "plans, specifications and drawings",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 2,
+                    "item_id": "required_skills_and_knowledge-10",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-7"
+                },
+                {
+                    "text": "report faults",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "required_skills_and_knowledge-11",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-5"
+                },
+                {
+                    "text": "provide feedback and advice",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "required_skills_and_knowledge-12",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-5"
+                },
+                {
+                    "text": "use and interpret non-verbal communication",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "required_skills_and_knowledge-13",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-5"
+                },
+                {
+                    "text": "use language and concepts appropriate to cultural differences",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "required_skills_and_knowledge-14",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-5"
+                },
+                {
+                    "text": "written skills to record and report results of inspections",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "required_skills_and_knowledge-15",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-5"
+                },
+                {
+                    "text": "numeracy skills to apply measurements and calculations",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-16",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-4"
+                },
+                {
+                    "text": "organisational skills, including the ability to plan for and set out work.",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-17",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-4"
+                },
+                {
+                    "text": "Required knowledge",
+                    "type": "paragraph",
+                    "order": 18,
+                    "indent": null,
+                    "item_id": "required_skills_and_knowledge-18",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Required knowledge for this unit is:",
+                    "type": "paragraph",
+                    "order": 19,
+                    "indent": null,
+                    "item_id": "required_skills_and_knowledge-19",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Building Code of Australia (BCA) and Australian standards related to fire-rated lining systems",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-20",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "fire technology, combustion theory and terminology relevant to the inspection of fire-rated systems",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-21",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "methods for ensuring compliance with incipient spread of flame requirements",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-22",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "quality systems, including inspection, compliance and reporting or recording requirements",
+                    "type": "bullet",
+                    "order": 23,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-23",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "range of materials commonly used in the installation of fire-rated lining systems",
+                    "type": "bullet",
+                    "order": 24,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-24",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "regulatory/legislative requirements pertaining to installation of fire-rated systems",
+                    "type": "bullet",
+                    "order": 25,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-25",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "safe work procedures related to the inspection of fire-rated systems",
+                    "type": "bullet",
+                    "order": 26,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-26",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "types, specifications and installation techniques for fire-rated ceiling systems related to direct fix, furred, suspended and spanning types",
+                    "type": "bullet",
+                    "order": 27,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-27",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "types, specifications and installation techniques for fire-rated wall systems related to steel stud and timber stud walls, shaft walls and timber joists",
+                    "type": "bullet",
+                    "order": 28,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-28",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                },
+                {
+                    "text": "types, specifications and installation techniques for openings, penetrations, air handling, structural encasement and fire escape systems.",
+                    "type": "bullet",
+                    "order": 29,
+                    "indent": 0,
+                    "item_id": "required_skills_and_knowledge-29",
+                    "parent_bullet_item_id": "required_skills_and_knowledge-19"
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Required Skills and Knowledge"
+        },
+        {
+            "key": "evidence_guide",
+            "items": [],
+            "order": 10,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "The evidence guide provides advice on assessment and must be read in conjunction with the performance criteria, required skills and knowledge, range statement and the Assessment Guidelines for the Training Package.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Overview of assessment",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This unit of competency could be assessed by inspecting a total fire-rated system and compiling a detailed report, or by selecting a total fire-rated system which complies with all codes and standards.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "This unit of competency can be assessed in the workplace or a close simulation of the workplace environment, provided that simulated or project-based assessment techniques fully replicate construction workplace conditions, materials, activities, responsibilities and procedures.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Critical aspects for assessment and evidence required to demonstrate competency in this unit",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "A person who demonstrates competency in this unit must be able to provide evidence of the ability to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "locate, interpret and apply relevant information, standards and specifications",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-3_2_2",
+                                    "parent_bullet_item_id": "evidence_guide_cell-3_2_1"
+                                },
+                                {
+                                    "text": "comply with site safety plan and OHS legislation, regulations and codes of practice applicable to workplace operations",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-3_2_3",
+                                    "parent_bullet_item_id": "evidence_guide_cell-3_2_1"
+                                },
+                                {
+                                    "text": "comply with organisational policies and procedures, including quality requirements",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-3_2_4",
+                                    "parent_bullet_item_id": "evidence_guide_cell-3_2_1"
+                                },
+                                {
+                                    "text": "inspect and report on, or select, a total fire-rated system that complies with all codes and standards and covers, at a minimum, a commercial multi-floor site involving compartmentation, plant rooms, access ladders, escalators, lifts, shafts, columns and beams",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-3_2_5",
+                                    "parent_bullet_item_id": "evidence_guide_cell-3_2_1"
+                                },
+                                {
+                                    "text": "communicate effectively and work safely with others.",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-3_2_6",
+                                    "parent_bullet_item_id": "evidence_guide_cell-3_2_1"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Context of and specific resources for assessment",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This competency is to be assessed using standard and authorised work practices, safety requirements and environmental constraints.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Assessment of essential underpinning knowledge will usually be conducted in an off-site context.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-4_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Assessment is to comply with relevant regulatory or Australian standards' requirements.",
+                                    "type": "paragraph",
+                                    "order": 3,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-4_2_3",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Resource implications for assessment include:",
+                                    "type": "paragraph",
+                                    "order": 4,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-4_2_4",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "workplace location or simulated workplace",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-4_2_5",
+                                    "parent_bullet_item_id": "evidence_guide_cell-4_2_4"
+                                },
+                                {
+                                    "text": "materials relevant to the quality assurance of fire-rated lining systems",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-4_2_6",
+                                    "parent_bullet_item_id": "evidence_guide_cell-4_2_4"
+                                },
+                                {
+                                    "text": "tools and equipment appropriate to the quality assurance of fire-rated lining systems",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-4_2_7",
+                                    "parent_bullet_item_id": "evidence_guide_cell-4_2_4"
+                                },
+                                {
+                                    "text": "realistic activities covering the mandatory task requirements",
+                                    "type": "bullet",
+                                    "order": 8,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-4_2_8",
+                                    "parent_bullet_item_id": "evidence_guide_cell-4_2_4"
+                                },
+                                {
+                                    "text": "specifications, plans, building codes, Australian standards and work instructions.",
+                                    "type": "bullet",
+                                    "order": 9,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-4_2_9",
+                                    "parent_bullet_item_id": "evidence_guide_cell-4_2_4"
+                                },
+                                {
+                                    "text": "Reasonable adjustments for people with disabilities must be made to assessment processes where required. This could include access to modified equipment and other physical resources, and the provision of appropriate assessment support.",
+                                    "type": "paragraph",
+                                    "order": 10,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-4_2_10",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Method of assessment",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-5_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Assessment methods must:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-5_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "satisfy the endorsed Assessment Guidelines of the Construction, Plumbing and Services Training Package",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-5_2_2",
+                                    "parent_bullet_item_id": "evidence_guide_cell-5_2_1"
+                                },
+                                {
+                                    "text": "include direct observation of tasks in real or simulated work conditions, with questioning to confirm the ability to consistently identify and correctly interpret the essential underpinning knowledge required for practical application",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-5_2_3",
+                                    "parent_bullet_item_id": "evidence_guide_cell-5_2_1"
+                                },
+                                {
+                                    "text": "reinforce the integration of employability skills with workplace tasks and job roles",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-5_2_4",
+                                    "parent_bullet_item_id": "evidence_guide_cell-5_2_1"
+                                },
+                                {
+                                    "text": "confirm that competency is verified and able to be transferred to other circumstances and environments.",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-5_2_5",
+                                    "parent_bullet_item_id": "evidence_guide_cell-5_2_1"
+                                },
+                                {
+                                    "text": "Validity and sufficiency of evidence requires that:",
+                                    "type": "paragraph",
+                                    "order": 6,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-5_2_6",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "competency will need to be demonstrated over a period of time reflecting the scope of the role and the practical requirements of the workplace",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-5_2_7",
+                                    "parent_bullet_item_id": "evidence_guide_cell-5_2_6"
+                                },
+                                {
+                                    "text": "where the assessment is part of a structured learning experience the evidence collected must relate to a number of performances assessed at different points in time and separated by further learning and practice, with a decision on competency only taken at the point when the assessor has complete confidence in the person's demonstrated ability and applied knowledge",
+                                    "type": "bullet",
+                                    "order": 8,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-5_2_8",
+                                    "parent_bullet_item_id": "evidence_guide_cell-5_2_6"
+                                },
+                                {
+                                    "text": "all assessment that is part of a structured learning experience must include a combination of direct, indirect and supplementary evidence.",
+                                    "type": "bullet",
+                                    "order": 9,
+                                    "indent": 0,
+                                    "item_id": "evidence_guide_cell-5_2_9",
+                                    "parent_bullet_item_id": "evidence_guide_cell-5_2_6"
+                                },
+                                {
+                                    "text": "Assessment processes and techniques should as far as is practical take into account the language, literacy and numeracy capacity of the candidate in relation to the competency being assessed.",
+                                    "type": "paragraph",
+                                    "order": 10,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-5_2_10",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Supplementary evidence of competency may be obtained from relevant authenticated documentation from third parties, such as existing supervisors, team leaders or specialist training staff.",
+                                    "type": "paragraph",
+                                    "order": 11,
+                                    "indent": null,
+                                    "item_id": "evidence_guide_cell-5_2_11",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "EVIDENCE GUIDE",
+                    "Column 2"
+                ]
+            },
+            "title": "Evidence Guide"
+        },
+        {
+            "key": "range_statement",
+            "items": [],
+            "order": 11,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "The range statement relates to the unit of competency as a whole. It allows for different work environments and situations that may affect performance. Bold italicised wording, if used in the performance criteria, is detailed below. Essential operating conditions that may be present with training and assessment (depending on the work situation, needs of the candidate, accessibility of the item, and local industry and regional contexts) may also be included.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Fire-rated systems include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "all fire systems are to be certified in a National Association of Testing Authorities (NATA) approved laboratory",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "quality assurance of fire-rated lining systems covers walls, ceilings, openings, penetrations, air handling, structural encasement, escape systems, mechanical service shafts and relief joints",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "quality assurance processes are to include detail of responsibilities, types of certification and essential aspects of inspection, recording and reporting procedures",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-2_2_3",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "worksheets are to include work area sheets, inspection plans and non-conformance sheets or equivalent",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-2_2_4",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "fire technology includes:",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-2_2_5",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "effect and movement of smoke and combustion products",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-2_2_6",
+                                    "parent_bullet_item_id": "range_statement_cell-2_2_5"
+                                },
+                                {
+                                    "text": "fire triangle",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-2_2_7",
+                                    "parent_bullet_item_id": "range_statement_cell-2_2_5"
+                                },
+                                {
+                                    "text": "flash over",
+                                    "type": "bullet",
+                                    "order": 8,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-2_2_8",
+                                    "parent_bullet_item_id": "range_statement_cell-2_2_5"
+                                },
+                                {
+                                    "text": "fire resistance levels and resistance to incipient spread of fire",
+                                    "type": "bullet",
+                                    "order": 9,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-2_2_9",
+                                    "parent_bullet_item_id": "range_statement_cell-2_2_5"
+                                },
+                                {
+                                    "text": "char factors (timber framing)",
+                                    "type": "bullet",
+                                    "order": 10,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-2_2_10",
+                                    "parent_bullet_item_id": "range_statement_cell-2_2_5"
+                                },
+                                {
+                                    "text": "fire resistance level (FRL) covers the grading period in minutes determined in accordance with the specification for structural adequacy, integrity and insulation",
+                                    "type": "bullet",
+                                    "order": 11,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-2_2_11",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "resistance to incipient spread of fire (RISF) covers the ability of a ceiling membrane to insulate the space between the ceiling and the roof, or ceiling and floor above, to limit the temperature rise of combustibles in this space during the standard fire test to 180C above the initial temperature, expressed in terms of 30, 60, 90 or 120 minutes resistance.",
+                                    "type": "bullet",
+                                    "order": 12,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-2_2_12",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Safety (OHS) is to be in accordance with state and territory legislation and regulations and project safety plan and may include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "emergency procedures, including extinguishing fires, organisational first aid requirements and evacuation",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "handling activities that may require the assistance of others or the use of manual or mechanical lifting devices where size, weight or other issues, such as disability are a factor",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "hazard control",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_3",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "hazardous materials and substances",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_4",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "organisational first aid",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_5",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "personal protective equipment (PPE) prescribed under legislation, regulations and workplace policies and practices",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_6",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "safe operating procedures, including the conduct of operational risk assessment and treatments associated with:",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_7",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "lighting",
+                                    "type": "bullet",
+                                    "order": 8,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_8",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "power sources and leads",
+                                    "type": "bullet",
+                                    "order": 9,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_9",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "treatments associated with manual handling",
+                                    "type": "bullet",
+                                    "order": 10,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_10",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "trip hazards",
+                                    "type": "bullet",
+                                    "order": 11,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_11",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "working at heights",
+                                    "type": "bullet",
+                                    "order": 12,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_12",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "working in confined spaces",
+                                    "type": "bullet",
+                                    "order": 13,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_13",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "working in proximity to others",
+                                    "type": "bullet",
+                                    "order": 14,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_14",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "work site visitors and the public",
+                                    "type": "bullet",
+                                    "order": 15,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-3_2_15",
+                                    "parent_bullet_item_id": "range_statement_cell-3_2_7"
+                                },
+                                {
+                                    "text": "use of firefighting equipment",
+                                    "type": "bullet",
+                                    "order": 16,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_16",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "use of tools and equipment",
+                                    "type": "bullet",
+                                    "order": 17,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_17",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "workplace environmental requirements and safety.",
+                                    "type": "bullet",
+                                    "order": 18,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-3_2_18",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Tools and equipment include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "inspection support tools",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "measuring equipment.",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-4_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Environmental protection requirements include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-5_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "acoustic conformance",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-5_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "waste management.",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-5_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Authorised materials include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-6_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "fire compliant steel furring channel and suspension components",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-6_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "fire grade metal studs and track",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-6_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "fire grade plasterboard sheeting",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-6_2_3",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "fire sealants:",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-6_2_4",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "base compound coats",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-6_2_5",
+                                    "parent_bullet_item_id": "range_statement_cell-6_2_4"
+                                },
+                                {
+                                    "text": "finishing coats",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-6_2_6",
+                                    "parent_bullet_item_id": "range_statement_cell-6_2_4"
+                                },
+                                {
+                                    "text": "perforated paper tapes",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-6_2_7",
+                                    "parent_bullet_item_id": "range_statement_cell-6_2_4"
+                                },
+                                {
+                                    "text": "vermiculite or equivalent product.",
+                                    "type": "bullet",
+                                    "order": 8,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-6_2_8",
+                                    "parent_bullet_item_id": "range_statement_cell-6_2_4"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Relevant standards and codes include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-7_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "BCA",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-7_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Australian standards AS1530, 1684 and 2785",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-7_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "documents detailing the responsibilities and authorities in relation to design, installation and supervision of fire-rated lining systems; they define and explain fire-rated protection, the principles of compartmentation, fire resistance levels, standard fire tests and the dangers of incompatible mix and match solutions.",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-7_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Walls include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-8_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "acoustic capabilities:",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-8_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "double wall advantages for impact sound resistance",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_2",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_1"
+                                },
+                                {
+                                    "text": "flanking",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_3",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_1"
+                                },
+                                {
+                                    "text": "impact of live and/or dead slab",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_4",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_1"
+                                },
+                                {
+                                    "text": "loads deflection",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_5",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_1"
+                                },
+                                {
+                                    "text": "staggered stud",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_6",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_1"
+                                },
+                                {
+                                    "text": "thermal expansion of stud in fire rated partitions",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_7",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_1"
+                                },
+                                {
+                                    "text": "weighted sound reduction index (RW)",
+                                    "type": "bullet",
+                                    "order": 8,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_8",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_1"
+                                },
+                                {
+                                    "text": "fire rated wall systems:",
+                                    "type": "bullet",
+                                    "order": 9,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-8_2_9",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "chase walls",
+                                    "type": "bullet",
+                                    "order": 10,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_10",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_9"
+                                },
+                                {
+                                    "text": "D-stud walls",
+                                    "type": "bullet",
+                                    "order": 11,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_11",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_9"
+                                },
+                                {
+                                    "text": "exterior walls",
+                                    "type": "bullet",
+                                    "order": 12,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_12",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_9"
+                                },
+                                {
+                                    "text": "partition walls",
+                                    "type": "bullet",
+                                    "order": 13,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_13",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_9"
+                                },
+                                {
+                                    "text": "shaft walls",
+                                    "type": "bullet",
+                                    "order": 14,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_14",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_9"
+                                },
+                                {
+                                    "text": "staggered stud partitions",
+                                    "type": "bullet",
+                                    "order": 15,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_15",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_9"
+                                },
+                                {
+                                    "text": "load and non-load bearing timber and steel types and related acoustic systems and components",
+                                    "type": "bullet",
+                                    "order": 16,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-8_2_16",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "partitions and components:",
+                                    "type": "bullet",
+                                    "order": 17,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-8_2_17",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "column and beam",
+                                    "type": "bullet",
+                                    "order": 18,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_18",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_17"
+                                },
+                                {
+                                    "text": "exterior",
+                                    "type": "bullet",
+                                    "order": 19,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_19",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_17"
+                                },
+                                {
+                                    "text": "high performance wall",
+                                    "type": "bullet",
+                                    "order": 20,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_20",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_17"
+                                },
+                                {
+                                    "text": "inter-tenancy",
+                                    "type": "bullet",
+                                    "order": 21,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_21",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_17"
+                                },
+                                {
+                                    "text": "shaft.",
+                                    "type": "bullet",
+                                    "order": 22,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-8_2_22",
+                                    "parent_bullet_item_id": "range_statement_cell-8_2_17"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Ceilings include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-9_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "direct fix, furred and suspended ceilings",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-9_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "impact of excessive moisture on fire-rated ceiling materials",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-9_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "methods of ensuring compliance with incipient spread of fire requirements.",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-9_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Openings include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-10_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "fire doors (steel and timber framed)",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-10_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "local strengthening of walls",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-10_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "rating and fitting of windows hatches and appropriate glass",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-10_2_3",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "treatment of door heads",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-10_2_4",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "types of fire doors, which may include single hinged, double hinged and sliding",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-10_2_5",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "types of fire-rated glass, which may include glaze, borosilicate drawn and heat-treated, clear ceramic and wire glass",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-10_2_6",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "types of hatches, which may include those tested for vertical or horizontal positioning.",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-10_2_7",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Penetrations:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-11_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "services include:",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-11_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "ducts for power and heating or cooling systems",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_2",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_1"
+                                },
+                                {
+                                    "text": "metal and polyvinyl chloride (PVC) plumbing in groups or singles",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_3",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_1"
+                                },
+                                {
+                                    "text": "power outlets",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_4",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_1"
+                                },
+                                {
+                                    "text": "types of service penetrations include:",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-11_2_5",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "baffles",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_6",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_5"
+                                },
+                                {
+                                    "text": "encasement/enclosures and blocking systems",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_7",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_5"
+                                },
+                                {
+                                    "text": "fire-rated box",
+                                    "type": "bullet",
+                                    "order": 8,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_8",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_5"
+                                },
+                                {
+                                    "text": "springs",
+                                    "type": "bullet",
+                                    "order": 9,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_9",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_5"
+                                },
+                                {
+                                    "text": "system integrity maintenance includes:",
+                                    "type": "bullet",
+                                    "order": 10,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-11_2_10",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "board",
+                                    "type": "bullet",
+                                    "order": 11,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_11",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_10"
+                                },
+                                {
+                                    "text": "collars",
+                                    "type": "bullet",
+                                    "order": 12,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_12",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_10"
+                                },
+                                {
+                                    "text": "impregnated foams",
+                                    "type": "bullet",
+                                    "order": 13,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_13",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_10"
+                                },
+                                {
+                                    "text": "mastic",
+                                    "type": "bullet",
+                                    "order": 14,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_14",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_10"
+                                },
+                                {
+                                    "text": "mortar",
+                                    "type": "bullet",
+                                    "order": 15,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_15",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_10"
+                                },
+                                {
+                                    "text": "pillows",
+                                    "type": "bullet",
+                                    "order": 16,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_16",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_10"
+                                },
+                                {
+                                    "text": "use of tested and approved intumescent seals.",
+                                    "type": "bullet",
+                                    "order": 17,
+                                    "indent": 1,
+                                    "item_id": "range_statement_cell-11_2_17",
+                                    "parent_bullet_item_id": "range_statement_cell-11_2_10"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Other special needs include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-12_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "fire escape systems, including escalators, fire tunnels and stairways",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-12_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "fire-rated air handling systems, including fire dampers, direct protection and insulation",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-12_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "fire-rated structural member encasement, which may be timber, steel or concrete and may be void or require filling.",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-12_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Fasteners include:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-13_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "30mm, 40mm or 50mm D type screws",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-13_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "30mm S type screws",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-13_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "30mm and 40mm L type screws",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-13_2_3",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "30mm and 45mm W type screws",
+                                    "type": "bullet",
+                                    "order": 4,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-13_2_4",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "30 mm, 40 mm, 50mm or 60mm plasterboard nails",
+                                    "type": "bullet",
+                                    "order": 5,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-13_2_5",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "metal masonry anchors",
+                                    "type": "bullet",
+                                    "order": 6,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-13_2_6",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "wafer head screws.",
+                                    "type": "bullet",
+                                    "order": 7,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-13_2_7",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Appropriate authority includes:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "range_statement_cell-14_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "statutory/regulatory authorities, including federal, state and local authorities administering the applicable Acts, regulations and codes of practice.",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "range_statement_cell-14_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "RANGE STATEMENT",
+                    "Column 2"
+                ]
+            },
+            "title": "Range Statement"
+        },
+        {
+            "key": "unit_sectors",
+            "items": [
+                {
+                    "text": "Unit sector",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sectors-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Construction",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "unit_sectors-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Unit Sector(s)"
+        },
+        {
+            "key": "sys_description",
+            "items": [
+                {
+                    "text": "Co-requisite units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "sys_description-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Nil",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "sys_description-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 13,
+            "table": null,
+            "title": "<SYS_DESCRIPTION>"
+        }
+    ]
+}

@@ -1,0 +1,634 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "BSB\\BSBCMM412_Complete_R2.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 2",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with the Business Services Training Package Version 8.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Correction to Performance Criteria 1.6.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with BSB Business Services Training Package Version 7.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must demonstrate the ability to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including evidence of the ability to:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "lead at least two difficult conversations in the workplace.",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "In the course of the above, the candidate must:",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "adapt delivery style and tone according to the mood of the conversation",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "understand and react to relevant personnel using conviction and empathy.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate knowledge to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "legislation, standards and codes of practice relating to workplace communication",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "workplace policies and procedures relevant to communication",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "communication styles",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "delivery styles, tones and techniques of communication, including:",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "verbal and non-verbal communication",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "conviction and empathy",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "common support services.",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills in this unit must be demonstrated in a workplace or simulated environment where the conditions are typical of those in a working environment in this industry. This includes access to:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "workplace documentation and resources relevant to performance evidence.",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "Assessors of this unit must satisfy the requirements for assessors in applicable vocational education and training legislation, frameworks and/or standards.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Assessment Conditions"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=11ef6853-ceed-4ba7-9d87-4da407e23c10",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to prepare, facilitate and lead difficult conversations.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The unit applies to individuals who may work as managers and leaders, and are required to lead difficult conversations in the workplace. They contribute well developed verbal and relationship building skills in having difficult conversations.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Social Competence – Verbal Communication",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 8,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify conversational requirements"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Identify, gather and develop materials required for the conversation according to organisational policies and procedures"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Organise the logistics and stakeholders required for the conversation"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Seek feedback from relevant personnel on conversational content"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Review conversational content and make changes according to feedback received"
+                            },
+                            {
+                                "id": "criteria-1_6",
+                                "text": "1.6 Select delivery style according to conversational context and stakeholder requirements"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Prepare for conversation"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Undertake conversation with relevant stakeholders"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Provide opportunity for stakeholder input"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Confirm relevant stakeholders understand conversation and outcomes"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Document relevant points of conversation"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Refer stakeholders to relevant support services, as required"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Facilitate difficult conversation"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Evaluate own effectiveness in the conversation"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Seek and respond to feedback from relevant personnel on personal performance"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Identify areas of improvement for undertaking difficult conversations according to feedback received"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Follow up and review conversation"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "This section describes those language, literacy, numeracy and employment skills that are essential to performance but not explicit in the performance criteria.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Reading",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Reviews and analyses documents to identify information relevant to a specific conversation",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Writing",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Develops material to convey ideas and information to target audience in an engaging way",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Oral Communication",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Presents information using words and non-verbal features appropriate to the audience and context",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Planning and organising",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Takes responsibility for planning, sequencing and prioritising tasks and own workload to achieve outcomes",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Initiative and enterprise",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-5_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Demonstrates sophisticated control over oral, visual and written formats, drawing on a range of communication practices to achieve goals",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-5_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Technology",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-6_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Uses the main features and functions of digital tools to complete work tasks",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-6_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Problem solving",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-7_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Recognises the need to alter personal communication style in response to the needs and expectations of others",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-7_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Interprets audience reactions and changes words and non-verbal features accordingly",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-7_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Uses feedback from others, and analytical and lateral thinking to review current practices and develop new ideas",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-7_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 2,
+                "columns": [
+                    "Skill",
+                    "Description"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "No equivalent unit. New unit.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Unit Mapping Information"
+        }
+    ]
+}

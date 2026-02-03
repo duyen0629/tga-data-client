@@ -1,0 +1,1881 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CHC\\CHCFIN007_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to analyse and use technical information to assist individuals to understand their rights and make informed decisions about financial and other issues in the context of a strengths-based and client-focused financial counselling model.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to financial counsellors who work in agencies that meet the requirements for the Australian Securities and Investments Commission (ASIC) exemptions from holding a financial services or credit licence.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills in this unit must be applied in accordance with Commonwealth and State or Territory legislation, Australian Standards and industry codes of practice.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No occupational licensing, certification or specific legislative requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Nil",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "competency_field",
+            "items": [
+                {
+                    "text": "Financial Counselling",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "competency_field-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Competency Field"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Community Services",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 6,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Assess the validity and status of each debt."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Assess the client's financial capacity to pay valid debts."
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Assess the impact of any debt recovery processes on the client."
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Work with client to assess highest priority debts or most significant financial stresses."
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Identify complex financial issues that are systemic."
+                            },
+                            {
+                                "id": "criteria-1_6",
+                                "text": "1.6 Discuss identified legal and consumer protection issues to highlight key areas that may require action."
+                            },
+                            {
+                                "id": "criteria-1_7",
+                                "text": "1.7 Assess if the client needs information, advice, referral or representation."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Assess client’s financial position."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Respond to any identified risks."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Share relevant information with client about any identified risks and their relationships with finances."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Adjust practice to mitigate personal and financial risks identified."
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Provide relevant referral information and support if required by the client."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Respond to any complex needs."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Identify and inform client of potential for additional or different income sources or entitlements to improve their financial situation."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Identify and discuss client’s legal rights and responsibilities in relation to each debt and overall financial situation."
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Apply relevant legislation, regulation, codes and guidelines to client situation."
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Provide advice to the client by assessing the consequences of workable strategies."
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Adjust practice to respond to clients with complex needs."
+                            },
+                            {
+                                "id": "criteria-3_6",
+                                "text": "3.6 Identify the need for additional support services and refer the client with their consent when necessary."
+                            },
+                            {
+                                "id": "criteria-3_7",
+                                "text": "3.7 Write and maintain a case plan which identifies issues to be addressed, including financial issues or capability matters, that sets out the client and financial counsellor roles, strategies and responsibilities."
+                            },
+                            {
+                                "id": "criteria-3_8",
+                                "text": "3.8 Identify and use tools to provide advice to a client about insolvency."
+                            },
+                            {
+                                "id": "criteria-3_9",
+                                "text": "3.9 Develop actions for the client."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Counsel and give advice to client."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Communicate information in a manner that responds to the emotional state of the client."
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Observe boundaries with clients."
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Maintain a transparent and collaborative working relationship with the client based on respect and self-determination."
+                            },
+                            {
+                                "id": "criteria-4_4",
+                                "text": "4.4 Implement self-care processes to manage trauma related to client experience."
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Use a strengths-based approach."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-5_1",
+                                "text": "5.1 Explain what is involved if the financial counsellor will be acting for the client."
+                            },
+                            {
+                                "id": "criteria-5_2",
+                                "text": "5.2 Work with the client to identify areas where they want to take action."
+                            },
+                            {
+                                "id": "criteria-5_3",
+                                "text": "5.3 Obtain a third-party authority to act for the client using principles of informed consent."
+                            },
+                            {
+                                "id": "criteria-5_4",
+                                "text": "5.4 Collect and use appropriate documentation required to represent the client."
+                            },
+                            {
+                                "id": "criteria-5_5",
+                                "text": "5.5 Identify, use and adapt standard financial counselling sector tools and templates."
+                            },
+                            {
+                                "id": "criteria-5_6",
+                                "text": "5.6 Apply appropriate negotiation tools and techniques with creditors, government agencies and others to agree arrangements on behalf of the client to improve the client's financial position."
+                            },
+                            {
+                                "id": "criteria-5_7",
+                                "text": "5.7 Take action to assist the client to improve their financial position."
+                            }
+                        ],
+                        "element_id": "element-5",
+                        "element_text": "5 Act for the client."
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [],
+            "order": 7,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Foundation skills essential to performance in this unit, but not explicit in the performance criteria are listed here, along with a brief context statement.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "SKILLS",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "DESCRIPTION",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Reading skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "source and interpret information from a range of complex documents.",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Writing skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "produce written materials in the required format, style, structure according to the intended audience and purpose of correspondence.",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Oral communication skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-5_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "ask open and closed questions to gather and confirm information from interviewee",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-5_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "participate in a variety of spoken exchanges with others using clear and direct language to convey, request and confirm understanding of information.",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-5_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Numeracy skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-6_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "access and interpret required information from familiar and unfamiliar financial reports.",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-6_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Problem-solving skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-7_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "identify and analyse discrepancies in information gathered",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-7_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "develop and implement integrated service plans to address individual needs in meeting goals.",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-7_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Planning and organising skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-8_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "draw on the diverse perspectives of others to gain insights into issues, establish a common purpose and negotiate agreement.",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-8_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Technology skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-9_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "use main features and functions of technology and software programs to complete work tasks.",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-9_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and is not equivalent to CHCFIN002 Identify and apply technical information to assist clients with financial issues.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=5e0c25cc-3d9d-4b43-80d3-bd22cc4f1e53",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence of the ability to complete tasks outlined in elements and performance criteria of this unit in the context of the job role, and:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "provide financial counselling session for at least five clients with multiple and complex needs according to organisational practice",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "for each the above clients create an action plan according to organisational requirements including:",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "confirm client’s financial situation",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "prioritised list of debts and debt recovery processes",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "complete list of all sources of income",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "identify applicable legal and consumer protection rights",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "document client agreed actions",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "document agency agreed actions",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "performance_evidence-9",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "obtain informed consent to act on behalf of the client",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "performance_evidence-10",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "document communications with any third party",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "performance_evidence-11",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "document plan",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "performance_evidence-12",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "for one of the above five clients, document a plan for an insolvent client including outlining their responsibilities and implications",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "performance_evidence-13",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "across the above five clients, collectively provide representation in each of the following mediums:",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 0,
+                    "item_id": "performance_evidence-14",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "telephone",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "performance_evidence-15",
+                    "parent_bullet_item_id": "performance_evidence-14"
+                },
+                {
+                    "text": "written complaint to Internal Dispute Resolution",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "performance_evidence-16",
+                    "parent_bullet_item_id": "performance_evidence-14"
+                },
+                {
+                    "text": "written complaint to External Dispute Resolution",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 1,
+                    "item_id": "performance_evidence-17",
+                    "parent_bullet_item_id": "performance_evidence-14"
+                },
+                {
+                    "text": "perform the activities outlined in the performance criteria of this unit during a period of 220 hours of work in a financial counselling agency that has met the requirements for the Australian Securities and Investments Commission (ASIC) exemptions from holding a financial services or credit licence or in an appropriate simulated environment. These 220 hours may be applied collectively across all units of competency that include the requirement for workplace hours for the purposes of assessment.",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 0,
+                    "item_id": "performance_evidence-18",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "Demonstrated knowledge required to complete the tasks outlined in elements and performance criteria of this unit:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "financial counselling role, including:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "giving advice to clients in the financial counselling context",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "representing clients and acting on the client’s behalf",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "duty to act in their client’s best interests",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "ethical obligations, including as set out in the Australian Financial Counselling Code of Ethical Practice",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "having expertise in financial difficulty and a range of areas relating to financial difficulty",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "financial counsellors are not:",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "financial planners or accountants",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "providers of emergency relief and material aid",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "finance brokers",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "legal advisors or solicitors",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "therapeutic counsellors",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "business advisors",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "tax agent",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-8"
+                },
+                {
+                    "text": "types of debt and their features, including:",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "secured and unsecured",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "unsecured credit products including credit cards, personal loans, Buy Now, Pay Later (BNPL), wage advance, Small Amount Credit Contracts (SACCs) and Medium Amount Credit Contracts (MACCs)",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "consumer leases",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "fringe lenders or predatory lenders",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-20",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "joint relationship debts",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-21",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "guarantors and co-borrowers",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-22",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "tax debts",
+                    "type": "bullet",
+                    "order": 23,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-23",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "fines and infringements",
+                    "type": "bullet",
+                    "order": 24,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-24",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "government related debts",
+                    "type": "bullet",
+                    "order": 25,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-25",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "indicators of client situations that require adjustments to practice:",
+                    "type": "bullet",
+                    "order": 26,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-26",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "problem gambling",
+                    "type": "bullet",
+                    "order": 27,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-27",
+                    "parent_bullet_item_id": "knowledge_evidence-26"
+                },
+                {
+                    "text": "domestic and family violence",
+                    "type": "bullet",
+                    "order": 28,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-28",
+                    "parent_bullet_item_id": "knowledge_evidence-26"
+                },
+                {
+                    "text": "alcohol, drugs and substance abuse",
+                    "type": "bullet",
+                    "order": 29,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-29",
+                    "parent_bullet_item_id": "knowledge_evidence-26"
+                },
+                {
+                    "text": "elder abuse",
+                    "type": "bullet",
+                    "order": 30,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-30",
+                    "parent_bullet_item_id": "knowledge_evidence-26"
+                },
+                {
+                    "text": "mental Illness",
+                    "type": "bullet",
+                    "order": 31,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-31",
+                    "parent_bullet_item_id": "knowledge_evidence-26"
+                },
+                {
+                    "text": "other factors",
+                    "type": "bullet",
+                    "order": 32,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-32",
+                    "parent_bullet_item_id": "knowledge_evidence-26"
+                },
+                {
+                    "text": "adjustments to practice to prevent further harm to client for:",
+                    "type": "bullet",
+                    "order": 33,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-33",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "problem gambling",
+                    "type": "bullet",
+                    "order": 34,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-34",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "domestic and family violence",
+                    "type": "bullet",
+                    "order": 35,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-35",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "alcohol, drugs and substance abuse",
+                    "type": "bullet",
+                    "order": 36,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-36",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "elder abuse",
+                    "type": "bullet",
+                    "order": 37,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-37",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "mental Illness",
+                    "type": "bullet",
+                    "order": 38,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-38",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "other factors",
+                    "type": "bullet",
+                    "order": 39,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-39",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "referral pathways for high-risk aspects of client situations:",
+                    "type": "bullet",
+                    "order": 40,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-40",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "problem gambling",
+                    "type": "bullet",
+                    "order": 41,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-41",
+                    "parent_bullet_item_id": "knowledge_evidence-40"
+                },
+                {
+                    "text": "domestic and family violence",
+                    "type": "bullet",
+                    "order": 42,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-42",
+                    "parent_bullet_item_id": "knowledge_evidence-40"
+                },
+                {
+                    "text": "alcohol, drugs and substance abuse",
+                    "type": "bullet",
+                    "order": 43,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-43",
+                    "parent_bullet_item_id": "knowledge_evidence-40"
+                },
+                {
+                    "text": "elder abuse",
+                    "type": "bullet",
+                    "order": 44,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-44",
+                    "parent_bullet_item_id": "knowledge_evidence-40"
+                },
+                {
+                    "text": "mental Illness",
+                    "type": "bullet",
+                    "order": 45,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-45",
+                    "parent_bullet_item_id": "knowledge_evidence-40"
+                },
+                {
+                    "text": "other factors",
+                    "type": "bullet",
+                    "order": 46,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-46",
+                    "parent_bullet_item_id": "knowledge_evidence-40"
+                },
+                {
+                    "text": "tools for collecting financial information:",
+                    "type": "bullet",
+                    "order": 47,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-47",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "statement of financial position",
+                    "type": "bullet",
+                    "order": 48,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-48",
+                    "parent_bullet_item_id": "knowledge_evidence-47"
+                },
+                {
+                    "text": "complex needs assessment",
+                    "type": "bullet",
+                    "order": 49,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-49",
+                    "parent_bullet_item_id": "knowledge_evidence-47"
+                },
+                {
+                    "text": "financial position statements for small business",
+                    "type": "bullet",
+                    "order": 50,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-50",
+                    "parent_bullet_item_id": "knowledge_evidence-47"
+                },
+                {
+                    "text": "assets and liabilities",
+                    "type": "bullet",
+                    "order": 51,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-51",
+                    "parent_bullet_item_id": "knowledge_evidence-47"
+                },
+                {
+                    "text": "tools to use in providing advice:",
+                    "type": "bullet",
+                    "order": 52,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-52",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "online tools for accessing grants or concessions",
+                    "type": "bullet",
+                    "order": 53,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-53",
+                    "parent_bullet_item_id": "knowledge_evidence-52"
+                },
+                {
+                    "text": "use of standard letters",
+                    "type": "bullet",
+                    "order": 54,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-54",
+                    "parent_bullet_item_id": "knowledge_evidence-52"
+                },
+                {
+                    "text": "strengths based perspectives:",
+                    "type": "bullet",
+                    "order": 55,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-55",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "transparency",
+                    "type": "bullet",
+                    "order": 56,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-56",
+                    "parent_bullet_item_id": "knowledge_evidence-55"
+                },
+                {
+                    "text": "collaborative",
+                    "type": "bullet",
+                    "order": 57,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-57",
+                    "parent_bullet_item_id": "knowledge_evidence-55"
+                },
+                {
+                    "text": "partnerships",
+                    "type": "bullet",
+                    "order": 58,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-58",
+                    "parent_bullet_item_id": "knowledge_evidence-55"
+                },
+                {
+                    "text": "social justice",
+                    "type": "bullet",
+                    "order": 59,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-59",
+                    "parent_bullet_item_id": "knowledge_evidence-55"
+                },
+                {
+                    "text": "power with, not over respect",
+                    "type": "bullet",
+                    "order": 60,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-60",
+                    "parent_bullet_item_id": "knowledge_evidence-55"
+                },
+                {
+                    "text": "focus on capabilities",
+                    "type": "bullet",
+                    "order": 61,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-61",
+                    "parent_bullet_item_id": "knowledge_evidence-55"
+                },
+                {
+                    "text": "self determination",
+                    "type": "bullet",
+                    "order": 62,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-62",
+                    "parent_bullet_item_id": "knowledge_evidence-55"
+                },
+                {
+                    "text": "personal insolvency options:",
+                    "type": "bullet",
+                    "order": 63,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-63",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "bankruptcy:",
+                    "type": "bullet",
+                    "order": 64,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-64",
+                    "parent_bullet_item_id": "knowledge_evidence-63"
+                },
+                {
+                    "text": "what it is",
+                    "type": "bullet",
+                    "order": 65,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-65",
+                    "parent_bullet_item_id": "knowledge_evidence-64"
+                },
+                {
+                    "text": "advantages, disadvantages and implications",
+                    "type": "bullet",
+                    "order": 66,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-66",
+                    "parent_bullet_item_id": "knowledge_evidence-64"
+                },
+                {
+                    "text": "application process",
+                    "type": "bullet",
+                    "order": 67,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-67",
+                    "parent_bullet_item_id": "knowledge_evidence-64"
+                },
+                {
+                    "text": "debt agreements",
+                    "type": "bullet",
+                    "order": 68,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-68",
+                    "parent_bullet_item_id": "knowledge_evidence-63"
+                },
+                {
+                    "text": "part X arrangements",
+                    "type": "bullet",
+                    "order": 69,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-69",
+                    "parent_bullet_item_id": "knowledge_evidence-63"
+                },
+                {
+                    "text": "National and State or Territory legislation, codes of practice and guidelines including but not limited to:",
+                    "type": "bullet",
+                    "order": 70,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-70",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "consumer protection laws, regulatory guidance and industry codes affecting consumers and small business",
+                    "type": "bullet",
+                    "order": 71,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-71",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "National Consumer Credit Protection Act 2009 (particularly Schedule 1, National Credit Code and the provisions relating to responsible lending, hardship requirements)",
+                    "type": "bullet",
+                    "order": 72,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-72",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "Competition and Consumer Act 2010 (particularly Schedule 2, The Australian Consumer Law)",
+                    "type": "bullet",
+                    "order": 73,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-73",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "State or Territory Fair Trading Acts",
+                    "type": "bullet",
+                    "order": 74,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-74",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "social security law",
+                    "type": "bullet",
+                    "order": 75,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-75",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "taxation law",
+                    "type": "bullet",
+                    "order": 76,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-76",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "Privacy Act and credit reporting code",
+                    "type": "bullet",
+                    "order": 77,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-77",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "Bankruptcy Act 1966",
+                    "type": "bullet",
+                    "order": 78,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-78",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "ASIC regulatory guides, ASIC/ACCC debt collection guidelines",
+                    "type": "bullet",
+                    "order": 79,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-79",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "Banking Code of Practice, Customer Owned Banking Code of Practice, Telecommunications Consumer Protection Code, energy codes, BNPL Code",
+                    "type": "bullet",
+                    "order": 80,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-80",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "Open data and the consumer data right",
+                    "type": "bullet",
+                    "order": 81,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-81",
+                    "parent_bullet_item_id": "knowledge_evidence-70"
+                },
+                {
+                    "text": "income sources such as:",
+                    "type": "bullet",
+                    "order": 82,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-82",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "wages and salary",
+                    "type": "bullet",
+                    "order": 83,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-83",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "Centrelink",
+                    "type": "bullet",
+                    "order": 84,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-84",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "child support",
+                    "type": "bullet",
+                    "order": 85,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-85",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "rental or board",
+                    "type": "bullet",
+                    "order": 86,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-86",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "superannuation income stream or lump sum",
+                    "type": "bullet",
+                    "order": 87,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-87",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "insurance payments including Total and Permanent Disability (TPD) and income protection",
+                    "type": "bullet",
+                    "order": 88,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-88",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "business income",
+                    "type": "bullet",
+                    "order": 89,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-89",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "compensation including workers compensation, injury and accident",
+                    "type": "bullet",
+                    "order": 90,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-90",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "other income sources",
+                    "type": "bullet",
+                    "order": 91,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-91",
+                    "parent_bullet_item_id": "knowledge_evidence-82"
+                },
+                {
+                    "text": "relevant client documents, hard copy or online, such as:",
+                    "type": "bullet",
+                    "order": 92,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-92",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "income statements including Centrelink",
+                    "type": "bullet",
+                    "order": 93,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-93",
+                    "parent_bullet_item_id": "knowledge_evidence-92"
+                },
+                {
+                    "text": "liability and debt statements",
+                    "type": "bullet",
+                    "order": 94,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-94",
+                    "parent_bullet_item_id": "knowledge_evidence-92"
+                },
+                {
+                    "text": "legal documents and contracts",
+                    "type": "bullet",
+                    "order": 95,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-95",
+                    "parent_bullet_item_id": "knowledge_evidence-92"
+                },
+                {
+                    "text": "bills",
+                    "type": "bullet",
+                    "order": 96,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-96",
+                    "parent_bullet_item_id": "knowledge_evidence-92"
+                },
+                {
+                    "text": "specific legislation impacting financial counselling, including:",
+                    "type": "bullet",
+                    "order": 97,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-97",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "ASIC class order 11/792 re exemption from an Australian Financial Service Licence and how this applies to the work of generalist financial counsellors and their agencies",
+                    "type": "bullet",
+                    "order": 98,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-98",
+                    "parent_bullet_item_id": "knowledge_evidence-97"
+                },
+                {
+                    "text": "ASIC class order 11/793 re exemption from an Australian Credit Licence and how this applies to all financial counsellors and their agencies",
+                    "type": "bullet",
+                    "order": 99,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-99",
+                    "parent_bullet_item_id": "knowledge_evidence-97"
+                },
+                {
+                    "text": "claims management exemption for financial counsellors that are members of their State or Territory financial counselling association",
+                    "type": "bullet",
+                    "order": 100,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-100",
+                    "parent_bullet_item_id": "knowledge_evidence-97"
+                },
+                {
+                    "text": "aspects of informed consent including:",
+                    "type": "bullet",
+                    "order": 101,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-101",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "privacy statement",
+                    "type": "bullet",
+                    "order": 102,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-102",
+                    "parent_bullet_item_id": "knowledge_evidence-101"
+                },
+                {
+                    "text": "checking for understanding",
+                    "type": "bullet",
+                    "order": 103,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-103",
+                    "parent_bullet_item_id": "knowledge_evidence-101"
+                },
+                {
+                    "text": "varying or ending agreement",
+                    "type": "bullet",
+                    "order": 104,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-104",
+                    "parent_bullet_item_id": "knowledge_evidence-101"
+                },
+                {
+                    "text": "rights and responsibilities of workers, employers and clients",
+                    "type": "bullet",
+                    "order": 105,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-105",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "expenditure support relating to:",
+                    "type": "bullet",
+                    "order": 106,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-106",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "utilities",
+                    "type": "bullet",
+                    "order": 107,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-107",
+                    "parent_bullet_item_id": "knowledge_evidence-106"
+                },
+                {
+                    "text": "housing",
+                    "type": "bullet",
+                    "order": 108,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-108",
+                    "parent_bullet_item_id": "knowledge_evidence-106"
+                },
+                {
+                    "text": "cost of living",
+                    "type": "bullet",
+                    "order": 109,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-109",
+                    "parent_bullet_item_id": "knowledge_evidence-106"
+                },
+                {
+                    "text": "emergency relief and other assistance",
+                    "type": "bullet",
+                    "order": 110,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-110",
+                    "parent_bullet_item_id": "knowledge_evidence-106"
+                },
+                {
+                    "text": "actions that may assist the client to improve their financial position:",
+                    "type": "bullet",
+                    "order": 111,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-111",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "debt waivers",
+                    "type": "bullet",
+                    "order": 112,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-112",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "hardship arrangements under the credit code or informal arrangements",
+                    "type": "bullet",
+                    "order": 113,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-113",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "hardship arrangements for non-credit code debts or bills",
+                    "type": "bullet",
+                    "order": 114,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-114",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "Internal Dispute Resolution (IDR) and External Dispute Resolution (EDR)",
+                    "type": "bullet",
+                    "order": 115,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-115",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "bankruptcy and debt agreements",
+                    "type": "bullet",
+                    "order": 116,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-116",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "early access to superannuation",
+                    "type": "bullet",
+                    "order": 117,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-117",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "accessing insurances such as TPD, income protection",
+                    "type": "bullet",
+                    "order": 118,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-118",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "insurance claims for contents or property",
+                    "type": "bullet",
+                    "order": 119,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-119",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "amending a credit report",
+                    "type": "bullet",
+                    "order": 120,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-120",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "challenging an unfair contract term",
+                    "type": "bullet",
+                    "order": 121,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-121",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "legal action through courts or tribunals",
+                    "type": "bullet",
+                    "order": 122,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-122",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "appealing against adverse decisions from Centrelink and Child Support",
+                    "type": "bullet",
+                    "order": 123,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-123",
+                    "parent_bullet_item_id": "knowledge_evidence-111"
+                },
+                {
+                    "text": "representing the client including:",
+                    "type": "bullet",
+                    "order": 124,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-124",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "what is involved",
+                    "type": "bullet",
+                    "order": 125,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-125",
+                    "parent_bullet_item_id": "knowledge_evidence-124"
+                },
+                {
+                    "text": "roles and responsibilities",
+                    "type": "bullet",
+                    "order": 126,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-126",
+                    "parent_bullet_item_id": "knowledge_evidence-124"
+                },
+                {
+                    "text": "third party authority form",
+                    "type": "bullet",
+                    "order": 127,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-127",
+                    "parent_bullet_item_id": "knowledge_evidence-124"
+                },
+                {
+                    "text": "continuing input and instructions from the client",
+                    "type": "bullet",
+                    "order": 128,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-128",
+                    "parent_bullet_item_id": "knowledge_evidence-124"
+                },
+                {
+                    "text": "document the issues where the financial counsellor will be representing the client",
+                    "type": "bullet",
+                    "order": 129,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-129",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "key sources of information and resources including:",
+                    "type": "bullet",
+                    "order": 130,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-130",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "National Debt Helpline (NDH) website",
+                    "type": "bullet",
+                    "order": 131,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-131",
+                    "parent_bullet_item_id": "knowledge_evidence-130"
+                },
+                {
+                    "text": "State peak body resources",
+                    "type": "bullet",
+                    "order": 132,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-132",
+                    "parent_bullet_item_id": "knowledge_evidence-130"
+                },
+                {
+                    "text": "tools and techniques for negotiating with creditors or making complaints:",
+                    "type": "bullet",
+                    "order": 133,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-133",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "communication including both written and verbal",
+                    "type": "bullet",
+                    "order": 134,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-134",
+                    "parent_bullet_item_id": "knowledge_evidence-133"
+                },
+                {
+                    "text": "how to best present your client’s case, including the evidence required",
+                    "type": "bullet",
+                    "order": 135,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-135",
+                    "parent_bullet_item_id": "knowledge_evidence-133"
+                },
+                {
+                    "text": "standard letters and resources developed by the financial counselling sector or legal centres.",
+                    "type": "bullet",
+                    "order": 136,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-136",
+                    "parent_bullet_item_id": "knowledge_evidence-133"
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills must be demonstrated in the workplace or a simulated workplace environment. Where a simulated environment is used for the purposes of assessment, simulations and scenarios must be included that provide the full range of context and situations that would occur in the workplace.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must ensure access to:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "suitable facilities, equipment and resources, including:",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "client information",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-3"
+                },
+                {
+                    "text": "organisational policies, procedures and resources",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-3"
+                },
+                {
+                    "text": "interactions with clients",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-3"
+                },
+                {
+                    "text": "where necessary - scenarios and case studies that that involve complex financial situations and problem solving",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-3"
+                },
+                {
+                    "text": "interaction with other people.",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-3"
+                },
+                {
+                    "text": "Assessors must satisfy the Standards for Registered Training Organisations’ requirements for assessors.",
+                    "type": "paragraph",
+                    "order": 9,
+                    "indent": null,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

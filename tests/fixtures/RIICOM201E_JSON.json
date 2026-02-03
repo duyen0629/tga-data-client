@@ -1,0 +1,904 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "RII\\RIICOM201E_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 5.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to communicate in the workplace in the resources and infrastructure industries and other industries with relevant work practices and procedures.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "It applies to those working in operational roles. They generally work under supervision to undertake a prescribed range of functions involving known routines and procedures and take some responsibility for the quality of own work outcomes.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 3,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Obtain, interpret and confirm work requirements"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Access, interpret and apply documentation and procedures"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify and access communication equipment and system components"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Establish and maintain communication with others"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Access and apply communication equipment and systems safety procedures"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Plan and prepare for workplace communication using equipment and systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Identify and select the most appropriate method of communication"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Use communication equipment and systems"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Acknowledge and respond to communication"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Pass on communications to others in a clear and concise manner"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Follow safety procedures, including the passing of reports and observance of local communications and emergency procedures"
+                            },
+                            {
+                                "id": "criteria-2_6",
+                                "text": "2.6 Identify and report faults in communication equipment"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Communicate using communication equipment and systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Speak clearly and listen carefully to promote understanding"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Ask questions of the audience and confirm meaning of information"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Maintain communication processes with others to assist flow of work activities"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Use site approved signalling methods to convey information"
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Participate in discussion to obtain information and clarify meaning"
+                            },
+                            {
+                                "id": "criteria-3_6",
+                                "text": "3.6 Communicate cooperatively and effectively with others"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Carry out face-to-face routine communication"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Complete written documentation clearly, concisely and on time"
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Use approved documents according to workplace procedures"
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Pass on written information to others"
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Complete written documentation"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "This section describes those language, literacy, numeracy and employment skills that are essential to performance but not explicit in the performance criteria.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Writing",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Produces and completes written documents required for workplace procedures",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Self-management",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Monitors and minimises own exposure to worksite risks and hazards during activities",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 2,
+                "columns": [
+                    "SKILL",
+                    "DESCRIPTION"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and is equivalent to RIICOM201D Communicate in the workplace.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must demonstrate the ability to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including evidence of the ability to:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "communicate in the workplace on at least two occasions, including:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "identifying communication strategies and systems",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "operating communications systems and equipment to convey meaning to others",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "communicating clearly and promptly to others to convey information and meaning",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "listening carefully to instructions and information",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "participating in group discussions and engage with group members respectfully",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "asking questions to clarify meaning",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "communicating concisely both written and verbally",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "performance_evidence-9",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "interpreting communications devices",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "performance_evidence-10",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "identifying and reporting communication faults and deficiencies.",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "performance_evidence-11",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate knowledge to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "key policies, procedures and documentation required to communicate in the workplace, including:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "work health and safety procedures",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "emergency communication procedures.",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "communication systems and equipment types, characteristics, technical capabilities and limitations, including:",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "safety requirements",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "common faults",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "maintenance records.",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "key communications devices, including:",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "flags",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "lights",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "signs",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "bells",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "whistles",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "alarms",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                },
+                {
+                    "text": "sirens.",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-9"
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Mandatory conditions for assessment of this unit are stipulated below. The assessment must:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "include access to:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "personal protective equipment",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "equipment related to communicating in the workplace",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "relevant documentation",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "be conducted in a safe environment; and,",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "be assessed in the context of this sector's work environment; and,",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "be assessed in compliance with relevant legislation/regulation and using policies, procedures and processes directly related to the industry sector for which it is being assessed; and,",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "confirm consistent performance can be applied in a range of relevant workplace circumstances.",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "Where personal safety or environmental damage are limiting factors, assessment may occur in a simulated work environment* provided it is realistic and sufficiently rigorous to cover all aspects of this sector’s workplace performance, including environment, task skills, task management skills, contingency management skills and job role environment skills.",
+                    "type": "paragraph",
+                    "order": 10,
+                    "indent": null,
+                    "item_id": "assessment_conditions-10",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessor requirements",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 2,
+                    "item_id": "assessment_conditions-11",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessors must be able to clearly demonstrate current and relevant industry knowledge and experience to satisfy the mandatory regulatory standards as set out in the Standards for Registered Training Organisations (RTOs) 2015/Australian Quality Training Framework mandatory requirements for assessors current at the time of assessment and any relevant licensing and certification requirements. This includes:",
+                    "type": "paragraph",
+                    "order": 12,
+                    "indent": null,
+                    "item_id": "assessment_conditions-12",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "vocational competencies at least to the level being delivered and assessed",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-13",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "current industry skills directly relevant to the training and assessment being provided",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-14",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "current knowledge and skills in vocational training and learning that informs their training and assessment",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-15",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "formal relevant qualifications in training and assessment",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-16",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "having knowledge of and/or experience using the latest techniques and processes",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-17",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "possessing the required level of RII training product knowledge",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-18",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "having an understanding and knowledge of legislation and regulations relevant to the industry and to employment and workplaces",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-19",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "demonstrating the performance evidence, and knowledge evidence outlined in this unit of competency, and",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-20",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "the minimum years of current** work experience after competency has been obtained as specified below in an industry sector relevant to the outcomes of the unit.",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-21",
+                    "parent_bullet_item_id": "assessment_conditions-12"
+                },
+                {
+                    "text": "It is also acceptable for the appropriately qualified assessor to work with an industry expert to conduct assessment together and for the industry expert to be involved in the assessment judgement. The industry expert must have current industry skills directly relevant to the training and assessment being provided. This means the industry subject matter expert must demonstrate skills and knowledge from the minimum years of current work experience after competency has been obtained as specified below, including time spent in roles related to the unit being assessed:",
+                    "type": "paragraph",
+                    "order": 22,
+                    "indent": null,
+                    "item_id": "assessment_conditions-22",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "*Guidance on simulated environments has been stipulated in the RII implementation guide located on VETNet.",
+                    "type": "paragraph",
+                    "order": 24,
+                    "indent": null,
+                    "item_id": "assessment_conditions-24",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "**Assessors can demonstrate current work experience through employment within industry in a role relevant to the outcomes of the unit; or, for external assessors this can be demonstrated through exposure to industry by conducting a minimum number of site assessments as determined by the relevant industry sector, across various locations.",
+                    "type": "paragraph",
+                    "order": 25,
+                    "indent": null,
+                    "item_id": "assessment_conditions-25",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "*** While a unit of competency does not have an AQF level, where a unit is being delivered outside of a qualification the first numeric character in the unit code should be considered as the AQF indicator level for assessment purposes.",
+                    "type": "paragraph",
+                    "order": 26,
+                    "indent": null,
+                    "item_id": "assessment_conditions-26",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Drilling, Metalliferous Mining, Coal Mining, Extractive (Quarrying) and Civil Infrastructure",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "1 year",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-1_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Drilling, Metalliferous Mining, Coal Mining, Extractive (Quarrying) and Civil Infrastructure",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "2",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "2 years",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-2_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Drilling, Coal Mining, Extractive (Quarrying), Metalliferous Mining and Civil Infrastructure",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "3-6",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "3 years",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-3_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Other sectors",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Where this unit is being assessed outside of the resources and infrastructure sectors assessor and/or industry subject matter expert experience should be in-line with industry standards for the sector in which it is being assessed and where no industry standard is specified should comply with any relevant regulation.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    }
+                ],
+                "order": 23,
+                "columns": [
+                    "Industry sector",
+                    "AQF indicator level***",
+                    "Required assessor or industry subject matter expert experience"
+                ]
+            },
+            "title": "Assessment Conditions"
+        }
+    ]
+}

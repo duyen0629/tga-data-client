@@ -1,0 +1,818 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CHC\\CHCCOM006_Complete_R2.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 2",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version was released in CHC Community Services Training Package release 3.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Typographical error updated.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Equivalent outcome.",
+                                    "type": "paragraph",
+                                    "order": 3,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version was released in CHC Community Services Training Package release 2.0 and meets the requirements of the 2012 Standards for Training Packages.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Significant changes to performance criteria. New evidence requirements for assessment including volume and frequency requirements. Significant changes to knowledge evidence.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must show evidence of the ability to complete tasks outlined in elements and performance criteria of this unit, manage tasks and manage contingencies in the context of the job role. There must be evidence that the candidate has:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "established and managed client relationships and boundaries appropriately during the provision of services to 3 clients",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "developed responses to 3 different situations involving difficult or challenging behaviour",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate essential knowledge required to effectively complete tasks outlined in elements and performance criteria of this unit, manage the task and manage contingencies in the context of the work role. This includes knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "legal and ethical considerations for establishing and managing client relationships and how these are applied:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "privacy, confidentiality and disclosure",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "human rights",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "work role boundaries including:",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "responsibilities and limitations",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "appropriate sexual, physical and emotional boundaries",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "use of enquiry only as appropriate and necessary",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "awareness of potential client transference",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "staying within area of expertise",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "modes and techniques for effective communication, including:",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "active listening, questioning, clarifying, advising",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "empathy, trust and respect",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "appropriate verbal and non-verbal communication",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "use of communication aids",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "tone and presentation",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "role of motivational interviewing during client interactions to facilitate:",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "client support",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-17"
+                },
+                {
+                    "text": "case taking",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-17"
+                },
+                {
+                    "text": "negotiation with client",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-20",
+                    "parent_bullet_item_id": "knowledge_evidence-17"
+                },
+                {
+                    "text": "education of client",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-21",
+                    "parent_bullet_item_id": "knowledge_evidence-17"
+                },
+                {
+                    "text": "information giving",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-22",
+                    "parent_bullet_item_id": "knowledge_evidence-17"
+                },
+                {
+                    "text": "techniques for motivational interviewing:",
+                    "type": "bullet",
+                    "order": 23,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-23",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "attending skills, use of body language",
+                    "type": "bullet",
+                    "order": 24,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-24",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "paraphrasing",
+                    "type": "bullet",
+                    "order": 25,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-25",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "reflecting feelings",
+                    "type": "bullet",
+                    "order": 26,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-26",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "open and closed questioning or probing",
+                    "type": "bullet",
+                    "order": 27,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-27",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "summarising",
+                    "type": "bullet",
+                    "order": 28,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-28",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "reframing",
+                    "type": "bullet",
+                    "order": 29,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-29",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "exploring options",
+                    "type": "bullet",
+                    "order": 30,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-30",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "normalising statements",
+                    "type": "bullet",
+                    "order": 31,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-31",
+                    "parent_bullet_item_id": "knowledge_evidence-23"
+                },
+                {
+                    "text": "barriers and influences on communication and ways to respond:",
+                    "type": "bullet",
+                    "order": 32,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-32",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "language",
+                    "type": "bullet",
+                    "order": 33,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-33",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "culture",
+                    "type": "bullet",
+                    "order": 34,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-34",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "religion",
+                    "type": "bullet",
+                    "order": 35,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-35",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "emotional state",
+                    "type": "bullet",
+                    "order": 36,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-36",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "disability",
+                    "type": "bullet",
+                    "order": 37,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-37",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "health",
+                    "type": "bullet",
+                    "order": 38,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-38",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "age",
+                    "type": "bullet",
+                    "order": 39,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-39",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "presence of children and/or spouse",
+                    "type": "bullet",
+                    "order": 40,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-40",
+                    "parent_bullet_item_id": "knowledge_evidence-32"
+                },
+                {
+                    "text": "techniques for dealing with difficult communication situations:",
+                    "type": "bullet",
+                    "order": 41,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-41",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "managing emotions",
+                    "type": "bullet",
+                    "order": 42,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-42",
+                    "parent_bullet_item_id": "knowledge_evidence-41"
+                },
+                {
+                    "text": "defusing anger",
+                    "type": "bullet",
+                    "order": 43,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-43",
+                    "parent_bullet_item_id": "knowledge_evidence-41"
+                },
+                {
+                    "text": "clarifying the issues",
+                    "type": "bullet",
+                    "order": 44,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-44",
+                    "parent_bullet_item_id": "knowledge_evidence-41"
+                },
+                {
+                    "text": "maintaining composure and professional attitude",
+                    "type": "bullet",
+                    "order": 45,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-45",
+                    "parent_bullet_item_id": "knowledge_evidence-41"
+                },
+                {
+                    "text": "providing support",
+                    "type": "bullet",
+                    "order": 46,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-46",
+                    "parent_bullet_item_id": "knowledge_evidence-41"
+                },
+                {
+                    "text": "seeking assistance",
+                    "type": "bullet",
+                    "order": 47,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-47",
+                    "parent_bullet_item_id": "knowledge_evidence-41"
+                },
+                {
+                    "text": "types of information that may be provided to clients as relevant:",
+                    "type": "bullet",
+                    "order": 48,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-48",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "appointment details, directions",
+                    "type": "bullet",
+                    "order": 49,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-49",
+                    "parent_bullet_item_id": "knowledge_evidence-48"
+                },
+                {
+                    "text": "costs and payment options",
+                    "type": "bullet",
+                    "order": 50,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-50",
+                    "parent_bullet_item_id": "knowledge_evidence-48"
+                },
+                {
+                    "text": "client options, service information, referral details",
+                    "type": "bullet",
+                    "order": 51,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-51",
+                    "parent_bullet_item_id": "knowledge_evidence-48"
+                },
+                {
+                    "text": "general health and self care information",
+                    "type": "bullet",
+                    "order": 52,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-52",
+                    "parent_bullet_item_id": "knowledge_evidence-48"
+                },
+                {
+                    "text": "service provider credentials or information",
+                    "type": "bullet",
+                    "order": 53,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-53",
+                    "parent_bullet_item_id": "knowledge_evidence-48"
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills must have been demonstrated in the workplace or in a simulated environment that reflects workplace conditions. Where simulation is used, it must reflect real working conditions by modelling industry operating conditions and contingencies, as well as, using suitable facilities, equipment and resources.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessors must satisfy the Standards for Registered Training Organisations (RTOs) 2015/AQTF mandatory competency requirements for assessors.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Assessment Conditions"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=5e0c25cc-3d9d-4b43-80d3-bd22cc4f1e53",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge to establish and manage professional one-to-one relationships with clients in the context of providing an ongoing health service or intervention.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to community services or health workers who have defined responsibilities to work independently with clients within broad but established guidelines.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills in this unit must be applied in accordance with Commonwealth and State/Territory legislation, Australian/New Zealand standards and industry codes of practice.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 7,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Performance criteria specify the performance needed to demonstrate achievement of the element"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Elements define the essential outcomes"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Establish relationship within appropriate professional boundaries"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Build trust and respect through use of effective communication techniques"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify and respond to client special needs"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Communicate in ways that take account of cultural considerations"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Exercise discretion and confidentiality"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Establish professional relationship with the client"
+                    },
+                    {
+                        "criteria": [],
+                        "element_id": "element-3",
+                        "element_text": "3"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Use a collaborative and person centred approach when working with clients"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Use motivational interviewing as a basis for client interactions"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Seek client information respectfully and sensitively, using purposeful, systematic and diplomatic questions"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Support the client to identify and articulate key information that supports the provision of service"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Encourage clients to voice queries or concerns and address these appropriately"
+                            },
+                            {
+                                "id": "criteria-2_6",
+                                "text": "2.6 Respond to difficult or challenging behaviour using established techniques"
+                            },
+                            {
+                                "id": "criteria-2_7",
+                                "text": "2.7 Maintain professional integrity and boundaries at all times"
+                            },
+                            {
+                                "id": "criteria-2_8",
+                                "text": "2.8 Work within scope of role and identify and respond to situations where interactions suggest the need for client referral"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Manage client interactions"
+                    },
+                    {
+                        "criteria": [],
+                        "element_id": "element-5",
+                        "element_text": "5"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Select the most appropriate mode of communication for the information being provided"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Use language and terminology that the client will understand"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Present information clearly and with sufficient detail to meet client needs"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Confirm with client that the information has been understood and address any unresolved issues"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Provide effective responses to client enquiries"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "The Foundation Skills describe those required skills (language, literacy, numeracy and employment skills) that are essential to performance.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "foundation_skills-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "No equivalent unit.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Unit Mapping Information"
+        }
+    ]
+}

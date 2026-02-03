@@ -1,0 +1,735 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "FBP\\FBPEGG2003_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 2,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version released with FBP Food, Beverage and Pharmaceutical Training Package version 6.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit of competency describes the skills and knowledge required to grade eggs, which requires knowledge of basic egg characteristics and quality principles in egg production and packing.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to individuals who work in egg grading and packing facilities in a poultry production environment in either an operations or quality role.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "All work must be carried out to comply with workplace procedures, in accordance with state/territory health and safety and food safety regulations, legislation and standards that apply to the workplace.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Nil",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Egg (EGG)",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 5,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify key work locations and egg grading and packaging equipment on egg grading floor"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Identify grades of eggs packed by the workplace"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify trays and packaging used for all orders, and location of best before dates on trays and cartons"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Identify storage locations for packed orders prior to dispatch"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Identify safe work procedures for egg grading, including use of personal protective equipment"
+                            },
+                            {
+                                "id": "criteria-1_6",
+                                "text": "1.6 Identify workplace environmental guidelines for egg grading floor operations, including disposal of waste"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Prepare for egg grading operation"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Identify different grades of fresh eggs, including by size"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Recognise gross, hairline and star cracks, black rot, dirt and other faults in eggs"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Identify defects though the candling process"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Recognise egg grades and common egg faults"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Confirm method for egg cleaning"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Identify key risks to food safety on egg grading floor, including food safety plan and egg grading floor critical control points"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Confirm steps and locations for detecting eggs with gross defects"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Identify quality system, including sampling program and tests conducted both on and off the grading floor"
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Ensure eggs are individually stamped in line with Food Standards requirements"
+                            },
+                            {
+                                "id": "criteria-3_6",
+                                "text": "3.6 Identify and confirm steps and requirements for the packaging process, including process for printing best before date"
+                            },
+                            {
+                                "id": "criteria-3_7",
+                                "text": "3.7 Confirm temperature and humidity requirements for storing eggs"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Operate on the egg grading floor"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "This section describes those language, literacy, numeracy and employment skills that are essential for performance in this unit of competency but are not explicit in the performance criteria.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Reading",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Interpret standard operating procedures required for working on an egg grading floor",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Writing",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Record processing data using digital and/or paper-based formats",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Numeracy",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Read and monitor gauges and scales",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Identify grades of eggs by weight (g) and size (small, medium, large, extra large)",
+                                    "type": "bullet",
+                                    "order": 2,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Identify appropriate best before dates",
+                                    "type": "bullet",
+                                    "order": 3,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 2,
+                "columns": [
+                    "Skill",
+                    "Description"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [],
+            "order": 7,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "FBPEGG2003 Work on an egg grading floor",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "FBPEGG2001 Work on an egg grading floor",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Minor changes to Performance Criteria for clarity",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-1_3_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Foundation Skills refined",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-1_3_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Performance Evidence clarified",
+                                    "type": "paragraph",
+                                    "order": 3,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-1_3_3",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Minor changes to Knowledge Evidence and Assessment Conditions",
+                                    "type": "paragraph",
+                                    "order": 4,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-1_3_4",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Equivalent",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "unit_mapping_information_cell-1_4_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Code and title current version",
+                    "Code and title previous version",
+                    "Comments",
+                    "Equivalence status"
+                ]
+            },
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volumes, including Implementation Guides, are available at VETNet: - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=78b15323-cd38-483e-aad7-1159b570a5c4",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "An individual demonstrating competency must satisfy all of the elements and performance criteria in this unit.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "There must be evidence that the individual has worked on an egg grading floor to grade eggs over a period of one shift, including:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "identifying and addressing food safety risks",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "recognising eggs faults",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "ensuring eggs are stamped and washed in line with food safety standards.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "An individual must be able to demonstrate the knowledge required to perform the tasks outlined in the elements and performance criteria of this unit. This includes knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "functions of key work areas, including washing equipment, weighing and automatic fault detection equipment, lanes, denesters, backpack side, quality room and cool rooms",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "egg components and purpose, including shell, shell membranes, yolk, albumen and air cell",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "Food Standards Code requirements for eggs and egg products",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "commonalities and differences between egg grades",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "importance of early grading and packing eggs on freshness",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "purpose and methods for egg cleaning",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "the need to separate dirty/unwashed eggs from clean/washed eggs",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "key egg faults, including types of cracks, faulty colouring, faulty shapes, and blood and other inclusions, and the methods used to detect faults",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "contamination and foreign bodies likely to be present in eggs and egg products",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "food safety risks present in egg pulp and egg products, including biological, chemical, physical and allergenic risks",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "measures used to control food safety risks",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "temperature and humidity requirements for storing eggs, and effects of variation from these requirements",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "environmental issues and controls relevant to the process, including waste or rework collection and handling procedures related to the process",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "health and safety procedures for egg grading, including the use of personal protective equipment",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "workplace cleaning and sanitisation procedures relevant to the egg grading process",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "procedures to record traceability of product.",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessment of the skills in this unit of competency must take place under the following conditions:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "physical conditions:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "an egg grading and packing workplace setting or an environment that accurately represents workplace conditions",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "resources, equipment and materials:",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "personal protective equipment",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "egg washing, grading and packing equipment",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "eggs of different grades and condition, including eggs with common faults",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "specifications:",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "work procedures, including advice on safe work practices, food safety, quality and environmental requirements.",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": "assessment_conditions-8"
+                },
+                {
+                    "text": "Assessors of this unit must satisfy the requirements for assessors in applicable vocational education and training legislation, frameworks and/or standards.",
+                    "type": "paragraph",
+                    "order": 10,
+                    "indent": null,
+                    "item_id": "assessment_conditions-10",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

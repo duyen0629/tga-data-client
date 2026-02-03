@@ -1,0 +1,2961 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "WRW01\\WRWSL201A_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "unit_descriptor",
+            "items": [
+                {
+                    "text": "This unit is involves the use of sales techniques and encompasses the key direct selling skills from the initial approach by the customer or service provider to closing the sale. It requires a basic level of product knowledge.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_descriptor-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit is involves the use of sales techniques and encompasses the key direct selling skills from the initial approach by the customer or service provider to closing the sale. It requires a basic level of product knowledge",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "unit_descriptor-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Unit Descriptor"
+        },
+        {
+            "key": "application_of_the_unit",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application_of_the_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Application of the Unit"
+        },
+        {
+            "key": "licensing_regulatory_information",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "licensing_regulatory_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Licensing/Regulatory Information"
+        },
+        {
+            "key": "pre_requisites",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisites-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Pre-Requisites"
+        },
+        {
+            "key": "employability_skills_information",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "employability_skills_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Employability Skills Information"
+        },
+        {
+            "key": "elements_and_performance_criteria_pre_content",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "elements_and_performance_criteria_pre_content-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Elements and Performance Criteria Pre-Content"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 8,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Knowledge of the use and application of relevant products and services demonstrated."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Experienced sales staff or product information guide consulted to increase product knowledge."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Apply product knowledge"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Customers identified by type."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Factors influencing specific customer purchase decisions determined."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Factors influencing an individual's buying behaviour isolated and examined."
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Buying behaviours of different types of customers determined."
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Sales approaches and techniques required for different customer types determined."
+                            },
+                            {
+                                "id": "criteria-2_6",
+                                "text": "2.6 Sales techniques required for customers evidencing specific buying behaviour determined."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Identify specific customer types and behaviour"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Effective sales approaches and techniques employed whether the customer or the service provider initiates contact."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Effective sales approach identified and applied given mode of communication used to interact with customer."
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Empathy created between service provider and customer."
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Buying behaviour customer determined."
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Customer need for specific merchandise confirmed and promoted."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Sell products to customers"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Questioning techniques applied to determine customer buying motives."
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Listening skills used to determine customer requirements."
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Non-verbal communication cues interpreted and clarified."
+                            },
+                            {
+                                "id": "criteria-4_4",
+                                "text": "4.4 Customers identified by name where possible."
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Gather information"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-5_1",
+                                "text": "5.1 Customer needs matched to appropriate products and services."
+                            },
+                            {
+                                "id": "criteria-5_2",
+                                "text": "5.2 Knowledge of products' features and benefits communicated clearly to customers."
+                            },
+                            {
+                                "id": "criteria-5_3",
+                                "text": "5.3 Product use and safety requirements described or where possible demonstrated to customers."
+                            },
+                            {
+                                "id": "criteria-5_4",
+                                "text": "5.4 Customers referred to appropriate product specialist as required."
+                            },
+                            {
+                                "id": "criteria-5_5",
+                                "text": "5.5 Routine customer questions about merchandise, eg. price, price reductions, quality, usage, are answered accurately and honestly or referred to more experienced senior sales staff."
+                            }
+                        ],
+                        "element_id": "element-5",
+                        "element_text": "5 Sell benefits"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-6_1",
+                                "text": "6.1 Customer objections identified and accepted."
+                            },
+                            {
+                                "id": "criteria-6_2",
+                                "text": "6.2 Objections categorised into price, time and merchandise characteristics."
+                            },
+                            {
+                                "id": "criteria-6_3",
+                                "text": "6.3 Solutions offered according to business policy and sales techniques."
+                            },
+                            {
+                                "id": "criteria-6_4",
+                                "text": "6.4 Problem solving applied to overcome customer objections."
+                            }
+                        ],
+                        "element_id": "element-6",
+                        "element_text": "6 Overcome objections"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-7_1",
+                                "text": "7.1 Customer buying signals monitored, identified and responded to appropriately."
+                            },
+                            {
+                                "id": "criteria-7_2",
+                                "text": "7.2 Customer encouraged to make purchase decisions."
+                            },
+                            {
+                                "id": "criteria-7_3",
+                                "text": "7.3 Appropriate method of closing sale selected and applied."
+                            }
+                        ],
+                        "element_id": "element-7",
+                        "element_text": "7 Close sale"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-8_1",
+                                "text": "8.1 Opportunities for making additional sales recognised and applied."
+                            },
+                            {
+                                "id": "criteria-8_2",
+                                "text": "8.2 Customer advised of complementary products or services according to customer's identified need."
+                            },
+                            {
+                                "id": "criteria-8_3",
+                                "text": "8.3 Personal sales outcomes reviewed to maximise future sales."
+                            }
+                        ],
+                        "element_id": "element-8",
+                        "element_text": "8 Maximise sales opportunities"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "required_skills_and_knowledge",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "required_skills_and_knowledge-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Required Skills and Knowledge"
+        },
+        {
+            "key": "evidence_guide",
+            "items": [
+                {
+                    "text": "The following components of the Evidence Guide relate directly to the Performance Criteria and the Range of Variables for the unit of competency and will inform and provide guidance for assessment of the unit in the workplace and/or training program. This Evidence Guide must be read in conjunction with the Assessment Guidelines for the National Wholesale Training Package.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "evidence_guide-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Critical aspects of evidence",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "evidence_guide-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment requires evidence of the following be collected:",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "evidence_guide-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Applying product knowledge and using an appropriate sales approach to sell the benefits of products, overcome objections and close sales",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "evidence_guide-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Using questioning, listening and observation skills to accurately determine customer requirements",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "evidence_guide-5",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Consistently applying business policies and procedures, in regard to selling products and services",
+                    "type": "paragraph",
+                    "order": 6,
+                    "indent": null,
+                    "item_id": "evidence_guide-6",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Maximising sales opportunities according to business policies and procedures",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "evidence_guide-7",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "consistently applying industry codes of practice, relevant legislation and statutory requirements in regard to selling products and services",
+                    "type": "paragraph",
+                    "order": 8,
+                    "indent": null,
+                    "item_id": "evidence_guide-8",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Evaluating personal sales performance to maximise future sales",
+                    "type": "paragraph",
+                    "order": 9,
+                    "indent": null,
+                    "item_id": "evidence_guide-9",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Written and oral workplace-related documents that affect entry level employees, other than work-process items",
+                    "type": "paragraph",
+                    "order": 10,
+                    "indent": null,
+                    "item_id": "evidence_guide-10",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Effectively communicating summary information to team members and senior colleagues",
+                    "type": "paragraph",
+                    "order": 11,
+                    "indent": null,
+                    "item_id": "evidence_guide-11",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Interdependent assessment of units",
+                    "type": "paragraph",
+                    "order": 12,
+                    "indent": null,
+                    "item_id": "evidence_guide-12",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit may be assessed in conjunction with other units that form part of a job role or function.",
+                    "type": "paragraph",
+                    "order": 13,
+                    "indent": null,
+                    "item_id": "evidence_guide-13",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Underpinning knowledge and skills",
+                    "type": "paragraph",
+                    "order": 14,
+                    "indent": null,
+                    "item_id": "evidence_guide-14",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Display knowledge in terms of job role or function:",
+                    "type": "paragraph",
+                    "order": 15,
+                    "indent": null,
+                    "item_id": "evidence_guide-15",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Product knowledge including:",
+                    "type": "paragraph",
+                    "order": 16,
+                    "indent": null,
+                    "item_id": "evidence_guide-16",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Characteristics",
+                    "type": "paragraph",
+                    "order": 17,
+                    "indent": null,
+                    "item_id": "evidence_guide-17",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Features",
+                    "type": "paragraph",
+                    "order": 18,
+                    "indent": null,
+                    "item_id": "evidence_guide-18",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Comparative advantages",
+                    "type": "paragraph",
+                    "order": 19,
+                    "indent": null,
+                    "item_id": "evidence_guide-19",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Price",
+                    "type": "paragraph",
+                    "order": 20,
+                    "indent": null,
+                    "item_id": "evidence_guide-20",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Availability",
+                    "type": "paragraph",
+                    "order": 21,
+                    "indent": null,
+                    "item_id": "evidence_guide-21",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Special features (ie. warranties, after sales support, etc.)",
+                    "type": "paragraph",
+                    "order": 22,
+                    "indent": null,
+                    "item_id": "evidence_guide-22",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "A variety of strategies for closing sales",
+                    "type": "paragraph",
+                    "order": 23,
+                    "indent": null,
+                    "item_id": "evidence_guide-23",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business policies and procedures, in regard to:",
+                    "type": "paragraph",
+                    "order": 24,
+                    "indent": null,
+                    "item_id": "evidence_guide-24",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Selling products and services",
+                    "type": "paragraph",
+                    "order": 25,
+                    "indent": null,
+                    "item_id": "evidence_guide-25",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Allocated duties and responsibilities.",
+                    "type": "paragraph",
+                    "order": 26,
+                    "indent": null,
+                    "item_id": "evidence_guide-26",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business merchandise and service range.",
+                    "type": "paragraph",
+                    "order": 27,
+                    "indent": null,
+                    "item_id": "evidence_guide-27",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Factors influencing customers decisions",
+                    "type": "paragraph",
+                    "order": 28,
+                    "indent": null,
+                    "item_id": "evidence_guide-28",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Current sales performance",
+                    "type": "paragraph",
+                    "order": 29,
+                    "indent": null,
+                    "item_id": "evidence_guide-29",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Occupational, health and safety aspects to job",
+                    "type": "paragraph",
+                    "order": 30,
+                    "indent": null,
+                    "item_id": "evidence_guide-30",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Industry codes of practice",
+                    "type": "paragraph",
+                    "order": 31,
+                    "indent": null,
+                    "item_id": "evidence_guide-31",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Relevant consumer law, commercial law and legislation",
+                    "type": "paragraph",
+                    "order": 32,
+                    "indent": null,
+                    "item_id": "evidence_guide-32",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Display skills in terms of job role or function, including the ability to:",
+                    "type": "paragraph",
+                    "order": 33,
+                    "indent": null,
+                    "item_id": "evidence_guide-33",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Demonstrate knowledge of specific products",
+                    "type": "paragraph",
+                    "order": 34,
+                    "indent": null,
+                    "item_id": "evidence_guide-34",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Apply techniques covering:",
+                    "type": "paragraph",
+                    "order": 35,
+                    "indent": null,
+                    "item_id": "evidence_guide-35",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Verbal and non verbal communications",
+                    "type": "paragraph",
+                    "order": 36,
+                    "indent": null,
+                    "item_id": "evidence_guide-36",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Questioning/listening/observation",
+                    "type": "paragraph",
+                    "order": 37,
+                    "indent": null,
+                    "item_id": "evidence_guide-37",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Handling difficult customers",
+                    "type": "paragraph",
+                    "order": 38,
+                    "indent": null,
+                    "item_id": "evidence_guide-38",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Negotiating",
+                    "type": "paragraph",
+                    "order": 39,
+                    "indent": null,
+                    "item_id": "evidence_guide-39",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Problem solving",
+                    "type": "paragraph",
+                    "order": 40,
+                    "indent": null,
+                    "item_id": "evidence_guide-40",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Match sales approaches to customer behaviour",
+                    "type": "paragraph",
+                    "order": 41,
+                    "indent": null,
+                    "item_id": "evidence_guide-41",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Use effective listening and questioning techniques",
+                    "type": "paragraph",
+                    "order": 42,
+                    "indent": null,
+                    "item_id": "evidence_guide-42",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Respond to customer questions",
+                    "type": "paragraph",
+                    "order": 43,
+                    "indent": null,
+                    "item_id": "evidence_guide-43",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Identify and categorise customer objections",
+                    "type": "paragraph",
+                    "order": 44,
+                    "indent": null,
+                    "item_id": "evidence_guide-44",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Recognise opportunities for additional sales to same customer",
+                    "type": "paragraph",
+                    "order": 45,
+                    "indent": null,
+                    "item_id": "evidence_guide-45",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Monitor personal sales progress",
+                    "type": "paragraph",
+                    "order": 46,
+                    "indent": null,
+                    "item_id": "evidence_guide-46",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Willingness to learn from others",
+                    "type": "paragraph",
+                    "order": 47,
+                    "indent": null,
+                    "item_id": "evidence_guide-47",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Resource Implications",
+                    "type": "paragraph",
+                    "order": 48,
+                    "indent": null,
+                    "item_id": "evidence_guide-48",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Access to required assessment evidence, time spent with assessee in assessment, competency outcomes and appropriate assessment facilities",
+                    "type": "paragraph",
+                    "order": 49,
+                    "indent": null,
+                    "item_id": "evidence_guide-49",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Consistency in performance",
+                    "type": "paragraph",
+                    "order": 50,
+                    "indent": null,
+                    "item_id": "evidence_guide-50",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The assessment method should be conducted over time to cover all elements and performance criteria, across a range of variables.",
+                    "type": "paragraph",
+                    "order": 51,
+                    "indent": null,
+                    "item_id": "evidence_guide-51",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Work practices should be in accordance with safe operating procedures to minimise the risk of injury to self or others or damage to goods, equipment or products",
+                    "type": "paragraph",
+                    "order": 52,
+                    "indent": null,
+                    "item_id": "evidence_guide-52",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Context for assessment",
+                    "type": "paragraph",
+                    "order": 53,
+                    "indent": null,
+                    "item_id": "evidence_guide-53",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment may occur on the job, or off-the-job.",
+                    "type": "paragraph",
+                    "order": 54,
+                    "indent": null,
+                    "item_id": "evidence_guide-54",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The following components of the Evidence Guide relate directly to the Performance Criteria and the Range of Variables for the unit of competency and will inform and provide guidance for assessment of the unit in the workplace and/or training program. This Evidence Guide must be read in conjunction with the Assessment Guidelines for the National Wholesale Training Package.",
+                    "type": "paragraph",
+                    "order": 55,
+                    "indent": null,
+                    "item_id": "evidence_guide-55",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Critical aspects of evidence",
+                    "type": "paragraph",
+                    "order": 56,
+                    "indent": null,
+                    "item_id": "evidence_guide-56",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment requires evidence of the following be collected:",
+                    "type": "paragraph",
+                    "order": 57,
+                    "indent": null,
+                    "item_id": "evidence_guide-57",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Applying product knowledge and using an appropriate sales approach to sell the benefits of products, overcome objections and close sales",
+                    "type": "paragraph",
+                    "order": 58,
+                    "indent": null,
+                    "item_id": "evidence_guide-58",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Using questioning, listening and observation skills to accurately determine customer requirements",
+                    "type": "paragraph",
+                    "order": 59,
+                    "indent": null,
+                    "item_id": "evidence_guide-59",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Consistently applying business policies and procedures, in regard to selling products and services",
+                    "type": "paragraph",
+                    "order": 60,
+                    "indent": null,
+                    "item_id": "evidence_guide-60",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Maximising sales opportunities according to business policies and procedures",
+                    "type": "paragraph",
+                    "order": 61,
+                    "indent": null,
+                    "item_id": "evidence_guide-61",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "consistently applying industry codes of practice, relevant legislation and statutory requirements in regard to selling products and services",
+                    "type": "paragraph",
+                    "order": 62,
+                    "indent": null,
+                    "item_id": "evidence_guide-62",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Evaluating personal sales performance to maximise future sales",
+                    "type": "paragraph",
+                    "order": 63,
+                    "indent": null,
+                    "item_id": "evidence_guide-63",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Written and oral workplace-related documents that affect entry level employees, other than work-process items",
+                    "type": "paragraph",
+                    "order": 64,
+                    "indent": null,
+                    "item_id": "evidence_guide-64",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Effectively communicating summary information to team members and senior colleagues",
+                    "type": "paragraph",
+                    "order": 65,
+                    "indent": null,
+                    "item_id": "evidence_guide-65",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Interdependent assessment of units",
+                    "type": "paragraph",
+                    "order": 66,
+                    "indent": null,
+                    "item_id": "evidence_guide-66",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit may be assessed in conjunction with other units that form part of a job role or function.",
+                    "type": "paragraph",
+                    "order": 67,
+                    "indent": null,
+                    "item_id": "evidence_guide-67",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Underpinning knowledge and skills",
+                    "type": "paragraph",
+                    "order": 68,
+                    "indent": null,
+                    "item_id": "evidence_guide-68",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Display knowledge in terms of job role or function:",
+                    "type": "paragraph",
+                    "order": 69,
+                    "indent": null,
+                    "item_id": "evidence_guide-69",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Product knowledge including:",
+                    "type": "paragraph",
+                    "order": 70,
+                    "indent": null,
+                    "item_id": "evidence_guide-70",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Characteristics",
+                    "type": "paragraph",
+                    "order": 71,
+                    "indent": null,
+                    "item_id": "evidence_guide-71",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Features",
+                    "type": "paragraph",
+                    "order": 72,
+                    "indent": null,
+                    "item_id": "evidence_guide-72",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Comparative advantages",
+                    "type": "paragraph",
+                    "order": 73,
+                    "indent": null,
+                    "item_id": "evidence_guide-73",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Price",
+                    "type": "paragraph",
+                    "order": 74,
+                    "indent": null,
+                    "item_id": "evidence_guide-74",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Availability",
+                    "type": "paragraph",
+                    "order": 75,
+                    "indent": null,
+                    "item_id": "evidence_guide-75",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Special features (ie. warranties, after sales support, etc.)",
+                    "type": "paragraph",
+                    "order": 76,
+                    "indent": null,
+                    "item_id": "evidence_guide-76",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "A variety of strategies for closing sales",
+                    "type": "paragraph",
+                    "order": 77,
+                    "indent": null,
+                    "item_id": "evidence_guide-77",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business policies and procedures, in regard to:",
+                    "type": "paragraph",
+                    "order": 78,
+                    "indent": null,
+                    "item_id": "evidence_guide-78",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Selling products and services",
+                    "type": "paragraph",
+                    "order": 79,
+                    "indent": null,
+                    "item_id": "evidence_guide-79",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Allocated duties and responsibilities.",
+                    "type": "paragraph",
+                    "order": 80,
+                    "indent": null,
+                    "item_id": "evidence_guide-80",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business merchandise and service range.",
+                    "type": "paragraph",
+                    "order": 81,
+                    "indent": null,
+                    "item_id": "evidence_guide-81",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Factors influencing customers decisions",
+                    "type": "paragraph",
+                    "order": 82,
+                    "indent": null,
+                    "item_id": "evidence_guide-82",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Current sales performance",
+                    "type": "paragraph",
+                    "order": 83,
+                    "indent": null,
+                    "item_id": "evidence_guide-83",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Occupational, health and safety aspects to job",
+                    "type": "paragraph",
+                    "order": 84,
+                    "indent": null,
+                    "item_id": "evidence_guide-84",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Industry codes of practice",
+                    "type": "paragraph",
+                    "order": 85,
+                    "indent": null,
+                    "item_id": "evidence_guide-85",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Relevant consumer law, commercial law and legislation",
+                    "type": "paragraph",
+                    "order": 86,
+                    "indent": null,
+                    "item_id": "evidence_guide-86",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Display skills in terms of job role or function, including the ability to:",
+                    "type": "paragraph",
+                    "order": 87,
+                    "indent": null,
+                    "item_id": "evidence_guide-87",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Demonstrate knowledge of specific products",
+                    "type": "paragraph",
+                    "order": 88,
+                    "indent": null,
+                    "item_id": "evidence_guide-88",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Apply techniques covering:",
+                    "type": "paragraph",
+                    "order": 89,
+                    "indent": null,
+                    "item_id": "evidence_guide-89",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Verbal and non verbal communications",
+                    "type": "paragraph",
+                    "order": 90,
+                    "indent": null,
+                    "item_id": "evidence_guide-90",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Questioning/listening/observation",
+                    "type": "paragraph",
+                    "order": 91,
+                    "indent": null,
+                    "item_id": "evidence_guide-91",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Handling difficult customers",
+                    "type": "paragraph",
+                    "order": 92,
+                    "indent": null,
+                    "item_id": "evidence_guide-92",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Negotiating",
+                    "type": "paragraph",
+                    "order": 93,
+                    "indent": null,
+                    "item_id": "evidence_guide-93",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Problem solving",
+                    "type": "paragraph",
+                    "order": 94,
+                    "indent": null,
+                    "item_id": "evidence_guide-94",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Match sales approaches to customer behaviour",
+                    "type": "paragraph",
+                    "order": 95,
+                    "indent": null,
+                    "item_id": "evidence_guide-95",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Use effective listening and questioning techniques",
+                    "type": "paragraph",
+                    "order": 96,
+                    "indent": null,
+                    "item_id": "evidence_guide-96",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Respond to customer questions",
+                    "type": "paragraph",
+                    "order": 97,
+                    "indent": null,
+                    "item_id": "evidence_guide-97",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Identify and categorise customer objections",
+                    "type": "paragraph",
+                    "order": 98,
+                    "indent": null,
+                    "item_id": "evidence_guide-98",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Recognise opportunities for additional sales to same customer",
+                    "type": "paragraph",
+                    "order": 99,
+                    "indent": null,
+                    "item_id": "evidence_guide-99",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Monitor personal sales progress",
+                    "type": "paragraph",
+                    "order": 100,
+                    "indent": null,
+                    "item_id": "evidence_guide-100",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Willingness to learn from others",
+                    "type": "paragraph",
+                    "order": 101,
+                    "indent": null,
+                    "item_id": "evidence_guide-101",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Resource Implications",
+                    "type": "paragraph",
+                    "order": 102,
+                    "indent": null,
+                    "item_id": "evidence_guide-102",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Access to required assessment evidence, time spent with assessee in assessment, competency outcomes and appropriate assessment facilities",
+                    "type": "paragraph",
+                    "order": 103,
+                    "indent": null,
+                    "item_id": "evidence_guide-103",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Consistency in performance",
+                    "type": "paragraph",
+                    "order": 104,
+                    "indent": null,
+                    "item_id": "evidence_guide-104",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The assessment method should be conducted over time to cover all elements and performance criteria, across a range of variables.",
+                    "type": "paragraph",
+                    "order": 105,
+                    "indent": null,
+                    "item_id": "evidence_guide-105",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Work practices should be in accordance with safe operating procedures to minimise the risk of injury to self or others or damage to goods, equipment or products",
+                    "type": "paragraph",
+                    "order": 106,
+                    "indent": null,
+                    "item_id": "evidence_guide-106",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Context for assessment",
+                    "type": "paragraph",
+                    "order": 107,
+                    "indent": null,
+                    "item_id": "evidence_guide-107",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment may occur on the job, or off-the-job.",
+                    "type": "paragraph",
+                    "order": 108,
+                    "indent": null,
+                    "item_id": "evidence_guide-108",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Evidence Guide"
+        },
+        {
+            "key": "range_statement",
+            "items": [
+                {
+                    "text": "The Range of Variables statement provides details of the scope of the Elements and Performance Criteria to allow for differences within enterprises and workplaces, including practices, knowledge and requirements. The Range of Variables also provides a focus for assessment and relates to the unit as a whole. The variables listed should be considered indicative rather than exhaustive and should be used as applicable to the job role or function.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "range_statement-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "General Contexts may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "range_statement-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Type of products and services provided",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "range_statement-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business policy and procedures with regard to the acquisition and sale of products and services",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "range_statement-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Size, type and location of business",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "range_statement-5",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business merchandise range",
+                    "type": "paragraph",
+                    "order": 6,
+                    "indent": null,
+                    "item_id": "range_statement-6",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Strategic measurement and evaluation systems and processes",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "range_statement-7",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Characteristics of the specific product(s) or service(s)",
+                    "type": "paragraph",
+                    "order": 8,
+                    "indent": null,
+                    "item_id": "range_statement-8",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Management structure and communication relationships",
+                    "type": "paragraph",
+                    "order": 9,
+                    "indent": null,
+                    "item_id": "range_statement-9",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business service range",
+                    "type": "paragraph",
+                    "order": 10,
+                    "indent": null,
+                    "item_id": "range_statement-10",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Customers including other businesses or end consumers serviced through business customers or directly",
+                    "type": "paragraph",
+                    "order": 11,
+                    "indent": null,
+                    "item_id": "range_statement-11",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Customers may include people from a range of social, cultural or ethnic backgrounds and physical and mental abilities.",
+                    "type": "paragraph",
+                    "order": 12,
+                    "indent": null,
+                    "item_id": "range_statement-12",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Customers with routine or special requests.",
+                    "type": "paragraph",
+                    "order": 13,
+                    "indent": null,
+                    "item_id": "range_statement-13",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Regular and new customers.",
+                    "type": "paragraph",
+                    "order": 14,
+                    "indent": null,
+                    "item_id": "range_statement-14",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Selling may be face to face or by telephone.",
+                    "type": "paragraph",
+                    "order": 15,
+                    "indent": null,
+                    "item_id": "range_statement-15",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Levels of staffing, eg. staff shortages.",
+                    "type": "paragraph",
+                    "order": 16,
+                    "indent": null,
+                    "item_id": "range_statement-16",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Varying levels of staff training.",
+                    "type": "paragraph",
+                    "order": 17,
+                    "indent": null,
+                    "item_id": "range_statement-17",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Full-time, part-time or casual staff.",
+                    "type": "paragraph",
+                    "order": 18,
+                    "indent": null,
+                    "item_id": "range_statement-18",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Worksite specific context, variations and environments.",
+                    "type": "paragraph",
+                    "order": 19,
+                    "indent": null,
+                    "item_id": "range_statement-19",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workplace Contexts may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 20,
+                    "indent": null,
+                    "item_id": "range_statement-20",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workplace-specific guidelines, policies and practices",
+                    "type": "paragraph",
+                    "order": 21,
+                    "indent": null,
+                    "item_id": "range_statement-21",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Conditions of service, legislation and industrial agreements",
+                    "type": "paragraph",
+                    "order": 22,
+                    "indent": null,
+                    "item_id": "range_statement-22",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Consultative processes may involve",
+                    "type": "paragraph",
+                    "order": 23,
+                    "indent": null,
+                    "item_id": "range_statement-23",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Staff members",
+                    "type": "paragraph",
+                    "order": 24,
+                    "indent": null,
+                    "item_id": "range_statement-24",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Teams",
+                    "type": "paragraph",
+                    "order": 25,
+                    "indent": null,
+                    "item_id": "range_statement-25",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Management",
+                    "type": "paragraph",
+                    "order": 26,
+                    "indent": null,
+                    "item_id": "range_statement-26",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Union representatives",
+                    "type": "paragraph",
+                    "order": 27,
+                    "indent": null,
+                    "item_id": "range_statement-27",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Industrial relations, Occupational Health&Safety specialists",
+                    "type": "paragraph",
+                    "order": 28,
+                    "indent": null,
+                    "item_id": "range_statement-28",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Other professional or technical staff",
+                    "type": "paragraph",
+                    "order": 29,
+                    "indent": null,
+                    "item_id": "range_statement-29",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Relevant personnel may vary with context, level of employment, ascribed duties, nature of enquiry or response required.",
+                    "type": "paragraph",
+                    "order": 30,
+                    "indent": null,
+                    "item_id": "range_statement-30",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Applicable State/ Territory/ Commonwealth regulations and legislation may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 31,
+                    "indent": null,
+                    "item_id": "range_statement-31",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Occupational Health and Safety",
+                    "type": "paragraph",
+                    "order": 32,
+                    "indent": null,
+                    "item_id": "range_statement-32",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workplace relations",
+                    "type": "paragraph",
+                    "order": 33,
+                    "indent": null,
+                    "item_id": "range_statement-33",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workers compensation",
+                    "type": "paragraph",
+                    "order": 34,
+                    "indent": null,
+                    "item_id": "range_statement-34",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Industry codes of practice",
+                    "type": "paragraph",
+                    "order": 35,
+                    "indent": null,
+                    "item_id": "range_statement-35",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "License, patent or copyright arrangements",
+                    "type": "paragraph",
+                    "order": 36,
+                    "indent": null,
+                    "item_id": "range_statement-36",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Environmental protection legislation",
+                    "type": "paragraph",
+                    "order": 37,
+                    "indent": null,
+                    "item_id": "range_statement-37",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Equal Employment Opportunity and anti-discrimination law",
+                    "type": "paragraph",
+                    "order": 38,
+                    "indent": null,
+                    "item_id": "range_statement-38",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Emergency procedures",
+                    "type": "paragraph",
+                    "order": 39,
+                    "indent": null,
+                    "item_id": "range_statement-39",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Transport, storage and handling of goods",
+                    "type": "paragraph",
+                    "order": 40,
+                    "indent": null,
+                    "item_id": "range_statement-40",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Goods and Services Tax",
+                    "type": "paragraph",
+                    "order": 41,
+                    "indent": null,
+                    "item_id": "range_statement-41",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Australian Competition and Consumer Commission provisions",
+                    "type": "paragraph",
+                    "order": 42,
+                    "indent": null,
+                    "item_id": "range_statement-42",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Trade Practices Act",
+                    "type": "paragraph",
+                    "order": 43,
+                    "indent": null,
+                    "item_id": "range_statement-43",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sources of information may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 44,
+                    "indent": null,
+                    "item_id": "range_statement-44",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Legislation and regulations",
+                    "type": "paragraph",
+                    "order": 45,
+                    "indent": null,
+                    "item_id": "range_statement-45",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Work procedures and internal manuals",
+                    "type": "paragraph",
+                    "order": 46,
+                    "indent": null,
+                    "item_id": "range_statement-46",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Company operating procedures and instructions",
+                    "type": "paragraph",
+                    "order": 47,
+                    "indent": null,
+                    "item_id": "range_statement-47",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Manufacturer's specifications",
+                    "type": "paragraph",
+                    "order": 48,
+                    "indent": null,
+                    "item_id": "range_statement-48",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Supplier and/ or customer instructions",
+                    "type": "paragraph",
+                    "order": 49,
+                    "indent": null,
+                    "item_id": "range_statement-49",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Manifests",
+                    "type": "paragraph",
+                    "order": 50,
+                    "indent": null,
+                    "item_id": "range_statement-50",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Codes of practice",
+                    "type": "paragraph",
+                    "order": 51,
+                    "indent": null,
+                    "item_id": "range_statement-51",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Quality assurance systems, procedures and policies",
+                    "type": "paragraph",
+                    "order": 52,
+                    "indent": null,
+                    "item_id": "range_statement-52",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Awards, workplace agreements, and other industrial arrangements",
+                    "type": "paragraph",
+                    "order": 53,
+                    "indent": null,
+                    "item_id": "range_statement-53",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Oral/ verbal communication including face to face, telephone, Internet, radio, and such like",
+                    "type": "paragraph",
+                    "order": 54,
+                    "indent": null,
+                    "item_id": "range_statement-54",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Written instructions and communication such as data exchange, letters, e-mails",
+                    "type": "paragraph",
+                    "order": 55,
+                    "indent": null,
+                    "item_id": "range_statement-55",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Non-verbal communication",
+                    "type": "paragraph",
+                    "order": 56,
+                    "indent": null,
+                    "item_id": "range_statement-56",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Feedback",
+                    "type": "paragraph",
+                    "order": 57,
+                    "indent": null,
+                    "item_id": "range_statement-57",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Safety instructions and workplace signage",
+                    "type": "paragraph",
+                    "order": 58,
+                    "indent": null,
+                    "item_id": "range_statement-58",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Direct or indirect",
+                    "type": "paragraph",
+                    "order": 59,
+                    "indent": null,
+                    "item_id": "range_statement-59",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Electronic or hard copy",
+                    "type": "paragraph",
+                    "order": 60,
+                    "indent": null,
+                    "item_id": "range_statement-60",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Policy and protocols",
+                    "type": "paragraph",
+                    "order": 61,
+                    "indent": null,
+                    "item_id": "range_statement-61",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Work site environment factors may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 62,
+                    "indent": null,
+                    "item_id": "range_statement-62",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Product knowledge may include",
+                    "type": "paragraph",
+                    "order": 63,
+                    "indent": null,
+                    "item_id": "range_statement-63",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Warranties",
+                    "type": "paragraph",
+                    "order": 64,
+                    "indent": null,
+                    "item_id": "range_statement-64",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Corresponding benefits of various products",
+                    "type": "paragraph",
+                    "order": 65,
+                    "indent": null,
+                    "item_id": "range_statement-65",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Use-by dates",
+                    "type": "paragraph",
+                    "order": 66,
+                    "indent": null,
+                    "item_id": "range_statement-66",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Storage requirements",
+                    "type": "paragraph",
+                    "order": 67,
+                    "indent": null,
+                    "item_id": "range_statement-67",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Stock availability",
+                    "type": "paragraph",
+                    "order": 68,
+                    "indent": null,
+                    "item_id": "range_statement-68",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Purchase methods may include:",
+                    "type": "paragraph",
+                    "order": 69,
+                    "indent": null,
+                    "item_id": "range_statement-69",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Electronic Data Interchange",
+                    "type": "paragraph",
+                    "order": 70,
+                    "indent": null,
+                    "item_id": "range_statement-70",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Credit card",
+                    "type": "paragraph",
+                    "order": 71,
+                    "indent": null,
+                    "item_id": "range_statement-71",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Cheques",
+                    "type": "paragraph",
+                    "order": 72,
+                    "indent": null,
+                    "item_id": "range_statement-72",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Standing offers",
+                    "type": "paragraph",
+                    "order": 73,
+                    "indent": null,
+                    "item_id": "range_statement-73",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Cash",
+                    "type": "paragraph",
+                    "order": 74,
+                    "indent": null,
+                    "item_id": "range_statement-74",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Agreed means",
+                    "type": "paragraph",
+                    "order": 75,
+                    "indent": null,
+                    "item_id": "range_statement-75",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records may include",
+                    "type": "paragraph",
+                    "order": 76,
+                    "indent": null,
+                    "item_id": "range_statement-76",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Purchase requests and orders",
+                    "type": "paragraph",
+                    "order": 77,
+                    "indent": null,
+                    "item_id": "range_statement-77",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Tender submissions and proposals",
+                    "type": "paragraph",
+                    "order": 78,
+                    "indent": null,
+                    "item_id": "range_statement-78",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Invoices and payment requests",
+                    "type": "paragraph",
+                    "order": 79,
+                    "indent": null,
+                    "item_id": "range_statement-79",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Statements and petty cash vouchers",
+                    "type": "paragraph",
+                    "order": 80,
+                    "indent": null,
+                    "item_id": "range_statement-80",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Offer and contract documents",
+                    "type": "paragraph",
+                    "order": 81,
+                    "indent": null,
+                    "item_id": "range_statement-81",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Evaluation process documentation",
+                    "type": "paragraph",
+                    "order": 82,
+                    "indent": null,
+                    "item_id": "range_statement-82",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records of authorised officers' decisions",
+                    "type": "paragraph",
+                    "order": 83,
+                    "indent": null,
+                    "item_id": "range_statement-83",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Corporate credit card transaction statements",
+                    "type": "paragraph",
+                    "order": 84,
+                    "indent": null,
+                    "item_id": "range_statement-84",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records of supplier performance",
+                    "type": "paragraph",
+                    "order": 85,
+                    "indent": null,
+                    "item_id": "range_statement-85",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Financial statements",
+                    "type": "paragraph",
+                    "order": 86,
+                    "indent": null,
+                    "item_id": "range_statement-86",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Asset registers",
+                    "type": "paragraph",
+                    "order": 87,
+                    "indent": null,
+                    "item_id": "range_statement-87",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records of conversation",
+                    "type": "paragraph",
+                    "order": 88,
+                    "indent": null,
+                    "item_id": "range_statement-88",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sales objectives/ targets may vary with",
+                    "type": "paragraph",
+                    "order": 89,
+                    "indent": null,
+                    "item_id": "range_statement-89",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Product and/ or service",
+                    "type": "paragraph",
+                    "order": 90,
+                    "indent": null,
+                    "item_id": "range_statement-90",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Merchandising/ sales strategy",
+                    "type": "paragraph",
+                    "order": 91,
+                    "indent": null,
+                    "item_id": "range_statement-91",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sales",
+                    "type": "paragraph",
+                    "order": 92,
+                    "indent": null,
+                    "item_id": "range_statement-92",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Promotional strategies and their duration, cycle, territory coverage and product or service focus.",
+                    "type": "paragraph",
+                    "order": 93,
+                    "indent": null,
+                    "item_id": "range_statement-93",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sales techniques may include but not be limited to",
+                    "type": "paragraph",
+                    "order": 94,
+                    "indent": null,
+                    "item_id": "range_statement-94",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Gaining a customer",
+                    "type": "paragraph",
+                    "order": 95,
+                    "indent": null,
+                    "item_id": "range_statement-95",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Closing a sale",
+                    "type": "paragraph",
+                    "order": 96,
+                    "indent": null,
+                    "item_id": "range_statement-96",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Associates sales techniques including trade-up, trade-in, tie-ins, cut-ins, range-ins",
+                    "type": "paragraph",
+                    "order": 97,
+                    "indent": null,
+                    "item_id": "range_statement-97",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Negotiation skills",
+                    "type": "paragraph",
+                    "order": 98,
+                    "indent": null,
+                    "item_id": "range_statement-98",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Over-the-'phone empathy creation",
+                    "type": "paragraph",
+                    "order": 99,
+                    "indent": null,
+                    "item_id": "range_statement-99",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Securing payment",
+                    "type": "paragraph",
+                    "order": 100,
+                    "indent": null,
+                    "item_id": "range_statement-100",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Credit check procedures may be",
+                    "type": "paragraph",
+                    "order": 101,
+                    "indent": null,
+                    "item_id": "range_statement-101",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Automated or manual",
+                    "type": "paragraph",
+                    "order": 102,
+                    "indent": null,
+                    "item_id": "range_statement-102",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Completed internally or by external agent",
+                    "type": "paragraph",
+                    "order": 103,
+                    "indent": null,
+                    "item_id": "range_statement-103",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Credit card details include",
+                    "type": "paragraph",
+                    "order": 104,
+                    "indent": null,
+                    "item_id": "range_statement-104",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Card type",
+                    "type": "paragraph",
+                    "order": 105,
+                    "indent": null,
+                    "item_id": "range_statement-105",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Card holder details",
+                    "type": "paragraph",
+                    "order": 106,
+                    "indent": null,
+                    "item_id": "range_statement-106",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Card number",
+                    "type": "paragraph",
+                    "order": 107,
+                    "indent": null,
+                    "item_id": "range_statement-107",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Expiry date",
+                    "type": "paragraph",
+                    "order": 108,
+                    "indent": null,
+                    "item_id": "range_statement-108",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The Range of Variables statement provides details of the scope of the Elements and Performance Criteria to allow for differences within enterprises and workplaces, including practices, knowledge and requirements. The Range of Variables also provides a focus for assessment and relates to the unit as a whole. The variables listed should be considered indicative rather than exhaustive and should be used as applicable to the job role or function.",
+                    "type": "paragraph",
+                    "order": 109,
+                    "indent": null,
+                    "item_id": "range_statement-109",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "General Contexts may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 110,
+                    "indent": null,
+                    "item_id": "range_statement-110",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Type of products and services provided",
+                    "type": "paragraph",
+                    "order": 111,
+                    "indent": null,
+                    "item_id": "range_statement-111",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business policy and procedures with regard to the acquisition and sale of products and services",
+                    "type": "paragraph",
+                    "order": 112,
+                    "indent": null,
+                    "item_id": "range_statement-112",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Size, type and location of business",
+                    "type": "paragraph",
+                    "order": 113,
+                    "indent": null,
+                    "item_id": "range_statement-113",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business merchandise range",
+                    "type": "paragraph",
+                    "order": 114,
+                    "indent": null,
+                    "item_id": "range_statement-114",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Strategic measurement and evaluation systems and processes",
+                    "type": "paragraph",
+                    "order": 115,
+                    "indent": null,
+                    "item_id": "range_statement-115",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Characteristics of the specific product(s) or service(s)",
+                    "type": "paragraph",
+                    "order": 116,
+                    "indent": null,
+                    "item_id": "range_statement-116",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Management structure and communication relationships",
+                    "type": "paragraph",
+                    "order": 117,
+                    "indent": null,
+                    "item_id": "range_statement-117",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Business service range",
+                    "type": "paragraph",
+                    "order": 118,
+                    "indent": null,
+                    "item_id": "range_statement-118",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Customers including other businesses or end consumers serviced through business customers or directly",
+                    "type": "paragraph",
+                    "order": 119,
+                    "indent": null,
+                    "item_id": "range_statement-119",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Customers may include people from a range of social, cultural or ethnic backgrounds and physical and mental abilities.",
+                    "type": "paragraph",
+                    "order": 120,
+                    "indent": null,
+                    "item_id": "range_statement-120",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Customers with routine or special requests.",
+                    "type": "paragraph",
+                    "order": 121,
+                    "indent": null,
+                    "item_id": "range_statement-121",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Regular and new customers.",
+                    "type": "paragraph",
+                    "order": 122,
+                    "indent": null,
+                    "item_id": "range_statement-122",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Selling may be face to face or by telephone.",
+                    "type": "paragraph",
+                    "order": 123,
+                    "indent": null,
+                    "item_id": "range_statement-123",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Levels of staffing, eg. staff shortages.",
+                    "type": "paragraph",
+                    "order": 124,
+                    "indent": null,
+                    "item_id": "range_statement-124",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Varying levels of staff training.",
+                    "type": "paragraph",
+                    "order": 125,
+                    "indent": null,
+                    "item_id": "range_statement-125",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Full-time, part-time or casual staff.",
+                    "type": "paragraph",
+                    "order": 126,
+                    "indent": null,
+                    "item_id": "range_statement-126",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Worksite specific context, variations and environments.",
+                    "type": "paragraph",
+                    "order": 127,
+                    "indent": null,
+                    "item_id": "range_statement-127",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workplace Contexts may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 128,
+                    "indent": null,
+                    "item_id": "range_statement-128",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workplace-specific guidelines, policies and practices",
+                    "type": "paragraph",
+                    "order": 129,
+                    "indent": null,
+                    "item_id": "range_statement-129",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Conditions of service, legislation and industrial agreements",
+                    "type": "paragraph",
+                    "order": 130,
+                    "indent": null,
+                    "item_id": "range_statement-130",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Consultative processes may involve",
+                    "type": "paragraph",
+                    "order": 131,
+                    "indent": null,
+                    "item_id": "range_statement-131",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Staff members",
+                    "type": "paragraph",
+                    "order": 132,
+                    "indent": null,
+                    "item_id": "range_statement-132",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Teams",
+                    "type": "paragraph",
+                    "order": 133,
+                    "indent": null,
+                    "item_id": "range_statement-133",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Management",
+                    "type": "paragraph",
+                    "order": 134,
+                    "indent": null,
+                    "item_id": "range_statement-134",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Union representatives",
+                    "type": "paragraph",
+                    "order": 135,
+                    "indent": null,
+                    "item_id": "range_statement-135",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Industrial relations, Occupational Health&Safety specialists",
+                    "type": "paragraph",
+                    "order": 136,
+                    "indent": null,
+                    "item_id": "range_statement-136",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Other professional or technical staff",
+                    "type": "paragraph",
+                    "order": 137,
+                    "indent": null,
+                    "item_id": "range_statement-137",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Relevant personnel may vary with context, level of employment, ascribed duties, nature of enquiry or response required.",
+                    "type": "paragraph",
+                    "order": 138,
+                    "indent": null,
+                    "item_id": "range_statement-138",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Applicable State/ Territory/ Commonwealth regulations and legislation may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 139,
+                    "indent": null,
+                    "item_id": "range_statement-139",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Occupational Health and Safety",
+                    "type": "paragraph",
+                    "order": 140,
+                    "indent": null,
+                    "item_id": "range_statement-140",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workplace relations",
+                    "type": "paragraph",
+                    "order": 141,
+                    "indent": null,
+                    "item_id": "range_statement-141",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Workers compensation",
+                    "type": "paragraph",
+                    "order": 142,
+                    "indent": null,
+                    "item_id": "range_statement-142",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Industry codes of practice",
+                    "type": "paragraph",
+                    "order": 143,
+                    "indent": null,
+                    "item_id": "range_statement-143",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "License, patent or copyright arrangements",
+                    "type": "paragraph",
+                    "order": 144,
+                    "indent": null,
+                    "item_id": "range_statement-144",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Environmental protection legislation",
+                    "type": "paragraph",
+                    "order": 145,
+                    "indent": null,
+                    "item_id": "range_statement-145",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Equal Employment Opportunity and anti-discrimination law",
+                    "type": "paragraph",
+                    "order": 146,
+                    "indent": null,
+                    "item_id": "range_statement-146",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Emergency procedures",
+                    "type": "paragraph",
+                    "order": 147,
+                    "indent": null,
+                    "item_id": "range_statement-147",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Transport, storage and handling of goods",
+                    "type": "paragraph",
+                    "order": 148,
+                    "indent": null,
+                    "item_id": "range_statement-148",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Goods and Services Tax",
+                    "type": "paragraph",
+                    "order": 149,
+                    "indent": null,
+                    "item_id": "range_statement-149",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Australian Competition and Consumer Commission provisions",
+                    "type": "paragraph",
+                    "order": 150,
+                    "indent": null,
+                    "item_id": "range_statement-150",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Trade Practices Act",
+                    "type": "paragraph",
+                    "order": 151,
+                    "indent": null,
+                    "item_id": "range_statement-151",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sources of information may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 152,
+                    "indent": null,
+                    "item_id": "range_statement-152",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Legislation and regulations",
+                    "type": "paragraph",
+                    "order": 153,
+                    "indent": null,
+                    "item_id": "range_statement-153",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Work procedures and internal manuals",
+                    "type": "paragraph",
+                    "order": 154,
+                    "indent": null,
+                    "item_id": "range_statement-154",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Company operating procedures and instructions",
+                    "type": "paragraph",
+                    "order": 155,
+                    "indent": null,
+                    "item_id": "range_statement-155",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Manufacturer's specifications",
+                    "type": "paragraph",
+                    "order": 156,
+                    "indent": null,
+                    "item_id": "range_statement-156",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Supplier and/ or customer instructions",
+                    "type": "paragraph",
+                    "order": 157,
+                    "indent": null,
+                    "item_id": "range_statement-157",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Manifests",
+                    "type": "paragraph",
+                    "order": 158,
+                    "indent": null,
+                    "item_id": "range_statement-158",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Codes of practice",
+                    "type": "paragraph",
+                    "order": 159,
+                    "indent": null,
+                    "item_id": "range_statement-159",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Quality assurance systems, procedures and policies",
+                    "type": "paragraph",
+                    "order": 160,
+                    "indent": null,
+                    "item_id": "range_statement-160",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Awards, workplace agreements, and other industrial arrangements",
+                    "type": "paragraph",
+                    "order": 161,
+                    "indent": null,
+                    "item_id": "range_statement-161",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Oral/ verbal communication including face to face, telephone, Internet, radio, and such like",
+                    "type": "paragraph",
+                    "order": 162,
+                    "indent": null,
+                    "item_id": "range_statement-162",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Written instructions and communication such as data exchange, letters, e-mails",
+                    "type": "paragraph",
+                    "order": 163,
+                    "indent": null,
+                    "item_id": "range_statement-163",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Non-verbal communication",
+                    "type": "paragraph",
+                    "order": 164,
+                    "indent": null,
+                    "item_id": "range_statement-164",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Feedback",
+                    "type": "paragraph",
+                    "order": 165,
+                    "indent": null,
+                    "item_id": "range_statement-165",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Safety instructions and workplace signage",
+                    "type": "paragraph",
+                    "order": 166,
+                    "indent": null,
+                    "item_id": "range_statement-166",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Direct or indirect",
+                    "type": "paragraph",
+                    "order": 167,
+                    "indent": null,
+                    "item_id": "range_statement-167",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Electronic or hard copy",
+                    "type": "paragraph",
+                    "order": 168,
+                    "indent": null,
+                    "item_id": "range_statement-168",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Policy and protocols",
+                    "type": "paragraph",
+                    "order": 169,
+                    "indent": null,
+                    "item_id": "range_statement-169",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Work site environment factors may include but are not limited to",
+                    "type": "paragraph",
+                    "order": 170,
+                    "indent": null,
+                    "item_id": "range_statement-170",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Product knowledge may include",
+                    "type": "paragraph",
+                    "order": 171,
+                    "indent": null,
+                    "item_id": "range_statement-171",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Warranties",
+                    "type": "paragraph",
+                    "order": 172,
+                    "indent": null,
+                    "item_id": "range_statement-172",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Corresponding benefits of various products",
+                    "type": "paragraph",
+                    "order": 173,
+                    "indent": null,
+                    "item_id": "range_statement-173",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Use-by dates",
+                    "type": "paragraph",
+                    "order": 174,
+                    "indent": null,
+                    "item_id": "range_statement-174",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Storage requirements",
+                    "type": "paragraph",
+                    "order": 175,
+                    "indent": null,
+                    "item_id": "range_statement-175",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Stock availability",
+                    "type": "paragraph",
+                    "order": 176,
+                    "indent": null,
+                    "item_id": "range_statement-176",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Purchase methods may include:",
+                    "type": "paragraph",
+                    "order": 177,
+                    "indent": null,
+                    "item_id": "range_statement-177",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Electronic Data Interchange",
+                    "type": "paragraph",
+                    "order": 178,
+                    "indent": null,
+                    "item_id": "range_statement-178",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Credit card",
+                    "type": "paragraph",
+                    "order": 179,
+                    "indent": null,
+                    "item_id": "range_statement-179",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Cheques",
+                    "type": "paragraph",
+                    "order": 180,
+                    "indent": null,
+                    "item_id": "range_statement-180",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Standing offers",
+                    "type": "paragraph",
+                    "order": 181,
+                    "indent": null,
+                    "item_id": "range_statement-181",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Cash",
+                    "type": "paragraph",
+                    "order": 182,
+                    "indent": null,
+                    "item_id": "range_statement-182",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Agreed means",
+                    "type": "paragraph",
+                    "order": 183,
+                    "indent": null,
+                    "item_id": "range_statement-183",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records may include",
+                    "type": "paragraph",
+                    "order": 184,
+                    "indent": null,
+                    "item_id": "range_statement-184",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Purchase requests and orders",
+                    "type": "paragraph",
+                    "order": 185,
+                    "indent": null,
+                    "item_id": "range_statement-185",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Tender submissions and proposals",
+                    "type": "paragraph",
+                    "order": 186,
+                    "indent": null,
+                    "item_id": "range_statement-186",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Invoices and payment requests",
+                    "type": "paragraph",
+                    "order": 187,
+                    "indent": null,
+                    "item_id": "range_statement-187",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Statements and petty cash vouchers",
+                    "type": "paragraph",
+                    "order": 188,
+                    "indent": null,
+                    "item_id": "range_statement-188",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Offer and contract documents",
+                    "type": "paragraph",
+                    "order": 189,
+                    "indent": null,
+                    "item_id": "range_statement-189",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Evaluation process documentation",
+                    "type": "paragraph",
+                    "order": 190,
+                    "indent": null,
+                    "item_id": "range_statement-190",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records of authorised officers' decisions",
+                    "type": "paragraph",
+                    "order": 191,
+                    "indent": null,
+                    "item_id": "range_statement-191",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Corporate credit card transaction statements",
+                    "type": "paragraph",
+                    "order": 192,
+                    "indent": null,
+                    "item_id": "range_statement-192",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records of supplier performance",
+                    "type": "paragraph",
+                    "order": 193,
+                    "indent": null,
+                    "item_id": "range_statement-193",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Financial statements",
+                    "type": "paragraph",
+                    "order": 194,
+                    "indent": null,
+                    "item_id": "range_statement-194",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Asset registers",
+                    "type": "paragraph",
+                    "order": 195,
+                    "indent": null,
+                    "item_id": "range_statement-195",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Records of conversation",
+                    "type": "paragraph",
+                    "order": 196,
+                    "indent": null,
+                    "item_id": "range_statement-196",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sales objectives/ targets may vary with",
+                    "type": "paragraph",
+                    "order": 197,
+                    "indent": null,
+                    "item_id": "range_statement-197",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Product and/ or service",
+                    "type": "paragraph",
+                    "order": 198,
+                    "indent": null,
+                    "item_id": "range_statement-198",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Merchandising/ sales strategy",
+                    "type": "paragraph",
+                    "order": 199,
+                    "indent": null,
+                    "item_id": "range_statement-199",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sales",
+                    "type": "paragraph",
+                    "order": 200,
+                    "indent": null,
+                    "item_id": "range_statement-200",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Promotional strategies and their duration, cycle, territory coverage and product or service focus.",
+                    "type": "paragraph",
+                    "order": 201,
+                    "indent": null,
+                    "item_id": "range_statement-201",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Sales techniques may include but not be limited to",
+                    "type": "paragraph",
+                    "order": 202,
+                    "indent": null,
+                    "item_id": "range_statement-202",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Gaining a customer",
+                    "type": "paragraph",
+                    "order": 203,
+                    "indent": null,
+                    "item_id": "range_statement-203",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Closing a sale",
+                    "type": "paragraph",
+                    "order": 204,
+                    "indent": null,
+                    "item_id": "range_statement-204",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Associates sales techniques including trade-up, trade-in, tie-ins, cut-ins, range-ins",
+                    "type": "paragraph",
+                    "order": 205,
+                    "indent": null,
+                    "item_id": "range_statement-205",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Negotiation skills",
+                    "type": "paragraph",
+                    "order": 206,
+                    "indent": null,
+                    "item_id": "range_statement-206",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Over-the-'phone empathy creation",
+                    "type": "paragraph",
+                    "order": 207,
+                    "indent": null,
+                    "item_id": "range_statement-207",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Securing payment",
+                    "type": "paragraph",
+                    "order": 208,
+                    "indent": null,
+                    "item_id": "range_statement-208",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Credit check procedures may be",
+                    "type": "paragraph",
+                    "order": 209,
+                    "indent": null,
+                    "item_id": "range_statement-209",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Automated or manual",
+                    "type": "paragraph",
+                    "order": 210,
+                    "indent": null,
+                    "item_id": "range_statement-210",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Completed internally or by external agent",
+                    "type": "paragraph",
+                    "order": 211,
+                    "indent": null,
+                    "item_id": "range_statement-211",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Credit card details include",
+                    "type": "paragraph",
+                    "order": 212,
+                    "indent": null,
+                    "item_id": "range_statement-212",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Card type",
+                    "type": "paragraph",
+                    "order": 213,
+                    "indent": null,
+                    "item_id": "range_statement-213",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Card holder details",
+                    "type": "paragraph",
+                    "order": 214,
+                    "indent": null,
+                    "item_id": "range_statement-214",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Card number",
+                    "type": "paragraph",
+                    "order": 215,
+                    "indent": null,
+                    "item_id": "range_statement-215",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Expiry date",
+                    "type": "paragraph",
+                    "order": 216,
+                    "indent": null,
+                    "item_id": "range_statement-216",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Range Statement"
+        },
+        {
+            "key": "unit_sectors",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sectors-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Unit Sector(s)"
+        }
+    ]
+}

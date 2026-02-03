@@ -1,0 +1,479 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "DEF\\DEFGEO004_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Release 1. This is the first release of this unit of competence from the Defence DEF Training Package",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills required to provide geospatial technical advice related to geospatial capabilities within a Defence environment. The geospatial capabilities include current and future capability options and are related to current and future Defence operations and training.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit was developed for Defence personnel in a geospatial workplace but may be relevant to others who work in this field.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Those undertaking this unit would work independently or as part of a team, under indirect supervision while performing complex tasks, in a small range of familiar contexts. They would use discretion and judgement and take responsibility for the quality of their outputs.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Licensing/Regulatory Information",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "application-5",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Not applicable",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "competency_field",
+            "items": [
+                {
+                    "text": "Geospatial",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "competency_field-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Competency Field"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Not applicable",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 6,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Circumstances requiring the provision of advice for operations capabilities are observed, received and clarified in accordance with Australian Defence Force (ADF) regulatory requirements, organisational policy and Standard Operational Procedures (SOPs)"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Issues relating to operations capabilities are identified and confirmed through effective consultation with relevant personnel in accordance with SOPs"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Issues are interpreted and analysed to determine the circumstances in accordance with SOPs"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Research of relevant documents and literature is conducted in relation to identified issues and unclear findings are clarified with relevant personnel in accordance with SOPs"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Identify and analyse issues"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Options are identified and evaluated relating to the provision of current and potential future geospatial capability advice in accordance with SOPs"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Options are prioritised and preferred geospatial capability option is selected in accordance with SOPs"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Formulate options"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Advice is formulated and discussed with stakeholders in accordance with SOPs"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Stakeholder requirements are negotiated, incorporated and documented within the proposed advice in accordance with SOPs"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Reports are prepared for concluded advice within specified time and budget in accordance with SOPs"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Provide advice"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "range_of_conditions",
+            "items": [
+                {
+                    "text": "Range is restricted to essential operating conditions and any other variables essential to the work environment.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "range_of_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Non-essential conditions may be found in the Companion Volume Implementation Guide",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "range_of_conditions-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Range of Conditions"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "No equivalent unit",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=6bdbab1e-11ed-4bc9-9cba-9e1a55d4e4a9",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence must satisfy all of the requirements of the elements and performance criteria. If not otherwise specified the candidate must demonstrate evidence of performance of the following on at least one occasion:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "analysing and evaluating geospatial information",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "conducting research to clarify issues and unclear findings",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "identifying the issues surrounding the provision of advice",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "identifying geospatial capabilities",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "identifying and providing current and future capability options related to current and future Defence operations and training",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "liaising with stakeholders in providing advice and receiving feedback in a constructive manner",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "preparing and presenting reports",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence, must satisfy all of the requirements of the elements and performance criteria and include knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "capability requirements for current and future Defence operations and training",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "research and analysis techniques for identifying and clarifying issues",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "Australian Defence Force (ADF) regulatory requirements, and organisational policy, standard operational procedures including code of behaviour",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "geospatial technical information sources",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "relevant policies and procedures in relation to duty of care, ethical standards, geospatial capabilities and all other organisational requirements",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "verbal communication techniques for clarifying issues and providing advice to stakeholders",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "written communication techniques for preparing letters and reports",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "As a minimum, assessors must satisfy applicable regulatory requirements, which include requirements in the Standards for Registered Training Organisations current at the time of assessment.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "As a minimum, assessment must satisfy applicable regulatory requirements, which include requirements in the Standards for Registered Training Organisations current at the time of assessment.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment processes and techniques must be appropriate to the language, literacy and numeracy requirements of the work being performed and the needs of the candidate.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must occur in workplace operational situations. Where this is not appropriate, assessment must occur in simulated workplace operational situations that reflect workplace conditions.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Resources for assessment must include access to:",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "a range of relevant exercises, case studies and/or other simulations",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-5"
+                },
+                {
+                    "text": "applicable documentation including workplace procedures, regulations, codes of practice and operation manuals",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-5"
+                },
+                {
+                    "text": "relevant and appropriate materials, tools, equipment and personal protective equipment currently used in industry",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-5"
+                }
+            ],
+            "order": 13,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

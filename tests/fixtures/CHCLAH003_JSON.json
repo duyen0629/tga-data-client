@@ -1,0 +1,616 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CHC\\CHCLAH003_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version was released in CHC Community Services Training Package release 2.0 and meets the requirements of the 2012 Standards for Training Packages.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Minimal change to the elements and performance criteria. New evidence requirements for assessment including volume and frequency requirements. Minimum work hours added. Significant changes to knowledge evidence.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to participate in planning, implementation and evaluation of programs providing activities for individuals.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to workers in a range of community services and health contexts who provide leisure and health services.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills in this unit must be applied in accordance with Commonwealth and State/Territory legislation, Australian/New Zealand standards and industry codes of practice.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 3,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Use appropriate methods to assess client’s leisure and health needs according to specific purpose and under the guidance of an experienced worker"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Use a variety of appropriate recording methods under the guidance of an experienced worker"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Record information using holistic approach to health and well being of clients"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Participate in the analysis of information gained to identify individual strengths, needs, interests and preferences"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Maintain confidentiality while observing and recording"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Gather and record detailed information about clients"
+                    },
+                    {
+                        "criteria": [],
+                        "element_id": "element-2",
+                        "element_text": "2"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Use a consultative approach based on the client’s leisure and health needs assessment"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Identify and include a range of resources and ideas to meet the client’s leisure needs based on lifestyle, interests, and social context relevant to the individual and their community"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Identify and include ways in which the health, well being and abilities of individuals are enhanced"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Incorporate the additional and specific leisure and recreation needs of clients while reflecting the philosophy and goals of the service"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Assist with the documentation of an individual program plan for clients based on information gathered during assessment"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Participate in the design of individual program plans"
+                    },
+                    {
+                        "criteria": [],
+                        "element_id": "element-4",
+                        "element_text": "4"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Contribute to developing the setting and environment for leisure and health activities within constraints of resources, location and client’s needs and availability"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Contribute to developing timetables that provide structure and flexibility and serve as a communication tool"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Implement programs, allowing for clear staff communication, adapting to conditions and needs on day, in line with role and service requirements"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Gather and organise resources required for the individual program plan"
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Organise off-site outings as extension of program where appropriate, according to directions"
+                            },
+                            {
+                                "id": "criteria-3_6",
+                                "text": "3.6 Maintain ongoing communication with those involved in the program"
+                            },
+                            {
+                                "id": "criteria-3_7",
+                                "text": "3.7 Identify concerns about current individual program plans and refer appropriately"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Implement individual program plans"
+                    },
+                    {
+                        "criteria": [],
+                        "element_id": "element-6",
+                        "element_text": "6"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Assess progress of each individual using specified processes"
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Contribute to regular review of the individual program plan"
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Regularly document and evaluate individual program plan outcomes according to individual needs and service requirements"
+                            },
+                            {
+                                "id": "criteria-4_4",
+                                "text": "4.4 Clearly identify criteria for documentation and evaluation and use for review"
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Monitor and evaluate individual program plans"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [],
+            "order": 4,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "The Foundation Skills describe those required skills (such as language, literacy, numeracy and employment skills) that are essential to performance.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "No equivalent unit.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=5e0c25cc-3d9d-4b43-80d3-bd22cc4f1e53",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must show evidence of the ability to complete tasks outlined in elements and performance criteria of this unit, manage tasks and manage contingencies in the context of the job role. There must be evidence that the candidate has:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "worked with 3 clients to:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "gather and record detailed information using appropriate assessment methods",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "participate in the design of their programs and documented the program plans",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "implement the programs according to the plan or instructions",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "monitor and evaluate the program plans",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "performed the activities outlined in the performance criteria of this unit during a period of at least 120 hours of work",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate essential knowledge required to effectively complete tasks outlined in elements and performance criteria of this unit, manage tasks and manage contingencies in the context of the work role. This includes knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "theories of:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "development and building in the strengths of complex needs clients",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "inclusion and non-discriminatory practices",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "segregation",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "integration",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "current documentation requirements and expectations within the profession",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "client assessment processes",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "data collection methods",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "different approaches to program planning and development",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "criteria for selecting a specific programming approach",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "a variety of leisure experiences including:",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "art",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "music",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "sport",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "craft",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "facilitation and motivational techniques",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "legal and safety requirements as they relate to activities and programs",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "risk assessment processes",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "sources of information to be used as resources for individual program plan development",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-20",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "relevant quality improvement and accreditation system principles",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-21",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "work health and safety (WHS) principles and practices",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-22",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills must have been demonstrated in the workplace with the addition of simulations and scenarios where the full range of contexts and situations have not been provided in the workplace.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The following conditions must be met for this unit:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "use of suitable facilities, equipment and resources, including individualised plans and equipment or resources outlined in the plans",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "Assessors must satisfy the Standards for Registered Training Organisations (RTOs) 2015/ AQTF mandatory competency requirements for assessors.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

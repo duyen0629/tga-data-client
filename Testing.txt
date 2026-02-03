@@ -1,20 +1,21 @@
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "WRWSL201A");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "UETDRVC012");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "CPCCSI2005A");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "BSBITU111");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "RIICOM201E");
+// await ProcessTrainingComponentDocumentForCode(supabaseService, "xxxxxxxxx");
+// WRWSL201A
+// UETDRVC012
+// CPCCSI2005A
+// BSBITU111
+// RIICOM201E
 
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "UETDRAI002");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "RIICAM403");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "CPCCBC4002");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "CPCCBC4047A");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "BSBESB302");
+// UETDRAI002
+// RIICAM403
+// CPCCBC4002
+// CPCCBC4047A
+// BSBESB302
 
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "UETDRAI004");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "RIIDES301D");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "CPCCBC4005");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "CPCPCM2039");
-// await ProcessTrainingComponentDocumentForCode(supabaseService, "BSBCMM412");
+// UETDRAI004
+// RIIDES301D
+// CPCCBC4005
+// CPCPCM2039
+// BSBCMM412
 
 // ACMARM401
 // BSBSTR602
@@ -36,12 +37,15 @@
 
 // DEFEXO013 
 // FBPEGG2003 
-// FSKNUM040
+// FSKNUM040 ---
 // HLTAHPR003 
-// HLTWHS001 -> duplicated id for first row
+// HLTWHS001 -> id first row
 
 // ICPCBF3440 
 // ICPDMT3460 
 // ICPPRP3250 
 // MEA295 
 // MEAMEC0051
+// PSPTRP003
+
+Run unit test: dotnet test "tests/TgaGateway2.Tests/TgaGateway2.Tests.csproj"

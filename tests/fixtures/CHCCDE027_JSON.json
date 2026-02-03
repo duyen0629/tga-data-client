@@ -1,0 +1,651 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CHC\\CHCCDE027_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the performance outcomes, skills and knowledge required to work with individuals, groups and the community to identify issues and develop cooperative processes to facilitate change.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to workers using a community development approach to carry out work in the health, community services or other sectors. Workers at this level are part of a professional team and have the responsibility of supervision of others.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills in this unit must be applied in accordance with Commonwealth and State or Territory legislation, Australian standards and industry codes of practice.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No occupational licensing, certification or specific legislative requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Nil",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "competency_field",
+            "items": [
+                {
+                    "text": "Community Development",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "competency_field-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Competency Field"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Community Services",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 6,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Communicate with individuals and groups to ensure that their story is heard and understood, and to test that there is common understanding."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Respond to individual and group issues in a manner which shows respect for and a commitment to assist in their resolution."
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Proactively provide referrals to assist in the resolution of issues."
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Identify and address barriers to moving private concerns into public action."
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Identify individual and community strengths, talents and abilities that can address community priorities."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Work with individuals and groups to identify issues."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Identify relevant models of work and establish mechanisms and actions to address group priorities and strengths."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Organise opportunities to facilitate community participation."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Establish common goals and coordinate strategies for a cooperative group process."
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Engage key stakeholders in planning, implementing and evaluating strategies for community empowerment and action."
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Follow organisational policies and procedures for reporting."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Work with groups to establish cooperative processes."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Identify strengths and assets and access available resources to facilitate group and community work strategies and activities."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Participate in facilitation of effective group meetings to enhance outcomes."
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Support and maintain group processes to facilitate achievement of identified outcomes by the group."
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Monitor effectiveness of group processes and provide information to the group to enable improvement and change."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Support group processes and skills development."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Reflect on and improve own practice."
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Regularly participate in a review mechanism as a commitment to upgrading skills and knowledge."
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Work with the group to reflect on group practice and processes and identify areas for improvement."
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Reflect on practice."
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [],
+            "order": 7,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Foundation skills essential to performance in this unit, but not explicit in the performance criteria are listed here, along with a brief context statement.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "SKILLS",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "DESCRIPTION",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Reading skills to:",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "foundation_skills_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "interpret a variety of text to determine and confirm task requirements.",
+                                    "type": "bullet",
+                                    "order": 1,
+                                    "indent": 0,
+                                    "item_id": "foundation_skills_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and is equivalent to CHCCDE011 Implement community development strategies.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=5e0c25cc-3d9d-4b43-80d3-bd22cc4f1e53",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence of the ability to complete tasks outlined in elements and performance criteria of this unit in the context of the job role, and:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "identify at least one community priority and assess the structures and issues",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "engage cooperatively with at least one community group to develop strategies to address their priorities and issues",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "support at least three activities to facilitate community participation.",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "Demonstrated knowledge required to complete the tasks outlined in elements and performance criteria of this unit:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Commonwealth, State or Territory legislation and public policies impacting on community development processes",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "community processes and protocols",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "funding sources and their policies and strategies for encouraging community input and participation",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "principles and practices of community development work:",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "structural disadvantage and inequality",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "social justice and human rights:",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "individual",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "family",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "community",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "society",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 2,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "community development approaches and frameworks:",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "asset-based",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "rights-based",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "needs-based",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "gap-based",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-12"
+                },
+                {
+                    "text": "representation, lobbying and advocacy",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "power and conflict management",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "principles of networking and the role of partnerships",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "key methods of information dissemination and the benefits of use",
+                    "type": "bullet",
+                    "order": 20,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-20",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "referral processes",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-21",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "purpose and process of reflection",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-22",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "methods of monitoring and reviewing processes",
+                    "type": "bullet",
+                    "order": 23,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-23",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "general and cultural issues relating to specific community groups",
+                    "type": "bullet",
+                    "order": 24,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-24",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "group processes",
+                    "type": "bullet",
+                    "order": 25,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-25",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "organisational policies and procedures for data collection, analysis, and reporting.",
+                    "type": "bullet",
+                    "order": 26,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-26",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills must be demonstrated in demonstrated in the workplace or in a simulated environment that reflects workplace conditions.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must ensure:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "access to facilities, equipment and resources that reflect real working conditions and model industry operating conditions and contingencies",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "access to Commonwealth, State or Territory legislation and public policies impacting on community development processes",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "access to organisational policies and procedures",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "opportunities for engagement with community stakeholders.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-2"
+                },
+                {
+                    "text": "Assessors must satisfy the Standards for Registered Training Organisations’ requirements for assessors.",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

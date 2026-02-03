@@ -1,0 +1,547 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "DEF\\DEFEXO008_Complete_R3.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Release 3. Assessment Conditions clarified in relation to simulation being an assessment option.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Release 2. Modifications made to Foundation Skills and Assessment Conditions.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Release 1. This unit was released in DEF Defence Training Package release 1.0 and meets the Standards for Training Packages.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "modification_history-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit supersedes and is equivalent to DEFEO501D Conduct explosives inspection.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "modification_history-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Unit code updated",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "modification_history-5",
+                    "parent_bullet_item_id": "modification_history-4"
+                },
+                {
+                    "text": "Content and formatting updated to comply with the new standards",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "modification_history-6",
+                    "parent_bullet_item_id": "modification_history-4"
+                },
+                {
+                    "text": "All PC transitioned from passive to active voice",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "modification_history-7",
+                    "parent_bullet_item_id": "modification_history-4"
+                },
+                {
+                    "text": "PC 1.2 and 3.1 removed",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "modification_history-8",
+                    "parent_bullet_item_id": "modification_history-4"
+                },
+                {
+                    "text": "Element 3 one new PC",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "modification_history-9",
+                    "parent_bullet_item_id": "modification_history-4"
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence in this unit must be relevant to and satisfy all of the requirements of the elements and performance criteria on at least one occasion and include:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "using relevant tools and equipment",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "working safely within an explosive environment",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "complying with",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "organisational safety requirements",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-4"
+                },
+                {
+                    "text": "appropriate legislative and regulatory requirements.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-4"
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence in this unit must be relevant to and satisfy all of the requirements of the elements and performance criteria and include:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "basic knowledge of",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "operation of explosives",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "explosive licence limits",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "operational knowledge of",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "markings and labelling requirements of explosives",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "characteristics and limitations of explosive to be inspected",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "inspection procedures",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "organisational documentation requirements",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                },
+                {
+                    "text": "organisational safety policies and structures.",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-5"
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessors must hold credentials specified within the Standards for Registered Training Organisations current at the time of assessment.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must satisfy the Principles of Assessment and Rules of Evidence and all regulatory requirements included within the Standards for Registered Training Organisations current at the time of assessment.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must occur in workplace operational situations. Where this is not appropriate, assessment must occur in simulated workplace operational situations that reflect workplace conditions.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment processes and techniques must be appropriate to the language, literacy and numeracy requirements of the work being performed and the needs of the candidate.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Resources for assessment must include access to:",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "a range of relevant exercises, case studies and/or simulations",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-5"
+                },
+                {
+                    "text": "acceptable means of simulation assessment",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-5"
+                },
+                {
+                    "text": "applicable documentation, including workplace procedures, regulations, codes of practice and operation manuals",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-5"
+                },
+                {
+                    "text": "relevant materials, tools, equipment and PPE currently used in industry.",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": "assessment_conditions-5"
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Assessment Conditions"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=6bdbab1e-11ed-4bc9-9cba-9e1a55d4e4a9",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills required to conduct an inspection on all types of explosives in order to assess serviceability and to process further action. How the explosives are processed is subject to the outcomes of the inspection. In the case of defective or damaged explosives they may be retained and returned to the manufacturer, maintained or disposed of, or restrictions may be placed on their use.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to those required to conduct an inspection on all types of explosives.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills and knowledge described in this unit must be applied within the legislative, regulatory and policy environment in which they are carried out. Organisational policies and procedures must be consulted and adhered to.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Those undertaking this unit would work independently and as part of a team, under direct and/or indirect supervision, use discretion and judgement, and take responsibility for the quality of their output. They would perform specific tasks in a broad range of contexts.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "application-5",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "competency_field",
+            "items": [
+                {
+                    "text": "Explosive ordnance",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "competency_field-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Competency Field"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 10,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify requirement for explosives inspection from work requests/instructions"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Identify, acquire and prepare technical references, tools and equipment required for the inspection"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify, acquire, account for, move or pre-position explosives in preparation for inspection"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Identify, calculate, assess and apply net explosive quantities and compatibility"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Prepare for inspection"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Inspect explosives in a logical set sequence to ensure that defects or damage are not overlooked"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Identify and record damage or other defects"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Inspect explosive"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Make a serviceability recommendation for inspected explosives"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Maintain documentation and records"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Carry out post inspection procedures"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "range_of_conditions",
+            "items": [
+                {
+                    "text": "Range is restricted to essential operating conditions and any other variables essential to the work environment.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "range_of_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Non-essential conditions may be found in the Companion Volume Implementation Guide.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "range_of_conditions-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Range of Conditions"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "This unit supersedes and is equivalent to DEFEO501D Conduct explosives inspection.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 13,
+            "table": null,
+            "title": "Unit Mapping Information"
+        }
+    ]
+}

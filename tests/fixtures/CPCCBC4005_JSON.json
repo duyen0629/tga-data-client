@@ -1,0 +1,642 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CPC\\CPCCBC4005_Complete_R3.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 3",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Updated reference to general construction induction training program.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 2",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 6.4.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Correction to Training Package title in the Modification History from CPC Property Services to CPC Construction, Plumbing and Services Training Package.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with CPC Property Services Training Package Release 5.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Supersedes and is equivalent to CPCCBC4005A Produce labour and material schedules for ordering. Updated to meet the Standards for Training Packages 2012.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "To demonstrate competency, a candidate must meet the elements and performance criteria of this unit by producing a schedule for the ordering of materials and allocation of labour for a residential or commercial building and construction project.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "In doing this, the candidate must:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "produce a labour and materials schedule across the life of the project",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "develop and manage efficient communications between staff, contractors and suppliers",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "monitor, maintain and record project progress and variations, estimated and increased costs and changes to construction drawings and specifications.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "To be competent in this unit, a candidate must demonstrate knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "relevant government building legislation and regulations",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "building and construction codes and standards",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "construction drawings and specifications",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "building and construction contractor and supplier contracts",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "local authority building application processes, approval and conditions",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "organisational policies and procedures:",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "costing and ordering materials",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "selecting and engaging suppliers",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "approving and contacting contractors",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-7"
+                },
+                {
+                    "text": "projects costs:",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "organisational and subcontractor labour",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "organisation overheads",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "public liability, professional indemnity and workers’ compensation",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "temporary electrical, plumbing and draining services",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "temporary site facilities, storage facilities and boundary fencing",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "communications",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "project administration",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "workplace procedures, workplace safety and environmental requirements.",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessors must meet the requirements for assessors contained in the Standards for Registered Training Organisations.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment can be undertaken in the workplace or in a simulated workplace environment.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "A simulated environment is one that realistically replicates workplace conditions, materials and equipment, interactions with others and workplace irregularities, and which meets industry standards for safety and environmental practices.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Candidates must have access to:",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "current construction drawings and specifications",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "relevant organisational policies and procedures",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "various construction industry contracts",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "organisational policies and procedures and other quality documentation required to undertake the performance criteria and assessment requirements",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "digital devices, applications and software to set up electronic call forward sheets, compile site files and create channels of communication with internal and external stakeholders.",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Assessment Conditions"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion volumes to this training package are available at the VETNet website - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=7e15fa6a-68b8-4097-b099-030a5569b1ad",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit of competency specifies the skills and knowledge required to produce schedules for physical and human resources and materials for residential or commercial projects. It includes monitoring project schedules and tracking and recording costs as they are incurred.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit of competency applies to site managers and forepersons, estimators, project managers and builders in the construction industry with responsibility for producing schedules for ordering materials and allocating labour.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit of competency is suitable for those using specialised knowledge to complete routine and non-routine tasks and using their own judgement to deal with predictable and sometimes unpredictable problems.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Completion of the general construction induction training program specified by the model Code of Practice for Construction Work is required for any person who is to carry out construction work. Achievement of CPCWHS1001 Prepare to work safely in the construction industry meets this requirement.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Licensing, regulatory or registration requirements apply to this unit of competency in some jurisdictions. Relevant state and territory regulatory authorities should be consulted to confirm these requirements.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "application-5",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Nil.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Building and Construction",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 9,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Check conditions of approval from local government and regulatory bodies and project commencement dates."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Identify variations to scope of works and contractual terms and arrangements by the client."
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Compile a list of nominated and approved suppliers and contractors and develop channels for effective communication."
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Confirm availability of materials with suppliers and labour with contractors."
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Enter critical project information into project schedule."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Assess physical and human resource requirements."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Prepare electronic call forward sheet and site files containing necessary site documentation."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Break down project into stages and tasks and set milestones and timeframes for commencement and completion."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Itemise materials and labour required for the stages of construction."
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Sequence material delivery dates and commencement times for labour."
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Factor in unplanned delays."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Produce schedules."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Monitor construction stage progression costs and approved variation costs against estimated project cost."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Manage and monitor project progress against scheduled timelines."
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Record unscheduled and approved variations, changes to the approved plan and specifications and delays to the project."
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Resolve issues, within scope of responsibilities, and maintain a cost analysis against final estimated project cost."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Monitor project costs and maintain project files."
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "As well as the foundation skills explicit in the performance criteria of this unit, candidates require:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "technology skills to:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "foundation_skills-2",
+                    "parent_bullet_item_id": "foundation_skills-1"
+                },
+                {
+                    "text": "use digital devices to communicate and collaborate effectively with suppliers, contractors and others",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "foundation_skills-3",
+                    "parent_bullet_item_id": "foundation_skills-2"
+                },
+                {
+                    "text": "use equipment and programs to prepare and access electronic call forward sheets and files.",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "foundation_skills-4",
+                    "parent_bullet_item_id": "foundation_skills-2"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and is equivalent to CPCCBC4005A Produce labour and material schedules for ordering",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Unit Mapping Information"
+        }
+    ]
+}

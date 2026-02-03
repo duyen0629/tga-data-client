@@ -154,44 +154,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 try
                 {
                     var completeResult = await LoadLinesXmlOnly(candidate.Complete);
-                    var completeLines = completeResult.Lines;
-
-                    var title = ExtractTitle(trainingComponentCode, completeLines)
-                                ?? trainingComponentCode;
-
-                    var completeSections = ParseSectionsFromXml(completeResult.Bytes);
-
-                    var mergedSections = completeSections;
-
-                    var sourceFiles = new
-                    {
-                        complete = new
-                        {
-                            relative_path = completeResult.SelectedRelativePath,
-                            format = completeResult.FormatUsed
-                        }
-                    };
-
-                    var contentJson = new
-                    {
-                        sections = mergedSections,
-                        source = sourceFiles
-                    };
-
-                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
-                    var sourceFilesJson = SanitizeJson(serializer.Serialize(sourceFiles));
-                    var contentJsonRaw = SanitizeJson(serializer.Serialize(contentJson));
-                    var rawXml = completeResult.Bytes != null ? Encoding.UTF8.GetString(completeResult.Bytes) : null;
-                    var record = new TrainingComponentDocumentRecord
-                    {
-                        TrainingComponentCode = trainingComponentCode,
-                        ReleaseNumber = candidate.ReleaseNumber,
-                        Title = title,
-                        SourceFiles = new JsonRaw(sourceFilesJson),
-                        ContentJson = new JsonRaw(contentJsonRaw),
-                        RawXml = rawXml,
-                        ParsedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ", CultureInfo.InvariantCulture)
-                    };
+                    var record = BuildRecordFromXmlBytes(
+                        trainingComponentCode,
+                        candidate.ReleaseNumber,
+                        completeResult.SelectedRelativePath,
+                        completeResult.FormatUsed,
+                        completeResult.Bytes);
 
                     await supabaseService.SaveToSupabase(new[] { record }, "training_component_documents");
                     Console.WriteLine("   ✓ training_component_documents saved.");
@@ -237,6 +205,91 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             return savedCount;
         }
 
+        internal static List<TrainingComponentDocumentRecord> BuildRecordsForReleaseFilesForTest(
+            string trainingComponentCode,
+            List<ReleaseFileRow> releaseFiles,
+            Func<string, byte[]> xmlBytesProvider)
+        {
+            if (xmlBytesProvider == null)
+            {
+                throw new ArgumentNullException(nameof(xmlBytesProvider));
+            }
+
+            var candidates = SelectReleaseFilesByRelease(releaseFiles);
+            var records = new List<TrainingComponentDocumentRecord>();
+
+            foreach (var candidate in candidates)
+            {
+                var xmlPath = candidate?.Complete?.XmlPath;
+                if (string.IsNullOrWhiteSpace(xmlPath))
+                {
+                    continue;
+                }
+
+                var xmlBytes = xmlBytesProvider(xmlPath);
+                if (xmlBytes == null || xmlBytes.Length == 0)
+                {
+                    throw new Exception($"Missing XML bytes for {xmlPath}");
+                }
+
+                var record = BuildRecordFromXmlBytes(
+                    trainingComponentCode,
+                    candidate.ReleaseNumber,
+                    xmlPath,
+                    "xml",
+                    xmlBytes);
+
+                records.Add(record);
+            }
+
+            return records;
+        }
+
+        private static TrainingComponentDocumentRecord BuildRecordFromXmlBytes(
+            string trainingComponentCode,
+            string releaseNumber,
+            string relativePath,
+            string formatUsed,
+            byte[] xmlBytes)
+        {
+            var lines = ExtractLinesFromXml(xmlBytes);
+            var title = ExtractTitle(trainingComponentCode, lines) ?? trainingComponentCode;
+
+            var completeSections = ParseSectionsFromXml(xmlBytes);
+            var mergedSections = completeSections;
+
+            var sourceFiles = new
+            {
+                complete = new
+                {
+                    relative_path = relativePath,
+                    format = formatUsed ?? "xml"
+                }
+            };
+
+            var contentJson = new
+            {
+                sections = mergedSections,
+                source = sourceFiles
+            };
+
+            var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
+            var sourceFilesJson = SanitizeJson(serializer.Serialize(sourceFiles));
+            var contentJsonRaw = SanitizeJson(serializer.Serialize(contentJson));
+            var rawXml = xmlBytes != null ? Encoding.UTF8.GetString(xmlBytes) : null;
+
+            return new TrainingComponentDocumentRecord
+            {
+                TrainingComponentCode = trainingComponentCode,
+                ReleaseNumber = releaseNumber,
+                Title = title,
+                SourceFiles = new JsonRaw(sourceFilesJson),
+                ContentJson = new JsonRaw(contentJsonRaw),
+                RawXml = rawXml,
+                ParsedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ", CultureInfo.InvariantCulture)
+            };
+        }
+
         private static bool IsStatementTimeout(Exception ex)
         {
             var message = ex?.Message ?? string.Empty;
@@ -261,6 +314,28 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             }
 
             return summary;
+        }
+
+        internal static string BuildContentJsonForXml(byte[] xmlBytes, string relativePath)
+        {
+            var sections = ParseSectionsFromXml(xmlBytes);
+            var sourceFiles = new
+            {
+                complete = new
+                {
+                    relative_path = relativePath,
+                    format = "xml"
+                }
+            };
+
+            var contentJson = new
+            {
+                sections = sections,
+                source = sourceFiles
+            };
+
+            var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
+            return SanitizeJson(serializer.Serialize(contentJson));
         }
 
         private static List<ReleaseFileSelection> SelectReleaseFilesByRelease(List<ReleaseFileRow> releaseFiles)

@@ -1,0 +1,714 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CHC\\CHCCEL005_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version was released inCHC Community Services Training Package release 3.0 and meets the requirements of the 2012 Standards for Training Packages.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Significant changes to the elements and performance criteria. New evidence requirements for assessment including volume and frequency requirements. Significant change to knowledge evidence.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_2",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Supersedes CHCCEL402A",
+                                    "type": "paragraph",
+                                    "order": 3,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_3",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge required to determine the specific legal and ethical requirements for marriage celebrancy practice, create and maintain systems and resources, and maintain and improve skills and knowledge in marriage celebrancy.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to individuals seeking to be registered as a Commonwealth-registered marriage celebrant by the Attorney-General’s Department.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills in this unit must be applied in accordance with Commonwealth and State/Territory legislation, Australian/New Zealand Standards and industry codes of practice.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 3,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify and access sources of authoritative information on the legal and ethical requirements for the establishment and maintenance of a marriage celebrancy practice"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Review and collate current information that supports professional practice as a marriage celebrant"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify systems and resources required to meet legal requirements from evaluation of information"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Determine legal and ethical requirements for marriage celebrancy practice"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Organise resources required to support marriage celebrancy work"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Create and document systems and procedures that support adherence to legal requirements and the Code of Practice for marriage celebrants"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Ensure administrative systems and supplies are in place to support completion, storage and registration of relevant documentation in accordance with legal requirements"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Seek guidance from authoritative sources on establishment of systems and resources"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Create and maintain marriage celebrancy systems and resources"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Maintain currency of marriage celebrancy knowledge using authoritative information sources"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Pro-actively identify and use professional development opportunities"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Use feedback and reflection as the basis for practice improvement"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Collaborate with colleagues as part of ongoing professional development"
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Integrate current and emerging ideas and technologies into own practice and resources"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Maintain and improve own skills and resources"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "The Foundation Skills describe those required skills (language, literacy, numeracy and employment skills) that are essential to performance.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "foundation_skills-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "No equivalent unit",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=5e0c25cc-3d9d-4b43-80d3-bd22cc4f1e53",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must show evidence of the ability to complete tasks outlined in elements and performance criteria of this unit, manage tasks and manage contingencies in the context of the job role. There must be evidence that the candidate has:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "used critical thinking skills to identify, review and collate information from authoritative sources about requirements for marriage celebrancy practice",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "developed and documented an outline of the systems and procedures, and the associated costs, required to support a marriage celebrancy practice in the context of legal requirements.",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate essential knowledge required to effectively complete tasks outlined in elements and performance criteria of this unit, manage tasks and manage contingencies in the context of the work role. This includes knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "the marriage regulations and current resources developed by the Attorney-General’s Department to support celebrants",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "the roles and responsibilities of the government and government agencies, at both Commonwealth and state/territory levels, under marriage regulations",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "the major sections of marriage regulations, including:",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "the legal definition of marriage in Australia",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-4"
+                },
+                {
+                    "text": "who may marry under Australian law",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-4"
+                },
+                {
+                    "text": "the requirements for a marriage to be valid",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-4"
+                },
+                {
+                    "text": "the grounds upon which a marriage could be declared void",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-4"
+                },
+                {
+                    "text": "the various offences under marriage regulations, and the related penalties",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-4"
+                },
+                {
+                    "text": "the Code of Practice, contained in marriage regulations, including understanding the legal requirements of the Code of Practice, such as the obligation to respect privacy and confidentiality",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "current resources developed by the Attorney-General’s Department to support celebrants, including how these resources can be used to assist a celebrant in their best practice",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "the links between marriage regulations (including the Code of Practice) and current resources",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "the purpose of marriage, and its evolution historically as it applies to marriage in Australia",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "Commonwealth anti-discrimination laws,as well as those in each state and territory",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "Statutory Declarations Act 1959, including knowledge ofresponsibilities in accepting a Commonwealth statutory declaration",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "Migration Act 1958, including:",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "broad understanding ofimmigration laws relating to marriages contrived to gain permanent residency",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-17",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "knowledge of how to respond to a request from a couple to verify their intent to marry to the Department of Immigration and Border Protection",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-18",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "potential conflict of interest issues, where a celebrant is also a registered migration agent",
+                    "type": "bullet",
+                    "order": 19,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-19",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "Copyright Act 1968,including:",
+                    "type": "paragraph",
+                    "order": 20,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-20",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "understanding of who (the celebrant or the couple) is responsible for obtaining any copyright licences or permissions",
+                    "type": "bullet",
+                    "order": 21,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-21",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "understanding of the difference between copyright licence and copyright insurance",
+                    "type": "bullet",
+                    "order": 22,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-22",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "awareness of the Copyright Agency Limited (CAL) and Celebrant Group Copyright Licence available via most celebrant associations",
+                    "type": "bullet",
+                    "order": 23,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-23",
+                    "parent_bullet_item_id": "knowledge_evidence-16"
+                },
+                {
+                    "text": "Australian Consumer Law, including:",
+                    "type": "bullet",
+                    "order": 24,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-24",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "understanding obligationsto consumers relevant to operating as a marriage celebrant",
+                    "type": "bullet",
+                    "order": 25,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-25",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "identifying and accessing resources to assist marriage celebrants to understand and comply with obligations to consumers",
+                    "type": "bullet",
+                    "order": 26,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-26",
+                    "parent_bullet_item_id": "knowledge_evidence-24"
+                },
+                {
+                    "text": "Australian defamation laws",
+                    "type": "bullet",
+                    "order": 27,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-27",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "local government requirements that impact on ceremonies – requirements relating to the use of parks and gardens as wedding venues",
+                    "type": "bullet",
+                    "order": 28,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-28",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "the requirements of the Marriage Celebrants Program:",
+                    "type": "bullet",
+                    "order": 29,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-29",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "categories of marriage celebrant, the differences between each category and the legal responsibilities, rights and duties of each category",
+                    "type": "bullet",
+                    "order": 30,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-30",
+                    "parent_bullet_item_id": "knowledge_evidence-29"
+                },
+                {
+                    "text": "Register of Marriage Celebrants",
+                    "type": "bullet",
+                    "order": 31,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-31",
+                    "parent_bullet_item_id": "knowledge_evidence-29"
+                },
+                {
+                    "text": "requirements for registration as a Commonwealth marriage celebrant",
+                    "type": "bullet",
+                    "order": 32,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-32",
+                    "parent_bullet_item_id": "knowledge_evidence-29"
+                },
+                {
+                    "text": "application form and process of consideration of applications and registration:",
+                    "type": "bullet",
+                    "order": 33,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-33",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "fit and proper person criteria",
+                    "type": "bullet",
+                    "order": 34,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-34",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "qualification and skill requirements",
+                    "type": "bullet",
+                    "order": 35,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-35",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "conflict of interest provisions",
+                    "type": "bullet",
+                    "order": 36,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-36",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "administrative procedures and application registration fees that apply to making an application for registration as a Commonwealth marriage celebrant, and the availability and process to obtain exemption from the fee",
+                    "type": "bullet",
+                    "order": 37,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-37",
+                    "parent_bullet_item_id": "knowledge_evidence-33"
+                },
+                {
+                    "text": "obligations of marriage celebrants, including:",
+                    "type": "bullet",
+                    "order": 38,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-38",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "notification obligations, such as change in contact details, and documents of notification, including the marriage celebrant register portal",
+                    "type": "bullet",
+                    "order": 39,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-39",
+                    "parent_bullet_item_id": "knowledge_evidence-38"
+                },
+                {
+                    "text": "the annual celebrant registration charge, the availability of, and process to, obtain exemption from the charge, and the consequences of non-payment",
+                    "type": "bullet",
+                    "order": 40,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-40",
+                    "parent_bullet_item_id": "knowledge_evidence-38"
+                },
+                {
+                    "text": "requirements for ongoing professional development for marriage celebrants, and the availability of, and process to, obtain exemption from this requirements",
+                    "type": "bullet",
+                    "order": 41,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-41",
+                    "parent_bullet_item_id": "knowledge_evidence-38"
+                },
+                {
+                    "text": "performance reviews and the matters the Registrar of Marriage Celebrants must take into account in conducting a performance review",
+                    "type": "bullet",
+                    "order": 42,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-42",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "circumstances in which disciplinary measures can be taken against a marriage celebrant",
+                    "type": "bullet",
+                    "order": 43,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-43",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "disciplinary measures that may be taken against a marriage celebrant",
+                    "type": "bullet",
+                    "order": 44,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-44",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "review process for disciplinary decisions of the Registrar of Marriage Celebrants",
+                    "type": "bullet",
+                    "order": 45,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-45",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "complaints against marriage celebrants and the operation of the complaints process",
+                    "type": "bullet",
+                    "order": 46,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-46",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "records that the Registrar must keep in relation to each marriage celebrant",
+                    "type": "bullet",
+                    "order": 47,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-47",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                },
+                {
+                    "text": "the methods available for a marriage celebrant to identify and maintain up-to-date information, resources and support services to support professional celebrancy practice.",
+                    "type": "bullet",
+                    "order": 48,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-48",
+                    "parent_bullet_item_id": "knowledge_evidence-20"
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Skills must have been demonstrated in the workplace or in a simulated environment that reflects workplace conditions. The following conditions must be met for this unit:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "use of suitable facilities, equipment and resources, including legislative information and Code of Practice.",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": "assessment_conditions-1"
+                },
+                {
+                    "text": "Assessors must satisfy the Standards for Registered Training Organisations (RTOs) 2015/AQTF mandatory competency requirements for assessors.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

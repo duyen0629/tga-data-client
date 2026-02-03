@@ -1,0 +1,589 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "DEF\\DEFDPA008_Complete_R2.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Release 2. Punctuation errors corrected. Assessment conditions clarified.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Release 1. This is the first release of this unit of competency in the DEF Defence Training Package.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence in this unit must be relevant to and satisfy all the requirements of the elements and performance criteria on at least one occasion and include:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "applying organisational policies and procedures",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "applying relevant legislation, regulations and operational policies to public affairs projects",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "managing public affairs projects",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "planning and coordinating a range of events/activities for different stakeholders",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "publicising events and activities to encourage public participation.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence in this unit must be relevant to and satisfy all the requirements of the elements and performance criteria and include knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "evaluation in the context of public affairs projects and activities",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "privacy principles",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "project planning and coordination",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "relevant legislation, regulations, organisational policies, organisational procedures and guidelines relating to public affairs, such as privacy, confidentiality, copyright, libel and slander",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "using mass media.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessors must satisfy relevant vocational education and training legislation, frameworks and/or standards.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must occur in workplace operational situations. Where this is not appropriate, assessment must occur in simulated workplace operational situations that replicate workplace conditions.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment processes and techniques must be appropriate to the language, literacy and numeracy requirements of the work being performed and the needs of the candidate.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Resources for assessment must include access to:",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "a range of relevant exercises, case studies and/or simulations",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "acceptable means of simulation assessment",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "relevant and appropriate materials, tools, equipment and personal protective equipment currently used in industry",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "relevant standards, policy and instructions related to public affairs",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "applicable documentation, including operational procedures, regulations, codes of practice and operation manuals.",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Assessment Conditions"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=6bdbab1e-11ed-4bc9-9cba-9e1a55d4e4a9",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit specifies the skills and knowledge required to manage public affairs projects.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "It includes defining project scope, developing an overall project plan, monitoring the project and evaluating planned outcomes.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The project may include:",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "video/film productions",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": "application-3"
+                },
+                {
+                    "text": "radio productions, drama documentaries",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "application-5",
+                    "parent_bullet_item_id": "application-3"
+                },
+                {
+                    "text": "multimedia projects",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "application-6",
+                    "parent_bullet_item_id": "application-3"
+                },
+                {
+                    "text": "major events",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "application-7",
+                    "parent_bullet_item_id": "application-3"
+                },
+                {
+                    "text": "exercises",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "application-8",
+                    "parent_bullet_item_id": "application-3"
+                },
+                {
+                    "text": "air shows.",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "application-9",
+                    "parent_bullet_item_id": "application-3"
+                },
+                {
+                    "text": "This unit applies to Defence public affairs personnel but it could apply to any personnel who work in this field.",
+                    "type": "paragraph",
+                    "order": 10,
+                    "indent": null,
+                    "item_id": "application-10",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The skills and knowledge described in this unit must be applied within the legislative, regulatory and policy environment in which they are carried out. Organisational policies and procedures must be consulted and adhered to.",
+                    "type": "paragraph",
+                    "order": 11,
+                    "indent": null,
+                    "item_id": "application-11",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Persons undertaking this unit work independently or as part of a team and perform specific tasks in familiar contexts.",
+                    "type": "paragraph",
+                    "order": 12,
+                    "indent": null,
+                    "item_id": "application-12",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 13,
+                    "indent": null,
+                    "item_id": "application-13",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Not applicable",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "competency_field",
+            "items": [
+                {
+                    "text": "Defence Public Affairs",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "competency_field-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Competency Field"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Not applicable",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 10,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Clarify project aim, purpose, product and outcome"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Develop project budget and confirm with relevant project stakeholders"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Determine and confirm project resources strategy including finance, personnel, technology and equipment requirements"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Determine project personnel responsibilities"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Communicate responsibilities clearly to project stakeholders and personnel"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Define project scope"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Develop project plan including timeline, schedules, deliverables and contribution from project stakeholders"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Develop project risk management strategy and resource management strategy in accordance with operational procedures"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Clarify and confirm resource requirements and availability"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Specify and confirm timeline and milestones"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Brief relevant personnel on project plan, deadlines and responsibilities"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Develop project plan"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Implement project plan"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Support project personnel to ensure that project outcomes can be achieved"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Use interpersonal skills to build trust and cooperation with project team"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Assess progress against milestones and take contingency action as required to ensure project deadlines are met"
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Adjust project plan in accordance with contingency plans"
+                            },
+                            {
+                                "id": "criteria-3_6",
+                                "text": "3.6 Establish and maintain relevant documentation and correspondence register"
+                            },
+                            {
+                                "id": "criteria-3_7",
+                                "text": "3.7 Provide feedback to relevant personnel coordinating sections of the project"
+                            },
+                            {
+                                "id": "criteria-3_8",
+                                "text": "3.8 Finalise project within agreed timelines"
+                            },
+                            {
+                                "id": "criteria-3_9",
+                                "text": "3.9 Provide reports to management/stakeholders, as required"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Monitor project"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Evaluate project outcomes against agreed aim and purpose"
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Evaluate project outcome quality"
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Review project plan using agreed measures"
+                            },
+                            {
+                                "id": "criteria-4_4",
+                                "text": "4.4 Communicate project evaluation outcomes with relevant personnel and incorporate recommendations into future project planning and management"
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Evaluate project outcomes"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "range_of_conditions",
+            "items": [
+                {
+                    "text": "Range is restricted to essential operating conditions and any other variables essential to the work environment.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "range_of_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Non-essential conditions may be found in the Companion Volume Implementation Guide.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "range_of_conditions-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Range of Conditions"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "This unit supersedes and is equivalent to DEFPA008 Manage public affairs projects.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 13,
+            "table": null,
+            "title": "Unit Mapping Information"
+        }
+    ]
+}

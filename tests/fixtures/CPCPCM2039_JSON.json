@@ -1,0 +1,413 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "CPC\\CPCPCM2039_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 5.0.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Supersedes and is equivalent to CPCPCM2039A Carry out interactive workplace communication. Updated to meet the Standards for Training Packages 2012.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "modification_history-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit specifies the skills and knowledge required to carry out effective communication techniques underpinning work in the plumbing and services industry.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "In some jurisdictions, this unit of competency may form part of accreditation, licensing, legislative, regulatory or certification requirements.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "Nil.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Plumbing",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 5,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify information and/or instructions to be communicated and received."
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Identify workplace context and personnel with whom to communicate."
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Identify and select suitable forms of communication and method(s) for workplace context."
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Plan workplace communication."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Communicate clearly and orally using language and method consistent with workplace context and procedures."
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Adjust oral communication delivery where intent of communication was not received correctly."
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Confirm communication is received by recipient as intended."
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Apply oral communication."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Communicate non-verbally using body language and gestures consistent with workplace context and procedures."
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Adjust non-verbal communication delivery where intent of communication was not received correctly."
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Use visual communication that follows accepted industry practice or social convention in accordance with workplace context and procedures."
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Confirm communications are received by recipient as intended."
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Apply non-verbal communication."
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Identify workplace activities requiring written communication to be applied."
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Read and interpret workplace information or requirements from relevant job plans and specifications, codes, Australian standards, manufacturer’s specifications and jurisdictional requirements."
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Identify and apply regulatory and work activity signage in accordance with workplace procedures."
+                            },
+                            {
+                                "id": "criteria-4_4",
+                                "text": "4.4 Complete regulatory authorities' and workplace documentation in accordance with workplace procedures."
+                            },
+                            {
+                                "id": "criteria-4_5",
+                                "text": "4.5 Record and report work activities in accordance with workplace procedures."
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Use written communication."
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "Supersedes and is equivalent to CPCPCM2039A Carry out interactive workplace communication.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion volumes to this training package are available at the VETNet website - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=7e15fa6a-68b8-4097-b099-030a5569b1ad",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "To demonstrate competency, a candidate must meet the performance criteria for this unit by:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "communicating with others orally and non-verbally in a clear and accurate manner",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "reading and interpreting workplace procedures, job instructions, job processes and equipment and operator instructions",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "applying work activity signage in accordance with regulatory and workplace requirements",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "completing regulatory and workplace documentation.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "To be competent in this unit, a candidate must demonstrate knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "types of communication",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "non-verbal communication",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "standardised signage",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "visual signalling procedures",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "types of workplace documentation",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "how instructions are conveyed in the workplace",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "how work schedules, charts, bulletins and memos are used",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "industry-relevant technology to support oral communication",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "industry terminology",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "job safety analyses (JSAs) and safe work method statements (SWMSs).",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessors must meet the requirements for assessors contained in the Standards for Registered Training Organisations.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit must be assessed in the workplace or a close simulation using realistic workplace conditions, materials, activities, responsibilities, procedures, safety requirements and environmental considerations.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

@@ -1,0 +1,870 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "RII\\RIIDES301D_Complete_R2.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comment",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This unit replaces RIIDES301 Inspect, test and maintain diesel engine systems and their ancillary systems",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "2",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Required frequency and volume of evidence amended in Performance evidence.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                },
+                                {
+                                    "text": "Substantial amendments made in Assessment Conditions field, including: references to Industry Sectors, assessor and subject matter expert experience requirements, how assessment should be conducted and what it should confirm.",
+                                    "type": "paragraph",
+                                    "order": 2,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-3_2_2",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence is required to be collected that demonstrates a candidate’s competency in this unit. Evidence must be relevant to the roles within this sector’s work operations and satisfy all of the requirements of the performance criteria of this unit and include evidence that the candidate:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "locates and applies relevant documentation, policies and procedures",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "implements the requirements, procedures and techniques for the safe, effective and efficient completion of the inspection, testing and maintenance of diesel engine systems and their ancillary systems including:",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "applying operational safety requirements",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "accessing, interpreting and applying technical information",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "inspecting and testing engine and ancillary systems and diagnosing and recording existing or identified faults",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "routine engine and ancillary system maintenance",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "overhauling of engine and ancillary systems",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-3"
+                },
+                {
+                    "text": "works effectively with others to undertake and complete the inspection, testing and maintenance of diesel engine systems and their ancillary systems that meets all of the required outcomes including:",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "performance_evidence-9",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "using a range of communications techniques and equipment to convey information to others",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "performance_evidence-10",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "maintaining written and verbal reporting requirements and procedures",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "performance_evidence-11",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "communicating clearly and concisely with others to receive and clarify work instructions",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "performance_evidence-12",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "demonstrates completion of the inspection, testing and maintenance of diesel engine systems and their ancillary systems which safely, effectively and efficiently meets all of the required outcomes on more than one (1) occasion including:",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "performance_evidence-13",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "selecting and using appropriate inspection and testing methods",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "performance_evidence-14",
+                    "parent_bullet_item_id": "performance_evidence-13"
+                },
+                {
+                    "text": "diagnosing and rectifying faults",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "performance_evidence-15",
+                    "parent_bullet_item_id": "performance_evidence-13"
+                },
+                {
+                    "text": "completing routine maintenance",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "performance_evidence-16",
+                    "parent_bullet_item_id": "performance_evidence-13"
+                },
+                {
+                    "text": "completing overhaul",
+                    "type": "bullet",
+                    "order": 17,
+                    "indent": 1,
+                    "item_id": "performance_evidence-17",
+                    "parent_bullet_item_id": "performance_evidence-13"
+                },
+                {
+                    "text": "completing and maintaining inspection, testing and maintenance records",
+                    "type": "bullet",
+                    "order": 18,
+                    "indent": 1,
+                    "item_id": "performance_evidence-18",
+                    "parent_bullet_item_id": "performance_evidence-13"
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must demonstrate knowledge in completion of the inspection, testing and maintenance of diesel engine systems and their ancillary systems through:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "accessing, interpreting and applying the organisation and site requirements and procedures for;",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "work health and safety",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "environmental principles/procedures",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "equipment safety requirements",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "written and verbal workplace communication",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "isolation and lock-out",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "service and maintenance reporting requirements",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "selecting and using plant, tools and equipment",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "An assessor of this unit must satisfy the requirements of the NVR/AQTF or their successors; and Industry regulations for certification and licensing; and,",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "this unit must be assessed in the context of this sector’s work environment; and,",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "this unit must be assessed in compliance with relevant legislation/regulation and using policies, procedures, processes and operational manuals directly related to the industry sector for which it is being assessed; and,",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "assessment may be conducted in conjunction with the assessment of other Units of Competency; and,",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "assessment must confirm consistent performance can be applied in a range of relevant workplace circumstances; and,",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "assessors must demonstrate the performance evidence, and knowledge evidence as outlined in this Unit of Competency, and through the minimum years of current* work experience specified below in an Industry sector relevant to the outcomes of the unit; or,",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "where the assessor does not meet experience requirements a co-assessment or partnership arrangement must exist between the qualified assessor and an Industry subject matter expert. The Industry subject matter expert should hold the unit being assessed (or an equivalent unit) and/or demonstrate equivalence of skills and knowledge at the unit level. An Industry technical expert must also demonstrate skills and knowledge from the minimum years of current work experience specified below in the Industry sector, including time spent in roles related to the unit being assessed; and,",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "assessor and Industry subject matter expert requirements differ depending on the Australian Qualifications Framework Level (AQF) of the qualification being assessed and/or Industry Sector as follows:",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "*Assessors can demonstrate current work experience through employment within Industry in a role relevant to the outcomes of the Unit; or, for external assessors this can be demonstrated through exposure to Industry by conducting frequent site assessments across various locations.",
+                    "type": "paragraph",
+                    "order": 10,
+                    "indent": null,
+                    "item_id": "assessment_conditions-10",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "**Where a unit is being delivered outside of a Qualification the first numeric character in the Unit code should be considered to indicate the AQF level",
+                    "type": "paragraph",
+                    "order": 11,
+                    "indent": null,
+                    "item_id": "assessment_conditions-11",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Industry sector",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "AQF** Level",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Required assessor or Industry subject matter expert experience",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-1_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Drilling, Metalliferous Mining, Coal Mining, Extractive (Quarrying) and Civil Construction",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "1 Year",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-2_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Drilling, Metalliferous Mining, Coal Mining, Extractive (Quarrying) and Civil Construction",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "2",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-3_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "2 Years",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-3_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Drilling, Coal Mining and Extractive (Quarrying)",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-4_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "3-6",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-4_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "3 Years",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-4_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Metalliferous Mining and Civil Construction",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-5_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "3-6",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-5_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "5 Years",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-5_3_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Other sectors",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-6_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Where this Unit is being assessed outside of the Resources and Infrastructure Sectors assessor and/or Industry subject matter expert experience should be in-line with industry standards for the sector in which it is being assessed and where no Industry standard is specified should comply with any relevant regulation.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "assessment_conditions_cell-6_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            []
+                        ]
+                    }
+                ],
+                "order": 9,
+                "columns": [
+                    "Column 1",
+                    "Column 2",
+                    "Column 3"
+                ]
+            },
+            "title": "Assessment Conditions"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume implementation guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes a participant’s skills and knowledge required to inspect, test and maintain diesel engine systems and their ancillary systems in Coal mining.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit is appropriate for those working in operational roles.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Licensing, legislative, regulatory and certification requirements that apply to this unit can vary between states, territories, and Industry sectors. Relevant information must be sourced prior to application of this unit.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Coal mining",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 8,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Access, interpret, inspect, test and maintain diesel engine systems and their ancillary systems, apply documentation and ensure the work activity is compliant"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Obtain, interpret, clarify, confirm and apply verbal and written work instructions"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Conduct a toolbox talk with others at the site prior to commencing and during work activities"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Identify, address and report potential hazards, risks and environmental issues and implement control measures"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Obtain and interpret emergency procedures, and be prepared for an emergency"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Plan for inspection, testing and maintenance of diesel engine systems and their ancillary systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Coordinate activities with others prior to commencement of, during, and on completion of the work activity"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Identify and obtain items and tools required for the safe, effective and efficient completion of the tasks"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Select and wear personal protection equipment appropriate for work activities"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Access, interpret and apply equipment pre-start procedures"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Access and apply isolation and lock-out of all equipment"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Prepare for inspection, testing and maintenance of diesel engine systems and their ancillary systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Inspect diesel engine systems and their ancillary systems"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Report outcomes of inspection to appropriate person"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Carry out inspection of diesel engines and their ancillary systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-4_1",
+                                "text": "4.1 Access and operate testing equipment"
+                            },
+                            {
+                                "id": "criteria-4_2",
+                                "text": "4.2 Carry out safe, effective and efficient testing and fault finding of diesel engine and ancillary systems"
+                            },
+                            {
+                                "id": "criteria-4_3",
+                                "text": "4.3 Diagnose and record existing or identified faults and recommend corrective actions"
+                            }
+                        ],
+                        "element_id": "element-4",
+                        "element_text": "4 Carry out testing of diesel engines and their ancillary systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-5_1",
+                                "text": "5.1 Identify, access and use maintenance tools and equipment"
+                            },
+                            {
+                                "id": "criteria-5_2",
+                                "text": "5.2 Identify, interpret and undertake corrective actions"
+                            },
+                            {
+                                "id": "criteria-5_3",
+                                "text": "5.3 Carry out routine maintenance of diesel engine systems and ancillary systems"
+                            }
+                        ],
+                        "element_id": "element-5",
+                        "element_text": "5 Carry out routine maintenance of diesel engines and their ancillary systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-6_1",
+                                "text": "6.1 Identify, access and use overhaul tools and equipment"
+                            },
+                            {
+                                "id": "criteria-6_2",
+                                "text": "6.2 Carry out overhaul of diesel engine and ancillary systems"
+                            }
+                        ],
+                        "element_id": "element-6",
+                        "element_text": "6 Carry out the overhaul of diesel engines and their ancillary systems"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-7_1",
+                                "text": "7.1 Clean, check, maintain and store plant, tools and equipment"
+                            },
+                            {
+                                "id": "criteria-7_2",
+                                "text": "7.2 Report issues identified with plant, tools and equipment"
+                            }
+                        ],
+                        "element_id": "element-7",
+                        "element_text": "7 Conduct housekeeping activities"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit. Further information is available in the Resources and Infrastructure Industry Training Package Companion Volume.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "RIIDES301 Inspect, test and maintain diesel engine systems and their ancillary systems",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Unit Mapping Information"
+        }
+    ]
+}

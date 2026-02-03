@@ -1,0 +1,651 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "UET\\UETDRAI004_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [
+                {
+                    "text": "Release 1. This is the first release of this unit of competency in the UET Transmission, Distribution and Rail Sector Training Package Release 2.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 1,
+            "table": null,
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit involves the skills and knowledge required to treat poles in the electricity supply industry (ESI).",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "It includes the types, handling and usage, transporting, storing and disposing of pole treatment applications.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "It also includes environmental requirements and the completion of work documentation.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The application of the skills and knowledge described in this unit may require a licence/registration to practice in the workplace.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Other conditions may also apply under state and territory legislative and regulatory licensing requirements which must be confirmed prior to commencing this unit.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "application-5",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "pre_requisite_unit",
+            "items": [
+                {
+                    "text": "UEECD0007 Apply work health and safety regulations, codes and practices in the workplace",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "UETDREL002 Comply with environmental requirements",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "UETDREL006 Work safely in the vicinity of live electrical apparatus as a non-electrical worker",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "pre_requisite_unit-3",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Pre-requisite Unit"
+        },
+        {
+            "key": "competency_field",
+            "items": [
+                {
+                    "text": "Asset Inspection",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "competency_field-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 4,
+            "table": null,
+            "title": "Competency Field"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Not applicable.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 6,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Legislation, regulations, standards, codes of practice and organisational workplace requirements for work to be performed are referred to and confirmed"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Work plan is obtained and confirmed in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-1_3",
+                                "text": "1.3 Materials required for work are determined and obtained in accordance with work plan and workplace requirements"
+                            },
+                            {
+                                "id": "criteria-1_4",
+                                "text": "1.4 Tools, equipment and personal protective equipment (PPE) required for work are determined, obtained and confirmed in working order"
+                            },
+                            {
+                                "id": "criteria-1_5",
+                                "text": "1.5 Hazards are identified, risks assessed and control measures identified and applied"
+                            },
+                            {
+                                "id": "criteria-1_6",
+                                "text": "1.6 Work is prioritised and sequenced for completion in accordance with work plan and workplace requirements"
+                            },
+                            {
+                                "id": "criteria-1_7",
+                                "text": "1.7 Worksite is prepared in accordance with the work plan and workplace requirements"
+                            },
+                            {
+                                "id": "criteria-1_8",
+                                "text": "1.8 Liaison and communication with stakeholders is carried out in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-1_9",
+                                "text": "1.9 Traffic management plan is confirmed as being in place in accordance with workplace requirements"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Prepare to treat poles"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Legislation, regulations, standards, codes of practice and organisational workplace requirements for the work to be performed are applied and monitored"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Lifting and the use of tools, equipment and PPE are carried out in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Hazard control measures are monitored in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Treatment of poles is performed in accordance with work plan and workplace requirements"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Incidents or unplanned events are responded to in accordance with workplace requirements"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Apply treatment to poles"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Completed work is checked for compliance against the work plan and workplace requirements"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Incidents or unplanned events are reported in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-3_3",
+                                "text": "3.3 Worksite is rehabilitated, cleaned and made safe in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-3_4",
+                                "text": "3.4 Tools and equipment are cleaned, checked and returned to storage in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-3_5",
+                                "text": "3.5 Surplus materials are returned to storage or disposed of in accordance with workplace requirements"
+                            },
+                            {
+                                "id": "criteria-3_6",
+                                "text": "3.6 Work records, reports and documentation are completed, and appropriate personnel notified in accordance with workplace requirements"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Complete work and documentation"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "range_of_conditions",
+            "items": [
+                {
+                    "text": "Range is restricted to essential operating conditions and any other variables essential to the work environment.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "range_of_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Non-essential conditions may be found in the UET Transmission, Distribution and Rail Sector Training Package Companion Volume Implementation Guide.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "range_of_conditions-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Range of Conditions"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "This is a new unit. No Equivalent Unit.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume Implementation Guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=229bace1-b7bc-4653-9300-dffb13ecfad7",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence in this unit must be relevant to and satisfy all of the requirements of the elements and performance criteria on at least two separate occasions and include:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "applying relevant legislation, regulations, standards, codes of practice and organisational workplace requirements, including:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "work health and safety (WHS)/occupational health and safety (OHS)",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "environmental requirements",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "identifying hazards, assessing risks, identifying, applying and monitoring control measures",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "obtaining, inspecting and using relevant personal protective equipment (PPE)",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "performance_evidence-6",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "applying treatment applications to at least two (2) of the following pole types:",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "performance_evidence-7",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "wood",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 1,
+                    "item_id": "performance_evidence-8",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                },
+                {
+                    "text": "steel",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 1,
+                    "item_id": "performance_evidence-9",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                },
+                {
+                    "text": "concrete",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 1,
+                    "item_id": "performance_evidence-10",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                },
+                {
+                    "text": "composite",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 1,
+                    "item_id": "performance_evidence-11",
+                    "parent_bullet_item_id": "performance_evidence-7"
+                },
+                {
+                    "text": "handling, transporting, storing and disposing of treatment applications",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "performance_evidence-12",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "dealing with an unplanned event on at least one (1) occasion",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 0,
+                    "item_id": "performance_evidence-13",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "completing relevant work records, reports and documentation.",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 0,
+                    "item_id": "performance_evidence-14",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                }
+            ],
+            "order": 11,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "Evidence required to demonstrate competence in this unit must be relevant to and satisfy all of the requirements of the elements and performance criteria and include knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "relevant legislation, regulations, standards, codes of practice, and organisational workplace requirements, including:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "WHS/OHS",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "environmental",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-2"
+                },
+                {
+                    "text": "hazard, risk assessment and risk control requirements, including potential hazards",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "types and application of PPE",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "safe use of tools and equipment",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "events constituting an unplanned event or incident",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-8",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "procedures for responding to an unplanned event or incident",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-9",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "procedures for work records, reports and documentation",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-10",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "treatment applications, including:",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-11",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "types and characteristics",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-12",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "safe handling and application",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-13",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "storage",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-14",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "transport",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-15",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                },
+                {
+                    "text": "disposal.",
+                    "type": "bullet",
+                    "order": 16,
+                    "indent": 1,
+                    "item_id": "knowledge_evidence-16",
+                    "parent_bullet_item_id": "knowledge_evidence-11"
+                }
+            ],
+            "order": 12,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Assessors must hold credentials specified within the Standards for Registered Training Organisations current at the time of assessment.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must satisfy the Principles of Assessment and Rules of Evidence and all regulatory requirements included within the Standards for Registered Training Organisations current at the time of assessment.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment must occur in workplace operational situations, where it is appropriate to do so.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Where this is not appropriate, assessment must occur in simulated conditions involving realistic and authentic activities that replicate operational workplace conditions.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assessment processes and techniques must be appropriate to the language, literacy and numeracy requirements of the work being performed and the needs of the candidate.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Resources for assessment must include access to:",
+                    "type": "paragraph",
+                    "order": 6,
+                    "indent": null,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "relevant and appropriate materials, tools, equipment and PPE currently used to treat poles",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": "assessment_conditions-6"
+                },
+                {
+                    "text": "applicable documentation, including workplace requirements, equipment specifications, regulations, codes of practice and operation manuals.",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-6"
+                }
+            ],
+            "order": 13,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}

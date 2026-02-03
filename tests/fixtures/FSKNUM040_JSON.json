@@ -1,0 +1,502 @@
+{
+    "source": {
+        "complete": {
+            "format": "xml",
+            "relative_path": "FSK\\FSKNUM040_Complete_R1.xml"
+        }
+    },
+    "sections": [
+        {
+            "key": "modification_history",
+            "items": [],
+            "order": 1,
+            "table": {
+                "rows": [
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Comments",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-1_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "cells": [
+                            [
+                                {
+                                    "text": "Release 1",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_1_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "This version first released with FSK Foundation Skills Training Package Version 2.0.",
+                                    "type": "paragraph",
+                                    "order": 1,
+                                    "indent": null,
+                                    "item_id": "modification_history_cell-2_2_1",
+                                    "parent_bullet_item_id": null
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "order": 1,
+                "columns": [
+                    "Column 1",
+                    "Column 2"
+                ]
+            },
+            "title": "Modification History"
+        },
+        {
+            "key": "application",
+            "items": [
+                {
+                    "text": "This unit describes the skills and knowledge to describe, compare and interpret the likelihood of everyday chance events using qualitative terms and relating these to everyday, routine fractions, decimals and percentages. It includes selecting and interpreting common chance information, comparing workplace chance events, and communicating workplace chance information.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "application-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "An individual performing these tasks works independently and uses familiar support resources as needed.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "application-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit applies to individuals who use, or are preparing to use, numeracy skills to complete workplace activities. This includes existing workers and individuals preparing for employment through vocational education and training. This unit should be integrated and contextualised with vocational training to support achievement of vocational competency.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "application-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "This unit is aligned to, but does not fully address, the Australian Core Skills Framework (ACSF) numeracy core skill indicators .09, .10 and .11 at level 3 in the workplace and employment domain of communication.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "application-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "No licensing, legislative or certification requirements apply to this unit at the time of publication.",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "application-5",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 2,
+            "table": null,
+            "title": "Application"
+        },
+        {
+            "key": "unit_sector",
+            "items": [
+                {
+                    "text": "Numeracy",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_sector-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 3,
+            "table": null,
+            "title": "Unit Sector"
+        },
+        {
+            "key": "elements_and_performance_criteria",
+            "items": [],
+            "order": 4,
+            "table": {
+                "rows": [
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-1_1",
+                                "text": "1.1 Identify and interpret everyday chance event information partially embedded in familiar oral workplace tasks and texts"
+                            },
+                            {
+                                "id": "criteria-1_2",
+                                "text": "1.2 Identify and interpret everyday chance event information partially embedded in familiar and simple written workplace tasks and texts"
+                            }
+                        ],
+                        "element_id": "element-1",
+                        "element_text": "1 Identify and interpret common chance information"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-2_1",
+                                "text": "2.1 Identify everyday common workplace task/event relevant to the interpretation of chance"
+                            },
+                            {
+                                "id": "criteria-2_2",
+                                "text": "2.2 Interpret the likelihood of the chance event(s) occurring using qualitative terms"
+                            },
+                            {
+                                "id": "criteria-2_3",
+                                "text": "2.3 Relate qualitative terms to everyday, routine fractions, decimals and percentages"
+                            },
+                            {
+                                "id": "criteria-2_4",
+                                "text": "2.4 Compare likelihood of the everyday common chance event with other similar occurrences at different times, places or under different conditions and identify implications for workplace"
+                            },
+                            {
+                                "id": "criteria-2_5",
+                                "text": "2.5 Check and reflect on interpretation and comparison of chance event and appropriateness of outcome to workplace task"
+                            }
+                        ],
+                        "element_id": "element-2",
+                        "element_text": "2 Interpret and compare common chance events"
+                    },
+                    {
+                        "criteria": [
+                            {
+                                "id": "criteria-3_1",
+                                "text": "3.1 Use informal and formal written mathematical representation to document and report on chance event and problem solving process and results"
+                            },
+                            {
+                                "id": "criteria-3_2",
+                                "text": "3.2 Use informal and formal mathematical language to present and discuss chance event and problem solving process and results"
+                            }
+                        ],
+                        "element_id": "element-3",
+                        "element_text": "3 Communicate chance information"
+                    }
+                ],
+                "order": null,
+                "columns": [
+                    "Element",
+                    "Performance Criteria"
+                ]
+            },
+            "title": "Elements and Performance Criteria"
+        },
+        {
+            "key": "foundation_skills",
+            "items": [
+                {
+                    "text": "This section describes language, literacy, numeracy and employment skills that are essential to performance but not explicit in the performance criteria.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "foundation_skills-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Foundation skills essential to performance are explicit in the performance criteria of this unit of competency.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "foundation_skills-2",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 5,
+            "table": null,
+            "title": "Foundation Skills"
+        },
+        {
+            "key": "unit_mapping_information",
+            "items": [
+                {
+                    "text": "No equivalent unit.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "unit_mapping_information-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 6,
+            "table": null,
+            "title": "Unit Mapping Information"
+        },
+        {
+            "key": "links",
+            "items": [
+                {
+                    "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=f572fe10-a855-4986-9295-3852c771f178",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "links-1",
+                    "parent_bullet_item_id": null
+                }
+            ],
+            "order": 7,
+            "table": null,
+            "title": "Links"
+        },
+        {
+            "key": "performance_evidence",
+            "items": [
+                {
+                    "text": "The candidate must demonstrate the ability to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including evidence of the ability to:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "performance_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "describe everyday common workplace chance events, including:",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "performance_evidence-2",
+                    "parent_bullet_item_id": "performance_evidence-1"
+                },
+                {
+                    "text": "interpreting and comparing the chance of at least two different everyday chance events",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 1,
+                    "item_id": "performance_evidence-3",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "interpreting common workplace chance events in qualitative terms using informal and some formal mathematical language",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "performance_evidence-4",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                },
+                {
+                    "text": "interpreting common workplace chance events in terms of relative everyday common fractions, decimals and percentages.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "performance_evidence-5",
+                    "parent_bullet_item_id": "performance_evidence-2"
+                }
+            ],
+            "order": 8,
+            "table": null,
+            "title": "Performance Evidence"
+        },
+        {
+            "key": "knowledge_evidence",
+            "items": [
+                {
+                    "text": "The candidate must be able to demonstrate knowledge to complete the tasks outlined in the elements, performance criteria and foundation skills of this unit, including knowledge of:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "knowledge_evidence-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "purpose and meaning of describing common workplace chance events",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-2",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "common everyday events relevant to workplace involving chance (e.g., chance of rain, chance of accidents, chance of random selection of a particular item)",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-3",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "meaning of common and everyday language and terminology used for describing common chance events in qualitative terms (e.g., certain, likely, impossible)",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-4",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "meaning of different chance events in quantitative terms in everyday fractions, decimals and percentages and relationship to qualitative terms",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-5",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "methods for using estimation and assessment skills to check and reflect on outcome and appropriateness to the workplace task",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-6",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                },
+                {
+                    "text": "informal and some formal mathematical written and oral language and symbolism of chance.",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "knowledge_evidence-7",
+                    "parent_bullet_item_id": "knowledge_evidence-1"
+                }
+            ],
+            "order": 9,
+            "table": null,
+            "title": "Knowledge Evidence"
+        },
+        {
+            "key": "assessment_conditions",
+            "items": [
+                {
+                    "text": "Competency is to be assessed in the workplace, a workplace simulated environment or a vocational training context.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "assessment_conditions-1",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Assistive technologies can be utilised to assist with oral and written communication.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "assessment_conditions-2",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "Skills must be demonstrated using routine texts and tasks that reflect those typically found in a workplace.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "assessment_conditions-3",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "The following resources are to be made available:",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "assessment_conditions-4",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "a calculator",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-5",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "own familiar support resources.",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-6",
+                    "parent_bullet_item_id": "assessment_conditions-4"
+                },
+                {
+                    "text": "Assessors must:",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "assessment_conditions-7",
+                    "parent_bullet_item_id": null
+                },
+                {
+                    "text": "satisfy the requirements for assessors in applicable vocational education and training legislation, frameworks and/or standards, and",
+                    "type": "bullet",
+                    "order": 8,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-8",
+                    "parent_bullet_item_id": "assessment_conditions-7"
+                },
+                {
+                    "text": "have sound knowledge of the ACSF and performance features of the ACSF level being assessed, and",
+                    "type": "bullet",
+                    "order": 9,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-9",
+                    "parent_bullet_item_id": "assessment_conditions-7"
+                },
+                {
+                    "text": "have demonstrable expertise, knowledge and skills in the vocational contextualisation and assessment of the core skill, numeracy, and",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-10",
+                    "parent_bullet_item_id": "assessment_conditions-7"
+                },
+                {
+                    "text": "have completed the following or equivalent:",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "assessment_conditions-11",
+                    "parent_bullet_item_id": "assessment_conditions-7"
+                },
+                {
+                    "text": "TAESS00009 Address Foundation Skills in Vocational Practice Skill Set; or",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-12",
+                    "parent_bullet_item_id": "assessment_conditions-11"
+                },
+                {
+                    "text": "a higher level education qualification, such as:",
+                    "type": "bullet",
+                    "order": 13,
+                    "indent": 1,
+                    "item_id": "assessment_conditions-13",
+                    "parent_bullet_item_id": "assessment_conditions-11"
+                },
+                {
+                    "text": "TAE80113Graduate Diploma of Adult Language, Literacy and Numeracy Practice (and its equivalent TAE70111); or",
+                    "type": "bullet",
+                    "order": 14,
+                    "indent": 2,
+                    "item_id": "assessment_conditions-14",
+                    "parent_bullet_item_id": "assessment_conditions-13"
+                },
+                {
+                    "text": "Bachelor of Education,Graduate Certificate or Graduate Diploma of Education, or higher. This may include qualifications relating to TESOL, adult education or vocational education.",
+                    "type": "bullet",
+                    "order": 15,
+                    "indent": 2,
+                    "item_id": "assessment_conditions-15",
+                    "parent_bullet_item_id": "assessment_conditions-13"
+                }
+            ],
+            "order": 10,
+            "table": null,
+            "title": "Assessment Conditions"
+        }
+    ]
+}
