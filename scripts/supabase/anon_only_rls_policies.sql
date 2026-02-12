@@ -44,6 +44,12 @@ DECLARE
 BEGIN
     FOREACH table_name IN ARRAY target_tables
     LOOP
+        -- Skip tables that are not created yet.
+        IF to_regclass(format('public.%I', table_name)) IS NULL THEN
+            RAISE NOTICE 'Skipping missing table: %.%', 'public', table_name;
+            CONTINUE;
+        END IF;
+
         -- Ensure RLS is active.
         EXECUTE format('ALTER TABLE IF EXISTS public.%I ENABLE ROW LEVEL SECURITY;', table_name);
         EXECUTE format('ALTER TABLE IF EXISTS public.%I FORCE ROW LEVEL SECURITY;', table_name);
