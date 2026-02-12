@@ -11,11 +11,21 @@ This application connects to the Training.gov.au Training Component Service to r
    - **Project URL** (e.g., `https://xxxxxxxxxxxxx.supabase.co`)
    - **Anon/Public Key** (found in Settings > API)
 
-### 2. Create Database Table
+### 2. Create Database Tables
 
-Run the SQL script `recognition_managers_table.sql` in your Supabase SQL Editor to create the required table.
+Run the SQL scripts in `scripts/` in your Supabase SQL Editor to create the required tables.
 
-### 3. Configure Application
+### 3. Apply anon-only RLS policies
+
+Run `scripts/supabase/anon_only_rls_policies.sql` after table creation. This script:
+- Enables and forces RLS on all project tables
+- Grants `SELECT`, `INSERT`, `UPDATE`, `DELETE` to the `anon` role
+- Creates `anon`-only policies for read/write/delete
+- Blocks `authenticated` role access (no matching policies)
+
+Important: Supabase `service_role` keys can bypass RLS by design. Keep using the anon key in `App.config`.
+
+### 4. Configure Application
 
 Update `App.config` with your Supabase credentials:
 
@@ -30,7 +40,7 @@ Replace:
 - `YOUR_SUPABASE_URL` with your Supabase project URL
 - `YOUR_SUPABASE_ANON_KEY` with your Supabase anon/public key
 
-### 4. Build and Run
+### 5. Build and Run
 
 1. Build the project in Visual Studio
 2. Run the application

@@ -67,25 +67,25 @@ namespace TgaGateway2
             using (var supabaseService = new SupabaseService())
             {
                 //-----------Training Component Service -----------
-                // await RunTrainingComponentServiceProcesses(tgaService, supabaseService);
+                await RunTrainingComponentServiceProcesses(tgaService, supabaseService);
 
                 //-----------Training Component Documents -----------
                 await RunTrainingComponentDocumentProcess(supabaseService);
 
                 //-----------Organisation Service -----------
-                // await RunOrganisationServiceProcesses(supabaseService);
+                await RunOrganisationServiceProcesses(supabaseService);
 
                 //-----------Classification Service -----------
-                // await RunClassificationServiceProcesses(supabaseService);
+                await RunClassificationServiceProcesses(supabaseService);
 
                 //-----------CSV Training Code Check -----------
-                // var csvPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "RTOScopeExport.csv"));
-                // var csvLogPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "csv-training-code-check.txt");
-                // await CSVTrainingCodeCheck.RunAsync(supabaseService, csvPath, "training_code", hasHeader: true, processMissing: true, logPath: csvLogPath);
+                var csvPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "RTOScopeExport.csv"));
+                var csvLogPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "csv-training-code-check.txt");
+                await CSVTrainingCodeCheck.RunAsync(supabaseService, csvPath, "training_code", hasHeader: true, processMissing: true, logPath: csvLogPath);
 
                 //-----------CSV Export Latest Documents -----------
-                // var latestDocsCsvPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "training-component-documents-latest.csv");
-                // await CSVTrainingCodeCheck.ExportLatestDocumentsToCsvAsync(supabaseService, csvPath, latestDocsCsvPath, "training_code", hasHeader: true);
+                var latestDocsCsvPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "training-component-documents-latest.csv");
+                await CSVTrainingCodeCheck.ExportLatestDocumentsToCsvAsync(supabaseService, csvPath, latestDocsCsvPath, "training_code", hasHeader: true);
             }
         }
 
