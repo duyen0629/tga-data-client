@@ -152,14 +152,11 @@
     <Compile Include="Models\NrtClassificationSchemeValueRecord.cs" />
     <Compile Include="Models\RtoClassificationSchemeRecord.cs" />
     <Compile Include="Models\RtoClassificationSchemeValueRecord.cs" />
-    <Compile Include="Models\RtoClassificationSchemeResultContract.cs" />
     <Compile Include="Models\OrganisationSummaryRecord.cs" />
     <Compile Include="Services\AddressStateService.cs" />
     <Compile Include="Services\ClassificationService.cs" />
     <Compile Include="Services\ClassificationPurposeService.cs" />
     <Compile Include="Services\ClassificationSchemeService.cs" />
-    <Compile Include="Services\ClassificationServiceContracts.cs" />
-    <Compile Include="Services\OrganisationServiceContracts.cs" />
     <Compile Include="Services\OrganisationSummaryService.cs" />
     <Compile Include="Services\TgaOrganisationService.cs" />
     <Compile Include="Services\LookupService.cs" />
@@ -181,7 +178,9 @@
     <Compile Include="Services\TrainingComponentSummaryService.cs" />
     <Compile Include="Services\ValidationCodeService.cs" />
     <Compile Include="Services\TgaClassificationService.cs" />
-    <Compile Include="TgaTraining.cs" />
+    <Compile Include="TgaTrainingComponent\TgaTraining.cs" />
+    <Compile Include="TgaClassification\TgaClass.cs" />
+    <Compile Include="TgaOrganization\TgaOrgMinimal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -214,8 +213,6 @@
     <None Include="scripts\classification\rto_classification_schemes_table.sql" />
     <None Include="scripts\classification\rto_classification_scheme_values_table.sql" />
     <None Include="scripts\organization\organisation_summaries_table.sql" />
-    <None Include="TgaClassification\TgaClass.cs" />
-    <None Include="TgaOrganization\TgaOrg.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">

@@ -1,50 +1,28 @@
+// Minimal Organisation service types - avoids duplicates with TgaTraining.cs and TgaClass.cs.
+// Uses training.gov.au.services namespace for compatibility with existing code.
+
 using System;
 using System.Runtime.Serialization;
 using System.ServiceModel;
-using training.gov.au.services;
-
-[ServiceContract(Namespace = "http://training.gov.au/services/", ConfigurationName = "IOrganisationService")]
-public interface IOrganisationService
-{
-    [OperationContract(Action = "http://training.gov.au/services/IOrganisationService/SearchByModifiedDate", ReplyAction = "http://training.gov.au/services/IOrganisationService/SearchByModifiedDateResponse")]
-    [FaultContract(typeof(ValidationFault), Action = "http://training.gov.au/services/IOrganisationService/SearchByModifiedDateValidationFaultFault", Name = "ValidationFault")]
-    OrganisationSearchResult SearchByModifiedDate(OrganisationModifiedSearchRequest request);
-}
 
 namespace training.gov.au.services
 {
     [DataContract(Name = "OrganisationModifiedSearchRequest", Namespace = "http://training.gov.au/services/")]
-    public class OrganisationModifiedSearchRequest : IExtensibleDataObject
+    public partial class OrganisationModifiedSearchRequest : AbstractPageRequest
     {
-        private ExtensionDataObject _extensionData;
-
         [DataMember]
         public string[] DataManagerFilter { get; set; }
 
         [DataMember]
-        public System.DateTimeOffset? EndDate { get; set; }
+        public System.Nullable<System.DateTimeOffset> EndDate { get; set; }
 
         [DataMember]
-        public System.DateTimeOffset? StartDate { get; set; }
-
-        [DataMember]
-        public int PageNumber { get; set; }
-
-        [DataMember]
-        public int PageSize { get; set; }
-
-        public ExtensionDataObject ExtensionData
-        {
-            get => _extensionData;
-            set => _extensionData = value;
-        }
+        public System.Nullable<System.DateTimeOffset> StartDate { get; set; }
     }
 
     [DataContract(Name = "OrganisationSearchResult", Namespace = "http://training.gov.au/services/")]
-    public class OrganisationSearchResult : IExtensibleDataObject
+    public partial class OrganisationSearchResult
     {
-        private ExtensionDataObject _extensionData;
-
         [DataMember]
         public int Count { get; set; }
 
@@ -56,20 +34,20 @@ namespace training.gov.au.services
 
         [DataMember]
         public OrganisationSearchResultItem[] Results { get; set; }
+    }
+
+    [DataContract(Name = "OrganisationSearchResultItem", Namespace = "http://training.gov.au/services/")]
+    [KnownType(typeof(OrganisationSearchResultItem2))]
+    [KnownType(typeof(OrganisationSearchResultItem3))]
+    public partial class OrganisationSearchResultItem : IExtensibleDataObject
+    {
+        private ExtensionDataObject _extensionData;
 
         public ExtensionDataObject ExtensionData
         {
             get => _extensionData;
             set => _extensionData = value;
         }
-    }
-
-    [DataContract(Name = "OrganisationSearchResultItem", Namespace = "http://training.gov.au/services/")]
-    [KnownType(typeof(OrganisationSearchResultItem2))]
-    [KnownType(typeof(OrganisationSearchResultItem3))]
-    public class OrganisationSearchResultItem : IExtensibleDataObject
-    {
-        private ExtensionDataObject _extensionData;
 
         [DataMember]
         public string Code { get; set; }
@@ -88,26 +66,28 @@ namespace training.gov.au.services
 
         [DataMember]
         public System.DateTimeOffset UpdatedDate { get; set; }
-
-        public ExtensionDataObject ExtensionData
-        {
-            get => _extensionData;
-            set => _extensionData = value;
-        }
     }
 
     [DataContract(Name = "OrganisationSearchResultItem2", Namespace = "http://training.gov.au/services/")]
     [KnownType(typeof(OrganisationSearchResultItem3))]
-    public class OrganisationSearchResultItem2 : OrganisationSearchResultItem
+    public partial class OrganisationSearchResultItem2 : OrganisationSearchResultItem
     {
         [DataMember]
         public bool IsLegacyData { get; set; }
     }
 
     [DataContract(Name = "OrganisationSearchResultItem3", Namespace = "http://training.gov.au/services/")]
-    public class OrganisationSearchResultItem3 : OrganisationSearchResultItem2
+    public partial class OrganisationSearchResultItem3 : OrganisationSearchResultItem2
     {
         [DataMember]
         public string RegistrationStatus { get; set; }
+    }
+
+    [ServiceContract(Namespace = "http://training.gov.au/services/", ConfigurationName = "IOrganisationService")]
+    public interface IOrganisationService
+    {
+        [OperationContract(Action = "http://training.gov.au/services/IOrganisationService/SearchByModifiedDate", ReplyAction = "http://training.gov.au/services/IOrganisationService/SearchByModifiedDateResponse")]
+        [FaultContract(typeof(ValidationFault), Action = "http://training.gov.au/services/IOrganisationService/SearchByModifiedDateValidationFaultFault", Name = "ValidationFault")]
+        OrganisationSearchResult SearchByModifiedDate(OrganisationModifiedSearchRequest request);
     }
 }
