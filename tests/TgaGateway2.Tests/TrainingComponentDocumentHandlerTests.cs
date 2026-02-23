@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Web.Script.Serialization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TgaGateway2.Handlers.TrainingComponentDocuments;
+using TgaGateway2.Handlers.TrainingComponentDocuments.Parser;
 using TgaGateway2.Services;
 
 namespace TgaGateway2.Tests
@@ -64,7 +65,7 @@ namespace TgaGateway2.Tests
                 { expectedRelativePath, xmlBytes }
             };
 
-            var records = TrainingComponentDocumentHandler.BuildRecordsForReleaseFilesForTest(
+            var records = TrainingComponentDocumentTestHelper.BuildRecordsForReleaseFilesForTest(
                 code,
                 releaseFiles,
                 path => xmlByPath[path]);
@@ -189,6 +190,28 @@ namespace TgaGateway2.Tests
             }
 
             return Regex.Replace(value, @"\s+", string.Empty);
+        }
+
+        private static string BuildContentJsonForXmlForUnit(byte[] xmlBytes, string relativePath)
+        {
+            var sections = UnitParser.ParserSectionFromXmlForUnit(xmlBytes);
+            var sourceFiles = new
+            {
+                complete = new
+                {
+                    relative_path = relativePath,
+                    format = "xml"
+                }
+            };
+
+            var contentJson = new
+            {
+                sections = sections,
+                source = sourceFiles
+            };
+
+            var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
+            return CommonParser.SanitizeJson(serializer.Serialize(contentJson));
         }
     }
 }

@@ -5,6 +5,7 @@ DROP TABLE IF EXISTS training_component_documents CASCADE;
 CREATE TABLE training_component_documents (
     training_component_code TEXT NOT NULL,
     release_number TEXT NOT NULL,
+    component_type TEXT, -- from training_component_summaries
     title TEXT,
     source_files JSONB, -- e.g., { complete: { relative_path, generated_date }, assessment_requirements: { ... } }
     content_json JSONB, -- merged, display-ready sections
@@ -19,6 +20,7 @@ CREATE TABLE training_component_documents (
 -- Create indexes for faster lookups
 CREATE INDEX idx_training_component_documents_component_code ON training_component_documents(training_component_code);
 CREATE INDEX idx_training_component_documents_release_number ON training_component_documents(release_number);
+CREATE INDEX idx_training_component_documents_component_type ON training_component_documents(component_type);
 
 -- Create or replace function to automatically update fetched_updated_at timestamp
 CREATE OR REPLACE FUNCTION update_updated_at_column()

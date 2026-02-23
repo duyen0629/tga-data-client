@@ -15,6 +15,9 @@ namespace TgaGateway2.Models
         public string ReleaseNumber { get; set; }
 
         [DataMember]
+        public string ComponentType { get; set; }
+
+        [DataMember]
         public string Title { get; set; }
 
         [DataMember]

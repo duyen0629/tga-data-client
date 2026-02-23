@@ -121,7 +121,16 @@
     <Compile Include="Handlers\TrainingComponentService\RecognitionManagerHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\TrainingComponentSummaryHandler.cs" />
     <Compile Include="Handlers\TrainingComponentService\ValidationCodeHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Helper\ElementPerformanceCriteriaHelper.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Helper\ProcessErrorHelper.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Helper\ReleaseFileHelper.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Helper\SectionKeyHelper.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Helper\TableHelper.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\CommonParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\UnitParser.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\TrainingComponentDocumentHandler.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Type\TrainingComponentDocumentTypes.cs" />
     <Compile Include="CSVTrainingCodeCheck.cs" />
     <Compile Include="Handlers\Classification\ClassificationSchemeSearchHandler.cs" />
     <Compile Include="Handlers\Organization\OrganisationSummaryHandler.cs" />
