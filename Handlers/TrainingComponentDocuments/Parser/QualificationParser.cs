@@ -129,9 +129,21 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 return;
             }
 
+            var electiveRulesParagraphElements = new List<XElement>();
+
             foreach (var p in textNode.Descendants(ns + "p"))
             {
                 var text = CommonParser.ExtractInlineText(p) ?? string.Empty;
+
+                // Collect paragraph elements that form the elective rules (AQF alignment + "chosen as follows" + group rules)
+                if (text.IndexOf("Elective units must ensure", StringComparison.OrdinalIgnoreCase) >= 0
+                    || text.IndexOf("chosen as follows", StringComparison.OrdinalIgnoreCase) >= 0
+                    || Regex.IsMatch(text, @"\d+\s+must\s+be\s+from\s+electives?\s+group", RegexOptions.IgnoreCase)
+                    || text.IndexOf("remaining elective units", StringComparison.OrdinalIgnoreCase) >= 0
+                    || text.IndexOf("Training Package or accredited course", StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    electiveRulesParagraphElements.Add(p);
+                }
 
                 var totalMatch = Regex.Match(text, @"(\d+)\s*units?\s*of\s*competency", RegexOptions.IgnoreCase);
                 if (totalMatch.Success && int.TryParse(totalMatch.Groups[1].Value, out var totalUnits))
@@ -173,6 +185,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     continue;
                 }
 
+                // Skip prerequisite requirements table - it is parsed separately and should not be added to elective_units
+                if (IsPrerequisiteRequirementsTable(table, ns))
+                {
+                    continue;
+                }
+
                 string currentElectiveGroup = null;
                 for (var j = i - 1; j >= 0 && j >= i - 5; j--)
                 {
@@ -205,7 +223,21 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     }
                 }
 
-                var tableUnitEntries = ParseUnitRowsFromTable(table, ns, unitCodePattern);
+                string itemIdPrefix = null;
+                if (currentElectiveGroup != null)
+                {
+                    itemIdPrefix = $"elective_unit_{currentElectiveGroup}";
+                }
+                else if (!foundCoreTable)
+                {
+                    itemIdPrefix = "core_unit";
+                }
+                else
+                {
+                    itemIdPrefix = "elective_unit_Elective";
+                }
+
+                var tableUnitEntries = ParseUnitRowsFromTable(table, ns, unitCodePattern, itemIdPrefix);
 
                 if (currentElectiveGroup != null && tableUnitEntries.Count > 0)
                 {
@@ -239,6 +271,14 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             {
                 packagingRules["elective_units"] = electiveGroups;
             }
+
+            if (electiveRulesParagraphElements.Count > 0)
+            {
+                var electiveRulesItems = CommonParser.ParseParagraphElementsToItems(
+                    electiveRulesParagraphElements,
+                    "elective_rules");
+                packagingRules["elective_rules"] = electiveRulesItems;
+            }
         }
 
         private static void ParsePrerequisiteRequirementsTable(XElement table, XNamespace ns, Dictionary<string, object> packagingRules)
@@ -261,6 +301,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             }
 
             var prerequisiteList = new List<Dictionary<string, object>>();
+            var order = 1;
             for (var i = 0; i < rows.Count; i++)
             {
                 if (i == headerRowIndex)
@@ -296,7 +337,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 prerequisiteList.Add(new Dictionary<string, object>
                 {
                     { "unit_of_competency", unitOfCompetency },
-                    { "prerequisite_requirement", prerequisiteRequirement }
+                    { "prerequisite_requirement", prerequisiteRequirement },
+                    { "item_id", $"prerequisite_requirement-{order++}" }
                 });
             }
 
@@ -355,7 +397,11 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             return (t ?? string.Empty, asterisk);
         }
 
-        private static List<Dictionary<string, object>> ParseUnitRowsFromTable(XElement table, XNamespace ns, string unitCodePattern)
+        private static List<Dictionary<string, object>> ParseUnitRowsFromTable(
+            XElement table,
+            XNamespace ns,
+            string unitCodePattern,
+            string itemIdPrefix = null)
         {
             var result = new List<Dictionary<string, object>>();
             var rows = table.Elements(ns + "tr").ToList();
@@ -370,6 +416,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 }
             }
 
+            var order = 1;
             for (var i = 0; i < rows.Count; i++)
             {
                 if (i == headerRowIndex)
@@ -387,7 +434,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         var code = codeMatch.Groups[1].Value;
                         var rawTitle = singleText.Substring(codeMatch.Index + codeMatch.Length).Trim().TrimStart('-', ':', ' ');
                         var (title, asterisk) = NormalizeTitleAndAsterisk(rawTitle ?? string.Empty);
-                        result.Add(new Dictionary<string, object> { { "code", code }, { "title", title }, { "asterisk", asterisk } });
+                        var entry = new Dictionary<string, object> { { "code", code }, { "title", title }, { "asterisk", asterisk } };
+                        if (!string.IsNullOrEmpty(itemIdPrefix))
+                        {
+                            entry["item_id"] = $"{itemIdPrefix}-{order++}";
+                        }
+                        result.Add(entry);
                     }
                     continue;
                 }
@@ -421,7 +473,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     {
                         title = (cellTexts[1] ?? string.Empty).Trim();
                     }
-                    result.Add(new Dictionary<string, object> { { "code", unitCode }, { "title", title }, { "asterisk", asterisk } });
+                    var entry = new Dictionary<string, object> { { "code", unitCode }, { "title", title }, { "asterisk", asterisk } };
+                    if (!string.IsNullOrEmpty(itemIdPrefix))
+                    {
+                        entry["item_id"] = $"{itemIdPrefix}-{order++}";
+                    }
+                    result.Add(entry);
                 }
             }
 

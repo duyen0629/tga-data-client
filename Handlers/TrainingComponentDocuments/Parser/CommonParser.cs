@@ -357,6 +357,73 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             items.Add(item);
         }
 
+        /// <summary>
+        /// Parses a sequence of paragraph elements into SectionItems with text, type, order, indent, item_id, parent_bullet_item_id.
+        /// </summary>
+        internal static List<SectionItem> ParseParagraphElementsToItems(
+            IEnumerable<XElement> paragraphElements,
+            string sectionKey)
+        {
+            var items = new List<SectionItem>();
+            var bulletStack = new Stack<SectionItem>();
+            string lastParagraphItemId = null;
+            var order = 1;
+
+            foreach (var p in paragraphElements ?? Enumerable.Empty<XElement>())
+            {
+                var text = ExtractInlineText(p);
+                if (string.IsNullOrWhiteSpace(text))
+                {
+                    continue;
+                }
+
+                var idAttr = p.Attribute("id")?.Value;
+                var indent = 0;
+                var isBullet = false;
+
+                if (int.TryParse(idAttr, out var idValue))
+                {
+                    if (idValue >= 31016)
+                    {
+                        isBullet = true;
+                        indent = 2;
+                    }
+                    else if (idValue >= 14)
+                    {
+                        isBullet = true;
+                        indent = 1;
+                    }
+                    else if (idValue >= 13)
+                    {
+                        isBullet = true;
+                        indent = 0;
+                    }
+                }
+
+                var item = new SectionItem
+                {
+                    item_id = $"{sectionKey}-{order}",
+                    type = isBullet ? "bullet" : "paragraph",
+                    text = text.Trim(),
+                    order = order++,
+                    indent = isBullet ? (int?)indent : null
+                };
+                if (isBullet)
+                {
+                    item.parent_bullet_item_id = GetParentBulletIdForXml(bulletStack, indent, lastParagraphItemId);
+                    UpdateBulletStack(bulletStack, item);
+                }
+                else
+                {
+                    lastParagraphItemId = item.item_id;
+                }
+
+                items.Add(item);
+            }
+
+            return items;
+        }
+
         private static List<SectionItem> ParseCellItemsFromTd(
             XElement td,
             XNamespace ns,

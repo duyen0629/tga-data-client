@@ -17,7 +17,33 @@ namespace TgaGateway2.Tests
     {
         public static IEnumerable<object[]> FixturePairs()
         {
-            var fixtureRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fixtures");
+            var fixtureRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fixtures", "Unit");
+            if (!Directory.Exists(fixtureRoot))
+            {
+                yield break;
+            }
+
+            foreach (var xmlPath in Directory.EnumerateFiles(fixtureRoot, "*_XML.xml", SearchOption.TopDirectoryOnly))
+            {
+                var code = Path.GetFileName(xmlPath)?.Replace("_XML.xml", string.Empty);
+                if (string.IsNullOrWhiteSpace(code))
+                {
+                    continue;
+                }
+
+                var jsonPath = Path.Combine(fixtureRoot, $"{code}_JSON.json");
+                if (!File.Exists(jsonPath))
+                {
+                    continue;
+                }
+
+                yield return new object[] { code, xmlPath, jsonPath };
+            }
+        }
+
+        public static IEnumerable<object[]> FixturePairsQualification()
+        {
+            var fixtureRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fixtures", "Qualification");
             if (!Directory.Exists(fixtureRoot))
             {
                 yield break;
@@ -65,7 +91,7 @@ namespace TgaGateway2.Tests
                 { expectedRelativePath, xmlBytes }
             };
 
-            var records = TrainingComponentDocumentTestHelper.BuildRecordsForReleaseFilesForTest(
+            var records = TrainingComponentDocumentTestHelper.BuildRecordsForReleaseFilesForUnitTest(
                 code,
                 releaseFiles,
                 path => xmlByPath[path]);
@@ -76,12 +102,53 @@ namespace TgaGateway2.Tests
             AssertJsonEquivalent(expectedJson, actualJson, code);
         }
 
+        [DataTestMethod]
+        [DynamicData(nameof(FixturePairsQualification), DynamicDataSourceType.Method)]
+        public void BuildContentJsonForXml_Qualification_MatchesExpectedFixtures(string code, string xmlPath, string jsonPath)
+        {
+            var xmlBytes = File.ReadAllBytes(xmlPath);
+            var expectedJson = File.ReadAllText(jsonPath);
+            var expectedRelativePath = ExtractRelativePath(expectedJson);
+            var releaseNumber = ExtractReleaseNumber(expectedRelativePath) ?? "1";
+
+            var releaseFiles = new List<ReleaseFileRow>
+            {
+                new ReleaseFileRow
+                {
+                    training_component_code = code,
+                    release_number = releaseNumber,
+                    relative_path = expectedRelativePath
+                }
+            };
+
+            var xmlByPath = new Dictionary<string, byte[]>
+            {
+                { expectedRelativePath, xmlBytes }
+            };
+
+            var records = TrainingComponentDocumentTestHelper.BuildRecordsForReleaseFilesForQualificationTest(
+                code,
+                releaseFiles,
+                path => xmlByPath[path]);
+
+            Assert.AreEqual(1, records.Count, $"{code}: Expected a single qualification record.");
+            var actualJson = records[0].ContentJson?.Value;
+
+            AssertJsonEquivalent(expectedJson, actualJson, code);
+        }
+
         [TestMethod]
         public void FixturesArePresent()
         {
-            var fixtureRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fixtures");
-            Assert.IsTrue(Directory.Exists(fixtureRoot), $"Fixture folder missing: {fixtureRoot}");
-            Assert.IsTrue(Directory.EnumerateFiles(fixtureRoot, "*_XML.xml").Any(), "No XML fixtures found.");
+            var fixturesRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fixtures");
+            Assert.IsTrue(Directory.Exists(fixturesRoot), $"Fixture folder missing: {fixturesRoot}");
+            var unitFixtures = Directory.Exists(Path.Combine(fixturesRoot, "Unit"))
+                ? Directory.EnumerateFiles(Path.Combine(fixturesRoot, "Unit"), "*_XML.xml").Any()
+                : false;
+            var qualificationFixtures = Directory.Exists(Path.Combine(fixturesRoot, "Qualification"))
+                ? Directory.EnumerateFiles(Path.Combine(fixturesRoot, "Qualification"), "*_XML.xml").Any()
+                : false;
+            Assert.IsTrue(unitFixtures || qualificationFixtures, "No XML fixtures found in Unit or Qualification folders.");
         }
 
         private static string ExtractRelativePath(string json)

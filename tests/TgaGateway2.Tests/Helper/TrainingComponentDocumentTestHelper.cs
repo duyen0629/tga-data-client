@@ -12,7 +12,7 @@ namespace TgaGateway2.Tests
     /// </summary>
     internal static class TrainingComponentDocumentTestHelper
     {
-        internal static List<TrainingComponentDocumentRecord> BuildRecordsForReleaseFilesForTest(
+        internal static List<TrainingComponentDocumentRecord> BuildRecordsForReleaseFilesForUnitTest(
             string trainingComponentCode,
             List<ReleaseFileRow> releaseFiles,
             Func<string, byte[]> xmlBytesProvider)
@@ -43,6 +43,48 @@ namespace TgaGateway2.Tests
                     trainingComponentCode,
                     candidate.ReleaseNumber,
                     componentType: null,
+                    xmlPath,
+                    "xml",
+                    xmlBytes);
+
+                records.Add(record);
+            }
+
+            return records;
+        }
+
+        internal static List<TrainingComponentDocumentRecord> BuildRecordsForReleaseFilesForQualificationTest(
+            string trainingComponentCode,
+            List<ReleaseFileRow> releaseFiles,
+            Func<string, byte[]> xmlBytesProvider,
+            string componentType = null)
+        {
+            if (xmlBytesProvider == null)
+            {
+                throw new ArgumentNullException(nameof(xmlBytesProvider));
+            }
+
+            var candidates = ReleaseFileHelper.SelectReleaseFilesByRelease(releaseFiles);
+            var records = new List<TrainingComponentDocumentRecord>();
+
+            foreach (var candidate in candidates)
+            {
+                var xmlPath = candidate?.Complete?.XmlPath;
+                if (string.IsNullOrWhiteSpace(xmlPath))
+                {
+                    continue;
+                }
+
+                var xmlBytes = xmlBytesProvider(xmlPath);
+                if (xmlBytes == null || xmlBytes.Length == 0)
+                {
+                    throw new Exception($"Missing XML bytes for {xmlPath}");
+                }
+
+                var record = TrainingComponentDocumentHandler.BuildRecordFromXmlBytesForQualification(
+                    trainingComponentCode,
+                    candidate.ReleaseNumber,
+                    componentType,
                     xmlPath,
                     "xml",
                     xmlBytes);
