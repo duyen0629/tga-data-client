@@ -36,6 +36,10 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 }
 
                 var electiveMatch = Regex.Match(text, @"(\d+)\s*elective\s*units?", RegexOptions.IgnoreCase);
+                if (!electiveMatch.Success)
+                {
+                    electiveMatch = Regex.Match(text, @"(\d+)\s*electives?", RegexOptions.IgnoreCase);
+                }
                 if (electiveMatch.Success && int.TryParse(electiveMatch.Groups[1].Value, out var electiveRequired))
                 {
                     packagingRules["elective_units_required"] = electiveRequired;

@@ -11,6 +11,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
     {
         internal static (List<Dictionary<string, object>> coreUnits,
             List<object> electiveUnits,
+            List<object> specialistElectiveUnitsFromTable,
+            List<object> generalElectiveUnitsFromTable,
             bool foundCoreTable) ParseCoreAndElectiveUnitsFromTables(
             List<XElement> children,
             XNamespace ns,
@@ -19,6 +21,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             var electiveGroupsOrdered = new List<(string key, string title, List<Dictionary<string, object>> items)>();
             var electiveGroupsMap = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             var coreUnits = new List<Dictionary<string, object>>();
+            var specialistFromTable = new List<object>();
+            var generalFromTable = new List<object>();
             var foundCoreTable = false;
 
             for (var i = 0; i < children.Count; i++)
@@ -83,13 +87,28 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     }
                 }
 
-                // Table may contain both "Core units" and "Elective units" sections (split by section header rows)
-                var (tableCoreUnits, tableElectiveUnits) = ParseTableWithCoreAndElectiveSections(table, ns, unitCodePattern);
+                // Table may contain Core, Elective, Specialist Elective, and General Elective sections (split by section header rows)
+                var (tableCoreUnits, tableElectiveUnits, tableSpecialistGroups, tableGeneralGroups) = ParseTableWithCoreAndElectiveSections(table, ns, unitCodePattern);
 
                 if (tableCoreUnits.Count > 0)
                 {
                     coreUnits.AddRange(tableCoreUnits);
                     foundCoreTable = true;
+                }
+
+                if (tableSpecialistGroups.Count > 0)
+                {
+                    foreach (var g in tableSpecialistGroups.Where(x => x.items.Count > 0))
+                    {
+                        specialistFromTable.Add(new Dictionary<string, object> { { "key", g.key }, { "title", g.title }, { "items", g.items } });
+                    }
+                }
+                if (tableGeneralGroups.Count > 0)
+                {
+                    foreach (var g in tableGeneralGroups.Where(x => x.items.Count > 0))
+                    {
+                        generalFromTable.Add(new Dictionary<string, object> { { "key", g.key }, { "title", g.title }, { "items", g.items } });
+                    }
                 }
 
                 if (tableElectiveUnits.Count > 0)
@@ -172,24 +191,35 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 electiveResult.AddRange(allUnits.Cast<object>());
             }
 
-            return (coreUnits, electiveResult, foundCoreTable);
+            return (coreUnits, electiveResult, specialistFromTable, generalFromTable, foundCoreTable);
         }
 
         /// <summary>
-        /// Parses a table that contains both "Core units" and "Elective units" sections (section headers as rows).
-        /// Returns (coreUnits, electiveUnits). Empty if table has no such section headers.
+        /// Parses a table that contains Core, Elective, Specialist Elective, and General Elective sections (section headers as rows).
+        /// Section headers: "Core units", "Elective units", "Group A - Specialist Electives", "Group B - General Electives", etc.
         /// </summary>
-        private static (List<Dictionary<string, object>> coreUnits, List<Dictionary<string, object>> electiveUnits) ParseTableWithCoreAndElectiveSections(
+        private static (List<Dictionary<string, object>> coreUnits,
+            List<Dictionary<string, object>> electiveUnits,
+            List<(string key, string title, List<Dictionary<string, object>> items)> specialistElectiveGroups,
+            List<(string key, string title, List<Dictionary<string, object>> items)> generalElectiveGroups) ParseTableWithCoreAndElectiveSections(
             XElement table,
             XNamespace ns,
             string unitCodePattern)
         {
             var coreUnits = new List<Dictionary<string, object>>();
             var electiveUnits = new List<Dictionary<string, object>>();
+            var specialistElectiveGroups = new List<(string key, string title, List<Dictionary<string, object>> items)>();
+            var specialistGroupsMap = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+            var generalElectiveGroups = new List<(string key, string title, List<Dictionary<string, object>> items)>();
+            var generalGroupsMap = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             var rows = table.Elements(ns + "tr").ToList();
             string currentSection = null;
+            string currentSpecialistGroup = null;
+            string currentGeneralGroup = null;
             var coreOrder = 1;
             var electiveOrder = 1;
+            var specialistOrderByGroup = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+            var generalOrderByGroup = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
 
             for (var i = 0; i < rows.Count; i++)
             {
@@ -202,19 +232,53 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     continue;
                 }
 
-                // Check for section header: "Core units" or "Elective units" (often in single cell with colspan)
-                if (string.Equals(rowText, "Core units", StringComparison.OrdinalIgnoreCase))
+                // Check for section header
+                if (string.Equals(rowText, "Core units", StringComparison.OrdinalIgnoreCase) || string.Equals(rowText, "Core Units", StringComparison.OrdinalIgnoreCase))
                 {
                     currentSection = "core";
+                    currentSpecialistGroup = null;
                     continue;
                 }
-                if (string.Equals(rowText, "Elective units", StringComparison.OrdinalIgnoreCase))
+                if (string.Equals(rowText, "Elective units", StringComparison.OrdinalIgnoreCase) || string.Equals(rowText, "Elective Units", StringComparison.OrdinalIgnoreCase))
                 {
                     currentSection = "elective";
+                    currentSpecialistGroup = null;
+                    continue;
+                }
+                // "Group A - Specialist Electives" or "Group A: Specialist Electives"
+                var specialistMatch = Regex.Match(rowText, @"^Group\s+([A-Za-z0-9]+)\s*[-:]\s*(.+)$", RegexOptions.IgnoreCase);
+                if (specialistMatch.Success && rowText.IndexOf("Specialist", StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    currentSection = "specialist";
+                    currentSpecialistGroup = "Group" + specialistMatch.Groups[1].Value.Trim();
+                    var groupTitle = specialistMatch.Groups[2].Value.Trim();
+                    if (!specialistGroupsMap.ContainsKey(currentSpecialistGroup))
+                    {
+                        specialistElectiveGroups.Add((currentSpecialistGroup, groupTitle, new List<Dictionary<string, object>>()));
+                        specialistGroupsMap[currentSpecialistGroup] = specialistElectiveGroups.Count - 1;
+                        specialistOrderByGroup[currentSpecialistGroup] = 1;
+                    }
+                    continue;
+                }
+                // "Group B - General Electives" or "Group B: General Electives"
+                var generalMatch = Regex.Match(rowText, @"^Group\s+([A-Za-z0-9]+)\s*[-:]\s*(.+)$", RegexOptions.IgnoreCase);
+                if (generalMatch.Success && rowText.IndexOf("General", StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    currentSection = "general";
+                    currentSpecialistGroup = null;
+                    currentGeneralGroup = "Group" + generalMatch.Groups[1].Value.Trim();
+                    var groupTitle = generalMatch.Groups[2].Value.Trim();
+                    if (!generalGroupsMap.ContainsKey(currentGeneralGroup))
+                    {
+                        generalElectiveGroups.Add((currentGeneralGroup, groupTitle, new List<Dictionary<string, object>>()));
+                        generalGroupsMap[currentGeneralGroup] = generalElectiveGroups.Count - 1;
+                        generalOrderByGroup[currentGeneralGroup] = 1;
+                    }
                     continue;
                 }
 
                 // Parse as unit row
+                Dictionary<string, object> entry = null;
                 if (tds.Count < 2)
                 {
                     var singleText = tds.Count == 1 ? CommonParser.ExtractInlineText(tds[0]).Trim() : null;
@@ -224,65 +288,70 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         var code = codeMatch.Groups[1].Value;
                         var rawTitle = singleText.Substring(codeMatch.Index + codeMatch.Length).Trim().TrimStart('-', ':', ' ');
                         var (title, asterisk) = NormalizeTitleAndAsterisk(rawTitle ?? string.Empty);
-                        var entry = new Dictionary<string, object> { { "code", code }, { "title", title }, { "asterisk", asterisk } };
-                        if (currentSection == "core")
-                        {
-                            entry["item_id"] = $"core_unit-{coreOrder++}";
-                            coreUnits.Add(entry);
-                        }
-                        else
-                        {
-                            entry["item_id"] = $"elective_unit_Elective-{electiveOrder++}";
-                            electiveUnits.Add(entry);
-                        }
-                    }
-                    continue;
-                }
-
-                var cellTexts = tds.Select(td => CommonParser.ExtractInlineText(td)).Select(t => (t ?? string.Empty).Trim()).ToList();
-                string unitCode = null;
-                string unitTitle = null;
-
-                for (var c = 0; c < cellTexts.Count; c++)
-                {
-                    var cell = cellTexts[c];
-                    var match = Regex.Match(cell, unitCodePattern);
-                    if (match.Success)
-                    {
-                        unitCode = match.Groups[1].Value;
-                        unitTitle = cell.Length > match.Index + match.Length
-                            ? cell.Substring(match.Index + match.Length).Trim().TrimStart('-', ':', ' ')
-                            : (c + 1 < cellTexts.Count ? cellTexts[c + 1] : null) ?? string.Empty;
-                        if (string.IsNullOrWhiteSpace(unitTitle) && c + 1 < cellTexts.Count)
-                        {
-                            unitTitle = cellTexts[c + 1];
-                        }
-                        break;
+                        entry = new Dictionary<string, object> { { "code", code }, { "title", title }, { "asterisk", asterisk } };
                     }
                 }
-
-                if (unitCode != null && currentSection != null)
+                else
                 {
-                    var (title, asterisk) = NormalizeTitleAndAsterisk(unitTitle ?? string.Empty);
-                    if (string.IsNullOrWhiteSpace(title) && cellTexts.Count > 1)
+                    var cellTexts = tds.Select(td => CommonParser.ExtractInlineText(td)).Select(t => (t ?? string.Empty).Trim()).ToList();
+                    string unitCode = null;
+                    string unitTitle = null;
+                    for (var c = 0; c < cellTexts.Count; c++)
                     {
-                        title = (cellTexts[1] ?? string.Empty).Trim();
+                        var cell = cellTexts[c];
+                        var match = Regex.Match(cell, unitCodePattern);
+                        if (match.Success)
+                        {
+                            unitCode = match.Groups[1].Value;
+                            unitTitle = cell.Length > match.Index + match.Length
+                                ? cell.Substring(match.Index + match.Length).Trim().TrimStart('-', ':', ' ')
+                                : (c + 1 < cellTexts.Count ? cellTexts[c + 1] : null) ?? string.Empty;
+                            if (string.IsNullOrWhiteSpace(unitTitle) && c + 1 < cellTexts.Count)
+                            {
+                                unitTitle = cellTexts[c + 1];
+                            }
+                            break;
+                        }
                     }
-                    var entry = new Dictionary<string, object> { { "code", unitCode }, { "title", title }, { "asterisk", asterisk } };
+                    if (unitCode != null && currentSection != null)
+                    {
+                        var (title, asterisk) = NormalizeTitleAndAsterisk(unitTitle ?? string.Empty);
+                        if (string.IsNullOrWhiteSpace(title) && cellTexts.Count > 1)
+                        {
+                            title = (cellTexts[1] ?? string.Empty).Trim();
+                        }
+                        entry = new Dictionary<string, object> { { "code", unitCode }, { "title", title }, { "asterisk", asterisk } };
+                    }
+                }
+
+                if (entry != null)
+                {
                     if (currentSection == "core")
                     {
                         entry["item_id"] = $"core_unit-{coreOrder++}";
                         coreUnits.Add(entry);
                     }
-                    else
+                    else if (currentSection == "elective")
                     {
                         entry["item_id"] = $"elective_unit_Elective-{electiveOrder++}";
                         electiveUnits.Add(entry);
                     }
+                    else if (currentSection == "specialist" && currentSpecialistGroup != null)
+                    {
+                        var order = specialistOrderByGroup[currentSpecialistGroup]++;
+                        entry["item_id"] = $"specialist_elective_unit_{currentSpecialistGroup}-{order}";
+                        specialistElectiveGroups[specialistGroupsMap[currentSpecialistGroup]].items.Add(entry);
+                    }
+                    else if (currentSection == "general" && currentGeneralGroup != null)
+                    {
+                        var order = generalOrderByGroup[currentGeneralGroup]++;
+                        entry["item_id"] = $"general_elective_unit_{currentGeneralGroup}-{order}";
+                        generalElectiveGroups[generalGroupsMap[currentGeneralGroup]].items.Add(entry);
+                    }
                 }
             }
 
-            return (coreUnits, electiveUnits);
+            return (coreUnits, electiveUnits, specialistElectiveGroups, generalElectiveGroups);
         }
 
         private static (string title, bool asterisk) NormalizeTitleAndAsterisk(string title)

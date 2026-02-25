@@ -125,7 +125,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
             // core and elective units
             var children = textNode.Elements().ToList();
-            var (coreUnitsFromTables, electiveUnitsFromTables, _) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
+            var (coreUnitsFromTables, electiveUnitsFromTables, specialistFromTable, generalFromTable, _) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
             var coreUnitsFromParagraphs = QualificationCoreUnitsParser.Parse(children, ns, unitCodePattern);
 
             // Prefer paragraph-based core units when present (avoids misclassifying elective tables as core)
@@ -145,15 +145,23 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 packagingRules["elective_units"] = electiveUnits;
             }
 
-            // specialist and general elective units (format: array of { key, title, items } when groups, or flat array of units)
+            // specialist and general elective units: from paragraphs first, else from combined table (Core + Group A/B)
             var (specialistElectiveUnits, generalElectiveUnits) = QualificationSpecialistElectiveUnitsParser.Parse(children, ns, unitCodePattern);
             if (specialistElectiveUnits.Count > 0)
             {
                 packagingRules["specialist_elective_units"] = specialistElectiveUnits;
             }
+            else if (specialistFromTable.Count > 0)
+            {
+                packagingRules["specialist_elective_units"] = specialistFromTable;
+            }
             if (generalElectiveUnits.Count > 0)
             {
                 packagingRules["general_elective_units"] = generalElectiveUnits;
+            }
+            else if (generalFromTable.Count > 0)
+            {
+                packagingRules["general_elective_units"] = generalFromTable;
             }
 
             if (electiveRulesParagraphElements.Count > 0)
