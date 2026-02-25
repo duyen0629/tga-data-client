@@ -1,0 +1,1315 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "AUR\\AUR31120_R2.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with AUR Automotive Retail, Service and Repair Training Package Version 6.0",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with AUR Automotive Retail, Service and Repair Training Package Version 6.1.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "The following elective units of competency have been deleted as directed by the AISC:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "AURTTL006 Install LNG fuel systems.",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-3_2_3",
+                    "parent_bullet_item_id": "modification_history_cell-3_2_2"
+                  },
+                  {
+                    "text": "The above training products were identified as having zero enrolments over a three year period.",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_4",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "Total number of units = 36",
+            "type": "bullet",
+            "order": 1,
+            "indent": 2,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "22core units, plus",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "14elective units, of which:",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "1 unit must be from one of the Specialist Elective Groups A or B below",
+            "type": "bullet",
+            "order": 4,
+            "indent": 0,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": "packaging_rules-3"
+          },
+          {
+            "text": "of the remaining 13 units required to make up the elective unit total:",
+            "type": "bullet",
+            "order": 5,
+            "indent": 0,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-3"
+          },
+          {
+            "text": "up to 13 may be from the Specialist Elective Groups and/or the general elective units listed below",
+            "type": "bullet",
+            "order": 6,
+            "indent": 1,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "up to 6 may be from a Certificate II qualification or above in this Training Package or another endorsed Training Package or accredited course.",
+            "type": "bullet",
+            "order": 7,
+            "indent": 1,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "Elective units chosen must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid vocational outcome.",
+            "type": "paragraph",
+            "order": 8,
+            "indent": null,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Core Units",
+            "type": "bullet",
+            "order": 9,
+            "indent": 1,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURAEA002 Follow environmental and sustainability best practice in an automotive workplace",
+            "type": "bullet",
+            "order": 10,
+            "indent": 1,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURASA102 Follow safe working practices in an automotive workplace",
+            "type": "bullet",
+            "order": 11,
+            "indent": 1,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR112 Test and repair basic electrical circuits",
+            "type": "bullet",
+            "order": 12,
+            "indent": 1,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR122 Diagnose and repair vehicle dynamic control systems",
+            "type": "bullet",
+            "order": 13,
+            "indent": 1,
+            "item_id": "packaging_rules-13",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR124 Diagnose and repair compression ignition engine management systems",
+            "type": "bullet",
+            "order": 14,
+            "indent": 1,
+            "item_id": "packaging_rules-14",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR125 Test, charge and replace batteries and jump-start vehicles",
+            "type": "bullet",
+            "order": 15,
+            "indent": 1,
+            "item_id": "packaging_rules-15",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR129 Diagnose and repair charging systems",
+            "type": "bullet",
+            "order": 16,
+            "indent": 1,
+            "item_id": "packaging_rules-16",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR130 Diagnose and repair starting systems",
+            "type": "bullet",
+            "order": 17,
+            "indent": 1,
+            "item_id": "packaging_rules-17",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTB101 Diagnose and repair heavy vehicle air braking systems",
+            "type": "bullet",
+            "order": 18,
+            "indent": 1,
+            "item_id": "packaging_rules-18",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTD102 Diagnose and repair heavy commercial vehicle steering systems",
+            "type": "bullet",
+            "order": 19,
+            "indent": 1,
+            "item_id": "packaging_rules-19",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTD103 Diagnose and repair heavy commercial vehicle suspension systems",
+            "type": "bullet",
+            "order": 20,
+            "indent": 1,
+            "item_id": "packaging_rules-20",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTE102 Diagnose and repair heavy vehicle compression ignition engines",
+            "type": "bullet",
+            "order": 21,
+            "indent": 1,
+            "item_id": "packaging_rules-21",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTQ103 Diagnose and repair heavy vehicle drive shafts",
+            "type": "bullet",
+            "order": 22,
+            "indent": 1,
+            "item_id": "packaging_rules-22",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTZ101 Diagnose and repair heavy vehicle emission control systems",
+            "type": "bullet",
+            "order": 23,
+            "indent": 1,
+            "item_id": "packaging_rules-23",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTA006 Inspect and service hydraulic systems",
+            "type": "bullet",
+            "order": 24,
+            "indent": 1,
+            "item_id": "packaging_rules-24",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTA104 Carry out servicing operations",
+            "type": "bullet",
+            "order": 25,
+            "indent": 1,
+            "item_id": "packaging_rules-25",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTA118 Develop and carry out diagnostic test strategies",
+            "type": "bullet",
+            "order": 26,
+            "indent": 1,
+            "item_id": "packaging_rules-26",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTC103 Diagnose and repair cooling systems",
+            "type": "bullet",
+            "order": 27,
+            "indent": 1,
+            "item_id": "packaging_rules-27",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTF102 Inspect and service diesel fuel injection systems",
+            "type": "bullet",
+            "order": 28,
+            "indent": 1,
+            "item_id": "packaging_rules-28",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTF105 Diagnose and repair engine forced-induction systems",
+            "type": "bullet",
+            "order": 29,
+            "indent": 1,
+            "item_id": "packaging_rules-29",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTK102 Use and maintain tools and equipment in an automotive workplace",
+            "type": "bullet",
+            "order": 30,
+            "indent": 1,
+            "item_id": "packaging_rules-30",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTQ001 Inspect and service final drive assemblies",
+            "type": "bullet",
+            "order": 31,
+            "indent": 1,
+            "item_id": "packaging_rules-31",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "Specialist Elective Units",
+            "type": "bullet",
+            "order": 32,
+            "indent": 1,
+            "item_id": "packaging_rules-32",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "Group A: Heavy Vehicle Manual Transmission",
+            "type": "bullet",
+            "order": 33,
+            "indent": 1,
+            "item_id": "packaging_rules-33",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTX101 Diagnose and repair heavy vehicle manual transmissions",
+            "type": "bullet",
+            "order": 34,
+            "indent": 1,
+            "item_id": "packaging_rules-34",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "Group B: Heavy Vehicle Automatic Transmission",
+            "type": "bullet",
+            "order": 35,
+            "indent": 1,
+            "item_id": "packaging_rules-35",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTX103 Diagnose and repair heavy vehicle automatic transmissions",
+            "type": "bullet",
+            "order": 36,
+            "indent": 1,
+            "item_id": "packaging_rules-36",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "General Elective Units",
+            "type": "bullet",
+            "order": 37,
+            "indent": 1,
+            "item_id": "packaging_rules-37",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURAFA103 Communicate effectively in an automotive workplace",
+            "type": "bullet",
+            "order": 38,
+            "indent": 1,
+            "item_id": "packaging_rules-38",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURAMA001 Work effectively with others in an automotive workplace",
+            "type": "bullet",
+            "order": 39,
+            "indent": 1,
+            "item_id": "packaging_rules-39",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR120 Diagnose and repair network electronic control systems",
+            "type": "bullet",
+            "order": 40,
+            "indent": 1,
+            "item_id": "packaging_rules-40",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR132 Diagnose and repair automotive electrical systems",
+            "type": "bullet",
+            "order": 41,
+            "indent": 1,
+            "item_id": "packaging_rules-41",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR143 Diagnose and repair electronic body management systems",
+            "type": "bullet",
+            "order": 42,
+            "indent": 1,
+            "item_id": "packaging_rules-42",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETR144 Diagnose and repair integrated engine and transmission management systems",
+            "type": "bullet",
+            "order": 43,
+            "indent": 1,
+            "item_id": "packaging_rules-43",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETU103 Service air conditioning and HVAC systems",
+            "type": "bullet",
+            "order": 44,
+            "indent": 1,
+            "item_id": "packaging_rules-44",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETU104 Diagnose and repair air conditioning and HVAC components",
+            "type": "bullet",
+            "order": 45,
+            "indent": 1,
+            "item_id": "packaging_rules-45",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURETU105 Retrofit automotive air conditioning and HVAC systems",
+            "type": "bullet",
+            "order": 46,
+            "indent": 1,
+            "item_id": "packaging_rules-46",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTB002 Diagnose and repair heavy vehicle hydraulic and air over hydraulic braking systems",
+            "type": "bullet",
+            "order": 47,
+            "indent": 1,
+            "item_id": "packaging_rules-47",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTB107 Diagnose and repair heavy commercial vehicle electronic braking systems",
+            "type": "bullet",
+            "order": 48,
+            "indent": 1,
+            "item_id": "packaging_rules-48",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTD104 Carry out heavy vehicle wheel alignment operations",
+            "type": "bullet",
+            "order": 49,
+            "indent": 1,
+            "item_id": "packaging_rules-49",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTE001 Remove and install heavy vehicle engine assemblies",
+            "type": "bullet",
+            "order": 50,
+            "indent": 1,
+            "item_id": "packaging_rules-50",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTF102 Diagnose and repair heavy vehicle diesel fuel injection systems",
+            "type": "bullet",
+            "order": 51,
+            "indent": 1,
+            "item_id": "packaging_rules-51",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTJ103 Remove, inspect and refit heavy vehicle wheel and tyre assemblies",
+            "type": "bullet",
+            "order": 52,
+            "indent": 1,
+            "item_id": "packaging_rules-52",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTJ106 Remove, inspect, repair and refit heavy vehicle tyres and tubes",
+            "type": "bullet",
+            "order": 53,
+            "indent": 1,
+            "item_id": "packaging_rules-53",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTL101 Inspect, diagnose and repair alternative fuel systems in heavy vehicle engines",
+            "type": "bullet",
+            "order": 54,
+            "indent": 1,
+            "item_id": "packaging_rules-54",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTQ102 Diagnose and repair heavy commercial vehicle final drive assemblies",
+            "type": "bullet",
+            "order": 55,
+            "indent": 1,
+            "item_id": "packaging_rules-55",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTX002 Inspect, test and replace heavy vehicle automatic transmissions",
+            "type": "bullet",
+            "order": 56,
+            "indent": 1,
+            "item_id": "packaging_rules-56",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTX104 Diagnose and repair heavy vehicle clutch systems",
+            "type": "bullet",
+            "order": 57,
+            "indent": 1,
+            "item_id": "packaging_rules-57",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTY001 Inspect and service mechanical connections of heavy vehicles and trailers over 4.5 tonnes",
+            "type": "bullet",
+            "order": 58,
+            "indent": 1,
+            "item_id": "packaging_rules-58",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURHTY102 Diagnose and repair mechanical connections of heavy vehicles and trailers over 4.5 tonnes",
+            "type": "bullet",
+            "order": 59,
+            "indent": 1,
+            "item_id": "packaging_rules-59",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTA014 Assemble and install pneumatic system components",
+            "type": "bullet",
+            "order": 60,
+            "indent": 1,
+            "item_id": "packaging_rules-60",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTA105 Select and use bearings, seals, gaskets, sealants and adhesives",
+            "type": "bullet",
+            "order": 61,
+            "indent": 1,
+            "item_id": "packaging_rules-61",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTA113 Diagnose and repair hydraulic systems",
+            "type": "bullet",
+            "order": 62,
+            "indent": 1,
+            "item_id": "packaging_rules-62",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTB004 Inspect and service air braking systems",
+            "type": "bullet",
+            "order": 63,
+            "indent": 1,
+            "item_id": "packaging_rules-63",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTB006 Inspect, service and repair auxiliary braking systems",
+            "type": "bullet",
+            "order": 64,
+            "indent": 1,
+            "item_id": "packaging_rules-64",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTB101 Inspect and service braking systems",
+            "type": "bullet",
+            "order": 65,
+            "indent": 1,
+            "item_id": "packaging_rules-65",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTC002 Repair radiators",
+            "type": "bullet",
+            "order": 66,
+            "indent": 1,
+            "item_id": "packaging_rules-66",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTD002 Inspect and service steering systems",
+            "type": "bullet",
+            "order": 67,
+            "indent": 1,
+            "item_id": "packaging_rules-67",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTD004 Inspect and service suspension systems",
+            "type": "bullet",
+            "order": 68,
+            "indent": 1,
+            "item_id": "packaging_rules-68",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTE104 Inspect and service engines",
+            "type": "bullet",
+            "order": 69,
+            "indent": 1,
+            "item_id": "packaging_rules-69",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTK001 Use and maintain measuring equipment in an automotive workplace",
+            "type": "bullet",
+            "order": 70,
+            "indent": 1,
+            "item_id": "packaging_rules-70",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTL003 Install CNG fuel systems",
+            "type": "bullet",
+            "order": 71,
+            "indent": 1,
+            "item_id": "packaging_rules-71",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTL009 Install LPG fuel systems",
+            "type": "bullet",
+            "order": 72,
+            "indent": 1,
+            "item_id": "packaging_rules-72",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTL104 Inspect and service LNG fuel systems",
+            "type": "bullet",
+            "order": 73,
+            "indent": 1,
+            "item_id": "packaging_rules-73",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTL105 Diagnose and repair LNG fuel systems",
+            "type": "bullet",
+            "order": 74,
+            "indent": 1,
+            "item_id": "packaging_rules-74",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTX102 Inspect and service manual transmissions",
+            "type": "bullet",
+            "order": 75,
+            "indent": 1,
+            "item_id": "packaging_rules-75",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTX103 Inspect and service automatic transmissions",
+            "type": "bullet",
+            "order": 76,
+            "indent": 1,
+            "item_id": "packaging_rules-76",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURTTZ102 Diagnose and repair exhaust systems",
+            "type": "bullet",
+            "order": 77,
+            "indent": 1,
+            "item_id": "packaging_rules-77",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURVTW018 Carry out oxyacetylene welding, thermal heating and cutting",
+            "type": "bullet",
+            "order": 78,
+            "indent": 1,
+            "item_id": "packaging_rules-78",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURVTW101 Carry out manual metal arc welding on components",
+            "type": "bullet",
+            "order": 79,
+            "indent": 1,
+            "item_id": "packaging_rules-79",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURVTW103 Carry out advanced gas metal arc welding on vehicle body sections",
+            "type": "bullet",
+            "order": 80,
+            "indent": 1,
+            "item_id": "packaging_rules-80",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "AURVTW104 Carry out tungsten inert gas welding",
+            "type": "bullet",
+            "order": 81,
+            "indent": 1,
+            "item_id": "packaging_rules-81",
+            "parent_bullet_item_id": "packaging_rules-5"
+          }
+        ],
+        "order": 3,
+        "table": null,
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes is equivalent to AUR31116 Certificate III in Heavy Commercial Vehicle Mechanical Technology.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guide is found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=b4278d82-d487-4070-a8c4-78045ec695b1",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "AURAEA002",
+          "title": "Follow environmental and sustainability best practice in an automotive workplace",
+          "item_id": "core_unit-1",
+          "asterisk": false
+        },
+        {
+          "code": "AURASA102",
+          "title": "Follow safe working practices in an automotive workplace",
+          "item_id": "core_unit-2",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR112",
+          "title": "Test and repair basic electrical circuits",
+          "item_id": "core_unit-3",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR122",
+          "title": "Diagnose and repair vehicle dynamic control systems",
+          "item_id": "core_unit-4",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR124",
+          "title": "Diagnose and repair compression ignition engine management systems",
+          "item_id": "core_unit-5",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR125",
+          "title": "Test, charge and replace batteries and jump-start vehicles",
+          "item_id": "core_unit-6",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR129",
+          "title": "Diagnose and repair charging systems",
+          "item_id": "core_unit-7",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR130",
+          "title": "Diagnose and repair starting systems",
+          "item_id": "core_unit-8",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTB101",
+          "title": "Diagnose and repair heavy vehicle air braking systems",
+          "item_id": "core_unit-9",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTD102",
+          "title": "Diagnose and repair heavy commercial vehicle steering systems",
+          "item_id": "core_unit-10",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTD103",
+          "title": "Diagnose and repair heavy commercial vehicle suspension systems",
+          "item_id": "core_unit-11",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTE102",
+          "title": "Diagnose and repair heavy vehicle compression ignition engines",
+          "item_id": "core_unit-12",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTQ103",
+          "title": "Diagnose and repair heavy vehicle drive shafts",
+          "item_id": "core_unit-13",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTZ101",
+          "title": "Diagnose and repair heavy vehicle emission control systems",
+          "item_id": "core_unit-14",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTA006",
+          "title": "Inspect and service hydraulic systems",
+          "item_id": "core_unit-15",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTA104",
+          "title": "Carry out servicing operations",
+          "item_id": "core_unit-16",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTA118",
+          "title": "Develop and carry out diagnostic test strategies",
+          "item_id": "core_unit-17",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTC103",
+          "title": "Diagnose and repair cooling systems",
+          "item_id": "core_unit-18",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTF102",
+          "title": "Inspect and service diesel fuel injection systems",
+          "item_id": "core_unit-19",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTF105",
+          "title": "Diagnose and repair engine forced-induction systems",
+          "item_id": "core_unit-20",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTK102",
+          "title": "Use and maintain tools and equipment in an automotive workplace",
+          "item_id": "core_unit-21",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTQ001",
+          "title": "Inspect and service final drive assemblies",
+          "item_id": "core_unit-22",
+          "asterisk": false
+        }
+      ],
+      "total_units": 36,
+      "elective_rules": [
+        {
+          "text": "Total number of units = 36",
+          "type": "bullet",
+          "order": 1,
+          "indent": 2,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "22core units, plus",
+          "type": "paragraph",
+          "order": 2,
+          "indent": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "14elective units, of which:",
+          "type": "paragraph",
+          "order": 3,
+          "indent": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "1 unit must be from one of the Specialist Elective Groups A or B below",
+          "type": "bullet",
+          "order": 4,
+          "indent": 0,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "of the remaining 13 units required to make up the elective unit total:",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "up to 13 may be from the Specialist Elective Groups and/or the general elective units listed below",
+          "type": "bullet",
+          "order": 6,
+          "indent": 1,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-5"
+        },
+        {
+          "text": "up to 6 may be from a Certificate II qualification or above in this Training Package or another endorsed Training Package or accredited course.",
+          "type": "bullet",
+          "order": 7,
+          "indent": 1,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-5"
+        },
+        {
+          "text": "Elective units chosen must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid vocational outcome.",
+          "type": "paragraph",
+          "order": 8,
+          "indent": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "core_units_required": 22,
+      "general_elective_units": [
+        {
+          "code": "AURAFA103",
+          "title": "Communicate effectively in an automotive workplace",
+          "item_id": "general_elective_unit-1",
+          "asterisk": false
+        },
+        {
+          "code": "AURAMA001",
+          "title": "Work effectively with others in an automotive workplace",
+          "item_id": "general_elective_unit-2",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR120",
+          "title": "Diagnose and repair network electronic control systems",
+          "item_id": "general_elective_unit-3",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR132",
+          "title": "Diagnose and repair automotive electrical systems",
+          "item_id": "general_elective_unit-4",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR143",
+          "title": "Diagnose and repair electronic body management systems",
+          "item_id": "general_elective_unit-5",
+          "asterisk": false
+        },
+        {
+          "code": "AURETR144",
+          "title": "Diagnose and repair integrated engine and transmission management systems",
+          "item_id": "general_elective_unit-6",
+          "asterisk": false
+        },
+        {
+          "code": "AURETU103",
+          "title": "Service air conditioning and HVAC systems",
+          "item_id": "general_elective_unit-7",
+          "asterisk": false
+        },
+        {
+          "code": "AURETU104",
+          "title": "Diagnose and repair air conditioning and HVAC components",
+          "item_id": "general_elective_unit-8",
+          "asterisk": false
+        },
+        {
+          "code": "AURETU105",
+          "title": "Retrofit automotive air conditioning and HVAC systems",
+          "item_id": "general_elective_unit-9",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTB002",
+          "title": "Diagnose and repair heavy vehicle hydraulic and air over hydraulic braking systems",
+          "item_id": "general_elective_unit-10",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTB107",
+          "title": "Diagnose and repair heavy commercial vehicle electronic braking systems",
+          "item_id": "general_elective_unit-11",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTD104",
+          "title": "Carry out heavy vehicle wheel alignment operations",
+          "item_id": "general_elective_unit-12",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTE001",
+          "title": "Remove and install heavy vehicle engine assemblies",
+          "item_id": "general_elective_unit-13",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTF102",
+          "title": "Diagnose and repair heavy vehicle diesel fuel injection systems",
+          "item_id": "general_elective_unit-14",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTJ103",
+          "title": "Remove, inspect and refit heavy vehicle wheel and tyre assemblies",
+          "item_id": "general_elective_unit-15",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTJ106",
+          "title": "Remove, inspect, repair and refit heavy vehicle tyres and tubes",
+          "item_id": "general_elective_unit-16",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTL101",
+          "title": "Inspect, diagnose and repair alternative fuel systems in heavy vehicle engines",
+          "item_id": "general_elective_unit-17",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTQ102",
+          "title": "Diagnose and repair heavy commercial vehicle final drive assemblies",
+          "item_id": "general_elective_unit-18",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTX002",
+          "title": "Inspect, test and replace heavy vehicle automatic transmissions",
+          "item_id": "general_elective_unit-19",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTX104",
+          "title": "Diagnose and repair heavy vehicle clutch systems",
+          "item_id": "general_elective_unit-20",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTY001",
+          "title": "Inspect and service mechanical connections of heavy vehicles and trailers over 4.5 tonnes",
+          "item_id": "general_elective_unit-21",
+          "asterisk": false
+        },
+        {
+          "code": "AURHTY102",
+          "title": "Diagnose and repair mechanical connections of heavy vehicles and trailers over 4.5 tonnes",
+          "item_id": "general_elective_unit-22",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTA014",
+          "title": "Assemble and install pneumatic system components",
+          "item_id": "general_elective_unit-23",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTA105",
+          "title": "Select and use bearings, seals, gaskets, sealants and adhesives",
+          "item_id": "general_elective_unit-24",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTA113",
+          "title": "Diagnose and repair hydraulic systems",
+          "item_id": "general_elective_unit-25",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTB004",
+          "title": "Inspect and service air braking systems",
+          "item_id": "general_elective_unit-26",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTB006",
+          "title": "Inspect, service and repair auxiliary braking systems",
+          "item_id": "general_elective_unit-27",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTB101",
+          "title": "Inspect and service braking systems",
+          "item_id": "general_elective_unit-28",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTC002",
+          "title": "Repair radiators",
+          "item_id": "general_elective_unit-29",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTD002",
+          "title": "Inspect and service steering systems",
+          "item_id": "general_elective_unit-30",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTD004",
+          "title": "Inspect and service suspension systems",
+          "item_id": "general_elective_unit-31",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTE104",
+          "title": "Inspect and service engines",
+          "item_id": "general_elective_unit-32",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTK001",
+          "title": "Use and maintain measuring equipment in an automotive workplace",
+          "item_id": "general_elective_unit-33",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTL003",
+          "title": "Install CNG fuel systems",
+          "item_id": "general_elective_unit-34",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTL009",
+          "title": "Install LPG fuel systems",
+          "item_id": "general_elective_unit-35",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTL104",
+          "title": "Inspect and service LNG fuel systems",
+          "item_id": "general_elective_unit-36",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTL105",
+          "title": "Diagnose and repair LNG fuel systems",
+          "item_id": "general_elective_unit-37",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTX102",
+          "title": "Inspect and service manual transmissions",
+          "item_id": "general_elective_unit-38",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTX103",
+          "title": "Inspect and service automatic transmissions",
+          "item_id": "general_elective_unit-39",
+          "asterisk": false
+        },
+        {
+          "code": "AURTTZ102",
+          "title": "Diagnose and repair exhaust systems",
+          "item_id": "general_elective_unit-40",
+          "asterisk": false
+        },
+        {
+          "code": "AURVTW018",
+          "title": "Carry out oxyacetylene welding, thermal heating and cutting",
+          "item_id": "general_elective_unit-41",
+          "asterisk": false
+        },
+        {
+          "code": "AURVTW101",
+          "title": "Carry out manual metal arc welding on components",
+          "item_id": "general_elective_unit-42",
+          "asterisk": false
+        },
+        {
+          "code": "AURVTW103",
+          "title": "Carry out advanced gas metal arc welding on vehicle body sections",
+          "item_id": "general_elective_unit-43",
+          "asterisk": false
+        },
+        {
+          "code": "AURVTW104",
+          "title": "Carry out tungsten inert gas welding",
+          "item_id": "general_elective_unit-44",
+          "asterisk": false
+        }
+      ],
+      "elective_units_required": 14,
+      "prerequisite_requirements": [],
+      "specialist_elective_units": {
+        "GroupA": [
+          {
+            "code": "AURHTX101",
+            "title": "Diagnose and repair heavy vehicle manual transmissions",
+            "item_id": "specialist_elective_unit_GroupA-1",
+            "asterisk": false
+          }
+        ],
+        "GroupB": [
+          {
+            "code": "AURHTX103",
+            "title": "Diagnose and repair heavy vehicle automatic transmissions",
+            "item_id": "specialist_elective_unit_GroupB-1",
+            "asterisk": false
+          }
+        ]
+      }
+    }
+  }

@@ -357,9 +357,6 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             items.Add(item);
         }
 
-        /// <summary>
-        /// Parses a sequence of paragraph elements into SectionItems with text, type, order, indent, item_id, parent_bullet_item_id.
-        /// </summary>
         internal static List<SectionItem> ParseParagraphElementsToItems(
             IEnumerable<XElement> paragraphElements,
             string sectionKey)

@@ -127,7 +127,14 @@
     <Compile Include="Handlers\TrainingComponentDocuments\Helper\SectionKeyHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Helper\TableHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\CommonParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationCoreUnitsParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationPackagingCountsParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationPrerequisiteRequirementParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationElectiveRulesParser.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationUnitTablesParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationSpecialistElectiveUnitsParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationUnitHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\UnitParser.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\TrainingComponentDocumentHandler.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Type\TrainingComponentDocumentTypes.cs" />

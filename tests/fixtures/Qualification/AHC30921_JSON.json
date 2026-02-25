@@ -601,7 +601,7 @@
       "total_units": 17,
       "elective_rules": [
         {
-          "text": "Elective units must ensure the integrity of the qualification's Australian Qualification Framework (AQF) alignment and contribute to a valid, industry-supported vocational outcome. The electives are to be chosen as follows:",
+          "text": "To achieve this qualification, competency must be demonstrated in:",
           "type": "paragraph",
           "order": 1,
           "indent": null,
@@ -609,7 +609,7 @@
           "parent_bullet_item_id": null
         },
         {
-          "text": "1 must be from electives group A",
+          "text": "17 units of competency:",
           "type": "bullet",
           "order": 2,
           "indent": 0,
@@ -617,20 +617,52 @@
           "parent_bullet_item_id": "elective_rules-1"
         },
         {
-          "text": "3 must be from electives group B",
+          "text": "10 core units plus",
           "type": "bullet",
           "order": 3,
-          "indent": 0,
+          "indent": 1,
           "item_id": "elective_rules-3",
-          "parent_bullet_item_id": "elective_rules-1"
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "7 elective units.",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "Elective units must ensure the integrity of the qualification's Australian Qualification Framework (AQF) alignment and contribute to a valid, industry-supported vocational outcome. The electives are to be chosen as follows:",
+          "type": "paragraph",
+          "order": 5,
+          "indent": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "1 must be from electives group A",
+          "type": "bullet",
+          "order": 6,
+          "indent": 0,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-5"
+        },
+        {
+          "text": "3 must be from electives group B",
+          "type": "bullet",
+          "order": 7,
+          "indent": 0,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-5"
         },
         {
           "text": "3 from the remaining elective units, or any currently endorsed Training Package or accredited course.",
           "type": "bullet",
-          "order": 4,
+          "order": 8,
           "indent": 0,
-          "item_id": "elective_rules-4",
-          "parent_bullet_item_id": "elective_rules-1"
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": "elective_rules-5"
         }
       ],
       "elective_units": {
