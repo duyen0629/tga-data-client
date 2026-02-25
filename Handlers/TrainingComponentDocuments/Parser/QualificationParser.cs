@@ -125,7 +125,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
             // core and elective units
             var children = textNode.Elements().ToList();
-            var (coreUnitsFromTables, electiveUnits, _) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
+            var (coreUnitsFromTables, electiveUnitsFromTables, _) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
             var coreUnitsFromParagraphs = QualificationCoreUnitsParser.Parse(children, ns, unitCodePattern);
 
             // Prefer paragraph-based core units when present (avoids misclassifying elective tables as core)
@@ -136,6 +136,10 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 packagingRules["core_units"] = coreUnits;
             }
 
+            // Elective units: from tables first, else from "Elective units" paragraph section (Group A, Group B, etc.)
+            var electiveUnits = electiveUnitsFromTables.Count > 0
+                ? electiveUnitsFromTables
+                : QualificationElectiveUnitsParser.ParseFromParagraphs(children, ns, unitCodePattern);
             if (electiveUnits.Count > 0)
             {
                 packagingRules["elective_units"] = electiveUnits;

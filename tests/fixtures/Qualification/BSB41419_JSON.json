@@ -1,0 +1,679 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "BSB\\BSB41419_R2.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version released with BSB Business Services Training Package Version 7.0. Updated superseded elective units.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with BSB Business Services Training Package Version 5.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "Total number of units = 10",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "5 core units plus",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "5 elective units, of which:",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "3 units must be from Group A below",
+            "type": "bullet",
+            "order": 4,
+            "indent": 0,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": "packaging_rules-3"
+          },
+          {
+            "text": "the remaining 2 units may be selected as follows:",
+            "type": "bullet",
+            "order": 5,
+            "indent": 0,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-3"
+          },
+          {
+            "text": "both may be selected from Group A, Group B or any currently endorsed Training Package qualification or accredited course at the same Australian Qualifications Framework (AQF) level",
+            "type": "bullet",
+            "order": 6,
+            "indent": 1,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "1 may be selected from a Certificate III or Diploma, from any currently endorsed Training Package qualification or accredited course.",
+            "type": "bullet",
+            "order": 7,
+            "indent": 1,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "Elective units must be relevant to the work environment and the qualification, maintain the integrity of the AQF alignment and contribute to a valid, industry-supported vocational outcome.",
+            "type": "paragraph",
+            "order": 8,
+            "indent": null,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Core units",
+            "type": "paragraph",
+            "order": 9,
+            "indent": null,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS412 Assist with workplace compliance with WHS laws",
+            "type": "paragraph",
+            "order": 10,
+            "indent": null,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS413 Contribute to implementation and maintenance of WHS consultation and participation processes",
+            "type": "paragraph",
+            "order": 11,
+            "indent": null,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS414 Contribute to WHS risk management",
+            "type": "paragraph",
+            "order": 12,
+            "indent": null,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS415 Contribute to implementing WHS management systems",
+            "type": "paragraph",
+            "order": 13,
+            "indent": null,
+            "item_id": "packaging_rules-13",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS416 Contribute to workplace incident response",
+            "type": "paragraph",
+            "order": 14,
+            "indent": null,
+            "item_id": "packaging_rules-14",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Elective units",
+            "type": "paragraph",
+            "order": 15,
+            "indent": null,
+            "item_id": "packaging_rules-15",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Group A",
+            "type": "paragraph",
+            "order": 16,
+            "indent": null,
+            "item_id": "packaging_rules-16",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBINS401 Analyse and present research information",
+            "type": "paragraph",
+            "order": 17,
+            "indent": null,
+            "item_id": "packaging_rules-17",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS417 Assist with managing WHS implications of return to work",
+            "type": "paragraph",
+            "order": 18,
+            "indent": null,
+            "item_id": "packaging_rules-18",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS418 Assist with managing WHS compliance of contractors",
+            "type": "paragraph",
+            "order": 19,
+            "indent": null,
+            "item_id": "packaging_rules-19",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS419 Contribute to implementing WHS monitoring processes",
+            "type": "paragraph",
+            "order": 20,
+            "indent": null,
+            "item_id": "packaging_rules-20",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWHS431 Develop processes and procedures for controlling hazardous chemicals in the workplace",
+            "type": "paragraph",
+            "order": 21,
+            "indent": null,
+            "item_id": "packaging_rules-21",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBWRT411 Write complex documents",
+            "type": "paragraph",
+            "order": 22,
+            "indent": null,
+            "item_id": "packaging_rules-22",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Group B",
+            "type": "paragraph",
+            "order": 23,
+            "indent": null,
+            "item_id": "packaging_rules-23",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBCMM411 Make presentations",
+            "type": "paragraph",
+            "order": 24,
+            "indent": null,
+            "item_id": "packaging_rules-24",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBLDR411 Demonstrate leadership in the workplace",
+            "type": "paragraph",
+            "order": 25,
+            "indent": null,
+            "item_id": "packaging_rules-25",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBPMG420 Apply project scope management techniques",
+            "type": "paragraph",
+            "order": 26,
+            "indent": null,
+            "item_id": "packaging_rules-26",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBSTR401 Promote innovation in team environments",
+            "type": "paragraph",
+            "order": 27,
+            "indent": null,
+            "item_id": "packaging_rules-27",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBSTR402 Implement continuous improvement",
+            "type": "paragraph",
+            "order": 28,
+            "indent": null,
+            "item_id": "packaging_rules-28",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "BSBSUS411 Implement and monitor environmentally sustainable work practices",
+            "type": "paragraph",
+            "order": 29,
+            "indent": null,
+            "item_id": "packaging_rules-29",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "PUACOM008 Develop and organise public safety awareness programs",
+            "type": "paragraph",
+            "order": 30,
+            "indent": null,
+            "item_id": "packaging_rules-30",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "PUAWHS003 Implement and monitor organisational work, health and safety policies, procedures and programs",
+            "type": "paragraph",
+            "order": 31,
+            "indent": null,
+            "item_id": "packaging_rules-31",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "RIIWHS403D Apply the mine work health and safety management plan",
+            "type": "paragraph",
+            "order": 32,
+            "indent": null,
+            "item_id": "packaging_rules-32",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "TAEASS301 Contribute to assessment",
+            "type": "paragraph",
+            "order": 33,
+            "indent": null,
+            "item_id": "packaging_rules-33",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "TAEDEL301 Provide work skill instruction",
+            "type": "paragraph",
+            "order": 34,
+            "indent": null,
+            "item_id": "packaging_rules-34",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": null,
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to BSB41415 Certificate IV in Work Health and Safety.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guides are available from VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=11ef6853-ceed-4ba7-9d87-4da407e23c10",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=11ef6853-ceed-4ba7-9d87-4da407e23c10",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "links-2",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "BSBWHS412",
+          "title": "Assist with workplace compliance with WHS laws",
+          "item_id": "core_unit-1",
+          "asterisk": false
+        },
+        {
+          "code": "BSBWHS413",
+          "title": "Contribute to implementation and maintenance of WHS consultation and participation processes",
+          "item_id": "core_unit-2",
+          "asterisk": false
+        },
+        {
+          "code": "BSBWHS414",
+          "title": "Contribute to WHS risk management",
+          "item_id": "core_unit-3",
+          "asterisk": false
+        },
+        {
+          "code": "BSBWHS415",
+          "title": "Contribute to implementing WHS management systems",
+          "item_id": "core_unit-4",
+          "asterisk": false
+        },
+        {
+          "code": "BSBWHS416",
+          "title": "Contribute to workplace incident response",
+          "item_id": "core_unit-5",
+          "asterisk": false
+        }
+      ],
+      "total_units": 10,
+      "elective_rules": [
+        {
+          "text": "Total number of units = 10",
+          "type": "paragraph-bold",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "5 core units plus",
+          "type": "paragraph",
+          "order": 2,
+          "indent": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "5 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "5 elective units, of which:",
+          "type": "paragraph",
+          "order": 3,
+          "indent": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "5 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "3 units must be from Group A below",
+          "type": "bullet",
+          "order": 4,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "the remaining 2 units may be selected as follows:",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "both may be selected from Group A, Group B or any currently endorsed Training Package qualification or accredited course at the same Australian Qualifications Framework (AQF) level",
+          "type": "bullet",
+          "order": 6,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-5"
+        },
+        {
+          "text": "1 may be selected from a Certificate III or Diploma, from any currently endorsed Training Package qualification or accredited course.",
+          "type": "bullet",
+          "order": 7,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-5"
+        },
+        {
+          "text": "Elective units must be relevant to the work environment and the qualification, maintain the integrity of the AQF alignment and contribute to a valid, industry-supported vocational outcome.",
+          "type": "paragraph",
+          "order": 8,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "key": "GroupA",
+          "items": [
+            {
+              "code": "BSBINS401",
+              "title": "Analyse and present research information",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": false
+            },
+            {
+              "code": "BSBWHS417",
+              "title": "Assist with managing WHS implications of return to work",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": false
+            },
+            {
+              "code": "BSBWHS418",
+              "title": "Assist with managing WHS compliance of contractors",
+              "item_id": "elective_unit_GroupA-3",
+              "asterisk": false
+            },
+            {
+              "code": "BSBWHS419",
+              "title": "Contribute to implementing WHS monitoring processes",
+              "item_id": "elective_unit_GroupA-4",
+              "asterisk": false
+            },
+            {
+              "code": "BSBWHS431",
+              "title": "Develop processes and procedures for controlling hazardous chemicals in the workplace",
+              "item_id": "elective_unit_GroupA-5",
+              "asterisk": false
+            },
+            {
+              "code": "BSBWRT411",
+              "title": "Write complex documents",
+              "item_id": "elective_unit_GroupA-6",
+              "asterisk": false
+            }
+          ],
+          "title": ""
+        },
+        {
+          "key": "GroupB",
+          "items": [
+            {
+              "code": "BSBCMM411",
+              "title": "Make presentations",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": false
+            },
+            {
+              "code": "BSBLDR411",
+              "title": "Demonstrate leadership in the workplace",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": false
+            },
+            {
+              "code": "BSBPMG420",
+              "title": "Apply project scope management techniques",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": false
+            },
+            {
+              "code": "BSBSTR401",
+              "title": "Promote innovation in team environments",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": false
+            },
+            {
+              "code": "BSBSTR402",
+              "title": "Implement continuous improvement",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": false
+            },
+            {
+              "code": "BSBSUS411",
+              "title": "Implement and monitor environmentally sustainable work practices",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": false
+            },
+            {
+              "code": "PUACOM008",
+              "title": "Develop and organise public safety awareness programs",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": false
+            },
+            {
+              "code": "PUAWHS003",
+              "title": "Implement and monitor organisational work, health and safety policies, procedures and programs",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": false
+            },
+            {
+              "code": "RIIWHS403D",
+              "title": "Apply the mine work health and safety management plan",
+              "item_id": "elective_unit_GroupB-9",
+              "asterisk": false
+            },
+            {
+              "code": "TAEASS301",
+              "title": "Contribute to assessment",
+              "item_id": "elective_unit_GroupB-10",
+              "asterisk": false
+            },
+            {
+              "code": "TAEDEL301",
+              "title": "Provide work skill instruction",
+              "item_id": "elective_unit_GroupB-11",
+              "asterisk": false
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "core_units_required": 5,
+      "elective_units_required": 5,
+      "prerequisite_requirements": []
+    }
+  }
