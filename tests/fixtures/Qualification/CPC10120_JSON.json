@@ -1,0 +1,877 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "CPC\\CPC10120_R5.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 5",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 6.5.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Prerequisite asterisk * added to unit CPCCVE1011 Undertake a basic construction project.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 4",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 6.3.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Minor formatting correction.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 3",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 6.2.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Change of unit title BSBSUS211 Participate in environmentally sustainable work practices in Elective units to BSBSUS211 Participate in sustainable work practices.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 5.1.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Unit list typographical error corrected in code CPCCWHS2001.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 5.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Supersedes and is equivalent to CPC10111 Certificate I in Construction. Updated to meet the Standards for Training Packages 2012.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-5_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "There are no entry requirements for this qualification.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "To achieve this qualification, the candidate must demonstrate competency in 11 units of competency:",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "8 core units",
+            "type": "bullet",
+            "order": 2,
+            "indent": 0,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "3 elective units.",
+            "type": "bullet",
+            "order": 3,
+            "indent": 0,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "The elective units are to be chosen as follows:",
+            "type": "paragraph",
+            "order": 4,
+            "indent": null,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "up to 3 units from the elective units below",
+            "type": "bullet",
+            "order": 5,
+            "indent": 0,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-4"
+          },
+          {
+            "text": "one unit from Certificate I or II qualifications in the CPC Training Package or another current Training Package or accredited course, provided the integrity of the AQF alignment is ensured, and it contributes to a valid, industry-supported vocational outcome.",
+            "type": "bullet",
+            "order": 6,
+            "indent": 0,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-4"
+          },
+          {
+            "text": "Prerequisite units of competency",
+            "type": "paragraph",
+            "order": 7,
+            "indent": null,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisiterequirements. All prerequisite requirements are packaged in the qualification.",
+            "type": "paragraph",
+            "order": 8,
+            "indent": null,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM1011",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Undertake basic estimation and costing",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2004*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Handle construction materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2005*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Use construction tools and equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1012",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work effectively and sustainably in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1013",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Plan and organise work",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCVE1011*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Undertake a basic construction project",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCWHS1001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare to work safely in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCWHS2001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply WHS requirements, policies and procedures in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Elective units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBSUS211",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Participate in sustainable work practices",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2006",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply basic levelling procedures",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1014",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct workplace communication",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1015",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out measurements and calculations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1017",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare simple construction sketches",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM2001*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Read and interpret plans and specifications",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCVE1002",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Undertake a basic computer design project",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 9,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to CPC10111 Certificate I in Construction.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "The Companion Volume Implementation Guide for the CPC Construction, Plumbing and Services Training Package is available at - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=7e15fa6a-68b8-4097-b099-030a5569b1ad",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "CPCCCM1011",
+          "title": "Undertake basic estimation and costing",
+          "item_id": "core_unit-1",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCCM2004",
+          "title": "Handle construction materials",
+          "item_id": "core_unit-2",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCCM2005",
+          "title": "Use construction tools and equipment",
+          "item_id": "core_unit-3",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCOM1012",
+          "title": "Work effectively and sustainably in the construction industry",
+          "item_id": "core_unit-4",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1013",
+          "title": "Plan and organise work",
+          "item_id": "core_unit-5",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCVE1011",
+          "title": "Undertake a basic construction project",
+          "item_id": "core_unit-6",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCWHS1001",
+          "title": "Prepare to work safely in the construction industry",
+          "item_id": "core_unit-7",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCWHS2001",
+          "title": "Apply WHS requirements, policies and procedures in the construction industry",
+          "item_id": "core_unit-8",
+          "asterisk": false
+        }
+      ],
+      "total_units": 11,
+      "elective_rules": [
+        {
+          "text": "To achieve this qualification, the candidate must demonstrate competency in 11 units of competency:",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units",
+          "type": "bullet",
+          "order": 2,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "3 elective units.",
+          "type": "bullet",
+          "order": 3,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "The elective units are to be chosen as follows:",
+          "type": "paragraph",
+          "order": 4,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "up to 3 units from the elective units below",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-4"
+        },
+        {
+          "text": "one unit from Certificate I or II qualifications in the CPC Training Package or another current Training Package or accredited course, provided the integrity of the AQF alignment is ensured, and it contributes to a valid, industry-supported vocational outcome.",
+          "type": "bullet",
+          "order": 6,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-4"
+        },
+        {
+          "text": "Prerequisite units of competency",
+          "type": "paragraph-bold",
+          "order": 7,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisiterequirements. All prerequisite requirements are packaged in the qualification.",
+          "type": "paragraph",
+          "order": 8,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "code": "BSBSUS211",
+          "title": "Participate in sustainable work practices",
+          "item_id": "elective_unit_Elective-1",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCCM2006",
+          "title": "Apply basic levelling procedures",
+          "item_id": "elective_unit_Elective-2",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1014",
+          "title": "Conduct workplace communication",
+          "item_id": "elective_unit_Elective-3",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1015",
+          "title": "Carry out measurements and calculations",
+          "item_id": "elective_unit_Elective-4",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1017",
+          "title": "Prepare simple construction sketches",
+          "item_id": "elective_unit_Elective-5",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM2001",
+          "title": "Read and interpret plans and specifications",
+          "item_id": "elective_unit_Elective-6",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCVE1002",
+          "title": "Undertake a basic computer design project",
+          "item_id": "elective_unit_Elective-7",
+          "asterisk": false
+        }
+      ],
+      "core_units_required": 8,
+      "elective_units_required": 3,
+      "prerequisite_requirements": []
+    }
+  }

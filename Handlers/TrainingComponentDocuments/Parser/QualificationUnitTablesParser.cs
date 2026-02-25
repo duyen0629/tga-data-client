@@ -83,37 +83,16 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     }
                 }
 
-                string itemIdPrefix;
-                if (currentElectiveGroup != null)
-                {
-                    itemIdPrefix = $"elective_unit_{currentElectiveGroup}";
-                }
-                else if (!foundCoreTable)
-                {
-                    itemIdPrefix = "core_unit";
-                }
-                else
-                {
-                    itemIdPrefix = "elective_unit_Elective";
-                }
+                // Table may contain both "Core units" and "Elective units" sections (split by section header rows)
+                var (tableCoreUnits, tableElectiveUnits) = ParseTableWithCoreAndElectiveSections(table, ns, unitCodePattern);
 
-                var tableUnitEntries = ParseUnitRowsFromTable(table, ns, unitCodePattern, itemIdPrefix);
-
-                if (currentElectiveGroup != null && tableUnitEntries.Count > 0)
+                if (tableCoreUnits.Count > 0)
                 {
-                    if (!electiveGroupsMap.ContainsKey(currentElectiveGroup))
-                    {
-                        electiveGroupsOrdered.Add((currentElectiveGroup, currentElectiveGroupTitle ?? string.Empty, new List<Dictionary<string, object>>()));
-                        electiveGroupsMap[currentElectiveGroup] = electiveGroupsOrdered.Count - 1;
-                    }
-                    electiveGroupsOrdered[electiveGroupsMap[currentElectiveGroup]].items.AddRange(tableUnitEntries);
-                }
-                else if (tableUnitEntries.Count > 0 && !foundCoreTable)
-                {
-                    coreUnits.AddRange(tableUnitEntries);
+                    coreUnits.AddRange(tableCoreUnits);
                     foundCoreTable = true;
                 }
-                else if (tableUnitEntries.Count > 0 && foundCoreTable)
+
+                if (tableElectiveUnits.Count > 0)
                 {
                     const string electiveKey = "Elective";
                     if (!electiveGroupsMap.ContainsKey(electiveKey))
@@ -121,7 +100,52 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         electiveGroupsOrdered.Add((electiveKey, string.Empty, new List<Dictionary<string, object>>()));
                         electiveGroupsMap[electiveKey] = electiveGroupsOrdered.Count - 1;
                     }
-                    electiveGroupsOrdered[electiveGroupsMap[electiveKey]].items.AddRange(tableUnitEntries);
+                    electiveGroupsOrdered[electiveGroupsMap[electiveKey]].items.AddRange(tableElectiveUnits);
+                }
+
+                // If table has no internal sections, use legacy logic (single section per table)
+                if (tableCoreUnits.Count == 0 && tableElectiveUnits.Count == 0)
+                {
+                    string itemIdPrefix;
+                    if (currentElectiveGroup != null)
+                    {
+                        itemIdPrefix = $"elective_unit_{currentElectiveGroup}";
+                    }
+                    else if (!foundCoreTable)
+                    {
+                        itemIdPrefix = "core_unit";
+                    }
+                    else
+                    {
+                        itemIdPrefix = "elective_unit_Elective";
+                    }
+
+                    var tableUnitEntries = ParseUnitRowsFromTable(table, ns, unitCodePattern, itemIdPrefix);
+
+                    if (currentElectiveGroup != null && tableUnitEntries.Count > 0)
+                    {
+                        if (!electiveGroupsMap.ContainsKey(currentElectiveGroup))
+                        {
+                            electiveGroupsOrdered.Add((currentElectiveGroup, currentElectiveGroupTitle ?? string.Empty, new List<Dictionary<string, object>>()));
+                            electiveGroupsMap[currentElectiveGroup] = electiveGroupsOrdered.Count - 1;
+                        }
+                        electiveGroupsOrdered[electiveGroupsMap[currentElectiveGroup]].items.AddRange(tableUnitEntries);
+                    }
+                    else if (tableUnitEntries.Count > 0 && !foundCoreTable)
+                    {
+                        coreUnits.AddRange(tableUnitEntries);
+                        foundCoreTable = true;
+                    }
+                    else if (tableUnitEntries.Count > 0 && foundCoreTable)
+                    {
+                        const string electiveKey = "Elective";
+                        if (!electiveGroupsMap.ContainsKey(electiveKey))
+                        {
+                            electiveGroupsOrdered.Add((electiveKey, string.Empty, new List<Dictionary<string, object>>()));
+                            electiveGroupsMap[electiveKey] = electiveGroupsOrdered.Count - 1;
+                        }
+                        electiveGroupsOrdered[electiveGroupsMap[electiveKey]].items.AddRange(tableUnitEntries);
+                    }
                 }
             }
 
@@ -149,6 +173,116 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             }
 
             return (coreUnits, electiveResult, foundCoreTable);
+        }
+
+        /// <summary>
+        /// Parses a table that contains both "Core units" and "Elective units" sections (section headers as rows).
+        /// Returns (coreUnits, electiveUnits). Empty if table has no such section headers.
+        /// </summary>
+        private static (List<Dictionary<string, object>> coreUnits, List<Dictionary<string, object>> electiveUnits) ParseTableWithCoreAndElectiveSections(
+            XElement table,
+            XNamespace ns,
+            string unitCodePattern)
+        {
+            var coreUnits = new List<Dictionary<string, object>>();
+            var electiveUnits = new List<Dictionary<string, object>>();
+            var rows = table.Elements(ns + "tr").ToList();
+            string currentSection = null;
+            var coreOrder = 1;
+            var electiveOrder = 1;
+
+            for (var i = 0; i < rows.Count; i++)
+            {
+                var row = rows[i];
+                var tds = row.Elements(ns + "td").ToList();
+                var rowText = string.Concat(tds.Select(td => CommonParser.ExtractInlineText(td))).Trim();
+
+                if (string.IsNullOrWhiteSpace(rowText))
+                {
+                    continue;
+                }
+
+                // Check for section header: "Core units" or "Elective units" (often in single cell with colspan)
+                if (string.Equals(rowText, "Core units", StringComparison.OrdinalIgnoreCase))
+                {
+                    currentSection = "core";
+                    continue;
+                }
+                if (string.Equals(rowText, "Elective units", StringComparison.OrdinalIgnoreCase))
+                {
+                    currentSection = "elective";
+                    continue;
+                }
+
+                // Parse as unit row
+                if (tds.Count < 2)
+                {
+                    var singleText = tds.Count == 1 ? CommonParser.ExtractInlineText(tds[0]).Trim() : null;
+                    var codeMatch = singleText != null ? Regex.Match(singleText, unitCodePattern) : Match.Empty;
+                    if (codeMatch.Success && currentSection != null)
+                    {
+                        var code = codeMatch.Groups[1].Value;
+                        var rawTitle = singleText.Substring(codeMatch.Index + codeMatch.Length).Trim().TrimStart('-', ':', ' ');
+                        var (title, asterisk) = NormalizeTitleAndAsterisk(rawTitle ?? string.Empty);
+                        var entry = new Dictionary<string, object> { { "code", code }, { "title", title }, { "asterisk", asterisk } };
+                        if (currentSection == "core")
+                        {
+                            entry["item_id"] = $"core_unit-{coreOrder++}";
+                            coreUnits.Add(entry);
+                        }
+                        else
+                        {
+                            entry["item_id"] = $"elective_unit_Elective-{electiveOrder++}";
+                            electiveUnits.Add(entry);
+                        }
+                    }
+                    continue;
+                }
+
+                var cellTexts = tds.Select(td => CommonParser.ExtractInlineText(td)).Select(t => (t ?? string.Empty).Trim()).ToList();
+                string unitCode = null;
+                string unitTitle = null;
+
+                for (var c = 0; c < cellTexts.Count; c++)
+                {
+                    var cell = cellTexts[c];
+                    var match = Regex.Match(cell, unitCodePattern);
+                    if (match.Success)
+                    {
+                        unitCode = match.Groups[1].Value;
+                        unitTitle = cell.Length > match.Index + match.Length
+                            ? cell.Substring(match.Index + match.Length).Trim().TrimStart('-', ':', ' ')
+                            : (c + 1 < cellTexts.Count ? cellTexts[c + 1] : null) ?? string.Empty;
+                        if (string.IsNullOrWhiteSpace(unitTitle) && c + 1 < cellTexts.Count)
+                        {
+                            unitTitle = cellTexts[c + 1];
+                        }
+                        break;
+                    }
+                }
+
+                if (unitCode != null && currentSection != null)
+                {
+                    var (title, asterisk) = NormalizeTitleAndAsterisk(unitTitle ?? string.Empty);
+                    if (string.IsNullOrWhiteSpace(title) && cellTexts.Count > 1)
+                    {
+                        title = (cellTexts[1] ?? string.Empty).Trim();
+                    }
+                    var entry = new Dictionary<string, object> { { "code", unitCode }, { "title", title }, { "asterisk", asterisk } };
+                    if (currentSection == "core")
+                    {
+                        entry["item_id"] = $"core_unit-{coreOrder++}";
+                        coreUnits.Add(entry);
+                    }
+                    else
+                    {
+                        entry["item_id"] = $"elective_unit_Elective-{electiveOrder++}";
+                        electiveUnits.Add(entry);
+                    }
+                }
+            }
+
+            return (coreUnits, electiveUnits);
         }
 
         private static (string title, bool asterisk) NormalizeTitleAndAsterisk(string title)
