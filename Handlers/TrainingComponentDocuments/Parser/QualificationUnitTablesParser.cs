@@ -9,32 +9,15 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
     // Parses core and elective unit tables from qualification packaging rules.
     internal static class QualificationUnitTablesParser
     {
-        internal static bool IsPrerequisiteRequirementsTable(XElement table, XNamespace ns)
-        {
-            var rows = table.Elements(ns + "tr").ToList();
-            if (rows.Count == 0)
-            {
-                return false;
-            }
-            var firstRowCells = rows[0].Elements(ns + "td").Concat(rows[0].Elements(ns + "th")).ToList();
-            if (firstRowCells.Count < 2)
-            {
-                return false;
-            }
-            var c0 = CommonParser.ExtractInlineText(firstRowCells[0]).Trim();
-            var c1 = CommonParser.ExtractInlineText(firstRowCells[1]).Trim();
-            return c0.IndexOf("Unit of competency", StringComparison.OrdinalIgnoreCase) >= 0
-                   && c1.IndexOf("Prerequisite requirement", StringComparison.OrdinalIgnoreCase) >= 0;
-        }
-
         internal static (List<Dictionary<string, object>> coreUnits,
-            Dictionary<string, List<Dictionary<string, object>>> electiveGroups,
+            List<object> electiveUnits,
             bool foundCoreTable) ParseCoreAndElectiveUnitsFromTables(
             List<XElement> children,
             XNamespace ns,
             string unitCodePattern)
         {
-            var electiveGroups = new Dictionary<string, List<Dictionary<string, object>>>(StringComparer.OrdinalIgnoreCase);
+            var electiveGroupsOrdered = new List<(string key, string title, List<Dictionary<string, object>> items)>();
+            var electiveGroupsMap = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             var coreUnits = new List<Dictionary<string, object>>();
             var foundCoreTable = false;
 
@@ -53,12 +36,13 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     continue;
                 }
 
-                if (IsPrerequisiteRequirementsTable(table, ns))
+                if (QualificationPrerequisiteRequirementParser.IsPrerequisiteRequirementsTable(table, ns))
                 {
                     continue;
                 }
 
                 string currentElectiveGroup = null;
+                string currentElectiveGroupTitle = null;
                 for (var j = i - 1; j >= 0 && j >= i - 5; j--)
                 {
                     if (children[j].Name == ns + "table")
@@ -70,23 +54,32 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         continue;
                     }
                     var prevText = (CommonParser.ExtractInlineText(children[j]) ?? string.Empty).Trim();
-                    if (prevText.Length > 25)
+                    // Try "Group X: Title" first (any length)
+                    var groupWithTitleMatch = Regex.Match(prevText, @"^Group\s+([A-Za-z0-9]+)\s*:\s*(.+)$", RegexOptions.IgnoreCase);
+                    if (groupWithTitleMatch.Success)
                     {
-                        continue;
-                    }
-                    var groupMatch = Regex.Match(prevText, @"^Group\s+([A-Za-z0-9]+)\s*$", RegexOptions.IgnoreCase);
-                    if (groupMatch.Success)
-                    {
-                        if (j < i - 1)
-                        {
-                            var betweenText = (CommonParser.ExtractInlineText(children[i - 1]) ?? string.Empty).Trim();
-                            if (betweenText.Length <= 25)
-                            {
-                                continue;
-                            }
-                        }
-                        currentElectiveGroup = "Group" + groupMatch.Groups[1].Value.Trim();
+                        currentElectiveGroup = "Group" + groupWithTitleMatch.Groups[1].Value.Trim();
+                        currentElectiveGroupTitle = groupWithTitleMatch.Groups[2].Value.Trim();
                         break;
+                    }
+                    // Try "Group X" (short text only, to avoid false matches)
+                    if (prevText.Length <= 25)
+                    {
+                        var groupMatch = Regex.Match(prevText, @"^Group\s+([A-Za-z0-9]+)\s*$", RegexOptions.IgnoreCase);
+                        if (groupMatch.Success)
+                        {
+                            if (j < i - 1)
+                            {
+                                var betweenText = (CommonParser.ExtractInlineText(children[i - 1]) ?? string.Empty).Trim();
+                                if (betweenText.Length <= 25)
+                                {
+                                    continue;
+                                }
+                            }
+                            currentElectiveGroup = "Group" + groupMatch.Groups[1].Value.Trim();
+                            currentElectiveGroupTitle = string.Empty;
+                            break;
+                        }
                     }
                 }
 
@@ -108,11 +101,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
                 if (currentElectiveGroup != null && tableUnitEntries.Count > 0)
                 {
-                    if (!electiveGroups.ContainsKey(currentElectiveGroup))
+                    if (!electiveGroupsMap.ContainsKey(currentElectiveGroup))
                     {
-                        electiveGroups[currentElectiveGroup] = new List<Dictionary<string, object>>();
+                        electiveGroupsOrdered.Add((currentElectiveGroup, currentElectiveGroupTitle ?? string.Empty, new List<Dictionary<string, object>>()));
+                        electiveGroupsMap[currentElectiveGroup] = electiveGroupsOrdered.Count - 1;
                     }
-                    electiveGroups[currentElectiveGroup].AddRange(tableUnitEntries);
+                    electiveGroupsOrdered[electiveGroupsMap[currentElectiveGroup]].items.AddRange(tableUnitEntries);
                 }
                 else if (tableUnitEntries.Count > 0 && !foundCoreTable)
                 {
@@ -121,15 +115,40 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 }
                 else if (tableUnitEntries.Count > 0 && foundCoreTable)
                 {
-                    if (!electiveGroups.ContainsKey("Elective"))
+                    const string electiveKey = "Elective";
+                    if (!electiveGroupsMap.ContainsKey(electiveKey))
                     {
-                        electiveGroups["Elective"] = new List<Dictionary<string, object>>();
+                        electiveGroupsOrdered.Add((electiveKey, string.Empty, new List<Dictionary<string, object>>()));
+                        electiveGroupsMap[electiveKey] = electiveGroupsOrdered.Count - 1;
                     }
-                    electiveGroups["Elective"].AddRange(tableUnitEntries);
+                    electiveGroupsOrdered[electiveGroupsMap[electiveKey]].items.AddRange(tableUnitEntries);
                 }
             }
 
-            return (coreUnits, electiveGroups, foundCoreTable);
+            var electiveResult = new List<object>();
+            var namedGroups = electiveGroupsOrdered.Where(g => g.key != "Elective").ToList();
+            if (namedGroups.Count > 0)
+            {
+                foreach (var g in electiveGroupsOrdered)
+                {
+                    if (g.items.Count > 0)
+                    {
+                        electiveResult.Add(new Dictionary<string, object>
+                        {
+                            { "key", g.key },
+                            { "title", g.title },
+                            { "items", g.items }
+                        });
+                    }
+                }
+            }
+            else if (electiveGroupsOrdered.Count > 0)
+            {
+                var allUnits = electiveGroupsOrdered.SelectMany(g => g.items).ToList();
+                electiveResult.AddRange(allUnits.Cast<object>());
+            }
+
+            return (coreUnits, electiveResult, foundCoreTable);
         }
 
         private static (string title, bool asterisk) NormalizeTitleAndAsterisk(string title)

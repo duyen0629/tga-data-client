@@ -19,6 +19,24 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Type
         public List<List<SectionItem>> cells { get; set; }
     }
 
+    internal sealed class TextPart
+    {
+        public string text { get; set; }
+        public bool bold { get; set; }
+    }
+
+    internal sealed class ElectiveRuleItem
+    {
+        public string item_id { get; set; }
+        public string text { get; set; }
+        public string type { get; set; }
+        public int order { get; set; }
+        public int? indent { get; set; }
+        public string parent_bullet_item_id { get; set; }
+        /// <summary>Inline content with bold parts when text has mixed formatting (e.g. "27 elective units" bold, ", of which:" not).</summary>
+        public List<TextPart> content { get; set; }
+    }
+
     internal sealed class SectionItem
     {
         public string item_id { get; set; }

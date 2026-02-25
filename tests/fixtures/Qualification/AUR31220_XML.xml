@@ -1,0 +1,4094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="AuthorIT.xslt"?>
+<AuthorIT version="21.1.1.30063"
+	xmlns="http://www.authorit.com/xml/authorit"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.authorit.com/xml/authorit AuthorIT.xsd">
+	<Objects>
+		<Book>
+			<Object>
+				<BasedOn>0</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2012-11-20T12:35:27</CreatedDate>
+				<Description>Streamlined Qualification Template</Description>
+				<FolderID>72391</FolderID>
+				<GUID>6361a0b9f4f94365a83156105dbb616b</GUID>
+				<ID>513637</ID>
+				<IncludeInHelp inherit="true">true</IncludeInHelp>
+				<IncludeInPrint inherit="true">true</IncludeInPrint>
+				<IncludeInWeb inherit="true">true</IncludeInWeb>
+				<IsTemplate>true</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>2090035</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2013-08-23T17:27:39</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Book</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>513637</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<ContentsNodes></ContentsNodes>
+			<Structure>
+				<StructureID>103</StructureID>
+				<Name>Streamlined Qualification Template Structure</Name>
+				<Description></Description>
+				<ExampleObjectID>0</ExampleObjectID>
+				<ReleaseStates></ReleaseStates>
+				<StructureRules>
+					<StructureRule>
+						<StructureRuleID>821</StructureRuleID>
+						<Name>Modification History rule</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>475</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>1</ValidateMin>
+						<ValidateMax>1</ValidateMax>
+						<ValidateSequence>0</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>822</StructureRuleID>
+						<Name>Modification History - Landscape</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>823</StructureRuleID>
+						<Name>Modification History - Portrait</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>824</StructureRuleID>
+						<Name>Qualification Description rule</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513619</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>1</ValidateMin>
+						<ValidateMax>1</ValidateMax>
+						<ValidateSequence>0</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>825</StructureRuleID>
+						<Name>Qualification Description - Landscape</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>826</StructureRuleID>
+						<Name>Qualification Description - Portrait</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>827</StructureRuleID>
+						<Name>Entry Requirements rule</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513621</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>1</ValidateMax>
+						<ValidateSequence>0</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>828</StructureRuleID>
+						<Name>Entry Requirements - Landscape</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>829</StructureRuleID>
+						<Name>Entry Requirements - Portrait</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>830</StructureRuleID>
+						<Name>Packaging Rules Topic rule</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513627</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>1</ValidateMin>
+						<ValidateMax>1</ValidateMax>
+						<ValidateSequence>0</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>831</StructureRuleID>
+						<Name>Packaging Rules - Landscape</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>832</StructureRuleID>
+						<Name>Packaging Rules - Portrait</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>833</StructureRuleID>
+						<Name>Mapping information Topic rule</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513626</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>1</ValidateMin>
+						<ValidateMax>1</ValidateMax>
+						<ValidateSequence>0</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>834</StructureRuleID>
+						<Name>Mapping information - Landscape</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>835</StructureRuleID>
+						<Name>Mapping information - Portrait</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513614</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>0</ValidateMin>
+						<ValidateMax>-1</ValidateMax>
+						<ValidateSequence>1</ValidateSequence>
+					</StructureRule>
+					<StructureRule>
+						<StructureRuleID>836</StructureRuleID>
+						<Name>Links rule</Name>
+						<Description></Description>
+						<AllowedObjects>
+							<Relation>
+								<ID>513625</ID>
+							</Relation>
+						</AllowedObjects>
+						<ExampleObjectID>0</ExampleObjectID>
+						<RuleType>11</RuleType>
+						<ValidateMin>1</ValidateMin>
+						<ValidateMax>1</ValidateMax>
+						<ValidateSequence>0</ValidateSequence>
+					</StructureRule>
+				</StructureRules>
+			</Structure>
+			<VariableAssignments>
+				<VariableAssignment>
+					<ID>56</ID>
+					<Name>AqfAlignment</Name>
+					<Value>Certificate I</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>34</ID>
+					<Name>Code</Name>
+					<Value></Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>27</ID>
+					<Name>Currency</Name>
+					<Value>Current</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>37</ID>
+					<Name>ReleaseName</Name>
+					<Value></Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>42</ID>
+					<Name>ReleaseNumber</Name>
+					<Value></Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>38</ID>
+					<Name>ResponsibleTrainingPackageDeveloper</Name>
+					<Value></Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>25</ID>
+					<Name>StatusComponent</Name>
+					<Value>Unofficial</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>58</ID>
+					<Name>StatusRelease</Name>
+					<Value>draft</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>39</ID>
+					<Name>Title</Name>
+					<Value></Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>53</ID>
+					<Name>TpcmsObjectType</Name>
+					<Value>StreamlineQualification</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>46</ID>
+					<Name>UsageRecommendation</Name>
+					<Value>current</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+			</VariableAssignments>
+			<PrintByLine inherit="true">&lt;ResponsibleTrainingPackageDeveloper&gt;</PrintByLine>
+			<PrintTitle inherit="true">&lt;Code&gt; &lt;Title&gt;</PrintTitle>
+			<PrintSubTitle inherit="true">Review Date: &lt;Rdate&gt;</PrintSubTitle>
+			<PrintSuperTitle inherit="true">&lt;SYS_STATEID&gt;</PrintSuperTitle>
+			<PrintVersion inherit="true">Release: &lt;ReleaseNumber&gt;</PrintVersion>
+			<PrintWordTemplate></PrintWordTemplate>
+			<HelpAltPrefix></HelpAltPrefix>
+			<HelpCitation></HelpCitation>
+			<HelpCompression inherit="true">0</HelpCompression>
+			<HelpCopyright></HelpCopyright>
+			<HelpFileName inherit="true">Streamlined Qualification Template</HelpFileName>
+			<HelpIncludeFile></HelpIncludeFile>
+			<HelpMacro inherit="true">0</HelpMacro>
+			<HelpTitle inherit="true">Streamlined Qualification Template</HelpTitle>
+			<HelpTopicOffset inherit="true">0</HelpTopicOffset>
+			<WebAdditionalFiles />
+			<WebBaseFontSize inherit="true">12</WebBaseFontSize>
+			<WebBaseURL></WebBaseURL>
+			<WebByLine></WebByLine>
+			<WebFramesetTemplate></WebFramesetTemplate>
+			<WebSuperTitle></WebSuperTitle>
+			<WebTitle inherit="true">Streamlined Qualification Template</WebTitle>
+			<WebVersion></WebVersion>
+		</Book>
+		<Media>
+			<Object>
+				<BasedOn>0</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>Paper Size Template</Description>
+				<FolderID>4</FolderID>
+				<GUID>95F19D92906441ED9FB87594A521F8D3</GUID>
+				<ID>33</ID>
+				<IncludeInHelp inherit="true">false</IncludeInHelp>
+				<IncludeInPrint inherit="true">true</IncludeInPrint>
+				<IncludeInWeb inherit="true">true</IncludeInWeb>
+				<IsTemplate>true</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>475050</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2011-06-11T12:05:46</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Media</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>33</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<VariableAssignments></VariableAssignments>
+			<PrintDifferentFirst>(don't inherit)</PrintDifferentFirst>
+			<PrintDifferentOddEven>(don't inherit)</PrintDifferentOddEven>
+			<PrintEvenFooter>(don't inherit)</PrintEvenFooter>
+			<PrintEvenHeader>(don't inherit)</PrintEvenHeader>
+			<PrintFirstFooter>(don't inherit)</PrintFirstFooter>
+			<PrintFirstHeader>(don't inherit)</PrintFirstHeader>
+			<PrintMarginBottom inherit="true">3</PrintMarginBottom>
+			<PrintMarginFooter inherit="true">1.75</PrintMarginFooter>
+			<PrintMarginGutter>0</PrintMarginGutter>
+			<PrintMarginHeader inherit="true">1.75</PrintMarginHeader>
+			<PrintMarginLeft>0</PrintMarginLeft>
+			<PrintMarginRight inherit="true">2.5</PrintMarginRight>
+			<PrintMarginTop inherit="true">3</PrintMarginTop>
+			<PrintMirrorMargins>(don't inherit)</PrintMirrorMargins>
+			<PrintNumColumns>0</PrintNumColumns>
+			<PrintOddFooter>(don't inherit)</PrintOddFooter>
+			<PrintOddHeader>(don't inherit)</PrintOddHeader>
+			<PrintOrientation inherit="true">1</PrintOrientation>
+			<PrintPageNumberFormat>-1</PrintPageNumberFormat>
+			<PrintPageNumberStartFrom inherit="true">1</PrintPageNumberStartFrom>
+			<PrintPageNumberStartType>0</PrintPageNumberStartType>
+			<PrintPaperSize inherit="true">5</PrintPaperSize>
+			<PrintSectionStart>-1</PrintSectionStart>
+			<PrintSizeHeight inherit="true">29.7</PrintSizeHeight>
+			<PrintSizeWidth inherit="true">21</PrintSizeWidth>
+			<HelpAutoSize>(don't inherit)</HelpAutoSize>
+			<HelpBack>(don't inherit)</HelpBack>
+			<HelpBrowse>(don't inherit)</HelpBrowse>
+			<HelpColourHeading>16777215</HelpColourHeading>
+			<HelpColourTopic>16777215</HelpColourTopic>
+			<HelpContents>(don't inherit)</HelpContents>
+			<HelpFind>(don't inherit)</HelpFind>
+			<HelpHeight>0</HelpHeight>
+			<HelpIndex>(don't inherit)</HelpIndex>
+			<HelpKeepOnTop>(don't inherit)</HelpKeepOnTop>
+			<HelpLeft>0</HelpLeft>
+			<HelpMacro>-1</HelpMacro>
+			<HelpMaximise>(don't inherit)</HelpMaximise>
+			<HelpOptions>(don't inherit)</HelpOptions>
+			<HelpPrintTopic>(don't inherit)</HelpPrintTopic>
+			<HelpTitle></HelpTitle>
+			<HelpTop>0</HelpTop>
+			<HelpTopics>(don't inherit)</HelpTopics>
+			<HelpWidth>0</HelpWidth>
+			<HelpWindowName></HelpWindowName>
+			<WebALinkColour inherit="true">3381759</WebALinkColour>
+			<WebAdditionalFiles />
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackImage></WebBackImage>
+			<WebBackImageNonScrolling>(don't inherit)</WebBackImageNonScrolling>
+			<WebBackSound></WebBackSound>
+			<WebBackSoundRepeat>(don't inherit)</WebBackSoundRepeat>
+			<WebMetaData></WebMetaData>
+			<WebLinkColour inherit="true">10040115</WebLinkColour>
+			<WebTemplate></WebTemplate>
+			<WebTextColour inherit="true">0</WebTextColour>
+			<WebTitle></WebTitle>
+			<WebVLinkColour inherit="true">6684825</WebVLinkColour>
+		</Media>
+		<Media>
+			<Object>
+				<BasedOn>33</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>Portrait Section</Description>
+				<FolderID>5</FolderID>
+				<GUID>9CF5D3187E2049AF9F1FF1557B39C8D9</GUID>
+				<ID>44</ID>
+				<IncludeInHelp inherited="true">false</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>2090064</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2013-08-23T17:27:51</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Media</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>44</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<VariableAssignments></VariableAssignments>
+			<PrintDifferentFirst>false</PrintDifferentFirst>
+			<PrintDifferentOddEven>false</PrintDifferentOddEven>
+			<PrintEvenFooter>(none)</PrintEvenFooter>
+			<PrintEvenHeader>HeaderEven</PrintEvenHeader>
+			<PrintFirstFooter>(none)</PrintFirstFooter>
+			<PrintFirstHeader>HeaderFirst</PrintFirstHeader>
+			<PrintMarginBottom inherited="true">3</PrintMarginBottom>
+			<PrintMarginFooter inherited="true">1.75</PrintMarginFooter>
+			<PrintMarginGutter>0</PrintMarginGutter>
+			<PrintMarginHeader inherited="true">1.75</PrintMarginHeader>
+			<PrintMarginLeft>2.5</PrintMarginLeft>
+			<PrintMarginRight inherited="true">2.5</PrintMarginRight>
+			<PrintMarginTop inherited="true">3</PrintMarginTop>
+			<PrintMirrorMargins>false</PrintMirrorMargins>
+			<PrintNumColumns>1</PrintNumColumns>
+			<PrintOddFooter>Footer</PrintOddFooter>
+			<PrintOddHeader>Header</PrintOddHeader>
+			<PrintOrientation inherited="true">1</PrintOrientation>
+			<PrintPageNumberFormat>0</PrintPageNumberFormat>
+			<PrintPageNumberStartFrom inherited="true">1</PrintPageNumberStartFrom>
+			<PrintPageNumberStartType>1</PrintPageNumberStartType>
+			<PrintPaperSize inherited="true">5</PrintPaperSize>
+			<PrintSectionStart>2</PrintSectionStart>
+			<PrintSizeHeight inherited="true">29.7</PrintSizeHeight>
+			<PrintSizeWidth inherited="true">21</PrintSizeWidth>
+			<HelpAutoSize>false</HelpAutoSize>
+			<HelpBack>true</HelpBack>
+			<HelpBrowse>true</HelpBrowse>
+			<HelpColourHeading>16777215</HelpColourHeading>
+			<HelpColourTopic>16777215</HelpColourTopic>
+			<HelpContents>true</HelpContents>
+			<HelpFind>true</HelpFind>
+			<HelpHeight>-1</HelpHeight>
+			<HelpIndex>true</HelpIndex>
+			<HelpKeepOnTop>true</HelpKeepOnTop>
+			<HelpLeft>-1</HelpLeft>
+			<HelpMacro>0</HelpMacro>
+			<HelpMaximise>true</HelpMaximise>
+			<HelpOptions>true</HelpOptions>
+			<HelpPrintTopic>true</HelpPrintTopic>
+			<HelpTitle></HelpTitle>
+			<HelpTop>-1</HelpTop>
+			<HelpTopics>true</HelpTopics>
+			<HelpWidth>-1</HelpWidth>
+			<HelpWindowName>Normal</HelpWindowName>
+			<WebALinkColour inherited="true">3381759</WebALinkColour>
+			<WebAdditionalFiles />
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackImage></WebBackImage>
+			<WebBackImageNonScrolling>false</WebBackImageNonScrolling>
+			<WebBackSound></WebBackSound>
+			<WebBackSoundRepeat>false</WebBackSoundRepeat>
+			<WebMetaData></WebMetaData>
+			<WebLinkColour inherited="true">10040115</WebLinkColour>
+			<WebTemplate></WebTemplate>
+			<WebTextColour inherited="true">0</WebTextColour>
+			<WebTitle></WebTitle>
+			<WebVLinkColour inherited="true">6684825</WebVLinkColour>
+		</Media>
+		<Style>
+			<Object>
+				<BasedOn>84</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>Body Template</Description>
+				<FolderID>4</FolderID>
+				<GUID>E7E18696B25B455182BECC3F678D471E</GUID>
+				<ID>1</ID>
+				<IncludeInHelp>(don't inherit)</IncludeInHelp>
+				<IncludeInPrint>(don't inherit)</IncludeInPrint>
+				<IncludeInWeb>(don't inherit)</IncludeInWeb>
+				<IsTemplate>true</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>475052</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2011-06-11T12:05:47</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>(don't inherit)</BorderBottom>
+			<BorderLeft>(don't inherit)</BorderLeft>
+			<BorderRight>(don't inherit)</BorderRight>
+			<BorderStyle>-1</BorderStyle>
+			<BorderShadow inherit="true">false</BorderShadow>
+			<BorderTop>(don't inherit)</BorderTop>
+			<Bullet>-1</Bullet>
+			<FontBold>(don't inherit)</FontBold>
+			<FontColour inherit="true">0</FontColour>
+			<FontItalics>(don't inherit)</FontItalics>
+			<FontName inherit="true">Tahoma</FontName>
+			<FontSize>0</FontSize>
+			<FontUnderline>-1</FontUnderline>
+			<FontSubscript inherited="true" inherit="true">false</FontSubscript>
+			<FontSuperscript inherited="true" inherit="true">false</FontSuperscript>
+			<Number>-1</Number>
+			<Numbering>0</Numbering>
+			<NumberStart inherited="true" inherit="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment>-1</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherited="true" inherit="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName></StyleName>
+			<StyleType inherited="true" inherit="true">1</StyleType>
+			<TabDefault inherited="true" inherit="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName></PrintStyleName>
+			<HelpBorderBottom>(don't inherit)</HelpBorderBottom>
+			<HelpBorderLeft>(don't inherit)</HelpBorderLeft>
+			<HelpBorderRight>(don't inherit)</HelpBorderRight>
+			<HelpBorderShadow>(don't inherit)</HelpBorderShadow>
+			<HelpBorderStyle>-1</HelpBorderStyle>
+			<HelpBorderTop>(don't inherit)</HelpBorderTop>
+			<HelpBullet>-1</HelpBullet>
+			<HelpFontBold>(don't inherit)</HelpFontBold>
+			<HelpFontColour>16777215</HelpFontColour>
+			<HelpFontItalics>(don't inherit)</HelpFontItalics>
+			<HelpFontName inherit="true">Tahoma</HelpFontName>
+			<HelpFontSize>0</HelpFontSize>
+			<HelpNonWrapping>(don't inherit)</HelpNonWrapping>
+			<HelpNumber>-1</HelpNumber>
+			<HelpNumbering>0</HelpNumbering>
+			<HelpNumberStart inherited="true" inherit="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment>-1</HelpParaAlignment>
+			<HelpParaBefore>0</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true" inherit="true">1</HelpParaLineSpacing>
+			<HelpParaRight>0</HelpParaRight>
+			<HelpTabDefault inherited="true" inherit="true">2.5</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true" inherit="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true" inherit="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true" inherit="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true" inherit="true">(none)</WebBackRepeat>
+			<WebBackURL inherit="true"></WebBackURL>
+			<WebBorderColourBottom>16777215</WebBorderColourBottom>
+			<WebBorderColourLeft>16777215</WebBorderColourLeft>
+			<WebBorderColourRight>16777215</WebBorderColourRight>
+			<WebBorderColourTop>16777215</WebBorderColourTop>
+			<WebBorderStyleBottom>(don't inherit)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(don't inherit)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(don't inherit)</WebBorderStyleRight>
+			<WebBorderStyleTop>(don't inherit)</WebBorderStyleTop>
+			<WebBorderWidthBottom>(don't inherit)</WebBorderWidthBottom>
+			<WebBorderWidthLeft>(don't inherit)</WebBorderWidthLeft>
+			<WebBorderWidthRight>(don't inherit)</WebBorderWidthRight>
+			<WebBorderWidthTop>(don't inherit)</WebBorderWidthTop>
+			<WebBlockTag>(don't inherit)</WebBlockTag>
+			<WebBulletStyle>(don't inherit)</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true" inherit="true">(none)</WebClear>
+			<WebFloat inherited="true" inherit="true">(none)</WebFloat>
+			<WebFontColour>16777215</WebFontColour>
+			<WebFontName inherit="true">Tahoma</WebFontName>
+			<WebFontSize>(don't inherit)</WebFontSize>
+			<WebFontStyle>(don't inherit)</WebFontStyle>
+			<WebFontVariant inherit="true">(normal)</WebFontVariant>
+			<WebFontWeight>(don't inherit)</WebFontWeight>
+			<WebHeight inherited="true" inherit="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true" inherit="true">(normal)</WebLetterSpacing>
+			<WebLineHeight></WebLineHeight>
+			<WebMarginBottom></WebMarginBottom>
+			<WebMarginLeft></WebMarginLeft>
+			<WebMarginRight></WebMarginRight>
+			<WebMarginTop></WebMarginTop>
+			<WebNumbering>0</WebNumbering>
+			<WebNumberStyle>(don't inherit)</WebNumberStyle>
+			<WebPaddingBottom></WebPaddingBottom>
+			<WebPaddingLeft></WebPaddingLeft>
+			<WebPaddingRight></WebPaddingRight>
+			<WebPaddingTop></WebPaddingTop>
+			<WebTextAlign>(don't inherit)</WebTextAlign>
+			<WebTextDecoration inherit="true">(none)</WebTextDecoration>
+			<WebTextIndent></WebTextIndent>
+			<WebTextTag>(don't inherit)</WebTextTag>
+			<WebTextTransform inherit="true">(none)</WebTextTransform>
+			<WebVerticalAlign>(don't inherit)</WebVerticalAlign>
+			<WebWhiteSpace inherited="true" inherit="true">(normal)</WebWhiteSpace>
+			<WebWidth></WebWidth>
+			<WebWordSpacing inherited="true" inherit="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>84</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>Heading Template</Description>
+				<FolderID>4</FolderID>
+				<GUID>9A4BF560A5554BFE9487FB03908B1623</GUID>
+				<ID>2</ID>
+				<IncludeInHelp>(don't inherit)</IncludeInHelp>
+				<IncludeInPrint>(don't inherit)</IncludeInPrint>
+				<IncludeInWeb>(don't inherit)</IncludeInWeb>
+				<IsTemplate>true</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>172</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2009-05-20T12:43:26</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>2</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>(don't inherit)</BorderBottom>
+			<BorderLeft>(don't inherit)</BorderLeft>
+			<BorderRight>(don't inherit)</BorderRight>
+			<BorderStyle>-1</BorderStyle>
+			<BorderShadow inherit="true">false</BorderShadow>
+			<BorderTop>(don't inherit)</BorderTop>
+			<Bullet>-1</Bullet>
+			<FontBold>(don't inherit)</FontBold>
+			<FontColour>16777215</FontColour>
+			<FontItalics>(don't inherit)</FontItalics>
+			<FontName inherit="true">Tahoma</FontName>
+			<FontSize>0</FontSize>
+			<FontUnderline>-1</FontUnderline>
+			<FontSubscript inherited="true" inherit="true">false</FontSubscript>
+			<FontSuperscript inherited="true" inherit="true">false</FontSuperscript>
+			<Number>-1</Number>
+			<Numbering>0</Numbering>
+			<NumberStart inherited="true" inherit="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment>-1</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherited="true" inherit="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName></StyleName>
+			<StyleType inherited="true" inherit="true">1</StyleType>
+			<TabDefault inherited="true" inherit="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName></PrintStyleName>
+			<HelpBorderBottom>(don't inherit)</HelpBorderBottom>
+			<HelpBorderLeft>(don't inherit)</HelpBorderLeft>
+			<HelpBorderRight>(don't inherit)</HelpBorderRight>
+			<HelpBorderShadow>(don't inherit)</HelpBorderShadow>
+			<HelpBorderStyle>-1</HelpBorderStyle>
+			<HelpBorderTop>(don't inherit)</HelpBorderTop>
+			<HelpBullet>-1</HelpBullet>
+			<HelpFontBold>(don't inherit)</HelpFontBold>
+			<HelpFontColour inherit="true">0</HelpFontColour>
+			<HelpFontItalics>(don't inherit)</HelpFontItalics>
+			<HelpFontName inherit="true">Tahoma</HelpFontName>
+			<HelpFontSize>0</HelpFontSize>
+			<HelpNonWrapping>(don't inherit)</HelpNonWrapping>
+			<HelpNumber>-1</HelpNumber>
+			<HelpNumbering>0</HelpNumbering>
+			<HelpNumberStart inherited="true" inherit="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment>-1</HelpParaAlignment>
+			<HelpParaBefore>0</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true" inherit="true">1</HelpParaLineSpacing>
+			<HelpParaRight>0</HelpParaRight>
+			<HelpTabDefault inherited="true" inherit="true">2.5</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true" inherit="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true" inherit="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true" inherit="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true" inherit="true">(none)</WebBackRepeat>
+			<WebBackURL inherit="true"></WebBackURL>
+			<WebBorderColourBottom>16777215</WebBorderColourBottom>
+			<WebBorderColourLeft>16777215</WebBorderColourLeft>
+			<WebBorderColourRight>16777215</WebBorderColourRight>
+			<WebBorderColourTop>16777215</WebBorderColourTop>
+			<WebBorderStyleBottom>(don't inherit)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(don't inherit)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(don't inherit)</WebBorderStyleRight>
+			<WebBorderStyleTop>(don't inherit)</WebBorderStyleTop>
+			<WebBorderWidthBottom>(don't inherit)</WebBorderWidthBottom>
+			<WebBorderWidthLeft>(don't inherit)</WebBorderWidthLeft>
+			<WebBorderWidthRight>(don't inherit)</WebBorderWidthRight>
+			<WebBorderWidthTop>(don't inherit)</WebBorderWidthTop>
+			<WebBlockTag>(don't inherit)</WebBlockTag>
+			<WebBulletStyle>(don't inherit)</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true" inherit="true">(none)</WebClear>
+			<WebFloat inherited="true" inherit="true">(none)</WebFloat>
+			<WebFontColour>16777215</WebFontColour>
+			<WebFontName inherit="true">Verdana</WebFontName>
+			<WebFontSize>(don't inherit)</WebFontSize>
+			<WebFontStyle>(don't inherit)</WebFontStyle>
+			<WebFontVariant inherit="true">(normal)</WebFontVariant>
+			<WebFontWeight>(don't inherit)</WebFontWeight>
+			<WebHeight inherited="true" inherit="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true" inherit="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherit="true">(normal)</WebLineHeight>
+			<WebMarginBottom></WebMarginBottom>
+			<WebMarginLeft></WebMarginLeft>
+			<WebMarginRight></WebMarginRight>
+			<WebMarginTop></WebMarginTop>
+			<WebNumbering>0</WebNumbering>
+			<WebNumberStyle>(don't inherit)</WebNumberStyle>
+			<WebPaddingBottom></WebPaddingBottom>
+			<WebPaddingLeft></WebPaddingLeft>
+			<WebPaddingRight></WebPaddingRight>
+			<WebPaddingTop></WebPaddingTop>
+			<WebTextAlign>(don't inherit)</WebTextAlign>
+			<WebTextDecoration inherit="true">(none)</WebTextDecoration>
+			<WebTextIndent inherit="true">0 cm</WebTextIndent>
+			<WebTextTag inherit="true">(none)</WebTextTag>
+			<WebTextTransform inherit="true">(none)</WebTextTransform>
+			<WebVerticalAlign inherit="true">Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true" inherit="true">(normal)</WebWhiteSpace>
+			<WebWidth inherit="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true" inherit="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>84</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>List Template</Description>
+				<FolderID>4</FolderID>
+				<GUID>B31460772B99445B841BE96613F32B92</GUID>
+				<ID>3</ID>
+				<IncludeInHelp inherit="true">true</IncludeInHelp>
+				<IncludeInPrint inherit="true">true</IncludeInPrint>
+				<IncludeInWeb inherit="true">true</IncludeInWeb>
+				<IsTemplate>true</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>173</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2009-05-20T12:43:30</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>3</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>(don't inherit)</BorderBottom>
+			<BorderLeft>(don't inherit)</BorderLeft>
+			<BorderRight>(don't inherit)</BorderRight>
+			<BorderStyle>-1</BorderStyle>
+			<BorderShadow inherit="true">false</BorderShadow>
+			<BorderTop>(don't inherit)</BorderTop>
+			<Bullet>-1</Bullet>
+			<FontBold>(don't inherit)</FontBold>
+			<FontColour inherit="true">0</FontColour>
+			<FontItalics>(don't inherit)</FontItalics>
+			<FontName inherit="true">Tahoma</FontName>
+			<FontSize>0</FontSize>
+			<FontUnderline inherit="true">0</FontUnderline>
+			<FontSubscript inherited="true" inherit="true">false</FontSubscript>
+			<FontSuperscript inherited="true" inherit="true">false</FontSuperscript>
+			<Number>-1</Number>
+			<Numbering>0</Numbering>
+			<NumberStart inherited="true" inherit="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment inherit="true">0</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherited="true" inherit="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName></StyleName>
+			<StyleType inherited="true" inherit="true">1</StyleType>
+			<TabDefault inherited="true" inherit="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName></PrintStyleName>
+			<HelpBorderBottom>(don't inherit)</HelpBorderBottom>
+			<HelpBorderLeft>(don't inherit)</HelpBorderLeft>
+			<HelpBorderRight>(don't inherit)</HelpBorderRight>
+			<HelpBorderShadow>(don't inherit)</HelpBorderShadow>
+			<HelpBorderStyle>-1</HelpBorderStyle>
+			<HelpBorderTop>(don't inherit)</HelpBorderTop>
+			<HelpBullet>-1</HelpBullet>
+			<HelpFontBold>(don't inherit)</HelpFontBold>
+			<HelpFontColour inherit="true">0</HelpFontColour>
+			<HelpFontItalics>(don't inherit)</HelpFontItalics>
+			<HelpFontName inherit="true">Tahoma</HelpFontName>
+			<HelpFontSize inherit="true">8</HelpFontSize>
+			<HelpNonWrapping>(don't inherit)</HelpNonWrapping>
+			<HelpNumber>-1</HelpNumber>
+			<HelpNumbering>0</HelpNumbering>
+			<HelpNumberStart inherited="true" inherit="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment inherit="true">0</HelpParaAlignment>
+			<HelpParaBefore>0</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true" inherit="true">1</HelpParaLineSpacing>
+			<HelpParaRight inherit="true">0.2</HelpParaRight>
+			<HelpTabDefault inherited="true" inherit="true">2.5</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true" inherit="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true" inherit="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true" inherit="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true" inherit="true">(none)</WebBackRepeat>
+			<WebBackURL inherit="true"></WebBackURL>
+			<WebBorderColourBottom inherit="true">0</WebBorderColourBottom>
+			<WebBorderColourLeft inherit="true">0</WebBorderColourLeft>
+			<WebBorderColourRight inherit="true">0</WebBorderColourRight>
+			<WebBorderColourTop inherit="true">0</WebBorderColourTop>
+			<WebBorderStyleBottom>(don't inherit)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(don't inherit)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(don't inherit)</WebBorderStyleRight>
+			<WebBorderStyleTop>(don't inherit)</WebBorderStyleTop>
+			<WebBorderWidthBottom>(don't inherit)</WebBorderWidthBottom>
+			<WebBorderWidthLeft>(don't inherit)</WebBorderWidthLeft>
+			<WebBorderWidthRight>(don't inherit)</WebBorderWidthRight>
+			<WebBorderWidthTop>(don't inherit)</WebBorderWidthTop>
+			<WebBlockTag>(don't inherit)</WebBlockTag>
+			<WebBulletStyle>(don't inherit)</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true" inherit="true">(none)</WebClear>
+			<WebFloat inherited="true" inherit="true">(none)</WebFloat>
+			<WebFontColour inherit="true">0</WebFontColour>
+			<WebFontName inherit="true">Tahoma</WebFontName>
+			<WebFontSize inherit="true">10 pt</WebFontSize>
+			<WebFontStyle>(don't inherit)</WebFontStyle>
+			<WebFontVariant inherit="true">(normal)</WebFontVariant>
+			<WebFontWeight inherit="true">(normal)</WebFontWeight>
+			<WebHeight inherited="true" inherit="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true" inherit="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherit="true">(normal)</WebLineHeight>
+			<WebMarginBottom></WebMarginBottom>
+			<WebMarginLeft></WebMarginLeft>
+			<WebMarginRight></WebMarginRight>
+			<WebMarginTop></WebMarginTop>
+			<WebNumbering>0</WebNumbering>
+			<WebNumberStyle>(don't inherit)</WebNumberStyle>
+			<WebPaddingBottom></WebPaddingBottom>
+			<WebPaddingLeft></WebPaddingLeft>
+			<WebPaddingRight></WebPaddingRight>
+			<WebPaddingTop></WebPaddingTop>
+			<WebTextAlign inherit="true">Left</WebTextAlign>
+			<WebTextDecoration inherit="true">(none)</WebTextDecoration>
+			<WebTextIndent inherit="true">0 cm</WebTextIndent>
+			<WebTextTag inherit="true">(none)</WebTextTag>
+			<WebTextTransform inherit="true">(none)</WebTextTransform>
+			<WebVerticalAlign inherit="true">Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true" inherit="true">(normal)</WebWhiteSpace>
+			<WebWidth inherit="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true" inherit="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>1</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2019-02-14T10:46:28</CreatedDate>
+				<Description>Body Text</Description>
+				<FolderID>15</FolderID>
+				<GUID>5184F1C710034328BA8F61D4252691E9</GUID>
+				<ID>4</ID>
+				<IncludeInHelp>true</IncludeInHelp>
+				<IncludeInPrint>true</IncludeInPrint>
+				<IncludeInWeb>true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>12402377</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2024-12-19T16:46:25</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>4</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>false</BorderBottom>
+			<BorderLeft>false</BorderLeft>
+			<BorderRight>false</BorderRight>
+			<BorderStyle>0</BorderStyle>
+			<BorderShadow>false</BorderShadow>
+			<BorderTop>false</BorderTop>
+			<Bullet>0</Bullet>
+			<FontBold>false</FontBold>
+			<FontColour inherited="true">0</FontColour>
+			<FontItalics>false</FontItalics>
+			<FontName inherited="true">Tahoma</FontName>
+			<FontSize>10</FontSize>
+			<FontUnderline>0</FontUnderline>
+			<FontSubscript inherited="true">false</FontSubscript>
+			<FontSuperscript inherited="true">false</FontSuperscript>
+			<Number>0</Number>
+			<Numbering>1</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment>0</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherited="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>Body Text</StyleName>
+			<StyleType inherited="true">1</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>Body Text</PrintStyleName>
+			<HelpBorderBottom>false</HelpBorderBottom>
+			<HelpBorderLeft>false</HelpBorderLeft>
+			<HelpBorderRight>false</HelpBorderRight>
+			<HelpBorderShadow>false</HelpBorderShadow>
+			<HelpBorderStyle>0</HelpBorderStyle>
+			<HelpBorderTop>false</HelpBorderTop>
+			<HelpBullet>0</HelpBullet>
+			<HelpFontBold>false</HelpFontBold>
+			<HelpFontColour>0</HelpFontColour>
+			<HelpFontItalics>false</HelpFontItalics>
+			<HelpFontName inherited="true">Tahoma</HelpFontName>
+			<HelpFontSize>8</HelpFontSize>
+			<HelpNonWrapping>false</HelpNonWrapping>
+			<HelpNumber>0</HelpNumber>
+			<HelpNumbering>1</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment>0</HelpParaAlignment>
+			<HelpParaBefore>4</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0.2</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true">1</HelpParaLineSpacing>
+			<HelpParaRight>0.2</HelpParaRight>
+			<HelpTabDefault inherited="true">2.5</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL inherited="true"></WebBackURL>
+			<WebBorderColourBottom>0</WebBorderColourBottom>
+			<WebBorderColourLeft>0</WebBorderColourLeft>
+			<WebBorderColourRight>0</WebBorderColourRight>
+			<WebBorderColourTop>0</WebBorderColourTop>
+			<WebBorderStyleBottom>(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(none)</WebBorderStyleRight>
+			<WebBorderStyleTop>(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom>Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft>Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight>Medium</WebBorderWidthRight>
+			<WebBorderWidthTop>Medium</WebBorderWidthTop>
+			<WebBlockTag>P - Paragraph</WebBlockTag>
+			<WebBulletStyle>Disc</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour>0</WebFontColour>
+			<WebFontName inherited="true">Tahoma</WebFontName>
+			<WebFontSize>10 pt</WebFontSize>
+			<WebFontStyle>(normal)</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight>(normal)</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight>(normal)</WebLineHeight>
+			<WebMarginBottom>6 pt</WebMarginBottom>
+			<WebMarginLeft>0 pt</WebMarginLeft>
+			<WebMarginRight>0 pt</WebMarginRight>
+			<WebMarginTop>6 pt</WebMarginTop>
+			<WebNumbering>1</WebNumbering>
+			<WebNumberStyle>Decimal</WebNumberStyle>
+			<WebPaddingBottom>0 pt</WebPaddingBottom>
+			<WebPaddingLeft>0 pt</WebPaddingLeft>
+			<WebPaddingRight>0 pt</WebPaddingRight>
+			<WebPaddingTop>0 pt</WebPaddingTop>
+			<WebTextAlign>Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent>0 cm</WebTextIndent>
+			<WebTextTag>(none)</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign>Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth>(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>83</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2019-02-14T10:48:15</CreatedDate>
+				<Description>Italic</Description>
+				<FolderID>16</FolderID>
+				<GUID>21FDEC8DAAC84D82821F924C93261D5A</GUID>
+				<ID>7</ID>
+				<IncludeInHelp>true</IncludeInHelp>
+				<IncludeInPrint>true</IncludeInPrint>
+				<IncludeInWeb>true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>7036490</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2019-02-14T10:48:15</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>7</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom inherited="true">false</BorderBottom>
+			<BorderLeft inherited="true">false</BorderLeft>
+			<BorderRight inherited="true">false</BorderRight>
+			<BorderStyle inherited="true">0</BorderStyle>
+			<BorderShadow inherited="true">false</BorderShadow>
+			<BorderTop inherited="true">false</BorderTop>
+			<Bullet>0</Bullet>
+			<FontBold>(don't inherit)</FontBold>
+			<FontColour>16777215</FontColour>
+			<FontItalics>true</FontItalics>
+			<FontName>(don't inherit)</FontName>
+			<FontSize>0</FontSize>
+			<FontUnderline>0</FontUnderline>
+			<FontSubscript>(don't inherit)</FontSubscript>
+			<FontSuperscript>(don't inherit)</FontSuperscript>
+			<Number inherited="true">1</Number>
+			<Numbering inherited="true">1</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment inherited="true">0</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing>0</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>Emphasis</StyleName>
+			<StyleType inherited="true">2</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>Emphasis</PrintStyleName>
+			<HelpBorderBottom inherited="true">false</HelpBorderBottom>
+			<HelpBorderLeft inherited="true">false</HelpBorderLeft>
+			<HelpBorderRight inherited="true">false</HelpBorderRight>
+			<HelpBorderShadow inherited="true">false</HelpBorderShadow>
+			<HelpBorderStyle inherited="true">0</HelpBorderStyle>
+			<HelpBorderTop inherited="true">false</HelpBorderTop>
+			<HelpBullet>0</HelpBullet>
+			<HelpFontBold>(don't inherit)</HelpFontBold>
+			<HelpFontColour>16777215</HelpFontColour>
+			<HelpFontItalics>true</HelpFontItalics>
+			<HelpFontName>(don't inherit)</HelpFontName>
+			<HelpFontSize>0</HelpFontSize>
+			<HelpNonWrapping>(don't inherit)</HelpNonWrapping>
+			<HelpNumber inherited="true">1</HelpNumber>
+			<HelpNumbering inherited="true">1</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment inherited="true">0</HelpParaAlignment>
+			<HelpParaBefore>0</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0</HelpParaLeft>
+			<HelpParaLineSpacing>0</HelpParaLineSpacing>
+			<HelpParaRight>0</HelpParaRight>
+			<HelpTabDefault inherited="true">2</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL></WebBackURL>
+			<WebBorderColourBottom inherited="true">0</WebBorderColourBottom>
+			<WebBorderColourLeft inherited="true">0</WebBorderColourLeft>
+			<WebBorderColourRight inherited="true">0</WebBorderColourRight>
+			<WebBorderColourTop inherited="true">0</WebBorderColourTop>
+			<WebBorderStyleBottom inherited="true">(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft inherited="true">(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight inherited="true">(none)</WebBorderStyleRight>
+			<WebBorderStyleTop inherited="true">(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom inherited="true">Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft inherited="true">Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight inherited="true">Medium</WebBorderWidthRight>
+			<WebBorderWidthTop inherited="true">Medium</WebBorderWidthTop>
+			<WebBlockTag inherited="true">P - Paragraph</WebBlockTag>
+			<WebBulletStyle inherited="true">Disc</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour>0</WebFontColour>
+			<WebFontName>(don't inherit)</WebFontName>
+			<WebFontSize>(don't inherit)</WebFontSize>
+			<WebFontStyle>Italic</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight>(don't inherit)</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherited="true">(normal)</WebLineHeight>
+			<WebMarginBottom inherited="true">(auto)</WebMarginBottom>
+			<WebMarginLeft inherited="true">(auto)</WebMarginLeft>
+			<WebMarginRight inherited="true">(auto)</WebMarginRight>
+			<WebMarginTop inherited="true">(auto)</WebMarginTop>
+			<WebNumbering inherited="true">1</WebNumbering>
+			<WebNumberStyle inherited="true">Decimal</WebNumberStyle>
+			<WebPaddingBottom inherited="true">0 pt</WebPaddingBottom>
+			<WebPaddingLeft inherited="true">0 pt</WebPaddingLeft>
+			<WebPaddingRight inherited="true">0 pt</WebPaddingRight>
+			<WebPaddingTop inherited="true">0 pt</WebPaddingTop>
+			<WebTextAlign inherited="true">Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent inherited="true">0 cm</WebTextIndent>
+			<WebTextTag>EM  - Emphasized text</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign>Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth inherited="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>2</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>Heading 3</Description>
+				<FolderID>17</FolderID>
+				<GUID>7B6A681E7D08496CA99144786D09DAC6</GUID>
+				<ID>10</ID>
+				<IncludeInHelp>true</IncludeInHelp>
+				<IncludeInPrint>true</IncludeInPrint>
+				<IncludeInWeb>true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>88</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2007-09-16T12:45:35</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>10</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>false</BorderBottom>
+			<BorderLeft>false</BorderLeft>
+			<BorderRight>false</BorderRight>
+			<BorderStyle>0</BorderStyle>
+			<BorderShadow>false</BorderShadow>
+			<BorderTop>false</BorderTop>
+			<Bullet>0</Bullet>
+			<FontBold>true</FontBold>
+			<FontColour>0</FontColour>
+			<FontItalics>false</FontItalics>
+			<FontName inherited="true">Tahoma</FontName>
+			<FontSize>12</FontSize>
+			<FontUnderline>0</FontUnderline>
+			<FontSubscript inherited="true">false</FontSubscript>
+			<FontSuperscript inherited="true">false</FontSuperscript>
+			<Number>1</Number>
+			<Numbering>1</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>3</ParaAfter>
+			<ParaAlignment>0</ParaAlignment>
+			<ParaBefore>6</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherited="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>Heading 3</StyleName>
+			<StyleType inherited="true">1</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>Heading 3</PrintStyleName>
+			<HelpBorderBottom>true</HelpBorderBottom>
+			<HelpBorderLeft>true</HelpBorderLeft>
+			<HelpBorderRight>true</HelpBorderRight>
+			<HelpBorderShadow>false</HelpBorderShadow>
+			<HelpBorderStyle>0</HelpBorderStyle>
+			<HelpBorderTop>true</HelpBorderTop>
+			<HelpBullet>0</HelpBullet>
+			<HelpFontBold>false</HelpFontBold>
+			<HelpFontColour inherited="true">0</HelpFontColour>
+			<HelpFontItalics>false</HelpFontItalics>
+			<HelpFontName inherited="true">Tahoma</HelpFontName>
+			<HelpFontSize>1</HelpFontSize>
+			<HelpNonWrapping>false</HelpNonWrapping>
+			<HelpNumber>1</HelpNumber>
+			<HelpNumbering>1</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>1</HelpParaAfter>
+			<HelpParaAlignment>0</HelpParaAlignment>
+			<HelpParaBefore>1</HelpParaBefore>
+			<HelpParaFirstLine>1</HelpParaFirstLine>
+			<HelpParaLeft>1</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true">1</HelpParaLineSpacing>
+			<HelpParaRight>1</HelpParaRight>
+			<HelpTabDefault inherited="true">2.5</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL inherited="true"></WebBackURL>
+			<WebBorderColourBottom>16777215</WebBorderColourBottom>
+			<WebBorderColourLeft>16777215</WebBorderColourLeft>
+			<WebBorderColourRight>16777215</WebBorderColourRight>
+			<WebBorderColourTop>16777215</WebBorderColourTop>
+			<WebBorderStyleBottom>(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(none)</WebBorderStyleRight>
+			<WebBorderStyleTop>(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom>Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft>Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight>Medium</WebBorderWidthRight>
+			<WebBorderWidthTop>Medium</WebBorderWidthTop>
+			<WebBlockTag>H3 - Heading Level 3</WebBlockTag>
+			<WebBulletStyle>Disc</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour>10040115</WebFontColour>
+			<WebFontName inherited="true">Verdana</WebFontName>
+			<WebFontSize>13 px</WebFontSize>
+			<WebFontStyle>(normal)</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight>Bold</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherited="true">(normal)</WebLineHeight>
+			<WebMarginBottom>0 em</WebMarginBottom>
+			<WebMarginLeft>0 %</WebMarginLeft>
+			<WebMarginRight>0 %</WebMarginRight>
+			<WebMarginTop>1 em</WebMarginTop>
+			<WebNumbering>1</WebNumbering>
+			<WebNumberStyle>Decimal</WebNumberStyle>
+			<WebPaddingBottom>1 px</WebPaddingBottom>
+			<WebPaddingLeft>0 pt</WebPaddingLeft>
+			<WebPaddingRight>0 pt</WebPaddingRight>
+			<WebPaddingTop>0 pt</WebPaddingTop>
+			<WebTextAlign>Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent inherited="true">0 cm</WebTextIndent>
+			<WebTextTag inherited="true">(none)</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign inherited="true">Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth inherited="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>3</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>List Bullet</Description>
+				<FolderID>18</FolderID>
+				<GUID>0E71C00904BB42839FD79AC6638BD02F</GUID>
+				<ID>13</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>12402378</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2024-12-19T16:47:05</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>13</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>false</BorderBottom>
+			<BorderLeft>false</BorderLeft>
+			<BorderRight>false</BorderRight>
+			<BorderStyle>0</BorderStyle>
+			<BorderShadow>false</BorderShadow>
+			<BorderTop>false</BorderTop>
+			<Bullet>2</Bullet>
+			<FontBold>false</FontBold>
+			<FontColour inherited="true">0</FontColour>
+			<FontItalics>false</FontItalics>
+			<FontName inherited="true">Tahoma</FontName>
+			<FontSize>10</FontSize>
+			<FontUnderline inherited="true">0</FontUnderline>
+			<FontSubscript inherited="true">false</FontSubscript>
+			<FontSuperscript inherited="true">false</FontSuperscript>
+			<Number>0</Number>
+			<Numbering>3</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>1</OutlineLevel>
+			<ParaAfter>6</ParaAfter>
+			<ParaAlignment inherited="true">0</ParaAlignment>
+			<ParaBefore>6</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherited="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>List Bullet</StyleName>
+			<StyleType inherited="true">1</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs>
+				<Tab>
+					<Alignment>0</Alignment>
+					<Position>0.6</Position>
+				</Tab>
+			</Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>List Bullet</PrintStyleName>
+			<HelpBorderBottom>false</HelpBorderBottom>
+			<HelpBorderLeft>false</HelpBorderLeft>
+			<HelpBorderRight>false</HelpBorderRight>
+			<HelpBorderShadow>false</HelpBorderShadow>
+			<HelpBorderStyle>0</HelpBorderStyle>
+			<HelpBorderTop>false</HelpBorderTop>
+			<HelpBullet>0</HelpBullet>
+			<HelpFontBold>false</HelpFontBold>
+			<HelpFontColour inherited="true">0</HelpFontColour>
+			<HelpFontItalics>false</HelpFontItalics>
+			<HelpFontName inherited="true">Tahoma</HelpFontName>
+			<HelpFontSize inherited="true">8</HelpFontSize>
+			<HelpNonWrapping>false</HelpNonWrapping>
+			<HelpNumber>0</HelpNumber>
+			<HelpNumbering>3</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment inherited="true">0</HelpParaAlignment>
+			<HelpParaBefore>4</HelpParaBefore>
+			<HelpParaFirstLine>-0.5</HelpParaFirstLine>
+			<HelpParaLeft>0.7</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true">1</HelpParaLineSpacing>
+			<HelpParaRight inherited="true">0.2</HelpParaRight>
+			<HelpTabDefault inherited="true">2.5</HelpTabDefault>
+			<HelpTabs>
+				<Tab>
+					<Alignment>0</Alignment>
+					<Position>0.7</Position>
+				</Tab>
+			</HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL inherited="true"></WebBackURL>
+			<WebBorderColourBottom inherited="true">0</WebBorderColourBottom>
+			<WebBorderColourLeft inherited="true">0</WebBorderColourLeft>
+			<WebBorderColourRight inherited="true">0</WebBorderColourRight>
+			<WebBorderColourTop inherited="true">0</WebBorderColourTop>
+			<WebBorderStyleBottom>(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(none)</WebBorderStyleRight>
+			<WebBorderStyleTop>(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom>Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft>Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight>Medium</WebBorderWidthRight>
+			<WebBorderWidthTop>Medium</WebBorderWidthTop>
+			<WebBlockTag>P - Paragraph</WebBlockTag>
+			<WebBulletStyle>Square</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour inherited="true">0</WebFontColour>
+			<WebFontName inherited="true">Tahoma</WebFontName>
+			<WebFontSize inherited="true">10 pt</WebFontSize>
+			<WebFontStyle>(normal)</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight inherited="true">(normal)</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherited="true">(normal)</WebLineHeight>
+			<WebMarginBottom>0 pt</WebMarginBottom>
+			<WebMarginLeft>0 pt</WebMarginLeft>
+			<WebMarginRight>0 pt</WebMarginRight>
+			<WebMarginTop>3 px</WebMarginTop>
+			<WebNumbering>3</WebNumbering>
+			<WebNumberStyle>Decimal</WebNumberStyle>
+			<WebPaddingBottom>0 pt</WebPaddingBottom>
+			<WebPaddingLeft>15 px</WebPaddingLeft>
+			<WebPaddingRight>0 pt</WebPaddingRight>
+			<WebPaddingTop>0 pt</WebPaddingTop>
+			<WebTextAlign inherited="true">Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent inherited="true">0 cm</WebTextIndent>
+			<WebTextTag inherited="true">(none)</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign inherited="true">Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth inherited="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>3</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-06-16T00:00:00</CreatedDate>
+				<Description>List Bullet 2</Description>
+				<FolderID>18</FolderID>
+				<GUID>19C856E183364CC1A8B38C7C53C31308</GUID>
+				<ID>14</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>101</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2007-09-16T12:46:06</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>14</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>false</BorderBottom>
+			<BorderLeft>false</BorderLeft>
+			<BorderRight>false</BorderRight>
+			<BorderStyle>0</BorderStyle>
+			<BorderShadow>false</BorderShadow>
+			<BorderTop>false</BorderTop>
+			<Bullet>2</Bullet>
+			<FontBold>false</FontBold>
+			<FontColour inherited="true">0</FontColour>
+			<FontItalics>false</FontItalics>
+			<FontName inherited="true">Tahoma</FontName>
+			<FontSize>10</FontSize>
+			<FontUnderline inherited="true">0</FontUnderline>
+			<FontSubscript inherited="true">false</FontSubscript>
+			<FontSuperscript inherited="true">false</FontSuperscript>
+			<Number>0</Number>
+			<Numbering>3</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>2</OutlineLevel>
+			<ParaAfter>2</ParaAfter>
+			<ParaAlignment inherited="true">0</ParaAlignment>
+			<ParaBefore>2</ParaBefore>
+			<ParaFirstLine>-0.6</ParaFirstLine>
+			<ParaLeft>1.2</ParaLeft>
+			<ParaLineSpacing inherited="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>List Bullet 2</StyleName>
+			<StyleType inherited="true">1</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs>
+				<Tab>
+					<Alignment>0</Alignment>
+					<Position>1.2</Position>
+				</Tab>
+			</Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>List Bullet 2</PrintStyleName>
+			<HelpBorderBottom>false</HelpBorderBottom>
+			<HelpBorderLeft>false</HelpBorderLeft>
+			<HelpBorderRight>false</HelpBorderRight>
+			<HelpBorderShadow>false</HelpBorderShadow>
+			<HelpBorderStyle>0</HelpBorderStyle>
+			<HelpBorderTop>false</HelpBorderTop>
+			<HelpBullet>0</HelpBullet>
+			<HelpFontBold>false</HelpFontBold>
+			<HelpFontColour inherited="true">0</HelpFontColour>
+			<HelpFontItalics>false</HelpFontItalics>
+			<HelpFontName inherited="true">Tahoma</HelpFontName>
+			<HelpFontSize inherited="true">8</HelpFontSize>
+			<HelpNonWrapping>false</HelpNonWrapping>
+			<HelpNumber>0</HelpNumber>
+			<HelpNumbering>3</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment inherited="true">0</HelpParaAlignment>
+			<HelpParaBefore>4</HelpParaBefore>
+			<HelpParaFirstLine>-0.5</HelpParaFirstLine>
+			<HelpParaLeft>1.2</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true">1</HelpParaLineSpacing>
+			<HelpParaRight inherited="true">0.2</HelpParaRight>
+			<HelpTabDefault inherited="true">2.5</HelpTabDefault>
+			<HelpTabs>
+				<Tab>
+					<Alignment>0</Alignment>
+					<Position>1.2</Position>
+				</Tab>
+			</HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL inherited="true"></WebBackURL>
+			<WebBorderColourBottom inherited="true">0</WebBorderColourBottom>
+			<WebBorderColourLeft inherited="true">0</WebBorderColourLeft>
+			<WebBorderColourRight inherited="true">0</WebBorderColourRight>
+			<WebBorderColourTop inherited="true">0</WebBorderColourTop>
+			<WebBorderStyleBottom>(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(none)</WebBorderStyleRight>
+			<WebBorderStyleTop>(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom>Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft>Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight>Medium</WebBorderWidthRight>
+			<WebBorderWidthTop>Medium</WebBorderWidthTop>
+			<WebBlockTag>P - Paragraph</WebBlockTag>
+			<WebBulletStyle>Square</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour inherited="true">0</WebFontColour>
+			<WebFontName inherited="true">Tahoma</WebFontName>
+			<WebFontSize inherited="true">10 pt</WebFontSize>
+			<WebFontStyle>(normal)</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight inherited="true">(normal)</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherited="true">(normal)</WebLineHeight>
+			<WebMarginBottom>0 pt</WebMarginBottom>
+			<WebMarginLeft>0 pt</WebMarginLeft>
+			<WebMarginRight>0 pt</WebMarginRight>
+			<WebMarginTop>3 px</WebMarginTop>
+			<WebNumbering>3</WebNumbering>
+			<WebNumberStyle>Decimal</WebNumberStyle>
+			<WebPaddingBottom>0 pt</WebPaddingBottom>
+			<WebPaddingLeft>25 px</WebPaddingLeft>
+			<WebPaddingRight>0 pt</WebPaddingRight>
+			<WebPaddingTop>0 pt</WebPaddingTop>
+			<WebTextAlign inherited="true">Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent inherited="true">0 cm</WebTextIndent>
+			<WebTextTag inherited="true">(none)</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign inherited="true">Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth inherited="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>83</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2019-02-14T10:51:04</CreatedDate>
+				<Description>Special Bold</Description>
+				<FolderID>16</FolderID>
+				<GUID>43FB04D1FBD24AADB1151D4B96F0029F</GUID>
+				<ID>24</ID>
+				<IncludeInHelp>true</IncludeInHelp>
+				<IncludeInPrint>true</IncludeInPrint>
+				<IncludeInWeb>true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>7036493</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2019-02-14T10:51:04</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>24</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom inherited="true">false</BorderBottom>
+			<BorderLeft inherited="true">false</BorderLeft>
+			<BorderRight inherited="true">false</BorderRight>
+			<BorderStyle inherited="true">0</BorderStyle>
+			<BorderShadow inherited="true">false</BorderShadow>
+			<BorderTop inherited="true">false</BorderTop>
+			<Bullet>0</Bullet>
+			<FontBold>true</FontBold>
+			<FontColour>0</FontColour>
+			<FontItalics>(don't inherit)</FontItalics>
+			<FontName>(don't inherit)</FontName>
+			<FontSize>0</FontSize>
+			<FontUnderline>-1</FontUnderline>
+			<FontSubscript>(don't inherit)</FontSubscript>
+			<FontSuperscript>(don't inherit)</FontSuperscript>
+			<Number inherited="true">1</Number>
+			<Numbering inherited="true">1</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment inherited="true">0</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing>0</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>Special Bold</StyleName>
+			<StyleType inherited="true">2</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>Special Bold</PrintStyleName>
+			<HelpBorderBottom inherited="true">false</HelpBorderBottom>
+			<HelpBorderLeft inherited="true">false</HelpBorderLeft>
+			<HelpBorderRight inherited="true">false</HelpBorderRight>
+			<HelpBorderShadow inherited="true">false</HelpBorderShadow>
+			<HelpBorderStyle inherited="true">0</HelpBorderStyle>
+			<HelpBorderTop inherited="true">false</HelpBorderTop>
+			<HelpBullet>0</HelpBullet>
+			<HelpFontBold>true</HelpFontBold>
+			<HelpFontColour>4194432</HelpFontColour>
+			<HelpFontItalics>(don't inherit)</HelpFontItalics>
+			<HelpFontName>Arabic Typesetting</HelpFontName>
+			<HelpFontSize>0</HelpFontSize>
+			<HelpNonWrapping>(don't inherit)</HelpNonWrapping>
+			<HelpNumber inherited="true">1</HelpNumber>
+			<HelpNumbering inherited="true">1</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment inherited="true">0</HelpParaAlignment>
+			<HelpParaBefore>0</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0</HelpParaLeft>
+			<HelpParaLineSpacing>0</HelpParaLineSpacing>
+			<HelpParaRight>0</HelpParaRight>
+			<HelpTabDefault inherited="true">2</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL></WebBackURL>
+			<WebBorderColourBottom inherited="true">0</WebBorderColourBottom>
+			<WebBorderColourLeft inherited="true">0</WebBorderColourLeft>
+			<WebBorderColourRight inherited="true">0</WebBorderColourRight>
+			<WebBorderColourTop inherited="true">0</WebBorderColourTop>
+			<WebBorderStyleBottom inherited="true">(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft inherited="true">(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight inherited="true">(none)</WebBorderStyleRight>
+			<WebBorderStyleTop inherited="true">(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom inherited="true">Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft inherited="true">Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight inherited="true">Medium</WebBorderWidthRight>
+			<WebBorderWidthTop inherited="true">Medium</WebBorderWidthTop>
+			<WebBlockTag inherited="true">P - Paragraph</WebBlockTag>
+			<WebBulletStyle inherited="true">Disc</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour>0</WebFontColour>
+			<WebFontName>Arial</WebFontName>
+			<WebFontSize>(don't inherit)</WebFontSize>
+			<WebFontStyle>(normal)</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight>Bold</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherited="true">(normal)</WebLineHeight>
+			<WebMarginBottom inherited="true">(auto)</WebMarginBottom>
+			<WebMarginLeft inherited="true">(auto)</WebMarginLeft>
+			<WebMarginRight inherited="true">(auto)</WebMarginRight>
+			<WebMarginTop inherited="true">(auto)</WebMarginTop>
+			<WebNumbering inherited="true">1</WebNumbering>
+			<WebNumberStyle inherited="true">Decimal</WebNumberStyle>
+			<WebPaddingBottom inherited="true">0 pt</WebPaddingBottom>
+			<WebPaddingLeft inherited="true">0 pt</WebPaddingLeft>
+			<WebPaddingRight inherited="true">0 pt</WebPaddingRight>
+			<WebPaddingTop inherited="true">0 pt</WebPaddingTop>
+			<WebTextAlign inherited="true">Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent inherited="true">0 cm</WebTextIndent>
+			<WebTextTag>STRONG - Strongly emphasized</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign>Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth inherited="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>0</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-11-12T00:00:00</CreatedDate>
+				<Description>Character Styles Template</Description>
+				<FolderID>4</FolderID>
+				<GUID>5AD15CF240704044B31FBC9B953E5292</GUID>
+				<ID>83</ID>
+				<IncludeInHelp>(don't inherit)</IncludeInHelp>
+				<IncludeInPrint>(don't inherit)</IncludeInPrint>
+				<IncludeInWeb>(don't inherit)</IncludeInWeb>
+				<IsTemplate>true</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>0</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2000-06-02T12:29:14</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>83</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom inherit="true">false</BorderBottom>
+			<BorderLeft inherit="true">false</BorderLeft>
+			<BorderRight inherit="true">false</BorderRight>
+			<BorderStyle inherit="true">0</BorderStyle>
+			<BorderShadow inherit="true">false</BorderShadow>
+			<BorderTop inherit="true">false</BorderTop>
+			<Bullet>-1</Bullet>
+			<FontBold>(don't inherit)</FontBold>
+			<FontColour>16777215</FontColour>
+			<FontItalics>(don't inherit)</FontItalics>
+			<FontName>(don't inherit)</FontName>
+			<FontSize>0</FontSize>
+			<FontUnderline>-1</FontUnderline>
+			<FontSubscript>(don't inherit)</FontSubscript>
+			<FontSuperscript>(don't inherit)</FontSuperscript>
+			<Number inherit="true">1</Number>
+			<Numbering inherit="true">1</Numbering>
+			<NumberStart inherit="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment inherit="true">0</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing>0</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName></StyleName>
+			<StyleType inherit="true">2</StyleType>
+			<TabDefault inherit="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName></PrintStyleName>
+			<HelpBorderBottom inherit="true">false</HelpBorderBottom>
+			<HelpBorderLeft inherit="true">false</HelpBorderLeft>
+			<HelpBorderRight inherit="true">false</HelpBorderRight>
+			<HelpBorderShadow inherit="true">false</HelpBorderShadow>
+			<HelpBorderStyle inherit="true">0</HelpBorderStyle>
+			<HelpBorderTop inherit="true">false</HelpBorderTop>
+			<HelpBullet>-1</HelpBullet>
+			<HelpFontBold>(don't inherit)</HelpFontBold>
+			<HelpFontColour>16777215</HelpFontColour>
+			<HelpFontItalics>(don't inherit)</HelpFontItalics>
+			<HelpFontName>(don't inherit)</HelpFontName>
+			<HelpFontSize>0</HelpFontSize>
+			<HelpNonWrapping>(don't inherit)</HelpNonWrapping>
+			<HelpNumber inherit="true">1</HelpNumber>
+			<HelpNumbering inherit="true">1</HelpNumbering>
+			<HelpNumberStart inherit="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment inherit="true">0</HelpParaAlignment>
+			<HelpParaBefore>0</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0</HelpParaLeft>
+			<HelpParaLineSpacing>0</HelpParaLineSpacing>
+			<HelpParaRight>0</HelpParaRight>
+			<HelpTabDefault inherit="true">2</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherit="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherit="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherit="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherit="true">(none)</WebBackRepeat>
+			<WebBackURL></WebBackURL>
+			<WebBorderColourBottom inherit="true">0</WebBorderColourBottom>
+			<WebBorderColourLeft inherit="true">0</WebBorderColourLeft>
+			<WebBorderColourRight inherit="true">0</WebBorderColourRight>
+			<WebBorderColourTop inherit="true">0</WebBorderColourTop>
+			<WebBorderStyleBottom inherit="true">(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft inherit="true">(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight inherit="true">(none)</WebBorderStyleRight>
+			<WebBorderStyleTop inherit="true">(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom inherit="true">Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft inherit="true">Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight inherit="true">Medium</WebBorderWidthRight>
+			<WebBorderWidthTop inherit="true">Medium</WebBorderWidthTop>
+			<WebBlockTag inherit="true">P - Paragraph</WebBlockTag>
+			<WebBulletStyle inherit="true">Disc</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherit="true">(none)</WebClear>
+			<WebFloat inherit="true">(none)</WebFloat>
+			<WebFontColour>16777215</WebFontColour>
+			<WebFontName>(don't inherit)</WebFontName>
+			<WebFontSize>(don't inherit)</WebFontSize>
+			<WebFontStyle>(don't inherit)</WebFontStyle>
+			<WebFontVariant inherit="true">(normal)</WebFontVariant>
+			<WebFontWeight>(don't inherit)</WebFontWeight>
+			<WebHeight inherit="true">(auto)</WebHeight>
+			<WebLetterSpacing inherit="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherit="true">(normal)</WebLineHeight>
+			<WebMarginBottom inherit="true">(auto)</WebMarginBottom>
+			<WebMarginLeft inherit="true">(auto)</WebMarginLeft>
+			<WebMarginRight inherit="true">(auto)</WebMarginRight>
+			<WebMarginTop inherit="true">(auto)</WebMarginTop>
+			<WebNumbering inherit="true">1</WebNumbering>
+			<WebNumberStyle inherit="true">Decimal</WebNumberStyle>
+			<WebPaddingBottom inherit="true">0 pt</WebPaddingBottom>
+			<WebPaddingLeft inherit="true">0 pt</WebPaddingLeft>
+			<WebPaddingRight inherit="true">0 pt</WebPaddingRight>
+			<WebPaddingTop inherit="true">0 pt</WebPaddingTop>
+			<WebTextAlign inherit="true">Left</WebTextAlign>
+			<WebTextDecoration inherit="true">(none)</WebTextDecoration>
+			<WebTextIndent inherit="true">0 cm</WebTextIndent>
+			<WebTextTag>(don't inherit)</WebTextTag>
+			<WebTextTransform inherit="true">(none)</WebTextTransform>
+			<WebVerticalAlign>(don't inherit)</WebVerticalAlign>
+			<WebWhiteSpace inherit="true">(normal)</WebWhiteSpace>
+			<WebWidth inherit="true">(auto)</WebWidth>
+			<WebWordSpacing inherit="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>0</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-11-12T00:00:00</CreatedDate>
+				<Description>Paragraph Styles Template</Description>
+				<FolderID>4</FolderID>
+				<GUID>799D39830B134D748DC20F97E2E87C40</GUID>
+				<ID>84</ID>
+				<IncludeInHelp>(don't inherit)</IncludeInHelp>
+				<IncludeInPrint>(don't inherit)</IncludeInPrint>
+				<IncludeInWeb>(don't inherit)</IncludeInWeb>
+				<IsTemplate>true</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>475054</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2011-06-11T12:05:47</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>84</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>(don't inherit)</BorderBottom>
+			<BorderLeft>(don't inherit)</BorderLeft>
+			<BorderRight>(don't inherit)</BorderRight>
+			<BorderStyle>-1</BorderStyle>
+			<BorderShadow inherit="true">false</BorderShadow>
+			<BorderTop>(don't inherit)</BorderTop>
+			<Bullet>-1</Bullet>
+			<FontBold>(don't inherit)</FontBold>
+			<FontColour>16777215</FontColour>
+			<FontItalics>(don't inherit)</FontItalics>
+			<FontName>(don't inherit)</FontName>
+			<FontSize>0</FontSize>
+			<FontUnderline>-1</FontUnderline>
+			<FontSubscript inherit="true">false</FontSubscript>
+			<FontSuperscript inherit="true">false</FontSuperscript>
+			<Number>-1</Number>
+			<Numbering>0</Numbering>
+			<NumberStart inherit="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>0</ParaAfter>
+			<ParaAlignment>-1</ParaAlignment>
+			<ParaBefore>0</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherit="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName></StyleName>
+			<StyleType inherit="true">1</StyleType>
+			<TabDefault inherit="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName></PrintStyleName>
+			<HelpBorderBottom>(don't inherit)</HelpBorderBottom>
+			<HelpBorderLeft>(don't inherit)</HelpBorderLeft>
+			<HelpBorderRight>(don't inherit)</HelpBorderRight>
+			<HelpBorderShadow>(don't inherit)</HelpBorderShadow>
+			<HelpBorderStyle>-1</HelpBorderStyle>
+			<HelpBorderTop>(don't inherit)</HelpBorderTop>
+			<HelpBullet>-1</HelpBullet>
+			<HelpFontBold>(don't inherit)</HelpFontBold>
+			<HelpFontColour>16777215</HelpFontColour>
+			<HelpFontItalics>(don't inherit)</HelpFontItalics>
+			<HelpFontName>(don't inherit)</HelpFontName>
+			<HelpFontSize>0</HelpFontSize>
+			<HelpNonWrapping>(don't inherit)</HelpNonWrapping>
+			<HelpNumber>-1</HelpNumber>
+			<HelpNumbering>0</HelpNumbering>
+			<HelpNumberStart inherit="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment>-1</HelpParaAlignment>
+			<HelpParaBefore>0</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0</HelpParaLeft>
+			<HelpParaLineSpacing inherit="true">1</HelpParaLineSpacing>
+			<HelpParaRight>0</HelpParaRight>
+			<HelpTabDefault inherit="true">2.5</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherit="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherit="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherit="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherit="true">(none)</WebBackRepeat>
+			<WebBackURL></WebBackURL>
+			<WebBorderColourBottom>16777215</WebBorderColourBottom>
+			<WebBorderColourLeft>16777215</WebBorderColourLeft>
+			<WebBorderColourRight>16777215</WebBorderColourRight>
+			<WebBorderColourTop>16777215</WebBorderColourTop>
+			<WebBorderStyleBottom>(don't inherit)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(don't inherit)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(don't inherit)</WebBorderStyleRight>
+			<WebBorderStyleTop>(don't inherit)</WebBorderStyleTop>
+			<WebBorderWidthBottom>(don't inherit)</WebBorderWidthBottom>
+			<WebBorderWidthLeft>(don't inherit)</WebBorderWidthLeft>
+			<WebBorderWidthRight>(don't inherit)</WebBorderWidthRight>
+			<WebBorderWidthTop>(don't inherit)</WebBorderWidthTop>
+			<WebBlockTag>(don't inherit)</WebBlockTag>
+			<WebBulletStyle>(don't inherit)</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherit="true">(none)</WebClear>
+			<WebFloat inherit="true">(none)</WebFloat>
+			<WebFontColour>16777215</WebFontColour>
+			<WebFontName>(don't inherit)</WebFontName>
+			<WebFontSize>(don't inherit)</WebFontSize>
+			<WebFontStyle>(don't inherit)</WebFontStyle>
+			<WebFontVariant>(don't inherit)</WebFontVariant>
+			<WebFontWeight>(don't inherit)</WebFontWeight>
+			<WebHeight inherit="true">(auto)</WebHeight>
+			<WebLetterSpacing inherit="true">(normal)</WebLetterSpacing>
+			<WebLineHeight></WebLineHeight>
+			<WebMarginBottom></WebMarginBottom>
+			<WebMarginLeft></WebMarginLeft>
+			<WebMarginRight></WebMarginRight>
+			<WebMarginTop></WebMarginTop>
+			<WebNumbering>0</WebNumbering>
+			<WebNumberStyle>(don't inherit)</WebNumberStyle>
+			<WebPaddingBottom></WebPaddingBottom>
+			<WebPaddingLeft></WebPaddingLeft>
+			<WebPaddingRight></WebPaddingRight>
+			<WebPaddingTop></WebPaddingTop>
+			<WebTextAlign>(don't inherit)</WebTextAlign>
+			<WebTextDecoration>(don't inherit)</WebTextDecoration>
+			<WebTextIndent></WebTextIndent>
+			<WebTextTag>(don't inherit)</WebTextTag>
+			<WebTextTransform>(don't inherit)</WebTextTransform>
+			<WebVerticalAlign>(don't inherit)</WebVerticalAlign>
+			<WebWhiteSpace inherit="true">(normal)</WebWhiteSpace>
+			<WebWidth></WebWidth>
+			<WebWordSpacing inherit="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>3</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>1997-12-24T00:00:00</CreatedDate>
+				<Description>List</Description>
+				<FolderID>18</FolderID>
+				<GUID>72CA44F50F2440EAB0BD83B450102A10</GUID>
+				<ID>93</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>95</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2007-09-16T12:45:52</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>93</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>false</BorderBottom>
+			<BorderLeft>false</BorderLeft>
+			<BorderRight>false</BorderRight>
+			<BorderStyle>0</BorderStyle>
+			<BorderShadow>false</BorderShadow>
+			<BorderTop>false</BorderTop>
+			<Bullet>2</Bullet>
+			<FontBold>false</FontBold>
+			<FontColour inherited="true">0</FontColour>
+			<FontItalics>false</FontItalics>
+			<FontName inherited="true">Tahoma</FontName>
+			<FontSize>10</FontSize>
+			<FontUnderline inherited="true">0</FontUnderline>
+			<FontSubscript inherited="true">false</FontSubscript>
+			<FontSuperscript inherited="true">false</FontSuperscript>
+			<Number>1</Number>
+			<Numbering>1</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>3</ParaAfter>
+			<ParaAlignment inherited="true">0</ParaAlignment>
+			<ParaBefore>3</ParaBefore>
+			<ParaFirstLine>-0.6</ParaFirstLine>
+			<ParaLeft>0.6</ParaLeft>
+			<ParaLineSpacing inherited="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>List</StyleName>
+			<StyleType inherited="true">1</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>List</PrintStyleName>
+			<HelpBorderBottom>false</HelpBorderBottom>
+			<HelpBorderLeft>false</HelpBorderLeft>
+			<HelpBorderRight>false</HelpBorderRight>
+			<HelpBorderShadow>false</HelpBorderShadow>
+			<HelpBorderStyle>0</HelpBorderStyle>
+			<HelpBorderTop>false</HelpBorderTop>
+			<HelpBullet>2</HelpBullet>
+			<HelpFontBold>false</HelpFontBold>
+			<HelpFontColour inherited="true">0</HelpFontColour>
+			<HelpFontItalics>false</HelpFontItalics>
+			<HelpFontName inherited="true">Tahoma</HelpFontName>
+			<HelpFontSize inherited="true">8</HelpFontSize>
+			<HelpNonWrapping>false</HelpNonWrapping>
+			<HelpNumber>1</HelpNumber>
+			<HelpNumbering>1</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment inherited="true">0</HelpParaAlignment>
+			<HelpParaBefore>4</HelpParaBefore>
+			<HelpParaFirstLine>-0.5</HelpParaFirstLine>
+			<HelpParaLeft>0.7</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true">1</HelpParaLineSpacing>
+			<HelpParaRight inherited="true">0.2</HelpParaRight>
+			<HelpTabDefault inherited="true">2.5</HelpTabDefault>
+			<HelpTabs>
+				<Tab>
+					<Alignment>0</Alignment>
+					<Position>0.7</Position>
+				</Tab>
+			</HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL inherited="true"></WebBackURL>
+			<WebBorderColourBottom inherited="true">0</WebBorderColourBottom>
+			<WebBorderColourLeft inherited="true">0</WebBorderColourLeft>
+			<WebBorderColourRight inherited="true">0</WebBorderColourRight>
+			<WebBorderColourTop inherited="true">0</WebBorderColourTop>
+			<WebBorderStyleBottom>(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(none)</WebBorderStyleRight>
+			<WebBorderStyleTop>(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom>Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft>Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight>Medium</WebBorderWidthRight>
+			<WebBorderWidthTop>Medium</WebBorderWidthTop>
+			<WebBlockTag>P - Paragraph</WebBlockTag>
+			<WebBulletStyle>Square</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour inherited="true">0</WebFontColour>
+			<WebFontName inherited="true">Tahoma</WebFontName>
+			<WebFontSize inherited="true">10 pt</WebFontSize>
+			<WebFontStyle>(normal)</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight inherited="true">(normal)</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight inherited="true">(normal)</WebLineHeight>
+			<WebMarginBottom>3 px</WebMarginBottom>
+			<WebMarginLeft>0 cm</WebMarginLeft>
+			<WebMarginRight>0 cm</WebMarginRight>
+			<WebMarginTop>3 px</WebMarginTop>
+			<WebNumbering>4</WebNumbering>
+			<WebNumberStyle>Decimal</WebNumberStyle>
+			<WebPaddingBottom>0 pt</WebPaddingBottom>
+			<WebPaddingLeft>0 pt</WebPaddingLeft>
+			<WebPaddingRight>0 pt</WebPaddingRight>
+			<WebPaddingTop>0 pt</WebPaddingTop>
+			<WebTextAlign inherited="true">Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent inherited="true">0 cm</WebTextIndent>
+			<WebTextTag inherited="true">(none)</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign inherited="true">Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth inherited="true">(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Style>
+			<Object>
+				<BasedOn>1</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2019-02-14T10:42:17</CreatedDate>
+				<Description>Body Text Bold</Description>
+				<FolderID>15</FolderID>
+				<GUID>345dc0d0e445410ca02f0e761d1f77b9</GUID>
+				<ID>1021843</ID>
+				<IncludeInHelp>true</IncludeInHelp>
+				<IncludeInPrint>true</IncludeInPrint>
+				<IncludeInWeb>true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>7036487</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2019-02-14T10:42:17</ModifiedDate>
+				<ReleaseStateID>1</ReleaseStateID>
+				<Type>Style</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1021843</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<BorderBottom>false</BorderBottom>
+			<BorderLeft>false</BorderLeft>
+			<BorderRight>false</BorderRight>
+			<BorderStyle>0</BorderStyle>
+			<BorderShadow>false</BorderShadow>
+			<BorderTop>false</BorderTop>
+			<Bullet>0</Bullet>
+			<FontBold>true</FontBold>
+			<FontColour inherited="true">0</FontColour>
+			<FontItalics>false</FontItalics>
+			<FontName inherited="true">Tahoma</FontName>
+			<FontSize>10</FontSize>
+			<FontUnderline>0</FontUnderline>
+			<FontSubscript inherited="true">false</FontSubscript>
+			<FontSuperscript inherited="true">false</FontSuperscript>
+			<Number>0</Number>
+			<Numbering>1</Numbering>
+			<NumberStart inherited="true">1</NumberStart>
+			<OutlineLevel>0</OutlineLevel>
+			<ParaAfter>6</ParaAfter>
+			<ParaAlignment>0</ParaAlignment>
+			<ParaBefore>6</ParaBefore>
+			<ParaFirstLine>0</ParaFirstLine>
+			<ParaLeft>0</ParaLeft>
+			<ParaLineSpacing inherited="true">1</ParaLineSpacing>
+			<ParaRight>0</ParaRight>
+			<StyleName>Body Text Bold</StyleName>
+			<StyleType inherited="true">1</StyleType>
+			<TabDefault inherited="true">2.5</TabDefault>
+			<Tabs></Tabs>
+			<VariableAssignments></VariableAssignments>
+			<PrintStyleName>Body Text Bold</PrintStyleName>
+			<HelpBorderBottom>false</HelpBorderBottom>
+			<HelpBorderLeft>false</HelpBorderLeft>
+			<HelpBorderRight>false</HelpBorderRight>
+			<HelpBorderShadow>false</HelpBorderShadow>
+			<HelpBorderStyle>0</HelpBorderStyle>
+			<HelpBorderTop>false</HelpBorderTop>
+			<HelpBullet>0</HelpBullet>
+			<HelpFontBold>false</HelpFontBold>
+			<HelpFontColour>0</HelpFontColour>
+			<HelpFontItalics>false</HelpFontItalics>
+			<HelpFontName inherited="true">Tahoma</HelpFontName>
+			<HelpFontSize>8</HelpFontSize>
+			<HelpNonWrapping>false</HelpNonWrapping>
+			<HelpNumber>0</HelpNumber>
+			<HelpNumbering>1</HelpNumbering>
+			<HelpNumberStart inherited="true">1</HelpNumberStart>
+			<HelpParaAfter>0</HelpParaAfter>
+			<HelpParaAlignment>0</HelpParaAlignment>
+			<HelpParaBefore>4</HelpParaBefore>
+			<HelpParaFirstLine>0</HelpParaFirstLine>
+			<HelpParaLeft>0.2</HelpParaLeft>
+			<HelpParaLineSpacing inherited="true">1</HelpParaLineSpacing>
+			<HelpParaRight>0.2</HelpParaRight>
+			<HelpTabDefault inherited="true">2.5</HelpTabDefault>
+			<HelpTabs></HelpTabs>
+			<WebBackAttach inherited="true">Scroll</WebBackAttach>
+			<WebBackColour>16777215</WebBackColour>
+			<WebBackPositionX inherited="true">0 %</WebBackPositionX>
+			<WebBackPositionY inherited="true">0 %</WebBackPositionY>
+			<WebBackRepeat inherited="true">(none)</WebBackRepeat>
+			<WebBackURL inherited="true"></WebBackURL>
+			<WebBorderColourBottom>0</WebBorderColourBottom>
+			<WebBorderColourLeft>0</WebBorderColourLeft>
+			<WebBorderColourRight>0</WebBorderColourRight>
+			<WebBorderColourTop>0</WebBorderColourTop>
+			<WebBorderStyleBottom>(none)</WebBorderStyleBottom>
+			<WebBorderStyleLeft>(none)</WebBorderStyleLeft>
+			<WebBorderStyleRight>(none)</WebBorderStyleRight>
+			<WebBorderStyleTop>(none)</WebBorderStyleTop>
+			<WebBorderWidthBottom>Medium</WebBorderWidthBottom>
+			<WebBorderWidthLeft>Medium</WebBorderWidthLeft>
+			<WebBorderWidthRight>Medium</WebBorderWidthRight>
+			<WebBorderWidthTop>Medium</WebBorderWidthTop>
+			<WebBlockTag>P - Paragraph</WebBlockTag>
+			<WebBulletStyle>Disc</WebBulletStyle>
+			<WebBulletURL></WebBulletURL>
+			<WebClear inherited="true">(none)</WebClear>
+			<WebFloat inherited="true">(none)</WebFloat>
+			<WebFontColour>0</WebFontColour>
+			<WebFontName inherited="true">Tahoma</WebFontName>
+			<WebFontSize>10 pt</WebFontSize>
+			<WebFontStyle>(normal)</WebFontStyle>
+			<WebFontVariant inherited="true">(normal)</WebFontVariant>
+			<WebFontWeight>Bold</WebFontWeight>
+			<WebHeight inherited="true">(auto)</WebHeight>
+			<WebLetterSpacing inherited="true">(normal)</WebLetterSpacing>
+			<WebLineHeight>(normal)</WebLineHeight>
+			<WebMarginBottom>6 pt</WebMarginBottom>
+			<WebMarginLeft>0 pt</WebMarginLeft>
+			<WebMarginRight>0 pt</WebMarginRight>
+			<WebMarginTop>6 pt</WebMarginTop>
+			<WebNumbering>1</WebNumbering>
+			<WebNumberStyle>Decimal</WebNumberStyle>
+			<WebPaddingBottom>0 pt</WebPaddingBottom>
+			<WebPaddingLeft>0 pt</WebPaddingLeft>
+			<WebPaddingRight>0 pt</WebPaddingRight>
+			<WebPaddingTop>0 pt</WebPaddingTop>
+			<WebTextAlign>Left</WebTextAlign>
+			<WebTextDecoration inherited="true">(none)</WebTextDecoration>
+			<WebTextIndent>0 cm</WebTextIndent>
+			<WebTextTag>(none)</WebTextTag>
+			<WebTextTransform inherited="true">(none)</WebTextTransform>
+			<WebVerticalAlign>Baseline</WebVerticalAlign>
+			<WebWhiteSpace inherited="true">(normal)</WebWhiteSpace>
+			<WebWidth>(auto)</WebWidth>
+			<WebWordSpacing inherited="true">(normal)</WebWordSpacing>
+		</Style>
+		<Topic>
+			<Object>
+				<BasedOn>475</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2021-02-08T20:01:55</CreatedDate>
+				<Description>Modification History</Description>
+				<FolderID>142775</FolderID>
+				<GUID>770272c887c94b7f92b30ff28ca157be</GUID>
+				<ID>1170493</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>9735646</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2021-02-14T22:57:33</ModifiedDate>
+				<ReleaseStateID>6</ReleaseStateID>
+				<Type>Topic</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1170493</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<Headings>
+				<PrintHeading inherited="true">Modification History</PrintHeading>
+				<HelpHeading></HelpHeading>
+				<WebHeading></WebHeading>
+			</Headings>
+			<RelatedGroups></RelatedGroups>
+			<Text>
+				<table rows="3" cols="2" width="8954">
+					<tr allowbreak="true" rowheight="0">
+						<td width="2438" borders="12" bordercolors="65793">
+							<p id="4">
+								<cs id="24">Release</cs>
+							</p>
+						</td>
+						<td width="6516" borders="12" bordercolors="65793">
+							<p id="4">
+								<cs id="24">Comments</cs>
+							</p>
+						</td>
+					</tr>
+					<tr allowbreak="true" rowheight="0">
+						<td width="2438" borders="12" bordercolors="65793">
+							<p id="4">Release 1</p>
+						</td>
+						<td width="6516" borders="12" bordercolors="65793">
+							<p id="4">This version first released with AUR Automotive Retail, Service and Repair Training Package Version 6.0</p>
+						</td>
+					</tr>
+					<tr rowheight="0">
+						<td width="2438" borders="12" bordercolors="65793">
+							<p id="4">Release 2</p>
+						</td>
+						<td width="6516" borders="12" bordercolors="65793">
+							<p id="4">This version first released with AUR Automotive Retail, Service and Repair Training Package Version 6.1. </p>
+							<p id="4">The following elective units of competency have been deleted as directed by the AISC:</p>
+							<p id="13">AURHTJ005 Identify and apply heavy vehicle pneumatic wheeled traction performance enhancement systems</p>
+							<p id="13">AURTTA015 Produce engineering drawings for vehicle components</p>
+							<p id="13">AURTTL006 Install LNG fuel systems.</p>
+							<p id="4">The above training products were identified as having zero enrolments over a three year period.</p>
+						</td>
+					</tr>
+				</table>
+				<p id="4" />
+			</Text>
+			<VariableAssignments></VariableAssignments>
+			<PrintAutoNumber>0</PrintAutoNumber>
+			<PrintBreakType inherited="true">3</PrintBreakType>
+			<PrintEndnotePage inherited="true">false</PrintEndnotePage>
+			<PrintEndnoteListFormat>1</PrintEndnoteListFormat>
+			<PrintEndnoteNumberType>0</PrintEndnoteNumberType>
+			<PrintHeadingStyle inherited="true">0</PrintHeadingStyle>
+			<PrintMedia inherited="true">44</PrintMedia>
+			<PrintSuperHeading>AUR31220 Certificate III in Mobile Plant Technology</PrintSuperHeading>
+			<HelpAlias></HelpAlias>
+			<HelpContextID inherited="true">0</HelpContextID>
+			<HelpContextString></HelpContextString>
+			<HelpCustomFootnotes></HelpCustomFootnotes>
+			<HelpHeadingStyle inherited="true">0</HelpHeadingStyle>
+			<HelpIncludeInSequence inherited="true">false</HelpIncludeInSequence>
+			<HelpJumpMacro inherited="true">0</HelpJumpMacro>
+			<HelpJumpType inherited="true">2</HelpJumpType>
+			<HelpJumpWindow inherited="true">0</HelpJumpWindow>
+			<HelpNewSequence inherited="true">false</HelpNewSequence>
+			<HelpNonScrolling inherited="true">false</HelpNonScrolling>
+			<HelpTopicMacro inherited="true">0</HelpTopicMacro>
+			<WebFilename></WebFilename>
+			<WebMedia inherited="true">0</WebMedia>
+			<WebStartNewPage inherited="true">false</WebStartNewPage>
+			<WebTitle></WebTitle>
+			<WebTOCImage inherited="true">(auto)</WebTOCImage>
+		</Topic>
+		<Topic>
+			<Object>
+				<BasedOn>513619</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2021-02-08T20:01:55</CreatedDate>
+				<Description>Qualification Description</Description>
+				<FolderID>142775</FolderID>
+				<GUID>8f17edb88a064b0aaf8dfcef9d7c9c12</GUID>
+				<ID>1170492</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>9735648</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2021-02-14T22:57:33</ModifiedDate>
+				<ReleaseStateID>6</ReleaseStateID>
+				<Type>Topic</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1170492</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<Headings>
+				<All>Qualification Description</All>
+			</Headings>
+			<RelatedGroups></RelatedGroups>
+			<Text>
+				<p id="4">This qualification reflects the role of individuals who perform a broad range of tasks on a variety of mobile plant machinery in the automotive retail, service and repair industry.</p>
+				<p id="4">No licensing, legislative or certification requirements apply to this qualification at the time of publication.</p>
+			</Text>
+			<VariableAssignments></VariableAssignments>
+			<PrintAutoNumber inherited="true">0</PrintAutoNumber>
+			<PrintBreakType>0</PrintBreakType>
+			<PrintEndnotePage inherited="true">false</PrintEndnotePage>
+			<PrintEndnoteListFormat>1</PrintEndnoteListFormat>
+			<PrintEndnoteNumberType>0</PrintEndnoteNumberType>
+			<PrintHeadingStyle inherited="true">0</PrintHeadingStyle>
+			<PrintMedia inherited="true">0</PrintMedia>
+			<PrintSuperHeading></PrintSuperHeading>
+			<HelpAlias></HelpAlias>
+			<HelpContextID inherited="true">0</HelpContextID>
+			<HelpContextString></HelpContextString>
+			<HelpCustomFootnotes></HelpCustomFootnotes>
+			<HelpHeadingStyle inherited="true">0</HelpHeadingStyle>
+			<HelpIncludeInSequence inherited="true">false</HelpIncludeInSequence>
+			<HelpJumpMacro inherited="true">0</HelpJumpMacro>
+			<HelpJumpType inherited="true">2</HelpJumpType>
+			<HelpJumpWindow inherited="true">0</HelpJumpWindow>
+			<HelpNewSequence inherited="true">false</HelpNewSequence>
+			<HelpNonScrolling inherited="true">false</HelpNonScrolling>
+			<HelpTopicMacro inherited="true">0</HelpTopicMacro>
+			<WebFilename></WebFilename>
+			<WebMedia inherited="true">0</WebMedia>
+			<WebStartNewPage inherited="true">false</WebStartNewPage>
+			<WebTitle></WebTitle>
+			<WebTOCImage inherited="true">(auto)</WebTOCImage>
+		</Topic>
+		<Topic>
+			<Object>
+				<BasedOn>513621</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2021-02-08T20:01:54</CreatedDate>
+				<Description>Entry Requirements</Description>
+				<FolderID>142775</FolderID>
+				<GUID>7c41bd36e47848d19ead736dbb2bae02</GUID>
+				<ID>1170491</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>9735645</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2021-02-14T22:57:33</ModifiedDate>
+				<ReleaseStateID>6</ReleaseStateID>
+				<Type>Topic</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1170491</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<Headings>
+				<PrintHeading inherited="true">Entry Requirements</PrintHeading>
+				<HelpHeading inherited="true">Entry Requirements</HelpHeading>
+				<WebHeading inherited="true">Entry Requirements</WebHeading>
+			</Headings>
+			<RelatedGroups></RelatedGroups>
+			<Text>
+				<p id="4">Nil. </p>
+			</Text>
+			<VariableAssignments></VariableAssignments>
+			<PrintAutoNumber inherited="true">0</PrintAutoNumber>
+			<PrintBreakType>0</PrintBreakType>
+			<PrintEndnotePage inherited="true">false</PrintEndnotePage>
+			<PrintEndnoteListFormat>1</PrintEndnoteListFormat>
+			<PrintEndnoteNumberType>0</PrintEndnoteNumberType>
+			<PrintHeadingStyle inherited="true">0</PrintHeadingStyle>
+			<PrintMedia inherited="true">0</PrintMedia>
+			<PrintSuperHeading></PrintSuperHeading>
+			<HelpAlias></HelpAlias>
+			<HelpContextID inherited="true">0</HelpContextID>
+			<HelpContextString></HelpContextString>
+			<HelpCustomFootnotes></HelpCustomFootnotes>
+			<HelpHeadingStyle inherited="true">0</HelpHeadingStyle>
+			<HelpIncludeInSequence inherited="true">false</HelpIncludeInSequence>
+			<HelpJumpMacro inherited="true">0</HelpJumpMacro>
+			<HelpJumpType inherited="true">2</HelpJumpType>
+			<HelpJumpWindow inherited="true">0</HelpJumpWindow>
+			<HelpNewSequence inherited="true">false</HelpNewSequence>
+			<HelpNonScrolling inherited="true">false</HelpNonScrolling>
+			<HelpTopicMacro inherited="true">0</HelpTopicMacro>
+			<WebFilename></WebFilename>
+			<WebMedia inherited="true">0</WebMedia>
+			<WebStartNewPage inherited="true">false</WebStartNewPage>
+			<WebTitle></WebTitle>
+			<WebTOCImage inherited="true">(auto)</WebTOCImage>
+		</Topic>
+		<Topic>
+			<Object>
+				<BasedOn>513627</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2021-02-08T20:01:52</CreatedDate>
+				<Description>Packaging Rules</Description>
+				<FolderID>142775</FolderID>
+				<GUID>a7e98830ed404630abb494e9b2e9cee9</GUID>
+				<ID>1170490</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>12512225</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2025-03-17T12:02:52</ModifiedDate>
+				<ReleaseStateID>6</ReleaseStateID>
+				<Type>Topic</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1170490</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<Headings>
+				<PrintHeading inherited="true">Packaging Rules</PrintHeading>
+				<HelpHeading inherited="true">Packaging Rules</HelpHeading>
+				<WebHeading inherited="true">Packaging Rules</WebHeading>
+			</Headings>
+			<RelatedGroups></RelatedGroups>
+			<Text>
+				<p id="1021843">Total number of units = 36</p>
+				<p id="4">
+					<cs id="24">9 core units</cs>, plus
+				</p>
+				<p id="4">
+					<cs id="24">27 elective units</cs>, of which:
+				</p>
+				<p id="13">all units in one of the Specialist Elective Groups A to C must be chosen</p>
+				<p id="13">of the remaining units required to make up the unit total:</p>
+				<p id="14">all may be from the Specialist Elective Groups and general elective units listed below</p>
+				<p id="14">up to 
+					<cs id="24">6</cs> may be from a Certificate II qualification or above in this Training Package or another endorsed Training Package or accredited course.
+				</p>
+				<p id="4" />
+				<p id="4">Elective units chosen must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid vocational outcome.</p>
+				<p id="4" />
+				<p id="10">Specialisations</p>
+				<p id="4">Where relevant, specialisations can be used in this qualification for:</p>
+				<p id="13">Mobile Plant Equipment</p>
+				<p id="13">Forklift</p>
+				<p id="13">Elevating Work Platform</p>
+				<p id="4" />
+				<p id="4">The achievement of a specialisation will be identified on testamurs as follows:</p>
+				<p id="13">AUR31220 Certificate III in Mobile Plant Technology (Mobile Plant Equipment)</p>
+				<p id="13">AUR31220 Certificate III in Mobile Plant Technology (Forklift)</p>
+				<p id="13">AUR31220 Certificate III in Mobile Plant Technology (Elevating Work Platform)</p>
+				<p id="4" />
+				<p id="10">Mobile Plant Equipment specialisation</p>
+				<p id="4">Select all units listed in Specialist Elective Group A.</p>
+				<p id="4" />
+				<p id="10">Forklift specialisation</p>
+				<p id="4">Select all units listed in Specialist Elective Group B.</p>
+				<p id="4" />
+				<p id="10">Elevating Work Platform specialisation</p>
+				<p id="4">Select all units listed in Specialist Elective Group C.</p>
+				<p id="4" />
+				<p id="1021843">Core Units</p>
+				<p id="93">AURAEA002 Follow environmental and sustainability best practice in an automotive workplace</p>
+				<p id="93">AURASA102 Follow safe working practices in an automotive workplace</p>
+				<p id="93">AURETR112 Test and repair basic electrical circuits</p>
+				<p id="93">AURETR125 Test, charge and replace batteries and jump-start vehicles</p>
+				<p id="93">AURTTA006 Inspect and service hydraulic systems</p>
+				<p id="93">AURTTA104 Carry out servicing operations</p>
+				<p id="93">AURTTA105 Select and use bearings, seals, gaskets, sealants and adhesives</p>
+				<p id="93">AURTTA118 Develop and carry out diagnostic test strategies</p>
+				<p id="93">AURTTK102 Use and maintain tools and equipment in an automotive workplace</p>
+				<p id="4" />
+				<p id="1021843">Specialist Elective Units</p>
+				<p id="93">
+					<cs id="7">Group A: Mobile Plant Equipment</cs>
+				</p>
+				<p id="93">AURETR124 Diagnose and repair compression ignition engine management systems</p>
+				<p id="93">AURETR129 Diagnose and repair charging systems</p>
+				<p id="93">AURETR130 Diagnose and repair starting systems</p>
+				<p id="93">AURHTE102 Diagnose and repair heavy vehicle compression ignition engines</p>
+				<p id="93">AURHTF102 Diagnose and repair heavy vehicle diesel fuel injection systems</p>
+				<p id="93">AURKTA005 Inspect, service and repair track type drive and support systems</p>
+				<p id="93">AURKTA111 Diagnose and repair mobile plant hydraulic systems</p>
+				<p id="93">AURKTB101 Diagnose and repair mobile plant braking systems</p>
+				<p id="93">AURKTD102 Diagnose and repair mobile plant steering systems</p>
+				<p id="93">AURKTQ101 Diagnose and repair mobile plant final drive assemblies</p>
+				<p id="93">AURKTX101 Diagnose and repair powershift transmissions</p>
+				<p id="93">AURTTC103 Diagnose and repair cooling systems</p>
+				<p id="93">AURTTF105 Diagnose and repair engine forced-induction systems</p>
+				<p id="93" />
+				<p id="93">
+					<cs id="7">Group B: Forklift</cs>
+				</p>
+				<p id="93">AURETR129 Diagnose and repair charging systems</p>
+				<p id="93">AURETR130 Diagnose and repair starting systems</p>
+				<p id="93">AURNTA001 Inspect, service and repair forklift mast assemblies</p>
+				<p id="93">AURNTB101 Diagnose and repair forklift hydraulic braking systems</p>
+				<p id="93">AURNTD101 Diagnose and repair forklift hydrostatic steering systems</p>
+				<p id="93">AURTTA113 Diagnose and repair hydraulic systems</p>
+				<p id="93">AURTTB101 Inspect and service braking systems</p>
+				<p id="93">AURTTC103 Diagnose and repair cooling systems</p>
+				<p id="93">AURTTE104 Inspect and service engines</p>
+				<p id="93" />
+				<p id="93">
+					<cs id="7">Group C: Elevating Work Platform</cs>
+				</p>
+				<p id="93">AURHTE102 Diagnose and repair heavy vehicle compression ignition engines</p>
+				<p id="93">AURHTF102 Diagnose and repair heavy vehicle diesel fuel injection systems</p>
+				<p id="93">AURHTQ102 Diagnose and repair heavy commercial vehicle final drive assemblies</p>
+				<p id="93">AURHTQ103 Diagnose and repair heavy vehicle drive shafts</p>
+				<p id="93">AURLTB103 Diagnose and repair light vehicle hydraulic braking systems</p>
+				<p id="93">AURTTA113 Diagnose and repair hydraulic systems</p>
+				<p id="93">AURTTB101 Inspect and service braking systems</p>
+				<p id="93">AURTTE104 Inspect and service engines</p>
+				<p id="93">AURTTK001 Use and maintain measuring equipment in an automotive workplace</p>
+				<p id="93">AURVTW101 Carry out manual metal arc welding on components</p>
+				<p id="93">AURVTW109 Carry out basic gas metal arc welding</p>
+				<p id="4" />
+				<p id="1021843">
+					<cs id="24">General Elective Units</cs>
+				</p>
+				<p id="93">AURACA101 Respond to customer needs and enquiries in an automotive workplace </p>
+				<p id="93">AURAFA103 Communicate effectively in an automotive workplace </p>
+				<p id="93">AURATA002 Read, interpret and apply engineering drawings </p>
+				<p id="93">AURETH002 Service and maintain battery electric vehicles*</p>
+				<p id="93">AURETH101 Depower and reinitialise battery electric vehicles </p>
+				<p id="93">AURETK002 Use and maintain electrical test equipment in an automotive workplace </p>
+				<p id="93">AURETR005 Install automotive security systems and components </p>
+				<p id="93">AURETR007 Apply knowledge of automotive electrical circuits and wiring systems </p>
+				<p id="93">AURETR010 Repair wiring harnesses and looms </p>
+				<p id="93">AURETR011 Install basic ancillary electrical systems and components </p>
+				<p id="93">AURETR019 Inspect, service and repair AC electric motor drive systems </p>
+				<p id="93">AURETR021 Inspect, service and repair electronic management, monitoring and tracking systems </p>
+				<p id="93">AURETR123 Diagnose and repair spark ignition engine management systems </p>
+				<p id="93">AURETR124 Diagnose and repair compression ignition engine management systems</p>
+				<p id="93">AURETR128 Diagnose and repair instruments and warning systems </p>
+				<p id="93">AURETR129 Diagnose and repair charging systems</p>
+				<p id="93">AURETR130 Diagnose and repair starting systems</p>
+				<p id="93">AURETR131 Diagnose and repair ignition systems </p>
+				<p id="93">AURETR132 Diagnose and repair automotive electrical systems </p>
+				<p id="93">AURETR144 Diagnose and repair integrated engine and transmission management systems </p>
+				<p id="93">AURETU103 Service air conditioning and HVAC systems </p>
+				<p id="93">AURETU104 Diagnose and repair air conditioning and HVAC components </p>
+				<p id="93">AURETU105 Retrofit automotive air conditioning and HVAC systems </p>
+				<p id="93">AURHTB101 Diagnose and repair heavy vehicle air braking systems </p>
+				<p id="93">AURHTE001 Remove and install heavy vehicle engine assemblies </p>
+				<p id="93">AURHTE102 Diagnose and repair heavy vehicle compression ignition engines</p>
+				<p id="93">AURHTF102 Diagnose and repair heavy vehicle diesel fuel injection systems</p>
+				<p id="93">AURHTJ103 Remove, inspect and refit heavy vehicle wheel and tyre assemblies </p>
+				<p id="93">AURHTJ106 Remove, inspect, repair and refit heavy vehicle tyres and tubes </p>
+				<p id="93">AURHTL101 Inspect, diagnose and repair alternative fuel systems in heavy vehicle engines </p>
+				<p id="93">AURHTQ102 Diagnose and repair heavy commercial vehicle final drive assemblies</p>
+				<p id="93">AURHTQ103 Diagnose and repair heavy vehicle drive shafts</p>
+				<p id="93">AURHTX002 Inspect, test and replace heavy vehicle automatic transmissions </p>
+				<p id="93">AURHTX104 Diagnose and repair heavy vehicle clutch systems </p>
+				<p id="93">AURHTZ101 Diagnose and repair heavy vehicle emission control systems </p>
+				<p id="93">AURKTA001 Synchronise plant and equipment </p>
+				<p id="93">AURKTA005 Inspect, service and repair track type drive and support systems</p>
+				<p id="93">AURKTA111 Diagnose and repair mobile plant hydraulic systems</p>
+				<p id="93">AURKTB101 Diagnose and repair mobile plant braking systems</p>
+				<p id="93">AURKTD101 Diagnose and repair mobile plant suspension systems </p>
+				<p id="93">AURKTD102 Diagnose and repair mobile plant steering systems</p>
+				<p id="93">AURKTJ012 Remove, inspect and fit earthmoving and off-the-road wheel and rim assemblies </p>
+				<p id="93">AURKTJ016 Use earthmoving and off-the-road tyre handlers </p>
+				<p id="93">AURKTQ101 Diagnose and repair mobile plant final drive assemblies</p>
+				<p id="93">AURKTR101 Diagnose and repair electronic over hydraulic control systems </p>
+				<p id="93">AURKTX101 Diagnose and repair powershift transmissions</p>
+				<p id="93">AURKTX104 Diagnose and repair continuously variable transmissions </p>
+				<p id="93">AURLTB103 Diagnose and repair light vehicle hydraulic braking systems</p>
+				<p id="93">AURLTE001 Remove and install light vehicle engine assemblies </p>
+				<p id="93">AURLTE102 Diagnose and repair light vehicle engines </p>
+				<p id="93">AURLTZ101 Diagnose and repair light vehicle emission control systems </p>
+				<p id="93">AURNTA001 Inspect, service and repair forklift mast assemblies</p>
+				<p id="93">AURNTB101 Diagnose and repair forklift hydraulic braking systems</p>
+				<p id="93">AURNTD101 Diagnose and repair forklift hydrostatic steering systems</p>
+				<p id="93">AURTTA007 Inspect, service and repair pneumatic systems </p>
+				<p id="93">AURTTA009 Carry out mechanical pre-repair operations </p>
+				<p id="93">AURTTA011 Install hydraulic systems to specified applications </p>
+				<p id="93">AURTTA012 Fabricate and install fluid power hose assemblies </p>
+				<p id="93">AURTTA014 Assemble and install pneumatic system components </p>
+				<p id="93">AURTTA017 Carry out vehicle safety inspections </p>
+				<p id="93">AURTTA113 Diagnose and repair hydraulic systems</p>
+				<p id="93">AURTTB004 Inspect and service air braking systems </p>
+				<p id="93">AURTTB006 Inspect, service and repair auxiliary braking systems </p>
+				<p id="93">AURTTB015 Assemble and fit braking system components </p>
+				<p id="93">AURTTB101 Inspect and service braking systems</p>
+				<p id="93">AURTTC103 Diagnose and repair cooling systems</p>
+				<p id="93">AURTTC001 Inspect and service cooling systems </p>
+				<p id="93">AURTTD002 Inspect and service steering systems </p>
+				<p id="93">AURTTD004 Inspect and service suspension systems </p>
+				<p id="93">AURTTE005 Overhaul engines </p>
+				<p id="93">AURTTE104 Inspect and service engines</p>
+				<p id="93">AURTTF003 Overhaul diesel fuel injection system components </p>
+				<p id="93">AURTTF101 Inspect and service petrol fuel systems </p>
+				<p id="93">AURTTF102 Inspect and service diesel fuel injection systems </p>
+				<p id="93">AURTTF105 Diagnose and repair engine forced-induction systems</p>
+				<p id="93">AURTTF106 Diagnose and repair petrol carburettor systems </p>
+				<p id="93">AURTTJ011 Balance wheels and tyres </p>
+				<p id="93">AURTTK001 Use and maintain measuring equipment in an automotive workplace</p>
+				<p id="93">AURTTL001 Inspect and service CNG fuel systems </p>
+				<p id="93">AURTTL003 Install CNG fuel systems </p>
+				<p id="93">AURTTL007 Inspect and service LPG fuel systems </p>
+				<p id="93">AURTTL009 Install LPG fuel systems </p>
+				<p id="93">AURTTL102 Diagnose and repair CNG fuel systems </p>
+				<p id="93">AURTTL104 Inspect and service LNG fuel systems </p>
+				<p id="93">AURTTL105 Diagnose and repair LNG fuel systems </p>
+				<p id="93">AURTTL108 Diagnose and repair LPG fuel systems </p>
+				<p id="93">AURTTQ001 Inspect and service final drive assemblies </p>
+				<p id="93">AURTTQ103 Inspect and service drive shafts </p>
+				<p id="93">AURTTW001 Carry out soft soldering techniques </p>
+				<p id="93">AURTTX102 Inspect and service manual transmissions </p>
+				<p id="93">AURTTX103 Inspect and service automatic transmissions </p>
+				<p id="93">AURTTX104 Inspect and service hydrostatic transmissions </p>
+				<p id="93">AURTTX106 Diagnose and repair hydrostatic transmissions</p>
+				<p id="93">AURTTZ102 Diagnose and repair exhaust systems </p>
+				<p id="93">AURVTW002 Carry out oxyacetylene brazing of components </p>
+				<p id="93">AURVTW018 Carry out oxyacetylene welding, thermal heating and cutting </p>
+				<p id="93">AURVTW101 Carry out manual metal arc welding on components</p>
+				<p id="93">AURVTW103 Carry out advanced gas metal arc welding on vehicle body sections </p>
+				<p id="93">AURVTW104 Carry out tungsten inert gas welding </p>
+				<p id="93">AURVTW109 Carry out basic gas metal arc welding</p>
+				<p id="93">RIIHAN301E Operate elevating work platform </p>
+				<p id="93">TLILIC0003 Licence to operate a forklift truck </p>
+				<p id="93">TLILIC0005 Licence to operate a boom-type elevating work platform (boom length 11 metres or more) </p>
+				<p id="4" />
+				<p id="4">*Note the following prerequisite unit requirements.</p>
+				<table rows="2" cols="2" width="9748">
+					<tr header="true" allowbreak="true" rowheight="0">
+						<td width="4820" borders="12" bordercolors="65793">
+							<p id="4">
+								<cs id="24">UNIT IN THIS QUALIFICATION</cs>
+							</p>
+						</td>
+						<td width="4928" borders="12" bordercolors="65793">
+							<p id="4">
+								<cs id="24">PREREQUISITE UNIT</cs>
+							</p>
+						</td>
+					</tr>
+					<tr allowbreak="true" rowheight="0">
+						<td width="4820" borders="12" bordercolors="65793">
+							<p id="4">AURETH002 Service and maintain battery electric vehicles</p>
+						</td>
+						<td width="4928" borders="12" bordercolors="65793">
+							<p id="4">AURETH001 Depower and reinitialise battery electric vehicles</p>
+						</td>
+					</tr>
+				</table>
+				<p id="4" />
+			</Text>
+			<VariableAssignments></VariableAssignments>
+			<PrintAutoNumber inherited="true">0</PrintAutoNumber>
+			<PrintBreakType>0</PrintBreakType>
+			<PrintEndnotePage inherited="true">false</PrintEndnotePage>
+			<PrintEndnoteListFormat>1</PrintEndnoteListFormat>
+			<PrintEndnoteNumberType>0</PrintEndnoteNumberType>
+			<PrintHeadingStyle inherited="true">0</PrintHeadingStyle>
+			<PrintMedia inherited="true">0</PrintMedia>
+			<PrintSuperHeading></PrintSuperHeading>
+			<HelpAlias></HelpAlias>
+			<HelpContextID inherited="true">0</HelpContextID>
+			<HelpContextString></HelpContextString>
+			<HelpCustomFootnotes></HelpCustomFootnotes>
+			<HelpHeadingStyle inherited="true">0</HelpHeadingStyle>
+			<HelpIncludeInSequence inherited="true">false</HelpIncludeInSequence>
+			<HelpJumpMacro inherited="true">0</HelpJumpMacro>
+			<HelpJumpType inherited="true">2</HelpJumpType>
+			<HelpJumpWindow inherited="true">0</HelpJumpWindow>
+			<HelpNewSequence inherited="true">false</HelpNewSequence>
+			<HelpNonScrolling inherited="true">false</HelpNonScrolling>
+			<HelpTopicMacro inherited="true">0</HelpTopicMacro>
+			<WebFilename></WebFilename>
+			<WebMedia inherited="true">0</WebMedia>
+			<WebStartNewPage inherited="true">false</WebStartNewPage>
+			<WebTitle></WebTitle>
+			<WebTOCImage inherited="true">(auto)</WebTOCImage>
+		</Topic>
+		<Topic>
+			<Object>
+				<BasedOn>513626</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2021-02-08T20:01:51</CreatedDate>
+				<Description>Qualification Mapping Information</Description>
+				<FolderID>142775</FolderID>
+				<GUID>9712be8d3e3e451585dafaaedf29d91d</GUID>
+				<ID>1170489</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>9735649</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2021-02-14T22:57:34</ModifiedDate>
+				<ReleaseStateID>6</ReleaseStateID>
+				<Type>Topic</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1170489</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<Headings>
+				<PrintHeading>Qualification Mapping Information</PrintHeading>
+				<HelpHeading inherited="true">Mapping Information</HelpHeading>
+				<WebHeading inherited="true">Mapping Information</WebHeading>
+			</Headings>
+			<RelatedGroups></RelatedGroups>
+			<Text>
+				<p id="4">Supersedes and is equivalent to AUR31216 Certificate III in Mobile Plant Technology.</p>
+				<p id="4">Supersedes and is not equivalent to AUR31716 Certificate III in Forklift Technology.</p>
+				<p id="4">Supersedes and is not equivalent to AUR31916 Certificate III in Elevating Work Platform Technology.</p>
+			</Text>
+			<VariableAssignments></VariableAssignments>
+			<PrintAutoNumber inherited="true">0</PrintAutoNumber>
+			<PrintBreakType>0</PrintBreakType>
+			<PrintEndnotePage inherited="true">false</PrintEndnotePage>
+			<PrintEndnoteListFormat>1</PrintEndnoteListFormat>
+			<PrintEndnoteNumberType>0</PrintEndnoteNumberType>
+			<PrintHeadingStyle inherited="true">0</PrintHeadingStyle>
+			<PrintMedia inherited="true">0</PrintMedia>
+			<PrintSuperHeading></PrintSuperHeading>
+			<HelpAlias></HelpAlias>
+			<HelpContextID inherited="true">0</HelpContextID>
+			<HelpContextString></HelpContextString>
+			<HelpCustomFootnotes></HelpCustomFootnotes>
+			<HelpHeadingStyle inherited="true">0</HelpHeadingStyle>
+			<HelpIncludeInSequence inherited="true">false</HelpIncludeInSequence>
+			<HelpJumpMacro inherited="true">0</HelpJumpMacro>
+			<HelpJumpType inherited="true">2</HelpJumpType>
+			<HelpJumpWindow inherited="true">0</HelpJumpWindow>
+			<HelpNewSequence inherited="true">false</HelpNewSequence>
+			<HelpNonScrolling inherited="true">false</HelpNonScrolling>
+			<HelpTopicMacro inherited="true">0</HelpTopicMacro>
+			<WebFilename></WebFilename>
+			<WebMedia inherited="true">0</WebMedia>
+			<WebStartNewPage inherited="true">false</WebStartNewPage>
+			<WebTitle></WebTitle>
+			<WebTOCImage inherited="true">(auto)</WebTOCImage>
+		</Topic>
+		<Topic>
+			<Object>
+				<BasedOn>513625</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2021-02-08T20:01:59</CreatedDate>
+				<Description>Links</Description>
+				<FolderID>142775</FolderID>
+				<GUID>8490238b731f44b08da81c44f76f8b5a</GUID>
+				<ID>1170494</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>9735651</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2021-02-14T22:57:34</ModifiedDate>
+				<ReleaseStateID>11</ReleaseStateID>
+				<Type>Topic</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1170494</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<Headings>
+				<PrintHeading inherited="true">Links</PrintHeading>
+				<HelpHeading inherited="true">Links</HelpHeading>
+				<WebHeading inherited="true">Links</WebHeading>
+			</Headings>
+			<RelatedGroups></RelatedGroups>
+			<Text>
+				<p id="4">Companion Volume Implementation Guide is found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=b4278d82-d487-4070-a8c4-78045ec695b1</p>
+			</Text>
+			<VariableAssignments></VariableAssignments>
+			<PrintAutoNumber inherited="true">0</PrintAutoNumber>
+			<PrintBreakType>0</PrintBreakType>
+			<PrintEndnotePage inherited="true">false</PrintEndnotePage>
+			<PrintEndnoteListFormat>1</PrintEndnoteListFormat>
+			<PrintEndnoteNumberType>0</PrintEndnoteNumberType>
+			<PrintHeadingStyle inherited="true">0</PrintHeadingStyle>
+			<PrintMedia inherited="true">0</PrintMedia>
+			<PrintSuperHeading></PrintSuperHeading>
+			<HelpAlias></HelpAlias>
+			<HelpContextID inherited="true">0</HelpContextID>
+			<HelpContextString></HelpContextString>
+			<HelpCustomFootnotes></HelpCustomFootnotes>
+			<HelpHeadingStyle inherited="true">0</HelpHeadingStyle>
+			<HelpIncludeInSequence inherited="true">false</HelpIncludeInSequence>
+			<HelpJumpMacro inherited="true">0</HelpJumpMacro>
+			<HelpJumpType inherited="true">2</HelpJumpType>
+			<HelpJumpWindow inherited="true">0</HelpJumpWindow>
+			<HelpNewSequence inherited="true">false</HelpNewSequence>
+			<HelpNonScrolling inherited="true">false</HelpNonScrolling>
+			<HelpTopicMacro inherited="true">0</HelpTopicMacro>
+			<WebFilename></WebFilename>
+			<WebMedia inherited="true">0</WebMedia>
+			<WebStartNewPage inherited="true">false</WebStartNewPage>
+			<WebTitle></WebTitle>
+			<WebTOCImage inherited="true">(auto)</WebTOCImage>
+		</Topic>
+		<Book>
+			<Object>
+				<BasedOn>513637</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2021-02-08T20:01:47</CreatedDate>
+				<Description>AUR31220 Certificate III in Mobile Plant Technology (Release 2)</Description>
+				<FolderID>142775</FolderID>
+				<GUID>49b2973a1122428c9e3abd1f1e8eeef1</GUID>
+				<ID>1170488</ID>
+				<IncludeInHelp inherited="true">true</IncludeInHelp>
+				<IncludeInPrint inherited="true">true</IncludeInPrint>
+				<IncludeInWeb inherited="true">true</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>9735650</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2021-02-14T22:57:34</ModifiedDate>
+				<ReleaseStateID>6</ReleaseStateID>
+				<Type>Book</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>1170488</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<ContentsNodes>
+				<Node id="1170493"></Node>
+				<Node id="1170492"></Node>
+				<Node id="1170491"></Node>
+				<Node id="1170490"></Node>
+				<Node id="1170489"></Node>
+				<Node id="1170494"></Node>
+			</ContentsNodes>
+			<VariableAssignments>
+				<VariableAssignment>
+					<ID>56</ID>
+					<Name>AqfAlignment</Name>
+					<Value>Certificate III</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>34</ID>
+					<Name>Code</Name>
+					<Value>AUR31220</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>27</ID>
+					<Name>Currency</Name>
+					<Value>Current</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>68</ID>
+					<Name>PreReleaseName</Name>
+					<Value>MN6.1</Value>
+					<ValueObject>0</ValueObject>
+					<Style>0</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>37</ID>
+					<Name>ReleaseName</Name>
+					<Value>Release 2</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>42</ID>
+					<Name>ReleaseNumber</Name>
+					<Value>2</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>38</ID>
+					<Name>ResponsibleTrainingPackageDeveloper</Name>
+					<Value>Mining and Automotive Skills Alliance</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>25</ID>
+					<Name>StatusComponent</Name>
+					<Value>Official</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>58</ID>
+					<Name>StatusRelease</Name>
+					<Value>Approved</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>39</ID>
+					<Name>Title</Name>
+					<Value>Certificate III in Mobile Plant Technology</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>53</ID>
+					<Name>TpcmsObjectType</Name>
+					<Value>StreamlineQualification</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+				<VariableAssignment>
+					<ID>46</ID>
+					<Name>UsageRecommendation</Name>
+					<Value>current</Value>
+					<ValueObject>0</ValueObject>
+					<Style>-1</Style>
+					<PublishPrompt>false</PublishPrompt>
+					<IsVariantCriteria>false</IsVariantCriteria>
+				</VariableAssignment>
+			</VariableAssignments>
+			<PrintByLine inherited="true">&lt;ResponsibleTrainingPackageDeveloper&gt;</PrintByLine>
+			<PrintTitle inherited="true">&lt;Code&gt; &lt;Title&gt;</PrintTitle>
+			<PrintSubTitle inherited="true">Review Date: &lt;Rdate&gt;</PrintSubTitle>
+			<PrintSuperTitle inherited="true">&lt;SYS_STATEID&gt;</PrintSuperTitle>
+			<PrintVersion inherited="true">Release: &lt;ReleaseNumber&gt;</PrintVersion>
+			<PrintWordTemplate></PrintWordTemplate>
+			<HelpAltPrefix></HelpAltPrefix>
+			<HelpCitation></HelpCitation>
+			<HelpCompression inherited="true">0</HelpCompression>
+			<HelpCopyright></HelpCopyright>
+			<HelpFileName inherited="true">Streamlined Qualification Template</HelpFileName>
+			<HelpIncludeFile></HelpIncludeFile>
+			<HelpMacro inherited="true">0</HelpMacro>
+			<HelpTitle inherited="true">Streamlined Qualification Template</HelpTitle>
+			<HelpTopicOffset inherited="true">0</HelpTopicOffset>
+			<WebAdditionalFiles />
+			<WebBaseFontSize inherited="true">12</WebBaseFontSize>
+			<WebBaseURL></WebBaseURL>
+			<WebByLine></WebByLine>
+			<WebFramesetTemplate></WebFramesetTemplate>
+			<WebSuperTitle></WebSuperTitle>
+			<WebTitle inherited="true">Streamlined Qualification Template</WebTitle>
+			<WebVersion></WebVersion>
+		</Book>
+		<PublishProfile>
+			<Object>
+				<BasedOn>0</BasedOn>
+				<CreatedBy>(supervisor)</CreatedBy>
+				<CreatedDate>2007-09-16T11:49:51</CreatedDate>
+				<Description>XML</Description>
+				<FolderID>14</FolderID>
+				<GUID>8c7fd3b5e0cd4dddbc141a144c3406ce</GUID>
+				<ID>184</ID>
+				<IncludeInHelp>false</IncludeInHelp>
+				<IncludeInPrint>false</IncludeInPrint>
+				<IncludeInWeb>false</IncludeInWeb>
+				<IsTemplate>false</IsTemplate>
+				<LocalizationID>0</LocalizationID>
+				<ModifiedID>481162</ModifiedID>
+				<ModifiedBy>(supervisor)</ModifiedBy>
+				<ModifiedDate>2011-07-04T09:30:35</ModifiedDate>
+				<ReleaseStateID>0</ReleaseStateID>
+				<Type>Publishing Profile</Type>
+				<Version>1</Version>
+				<VersionParent>0</VersionParent>
+				<VersionRoot>184</VersionRoot>
+				<VariantParentID>0</VariantParentID>
+				<LocID>1</LocID>
+				<ModifiedComments></ModifiedComments>
+			</Object>
+			<PublishFormat>11</PublishFormat>
+			<Books>
+				<Relation>
+					<ID>-1</ID>
+				</Relation>
+			</Books>
+			<ReleaseStates></ReleaseStates>
+			<ReleaseStateAction>2</ReleaseStateAction>
+			<AddReviewInfo>0</AddReviewInfo>
+			<TemplateLocation></TemplateLocation>
+			<WebAdditionalFiles />
+			<ObjectReplacements></ObjectReplacements>
+			<PublishXmlSettings>
+				<FileSettings>
+					<Admin>true</Admin>
+					<PrintTransformed>false</PrintTransformed>
+					<HelpTransformed>false</HelpTransformed>
+					<WebTransformed>false</WebTransformed>
+					<PrintOriginal>false</PrintOriginal>
+					<HelpOriginal>false</HelpOriginal>
+					<WebOriginal>false</WebOriginal>
+				</FileSettings>
+			</PublishXmlSettings>
+			<FilterAll>false</FilterAll>
+			<FilterRules>
+				<FilterRule>
+					<FilterRuleID>7</FilterRuleID>
+					<FilteredObjectID>0</FilteredObjectID>
+					<ReleaseStateID>-1</ReleaseStateID>
+					<ReleaseStateOperator>0</ReleaseStateOperator>
+					<FolderID>84</FolderID>
+					<FolderOperator>0</FolderOperator>
+					<IncludeSubfolders>true</IncludeSubfolders>
+					<VariableID>-1</VariableID>
+					<VariableOperator>0</VariableOperator>
+					<VariableValue></VariableValue>
+				</FilterRule>
+				<FilterRule>
+					<FilterRuleID>8</FilterRuleID>
+					<FilteredObjectID>0</FilteredObjectID>
+					<ReleaseStateID>-1</ReleaseStateID>
+					<ReleaseStateOperator>0</ReleaseStateOperator>
+					<FolderID>4</FolderID>
+					<FolderOperator>0</FolderOperator>
+					<IncludeSubfolders>true</IncludeSubfolders>
+					<VariableID>-1</VariableID>
+					<VariableOperator>0</VariableOperator>
+					<VariableValue></VariableValue>
+				</FilterRule>
+			</FilterRules>
+			<ActionsBeforePublish></ActionsBeforePublish>
+			<ActionsAfterPublish></ActionsAfterPublish>
+			<VariableAssignments></VariableAssignments>
+		</PublishProfile>
+	</Objects>
+	<ObjectSummarys>
+		<ObjectSummary>
+			<ID>475</ID>
+			<Type>Topic</Type>
+			<GUID>f01a7ea4754a4e24bcceaa2641e2ec2d</GUID>
+			<Description>Modification History</Description>
+		</ObjectSummary>
+		<ObjectSummary>
+			<ID>513614</ID>
+			<Type>Topic</Type>
+			<GUID>91010dcf29db4528b1a9e85358850ac8</GUID>
+			<Description>Template Data</Description>
+		</ObjectSummary>
+		<ObjectSummary>
+			<ID>513619</ID>
+			<Type>Topic</Type>
+			<GUID>acee48d85e0b46ffa56d94bc64c17f0e</GUID>
+			<Description>Streamlined Description</Description>
+		</ObjectSummary>
+		<ObjectSummary>
+			<ID>513621</ID>
+			<Type>Topic</Type>
+			<GUID>c22b7de550dd4fba8b410d34df533b83</GUID>
+			<Description>Streamlined Entry Requirements</Description>
+		</ObjectSummary>
+		<ObjectSummary>
+			<ID>513625</ID>
+			<Type>Topic</Type>
+			<GUID>23e4d0a089cc4256a33964ea713f6913</GUID>
+			<Description>Streamlined Links</Description>
+		</ObjectSummary>
+		<ObjectSummary>
+			<ID>513626</ID>
+			<Type>Topic</Type>
+			<GUID>0f8d8aad097b41a7ba8ec1242ad44d2f</GUID>
+			<Description>Streamlined Mapping Information</Description>
+		</ObjectSummary>
+		<ObjectSummary>
+			<ID>513627</ID>
+			<Type>Topic</Type>
+			<GUID>3139f7c8bcd843358d729a8aae4b3440</GUID>
+			<Description>Streamlined Packaging Rules</Description>
+		</ObjectSummary>
+	</ObjectSummarys>
+	<Folders>
+		<Folder>
+			<ID>72391</ID>
+			<Name>Streamlined Training Package Books</Name>
+			<GUID>f1cd14a8491e4ea3b5780e184e8d6086</GUID>
+			<ParentFolderID>72384</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>72384</ID>
+			<Name>Streamlined Training Packages</Name>
+			<GUID>9ad9e22317524b23ad49a0e0c8821b0c</GUID>
+			<ParentFolderID>4</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>4</ID>
+			<Name>Object Templates</Name>
+			<GUID>C547BC452EC143FB841A5D2DB2043E4D</GUID>
+			<ParentFolderID>0</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>5</ID>
+			<Name>Media</Name>
+			<GUID>3EC95BAD0F59402887C4543448F1A496</GUID>
+			<ParentFolderID>1</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>1</ID>
+			<Name>Z_Standards</Name>
+			<GUID>3E516340F182493AA759D8B59F016B1B</GUID>
+			<ParentFolderID>0</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>15</ID>
+			<Name>Body</Name>
+			<GUID>d84e494c18a74a669abcf24e3c9726fd</GUID>
+			<ParentFolderID>6</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>6</ID>
+			<Name>Styles</Name>
+			<GUID>36644654AC2849B8BFAE7F04895BF1D7</GUID>
+			<ParentFolderID>1</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>16</ID>
+			<Name>Character</Name>
+			<GUID>98ed9c9678bd41d48d53d0eaffd6d1fc</GUID>
+			<ParentFolderID>6</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>17</ID>
+			<Name>Headings</Name>
+			<GUID>421f3a6ab7ba447aae67a2cc3a85ff1e</GUID>
+			<ParentFolderID>6</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>18</ID>
+			<Name>Lists</Name>
+			<GUID>2833e80b620c410bab9b3896afe0da6f</GUID>
+			<ParentFolderID>6</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>142775</ID>
+			<Name>Release 2</Name>
+			<GUID>c2e73877af904631bd29e23af78bd239</GUID>
+			<ParentFolderID>138827</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>138827</ID>
+			<Name>AUR31220</Name>
+			<GUID>3b8b53ce48f54dc6875edf31adcfea6d</GUID>
+			<ParentFolderID>80570</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>80570</ID>
+			<Name>Qualifications</Name>
+			<GUID>55f7c39c602b40f9a52ab3fd135ee203</GUID>
+			<ParentFolderID>80568</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>80568</ID>
+			<Name>AUR</Name>
+			<GUID>87226fead6844d6f915d3e4aa98fa72f</GUID>
+			<ParentFolderID>67538</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>67538</ID>
+			<Name>Automotive Industry Retail, Service and Repair Training Package</Name>
+			<GUID>5e495870273f490184debfb6d91407af</GUID>
+			<ParentFolderID>155785</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>155785</ID>
+			<Name>Mining and Automotive Skills Alliance</Name>
+			<GUID>1c86c01909d642978abd2b0e31361539</GUID>
+			<ParentFolderID>61</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>61</ID>
+			<Name>_TPDs</Name>
+			<GUID>3a5a504e33334e7b9454479b62055ca2</GUID>
+			<ParentFolderID>0</ParentFolderID>
+			<HasSubFolders>true</HasSubFolders>
+		</Folder>
+		<Folder>
+			<ID>14</ID>
+			<Name>Publishing Profiles</Name>
+			<GUID>0c360bd2a09b40c1814ca869dd171fb9</GUID>
+			<ParentFolderID>1</ParentFolderID>
+			<HasSubFolders>false</HasSubFolders>
+		</Folder>
+	</Folders>
+	<ReleaseStates>
+		<ReleaseState>
+			<ID>6</ID>
+			<Name>Approved</Name>
+			<GUID>5BE11318B3B5461494A5BCE99F571BAA</GUID>
+			<Color>32768</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>7</ID>
+			<Name>Deleted</Name>
+			<GUID>a7725ee55499404999f5e08d6e257f4f</GUID>
+			<Color>8421504</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>1</ID>
+			<Name>Draft</Name>
+			<GUID>25499636E3D440E29F2190C0F0E4FA7F</GUID>
+			<Color>255</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>13</ID>
+			<Name>Draft (Use TP Builder)</Name>
+			<GUID>7c7fc05c5cee49d9bad25d5c49f1912f</GUID>
+			<Color>255</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>8</ID>
+			<Name>ExtendedData</Name>
+			<GUID>737acdb3d0004ad582372126134f3384</GUID>
+			<Color>16711935</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>12</ID>
+			<Name>Obsolete</Name>
+			<GUID>f68696dbab06460db60fab6ee909fd07</GUID>
+			<Color>12632256</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>11</ID>
+			<Name>ReadOnly</Name>
+			<GUID>084981492365495080cd26752252b9fa</GUID>
+			<Color>0</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>2</ID>
+			<Name>Submitted</Name>
+			<GUID>7C3FA213D5DD4835803049E7320F0A0C</GUID>
+			<Color>16711680</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+		<ReleaseState>
+			<ID>14</ID>
+			<Name>Submitted (Use TP Builder)</Name>
+			<GUID>F602E9B0F16E4481B46CE8AAA9270E2C</GUID>
+			<Color>16711680</Color>
+			<ReviewColor>16777215</ReviewColor>
+			<Type>0</Type>
+		</ReleaseState>
+	</ReleaseStates>
+	<Variables>
+		<Variable>
+			<ID>29</ID>
+			<Name>ACROCHECKPROXY</Name>
+			<Description>AcroCheck Proxy</Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>40</ID>
+			<Name>ApprovalDates</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>56</ID>
+			<Name>AqfAlignment</Name>
+			<Description></Description>
+			<Value>Certificate I</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>1</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+			<ListOfValues>
+				<Item lovid="0" parentlovid="-1">Advanced Diploma</Item>
+				<Item lovid="1" parentlovid="-1">Certificate I</Item>
+				<Item lovid="2" parentlovid="-1">Certificate II</Item>
+				<Item lovid="3" parentlovid="-1">Certificate III</Item>
+				<Item lovid="4" parentlovid="-1">Certificate IV</Item>
+				<Item lovid="5" parentlovid="-1">Diploma</Item>
+				<Item lovid="6" parentlovid="-1">Graduate Certificate</Item>
+				<Item lovid="7" parentlovid="-1">Graduate Diploma</Item>
+			</ListOfValues>
+		</Variable>
+		<Variable>
+			<ID>34</ID>
+			<Name>Code</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>35</ID>
+			<Name>CRdate</Name>
+			<Description></Description>
+			<Value>2005</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>27</ID>
+			<Name>Currency</Name>
+			<Description></Description>
+			<Value>Current</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>1</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+			<ListOfValues>
+				<Item lovid="0" parentlovid="-1">Current</Item>
+				<Item lovid="1" parentlovid="-1">Replaced</Item>
+			</ListOfValues>
+		</Variable>
+		<Variable>
+			<ID>41</ID>
+			<Name>CurrencyChangeDates</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>26</ID>
+			<Name>EntCode</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>64</ID>
+			<Name>HISTCOMMENT</Name>
+			<Description>Used by Author-it to store history comments.</Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>true</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>55</ID>
+			<Name>HistoryData</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>28</ID>
+			<Name>IMPORT_ID</Name>
+			<Description>Used by the importer to store the filename and description of topics and books created by importing from some formats.</Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>50</ID>
+			<Name>IncludedRelease</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>52</ID>
+			<Name>MajorMinorFlag</Name>
+			<Description></Description>
+			<Value>Minor</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>1</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+			<ListOfValues>
+				<Item lovid="0" parentlovid="-1">Major</Item>
+				<Item lovid="1" parentlovid="-1">Minor</Item>
+			</ListOfValues>
+		</Variable>
+		<Variable>
+			<ID>36</ID>
+			<Name>MappingInformation</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>68</ID>
+			<Name>PreReleaseName</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>59</ID>
+			<Name>PublishingJobId</Name>
+			<Description>Records the Publishing Job Id of this Training Package</Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>32</ID>
+			<Name>RDate</Name>
+			<Description></Description>
+			<Value>12 April 2008</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>37</ID>
+			<Name>ReleaseName</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>42</ID>
+			<Name>ReleaseNumber</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>66</ID>
+			<Name>ReleaseToTgaDate</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>67</ID>
+			<Name>ReleaseYear</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>38</ID>
+			<Name>ResponsibleTrainingPackageDeveloper</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>57</ID>
+			<Name>StatisticalClassification</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>25</ID>
+			<Name>StatusComponent</Name>
+			<Description></Description>
+			<Value>Unofficial</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>1</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+			<ListOfValues>
+				<Item lovid="0" parentlovid="-1">Official</Item>
+				<Item lovid="1" parentlovid="-1">Unofficial</Item>
+			</ListOfValues>
+		</Variable>
+		<Variable>
+			<ID>44</ID>
+			<Name>StatusComponentChangeDate</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>58</ID>
+			<Name>StatusRelease</Name>
+			<Description></Description>
+			<Value>draft</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>1</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+			<ListOfValues>
+				<Item lovid="0" parentlovid="-1">approved</Item>
+				<Item lovid="1" parentlovid="-1">draft</Item>
+				<Item lovid="2" parentlovid="-1">submitted</Item>
+			</ListOfValues>
+		</Variable>
+		<Variable>
+			<ID>45</ID>
+			<Name>StatusReleaseChangeDates</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>39</ID>
+			<Name>Title</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>53</ID>
+			<Name>TpcmsObjectType</Name>
+			<Description></Description>
+			<Value>TrainingPackage</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>1</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+			<ListOfValues>
+				<Item lovid="0" parentlovid="-1">ConfidentialQualification</Item>
+				<Item lovid="1" parentlovid="-1">ConfidentialStreamlineAssesmentRequirements</Item>
+				<Item lovid="2" parentlovid="-1">ConfidentialStreamlineUnitPackage</Item>
+				<Item lovid="3" parentlovid="-1">ConfidentialStreamlineUnit</Item>
+				<Item lovid="4" parentlovid="-1">ConfidentialSkillSet</Item>
+				<Item lovid="5" parentlovid="-1">ConfidentialTrainingPackage</Item>
+				<Item lovid="6" parentlovid="-1">ConfidentialUnitContextualisation</Item>
+				<Item lovid="7" parentlovid="-1">Qualification</Item>
+				<Item lovid="8" parentlovid="-1">SkillSet</Item>
+				<Item lovid="9" parentlovid="-1">StreamlineAssesmentRequirements</Item>
+				<Item lovid="10" parentlovid="-1">StreamlineCreditArrangements</Item>
+				<Item lovid="11" parentlovid="-1">StreamlineQualification</Item>
+				<Item lovid="12" parentlovid="-1">StreamlineSkillSet</Item>
+				<Item lovid="13" parentlovid="-1">StreamlineTrainingPackage</Item>
+				<Item lovid="14" parentlovid="-1">StreamlineUnit</Item>
+				<Item lovid="15" parentlovid="-1">StreamlineUnitPackage</Item>
+				<Item lovid="16" parentlovid="-1">TrainingPackage</Item>
+				<Item lovid="17" parentlovid="-1">TrainingPackageHeaderInformation</Item>
+				<Item lovid="18" parentlovid="-1">UnitContextualisation</Item>
+				<Item lovid="19" parentlovid="-1">UnitOfCompetency</Item>
+			</ListOfValues>
+		</Variable>
+		<Variable>
+			<ID>69</ID>
+			<Name>TpCode</Name>
+			<Description>Code of owning Training Package</Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>70</ID>
+			<Name>TrainingComponentType</Name>
+			<Description>The training component type as far as the national register is concerned</Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>54</ID>
+			<Name>UnitGridData</Name>
+			<Description>Xml field to allow for storing multiple Unit Grid items</Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>49</ID>
+			<Name>UnitOfCompetency</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>46</ID>
+			<Name>UsageRecommendation</Name>
+			<Description></Description>
+			<Value>current</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>1</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+			<ListOfValues>
+				<Item lovid="0" parentlovid="-1">current</Item>
+				<Item lovid="1" parentlovid="-1">deleted</Item>
+				<Item lovid="2" parentlovid="-1">superseded</Item>
+			</ListOfValues>
+		</Variable>
+		<Variable>
+			<ID>47</ID>
+			<Name>UsageRecommendationChangeDates</Name>
+			<Description></Description>
+			<Value></Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>30</ID>
+			<Name>V1</Name>
+			<Description></Description>
+			<Value>1</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>31</ID>
+			<Name>V2</Name>
+			<Description></Description>
+			<Value>4</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+		<Variable>
+			<ID>33</ID>
+			<Name>VNum</Name>
+			<Description></Description>
+			<Value>1.5</Value>
+			<ValueObject>0</ValueObject>
+			<Style>-1</Style>
+			<Prompt>false</Prompt>
+			<IsVariantCriteria>false</IsVariantCriteria>
+			<Type>0</Type>
+			<Hidden>false</Hidden>
+			<DisplayName></DisplayName>
+			<MultiSelect>false</MultiSelect>
+		</Variable>
+	</Variables>
+	<Information>
+		<Description>XML Publishing Job</Description>
+		<Date>2025-03-17 12:06:41 PM</Date>
+		<Library>
+			<Name>TPCMS</Name>
+			<GUID>eb48bbee57b84a32a30abf1fd8a6309c</GUID>
+			<User>(supervisor)</User>
+			<Locale>
+				<ID>3081</ID>
+				<Description>English (Australia)</Description>
+				<Code>en_au</Code>
+			</Locale>
+		</Library>
+		<PublishJob>
+			<BookID>1170488</BookID>
+			<JobID>1987207</JobID>
+			<PublishProfileID>184</PublishProfileID>
+			<VariableAssignments></VariableAssignments>
+		</PublishJob>
+	</Information>
+</AuthorIT>

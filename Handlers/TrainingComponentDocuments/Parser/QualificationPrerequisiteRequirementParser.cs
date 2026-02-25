@@ -5,11 +5,35 @@ using System.Xml.Linq;
 
 namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 {
-    /// <summary>
-    /// Parses prerequisite requirements table from qualification documents.
-    /// </summary>
+    // Parses prerequisite requirements table from qualification documents.
     internal static class QualificationPrerequisiteRequirementParser
     {
+        /// <summary>
+        /// Returns true if the table has prerequisite requirement structure (unit in qualification | prerequisite unit).
+        /// </summary>
+        internal static bool IsPrerequisiteRequirementsTable(XElement table, XNamespace ns)
+        {
+            var rows = table.Elements(ns + "tr").ToList();
+            if (rows.Count == 0)
+            {
+                return false;
+            }
+            var firstRowCells = rows[0].Elements(ns + "td").Concat(rows[0].Elements(ns + "th")).ToList();
+            if (firstRowCells.Count < 2)
+            {
+                return false;
+            }
+            var c0 = CommonParser.ExtractInlineText(firstRowCells[0]).Trim();
+            var c1 = CommonParser.ExtractInlineText(firstRowCells[1]).Trim();
+            // Column 1: unit in qualification (e.g. "Unit of competency" or "UNIT IN THIS QUALIFICATION")
+            var col0IsUnit = c0.IndexOf("Unit of competency", StringComparison.OrdinalIgnoreCase) >= 0
+                || (c0.IndexOf("unit", StringComparison.OrdinalIgnoreCase) >= 0 && c0.IndexOf("qualification", StringComparison.OrdinalIgnoreCase) >= 0);
+            // Column 2: prerequisite (e.g. "Prerequisite requirement" or "PREREQUISITE UNIT")
+            var col1IsPrereq = c1.IndexOf("Prerequisite requirement", StringComparison.OrdinalIgnoreCase) >= 0
+                || (c1.IndexOf("prerequisite", StringComparison.OrdinalIgnoreCase) >= 0 && c1.IndexOf("unit", StringComparison.OrdinalIgnoreCase) >= 0);
+            return col0IsUnit && col1IsPrereq;
+        }
+
         internal static void Parse(XElement table, XNamespace ns, Dictionary<string, object> packagingRules)
         {
             const string unitCodePattern = @"\b([A-Z]{2,10}\d{3,6}[A-Z]?)\b";

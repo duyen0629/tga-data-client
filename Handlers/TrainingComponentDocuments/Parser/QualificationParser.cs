@@ -80,7 +80,13 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         continue;
                     }
                     var pText = CommonParser.ExtractInlineText(children[i]).Trim();
-                    if (string.IsNullOrWhiteSpace(pText) || pText.IndexOf("Prerequisite requirements", StringComparison.OrdinalIgnoreCase) < 0)
+                    if (string.IsNullOrWhiteSpace(pText))
+                    {
+                        continue;
+                    }
+                    // Match "Prerequisite requirements", "prerequisite unit requirements", etc.
+                    if (pText.IndexOf("prerequisite", StringComparison.OrdinalIgnoreCase) < 0
+                        || pText.IndexOf("requirement", StringComparison.OrdinalIgnoreCase) < 0)
                     {
                         continue;
                     }
@@ -90,7 +96,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         {
                             continue;
                         }
-                        if (!QualificationUnitTablesParser.IsPrerequisiteRequirementsTable(children[j], ns))
+                        if (!QualificationPrerequisiteRequirementParser.IsPrerequisiteRequirementsTable(children[j], ns))
                         {
                             continue;
                         }
@@ -119,29 +125,27 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
             // core and elective units
             var children = textNode.Elements().ToList();
-            var (coreUnits, electiveGroups, _) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
+            var (coreUnitsFromTables, electiveUnits, _) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
+            var coreUnitsFromParagraphs = QualificationCoreUnitsParser.Parse(children, ns, unitCodePattern);
 
-            // format: core units can be in table or paragraphs
-            if (coreUnits.Count == 0)
-            {
-                coreUnits = QualificationCoreUnitsParser.Parse(children, ns, unitCodePattern);
-            }
+            // Prefer paragraph-based core units when present (avoids misclassifying elective tables as core)
+            var coreUnits = coreUnitsFromParagraphs.Count > 0 ? coreUnitsFromParagraphs : coreUnitsFromTables;
 
             if (coreUnits.Count > 0)
             {
                 packagingRules["core_units"] = coreUnits;
             }
 
-            if (electiveGroups.Count > 0)
+            if (electiveUnits.Count > 0)
             {
-                packagingRules["elective_units"] = electiveGroups;
+                packagingRules["elective_units"] = electiveUnits;
             }
 
-            // specialist and general elective units
-            var (specialistElectiveGroups, generalElectiveUnits) = QualificationSpecialistElectiveUnitsParser.Parse(children, ns, unitCodePattern);
-            if (specialistElectiveGroups.Count > 0)
+            // specialist and general elective units (format: array of { key, title, items } when groups, or flat array of units)
+            var (specialistElectiveUnits, generalElectiveUnits) = QualificationSpecialistElectiveUnitsParser.Parse(children, ns, unitCodePattern);
+            if (specialistElectiveUnits.Count > 0)
             {
-                packagingRules["specialist_elective_units"] = specialistElectiveGroups;
+                packagingRules["specialist_elective_units"] = specialistElectiveUnits;
             }
             if (generalElectiveUnits.Count > 0)
             {
@@ -150,8 +154,9 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
             if (electiveRulesParagraphElements.Count > 0)
             {
-                var electiveRulesItems = CommonParser.ParseParagraphElementsToItems(
+                var electiveRulesItems = QualificationElectiveRulesParser.ParseToItems(
                     electiveRulesParagraphElements,
+                    ns,
                     "elective_rules");
                 packagingRules["elective_rules"] = electiveRulesItems;
             }

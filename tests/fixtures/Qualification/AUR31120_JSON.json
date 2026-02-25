@@ -961,9 +961,10 @@
       "elective_rules": [
         {
           "text": "Total number of units = 36",
-          "type": "bullet",
+          "type": "paragraph-bold",
           "order": 1,
-          "indent": 2,
+          "indent": null,
+          "content": null,
           "item_id": "elective_rules-1",
           "parent_bullet_item_id": null
         },
@@ -972,6 +973,20 @@
           "type": "paragraph",
           "order": 2,
           "indent": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "22"
+            },
+            {
+              "bold": true,
+              "text": "core units"
+            },
+            {
+              "bold": false,
+              "text": ", plus"
+            }
+          ],
           "item_id": "elective_rules-2",
           "parent_bullet_item_id": null
         },
@@ -980,6 +995,20 @@
           "type": "paragraph",
           "order": 3,
           "indent": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "14"
+            },
+            {
+              "bold": true,
+              "text": "elective units"
+            },
+            {
+              "bold": false,
+              "text": ", of which:"
+            }
+          ],
           "item_id": "elective_rules-3",
           "parent_bullet_item_id": null
         },
@@ -988,6 +1017,16 @@
           "type": "bullet",
           "order": 4,
           "indent": 0,
+          "content": [
+            {
+              "bold": true,
+              "text": "1"
+            },
+            {
+              "bold": false,
+              "text": "unit must be from one of the Specialist Elective Groups A or B below"
+            }
+          ],
           "item_id": "elective_rules-4",
           "parent_bullet_item_id": "elective_rules-3"
         },
@@ -996,6 +1035,20 @@
           "type": "bullet",
           "order": 5,
           "indent": 0,
+          "content": [
+            {
+              "bold": false,
+              "text": "of the remaining"
+            },
+            {
+              "bold": true,
+              "text": "13"
+            },
+            {
+              "bold": false,
+              "text": "units required to make up the elective unit total:"
+            }
+          ],
           "item_id": "elective_rules-5",
           "parent_bullet_item_id": "elective_rules-3"
         },
@@ -1004,6 +1057,20 @@
           "type": "bullet",
           "order": 6,
           "indent": 1,
+          "content": [
+            {
+              "bold": false,
+              "text": "up to"
+            },
+            {
+              "bold": true,
+              "text": "13"
+            },
+            {
+              "bold": false,
+              "text": "may be from the Specialist Elective Groups and/or the general elective units listed below"
+            }
+          ],
           "item_id": "elective_rules-6",
           "parent_bullet_item_id": "elective_rules-5"
         },
@@ -1012,6 +1079,20 @@
           "type": "bullet",
           "order": 7,
           "indent": 1,
+          "content": [
+            {
+              "bold": false,
+              "text": "up to"
+            },
+            {
+              "bold": true,
+              "text": "6"
+            },
+            {
+              "bold": false,
+              "text": "may be from a Certificate II qualification or above in this Training Package or another endorsed Training Package or accredited course."
+            }
+          ],
           "item_id": "elective_rules-7",
           "parent_bullet_item_id": "elective_rules-5"
         },
@@ -1020,6 +1101,7 @@
           "type": "paragraph",
           "order": 8,
           "indent": null,
+          "content": null,
           "item_id": "elective_rules-8",
           "parent_bullet_item_id": null
         }
@@ -1293,23 +1375,31 @@
       ],
       "elective_units_required": 14,
       "prerequisite_requirements": [],
-      "specialist_elective_units": {
-        "GroupA": [
-          {
-            "code": "AURHTX101",
-            "title": "Diagnose and repair heavy vehicle manual transmissions",
-            "item_id": "specialist_elective_unit_GroupA-1",
-            "asterisk": false
-          }
-        ],
-        "GroupB": [
-          {
-            "code": "AURHTX103",
-            "title": "Diagnose and repair heavy vehicle automatic transmissions",
-            "item_id": "specialist_elective_unit_GroupB-1",
-            "asterisk": false
-          }
-        ]
-      }
+      "specialist_elective_units": [
+        {
+          "key": "GroupA",
+          "items": [
+            {
+              "code": "AURHTX101",
+              "title": "Diagnose and repair heavy vehicle manual transmissions",
+              "item_id": "specialist_elective_unit_GroupA-1",
+              "asterisk": false
+            }
+          ],
+          "title": "Heavy Vehicle Manual Transmission"
+        },
+        {
+          "key": "GroupB",
+          "items": [
+            {
+              "code": "AURHTX103",
+              "title": "Diagnose and repair heavy vehicle automatic transmissions",
+              "item_id": "specialist_elective_unit_GroupB-1",
+              "asterisk": false
+            }
+          ],
+          "title": "Heavy Vehicle Automatic Transmission"
+        }
+      ]
     }
   }

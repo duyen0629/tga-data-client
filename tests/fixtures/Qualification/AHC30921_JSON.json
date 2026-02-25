@@ -605,6 +605,7 @@
           "type": "paragraph",
           "order": 1,
           "indent": null,
+          "content": null,
           "item_id": "elective_rules-1",
           "parent_bullet_item_id": null
         },
@@ -613,6 +614,7 @@
           "type": "bullet",
           "order": 2,
           "indent": 0,
+          "content": null,
           "item_id": "elective_rules-2",
           "parent_bullet_item_id": "elective_rules-1"
         },
@@ -621,6 +623,7 @@
           "type": "bullet",
           "order": 3,
           "indent": 1,
+          "content": null,
           "item_id": "elective_rules-3",
           "parent_bullet_item_id": "elective_rules-2"
         },
@@ -629,6 +632,7 @@
           "type": "bullet",
           "order": 4,
           "indent": 1,
+          "content": null,
           "item_id": "elective_rules-4",
           "parent_bullet_item_id": "elective_rules-2"
         },
@@ -637,6 +641,7 @@
           "type": "paragraph",
           "order": 5,
           "indent": null,
+          "content": null,
           "item_id": "elective_rules-5",
           "parent_bullet_item_id": null
         },
@@ -645,6 +650,7 @@
           "type": "bullet",
           "order": 6,
           "indent": 0,
+          "content": null,
           "item_id": "elective_rules-6",
           "parent_bullet_item_id": "elective_rules-5"
         },
@@ -653,6 +659,7 @@
           "type": "bullet",
           "order": 7,
           "indent": 0,
+          "content": null,
           "item_id": "elective_rules-7",
           "parent_bullet_item_id": "elective_rules-5"
         },
@@ -661,148 +668,157 @@
           "type": "bullet",
           "order": 8,
           "indent": 0,
+          "content": null,
           "item_id": "elective_rules-8",
           "parent_bullet_item_id": "elective_rules-5"
         }
       ],
-      "elective_units": {
-        "GroupA": [
-          {
-            "code": "AHCWHS302",
-            "title": "Contribute to workplace health and safety processes",
-            "item_id": "elective_unit_GroupA-1",
-            "asterisk": false
-          },
-          {
-            "code": "CPCCWHS2001",
-            "title": "Apply WHS requirements, policies and procedures in the construction industry",
-            "item_id": "elective_unit_GroupA-2",
-            "asterisk": false
-          }
-        ],
-        "GroupB": [
-          {
-            "code": "AHCBUS407",
-            "title": "Cost a project",
-            "item_id": "elective_unit_GroupB-1",
-            "asterisk": false
-          },
-          {
-            "code": "AHCGRI301",
-            "title": "Maintain roof gardens, vertical gardens and green facades",
-            "item_id": "elective_unit_GroupB-2",
-            "asterisk": false
-          },
-          {
-            "code": "AHCIRG345",
-            "title": "Install pressurised irrigation systems",
-            "item_id": "elective_unit_GroupB-3",
-            "asterisk": false
-          },
-          {
-            "code": "AHCLSC314",
-            "title": "Implement a tree transplanting program",
-            "item_id": "elective_unit_GroupB-4",
-            "asterisk": false
-          },
-          {
-            "code": "AHCLSC315",
-            "title": "Implement an outdoor tiling project",
-            "item_id": "elective_unit_GroupB-5",
-            "asterisk": false
-          },
-          {
-            "code": "AHCLSC318",
-            "title": "Erect timber structures and features",
-            "item_id": "elective_unit_GroupB-6",
-            "asterisk": false
-          },
-          {
-            "code": "AHCLSC320",
-            "title": "Install water features",
-            "item_id": "elective_unit_GroupB-7",
-            "asterisk": false
-          },
-          {
-            "code": "AHCLSC321",
-            "title": "Install metal structures and features",
-            "item_id": "elective_unit_GroupB-8",
-            "asterisk": false
-          },
-          {
-            "code": "AHCMOM213",
-            "title": "Operate and maintain chainsaws",
-            "item_id": "elective_unit_GroupB-9",
-            "asterisk": false
-          },
-          {
-            "code": "AHCMOM304",
-            "title": "Operate machinery and equipment",
-            "item_id": "elective_unit_GroupB-10",
-            "asterisk": false
-          },
-          {
-            "code": "AHCPCM204",
-            "title": "Recognise plants",
-            "item_id": "elective_unit_GroupB-11",
-            "asterisk": false
-          },
-          {
-            "code": "AHCPCM303",
-            "title": "Identify plant specimens",
-            "item_id": "elective_unit_GroupB-12",
-            "asterisk": false
-          },
-          {
-            "code": "AHCPGD310",
-            "title": "Implement a landscape maintenance program",
-            "item_id": "elective_unit_GroupB-13",
-            "asterisk": false
-          },
-          {
-            "code": "AHCWRK320",
-            "title": "Apply environmentally sustainable work practices",
-            "item_id": "elective_unit_GroupB-14",
-            "asterisk": false
-          },
-          {
-            "code": "CPCCCA3018",
-            "title": "Construct, erect and dismantle formwork for stairs and ramps",
-            "item_id": "elective_unit_GroupB-15",
-            "asterisk": true
-          },
-          {
-            "code": "CPCCCA3028",
-            "title": "Erect and dismantle formwork for footings and slabs on ground",
-            "item_id": "elective_unit_GroupB-16",
-            "asterisk": true
-          },
-          {
-            "code": "CPCCON3041",
-            "title": "Place concrete",
-            "item_id": "elective_unit_GroupB-17",
-            "asterisk": true
-          },
-          {
-            "code": "CPCCON3042",
-            "title": "Finish concrete",
-            "item_id": "elective_unit_GroupB-18",
-            "asterisk": true
-          },
-          {
-            "code": "CPCCON3043",
-            "title": "Cure concrete",
-            "item_id": "elective_unit_GroupB-19",
-            "asterisk": true
-          },
-          {
-            "code": "MSFFL3127",
-            "title": "Install synthetic textile floor coverings in indoor and outdoor facilities",
-            "item_id": "elective_unit_GroupB-20",
-            "asterisk": false
-          }
-        ]
-      },
+      "elective_units": [
+        {
+          "key": "GroupA",
+          "items": [
+            {
+              "code": "AHCWHS302",
+              "title": "Contribute to workplace health and safety processes",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": false
+            },
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": false
+            }
+          ],
+          "title": ""
+        },
+        {
+          "key": "GroupB",
+          "items": [
+            {
+              "code": "AHCBUS407",
+              "title": "Cost a project",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": false
+            },
+            {
+              "code": "AHCGRI301",
+              "title": "Maintain roof gardens, vertical gardens and green facades",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": false
+            },
+            {
+              "code": "AHCIRG345",
+              "title": "Install pressurised irrigation systems",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": false
+            },
+            {
+              "code": "AHCLSC314",
+              "title": "Implement a tree transplanting program",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": false
+            },
+            {
+              "code": "AHCLSC315",
+              "title": "Implement an outdoor tiling project",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": false
+            },
+            {
+              "code": "AHCLSC318",
+              "title": "Erect timber structures and features",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": false
+            },
+            {
+              "code": "AHCLSC320",
+              "title": "Install water features",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": false
+            },
+            {
+              "code": "AHCLSC321",
+              "title": "Install metal structures and features",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": false
+            },
+            {
+              "code": "AHCMOM213",
+              "title": "Operate and maintain chainsaws",
+              "item_id": "elective_unit_GroupB-9",
+              "asterisk": false
+            },
+            {
+              "code": "AHCMOM304",
+              "title": "Operate machinery and equipment",
+              "item_id": "elective_unit_GroupB-10",
+              "asterisk": false
+            },
+            {
+              "code": "AHCPCM204",
+              "title": "Recognise plants",
+              "item_id": "elective_unit_GroupB-11",
+              "asterisk": false
+            },
+            {
+              "code": "AHCPCM303",
+              "title": "Identify plant specimens",
+              "item_id": "elective_unit_GroupB-12",
+              "asterisk": false
+            },
+            {
+              "code": "AHCPGD310",
+              "title": "Implement a landscape maintenance program",
+              "item_id": "elective_unit_GroupB-13",
+              "asterisk": false
+            },
+            {
+              "code": "AHCWRK320",
+              "title": "Apply environmentally sustainable work practices",
+              "item_id": "elective_unit_GroupB-14",
+              "asterisk": false
+            },
+            {
+              "code": "CPCCCA3018",
+              "title": "Construct, erect and dismantle formwork for stairs and ramps",
+              "item_id": "elective_unit_GroupB-15",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCCA3028",
+              "title": "Erect and dismantle formwork for footings and slabs on ground",
+              "item_id": "elective_unit_GroupB-16",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3041",
+              "title": "Place concrete",
+              "item_id": "elective_unit_GroupB-17",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3042",
+              "title": "Finish concrete",
+              "item_id": "elective_unit_GroupB-18",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3043",
+              "title": "Cure concrete",
+              "item_id": "elective_unit_GroupB-19",
+              "asterisk": true
+            },
+            {
+              "code": "MSFFL3127",
+              "title": "Install synthetic textile floor coverings in indoor and outdoor facilities",
+              "item_id": "elective_unit_GroupB-20",
+              "asterisk": false
+            }
+          ],
+          "title": ""
+        }
+      ],
       "core_units_required": 10,
       "elective_units_required": 7,
       "prerequisite_requirements": [
