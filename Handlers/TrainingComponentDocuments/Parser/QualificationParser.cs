@@ -73,6 +73,20 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             foreach (var textNode in doc.Descendants(ns + "Text"))
             {
                 var children = textNode.Elements().ToList();
+                // Check tables directly (e.g. table with "Prerequisite unit requirements" in first row, no preceding p)
+                for (var j = 0; j < children.Count; j++)
+                {
+                    if (children[j].Name != ns + "table")
+                    {
+                        continue;
+                    }
+                    if (QualificationPrerequisiteRequirementParser.IsPrerequisiteRequirementsTable(children[j], ns))
+                    {
+                        QualificationPrerequisiteRequirementParser.Parse(children[j], ns, packagingRules);
+                        return;
+                    }
+                }
+                // Also find table that follows a p with "prerequisite" and "requirement"
                 for (var i = 0; i < children.Count; i++)
                 {
                     if (children[i].Name != ns + "p")
@@ -84,7 +98,6 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     {
                         continue;
                     }
-                    // Match "Prerequisite requirements", "prerequisite unit requirements", etc.
                     if (pText.IndexOf("prerequisite", StringComparison.OrdinalIgnoreCase) < 0
                         || pText.IndexOf("requirement", StringComparison.OrdinalIgnoreCase) < 0)
                     {
@@ -110,14 +123,14 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
         private static void ParsePackagingRulesFromTopic(XElement topic, XNamespace ns, Dictionary<string, object> packagingRules)
         {
-            const string unitCodePattern = @"\b([A-Z]{2,10}\d{3,6}[A-Z]?)\b";
+            const string unitCodePattern = @"\b([A-Z]{2,10}\d{2,6}[A-Z]?)\b";
             var textNode = topic.Element(ns + "Text");
             if (textNode == null)
             {
                 return;
             }
 
-            // elective rules paragraphs
+            // elective rules: single-pass collection (content before Core, Specialisations after Core, no duplication)
             var electiveRulesParagraphElements = QualificationElectiveRulesParser.CollectElectiveRulesParagraphs(textNode, ns);
 
             // number: total_units, core_units_required, elective_units_required 
@@ -125,7 +138,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
             // core and elective units
             var children = textNode.Elements().ToList();
-            var (coreUnitsFromTables, electiveUnitsFromTables, specialistFromTable, generalFromTable, _) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
+            var (coreUnitsFromTables, electiveUnitsFromTables, specialistFromTable, generalFromTable, _, inlinePrerequisitesFromTables) = QualificationUnitTablesParser.ParseCoreAndElectiveUnitsFromTables(children, ns, unitCodePattern);
             var coreUnitsFromParagraphs = QualificationCoreUnitsParser.Parse(children, ns, unitCodePattern);
 
             // Prefer paragraph-based core units when present (avoids misclassifying elective tables as core)
@@ -140,28 +153,19 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             var electiveUnits = electiveUnitsFromTables.Count > 0
                 ? electiveUnitsFromTables
                 : QualificationElectiveUnitsParser.ParseFromParagraphs(children, ns, unitCodePattern);
-            if (electiveUnits.Count > 0)
-            {
-                packagingRules["elective_units"] = electiveUnits;
-            }
 
             // specialist and general elective units: from paragraphs first, else from combined table (Core + Group A/B)
             var (specialistElectiveUnits, generalElectiveUnits) = QualificationSpecialistElectiveUnitsParser.Parse(children, ns, unitCodePattern);
-            if (specialistElectiveUnits.Count > 0)
+            var specialistToMerge = specialistElectiveUnits.Count > 0 ? specialistElectiveUnits : specialistFromTable;
+            var generalToMerge = generalElectiveUnits.Count > 0
+                ? generalElectiveUnits.Cast<object>().ToList()
+                : generalFromTable;
+
+            // Merge all elective sources into elective_units. Format: { title, items } when groups exist (no key), else flat array.
+            var mergedElectiveUnits = MergeElectiveUnits(electiveUnits, specialistToMerge, generalToMerge);
+            if (mergedElectiveUnits.Count > 0)
             {
-                packagingRules["specialist_elective_units"] = specialistElectiveUnits;
-            }
-            else if (specialistFromTable.Count > 0)
-            {
-                packagingRules["specialist_elective_units"] = specialistFromTable;
-            }
-            if (generalElectiveUnits.Count > 0)
-            {
-                packagingRules["general_elective_units"] = generalElectiveUnits;
-            }
-            else if (generalFromTable.Count > 0)
-            {
-                packagingRules["general_elective_units"] = generalFromTable;
+                packagingRules["elective_units"] = mergedElectiveUnits;
             }
 
             if (electiveRulesParagraphElements.Count > 0)
@@ -172,7 +176,120 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     "elective_rules");
                 packagingRules["elective_rules"] = electiveRulesItems;
             }
+
+            if (inlinePrerequisitesFromTables.Count > 0)
+            {
+                var existing = (packagingRules["prerequisite_requirements"] as List<Dictionary<string, object>>) ?? new List<Dictionary<string, object>>();
+                var nextOrder = existing.Count + 1;
+                foreach (var pr in inlinePrerequisitesFromTables)
+                {
+                    pr["item_id"] = $"prerequisite_requirement-{nextOrder++}";
+                    existing.Add(pr);
+                }
+                packagingRules["prerequisite_requirements"] = existing;
+            }
         }
 
+        /// <summary>
+        /// Merges elective, specialist, and general elective units into a single elective_units list.
+        /// When groups exist: [{ category, title, items }] (e.g. category "Specialist Elective Units").
+        /// When no groups: flat [{ code, title, item_id, asterisk }, ...].
+        /// </summary>
+        private static List<object> MergeElectiveUnits(List<object> electiveUnits, List<object> specialistUnits, List<object> generalUnits)
+        {
+            var groupsWithCategory = new List<(string category, string fullTitle, List<Dictionary<string, object>> items)>();
+            var flatUnits = new List<Dictionary<string, object>>();
+
+            void AddSource(List<object> source, string fallbackCategory)
+            {
+                foreach (var item in source ?? new List<object>())
+                {
+                    if (item is Dictionary<string, object> dict)
+                    {
+                        if (dict.TryGetValue("items", out var itemsObj) && itemsObj is System.Collections.IEnumerable itemsEnumerable)
+                        {
+                            var items = new List<Dictionary<string, object>>();
+                            foreach (var i in itemsEnumerable)
+                            {
+                                if (i is Dictionary<string, object> d)
+                                    items.Add(d);
+                            }
+                            if (items.Count > 0)
+                            {
+                                var category = dict.TryGetValue("category", out var cat) ? (cat as string) ?? fallbackCategory : fallbackCategory;
+                                var key = dict.TryGetValue("key", out var k) ? (k as string) ?? string.Empty : string.Empty;
+                                var title = dict.TryGetValue("title", out var t) ? (t as string) ?? string.Empty : string.Empty;
+                                var fullTitle = BuildGroupFullTitle(key, title);
+                                if (!string.IsNullOrEmpty(fullTitle))
+                                {
+                                    groupsWithCategory.Add((category, fullTitle, items));
+                                }
+                                else if (!string.IsNullOrEmpty(category))
+                                {
+                                    groupsWithCategory.Add((category, category, items));
+                                }
+                                else
+                                {
+                                    flatUnits.AddRange(items);
+                                }
+                            }
+                        }
+                        else if (dict.ContainsKey("code"))
+                        {
+                            flatUnits.Add(dict);
+                        }
+                    }
+                }
+            }
+
+            AddSource(electiveUnits, "Elective units");
+            AddSource(specialistUnits, "Specialist Elective Units");
+            AddSource(generalUnits, "General Elective Units");
+
+            if (groupsWithCategory.Count > 0)
+            {
+                var result = groupsWithCategory.Select(g => (object)new Dictionary<string, object>
+                {
+                    { "category", g.category },
+                    { "title", g.fullTitle },
+                    { "items", g.items }
+                }).ToList();
+                if (flatUnits.Count > 0)
+                {
+                    result.Add(new Dictionary<string, object>
+                    {
+                        { "category", "Elective Units" },
+                        { "title", "Elective units" },
+                        { "items", flatUnits }
+                    });
+                }
+                return result;
+            }
+            if (flatUnits.Count > 0)
+            {
+                return flatUnits.Cast<object>().ToList();
+            }
+            return new List<object>();
+        }
+
+        private static string BuildGroupFullTitle(string key, string title)
+        {
+            if (string.IsNullOrEmpty(key) || string.Equals(key, "Elective", StringComparison.OrdinalIgnoreCase))
+            {
+                return string.IsNullOrEmpty(title) ? string.Empty : title;
+            }
+            // "GeneralElectives" is a section header, not "Group X" - use title as-is
+            if (string.Equals(key, "GeneralElectives", StringComparison.OrdinalIgnoreCase))
+            {
+                return string.IsNullOrEmpty(title) ? "General Electives" : title;
+            }
+            // Title is already full group header (e.g. "Group A", "Group A: Copper Cabling", "Group A - Building")
+            if (!string.IsNullOrEmpty(title) && title.TrimStart().StartsWith("Group ", StringComparison.OrdinalIgnoreCase))
+            {
+                return title;
+            }
+            var groupPart = key.Length > 5 ? "Group " + key.Substring(5) : key;
+            return string.IsNullOrEmpty(title) ? groupPart : $"{groupPart} - {title}";
+        }
     }
 }

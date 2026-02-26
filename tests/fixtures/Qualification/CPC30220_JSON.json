@@ -2114,163 +2114,163 @@
           "code": "CPCCCA2002",
           "title": "Use carpentry tools and equipment",
           "item_id": "core_unit-1",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA2011",
           "title": "Handle carpentry materials",
           "item_id": "core_unit-2",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3001",
           "title": "Carry out general demolition of minor building structures",
           "item_id": "core_unit-3",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3002",
           "title": "Carry out setting out",
           "item_id": "core_unit-4",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3003",
           "title": "Install flooring systems",
           "item_id": "core_unit-5",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3004",
           "title": "Construct and erect wall frames",
           "item_id": "core_unit-6",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3005",
           "title": "Construct ceiling frames",
           "item_id": "core_unit-7",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3006",
           "title": "Erect roof trusses",
           "item_id": "core_unit-8",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3007",
           "title": "Construct pitched roofs",
           "item_id": "core_unit-9",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3008",
           "title": "Construct eaves",
           "item_id": "core_unit-10",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3010",
           "title": "Install windows and doors",
           "item_id": "core_unit-11",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3016",
           "title": "Construct, assemble and install timber external stairs",
           "item_id": "core_unit-12",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3017",
           "title": "Install exterior cladding",
           "item_id": "core_unit-13",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3024",
           "title": "Install lining, panelling and moulding",
           "item_id": "core_unit-14",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3025",
           "title": "Read and interpret plans, specifications and drawings for carpentry work",
           "item_id": "core_unit-15",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCA3028",
           "title": "Erect and dismantle formwork for footings and slabs on ground",
           "item_id": "core_unit-16",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCM2006",
           "title": "Apply basic levelling procedures",
           "item_id": "core_unit-17",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "CPCCCM2008",
           "title": "Erect and dismantle restricted height scaffolding",
           "item_id": "core_unit-18",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCM2012",
           "title": "Work safely at heights",
           "item_id": "core_unit-19",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCCO2013",
           "title": "Carry out concreting to simple forms",
           "item_id": "core_unit-20",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "CPCCOM1012",
           "title": "Work effectively and sustainably in the construction industry",
           "item_id": "core_unit-21",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "CPCCOM1014",
           "title": "Conduct workplace communication",
           "item_id": "core_unit-22",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "CPCCOM1015",
           "title": "Carry out measurements and calculations",
           "item_id": "core_unit-23",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "CPCCOM3001",
           "title": "Perform construction calculations to determine carpentry material requirements",
           "item_id": "core_unit-24",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "CPCCOM3006",
           "title": "Carry out levelling operations",
           "item_id": "core_unit-25",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "CPCCWHS2001",
           "title": "Apply WHS requirements, policies and procedures in the construction industry",
           "item_id": "core_unit-26",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "CPCWHS3001",
           "title": "Identify construction work hazards and select risk control strategies",
           "item_id": "core_unit-27",
-          "asterisk": false
+          "asterisk": 0
         }
       ],
       "total_units": 34,
@@ -2357,222 +2357,220 @@
           "parent_bullet_item_id": null
         }
       ],
-      "core_units_required": 27,
-      "general_elective_units": [
+      "elective_units": [
         {
-          "key": "GroupB",
-          "items": [
-            {
-              "code": "CPCCCA3011",
-              "title": "Refurbish timber sashes to window frames",
-              "item_id": "general_elective_unit_GroupB-1",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCCA3026",
-              "title": "Assemble partitions",
-              "item_id": "general_elective_unit_GroupB-2",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCCM3005",
-              "title": "Calculate costs of construction work",
-              "item_id": "general_elective_unit_GroupB-3",
-              "asterisk": false
-            },
-            {
-              "code": "CPCCLSF2001",
-              "title": "License to erect, alter and dismantle scaffolding basic level",
-              "item_id": "general_elective_unit_GroupB-4",
-              "asterisk": false
-            },
-            {
-              "code": "CPCCOM1013",
-              "title": "Plan and organise work",
-              "item_id": "general_elective_unit_GroupB-5",
-              "asterisk": false
-            },
-            {
-              "code": "CPCCPB3001",
-              "title": "Fix standard plasterboard wall sheets",
-              "item_id": "general_elective_unit_GroupB-6",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCPB3002",
-              "title": "Fix standard plasterboard ceiling sheets",
-              "item_id": "general_elective_unit_GroupB-7",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCSF2005",
-              "title": "Arc weld reinforcement steel",
-              "item_id": "general_elective_unit_GroupB-8",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCSF3002",
-              "title": "Carry out monostrand post-tensioning",
-              "item_id": "general_elective_unit_GroupB-9",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCSF3003",
-              "title": "Carry out multistrand post-tensioning",
-              "item_id": "general_elective_unit_GroupB-10",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCSF3004",
-              "title": "Carry out stressbar post-tensioning",
-              "item_id": "general_elective_unit_GroupB-11",
-              "asterisk": true
-            },
-            {
-              "code": "CPCCST4001",
-              "title": "Prepare to undertake the heritage restoration process",
-              "item_id": "general_elective_unit_GroupB-12",
-              "asterisk": false
-            },
-            {
-              "code": "CPCCST4002",
-              "title": "Undertake the heritage restoration process",
-              "item_id": "general_elective_unit_GroupB-13",
-              "asterisk": false
-            },
-            {
-              "code": "CPCPCM2043",
-              "title": "Carry out WHS requirements",
-              "item_id": "general_elective_unit_GroupB-14",
-              "asterisk": false
-            },
-            {
-              "code": "CPCPCM2052",
-              "title": "Weld mild steel using oxy-acetylene equipment",
-              "item_id": "general_elective_unit_GroupB-15",
-              "asterisk": true
-            },
-            {
-              "code": "CPCPCM2053",
-              "title": "Weld using manual metal arc welding equipment",
-              "item_id": "general_elective_unit_GroupB-16",
-              "asterisk": true
-            }
-          ],
-          "title": "General Electives"
-        }
-      ],
-      "elective_units_required": 7,
-      "prerequisite_requirements": [],
-      "specialist_elective_units": [
-        {
-          "key": "GroupA",
           "items": [
             {
               "code": "CPCCCA3009",
               "title": "Construct advanced roofs",
               "item_id": "specialist_elective_unit_GroupA-1",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3012",
               "title": "Frame and fit wet area fixtures",
               "item_id": "specialist_elective_unit_GroupA-2",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3014",
               "title": "Construct and install bulkheads",
               "item_id": "specialist_elective_unit_GroupA-3",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3018",
               "title": "Construct, erect and dismantle formwork for stairs and ramps",
               "item_id": "specialist_elective_unit_GroupA-4",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3019",
               "title": "Erect and dismantle formwork to suspended slabs, columns, beams and walls",
               "item_id": "specialist_elective_unit_GroupA-5",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3020",
               "title": "Erect and dismantle jump-form formwork",
               "item_id": "specialist_elective_unit_GroupA-6",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3022",
               "title": "Install curtain walling",
               "item_id": "specialist_elective_unit_GroupA-7",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3027",
               "title": "Set up, operate and maintain indirect action powder-actuated power tools",
               "item_id": "specialist_elective_unit_GroupA-8",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCM2002",
               "title": "Carry out hand excavation",
               "item_id": "specialist_elective_unit_GroupA-9",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCM3001",
               "title": "Operate elevated work platforms up to 11 metres",
               "item_id": "specialist_elective_unit_GroupA-10",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "CPCCJN3003",
               "title": "Manufacture components for doors, windows and frames",
               "item_id": "specialist_elective_unit_GroupA-11",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCJN3004",
               "title": "Manufacture and assemble joinery components",
               "item_id": "specialist_elective_unit_GroupA-12",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCJN3100",
               "title": "Process materials to produce components using static machines",
               "item_id": "specialist_elective_unit_GroupA-13",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCON3048",
               "title": "Construct tilt panels on site",
               "item_id": "specialist_elective_unit_GroupA-14",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCSF2004",
               "title": "Place and fix reinforcement materials",
               "item_id": "specialist_elective_unit_GroupA-15",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCWC3003",
               "title": "Install dry wall passive fire-rated systems",
               "item_id": "specialist_elective_unit_GroupA-16",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCWC3004",
               "title": "Install suspended ceilings",
               "item_id": "specialist_elective_unit_GroupA-17",
-              "asterisk": true
+              "asterisk": 1
             }
           ],
-          "title": "Specialist Electives"
+          "title": "Group A - Specialist Electives",
+          "category": "Specialist Electives"
+        },
+        {
+          "items": [
+            {
+              "code": "CPCCCA3011",
+              "title": "Refurbish timber sashes to window frames",
+              "item_id": "general_elective_unit_GroupB-1",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCCA3026",
+              "title": "Assemble partitions",
+              "item_id": "general_elective_unit_GroupB-2",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCCM3005",
+              "title": "Calculate costs of construction work",
+              "item_id": "general_elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLSF2001",
+              "title": "License to erect, alter and dismantle scaffolding basic level",
+              "item_id": "general_elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCOM1013",
+              "title": "Plan and organise work",
+              "item_id": "general_elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCPB3001",
+              "title": "Fix standard plasterboard wall sheets",
+              "item_id": "general_elective_unit_GroupB-6",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCPB3002",
+              "title": "Fix standard plasterboard ceiling sheets",
+              "item_id": "general_elective_unit_GroupB-7",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCSF2005",
+              "title": "Arc weld reinforcement steel",
+              "item_id": "general_elective_unit_GroupB-8",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCSF3002",
+              "title": "Carry out monostrand post-tensioning",
+              "item_id": "general_elective_unit_GroupB-9",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCSF3003",
+              "title": "Carry out multistrand post-tensioning",
+              "item_id": "general_elective_unit_GroupB-10",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCSF3004",
+              "title": "Carry out stressbar post-tensioning",
+              "item_id": "general_elective_unit_GroupB-11",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCST4001",
+              "title": "Prepare to undertake the heritage restoration process",
+              "item_id": "general_elective_unit_GroupB-12",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCST4002",
+              "title": "Undertake the heritage restoration process",
+              "item_id": "general_elective_unit_GroupB-13",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCPCM2043",
+              "title": "Carry out WHS requirements",
+              "item_id": "general_elective_unit_GroupB-14",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCPCM2052",
+              "title": "Weld mild steel using oxy-acetylene equipment",
+              "item_id": "general_elective_unit_GroupB-15",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCPCM2053",
+              "title": "Weld using manual metal arc welding equipment",
+              "item_id": "general_elective_unit_GroupB-16",
+              "asterisk": 1
+            }
+          ],
+          "title": "Group B - General Electives",
+          "category": "General Electives"
         }
-      ]
+      ],
+      "core_units_required": 27,
+      "elective_units_required": 7,
+      "prerequisite_requirements": []
     }
   }

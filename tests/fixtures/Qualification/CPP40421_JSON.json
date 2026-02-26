@@ -2,79 +2,40 @@
     "source": {
       "complete": {
         "format": "xml",
-        "relative_path": "CPC\\CPC30320_R2.xml"
+        "relative_path": "CPP\\CPP40421_R1.xml"
       }
     },
     "sections": [
       {
         "key": "modification_history",
-        "items": [],
+        "items": [
+          {
+            "text": "Release 1",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "modification_history-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "This version first released with CPP Property Services Training Package Release 15.0.",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "modification_history-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Supersedes and is not equivalent to CPP40416 Certificate IV in Cleaning Management.",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "modification_history-3",
+            "parent_bullet_item_id": null
+          }
+        ],
         "order": 1,
-        "table": {
-          "rows": [
-            {
-              "cells": [
-                [
-                  {
-                    "text": "Release 2",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "modification_history_cell-1_1_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "Updated reference to general construction induction training program.",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "modification_history_cell-1_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
-              ]
-            },
-            {
-              "cells": [
-                [
-                  {
-                    "text": "Release 1",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "modification_history_cell-2_1_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 5.0.",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "modification_history_cell-2_2_1",
-                    "parent_bullet_item_id": null
-                  },
-                  {
-                    "text": "Supersedes and is equivalent to CPC30318 Certificate III in Concreting.",
-                    "type": "paragraph",
-                    "order": 2,
-                    "indent": null,
-                    "item_id": "modification_history_cell-2_2_2",
-                    "parent_bullet_item_id": null
-                  }
-                ]
-              ]
-            }
-          ],
-          "order": 1,
-          "columns": [
-            "Column 1",
-            "Column 2"
-          ]
-        },
+        "table": null,
         "title": "Modification History"
       },
       {
@@ -95,80 +56,7 @@
       },
       {
         "key": "packaging_rules",
-        "items": [
-          {
-            "text": "To achieve this qualification, competency must be demonstrated in:",
-            "type": "paragraph",
-            "order": 1,
-            "indent": null,
-            "item_id": "packaging_rules-1",
-            "parent_bullet_item_id": null
-          },
-          {
-            "text": "22 units of competency:",
-            "type": "bullet",
-            "order": 2,
-            "indent": 0,
-            "item_id": "packaging_rules-2",
-            "parent_bullet_item_id": "packaging_rules-1"
-          },
-          {
-            "text": "17 core units",
-            "type": "bullet",
-            "order": 3,
-            "indent": 1,
-            "item_id": "packaging_rules-3",
-            "parent_bullet_item_id": "packaging_rules-2"
-          },
-          {
-            "text": "5 elective units.",
-            "type": "bullet",
-            "order": 4,
-            "indent": 1,
-            "item_id": "packaging_rules-4",
-            "parent_bullet_item_id": "packaging_rules-2"
-          },
-          {
-            "text": "For the elective units:",
-            "type": "paragraph",
-            "order": 5,
-            "indent": null,
-            "item_id": "packaging_rules-5",
-            "parent_bullet_item_id": null
-          },
-          {
-            "text": "3 units must be selected from Group A",
-            "type": "bullet",
-            "order": 6,
-            "indent": 0,
-            "item_id": "packaging_rules-6",
-            "parent_bullet_item_id": "packaging_rules-5"
-          },
-          {
-            "text": "the remaining 2 elective units may be selected from Group A and/or Group B or from any currently endorsed Training Package or accredited course at Certificate III or Certificate IV level.",
-            "type": "bullet",
-            "order": 7,
-            "indent": 0,
-            "item_id": "packaging_rules-7",
-            "parent_bullet_item_id": "packaging_rules-5"
-          },
-          {
-            "text": "Prerequisite units",
-            "type": "paragraph",
-            "order": 8,
-            "indent": null,
-            "item_id": "packaging_rules-8",
-            "parent_bullet_item_id": null
-          },
-          {
-            "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisite requirements. All prerequisite requirements are packaged in the qualification.",
-            "type": "paragraph",
-            "order": 9,
-            "indent": null,
-            "item_id": "packaging_rules-9",
-            "parent_bullet_item_id": null
-          }
-        ],
+        "items": [],
         "order": 3,
         "table": {
           "rows": [
@@ -176,11 +64,107 @@
               "cells": [
                 [
                   {
-                    "text": "Core units",
+                    "text": "To achieve this qualification, competence must be demonstrated in 14 units of competency consisting of:",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
                     "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "4 core units",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_2",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "10 elective units.",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_3",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "For a specialisation inCleaning Management, electives are to be selected as follows:",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_4",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "4 core units",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_5",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_4"
+                  },
+                  {
+                    "text": "a minimum of 5 units from Group A",
+                    "type": "bullet",
+                    "order": 6,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_6",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_4"
+                  },
+                  {
+                    "text": "an additional 5 units from Group A, Group B and/or Group C.",
+                    "type": "bullet",
+                    "order": 7,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_7",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_4"
+                  },
+                  {
+                    "text": "Up to 2 of these 5 elective units from Group A, Group B and/or Group C may be selected from any current training package or accredited course provided they contribute to a valid, industry-supported vocational outcome, maintain the Australian Qualifications Framework (AQF) level of this qualification and do not duplicate the outcome of another unit used to achieve the qualification.",
+                    "type": "paragraph",
+                    "order": 8,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_8",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "For a specialisation in Specialty Cleaning and Restoration,electives are to be selected as follows:",
+                    "type": "paragraph",
+                    "order": 9,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_9",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "4 core units",
+                    "type": "bullet",
+                    "order": 10,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_10",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_9"
+                  },
+                  {
+                    "text": "a minimum of 5 units from Group B",
+                    "type": "bullet",
+                    "order": 11,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_11",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_9"
+                  },
+                  {
+                    "text": "an additional 5 units from Group A, Group B and/or Group C.",
+                    "type": "bullet",
+                    "order": 12,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_12",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_9"
+                  },
+                  {
+                    "text": "Up to 2 of the 5 elective units from Group A, Group B and/or Group C may be selected from any current training package or accredited course provided they contribute to a valid, industry-supported vocational outcome, maintain the AQF level of this qualification and do not duplicate the outcome of another unit used to achieve the qualification.",
+                    "type": "paragraph",
+                    "order": 13,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_13",
                     "parent_bullet_item_id": null
                   }
                 ],
@@ -191,7 +175,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCA3002*",
+                    "text": "CORE UNITS",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -199,23 +183,14 @@
                     "parent_bullet_item_id": null
                   }
                 ],
-                [
-                  {
-                    "text": "Carry out setting out",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-2_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
+                []
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCCA3028*",
+                    "text": "BSBPEF402",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -225,7 +200,7 @@
                 ],
                 [
                   {
-                    "text": "Erect and dismantle formwork for footings and slabs on ground",
+                    "text": "Develop personal work priorities",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -239,7 +214,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2002*",
+                    "text": "BSBWHS308",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -249,7 +224,7 @@
                 ],
                 [
                   {
-                    "text": "Carry out hand excavation",
+                    "text": "Participate in WHS hazard identification, risk assessment and risk control processes",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -263,7 +238,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2006",
+                    "text": "BSBWRT311",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -273,7 +248,7 @@
                 ],
                 [
                   {
-                    "text": "Apply basic levelling procedures",
+                    "text": "Write simple documents",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -287,7 +262,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1012",
+                    "text": "CPPCLO4100",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -297,7 +272,7 @@
                 ],
                 [
                   {
-                    "text": "Work effectively and sustainably in the construction industry",
+                    "text": "Organise and monitor cleaning tasks",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -311,7 +286,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1013",
+                    "text": "ELECTIVE UNITS",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -319,23 +294,14 @@
                     "parent_bullet_item_id": null
                   }
                 ],
-                [
-                  {
-                    "text": "Plan and organise work",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-7_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
+                []
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1014",
+                    "text": "Group A: Cleaning management",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -343,23 +309,14 @@
                     "parent_bullet_item_id": null
                   }
                 ],
-                [
-                  {
-                    "text": "Conduct workplace communication",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-8_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
+                []
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1015",
+                    "text": "BSBOPS401",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -369,7 +326,7 @@
                 ],
                 [
                   {
-                    "text": "Carry out measurements and calculations",
+                    "text": "Coordinate business resources",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -383,7 +340,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM2001*",
+                    "text": "BSBPEF502",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -393,7 +350,7 @@
                 ],
                 [
                   {
-                    "text": "Read and interpret plans and specifications",
+                    "text": "Develop and use emotional intelligence",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -407,7 +364,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON2021*",
+                    "text": "BSBTWK401",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -417,7 +374,7 @@
                 ],
                 [
                   {
-                    "text": "Handle concreting materials and components",
+                    "text": "Build and maintain business relationships",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -431,7 +388,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON2022*",
+                    "text": "BSBWHS411",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -441,7 +398,7 @@
                 ],
                 [
                   {
-                    "text": "Select, use and maintain concreting plant, tools and equipment",
+                    "text": "Implement and monitor WHS policies, procedures and programs",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -455,7 +412,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3035*",
+                    "text": "BSBXTW401",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -465,7 +422,7 @@
                 ],
                 [
                   {
-                    "text": "Determine concrete supply requirements",
+                    "text": "Lead and facilitate a team",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -479,7 +436,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3041*",
+                    "text": "CPPCLO4101",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -489,7 +446,7 @@
                 ],
                 [
                   {
-                    "text": "Place concrete",
+                    "text": "Estimate and quote cleaning service",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -503,7 +460,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3042*",
+                    "text": "CPPCLO4102",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -513,7 +470,7 @@
                 ],
                 [
                   {
-                    "text": "Finish concrete",
+                    "text": "Supervise cleaning staff",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -527,7 +484,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3043*",
+                    "text": "SITXHRM002",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -537,7 +494,7 @@
                 ],
                 [
                   {
-                    "text": "Cure concrete",
+                    "text": "Roster staff",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -551,7 +508,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCSF2004*",
+                    "text": "TLIL3003",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -561,7 +518,7 @@
                 ],
                 [
                   {
-                    "text": "Place and fix reinforcement materials",
+                    "text": "Conduct induction process",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -575,43 +532,11 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCWHS2001",
+                    "text": "Group B: Specialty cleaning and restoration",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
                     "item_id": "packaging_rules_cell-18_1_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "Apply WHS requirements, policies and procedures in the construction industry",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-18_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
-              ]
-            },
-            {
-              "cells": [
-                [
-                  {
-                    "text": "Elective units",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-19_1_1",
-                    "parent_bullet_item_id": null
-                  },
-                  {
-                    "text": "Group A: Specialist elective units",
-                    "type": "paragraph",
-                    "order": 2,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-19_1_2",
                     "parent_bullet_item_id": null
                   }
                 ],
@@ -622,7 +547,31 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3036*",
+                    "text": "CPPCLO4103",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work collaboratively in specialty cleaning and restoration",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPCLO4104",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -632,7 +581,7 @@
                 ],
                 [
                   {
-                    "text": "Plan concrete work and brief team",
+                    "text": "Restore water damaged structures and contents",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -646,7 +595,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3044*",
+                    "text": "CPPCLO4105",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -656,7 +605,7 @@
                 ],
                 [
                   {
-                    "text": "Apply decorative finishes to concrete",
+                    "text": "Apply odour control to structures and contents",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -670,7 +619,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3046*",
+                    "text": "CPPCLO4106",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -680,7 +629,7 @@
                 ],
                 [
                   {
-                    "text": "Repair and rectify concrete",
+                    "text": "Clean and decontaminate clandestine drug sites",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -694,7 +643,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3047*",
+                    "text": "CPPCLO4107",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -704,7 +653,7 @@
                 ],
                 [
                   {
-                    "text": "Cut concrete",
+                    "text": "Remediate mould contaminated structures and contents",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -718,7 +667,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3048*",
+                    "text": "CPPCLO4108",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -728,7 +677,7 @@
                 ],
                 [
                   {
-                    "text": "Construct tilt panels on site",
+                    "text": "Restore fire and smoke affected structures and contents",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -742,7 +691,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3049*",
+                    "text": "CPPCLO4109",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -752,7 +701,7 @@
                 ],
                 [
                   {
-                    "text": "Apply and finish sprayed concrete",
+                    "text": "Clean and decontaminate trauma and crime scene sites",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -766,7 +715,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3050*",
+                    "text": "CPPCLO4110",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -776,7 +725,7 @@
                 ],
                 [
                   {
-                    "text": "Carry out high performance concreting",
+                    "text": "Perform restorative carpet cleaning",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -790,7 +739,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3051*",
+                    "text": "CPPCLO4111",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -800,7 +749,7 @@
                 ],
                 [
                   {
-                    "text": "Conduct off-form vertical concrete operations",
+                    "text": "Strip and seal hard floors",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -814,7 +763,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3053*",
+                    "text": "Group C: General",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -822,23 +771,14 @@
                     "parent_bullet_item_id": null
                   }
                 ],
-                [
-                  {
-                    "text": "Slump test concrete",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-28_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
+                []
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCON3054*",
+                    "text": "BSBESB404",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -848,7 +788,7 @@
                 ],
                 [
                   {
-                    "text": "Operate concrete agitator trucks",
+                    "text": "Market new business ventures",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -862,7 +802,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3055*",
+                    "text": "BSBESB405",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -872,7 +812,7 @@
                 ],
                 [
                   {
-                    "text": "Install topping slabs",
+                    "text": "Manage compliance for small business",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -886,7 +826,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3056*",
+                    "text": "BSBOPS403",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -896,7 +836,7 @@
                 ],
                 [
                   {
-                    "text": "Conduct concrete pump delivery operations",
+                    "text": "Apply business risk management processes",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -910,7 +850,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3057*",
+                    "text": "BSBSUS412",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -920,7 +860,7 @@
                 ],
                 [
                   {
-                    "text": "Core concrete",
+                    "text": "Develop and implement workplace sustainability plans",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -934,7 +874,7 @@
               "cells": [
                 [
                   {
-                    "text": "Group B: General elective units",
+                    "text": "BSBWHS332X",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -942,14 +882,23 @@
                     "parent_bullet_item_id": null
                   }
                 ],
-                []
+                [
+                  {
+                    "text": "Apply infection prevention and control procedures to own work activities",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2007*",
+                    "text": "BSBWHS431",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -959,7 +908,7 @@
                 ],
                 [
                   {
-                    "text": "Use explosive power tools",
+                    "text": "Develop processes and procedures for controlling hazardous chemicals in the workplace",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -973,7 +922,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2008*",
+                    "text": "BSBWHS512",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -983,7 +932,7 @@
                 ],
                 [
                   {
-                    "text": "Erect and dismantle restricted height scaffolding",
+                    "text": "Contribute to managing work-related psychological health and safety",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -997,7 +946,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2012*",
+                    "text": "BSBXCM401",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1007,7 +956,7 @@
                 ],
                 [
                   {
-                    "text": "Work safely at heights",
+                    "text": "Apply communication strategies in the workplace",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1021,7 +970,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCLBM3001",
+                    "text": "CPCCCM2012*",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1031,7 +980,7 @@
                 ],
                 [
                   {
-                    "text": "Licence to operate a concrete placing boom",
+                    "text": "Work safely at heights",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1045,7 +994,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1016",
+                    "text": "CPCCWHS2001",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1055,7 +1004,7 @@
                 ],
                 [
                   {
-                    "text": "Identify requirements for safe precast and tilt-up work",
+                    "text": "Apply WHS requirements, policies and procedures in the construction industry",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1069,7 +1018,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCSF2003*",
+                    "text": "CPPCLO4112",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1079,7 +1028,7 @@
                 ],
                 [
                   {
-                    "text": "Cut and bend materials using oxy-LPG equipment",
+                    "text": "Assess cleaning products andequipment to meet cleaning service requirements.",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1093,7 +1042,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCSF3001*",
+                    "text": "MSMPER200",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1103,70 +1052,11 @@
                 ],
                 [
                   {
-                    "text": "Apply reinforcement schedule",
+                    "text": "Work in accordance with an issued permit",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
                     "item_id": "packaging_rules_cell-40_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
-              ]
-            }
-          ],
-          "order": 10,
-          "columns": [
-            "Column 1",
-            "Column 2"
-          ]
-        },
-        "title": "Packaging Rules"
-      },
-      {
-        "key": "qualification_mapping_information",
-        "items": [],
-        "order": 4,
-        "table": {
-          "rows": [
-            {
-              "cells": [
-                [
-                  {
-                    "text": "CPC Construction, Plumbing and Services Training Package Release 5.0",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_1_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "CPC Construction, Plumbing and Services Training Package Release 4.0",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "Comments",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_3_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "E/NE",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_4_1",
                     "parent_bullet_item_id": null
                   }
                 ]
@@ -1176,62 +1066,207 @@
               "cells": [
                 [
                   {
-                    "text": "CPC30320 Certificate III in Concreting",
+                    "text": "MSMPER205 **",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_1_1",
+                    "item_id": "packaging_rules_cell-41_1_1",
                     "parent_bullet_item_id": null
                   }
                 ],
                 [
                   {
-                    "text": "CPC30318 Certificate III in Concreting",
+                    "text": "Enter confined space",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "Supersedes and is equivalent to CPC30318 Certificate III in Concreting.",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_3_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "E",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_4_1",
+                    "item_id": "packaging_rules_cell-41_2_1",
                     "parent_bullet_item_id": null
                   }
                 ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "PUAFIR210",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prevent injury",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "PUAFIR306",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Identify, detect and monitor hazardous materials at an incident",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "PUAWHS002***",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Maintain safety at an incident scene",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "SITHACS001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Clean premises and equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "SITXCOM005",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-46_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Manage conflict",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-46_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "*Prerequisite unit CPCCWHS1001 Prepare to work safely in the construction industry.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_1_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "**Prerequisite unit MSMPER200 Work in accordance with an issued permit",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_1_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "***Prerequisite unit PUAFIR210 Prevent injury.",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_1_3",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
               ]
             }
           ],
           "order": 1,
           "columns": [
             "Column 1",
-            "Column 2",
-            "Column 3",
-            "Column 4"
+            "Column 2"
           ]
         },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is not equivalent to CPP40416 Certificate IV in Cleaning Management.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
         "title": "Qualification Mapping Information"
       },
       {
         "key": "links",
         "items": [
           {
-            "text": "Companion volumes to this training package are available at the VETNet website - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=7e15fa6a-68b8-4097-b099-030a5569b1ad",
+            "text": "The Companion Volume Implementation Guide for the CPP Property Services Training Package is available at - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=6f3f9672-30e8-4835-b348-205dfcf13d9b.",
             "type": "paragraph",
             "order": 1,
             "indent": null,
@@ -1247,112 +1282,34 @@
     "packing_rules_extracted": {
       "core_units": [
         {
-          "code": "CPCCCA3002",
-          "title": "Carry out setting out",
+          "code": "BSBPEF402",
+          "title": "Develop personal work priorities",
           "item_id": "core_unit-1",
-          "asterisk": 1
+          "asterisk": 0
         },
         {
-          "code": "CPCCCA3028",
-          "title": "Erect and dismantle formwork for footings and slabs on ground",
+          "code": "BSBWHS308",
+          "title": "Participate in WHS hazard identification, risk assessment and risk control processes",
           "item_id": "core_unit-2",
-          "asterisk": 1
+          "asterisk": 0
         },
         {
-          "code": "CPCCCM2002",
-          "title": "Carry out hand excavation",
+          "code": "BSBWRT311",
+          "title": "Write simple documents",
           "item_id": "core_unit-3",
-          "asterisk": 1
+          "asterisk": 0
         },
         {
-          "code": "CPCCCM2006",
-          "title": "Apply basic levelling procedures",
+          "code": "CPPCLO4100",
+          "title": "Organise and monitor cleaning tasks",
           "item_id": "core_unit-4",
-          "asterisk": 0
-        },
-        {
-          "code": "CPCCOM1012",
-          "title": "Work effectively and sustainably in the construction industry",
-          "item_id": "core_unit-5",
-          "asterisk": 0
-        },
-        {
-          "code": "CPCCOM1013",
-          "title": "Plan and organise work",
-          "item_id": "core_unit-6",
-          "asterisk": 0
-        },
-        {
-          "code": "CPCCOM1014",
-          "title": "Conduct workplace communication",
-          "item_id": "core_unit-7",
-          "asterisk": 0
-        },
-        {
-          "code": "CPCCOM1015",
-          "title": "Carry out measurements and calculations",
-          "item_id": "core_unit-8",
-          "asterisk": 0
-        },
-        {
-          "code": "CPCCOM2001",
-          "title": "Read and interpret plans and specifications",
-          "item_id": "core_unit-9",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON2021",
-          "title": "Handle concreting materials and components",
-          "item_id": "core_unit-10",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON2022",
-          "title": "Select, use and maintain concreting plant, tools and equipment",
-          "item_id": "core_unit-11",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3035",
-          "title": "Determine concrete supply requirements",
-          "item_id": "core_unit-12",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3041",
-          "title": "Place concrete",
-          "item_id": "core_unit-13",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3042",
-          "title": "Finish concrete",
-          "item_id": "core_unit-14",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3043",
-          "title": "Cure concrete",
-          "item_id": "core_unit-15",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCSF2004",
-          "title": "Place and fix reinforcement materials",
-          "item_id": "core_unit-16",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCWHS2001",
-          "title": "Apply WHS requirements, policies and procedures in the construction industry",
-          "item_id": "core_unit-17",
           "asterisk": 0
         }
       ],
-      "total_units": 22,
+      "total_units": 14,
       "elective_rules": [
         {
-          "text": "To achieve this qualification, competency must be demonstrated in:",
+          "text": "To achieve this qualification, competence must be demonstrated in 14 units of competency consisting of:",
           "type": "paragraph",
           "order": 1,
           "indent": null,
@@ -1361,62 +1318,93 @@
           "parent_bullet_item_id": null
         },
         {
-          "text": "22 units of competency:",
+          "text": "4 core units",
           "type": "bullet",
           "order": 2,
           "indent": 0,
-          "content": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "4 core"
+            },
+            {
+              "bold": false,
+              "text": "units"
+            }
+          ],
           "item_id": "elective_rules-2",
           "parent_bullet_item_id": "elective_rules-1"
         },
         {
-          "text": "17 core units",
+          "text": "10 elective units.",
           "type": "bullet",
           "order": 3,
-          "indent": 1,
-          "content": null,
+          "indent": 0,
+          "content": [
+            {
+              "bold": true,
+              "text": "10 elective"
+            },
+            {
+              "bold": false,
+              "text": "units."
+            }
+          ],
           "item_id": "elective_rules-3",
-          "parent_bullet_item_id": "elective_rules-2"
+          "parent_bullet_item_id": "elective_rules-1"
         },
         {
-          "text": "5 elective units.",
-          "type": "bullet",
-          "order": 4,
-          "indent": 1,
-          "content": null,
-          "item_id": "elective_rules-4",
-          "parent_bullet_item_id": "elective_rules-2"
-        },
-        {
-          "text": "For the elective units:",
+          "text": "For a specialisation inCleaning Management, electives are to be selected as follows:",
           "type": "paragraph",
-          "order": 5,
+          "order": 4,
           "indent": null,
-          "content": null,
-          "item_id": "elective_rules-5",
+          "content": [
+            {
+              "bold": false,
+              "text": "For a specialisation in"
+            },
+            {
+              "bold": true,
+              "text": "Cleaning Management"
+            },
+            {
+              "bold": false,
+              "text": ", electives are to be selected as follows:"
+            }
+          ],
+          "item_id": "elective_rules-4",
           "parent_bullet_item_id": null
         },
         {
-          "text": "3 units must be selected from Group A",
+          "text": "4 core units",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-4"
+        },
+        {
+          "text": "a minimum of 5 units from Group A",
           "type": "bullet",
           "order": 6,
           "indent": 0,
           "content": null,
           "item_id": "elective_rules-6",
-          "parent_bullet_item_id": "elective_rules-5"
+          "parent_bullet_item_id": "elective_rules-4"
         },
         {
-          "text": "the remaining 2 elective units may be selected from Group A and/or Group B or from any currently endorsed Training Package or accredited course at Certificate III or Certificate IV level.",
+          "text": "an additional 5 units from Group A, Group B and/or Group C.",
           "type": "bullet",
           "order": 7,
           "indent": 0,
           "content": null,
           "item_id": "elective_rules-7",
-          "parent_bullet_item_id": "elective_rules-5"
+          "parent_bullet_item_id": "elective_rules-4"
         },
         {
-          "text": "Prerequisite units",
-          "type": "paragraph-bold",
+          "text": "Up to 2 of these 5 elective units from Group A, Group B and/or Group C may be selected from any current training package or accredited course provided they contribute to a valid, industry-supported vocational outcome, maintain the Australian Qualifications Framework (AQF) level of this qualification and do not duplicate the outcome of another unit used to achieve the qualification.",
+          "type": "paragraph",
           "order": 8,
           "indent": null,
           "content": null,
@@ -1424,12 +1412,65 @@
           "parent_bullet_item_id": null
         },
         {
-          "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisite requirements. All prerequisite requirements are packaged in the qualification.",
+          "text": "For a specialisation in Specialty Cleaning and Restoration,electives are to be selected as follows:",
           "type": "paragraph",
           "order": 9,
           "indent": null,
-          "content": null,
+          "content": [
+            {
+              "bold": false,
+              "text": "For a specialisation in"
+            },
+            {
+              "bold": true,
+              "text": "Specialty Cleaning and Restoration"
+            },
+            {
+              "bold": false,
+              "text": ","
+            },
+            {
+              "bold": false,
+              "text": "electives are to be selected as follows:"
+            }
+          ],
           "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "4 core units",
+          "type": "bullet",
+          "order": 10,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": "elective_rules-9"
+        },
+        {
+          "text": "a minimum of 5 units from Group B",
+          "type": "bullet",
+          "order": 11,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-11",
+          "parent_bullet_item_id": "elective_rules-9"
+        },
+        {
+          "text": "an additional 5 units from Group A, Group B and/or Group C.",
+          "type": "bullet",
+          "order": 12,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-12",
+          "parent_bullet_item_id": "elective_rules-9"
+        },
+        {
+          "text": "Up to 2 of the 5 elective units from Group A, Group B and/or Group C may be selected from any current training package or accredited course provided they contribute to a valid, industry-supported vocational outcome, maintain the AQF level of this qualification and do not duplicate the outcome of another unit used to achieve the qualification.",
+          "type": "paragraph",
+          "order": 13,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-13",
           "parent_bullet_item_id": null
         }
       ],
@@ -1437,138 +1478,280 @@
         {
           "items": [
             {
-              "code": "CPCCON3036",
-              "title": "Plan concrete work and brief team",
-              "item_id": "specialist_elective_unit_GroupA-1",
-              "asterisk": 1
+              "code": "BSBOPS401",
+              "title": "Coordinate business resources",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3044",
-              "title": "Apply decorative finishes to concrete",
-              "item_id": "specialist_elective_unit_GroupA-2",
-              "asterisk": 1
+              "code": "BSBPEF502",
+              "title": "Develop and use emotional intelligence",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3046",
-              "title": "Repair and rectify concrete",
-              "item_id": "specialist_elective_unit_GroupA-3",
-              "asterisk": 1
+              "code": "BSBTWK401",
+              "title": "Build and maintain business relationships",
+              "item_id": "elective_unit_GroupA-3",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3047",
-              "title": "Cut concrete",
-              "item_id": "specialist_elective_unit_GroupA-4",
-              "asterisk": 1
+              "code": "BSBWHS411",
+              "title": "Implement and monitor WHS policies, procedures and programs",
+              "item_id": "elective_unit_GroupA-4",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3048",
-              "title": "Construct tilt panels on site",
-              "item_id": "specialist_elective_unit_GroupA-5",
-              "asterisk": 1
+              "code": "BSBXTW401",
+              "title": "Lead and facilitate a team",
+              "item_id": "elective_unit_GroupA-5",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3049",
-              "title": "Apply and finish sprayed concrete",
-              "item_id": "specialist_elective_unit_GroupA-6",
-              "asterisk": 1
+              "code": "CPPCLO4101",
+              "title": "Estimate and quote cleaning service",
+              "item_id": "elective_unit_GroupA-6",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3050",
-              "title": "Carry out high performance concreting",
-              "item_id": "specialist_elective_unit_GroupA-7",
-              "asterisk": 1
+              "code": "CPPCLO4102",
+              "title": "Supervise cleaning staff",
+              "item_id": "elective_unit_GroupA-7",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3051",
-              "title": "Conduct off-form vertical concrete operations",
-              "item_id": "specialist_elective_unit_GroupA-8",
-              "asterisk": 1
+              "code": "SITXHRM002",
+              "title": "Roster staff",
+              "item_id": "elective_unit_GroupA-8",
+              "asterisk": 0
             },
             {
-              "code": "CPCCON3053",
-              "title": "Slump test concrete",
-              "item_id": "specialist_elective_unit_GroupA-9",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3054",
-              "title": "Operate concrete agitator trucks",
-              "item_id": "specialist_elective_unit_GroupA-10",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3055",
-              "title": "Install topping slabs",
-              "item_id": "specialist_elective_unit_GroupA-11",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3056",
-              "title": "Conduct concrete pump delivery operations",
-              "item_id": "specialist_elective_unit_GroupA-12",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3057",
-              "title": "Core concrete",
-              "item_id": "specialist_elective_unit_GroupA-13",
-              "asterisk": 1
+              "code": "TLIL3003",
+              "title": "Conduct induction process",
+              "item_id": "elective_unit_GroupA-9",
+              "asterisk": 0
             }
           ],
-          "title": "Group A - Specialist elective units",
-          "category": "Specialist elective units"
+          "title": "Group A - Cleaning management",
+          "category": "Elective units"
         },
         {
           "items": [
             {
-              "code": "CPCCCM2007",
-              "title": "Use explosive power tools",
-              "item_id": "general_elective_unit_GroupB-1",
-              "asterisk": 1
+              "code": "CPPCLO4103",
+              "title": "Work collaboratively in specialty cleaning and restoration",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
             },
             {
-              "code": "CPCCCM2008",
-              "title": "Erect and dismantle restricted height scaffolding",
-              "item_id": "general_elective_unit_GroupB-2",
-              "asterisk": 1
+              "code": "CPPCLO4104",
+              "title": "Restore water damaged structures and contents",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "CPPCLO4105",
+              "title": "Apply odour control to structures and contents",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPPCLO4106",
+              "title": "Clean and decontaminate clandestine drug sites",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "CPPCLO4107",
+              "title": "Remediate mould contaminated structures and contents",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPPCLO4108",
+              "title": "Restore fire and smoke affected structures and contents",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "CPPCLO4109",
+              "title": "Clean and decontaminate trauma and crime scene sites",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "CPPCLO4110",
+              "title": "Perform restorative carpet cleaning",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": 0
+            },
+            {
+              "code": "CPPCLO4111",
+              "title": "Strip and seal hard floors",
+              "item_id": "elective_unit_GroupB-9",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B - Specialty cleaning and restoration",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBESB404",
+              "title": "Market new business ventures",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBESB405",
+              "title": "Manage compliance for small business",
+              "item_id": "elective_unit_GroupC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBOPS403",
+              "title": "Apply business risk management processes",
+              "item_id": "elective_unit_GroupC-3",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBSUS412",
+              "title": "Develop and implement workplace sustainability plans",
+              "item_id": "elective_unit_GroupC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBWHS332X",
+              "title": "Apply infection prevention and control procedures to own work activities",
+              "item_id": "elective_unit_GroupC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBWHS431",
+              "title": "Develop processes and procedures for controlling hazardous chemicals in the workplace",
+              "item_id": "elective_unit_GroupC-6",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBWHS512",
+              "title": "Contribute to managing work-related psychological health and safety",
+              "item_id": "elective_unit_GroupC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBXCM401",
+              "title": "Apply communication strategies in the workplace",
+              "item_id": "elective_unit_GroupC-8",
+              "asterisk": 0
             },
             {
               "code": "CPCCCM2012",
               "title": "Work safely at heights",
-              "item_id": "general_elective_unit_GroupB-3",
+              "item_id": "elective_unit_GroupC-9",
               "asterisk": 1
             },
             {
-              "code": "CPCCLBM3001",
-              "title": "Licence to operate a concrete placing boom",
-              "item_id": "general_elective_unit_GroupB-4",
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "item_id": "elective_unit_GroupC-10",
               "asterisk": 0
             },
             {
-              "code": "CPCCOM1016",
-              "title": "Identify requirements for safe precast and tilt-up work",
-              "item_id": "general_elective_unit_GroupB-5",
+              "code": "CPPCLO4112",
+              "title": "Assess cleaning products andequipment to meet cleaning service requirements.",
+              "item_id": "elective_unit_GroupC-11",
               "asterisk": 0
             },
             {
-              "code": "CPCCSF2003",
-              "title": "Cut and bend materials using oxy-LPG equipment",
-              "item_id": "general_elective_unit_GroupB-6",
-              "asterisk": 1
+              "code": "MSMPER200",
+              "title": "Work in accordance with an issued permit",
+              "item_id": "elective_unit_GroupC-12",
+              "asterisk": 0
             },
             {
-              "code": "CPCCSF3001",
-              "title": "Apply reinforcement schedule",
-              "item_id": "general_elective_unit_GroupB-7",
-              "asterisk": 1
+              "code": "MSMPER205",
+              "title": "Enter confined space",
+              "item_id": "elective_unit_GroupC-13",
+              "asterisk": 2
+            },
+            {
+              "code": "PUAFIR210",
+              "title": "Prevent injury",
+              "item_id": "elective_unit_GroupC-14",
+              "asterisk": 0
+            },
+            {
+              "code": "PUAFIR306",
+              "title": "Identify, detect and monitor hazardous materials at an incident",
+              "item_id": "elective_unit_GroupC-15",
+              "asterisk": 0
+            },
+            {
+              "code": "PUAWHS002",
+              "title": "Maintain safety at an incident scene",
+              "item_id": "elective_unit_GroupC-16",
+              "asterisk": 3
+            },
+            {
+              "code": "SITHACS001",
+              "title": "Clean premises and equipment",
+              "item_id": "elective_unit_GroupC-17",
+              "asterisk": 0
+            },
+            {
+              "code": "SITXCOM005",
+              "title": "Manage conflict",
+              "item_id": "elective_unit_GroupC-18",
+              "asterisk": 0
             }
           ],
-          "title": "Group B - General elective units",
-          "category": "General elective units"
+          "title": "Group C - General",
+          "category": "Elective units"
         }
       ],
-      "core_units_required": 17,
-      "elective_units_required": 5,
-      "prerequisite_requirements": []
+      "core_units_required": 4,
+      "elective_units_required": 10,
+      "prerequisite_requirements": [
+        {
+          "item_id": "prerequisite_requirement-1",
+          "unit_of_competency": {
+            "code": "CPCCCM2012",
+            "title": "Work safely at heights",
+            "asterisk": 1
+          },
+          "prerequisite_requirement": [{
+            "code": "CPCCWHS1001",
+            "title": "Prepare to work safely in the construction industry",
+            "asterisk": 0
+          }]
+        },
+        {
+          "item_id": "prerequisite_requirement-2",
+          "unit_of_competency": {
+            "code": "MSMPER205",
+            "title": "Enter confined space",
+            "asterisk": 2
+          },
+          "prerequisite_requirement": [{
+            "code": "MSMPER200",
+            "title": "Work in accordance with an issued permit",
+            "asterisk": 0
+          }]
+        },
+        {
+          "item_id": "prerequisite_requirement-3",
+          "unit_of_competency": {
+            "code": "PUAWHS002",
+            "title": "Maintain safety at an incident scene",
+            "asterisk": 3
+          },
+          "prerequisite_requirement": [{
+            "code": "PUAFIR210",
+            "title": "Prevent injury",
+            "asterisk": 0
+          }]
+        }
+      ]
     }
   }

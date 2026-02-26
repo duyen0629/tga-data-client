@@ -1,0 +1,704 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "CPP\\CPP20218_R3.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 3",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with the CPP Property Services Training Package Version 15.1.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "At the direction of the AISC, the following unit has been updated:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "HLTAID003 Provide first aid has been superseded by and is not equivalent to HLTAID011 Provide First Aid.",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-1_2_3",
+                    "parent_bullet_item_id": "modification_history_cell-1_2_2"
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPP Property Services Training Package Release 7.1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Supersedes and is not equivalent to CPP10107 Certificate I in Security Operations",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPP Property Services Training Package Release 7.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Supersedes and is not equivalent to CPP20212 Certificate II in Security Operations.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "There are no entry requirements for this qualification.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "To achieve this qualification, competency must be demonstrated in:",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "14 units of competency:",
+            "type": "bullet",
+            "order": 2,
+            "indent": 0,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "14 core units of competency.",
+            "type": "bullet",
+            "order": 3,
+            "indent": 1,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": "packaging_rules-2"
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2101",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply effective communication skills to maintain security",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2102",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply legal and procedural requirements to work effectively within a security team",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2103",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply WHS, emergency response and evacuation procedures to maintain security",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2104",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply risk assessment to select and carry out response to security risk situations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2105",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Provide quality services to a range of security clients",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2106",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Protect self and others using basic defensive techniques",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2107",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Patrol premises to monitor property and maintain security",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2108",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Screen people, personal effects and items to maintain security",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2109",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Monitor and control access and exit of persons and vehicles from premises",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2110",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Monitor and control individual and crowd behaviour to maintain security",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2111",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply security procedures to manage intoxicated persons",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2112",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply security procedures to remove persons from premises",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPSEC2113",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Escort and protect persons and valuables",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "HLTAID011",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Provide first aid",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 4,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "CPP20218 Certificate II in Security Operations:",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "supersedes and replaces CPP20212 Certificate II in Security Operations",
+            "type": "bullet",
+            "order": 2,
+            "indent": 0,
+            "item_id": "qualification_mapping_information-2",
+            "parent_bullet_item_id": "qualification_mapping_information-1"
+          },
+          {
+            "text": "supersedes and is not equivalent to CPP10107 Certificate I in Security Operations.",
+            "type": "bullet",
+            "order": 3,
+            "indent": 0,
+            "item_id": "qualification_mapping_information-3",
+            "parent_bullet_item_id": "qualification_mapping_information-1"
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "An Implementation Guide to this Training Package is available at - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=6f3f9672-30e8-4835-b348-205dfcf13d9b",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "CPPSEC2101",
+          "title": "Apply effective communication skills to maintain security",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2102",
+          "title": "Apply legal and procedural requirements to work effectively within a security team",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2103",
+          "title": "Apply WHS, emergency response and evacuation procedures to maintain security",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2104",
+          "title": "Apply risk assessment to select and carry out response to security risk situations",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2105",
+          "title": "Provide quality services to a range of security clients",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2106",
+          "title": "Protect self and others using basic defensive techniques",
+          "item_id": "core_unit-6",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2107",
+          "title": "Patrol premises to monitor property and maintain security",
+          "item_id": "core_unit-7",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2108",
+          "title": "Screen people, personal effects and items to maintain security",
+          "item_id": "core_unit-8",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2109",
+          "title": "Monitor and control access and exit of persons and vehicles from premises",
+          "item_id": "core_unit-9",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2110",
+          "title": "Monitor and control individual and crowd behaviour to maintain security",
+          "item_id": "core_unit-10",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2111",
+          "title": "Apply security procedures to manage intoxicated persons",
+          "item_id": "core_unit-11",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2112",
+          "title": "Apply security procedures to remove persons from premises",
+          "item_id": "core_unit-12",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC2113",
+          "title": "Escort and protect persons and valuables",
+          "item_id": "core_unit-13",
+          "asterisk": 0
+        },
+        {
+          "code": "HLTAID011",
+          "title": "Provide first aid",
+          "item_id": "core_unit-14",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 14,
+      "elective_rules": [
+        {
+          "text": "To achieve this qualification, competency must be demonstrated in:",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "14 units of competency:",
+          "type": "bullet",
+          "order": 2,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "14 core units of competency.",
+          "type": "bullet",
+          "order": 3,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": "elective_rules-2"
+        }
+      ],
+      "core_units_required": 14,
+      "prerequisite_requirements": []
+    }
+  }

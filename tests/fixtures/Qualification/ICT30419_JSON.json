@@ -1,0 +1,2675 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "ICT\\ICT30419_R2.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with the Information and Communications Technology Training Package Version 8.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "The following units of competency were replaced with the relevant superseding unit of competency as requested by the Department of Education, Skills and Employment:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "HLTAID001 Provide cardiopulmonary resuscitation updated to HLTAID009 Provide cardiopulmonary resuscitation",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-2_2_3",
+                    "parent_bullet_item_id": "modification_history_cell-2_2_2"
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version released with ICT Information and Communications Technology Training Package Version 5.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "Total number of units = 14",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "6 core units, plus",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "8 elective units",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The elective units selected may consist of:",
+            "type": "paragraph",
+            "order": 4,
+            "indent": null,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "up to 8 units from Group A Copper Cabling, or Group B Fibre Cabling, and/or Group C HFC Cabling",
+            "type": "bullet",
+            "order": 5,
+            "indent": 0,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-4"
+          },
+          {
+            "text": "up to 5 units from GroupD General",
+            "type": "bullet",
+            "order": 6,
+            "indent": 0,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-4"
+          },
+          {
+            "text": "up to 2 units from this or any currently endorsed Training Package or accredited course where the units are packaged in an Australian Qualification Framework (AQF) Level 3 or 4 qualification.",
+            "type": "bullet",
+            "order": 7,
+            "indent": 0,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": "packaging_rules-4"
+          },
+          {
+            "text": "Elective units must be relevant to the work environment and the qualification, maintain the integrity of the AQF alignment and contribute to a valid, industry-supported vocational outcome.",
+            "type": "paragraph",
+            "order": 8,
+            "indent": null,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Units selected from other Training Packages or accredited courses must not duplicate units selected from, or available within, the ICT Information and Communications Technology Training Package.",
+            "type": "paragraph",
+            "order": 9,
+            "indent": null,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Core units",
+            "type": "bullet",
+            "order": 10,
+            "indent": 1,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN202 Use hand and power tools",
+            "type": "bullet",
+            "order": 11,
+            "indent": 1,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN208 Use electrical skills when working with telecommunications networks",
+            "type": "bullet",
+            "order": 12,
+            "indent": 1,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN315 Determine and apply technologies within a telecommunications system",
+            "type": "bullet",
+            "order": 13,
+            "indent": 1,
+            "item_id": "packaging_rules-13",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN317 Locate, identify and rectify telecommunications network faults",
+            "type": "bullet",
+            "order": 14,
+            "indent": 1,
+            "item_id": "packaging_rules-14",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTWHS204 Follow work health and safety and environmental policy and procedures",
+            "type": "bullet",
+            "order": 15,
+            "indent": 1,
+            "item_id": "packaging_rules-15",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTWOR308 Provide customer service to telecommunications customers",
+            "type": "bullet",
+            "order": 16,
+            "indent": 1,
+            "item_id": "packaging_rules-16",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "Elective units",
+            "type": "bullet",
+            "order": 17,
+            "indent": 1,
+            "item_id": "packaging_rules-17",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "Group A Copper Cabling",
+            "type": "bullet",
+            "order": 18,
+            "indent": 1,
+            "item_id": "packaging_rules-18",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL254 Joint metallic conductor cable in access network",
+            "type": "bullet",
+            "order": 19,
+            "indent": 1,
+            "item_id": "packaging_rules-19",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL313 Modify and cutover cable",
+            "type": "bullet",
+            "order": 20,
+            "indent": 1,
+            "item_id": "packaging_rules-20",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL319 Rearrange large size copper cable",
+            "type": "bullet",
+            "order": 21,
+            "indent": 1,
+            "item_id": "packaging_rules-21",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL320 Jumper metallic conductor cable in the access network",
+            "type": "bullet",
+            "order": 22,
+            "indent": 1,
+            "item_id": "packaging_rules-22",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL326 Cut over metallic conductor cable in the access network",
+            "type": "bullet",
+            "order": 23,
+            "indent": 1,
+            "item_id": "packaging_rules-23",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL332 Locate, identify and rectify copper cable faults",
+            "type": "bullet",
+            "order": 24,
+            "indent": 1,
+            "item_id": "packaging_rules-24",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL336 Install and cut over metallic conductor cable to access network cabinet",
+            "type": "bullet",
+            "order": 25,
+            "indent": 1,
+            "item_id": "packaging_rules-25",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "Group B Fibre Cabling",
+            "type": "bullet",
+            "order": 26,
+            "indent": 1,
+            "item_id": "packaging_rules-26",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTBWN302 Install optical fibre splitters in fibre distribution hubs",
+            "type": "bullet",
+            "order": 27,
+            "indent": 1,
+            "item_id": "packaging_rules-27",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTBWN309 Perform tests on optical communication system and components",
+            "type": "bullet",
+            "order": 28,
+            "indent": 1,
+            "item_id": "packaging_rules-28",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL316 Install ribbon fibre cable in the FTTX distribution network*",
+            "type": "bullet",
+            "order": 29,
+            "indent": 1,
+            "item_id": "packaging_rules-29",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL322 Install, test and terminate optical fibre cable on customer premises",
+            "type": "bullet",
+            "order": 30,
+            "indent": 1,
+            "item_id": "packaging_rules-30",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL330 Splice and terminate optical fibre cable for telecommunications projects",
+            "type": "bullet",
+            "order": 31,
+            "indent": 1,
+            "item_id": "packaging_rules-31",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN318 Inspect, clean and handle optical fibre cable and connectors",
+            "type": "bullet",
+            "order": 32,
+            "indent": 1,
+            "item_id": "packaging_rules-32",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN409 Commission an electronic system",
+            "type": "bullet",
+            "order": 33,
+            "indent": 1,
+            "item_id": "packaging_rules-33",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN416 Install, configure and test an internet protocol network",
+            "type": "bullet",
+            "order": 34,
+            "indent": 1,
+            "item_id": "packaging_rules-34",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "Group C HFC Cabling",
+            "type": "bullet",
+            "order": 35,
+            "indent": 1,
+            "item_id": "packaging_rules-35",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL248 Install and terminate hard-line coaxial cable",
+            "type": "bullet",
+            "order": 36,
+            "indent": 1,
+            "item_id": "packaging_rules-36",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL251 Install aerial and underground cable lead-ins",
+            "type": "bullet",
+            "order": 37,
+            "indent": 1,
+            "item_id": "packaging_rules-37",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL303 Install and terminate coaxial cable",
+            "type": "bullet",
+            "order": 38,
+            "indent": 1,
+            "item_id": "packaging_rules-38",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL306 Locate and identify cable system faults",
+            "type": "bullet",
+            "order": 39,
+            "indent": 1,
+            "item_id": "packaging_rules-39",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL333 Install aerial cable for communications applications",
+            "type": "bullet",
+            "order": 40,
+            "indent": 1,
+            "item_id": "packaging_rules-40",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL335 Construct aerial cable supports",
+            "type": "bullet",
+            "order": 41,
+            "indent": 1,
+            "item_id": "packaging_rules-41",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTDRE303 Install a complex digital reception system",
+            "type": "bullet",
+            "order": 42,
+            "indent": 1,
+            "item_id": "packaging_rules-42",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTDRE308 Install a cable broadband multi-dwelling unit system",
+            "type": "bullet",
+            "order": 43,
+            "indent": 1,
+            "item_id": "packaging_rules-43",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTDRE314 Design communications wiring systems for customer premises*",
+            "type": "bullet",
+            "order": 44,
+            "indent": 1,
+            "item_id": "packaging_rules-44",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTRFN406 Maintain hybrid fibre coaxial broadband cable network",
+            "type": "bullet",
+            "order": 45,
+            "indent": 1,
+            "item_id": "packaging_rules-45",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "Group D General",
+            "type": "bullet",
+            "order": 46,
+            "indent": 1,
+            "item_id": "packaging_rules-46",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "BSBSUS201 Participate in environmentally sustainable work practices",
+            "type": "bullet",
+            "order": 47,
+            "indent": 1,
+            "item_id": "packaging_rules-47",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "BSBSUS401 Implement and monitor environmentally sustainable work practices",
+            "type": "bullet",
+            "order": 48,
+            "indent": 1,
+            "item_id": "packaging_rules-48",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "CPCCCM2007 Use explosive power tools*",
+            "type": "bullet",
+            "order": 49,
+            "indent": 1,
+            "item_id": "packaging_rules-49",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "CPCCDE3014A Remove non-friable asbestos*",
+            "type": "bullet",
+            "order": 50,
+            "indent": 1,
+            "item_id": "packaging_rules-50",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "CPCCOHS1001A Work safely in the construction industry",
+            "type": "bullet",
+            "order": 51,
+            "indent": 1,
+            "item_id": "packaging_rules-51",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry",
+            "type": "bullet",
+            "order": 52,
+            "indent": 1,
+            "item_id": "packaging_rules-52",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "CPCPCM2043A Carry out WHS requirements",
+            "type": "bullet",
+            "order": 53,
+            "indent": 1,
+            "item_id": "packaging_rules-53",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTBWN308 Work safely on live optical fibre installations*",
+            "type": "bullet",
+            "order": 54,
+            "indent": 1,
+            "item_id": "packaging_rules-54",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTBWN303 Install lead-in module and cable for fibre to the premises",
+            "type": "bullet",
+            "order": 55,
+            "indent": 1,
+            "item_id": "packaging_rules-55",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTBWN306 Use radio frequency measuring instruments",
+            "type": "bullet",
+            "order": 56,
+            "indent": 1,
+            "item_id": "packaging_rules-56",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTBWN307 Use optical measuring instruments",
+            "type": "bullet",
+            "order": 57,
+            "indent": 1,
+            "item_id": "packaging_rules-57",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "HLTAID009 Provide cardiopulmonary resuscitation",
+            "type": "bullet",
+            "order": 58,
+            "indent": 1,
+            "item_id": "packaging_rules-58",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL246 Install, maintain and modify customer premises communications cabling: ACMA Restricted Rule*",
+            "type": "bullet",
+            "order": 59,
+            "indent": 1,
+            "item_id": "packaging_rules-59",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL247 Install maintain and modify customer premises communications cabling: ACMA Open Rule*",
+            "type": "bullet",
+            "order": 60,
+            "indent": 1,
+            "item_id": "packaging_rules-60",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL249 Haul underground cable for installation and maintenance work",
+            "type": "bullet",
+            "order": 61,
+            "indent": 1,
+            "item_id": "packaging_rules-61",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL254 Joint metallic conductor cable in access network",
+            "type": "bullet",
+            "order": 62,
+            "indent": 1,
+            "item_id": "packaging_rules-62",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL329 Install underground cable for communications applications",
+            "type": "bullet",
+            "order": 63,
+            "indent": 1,
+            "item_id": "packaging_rules-63",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTCBL334 Install underground enclosures and conduit",
+            "type": "bullet",
+            "order": 64,
+            "indent": 1,
+            "item_id": "packaging_rules-64",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN207 Install and test internet protocol devices in convergence networks",
+            "type": "bullet",
+            "order": 65,
+            "indent": 1,
+            "item_id": "packaging_rules-65",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN310 Remove and replace electronic circuit boards in carrier equipment",
+            "type": "bullet",
+            "order": 66,
+            "indent": 1,
+            "item_id": "packaging_rules-66",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN312 Install telecommunications network equipment",
+            "type": "bullet",
+            "order": 67,
+            "indent": 1,
+            "item_id": "packaging_rules-67",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTTEN313 Work on and resolve recurrent network faults",
+            "type": "bullet",
+            "order": 68,
+            "indent": 1,
+            "item_id": "packaging_rules-68",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTWHS201 Provide telecommunications services safely on roofs",
+            "type": "bullet",
+            "order": 69,
+            "indent": 1,
+            "item_id": "packaging_rules-69",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "OR",
+            "type": "bullet",
+            "order": 70,
+            "indent": 1,
+            "item_id": "packaging_rules-70",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "RIIWHS204D Work safely at heights",
+            "type": "bullet",
+            "order": 71,
+            "indent": 1,
+            "item_id": "packaging_rules-71",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTWHS205 Work safely near power infrastructure at a telecommunications workplace",
+            "type": "bullet",
+            "order": 72,
+            "indent": 1,
+            "item_id": "packaging_rules-72",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "OR",
+            "type": "bullet",
+            "order": 73,
+            "indent": 1,
+            "item_id": "packaging_rules-73",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "UETTDREL14A Working safely near live electrical apparatus as a non-electrical worker",
+            "type": "bullet",
+            "order": 74,
+            "indent": 1,
+            "item_id": "packaging_rules-74",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTWOR202 Work effectively in the digital and telecommunications industry",
+            "type": "bullet",
+            "order": 75,
+            "indent": 1,
+            "item_id": "packaging_rules-75",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "ICTWOR305 Supervise worksite activities",
+            "type": "bullet",
+            "order": 76,
+            "indent": 1,
+            "item_id": "packaging_rules-76",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "RIICCM202D Identify, locate and protect underground services",
+            "type": "bullet",
+            "order": 77,
+            "indent": 1,
+            "item_id": "packaging_rules-77",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "RIIWHS202D Enter and work in confined spaces",
+            "type": "bullet",
+            "order": 78,
+            "indent": 1,
+            "item_id": "packaging_rules-78",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "RIIWHS205D Control traffic with stop-slow bat",
+            "type": "bullet",
+            "order": 79,
+            "indent": 1,
+            "item_id": "packaging_rules-79",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "RIIWHS302D Implement traffic management plan",
+            "type": "bullet",
+            "order": 80,
+            "indent": 1,
+            "item_id": "packaging_rules-80",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "TLID2010 Operate a forklift",
+            "type": "bullet",
+            "order": 81,
+            "indent": 1,
+            "item_id": "packaging_rules-81",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "*Note the following prerequisite unit requirements:",
+            "type": "paragraph",
+            "order": 82,
+            "indent": null,
+            "item_id": "packaging_rules-82",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisations",
+            "type": "paragraph",
+            "order": 84,
+            "indent": null,
+            "item_id": "packaging_rules-84",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Where relevant, specialisations can be used for this qualification in:",
+            "type": "paragraph",
+            "order": 85,
+            "indent": null,
+            "item_id": "packaging_rules-85",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "copper cable jointer",
+            "type": "bullet",
+            "order": 86,
+            "indent": 0,
+            "item_id": "packaging_rules-86",
+            "parent_bullet_item_id": "packaging_rules-85"
+          },
+          {
+            "text": "fibre splicer",
+            "type": "bullet",
+            "order": 87,
+            "indent": 0,
+            "item_id": "packaging_rules-87",
+            "parent_bullet_item_id": "packaging_rules-85"
+          },
+          {
+            "text": "fibre technician",
+            "type": "bullet",
+            "order": 88,
+            "indent": 0,
+            "item_id": "packaging_rules-88",
+            "parent_bullet_item_id": "packaging_rules-85"
+          },
+          {
+            "text": "HFC technician",
+            "type": "bullet",
+            "order": 89,
+            "indent": 0,
+            "item_id": "packaging_rules-89",
+            "parent_bullet_item_id": "packaging_rules-85"
+          },
+          {
+            "text": "telecommunications customer service technician – HFC technician.",
+            "type": "bullet",
+            "order": 90,
+            "indent": 0,
+            "item_id": "packaging_rules-90",
+            "parent_bullet_item_id": "packaging_rules-85"
+          },
+          {
+            "text": "The achievement of a specialisation will be identified on testamurs as follows:",
+            "type": "paragraph",
+            "order": 91,
+            "indent": null,
+            "item_id": "packaging_rules-91",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Copper Cable Jointer)",
+            "type": "bullet",
+            "order": 92,
+            "indent": 0,
+            "item_id": "packaging_rules-92",
+            "parent_bullet_item_id": "packaging_rules-91"
+          },
+          {
+            "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Fibre Splicer)",
+            "type": "bullet",
+            "order": 93,
+            "indent": 0,
+            "item_id": "packaging_rules-93",
+            "parent_bullet_item_id": "packaging_rules-91"
+          },
+          {
+            "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Fibre Technician)",
+            "type": "bullet",
+            "order": 94,
+            "indent": 0,
+            "item_id": "packaging_rules-94",
+            "parent_bullet_item_id": "packaging_rules-91"
+          },
+          {
+            "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (HFC Technician)",
+            "type": "bullet",
+            "order": 95,
+            "indent": 0,
+            "item_id": "packaging_rules-95",
+            "parent_bullet_item_id": "packaging_rules-91"
+          },
+          {
+            "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Telecommunications Customer Service Technician – HFC Technician).",
+            "type": "bullet",
+            "order": 96,
+            "indent": 0,
+            "item_id": "packaging_rules-96",
+            "parent_bullet_item_id": "packaging_rules-91"
+          },
+          {
+            "text": "Copper Cable Jointer",
+            "type": "bullet",
+            "order": 97,
+            "indent": 1,
+            "item_id": "packaging_rules-97",
+            "parent_bullet_item_id": "packaging_rules-96"
+          },
+          {
+            "text": "Select the following 6 elective units:",
+            "type": "paragraph",
+            "order": 98,
+            "indent": null,
+            "item_id": "packaging_rules-98",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ICTCBL254 Joint metallic conductor cable in access network",
+            "type": "bullet",
+            "order": 99,
+            "indent": 0,
+            "item_id": "packaging_rules-99",
+            "parent_bullet_item_id": "packaging_rules-98"
+          },
+          {
+            "text": "ICTCBL319 Rearrange large size copper cable",
+            "type": "bullet",
+            "order": 100,
+            "indent": 0,
+            "item_id": "packaging_rules-100",
+            "parent_bullet_item_id": "packaging_rules-98"
+          },
+          {
+            "text": "ICTCBL326 Cut over metallic conductor cable in the access network",
+            "type": "bullet",
+            "order": 101,
+            "indent": 0,
+            "item_id": "packaging_rules-101",
+            "parent_bullet_item_id": "packaging_rules-98"
+          },
+          {
+            "text": "ICTCBL332 Locate, identify and rectify copper cable faults",
+            "type": "bullet",
+            "order": 102,
+            "indent": 0,
+            "item_id": "packaging_rules-102",
+            "parent_bullet_item_id": "packaging_rules-98"
+          },
+          {
+            "text": "ICTCBL336 Install and cut over metallic conductor cable to access network cabinet",
+            "type": "bullet",
+            "order": 103,
+            "indent": 0,
+            "item_id": "packaging_rules-103",
+            "parent_bullet_item_id": "packaging_rules-98"
+          },
+          {
+            "text": "ICTTEN312 Install telecommunications network equipment",
+            "type": "bullet",
+            "order": 104,
+            "indent": 0,
+            "item_id": "packaging_rules-104",
+            "parent_bullet_item_id": "packaging_rules-98"
+          },
+          {
+            "text": "Fibre Splicer",
+            "type": "bullet",
+            "order": 105,
+            "indent": 1,
+            "item_id": "packaging_rules-105",
+            "parent_bullet_item_id": "packaging_rules-104"
+          },
+          {
+            "text": "Select the following 6 elective units:",
+            "type": "paragraph",
+            "order": 106,
+            "indent": null,
+            "item_id": "packaging_rules-106",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ICTBWN302 Install optical fibre splitters in fibre distribution hubs",
+            "type": "bullet",
+            "order": 107,
+            "indent": 0,
+            "item_id": "packaging_rules-107",
+            "parent_bullet_item_id": "packaging_rules-106"
+          },
+          {
+            "text": "ICTBWN307 Use optical measuring instruments",
+            "type": "bullet",
+            "order": 108,
+            "indent": 0,
+            "item_id": "packaging_rules-108",
+            "parent_bullet_item_id": "packaging_rules-106"
+          },
+          {
+            "text": "ICTBWN308 Work safely on live optical fibre installations*",
+            "type": "bullet",
+            "order": 109,
+            "indent": 0,
+            "item_id": "packaging_rules-109",
+            "parent_bullet_item_id": "packaging_rules-106"
+          },
+          {
+            "text": "ICTCBL316 Install ribbon fibre cable in the FTTX distribution network*",
+            "type": "bullet",
+            "order": 110,
+            "indent": 0,
+            "item_id": "packaging_rules-110",
+            "parent_bullet_item_id": "packaging_rules-106"
+          },
+          {
+            "text": "ICTCBL330 Splice and terminate optical fibre cable for carriers and service projects",
+            "type": "bullet",
+            "order": 111,
+            "indent": 0,
+            "item_id": "packaging_rules-111",
+            "parent_bullet_item_id": "packaging_rules-106"
+          },
+          {
+            "text": "ICTTEN318 Inspect, clean and handle optical fibre cable and connectors",
+            "type": "bullet",
+            "order": 112,
+            "indent": 0,
+            "item_id": "packaging_rules-112",
+            "parent_bullet_item_id": "packaging_rules-106"
+          },
+          {
+            "text": "Technician Fibre",
+            "type": "bullet",
+            "order": 113,
+            "indent": 1,
+            "item_id": "packaging_rules-113",
+            "parent_bullet_item_id": "packaging_rules-112"
+          },
+          {
+            "text": "Select the following 7 elective units:",
+            "type": "paragraph",
+            "order": 114,
+            "indent": null,
+            "item_id": "packaging_rules-114",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ICTBWN307 Use optical measuring instruments",
+            "type": "bullet",
+            "order": 115,
+            "indent": 0,
+            "item_id": "packaging_rules-115",
+            "parent_bullet_item_id": "packaging_rules-114"
+          },
+          {
+            "text": "ICTBWN308 Work safely on live optical fibre installations*",
+            "type": "bullet",
+            "order": 116,
+            "indent": 0,
+            "item_id": "packaging_rules-116",
+            "parent_bullet_item_id": "packaging_rules-114"
+          },
+          {
+            "text": "ICTCBL322 Install, test and terminate optical fibre cable on customer premises",
+            "type": "bullet",
+            "order": 117,
+            "indent": 0,
+            "item_id": "packaging_rules-117",
+            "parent_bullet_item_id": "packaging_rules-114"
+          },
+          {
+            "text": "ICTTEN310 Remove and replace electronic circuit boards in carrier equipment",
+            "type": "bullet",
+            "order": 118,
+            "indent": 0,
+            "item_id": "packaging_rules-118",
+            "parent_bullet_item_id": "packaging_rules-114"
+          },
+          {
+            "text": "ICTTEN318 Inspect, clean and handle optical fibre cable and connectors",
+            "type": "bullet",
+            "order": 119,
+            "indent": 0,
+            "item_id": "packaging_rules-119",
+            "parent_bullet_item_id": "packaging_rules-114"
+          },
+          {
+            "text": "ICTTEN409 Commission an electronic system",
+            "type": "bullet",
+            "order": 120,
+            "indent": 0,
+            "item_id": "packaging_rules-120",
+            "parent_bullet_item_id": "packaging_rules-114"
+          },
+          {
+            "text": "ICTTEN416 Install, configure and test an internet protocol network",
+            "type": "bullet",
+            "order": 121,
+            "indent": 0,
+            "item_id": "packaging_rules-121",
+            "parent_bullet_item_id": "packaging_rules-114"
+          },
+          {
+            "text": "Technician Hybrid Fibre Coaxial (HFC)",
+            "type": "bullet",
+            "order": 122,
+            "indent": 1,
+            "item_id": "packaging_rules-122",
+            "parent_bullet_item_id": "packaging_rules-121"
+          },
+          {
+            "text": "Select the following 5 elective units:",
+            "type": "paragraph",
+            "order": 123,
+            "indent": null,
+            "item_id": "packaging_rules-123",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ICTBWN306 Use radio frequency measuring instruments",
+            "type": "bullet",
+            "order": 124,
+            "indent": 0,
+            "item_id": "packaging_rules-124",
+            "parent_bullet_item_id": "packaging_rules-123"
+          },
+          {
+            "text": "ICTCBL248 Install and terminate hard-line coaxial cable",
+            "type": "bullet",
+            "order": 125,
+            "indent": 0,
+            "item_id": "packaging_rules-125",
+            "parent_bullet_item_id": "packaging_rules-123"
+          },
+          {
+            "text": "ICTCBL333 Install aerial cable for communications applications",
+            "type": "bullet",
+            "order": 126,
+            "indent": 0,
+            "item_id": "packaging_rules-126",
+            "parent_bullet_item_id": "packaging_rules-123"
+          },
+          {
+            "text": "ICTTEN312 Install telecommunications network equipment",
+            "type": "bullet",
+            "order": 127,
+            "indent": 0,
+            "item_id": "packaging_rules-127",
+            "parent_bullet_item_id": "packaging_rules-123"
+          },
+          {
+            "text": "Plus",
+            "type": "paragraph",
+            "order": 128,
+            "indent": null,
+            "item_id": "packaging_rules-128",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ICTWHS201 Provide telecommunications services safely on roofs",
+            "type": "bullet",
+            "order": 129,
+            "indent": 0,
+            "item_id": "packaging_rules-129",
+            "parent_bullet_item_id": "packaging_rules-128"
+          },
+          {
+            "text": "or",
+            "type": "paragraph",
+            "order": 130,
+            "indent": null,
+            "item_id": "packaging_rules-130",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "RIIWHS204D Work safely at heights",
+            "type": "bullet",
+            "order": 131,
+            "indent": 0,
+            "item_id": "packaging_rules-131",
+            "parent_bullet_item_id": "packaging_rules-130"
+          },
+          {
+            "text": "Telecommunications Customer Service Technician – HFC Technician",
+            "type": "bullet",
+            "order": 132,
+            "indent": 1,
+            "item_id": "packaging_rules-132",
+            "parent_bullet_item_id": "packaging_rules-131"
+          },
+          {
+            "text": "Select the following 8 elective units:",
+            "type": "paragraph",
+            "order": 133,
+            "indent": null,
+            "item_id": "packaging_rules-133",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ICTBWN306 Use radio frequency measuring instruments",
+            "type": "bullet",
+            "order": 134,
+            "indent": 0,
+            "item_id": "packaging_rules-134",
+            "parent_bullet_item_id": "packaging_rules-133"
+          },
+          {
+            "text": "ICTCBL251 Install aerial and underground cable lead-ins",
+            "type": "bullet",
+            "order": 135,
+            "indent": 0,
+            "item_id": "packaging_rules-135",
+            "parent_bullet_item_id": "packaging_rules-133"
+          },
+          {
+            "text": "ICTCBL303 Install and terminate coaxial cable",
+            "type": "bullet",
+            "order": 136,
+            "indent": 0,
+            "item_id": "packaging_rules-136",
+            "parent_bullet_item_id": "packaging_rules-133"
+          },
+          {
+            "text": "ICTCBL306 Locate and identify cable system faults",
+            "type": "bullet",
+            "order": 137,
+            "indent": 0,
+            "item_id": "packaging_rules-137",
+            "parent_bullet_item_id": "packaging_rules-133"
+          },
+          {
+            "text": "ICTDRE308 Install a cable broadband multi-dwelling unit system",
+            "type": "bullet",
+            "order": 138,
+            "indent": 0,
+            "item_id": "packaging_rules-138",
+            "parent_bullet_item_id": "packaging_rules-133"
+          },
+          {
+            "text": "ICTDRE314 Design communications wiring systems for customer premises*",
+            "type": "bullet",
+            "order": 139,
+            "indent": 0,
+            "item_id": "packaging_rules-139",
+            "parent_bullet_item_id": "packaging_rules-133"
+          },
+          {
+            "text": "ICTTEN207 Install and test internet protocol devices in convergence networks",
+            "type": "bullet",
+            "order": 140,
+            "indent": 0,
+            "item_id": "packaging_rules-140",
+            "parent_bullet_item_id": "packaging_rules-133"
+          },
+          {
+            "text": "ICTTEN312 Install telecommunications network equipment",
+            "type": "bullet",
+            "order": 141,
+            "indent": 0,
+            "item_id": "packaging_rules-141",
+            "parent_bullet_item_id": "packaging_rules-133"
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit in this qualification",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prerequisite unit",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2007 Use explosive power tools",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCDE3014A Remove non-friable asbestos",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCOHS1001A Work safely in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "ICTBWN308 Work safely on live optical fibre installations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "ICTBWN307 Use optical measuring instruments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "ICTWHS204 Follow work health and safety and environmental policy and procedures",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "ICTCBL246 Install, maintain and modify customer premises communications cabling: ACMA Restricted Rule",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "ICTTEN208 Use electrical skills when working with telecommunications networks",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "ICTWHS204 Follow work health and safety and environmental policy and procedures",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "ICTCBL247 Install, maintain and modify customer premises communications cabling: ACMA Open Rule",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "ICTTEN208 Use electrical skills when working with telecommunications networks",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "ICTWHS204 Follow work health and safety and environmental policy and procedures",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "ICTCBL316 Install ribbon fibre cable in the FTTX distribution network",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "ICTCBL330 Splice and terminate optical fibre cable for telecommunications projects",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "ICTDRE314 Design communications wiring systems for customer premises",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "ICTCBL247 Install, maintain and modify customer premises communications cabling: ACMA Open Rule",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 83,
+          "columns": [
+            "Prerequisite unit requirements in this qualification",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "No equivalent qualification. Supersedes and is not equivalent to ICT30415 Certificate III in Telecommunications Network Build and Operate.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guides are available from VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=a53af4e4-b400-484e-b778-71c9e9d6aff2",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "ICTTEN202",
+          "title": "Use hand and power tools",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "ICTTEN208",
+          "title": "Use electrical skills when working with telecommunications networks",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "ICTTEN315",
+          "title": "Determine and apply technologies within a telecommunications system",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "ICTTEN317",
+          "title": "Locate, identify and rectify telecommunications network faults",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "ICTWHS204",
+          "title": "Follow work health and safety and environmental policy and procedures",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        },
+        {
+          "code": "ICTWOR308",
+          "title": "Provide customer service to telecommunications customers",
+          "item_id": "core_unit-6",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 14,
+      "elective_rules": [
+        {
+          "text": "Total number of units = 14",
+          "type": "paragraph-bold",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "6 core units, plus",
+          "type": "paragraph",
+          "order": 2,
+          "indent": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "6 core units,"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 elective units",
+          "type": "paragraph",
+          "order": 3,
+          "indent": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 elective"
+            },
+            {
+              "bold": false,
+              "text": "units"
+            }
+          ],
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The elective units selected may consist of:",
+          "type": "paragraph",
+          "order": 4,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "up to 8 units from Group A Copper Cabling, or Group B Fibre Cabling, and/or Group C HFC Cabling",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-4"
+        },
+        {
+          "text": "up to 5 units from GroupD General",
+          "type": "bullet",
+          "order": 6,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-4"
+        },
+        {
+          "text": "up to 2 units from this or any currently endorsed Training Package or accredited course where the units are packaged in an Australian Qualification Framework (AQF) Level 3 or 4 qualification.",
+          "type": "bullet",
+          "order": 7,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-4"
+        },
+        {
+          "text": "Elective units must be relevant to the work environment and the qualification, maintain the integrity of the AQF alignment and contribute to a valid, industry-supported vocational outcome.",
+          "type": "paragraph",
+          "order": 8,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Units selected from other Training Packages or accredited courses must not duplicate units selected from, or available within, the ICT Information and Communications Technology Training Package.",
+          "type": "paragraph",
+          "order": 9,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisations",
+          "type": "paragraph-bold",
+          "order": 10,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Where relevant, specialisations can be used for this qualification in:",
+          "type": "paragraph",
+          "order": 11,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-11",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "copper cable jointer",
+          "type": "bullet",
+          "order": 12,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-12",
+          "parent_bullet_item_id": "elective_rules-11"
+        },
+        {
+          "text": "fibre splicer",
+          "type": "bullet",
+          "order": 13,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-13",
+          "parent_bullet_item_id": "elective_rules-11"
+        },
+        {
+          "text": "fibre technician",
+          "type": "bullet",
+          "order": 14,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-14",
+          "parent_bullet_item_id": "elective_rules-11"
+        },
+        {
+          "text": "HFC technician",
+          "type": "bullet",
+          "order": 15,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-15",
+          "parent_bullet_item_id": "elective_rules-11"
+        },
+        {
+          "text": "telecommunications customer service technician – HFC technician.",
+          "type": "bullet",
+          "order": 16,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-16",
+          "parent_bullet_item_id": "elective_rules-11"
+        },
+        {
+          "text": "The achievement of a specialisation will be identified on testamurs as follows:",
+          "type": "paragraph",
+          "order": 17,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-17",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Copper Cable Jointer)",
+          "type": "bullet",
+          "order": 18,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-18",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Fibre Splicer)",
+          "type": "bullet",
+          "order": 19,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-19",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Fibre Technician)",
+          "type": "bullet",
+          "order": 20,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-20",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (HFC Technician)",
+          "type": "bullet",
+          "order": 21,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-21",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "ICT30419 Certificate III in Telecommunications Network Build and Operation (Telecommunications Customer Service Technician – HFC Technician).",
+          "type": "bullet",
+          "order": 22,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-22",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "Copper Cable Jointer",
+          "type": "paragraph-bold",
+          "order": 23,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-23",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Select the following 6 elective units:",
+          "type": "paragraph",
+          "order": 24,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-24",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "ICTCBL254 Joint metallic conductor cable in access network",
+          "type": "bullet",
+          "order": 25,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-25",
+          "parent_bullet_item_id": "elective_rules-24"
+        },
+        {
+          "text": "ICTCBL319 Rearrange large size copper cable",
+          "type": "bullet",
+          "order": 26,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-26",
+          "parent_bullet_item_id": "elective_rules-24"
+        },
+        {
+          "text": "ICTCBL326 Cut over metallic conductor cable in the access network",
+          "type": "bullet",
+          "order": 27,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-27",
+          "parent_bullet_item_id": "elective_rules-24"
+        },
+        {
+          "text": "ICTCBL332 Locate, identify and rectify copper cable faults",
+          "type": "bullet",
+          "order": 28,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-28",
+          "parent_bullet_item_id": "elective_rules-24"
+        },
+        {
+          "text": "ICTCBL336 Install and cut over metallic conductor cable to access network cabinet",
+          "type": "bullet",
+          "order": 29,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-29",
+          "parent_bullet_item_id": "elective_rules-24"
+        },
+        {
+          "text": "ICTTEN312 Install telecommunications network equipment",
+          "type": "bullet",
+          "order": 30,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-30",
+          "parent_bullet_item_id": "elective_rules-24"
+        },
+        {
+          "text": "Fibre Splicer",
+          "type": "paragraph-bold",
+          "order": 31,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-31",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Select the following 6 elective units:",
+          "type": "paragraph",
+          "order": 32,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-32",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "ICTBWN302 Install optical fibre splitters in fibre distribution hubs",
+          "type": "bullet",
+          "order": 33,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-33",
+          "parent_bullet_item_id": "elective_rules-32"
+        },
+        {
+          "text": "ICTBWN307 Use optical measuring instruments",
+          "type": "bullet",
+          "order": 34,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-34",
+          "parent_bullet_item_id": "elective_rules-32"
+        },
+        {
+          "text": "ICTBWN308 Work safely on live optical fibre installations*",
+          "type": "bullet",
+          "order": 35,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-35",
+          "parent_bullet_item_id": "elective_rules-32"
+        },
+        {
+          "text": "ICTCBL316 Install ribbon fibre cable in the FTTX distribution network*",
+          "type": "bullet",
+          "order": 36,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-36",
+          "parent_bullet_item_id": "elective_rules-32"
+        },
+        {
+          "text": "ICTCBL330 Splice and terminate optical fibre cable for carriers and service projects",
+          "type": "bullet",
+          "order": 37,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-37",
+          "parent_bullet_item_id": "elective_rules-32"
+        },
+        {
+          "text": "ICTTEN318 Inspect, clean and handle optical fibre cable and connectors",
+          "type": "bullet",
+          "order": 38,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-38",
+          "parent_bullet_item_id": "elective_rules-32"
+        },
+        {
+          "text": "Technician Fibre",
+          "type": "paragraph-bold",
+          "order": 39,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-39",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Select the following 7 elective units:",
+          "type": "paragraph",
+          "order": 40,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-40",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "ICTBWN307 Use optical measuring instruments",
+          "type": "bullet",
+          "order": 41,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-41",
+          "parent_bullet_item_id": "elective_rules-40"
+        },
+        {
+          "text": "ICTBWN308 Work safely on live optical fibre installations*",
+          "type": "bullet",
+          "order": 42,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-42",
+          "parent_bullet_item_id": "elective_rules-40"
+        },
+        {
+          "text": "ICTCBL322 Install, test and terminate optical fibre cable on customer premises",
+          "type": "bullet",
+          "order": 43,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-43",
+          "parent_bullet_item_id": "elective_rules-40"
+        },
+        {
+          "text": "ICTTEN310 Remove and replace electronic circuit boards in carrier equipment",
+          "type": "bullet",
+          "order": 44,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-44",
+          "parent_bullet_item_id": "elective_rules-40"
+        },
+        {
+          "text": "ICTTEN318 Inspect, clean and handle optical fibre cable and connectors",
+          "type": "bullet",
+          "order": 45,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-45",
+          "parent_bullet_item_id": "elective_rules-40"
+        },
+        {
+          "text": "ICTTEN409 Commission an electronic system",
+          "type": "bullet",
+          "order": 46,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-46",
+          "parent_bullet_item_id": "elective_rules-40"
+        },
+        {
+          "text": "ICTTEN416 Install, configure and test an internet protocol network",
+          "type": "bullet",
+          "order": 47,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-47",
+          "parent_bullet_item_id": "elective_rules-40"
+        },
+        {
+          "text": "Technician Hybrid Fibre Coaxial (HFC)",
+          "type": "paragraph-bold",
+          "order": 48,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-48",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Select the following 5 elective units:",
+          "type": "paragraph",
+          "order": 49,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-49",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "ICTBWN306 Use radio frequency measuring instruments",
+          "type": "bullet",
+          "order": 50,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-50",
+          "parent_bullet_item_id": "elective_rules-49"
+        },
+        {
+          "text": "ICTCBL248 Install and terminate hard-line coaxial cable",
+          "type": "bullet",
+          "order": 51,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-51",
+          "parent_bullet_item_id": "elective_rules-49"
+        },
+        {
+          "text": "ICTCBL333 Install aerial cable for communications applications",
+          "type": "bullet",
+          "order": 52,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-52",
+          "parent_bullet_item_id": "elective_rules-49"
+        },
+        {
+          "text": "ICTTEN312 Install telecommunications network equipment",
+          "type": "bullet",
+          "order": 53,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-53",
+          "parent_bullet_item_id": "elective_rules-49"
+        },
+        {
+          "text": "Plus",
+          "type": "paragraph",
+          "order": 54,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-54",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "ICTWHS201 Provide telecommunications services safely on roofs",
+          "type": "bullet",
+          "order": 55,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-55",
+          "parent_bullet_item_id": "elective_rules-54"
+        },
+        {
+          "text": "or",
+          "type": "paragraph",
+          "order": 56,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-56",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "RIIWHS204D Work safely at heights",
+          "type": "bullet",
+          "order": 57,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-57",
+          "parent_bullet_item_id": "elective_rules-56"
+        },
+        {
+          "text": "Telecommunications Customer Service Technician – HFC Technician",
+          "type": "paragraph-bold",
+          "order": 58,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-58",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Select the following 8 elective units:",
+          "type": "paragraph",
+          "order": 59,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-59",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "ICTBWN306 Use radio frequency measuring instruments",
+          "type": "bullet",
+          "order": 60,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-60",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "ICTCBL251 Install aerial and underground cable lead-ins",
+          "type": "bullet",
+          "order": 61,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-61",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "ICTCBL303 Install and terminate coaxial cable",
+          "type": "bullet",
+          "order": 62,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-62",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "ICTCBL306 Locate and identify cable system faults",
+          "type": "bullet",
+          "order": 63,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-63",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "ICTDRE308 Install a cable broadband multi-dwelling unit system",
+          "type": "bullet",
+          "order": 64,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-64",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "ICTDRE314 Design communications wiring systems for customer premises*",
+          "type": "bullet",
+          "order": 65,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-65",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "ICTTEN207 Install and test internet protocol devices in convergence networks",
+          "type": "bullet",
+          "order": 66,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-66",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "ICTTEN312 Install telecommunications network equipment",
+          "type": "bullet",
+          "order": 67,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-67",
+          "parent_bullet_item_id": "elective_rules-59"
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "ICTCBL254",
+              "title": "Joint metallic conductor cable in access network",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL313",
+              "title": "Modify and cutover cable",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL319",
+              "title": "Rearrange large size copper cable",
+              "item_id": "elective_unit_GroupA-3",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL320",
+              "title": "Jumper metallic conductor cable in the access network",
+              "item_id": "elective_unit_GroupA-4",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL326",
+              "title": "Cut over metallic conductor cable in the access network",
+              "item_id": "elective_unit_GroupA-5",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL332",
+              "title": "Locate, identify and rectify copper cable faults",
+              "item_id": "elective_unit_GroupA-6",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL336",
+              "title": "Install and cut over metallic conductor cable to access network cabinet",
+              "item_id": "elective_unit_GroupA-7",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A Copper Cabling",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "ICTBWN302",
+              "title": "Install optical fibre splitters in fibre distribution hubs",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTBWN309",
+              "title": "Perform tests on optical communication system and components",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL316",
+              "title": "Install ribbon fibre cable in the FTTX distribution network*",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL322",
+              "title": "Install, test and terminate optical fibre cable on customer premises",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL330",
+              "title": "Splice and terminate optical fibre cable for telecommunications projects",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTTEN318",
+              "title": "Inspect, clean and handle optical fibre cable and connectors",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTTEN409",
+              "title": "Commission an electronic system",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTTEN416",
+              "title": "Install, configure and test an internet protocol network",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B Fibre Cabling",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "ICTCBL248",
+              "title": "Install and terminate hard-line coaxial cable",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL251",
+              "title": "Install aerial and underground cable lead-ins",
+              "item_id": "elective_unit_GroupC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL303",
+              "title": "Install and terminate coaxial cable",
+              "item_id": "elective_unit_GroupC-3",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL306",
+              "title": "Locate and identify cable system faults",
+              "item_id": "elective_unit_GroupC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL333",
+              "title": "Install aerial cable for communications applications",
+              "item_id": "elective_unit_GroupC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL335",
+              "title": "Construct aerial cable supports",
+              "item_id": "elective_unit_GroupC-6",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTDRE303",
+              "title": "Install a complex digital reception system",
+              "item_id": "elective_unit_GroupC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTDRE308",
+              "title": "Install a cable broadband multi-dwelling unit system",
+              "item_id": "elective_unit_GroupC-8",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTDRE314",
+              "title": "Design communications wiring systems for customer premises*",
+              "item_id": "elective_unit_GroupC-9",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTRFN406",
+              "title": "Maintain hybrid fibre coaxial broadband cable network",
+              "item_id": "elective_unit_GroupC-10",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group C HFC Cabling",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBSUS201",
+              "title": "Participate in environmentally sustainable work practices",
+              "item_id": "elective_unit_GroupD-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBSUS401",
+              "title": "Implement and monitor environmentally sustainable work practices",
+              "item_id": "elective_unit_GroupD-2",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools*",
+              "item_id": "elective_unit_GroupD-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCDE3014A",
+              "title": "Remove non-friable asbestos*",
+              "item_id": "elective_unit_GroupD-4",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCOHS1001A",
+              "title": "Work safely in the construction industry",
+              "item_id": "elective_unit_GroupD-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "item_id": "elective_unit_GroupD-6",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCPCM2043A",
+              "title": "Carry out WHS requirements",
+              "item_id": "elective_unit_GroupD-7",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTBWN308",
+              "title": "Work safely on live optical fibre installations*",
+              "item_id": "elective_unit_GroupD-8",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTBWN303",
+              "title": "Install lead-in module and cable for fibre to the premises",
+              "item_id": "elective_unit_GroupD-9",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTBWN306",
+              "title": "Use radio frequency measuring instruments",
+              "item_id": "elective_unit_GroupD-10",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTBWN307",
+              "title": "Use optical measuring instruments",
+              "item_id": "elective_unit_GroupD-11",
+              "asterisk": 0
+            },
+            {
+              "code": "HLTAID009",
+              "title": "Provide cardiopulmonary resuscitation",
+              "item_id": "elective_unit_GroupD-12",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL246",
+              "title": "Install, maintain and modify customer premises communications cabling: ACMA Restricted Rule*",
+              "item_id": "elective_unit_GroupD-13",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL247",
+              "title": "Install maintain and modify customer premises communications cabling: ACMA Open Rule*",
+              "item_id": "elective_unit_GroupD-14",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL249",
+              "title": "Haul underground cable for installation and maintenance work",
+              "item_id": "elective_unit_GroupD-15",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL254",
+              "title": "Joint metallic conductor cable in access network",
+              "item_id": "elective_unit_GroupD-16",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL329",
+              "title": "Install underground cable for communications applications",
+              "item_id": "elective_unit_GroupD-17",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTCBL334",
+              "title": "Install underground enclosures and conduit",
+              "item_id": "elective_unit_GroupD-18",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTTEN207",
+              "title": "Install and test internet protocol devices in convergence networks",
+              "item_id": "elective_unit_GroupD-19",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTTEN310",
+              "title": "Remove and replace electronic circuit boards in carrier equipment",
+              "item_id": "elective_unit_GroupD-20",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTTEN312",
+              "title": "Install telecommunications network equipment",
+              "item_id": "elective_unit_GroupD-21",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTTEN313",
+              "title": "Work on and resolve recurrent network faults",
+              "item_id": "elective_unit_GroupD-22",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTWHS201",
+              "title": "Provide telecommunications services safely on roofs",
+              "item_id": "elective_unit_GroupD-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204D",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupD-24",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTWHS205",
+              "title": "Work safely near power infrastructure at a telecommunications workplace",
+              "item_id": "elective_unit_GroupD-25",
+              "asterisk": 0
+            },
+            {
+              "code": "UETTDREL14A",
+              "title": "Working safely near live electrical apparatus as a non-electrical worker",
+              "item_id": "elective_unit_GroupD-26",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTWOR202",
+              "title": "Work effectively in the digital and telecommunications industry",
+              "item_id": "elective_unit_GroupD-27",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTWOR305",
+              "title": "Supervise worksite activities",
+              "item_id": "elective_unit_GroupD-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM202D",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupD-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202D",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupD-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205D",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupD-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302D",
+              "title": "Implement traffic management plan",
+              "item_id": "elective_unit_GroupD-32",
+              "asterisk": 0
+            },
+            {
+              "code": "TLID2010",
+              "title": "Operate a forklift",
+              "item_id": "elective_unit_GroupD-33",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group D General",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 6,
+      "elective_units_required": 8,
+      "prerequisite_requirements": [
+        {
+          "item_id": "prerequisite_requirement-1",
+          "unit_of_competency": {
+            "code": "CPCCCM2007",
+            "title": "Use explosive power tools",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-2",
+          "unit_of_competency": {
+            "code": "CPCCDE3014A",
+            "title": "Remove non-friable asbestos",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCOHS1001A",
+              "title": "Work safely in the construction industry",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-3",
+          "unit_of_competency": {
+            "code": "ICTBWN308",
+            "title": "Work safely on live optical fibre installations",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "ICTBWN307",
+              "title": "Use optical measuring instruments",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTWHS204",
+              "title": "Follow work health and safety and environmental policy and procedures",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-4",
+          "unit_of_competency": {
+            "code": "ICTCBL246",
+            "title": "Install, maintain and modify customer premises communications cabling: ACMA Restricted Rule",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "ICTTEN208",
+              "title": "Use electrical skills when working with telecommunications networks",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTWHS204",
+              "title": "Follow work health and safety and environmental policy and procedures",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-5",
+          "unit_of_competency": {
+            "code": "ICTCBL247",
+            "title": "Install, maintain and modify customer premises communications cabling: ACMA Open Rule",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "ICTTEN208",
+              "title": "Use electrical skills when working with telecommunications networks",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTWHS204",
+              "title": "Follow work health and safety and environmental policy and procedures",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-6",
+          "unit_of_competency": {
+            "code": "ICTCBL316",
+            "title": "Install ribbon fibre cable in the FTTX distribution network",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "ICTCBL330",
+              "title": "Splice and terminate optical fibre cable for telecommunications projects",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-7",
+          "unit_of_competency": {
+            "code": "ICTDRE314",
+            "title": "Design communications wiring systems for customer premises",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "ICTCBL247",
+              "title": "Install, maintain and modify customer premises communications cabling: ACMA Open Rule",
+              "asterisk": 0
+            }
+          ]
+        }
+      ]
+    }
+  }

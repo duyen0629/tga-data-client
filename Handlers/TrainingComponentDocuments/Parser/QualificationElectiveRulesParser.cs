@@ -11,27 +11,74 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
     /// </summary>
     internal static class QualificationElectiveRulesParser
     {
+        private static bool IsStopPoint(string text)
+        {
+            var t = (text ?? string.Empty).Trim();
+            return t.Equals("Core Units", StringComparison.OrdinalIgnoreCase)
+                || t.Equals("Core", StringComparison.OrdinalIgnoreCase)
+                || t.Equals("Prerequisite requirements", StringComparison.OrdinalIgnoreCase);
+        }
+
+        /// <summary>
+        /// Single-pass: reads top to bottom. Stops collecting at Core/Core Units/Prerequisite requirements,
+        /// resumes when "Specialisations" is found. No duplication, no missing content.
+        /// </summary>
         internal static List<XElement> CollectElectiveRulesParagraphs(XElement textNode, XNamespace ns)
         {
             var result = new List<XElement>();
+            if (textNode == null) return result;
 
-            if (textNode == null)
-            {
-                return result;
-            }
+            var collecting = true;
 
             foreach (var element in textNode.Elements())
             {
-                if (element.Name != ns + "p")
+                if (element.Name == ns + "p")
                 {
-                    continue;
+                    var text = (CommonParser.ExtractInlineText(element) ?? string.Empty).Trim();
+                    if (IsStopPoint(text))
+                    {
+                        collecting = false;
+                        continue;
+                    }
+                    if (string.Equals(text, "Specialisations", StringComparison.OrdinalIgnoreCase))
+                    {
+                        collecting = true;
+                    }
+                    if (collecting)
+                    {
+                        result.Add(element);
+                    }
                 }
-                var text = (CommonParser.ExtractInlineText(element) ?? string.Empty).Trim();
-                if (text.Equals("Core Units", StringComparison.OrdinalIgnoreCase))
+                else if (element.Name == ns + "table")
                 {
-                    break;
+                    if (QualificationPrerequisiteRequirementParser.IsPrerequisiteRequirementsTable(element, ns))
+                    {
+                        continue;
+                    }
+                    foreach (var row in element.Elements(ns + "tr"))
+                    {
+                        foreach (var cell in row.Elements(ns + "td").Concat(row.Elements(ns + "th")))
+                        {
+                            foreach (var p in cell.Elements(ns + "p"))
+                            {
+                                var pText = (CommonParser.ExtractInlineText(p) ?? string.Empty).Trim();
+                                if (IsStopPoint(pText))
+                                {
+                                    collecting = false;
+                                    continue;
+                                }
+                                if (string.Equals(pText, "Specialisations", StringComparison.OrdinalIgnoreCase))
+                                {
+                                    collecting = true;
+                                }
+                                if (collecting)
+                                {
+                                    result.Add(p);
+                                }
+                            }
+                        }
+                    }
                 }
-                result.Add(element);
             }
 
             return result;
@@ -44,7 +91,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
         internal static (string type, List<TextPart> content) GetElectiveRuleItemTypeAndContent(XElement p, XNamespace ns)
         {
             var idAttr = p.Attribute("id")?.Value;
-            if (idAttr == "1021843")
+            if (idAttr == "1021843" || idAttr == "8" || idAttr == "86")
             {
                 return ("paragraph-bold", null);
             }

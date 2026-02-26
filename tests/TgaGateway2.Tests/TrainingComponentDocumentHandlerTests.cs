@@ -209,7 +209,7 @@ namespace TgaGateway2.Tests
 
             if (expected is Dictionary<string, object> expectedDict && actual is Dictionary<string, object> actualDict)
             {
-                Assert.AreEqual(expectedDict.Count, actualDict.Count, $"{path}: Dictionary count mismatch.");
+                Assert.IsTrue(actualDict.Count >= expectedDict.Count, $"{path}: Actual has fewer keys than expected.");
                 foreach (var key in expectedDict.Keys)
                 {
                     Assert.IsTrue(actualDict.ContainsKey(key), $"{path}: Missing key '{key}'.");

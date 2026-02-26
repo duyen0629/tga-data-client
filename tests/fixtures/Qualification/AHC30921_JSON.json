@@ -1,4 +1,4 @@
-{
+﻿{
     "source": {
       "complete": {
         "format": "xml",
@@ -541,61 +541,61 @@
           "code": "AHCDRG305",
           "title": "Install drainage systems",
           "item_id": "core_unit-1",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCLSC311",
           "title": "Set out site for construction works",
           "item_id": "core_unit-2",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCLSC312",
           "title": "Construct brick and block structures and features",
           "item_id": "core_unit-3",
-          "asterisk": true
+          "asterisk": 1
         },
         {
           "code": "AHCLSC313",
           "title": "Construct stone structures and features, and install stone cladding",
           "item_id": "core_unit-4",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCLSC316",
           "title": "Implement a paving project",
           "item_id": "core_unit-5",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCLSC317",
           "title": "Construct landscape features using concrete",
           "item_id": "core_unit-6",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCLSC319",
           "title": "Implement a retaining wall project",
           "item_id": "core_unit-7",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCPCM306",
           "title": "Provide information on plants and their culture",
           "item_id": "core_unit-8",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCPGD307",
           "title": "Implement a plant establishment program",
           "item_id": "core_unit-9",
-          "asterisk": false
+          "asterisk": 0
         },
         {
           "code": "AHCSOL304",
           "title": "Implement soil improvements for garden and turf areas",
           "item_id": "core_unit-10",
-          "asterisk": false
+          "asterisk": 0
         }
       ],
       "total_units": 17,
@@ -675,148 +675,148 @@
       ],
       "elective_units": [
         {
-          "key": "GroupA",
           "items": [
             {
               "code": "AHCWHS302",
               "title": "Contribute to workplace health and safety processes",
               "item_id": "elective_unit_GroupA-1",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "CPCCWHS2001",
               "title": "Apply WHS requirements, policies and procedures in the construction industry",
               "item_id": "elective_unit_GroupA-2",
-              "asterisk": false
+              "asterisk": 0
             }
           ],
-          "title": ""
+          "title": "Group A",
+          "category": "Elective units"
         },
         {
-          "key": "GroupB",
           "items": [
             {
               "code": "AHCBUS407",
               "title": "Cost a project",
               "item_id": "elective_unit_GroupB-1",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCGRI301",
               "title": "Maintain roof gardens, vertical gardens and green facades",
               "item_id": "elective_unit_GroupB-2",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCIRG345",
               "title": "Install pressurised irrigation systems",
               "item_id": "elective_unit_GroupB-3",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCLSC314",
               "title": "Implement a tree transplanting program",
               "item_id": "elective_unit_GroupB-4",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCLSC315",
               "title": "Implement an outdoor tiling project",
               "item_id": "elective_unit_GroupB-5",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCLSC318",
               "title": "Erect timber structures and features",
               "item_id": "elective_unit_GroupB-6",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCLSC320",
               "title": "Install water features",
               "item_id": "elective_unit_GroupB-7",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCLSC321",
               "title": "Install metal structures and features",
               "item_id": "elective_unit_GroupB-8",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCMOM213",
               "title": "Operate and maintain chainsaws",
               "item_id": "elective_unit_GroupB-9",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCMOM304",
               "title": "Operate machinery and equipment",
               "item_id": "elective_unit_GroupB-10",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCPCM204",
               "title": "Recognise plants",
               "item_id": "elective_unit_GroupB-11",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCPCM303",
               "title": "Identify plant specimens",
               "item_id": "elective_unit_GroupB-12",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCPGD310",
               "title": "Implement a landscape maintenance program",
               "item_id": "elective_unit_GroupB-13",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "AHCWRK320",
               "title": "Apply environmentally sustainable work practices",
               "item_id": "elective_unit_GroupB-14",
-              "asterisk": false
+              "asterisk": 0
             },
             {
               "code": "CPCCCA3018",
               "title": "Construct, erect and dismantle formwork for stairs and ramps",
               "item_id": "elective_unit_GroupB-15",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCCA3028",
               "title": "Erect and dismantle formwork for footings and slabs on ground",
               "item_id": "elective_unit_GroupB-16",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCON3041",
               "title": "Place concrete",
               "item_id": "elective_unit_GroupB-17",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCON3042",
               "title": "Finish concrete",
               "item_id": "elective_unit_GroupB-18",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "CPCCON3043",
               "title": "Cure concrete",
               "item_id": "elective_unit_GroupB-19",
-              "asterisk": true
+              "asterisk": 1
             },
             {
               "code": "MSFFL3127",
               "title": "Install synthetic textile floor coverings in indoor and outdoor facilities",
               "item_id": "elective_unit_GroupB-20",
-              "asterisk": false
+              "asterisk": 0
             }
           ],
-          "title": ""
+          "title": "Group B",
+          "category": "Elective units"
         }
       ],
       "core_units_required": 10,
@@ -827,78 +827,90 @@
           "unit_of_competency": {
             "code": "AHCLSC312",
             "title": "Construct brick and block structures and features",
-            "asterisk": false
+            "asterisk": 0
           },
-          "prerequisite_requirement": {
-            "code": "AHCLSC317",
-            "title": "Construct landscape features using concrete",
-            "asterisk": false
-          }
+          "prerequisite_requirement": [
+            {
+              "code": "AHCLSC317",
+              "title": "Construct landscape features using concrete",
+              "asterisk": 0
+            }
+          ]
         },
         {
           "item_id": "prerequisite_requirement-2",
           "unit_of_competency": {
             "code": "CPCCCA3018",
             "title": "Construct erect and dismantle formwork for stairs and ramps",
-            "asterisk": false
+            "asterisk": 0
           },
-          "prerequisite_requirement": {
-            "code": "CPCCWHS2001",
-            "title": "Apply WHS requirements, policies and procedures in the construction industry",
-            "asterisk": false
-          }
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
         },
         {
           "item_id": "prerequisite_requirement-3",
           "unit_of_competency": {
             "code": "CPCCCA3028",
             "title": "Erect and dismantle formwork for footings and slabs on ground",
-            "asterisk": false
+            "asterisk": 0
           },
-          "prerequisite_requirement": {
-            "code": "CPCCWHS2001",
-            "title": "Apply WHS requirements, policies and procedures in the construction industry",
-            "asterisk": false
-          }
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
         },
         {
           "item_id": "prerequisite_requirement-4",
           "unit_of_competency": {
             "code": "CPCCON3041",
             "title": "Place concrete",
-            "asterisk": false
+            "asterisk": 0
           },
-          "prerequisite_requirement": {
-            "code": "CPCCWHS2001",
-            "title": "Apply WHS requirements, policies and procedures in the construction industry",
-            "asterisk": false
-          }
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
         },
         {
           "item_id": "prerequisite_requirement-5",
           "unit_of_competency": {
             "code": "CPCCON3042",
             "title": "Finish concrete",
-            "asterisk": false
+            "asterisk": 0
           },
-          "prerequisite_requirement": {
-            "code": "CPCCWHS2001",
-            "title": "Apply WHS requirements, policies and procedures in the construction industry",
-            "asterisk": false
-          }
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
         },
         {
           "item_id": "prerequisite_requirement-6",
           "unit_of_competency": {
             "code": "CPCCON3043",
             "title": "Cure concrete",
-            "asterisk": false
+            "asterisk": 0
           },
-          "prerequisite_requirement": {
-            "code": "CPCCWHS2001",
-            "title": "Apply WHS requirements, policies and procedures in the construction industry",
-            "asterisk": false
-          }
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
         }
       ]
     }

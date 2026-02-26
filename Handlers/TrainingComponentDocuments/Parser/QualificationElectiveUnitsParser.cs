@@ -25,6 +25,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             var electiveGroupsMap = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             var ungroupedUnits = new List<Dictionary<string, object>>();
             var electiveStartIndex = -1;
+            string electiveCategory = null;
 
             for (var i = 0; i < children.Count; i++)
             {
@@ -33,9 +34,10 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     continue;
                 }
                 var text = (CommonParser.ExtractInlineText(children[i]) ?? string.Empty).Trim();
-                if (string.Equals(text, "Elective units", StringComparison.OrdinalIgnoreCase))
+                if (string.Equals(text, "Elective units", StringComparison.OrdinalIgnoreCase) || string.Equals(text, "Electives", StringComparison.OrdinalIgnoreCase))
                 {
                     electiveStartIndex = i;
+                    electiveCategory = string.Equals(text, "Elective units", StringComparison.OrdinalIgnoreCase) ? "Elective units" : "Electives";
                     break;
                 }
             }
@@ -43,6 +45,11 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             if (electiveStartIndex < 0)
             {
                 return new List<object>();
+            }
+
+            if (string.IsNullOrEmpty(electiveCategory))
+            {
+                electiveCategory = "Elective units";
             }
 
             string currentGroup = null;
@@ -77,34 +84,25 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     break;
                 }
 
-                // Group pattern with title: "Group A: Title"
-                var groupWithTitleMatch = Regex.Match(text, @"^Group\s+([A-Za-z0-9]+)\s*:\s*(.+)$", RegexOptions.IgnoreCase);
-                if (groupWithTitleMatch.Success)
+                // Single pattern: "Group A", "Group A: Copper Cabling", "Group A Copper Cabling", "Group A - Building"
+                // Title = full text; key = Group + id for grouping and item_ids
+                var groupMatch = Regex.Match(text, @"^Group\s+([A-Za-z0-9]+)\s*(.*)$", RegexOptions.IgnoreCase);
+                if (groupMatch.Success)
                 {
-                    currentGroup = "Group" + groupWithTitleMatch.Groups[1].Value.Trim();
-                    currentGroupTitle = groupWithTitleMatch.Groups[2].Value.Trim();
-                    if (!electiveGroupsMap.ContainsKey(currentGroup))
+                    var rest = groupMatch.Groups[2].Value.Trim();
+                    // Don't treat as group if rest starts with unit code (e.g. "Group A ICTCBL254..." would be malformed)
+                    if (string.IsNullOrEmpty(rest) || !Regex.IsMatch(rest, @"^[A-Z]{2,10}\d{2,6}"))
                     {
-                        electiveGroupsOrdered.Add((currentGroup, currentGroupTitle, new List<Dictionary<string, object>>()));
-                        electiveGroupsMap[currentGroup] = electiveGroupsOrdered.Count - 1;
-                        orderByGroup[currentGroup] = 1;
+                        currentGroup = "Group" + groupMatch.Groups[1].Value.Trim();
+                        currentGroupTitle = text.Trim();
+                        if (!electiveGroupsMap.ContainsKey(currentGroup))
+                        {
+                            electiveGroupsOrdered.Add((currentGroup, currentGroupTitle, new List<Dictionary<string, object>>()));
+                            electiveGroupsMap[currentGroup] = electiveGroupsOrdered.Count - 1;
+                            orderByGroup[currentGroup] = 1;
+                        }
+                        continue;
                     }
-                    continue;
-                }
-
-                // Group pattern without title: "Group A"
-                var groupNoTitleMatch = Regex.Match(text, @"^Group\s+([A-Za-z0-9]+)\s*$", RegexOptions.IgnoreCase);
-                if (groupNoTitleMatch.Success)
-                {
-                    currentGroup = "Group" + groupNoTitleMatch.Groups[1].Value.Trim();
-                    currentGroupTitle = string.Empty;
-                    if (!electiveGroupsMap.ContainsKey(currentGroup))
-                    {
-                        electiveGroupsOrdered.Add((currentGroup, currentGroupTitle, new List<Dictionary<string, object>>()));
-                        electiveGroupsMap[currentGroup] = electiveGroupsOrdered.Count - 1;
-                        orderByGroup[currentGroup] = 1;
-                    }
-                    continue;
                 }
 
                 var unitEntry = QualificationUnitHelper.ParseCodeAndTitleFromCell(text, unitCodePattern);
@@ -138,6 +136,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         {
                             { "key", g.key },
                             { "title", g.title },
+                            { "category", electiveCategory },
                             { "items", g.items }
                         });
                     }
@@ -145,7 +144,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             }
             else if (ungroupedUnits.Count > 0)
             {
-                result.AddRange(ungroupedUnits.Cast<object>());
+                result.Add(new Dictionary<string, object>
+                {
+                    { "category", electiveCategory },
+                    { "title", electiveCategory },
+                    { "items", ungroupedUnits }
+                });
             }
 
             return result;

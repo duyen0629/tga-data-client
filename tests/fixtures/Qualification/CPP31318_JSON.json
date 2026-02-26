@@ -2,7 +2,7 @@
     "source": {
       "complete": {
         "format": "xml",
-        "relative_path": "CPC\\CPC30320_R2.xml"
+        "relative_path": "CPP\\CPP31318_R4.xml"
       }
     },
     "sections": [
@@ -16,7 +16,7 @@
               "cells": [
                 [
                   {
-                    "text": "Release 2",
+                    "text": "Release 4",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -26,11 +26,107 @@
                 ],
                 [
                   {
-                    "text": "Updated reference to general construction induction training program.",
+                    "text": "This version first released with CPP Property Services Training Package Release 15.2.",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
                     "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Addition of HLTAID011 Provide First Aid to Elective units.",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-1_2_2",
+                    "parent_bullet_item_id": "modification_history_cell-1_2_1"
+                  },
+                  {
+                    "text": "HLTAID015 Provide advanced resuscitation and oxygen therapy has been marked with an asterisk * indicating a prerequisite unit requirement.",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-1_2_3",
+                    "parent_bullet_item_id": "modification_history_cell-1_2_1"
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 3",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPP Property Services Training Package Release 15.1.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "At the direction of the AISC, the following units have been updated:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "HLTAID006 Provide advanced first aid has been superseded by and is not equivalent to HLTAID014 Provide Advanced First Aid",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-2_2_3",
+                    "parent_bullet_item_id": "modification_history_cell-2_2_2"
+                  },
+                  {
+                    "text": "HLTAID007 Provide advanced resuscitation has been superseded and is not equivalent to HLTAID015 Provide advanced resuscitation and oxygen therapy.",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-2_2_4",
+                    "parent_bullet_item_id": "modification_history_cell-2_2_2"
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPP Property Services Training Package Release 8.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Imported units updated to current releases.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_2",
                     "parent_bullet_item_id": null
                   }
                 ]
@@ -44,25 +140,25 @@
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
-                    "item_id": "modification_history_cell-2_1_1",
+                    "item_id": "modification_history_cell-4_1_1",
                     "parent_bullet_item_id": null
                   }
                 ],
                 [
                   {
-                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 5.0.",
+                    "text": "This version first released with CPP Property Services Training Package Version 7.0.",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
-                    "item_id": "modification_history_cell-2_2_1",
+                    "item_id": "modification_history_cell-4_2_1",
                     "parent_bullet_item_id": null
                   },
                   {
-                    "text": "Supersedes and is equivalent to CPC30318 Certificate III in Concreting.",
+                    "text": "Supersedes and is not equivalent to CPP30411 Certificate III in Security Operations.",
                     "type": "paragraph",
                     "order": 2,
                     "indent": null,
-                    "item_id": "modification_history_cell-2_2_2",
+                    "item_id": "modification_history_cell-4_2_2",
                     "parent_bullet_item_id": null
                   }
                 ]
@@ -81,7 +177,7 @@
         "key": "entry_requirements",
         "items": [
           {
-            "text": "There are no entry requirements for this qualification.",
+            "text": "Must hold a current Security Officers licensing in the relevant jurisdiction.",
             "type": "paragraph",
             "order": 1,
             "indent": null,
@@ -105,7 +201,7 @@
             "parent_bullet_item_id": null
           },
           {
-            "text": "22 units of competency:",
+            "text": "14 units of competency:",
             "type": "bullet",
             "order": 2,
             "indent": 0,
@@ -113,7 +209,7 @@
             "parent_bullet_item_id": "packaging_rules-1"
           },
           {
-            "text": "17 core units",
+            "text": "8 core units",
             "type": "bullet",
             "order": 3,
             "indent": 1,
@@ -121,7 +217,7 @@
             "parent_bullet_item_id": "packaging_rules-2"
           },
           {
-            "text": "5 elective units.",
+            "text": "6 elective units.",
             "type": "bullet",
             "order": 4,
             "indent": 1,
@@ -129,7 +225,7 @@
             "parent_bullet_item_id": "packaging_rules-2"
           },
           {
-            "text": "For the elective units:",
+            "text": "The elective units must ensure the integrity of the AQF alignment and contribute to a valid, industry-supported vocational outcome and are to be chosen as follows:",
             "type": "paragraph",
             "order": 5,
             "indent": null,
@@ -137,7 +233,7 @@
             "parent_bullet_item_id": null
           },
           {
-            "text": "3 units must be selected from Group A",
+            "text": "a minimum of 4 elective units must be chosen from the elective units listed below",
             "type": "bullet",
             "order": 6,
             "indent": 0,
@@ -145,7 +241,7 @@
             "parent_bullet_item_id": "packaging_rules-5"
           },
           {
-            "text": "the remaining 2 elective units may be selected from Group A and/or Group B or from any currently endorsed Training Package or accredited course at Certificate III or Certificate IV level.",
+            "text": "up to 2 units may be chosen from the elective units listed below, or elsewhere from the CPP Property Services Training Package or other current Training Packages.",
             "type": "bullet",
             "order": 7,
             "indent": 0,
@@ -153,7 +249,7 @@
             "parent_bullet_item_id": "packaging_rules-5"
           },
           {
-            "text": "Prerequisite units",
+            "text": "Electives selected from outside this qualification must be relevant to the occupational outcome.",
             "type": "paragraph",
             "order": 8,
             "indent": null,
@@ -161,7 +257,7 @@
             "parent_bullet_item_id": null
           },
           {
-            "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisite requirements. All prerequisite requirements are packaged in the qualification.",
+            "text": "An asterisk against a unit code listed below indicates that there is a prerequisite.",
             "type": "paragraph",
             "order": 9,
             "indent": null,
@@ -191,7 +287,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCA3002*",
+                    "text": "BSBFLM312",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -201,7 +297,7 @@
                 ],
                 [
                   {
-                    "text": "Carry out setting out",
+                    "text": "Contribute to team effectiveness",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -215,7 +311,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCA3028*",
+                    "text": "CPPSEC3101",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -225,7 +321,7 @@
                 ],
                 [
                   {
-                    "text": "Erect and dismantle formwork for footings and slabs on ground",
+                    "text": "Manage conflict and security risks through negotiation",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -239,7 +335,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2002*",
+                    "text": "CPPSEC3102",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -249,7 +345,7 @@
                 ],
                 [
                   {
-                    "text": "Carry out hand excavation",
+                    "text": "Maintain operational safety and security of work environment",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -263,7 +359,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2006",
+                    "text": "CPPSEC3103",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -273,7 +369,7 @@
                 ],
                 [
                   {
-                    "text": "Apply basic levelling procedures",
+                    "text": "Determine and implement response to security risk situation",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -287,7 +383,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1012",
+                    "text": "CPPSEC3104",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -297,7 +393,7 @@
                 ],
                 [
                   {
-                    "text": "Work effectively and sustainably in the construction industry",
+                    "text": "Coordinate monitoring and control of individual and crowd behaviour",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -311,7 +407,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1013",
+                    "text": "CPPSEC3105",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -321,7 +417,7 @@
                 ],
                 [
                   {
-                    "text": "Plan and organise work",
+                    "text": "Coordinate provision of quality security services to clients",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -335,7 +431,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1014",
+                    "text": "CPPSEC3106",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -345,7 +441,7 @@
                 ],
                 [
                   {
-                    "text": "Conduct workplace communication",
+                    "text": "Gather, organise and present security information and documentation",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -359,7 +455,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1015",
+                    "text": "HLTWHS003",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -369,7 +465,7 @@
                 ],
                 [
                   {
-                    "text": "Carry out measurements and calculations",
+                    "text": "Maintain work health and safety",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -383,7 +479,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM2001*",
+                    "text": "Elective units",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -391,23 +487,14 @@
                     "parent_bullet_item_id": null
                   }
                 ],
-                [
-                  {
-                    "text": "Read and interpret plans and specifications",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-10_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
+                []
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCON2021*",
+                    "text": "CHCCCS020",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -417,7 +504,7 @@
                 ],
                 [
                   {
-                    "text": "Handle concreting materials and components",
+                    "text": "Respond effectively to behaviours of concern",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -431,7 +518,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON2022*",
+                    "text": "CPPSEC2114",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -441,7 +528,7 @@
                 ],
                 [
                   {
-                    "text": "Select, use and maintain concreting plant, tools and equipment",
+                    "text": "Monitor electronic security equipment and respond to alarm events",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -455,7 +542,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3035*",
+                    "text": "CPPSEC3107",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -465,7 +552,7 @@
                 ],
                 [
                   {
-                    "text": "Determine concrete supply requirements",
+                    "text": "Monitor security and coordinate response from control rooms",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -479,7 +566,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3041*",
+                    "text": "CPPSEC3108",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -489,7 +576,7 @@
                 ],
                 [
                   {
-                    "text": "Place concrete",
+                    "text": "Store, protect and dispose of security information",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -503,7 +590,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3042*",
+                    "text": "CPPSEC3109",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -513,7 +600,7 @@
                 ],
                 [
                   {
-                    "text": "Finish concrete",
+                    "text": "Use and maintain security databases and compile reports",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -527,7 +614,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3043*",
+                    "text": "CPPSEC3110",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -537,7 +624,7 @@
                 ],
                 [
                   {
-                    "text": "Cure concrete",
+                    "text": "Control persons using batons",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -551,7 +638,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCSF2004*",
+                    "text": "CPPSEC3111",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -561,7 +648,7 @@
                 ],
                 [
                   {
-                    "text": "Place and fix reinforcement materials",
+                    "text": "Restrain persons using handcuffs",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -575,7 +662,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCWHS2001",
+                    "text": "CPPSEC3112",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -585,7 +672,7 @@
                 ],
                 [
                   {
-                    "text": "Apply WHS requirements, policies and procedures in the construction industry",
+                    "text": "Manage training and wellbeing of dogs for security functions",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -599,30 +686,31 @@
               "cells": [
                 [
                   {
-                    "text": "Elective units",
+                    "text": "CPPSEC3113",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
                     "item_id": "packaging_rules_cell-19_1_1",
                     "parent_bullet_item_id": null
-                  },
-                  {
-                    "text": "Group A: Specialist elective units",
-                    "type": "paragraph",
-                    "order": 2,
-                    "indent": null,
-                    "item_id": "packaging_rules_cell-19_1_2",
-                    "parent_bullet_item_id": null
                   }
                 ],
-                []
+                [
+                  {
+                    "text": "Handle dogs for security patrols",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCON3036*",
+                    "text": "CPPSEC3114 *",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -632,7 +720,7 @@
                 ],
                 [
                   {
-                    "text": "Plan concrete work and brief team",
+                    "text": "Control security risk situations using firearms",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -646,7 +734,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3044*",
+                    "text": "CPPSEC3115",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -656,7 +744,7 @@
                 ],
                 [
                   {
-                    "text": "Apply decorative finishes to concrete",
+                    "text": "Carry, operate and maintain revolvers for security purposes",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -670,7 +758,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3046*",
+                    "text": "CPPSEC3116",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -680,7 +768,7 @@
                 ],
                 [
                   {
-                    "text": "Repair and rectify concrete",
+                    "text": "Carry, operate and maintain semi-automatic pistols for security purposes",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -694,7 +782,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3047*",
+                    "text": "CPPSEC3117",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -704,7 +792,7 @@
                 ],
                 [
                   {
-                    "text": "Cut concrete",
+                    "text": "Carry, operate and maintain shotguns for security purposes",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -718,7 +806,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3048*",
+                    "text": "CPPSEC3118",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -728,7 +816,7 @@
                 ],
                 [
                   {
-                    "text": "Construct tilt panels on site",
+                    "text": "Inspect and test cash-in-transit security equipment",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -742,7 +830,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3049*",
+                    "text": "CPPSEC3119",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -752,7 +840,7 @@
                 ],
                 [
                   {
-                    "text": "Apply and finish sprayed concrete",
+                    "text": "Implement cash-in-transit security procedures",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -766,7 +854,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3050*",
+                    "text": "CPPSEC3120",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -776,7 +864,7 @@
                 ],
                 [
                   {
-                    "text": "Carry out high performance concreting",
+                    "text": "Load and unload cash-in-transit in secured and unsecured environments",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -790,7 +878,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3051*",
+                    "text": "CPPSEC3121",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -800,7 +888,7 @@
                 ],
                 [
                   {
-                    "text": "Conduct off-form vertical concrete operations",
+                    "text": "Control persons using empty hand techniques",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -814,7 +902,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3053*",
+                    "text": "CPPSEC3122",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -824,7 +912,7 @@
                 ],
                 [
                   {
-                    "text": "Slump test concrete",
+                    "text": "Plan provision of close protection services",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -838,7 +926,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3054*",
+                    "text": "CPPSEC3123",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -848,7 +936,7 @@
                 ],
                 [
                   {
-                    "text": "Operate concrete agitator trucks",
+                    "text": "Implement close protection services",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -862,7 +950,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3055*",
+                    "text": "CPPSEC3124",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -872,7 +960,7 @@
                 ],
                 [
                   {
-                    "text": "Install topping slabs",
+                    "text": "Prepare and present evidence in court",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -886,7 +974,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3056*",
+                    "text": "CPPSEC3125",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -896,7 +984,7 @@
                 ],
                 [
                   {
-                    "text": "Conduct concrete pump delivery operations",
+                    "text": "Implement security procedures to protect critical infrastructure and public assets",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -910,7 +998,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCON3057*",
+                    "text": "CPPSEC3126",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -920,7 +1008,7 @@
                 ],
                 [
                   {
-                    "text": "Core concrete",
+                    "text": "Defend persons using spray",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -934,7 +1022,7 @@
               "cells": [
                 [
                   {
-                    "text": "Group B: General elective units",
+                    "text": "CPPSEC3127",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -942,14 +1030,23 @@
                     "parent_bullet_item_id": null
                   }
                 ],
-                []
+                [
+                  {
+                    "text": "Conduct security screening using x-ray equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
               ]
             },
             {
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2007*",
+                    "text": "CPPSEC3128",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -959,7 +1056,7 @@
                 ],
                 [
                   {
-                    "text": "Use explosive power tools",
+                    "text": "Conduct security screening using walk-through metal detection equipment",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -973,7 +1070,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2008*",
+                    "text": "CPPSEC3129",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -983,7 +1080,7 @@
                 ],
                 [
                   {
-                    "text": "Erect and dismantle restricted height scaffolding",
+                    "text": "Conduct security screening using explosive trace detection equipment",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -997,7 +1094,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCCM2012*",
+                    "text": "CPPSEC3130",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1007,7 +1104,7 @@
                 ],
                 [
                   {
-                    "text": "Work safely at heights",
+                    "text": "Conduct security screening using hand-held metal detectors",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1021,7 +1118,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCLBM3001",
+                    "text": "CPPSEC3131",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1031,7 +1128,7 @@
                 ],
                 [
                   {
-                    "text": "Licence to operate a concrete placing boom",
+                    "text": "Select, use and maintain body armour for security purposes",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1045,7 +1142,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCOM1016",
+                    "text": "HLTAID011",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1055,7 +1152,7 @@
                 ],
                 [
                   {
-                    "text": "Identify requirements for safe precast and tilt-up work",
+                    "text": "Provide First Aid",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1069,7 +1166,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCSF2003*",
+                    "text": "HLTAID014",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1079,7 +1176,7 @@
                 ],
                 [
                   {
-                    "text": "Cut and bend materials using oxy-LPG equipment",
+                    "text": "Provide Advanced First Aid",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1093,7 +1190,7 @@
               "cells": [
                 [
                   {
-                    "text": "CPCCSF3001*",
+                    "text": "HLTAID015 *",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
@@ -1103,11 +1200,83 @@
                 ],
                 [
                   {
-                    "text": "Apply reinforcement schedule",
+                    "text": "Provide advanced resuscitation and oxygen therapy",
                     "type": "paragraph",
                     "order": 1,
                     "indent": null,
                     "item_id": "packaging_rules_cell-40_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "PMAOMIR210",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Control evacuation to muster point",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIB0002",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out vehicle inspection",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC1051",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate commercial vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_2_1",
                     "parent_bullet_item_id": null
                   }
                 ]
@@ -1124,114 +1293,25 @@
       },
       {
         "key": "qualification_mapping_information",
-        "items": [],
+        "items": [
+          {
+            "text": "CPP31318 Certificate III in Security Operations supersedes and replaces CPP30411 Certificate III in Security Operations.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
         "order": 4,
-        "table": {
-          "rows": [
-            {
-              "cells": [
-                [
-                  {
-                    "text": "CPC Construction, Plumbing and Services Training Package Release 5.0",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_1_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "CPC Construction, Plumbing and Services Training Package Release 4.0",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "Comments",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_3_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "E/NE",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-1_4_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
-              ]
-            },
-            {
-              "cells": [
-                [
-                  {
-                    "text": "CPC30320 Certificate III in Concreting",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_1_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "CPC30318 Certificate III in Concreting",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_2_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "Supersedes and is equivalent to CPC30318 Certificate III in Concreting.",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_3_1",
-                    "parent_bullet_item_id": null
-                  }
-                ],
-                [
-                  {
-                    "text": "E",
-                    "type": "paragraph",
-                    "order": 1,
-                    "indent": null,
-                    "item_id": "qualification_mapping_information_cell-2_4_1",
-                    "parent_bullet_item_id": null
-                  }
-                ]
-              ]
-            }
-          ],
-          "order": 1,
-          "columns": [
-            "Column 1",
-            "Column 2",
-            "Column 3",
-            "Column 4"
-          ]
-        },
+        "table": null,
         "title": "Qualification Mapping Information"
       },
       {
         "key": "links",
         "items": [
           {
-            "text": "Companion volumes to this training package are available at the VETNet website - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=7e15fa6a-68b8-4097-b099-030a5569b1ad",
+            "text": "An Implementation Guide to this Training Package is available at - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=6f3f9672-30e8-4835-b348-205dfcf13d9b",
             "type": "paragraph",
             "order": 1,
             "indent": null,
@@ -1247,109 +1327,55 @@
     "packing_rules_extracted": {
       "core_units": [
         {
-          "code": "CPCCCA3002",
-          "title": "Carry out setting out",
+          "code": "BSBFLM312",
+          "title": "Contribute to team effectiveness",
           "item_id": "core_unit-1",
-          "asterisk": 1
+          "asterisk": 0
         },
         {
-          "code": "CPCCCA3028",
-          "title": "Erect and dismantle formwork for footings and slabs on ground",
+          "code": "CPPSEC3101",
+          "title": "Manage conflict and security risks through negotiation",
           "item_id": "core_unit-2",
-          "asterisk": 1
+          "asterisk": 0
         },
         {
-          "code": "CPCCCM2002",
-          "title": "Carry out hand excavation",
+          "code": "CPPSEC3102",
+          "title": "Maintain operational safety and security of work environment",
           "item_id": "core_unit-3",
-          "asterisk": 1
+          "asterisk": 0
         },
         {
-          "code": "CPCCCM2006",
-          "title": "Apply basic levelling procedures",
+          "code": "CPPSEC3103",
+          "title": "Determine and implement response to security risk situation",
           "item_id": "core_unit-4",
           "asterisk": 0
         },
         {
-          "code": "CPCCOM1012",
-          "title": "Work effectively and sustainably in the construction industry",
+          "code": "CPPSEC3104",
+          "title": "Coordinate monitoring and control of individual and crowd behaviour",
           "item_id": "core_unit-5",
           "asterisk": 0
         },
         {
-          "code": "CPCCOM1013",
-          "title": "Plan and organise work",
+          "code": "CPPSEC3105",
+          "title": "Coordinate provision of quality security services to clients",
           "item_id": "core_unit-6",
           "asterisk": 0
         },
         {
-          "code": "CPCCOM1014",
-          "title": "Conduct workplace communication",
+          "code": "CPPSEC3106",
+          "title": "Gather, organise and present security information and documentation",
           "item_id": "core_unit-7",
           "asterisk": 0
         },
         {
-          "code": "CPCCOM1015",
-          "title": "Carry out measurements and calculations",
+          "code": "HLTWHS003",
+          "title": "Maintain work health and safety",
           "item_id": "core_unit-8",
-          "asterisk": 0
-        },
-        {
-          "code": "CPCCOM2001",
-          "title": "Read and interpret plans and specifications",
-          "item_id": "core_unit-9",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON2021",
-          "title": "Handle concreting materials and components",
-          "item_id": "core_unit-10",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON2022",
-          "title": "Select, use and maintain concreting plant, tools and equipment",
-          "item_id": "core_unit-11",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3035",
-          "title": "Determine concrete supply requirements",
-          "item_id": "core_unit-12",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3041",
-          "title": "Place concrete",
-          "item_id": "core_unit-13",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3042",
-          "title": "Finish concrete",
-          "item_id": "core_unit-14",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCON3043",
-          "title": "Cure concrete",
-          "item_id": "core_unit-15",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCSF2004",
-          "title": "Place and fix reinforcement materials",
-          "item_id": "core_unit-16",
-          "asterisk": 1
-        },
-        {
-          "code": "CPCCWHS2001",
-          "title": "Apply WHS requirements, policies and procedures in the construction industry",
-          "item_id": "core_unit-17",
           "asterisk": 0
         }
       ],
-      "total_units": 22,
+      "total_units": 14,
       "elective_rules": [
         {
           "text": "To achieve this qualification, competency must be demonstrated in:",
@@ -1361,7 +1387,7 @@
           "parent_bullet_item_id": null
         },
         {
-          "text": "22 units of competency:",
+          "text": "14 units of competency:",
           "type": "bullet",
           "order": 2,
           "indent": 0,
@@ -1370,7 +1396,7 @@
           "parent_bullet_item_id": "elective_rules-1"
         },
         {
-          "text": "17 core units",
+          "text": "8 core units",
           "type": "bullet",
           "order": 3,
           "indent": 1,
@@ -1379,7 +1405,7 @@
           "parent_bullet_item_id": "elective_rules-2"
         },
         {
-          "text": "5 elective units.",
+          "text": "6 elective units.",
           "type": "bullet",
           "order": 4,
           "indent": 1,
@@ -1388,7 +1414,7 @@
           "parent_bullet_item_id": "elective_rules-2"
         },
         {
-          "text": "For the elective units:",
+          "text": "The elective units must ensure the integrity of the AQF alignment and contribute to a valid, industry-supported vocational outcome and are to be chosen as follows:",
           "type": "paragraph",
           "order": 5,
           "indent": null,
@@ -1397,7 +1423,7 @@
           "parent_bullet_item_id": null
         },
         {
-          "text": "3 units must be selected from Group A",
+          "text": "a minimum of 4 elective units must be chosen from the elective units listed below",
           "type": "bullet",
           "order": 6,
           "indent": 0,
@@ -1406,7 +1432,7 @@
           "parent_bullet_item_id": "elective_rules-5"
         },
         {
-          "text": "the remaining 2 elective units may be selected from Group A and/or Group B or from any currently endorsed Training Package or accredited course at Certificate III or Certificate IV level.",
+          "text": "up to 2 units may be chosen from the elective units listed below, or elsewhere from the CPP Property Services Training Package or other current Training Packages.",
           "type": "bullet",
           "order": 7,
           "indent": 0,
@@ -1415,8 +1441,8 @@
           "parent_bullet_item_id": "elective_rules-5"
         },
         {
-          "text": "Prerequisite units",
-          "type": "paragraph-bold",
+          "text": "Electives selected from outside this qualification must be relevant to the occupational outcome.",
+          "type": "paragraph",
           "order": 8,
           "indent": null,
           "content": null,
@@ -1424,7 +1450,7 @@
           "parent_bullet_item_id": null
         },
         {
-          "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisite requirements. All prerequisite requirements are packaged in the qualification.",
+          "text": "An asterisk against a unit code listed below indicates that there is a prerequisite.",
           "type": "paragraph",
           "order": 9,
           "indent": null,
@@ -1435,140 +1461,206 @@
       ],
       "elective_units": [
         {
-          "items": [
-            {
-              "code": "CPCCON3036",
-              "title": "Plan concrete work and brief team",
-              "item_id": "specialist_elective_unit_GroupA-1",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3044",
-              "title": "Apply decorative finishes to concrete",
-              "item_id": "specialist_elective_unit_GroupA-2",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3046",
-              "title": "Repair and rectify concrete",
-              "item_id": "specialist_elective_unit_GroupA-3",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3047",
-              "title": "Cut concrete",
-              "item_id": "specialist_elective_unit_GroupA-4",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3048",
-              "title": "Construct tilt panels on site",
-              "item_id": "specialist_elective_unit_GroupA-5",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3049",
-              "title": "Apply and finish sprayed concrete",
-              "item_id": "specialist_elective_unit_GroupA-6",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3050",
-              "title": "Carry out high performance concreting",
-              "item_id": "specialist_elective_unit_GroupA-7",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3051",
-              "title": "Conduct off-form vertical concrete operations",
-              "item_id": "specialist_elective_unit_GroupA-8",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3053",
-              "title": "Slump test concrete",
-              "item_id": "specialist_elective_unit_GroupA-9",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3054",
-              "title": "Operate concrete agitator trucks",
-              "item_id": "specialist_elective_unit_GroupA-10",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3055",
-              "title": "Install topping slabs",
-              "item_id": "specialist_elective_unit_GroupA-11",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3056",
-              "title": "Conduct concrete pump delivery operations",
-              "item_id": "specialist_elective_unit_GroupA-12",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCON3057",
-              "title": "Core concrete",
-              "item_id": "specialist_elective_unit_GroupA-13",
-              "asterisk": 1
-            }
-          ],
-          "title": "Group A - Specialist elective units",
-          "category": "Specialist elective units"
+          "code": "CHCCCS020",
+          "title": "Respond effectively to behaviours of concern",
+          "item_id": "elective_unit_Elective-1",
+          "asterisk": 0
         },
         {
-          "items": [
-            {
-              "code": "CPCCCM2007",
-              "title": "Use explosive power tools",
-              "item_id": "general_elective_unit_GroupB-1",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCCM2008",
-              "title": "Erect and dismantle restricted height scaffolding",
-              "item_id": "general_elective_unit_GroupB-2",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCCM2012",
-              "title": "Work safely at heights",
-              "item_id": "general_elective_unit_GroupB-3",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCLBM3001",
-              "title": "Licence to operate a concrete placing boom",
-              "item_id": "general_elective_unit_GroupB-4",
-              "asterisk": 0
-            },
-            {
-              "code": "CPCCOM1016",
-              "title": "Identify requirements for safe precast and tilt-up work",
-              "item_id": "general_elective_unit_GroupB-5",
-              "asterisk": 0
-            },
-            {
-              "code": "CPCCSF2003",
-              "title": "Cut and bend materials using oxy-LPG equipment",
-              "item_id": "general_elective_unit_GroupB-6",
-              "asterisk": 1
-            },
-            {
-              "code": "CPCCSF3001",
-              "title": "Apply reinforcement schedule",
-              "item_id": "general_elective_unit_GroupB-7",
-              "asterisk": 1
-            }
-          ],
-          "title": "Group B - General elective units",
-          "category": "General elective units"
+          "code": "CPPSEC2114",
+          "title": "Monitor electronic security equipment and respond to alarm events",
+          "item_id": "elective_unit_Elective-2",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3107",
+          "title": "Monitor security and coordinate response from control rooms",
+          "item_id": "elective_unit_Elective-3",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3108",
+          "title": "Store, protect and dispose of security information",
+          "item_id": "elective_unit_Elective-4",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3109",
+          "title": "Use and maintain security databases and compile reports",
+          "item_id": "elective_unit_Elective-5",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3110",
+          "title": "Control persons using batons",
+          "item_id": "elective_unit_Elective-6",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3111",
+          "title": "Restrain persons using handcuffs",
+          "item_id": "elective_unit_Elective-7",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3112",
+          "title": "Manage training and wellbeing of dogs for security functions",
+          "item_id": "elective_unit_Elective-8",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3113",
+          "title": "Handle dogs for security patrols",
+          "item_id": "elective_unit_Elective-9",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3114",
+          "title": "Control security risk situations using firearms",
+          "item_id": "elective_unit_Elective-10",
+          "asterisk": 1
+        },
+        {
+          "code": "CPPSEC3115",
+          "title": "Carry, operate and maintain revolvers for security purposes",
+          "item_id": "elective_unit_Elective-11",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3116",
+          "title": "Carry, operate and maintain semi-automatic pistols for security purposes",
+          "item_id": "elective_unit_Elective-12",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3117",
+          "title": "Carry, operate and maintain shotguns for security purposes",
+          "item_id": "elective_unit_Elective-13",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3118",
+          "title": "Inspect and test cash-in-transit security equipment",
+          "item_id": "elective_unit_Elective-14",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3119",
+          "title": "Implement cash-in-transit security procedures",
+          "item_id": "elective_unit_Elective-15",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3120",
+          "title": "Load and unload cash-in-transit in secured and unsecured environments",
+          "item_id": "elective_unit_Elective-16",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3121",
+          "title": "Control persons using empty hand techniques",
+          "item_id": "elective_unit_Elective-17",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3122",
+          "title": "Plan provision of close protection services",
+          "item_id": "elective_unit_Elective-18",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3123",
+          "title": "Implement close protection services",
+          "item_id": "elective_unit_Elective-19",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3124",
+          "title": "Prepare and present evidence in court",
+          "item_id": "elective_unit_Elective-20",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3125",
+          "title": "Implement security procedures to protect critical infrastructure and public assets",
+          "item_id": "elective_unit_Elective-21",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3126",
+          "title": "Defend persons using spray",
+          "item_id": "elective_unit_Elective-22",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3127",
+          "title": "Conduct security screening using x-ray equipment",
+          "item_id": "elective_unit_Elective-23",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3128",
+          "title": "Conduct security screening using walk-through metal detection equipment",
+          "item_id": "elective_unit_Elective-24",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3129",
+          "title": "Conduct security screening using explosive trace detection equipment",
+          "item_id": "elective_unit_Elective-25",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3130",
+          "title": "Conduct security screening using hand-held metal detectors",
+          "item_id": "elective_unit_Elective-26",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPSEC3131",
+          "title": "Select, use and maintain body armour for security purposes",
+          "item_id": "elective_unit_Elective-27",
+          "asterisk": 0
+        },
+        {
+          "code": "HLTAID011",
+          "title": "Provide First Aid",
+          "item_id": "elective_unit_Elective-28",
+          "asterisk": 0
+        },
+        {
+          "code": "HLTAID014",
+          "title": "Provide Advanced First Aid",
+          "item_id": "elective_unit_Elective-29",
+          "asterisk": 0
+        },
+        {
+          "code": "HLTAID015",
+          "title": "Provide advanced resuscitation and oxygen therapy",
+          "item_id": "elective_unit_Elective-30",
+          "asterisk": 1
+        },
+        {
+          "code": "PMAOMIR210",
+          "title": "Control evacuation to muster point",
+          "item_id": "elective_unit_Elective-31",
+          "asterisk": 0
+        },
+        {
+          "code": "TLIB0002",
+          "title": "Carry out vehicle inspection",
+          "item_id": "elective_unit_Elective-32",
+          "asterisk": 0
+        },
+        {
+          "code": "TLIC1051",
+          "title": "Operate commercial vehicle",
+          "item_id": "elective_unit_Elective-33",
+          "asterisk": 0
         }
       ],
-      "core_units_required": 17,
-      "elective_units_required": 5,
+      "core_units_required": 8,
+      "elective_units_required": 6,
       "prerequisite_requirements": []
     }
   }

@@ -1,0 +1,690 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "CPP\\CPP40121_R1.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [
+          {
+            "text": "Release 1",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "modification_history-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "This qualification first released with CPP Property Services Training Package Release 11.0.",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "modification_history-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Supersedes and is not equivalent to CPP40115 Certificate IV in Building Design Drafting. Qualification title changed to better reflect the occupational outcome. Packaging rules changed with reduction in total number of units. Core requirements strengthened and electives limited to meet industry expectations of competent drafters.",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "modification_history-3",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 1,
+        "table": null,
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "There are no entry requirements for this qualification.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "To achieve this qualification, competency must be demonstrated in 10 units of competency, consisting of 7 core and 3 elective units. Electives are to be chosen as follows:",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "all three units from the electives listed below, or",
+            "type": "bullet",
+            "order": 2,
+            "indent": 0,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "two units from the electives listed below, plus one unit selected from:",
+            "type": "bullet",
+            "order": 3,
+            "indent": 0,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "the CPP50921 Diploma of Building Design qualification, or",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": "packaging_rules-3"
+          },
+          {
+            "text": "any current AQF level 4 qualification or accredited course provided it contributes to a valid, industry-supported vocational outcome and does not duplicate the outcome of another unit used to achieve this qualification.",
+            "type": "bullet",
+            "order": 5,
+            "indent": 1,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-3"
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4101",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work effectively in a building design environment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4102",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Analyse building design drawings",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4103",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Use CAD software to produce drawings for building design projects",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4104",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply compliance requirements to Class 1 and 10 building design documentation",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4105",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare drawings for planning and building approval for Class 1 and 10 buildings",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4106",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Investigate materials for construction of Class 1 and 10 buildings",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4107",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Investigate construction methods for Class 1 and 10 buildings",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Electives",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCWHS1001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare to work safely in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4108",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Draw layout of required services for Class 1 and 10 buildings",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4109",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Research architectural styles and movements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN4110",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Set up BIM-capable software and files for building design drafting projects",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN5101",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Produce digital 3-D models of building designs",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN5102",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Produce compliant designs for Class 1 and 10 building",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPPBDN5110",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Inspect and assess sites to inform the design process",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 6,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "CPP40121 Certificate IV in Residential Drafting supersedes and is not equivalent to CPP40115 Certificate IV in Building Design Drafting.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Qualification title changed to better reflect the occupational outcome.",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "qualification_mapping_information-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Packaging rules changed with reduction in total number of units. Core requirements strengthened and electives limited to meet industry expectations of competent drafters.",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "qualification_mapping_information-3",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "The Companion Volume Implementation Guide for the CPP Property Services Training Package is available at - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=6f3f9672-30e8-4835-b348-205dfcf13d9b.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "CPPBDN4101",
+          "title": "Work effectively in a building design environment",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4102",
+          "title": "Analyse building design drawings",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4103",
+          "title": "Use CAD software to produce drawings for building design projects",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4104",
+          "title": "Apply compliance requirements to Class 1 and 10 building design documentation",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4105",
+          "title": "Prepare drawings for planning and building approval for Class 1 and 10 buildings",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4106",
+          "title": "Investigate materials for construction of Class 1 and 10 buildings",
+          "item_id": "core_unit-6",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4107",
+          "title": "Investigate construction methods for Class 1 and 10 buildings",
+          "item_id": "core_unit-7",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 10,
+      "core_units_required": 7,
+      "elective_units_required": 3,
+      "elective_rules": [
+        {
+          "text": "To achieve this qualification, competency must be demonstrated in 10 units of competency, consisting of 7 core and 3 elective units. Electives are to be chosen as follows:",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": [
+            {
+              "bold": false,
+              "text": "To achieve this qualification, competency must be demonstrated in"
+            },
+            {
+              "bold": true,
+              "text": "10 units"
+            },
+            {
+              "bold": false,
+              "text": "of competency, consisting of"
+            },
+            {
+              "bold": true,
+              "text": "7 core and 3 elective"
+            },
+            {
+              "bold": false,
+              "text": "units. Electives are to be chosen as follows:"
+            }
+          ],
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "all three units from the electives listed below, or",
+          "type": "bullet",
+          "order": 2,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "two units from the electives listed below, plus one unit selected from:",
+          "type": "bullet",
+          "order": 3,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "the CPP50921 Diploma of Building Design qualification, or",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "any current AQF level 4 qualification or accredited course provided it contributes to a valid, industry-supported vocational outcome and does not duplicate the outcome of another unit used to achieve this qualification.",
+          "type": "bullet",
+          "order": 5,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-3"
+        }
+      ],
+      "elective_units": [
+        {
+          "code": "CPCCWHS1001",
+          "title": "Prepare to work safely in the construction industry",
+          "item_id": "elective_unit_Elective-1",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4108",
+          "title": "Draw layout of required services for Class 1 and 10 buildings",
+          "item_id": "elective_unit_Elective-2",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4109",
+          "title": "Research architectural styles and movements",
+          "item_id": "elective_unit_Elective-3",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN4110",
+          "title": "Set up BIM-capable software and files for building design drafting projects",
+          "item_id": "elective_unit_Elective-4",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN5101",
+          "title": "Produce digital 3-D models of building designs",
+          "item_id": "elective_unit_Elective-5",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN5102",
+          "title": "Produce compliant designs for Class 1 and 10 building",
+          "item_id": "elective_unit_Elective-6",
+          "asterisk": 0
+        },
+        {
+          "code": "CPPBDN5110",
+          "title": "Inspect and assess sites to inform the design process",
+          "item_id": "elective_unit_Elective-7",
+          "asterisk": 0
+        }
+      ],
+      "prerequisite_requirements": []
+    }
+  }

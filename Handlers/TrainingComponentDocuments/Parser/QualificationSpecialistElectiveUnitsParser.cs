@@ -10,8 +10,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
     {
         /// <summary>
         /// Returns (specialistElectiveUnits, generalElectiveUnits).
-        /// specialistElectiveUnits: list of groups with key, title, items; or flat list of units when no groups.
-        /// generalElectiveUnits: flat list of units (no groups).
+        /// specialistElectiveUnits: list of groups with key, title, category, items; or single group when ungrouped.
+        /// generalElectiveUnits: list of groups with category, title, items (category from XML section header).
         /// </summary>
         internal static (List<object> specialistElectiveUnits, List<Dictionary<string, object>> generalElectiveUnits) Parse(
             List<XElement> children,
@@ -24,6 +24,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             var generalElectiveUnits = new List<Dictionary<string, object>>();
             var specialistStartIndex = -1;
 
+            string specialistCategory = null;
             for (var i = 0; i < children.Count; i++)
             {
                 if (children[i].Name != ns + "p")
@@ -34,15 +35,21 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 if (string.Equals(text, "Specialist Elective Units", StringComparison.OrdinalIgnoreCase))
                 {
                     specialistStartIndex = i;
+                    specialistCategory = text;
                     break;
                 }
             }
 
             if (specialistStartIndex < 0)
             {
-                return (new List<object>(), generalElectiveUnits);
+                return (new List<object>(), new List<Dictionary<string, object>>());
             }
 
+            if (string.IsNullOrEmpty(specialistCategory))
+            {
+                specialistCategory = "Specialist Elective Units";
+            }
+            string generalCategory = null;
             string currentGroup = null;
             string currentGroupTitle = null;
             var orderByGroup = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
@@ -73,41 +80,31 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     || text.IndexOf("General Electives", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
                     inGeneralElectiveUnits = true;
+                    generalCategory = text.Trim();
                     currentGroup = null;
                     currentGroupTitle = null;
                     continue;
                 }
 
-                // Group pattern with title: "Group A: Mobile Plant Equipment"
-                var groupWithTitleMatch = Regex.Match(text, @"^Group\s+([A-Za-z0-9]+)\s*:\s*(.+)$", RegexOptions.IgnoreCase);
-                if (groupWithTitleMatch.Success)
+                // Single pattern: "Group A", "Group A: Title", "Group A Copper Cabling", "Group A - Building"
+                // Title = full text; key = Group + id for grouping and item_ids
+                var groupMatch = Regex.Match(text, @"^Group\s+([A-Za-z0-9]+)\s*(.*)$", RegexOptions.IgnoreCase);
+                if (groupMatch.Success)
                 {
-                    inGeneralElectiveUnits = false;
-                    currentGroup = "Group" + groupWithTitleMatch.Groups[1].Value.Trim();
-                    currentGroupTitle = groupWithTitleMatch.Groups[2].Value.Trim();
-                    if (!specialistGroupsMap.ContainsKey(currentGroup))
+                    var rest = groupMatch.Groups[2].Value.Trim();
+                    if (string.IsNullOrEmpty(rest) || !Regex.IsMatch(rest, @"^[A-Z]{2,10}\d{2,6}"))
                     {
-                        specialistGroupsOrdered.Add((currentGroup, currentGroupTitle, new List<Dictionary<string, object>>()));
-                        specialistGroupsMap[currentGroup] = specialistGroupsOrdered.Count - 1;
-                        orderByGroup[currentGroup] = 1;
+                        inGeneralElectiveUnits = false;
+                        currentGroup = "Group" + groupMatch.Groups[1].Value.Trim();
+                        currentGroupTitle = text.Trim();
+                        if (!specialistGroupsMap.ContainsKey(currentGroup))
+                        {
+                            specialistGroupsOrdered.Add((currentGroup, currentGroupTitle, new List<Dictionary<string, object>>()));
+                            specialistGroupsMap[currentGroup] = specialistGroupsOrdered.Count - 1;
+                            orderByGroup[currentGroup] = 1;
+                        }
+                        continue;
                     }
-                    continue;
-                }
-
-                // Group pattern without title: "Group A"
-                var groupNoTitleMatch = Regex.Match(text, @"^Group\s+([A-Za-z0-9]+)\s*$", RegexOptions.IgnoreCase);
-                if (groupNoTitleMatch.Success)
-                {
-                    inGeneralElectiveUnits = false;
-                    currentGroup = "Group" + groupNoTitleMatch.Groups[1].Value.Trim();
-                    currentGroupTitle = string.Empty;
-                    if (!specialistGroupsMap.ContainsKey(currentGroup))
-                    {
-                        specialistGroupsOrdered.Add((currentGroup, currentGroupTitle, new List<Dictionary<string, object>>()));
-                        specialistGroupsMap[currentGroup] = specialistGroupsOrdered.Count - 1;
-                        orderByGroup[currentGroup] = 1;
-                    }
-                    continue;
                 }
 
                 var unitEntry = QualificationUnitHelper.ParseCodeAndTitleFromCell(text, unitCodePattern);
@@ -146,6 +143,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         {
                             { "key", g.key },
                             { "title", g.title },
+                            { "category", specialistCategory },
                             { "items", g.items }
                         });
                     }
@@ -153,10 +151,35 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             }
             else if (specialistUngroupedUnits.Count > 0)
             {
-                specialistResult.AddRange(specialistUngroupedUnits.Cast<object>());
+                specialistResult.Add(new Dictionary<string, object>
+                {
+                    { "category", specialistCategory },
+                    { "title", specialistCategory },
+                    { "items", specialistUngroupedUnits }
+                });
             }
 
-            return (specialistResult, generalElectiveUnits);
+            var generalResult = new List<Dictionary<string, object>>();
+            if (generalElectiveUnits.Count > 0 && !string.IsNullOrEmpty(generalCategory))
+            {
+                generalResult.Add(new Dictionary<string, object>
+                {
+                    { "category", generalCategory },
+                    { "title", generalCategory },
+                    { "items", generalElectiveUnits }
+                });
+            }
+            else if (generalElectiveUnits.Count > 0)
+            {
+                generalResult.Add(new Dictionary<string, object>
+                {
+                    { "category", "General Elective Units" },
+                    { "title", "General Elective Units" },
+                    { "items", generalElectiveUnits }
+                });
+            }
+
+            return (specialistResult, generalResult);
         }
     }
 }

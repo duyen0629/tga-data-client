@@ -21,11 +21,19 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
             var code = match.Groups[1].Value;
             var title = cellText.Substring(match.Index + match.Length).Trim().TrimStart('-', ':', ' ');
-            var asterisk = false;
-            if (!string.IsNullOrEmpty(title) && (title.StartsWith("*", StringComparison.Ordinal) || title.StartsWith(" *", StringComparison.Ordinal)))
+            var asterisk = 0;
+            if (!string.IsNullOrEmpty(title))
             {
-                asterisk = true;
-                title = title.TrimStart(' ', '*').Trim();
+                var i = 0;
+                while (i < title.Length && title[i] == '*')
+                {
+                    asterisk++;
+                    i++;
+                }
+                if (asterisk > 0)
+                {
+                    title = title.Substring(i).TrimStart(' ');
+                }
             }
             return new Dictionary<string, object>
             {

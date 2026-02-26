@@ -29,22 +29,32 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     packagingRules["total_units"] = totalUnitsAlt;
                 }
 
-                var coreMatch = Regex.Match(text, @"(\d+)\s*core\s*units?", RegexOptions.IgnoreCase);
-                if (coreMatch.Success && int.TryParse(coreMatch.Groups[1].Value, out var coreRequired))
+                // "7 core and 3 elective" or "7 core and 3 elective units" - combined format
+                var coreAndElectiveMatch = Regex.Match(text, @"(\d+)\s*core\s+and\s+(\d+)\s*elective(?:\s+units?)?", RegexOptions.IgnoreCase);
+                if (coreAndElectiveMatch.Success && int.TryParse(coreAndElectiveMatch.Groups[1].Value, out var coreFromCombined) && int.TryParse(coreAndElectiveMatch.Groups[2].Value, out var electiveFromCombined))
                 {
-                    packagingRules["core_units_required"] = coreRequired;
+                    packagingRules["core_units_required"] = coreFromCombined;
+                    packagingRules["elective_units_required"] = electiveFromCombined;
                 }
+                else
+                {
+                    var coreMatch = Regex.Match(text, @"(\d+)\s*core(?:\s+units?)?", RegexOptions.IgnoreCase);
+                    if (coreMatch.Success && int.TryParse(coreMatch.Groups[1].Value, out var coreRequired))
+                    {
+                        packagingRules["core_units_required"] = coreRequired;
+                    }
 
-                // Prefer summary format ("5 elective units." or "5 elective units, of which:") over detail phrases ("2 elective units from Group A")
-                // Only set when the elective phrase ends the string or is followed by ", of which" (summary style)
-                var electiveMatch = Regex.Match(text, @"(\d+)\s*elective\s*units?(?:\.?\s*$|,\s*of\s*which)", RegexOptions.IgnoreCase);
-                if (!electiveMatch.Success)
-                {
-                    electiveMatch = Regex.Match(text, @"(\d+)\s*electives?(?:\.?\s*$|,\s*of\s*which)", RegexOptions.IgnoreCase);
-                }
-                if (electiveMatch.Success && int.TryParse(electiveMatch.Groups[1].Value, out var electiveRequired))
-                {
-                    packagingRules["elective_units_required"] = electiveRequired;
+                    // Prefer summary format ("5 elective units." or "5 elective units, of which:") over detail phrases ("2 elective units from Group A")
+                    // Also match "3 elective units." when followed by more text (e.g. ". Electives are to be chosen")
+                    var electiveMatch = Regex.Match(text, @"(\d+)\s*elective\s*units?(?:\.?\s*$|\.\s|,\s*of\s*which)", RegexOptions.IgnoreCase);
+                    if (!electiveMatch.Success)
+                    {
+                        electiveMatch = Regex.Match(text, @"(\d+)\s*electives?(?:\.?\s*$|\.\s|,\s*of\s*which)", RegexOptions.IgnoreCase);
+                    }
+                    if (electiveMatch.Success && int.TryParse(electiveMatch.Groups[1].Value, out var electiveRequired))
+                    {
+                        packagingRules["elective_units_required"] = electiveRequired;
+                    }
                 }
             }
         }
