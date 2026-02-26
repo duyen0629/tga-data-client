@@ -86,6 +86,13 @@ namespace TgaGateway2
                 //-----------CSV Export Latest Documents -----------
                 var latestDocsCsvPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "training-component-documents-latest.csv");
                 await CSVTrainingCodeCheck.ExportLatestDocumentsToCsvAsync(supabaseService, csvPath, latestDocsCsvPath, "training_code", hasHeader: true);
+
+                // -----------Export Release Files XML -----------
+                var csvScopeQualificationPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "RTOScopeQualification.csv"));
+                var outputDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs");
+                await CSVTrainingCodeCheck.ExportReleaseFilesXmlAsync(csvScopeQualificationPath, outputDir, "training_code", hasHeader: true);
+
+
             }
         }
 

@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
+using TgaGateway2.Handlers.TrainingComponentDocuments.Helper;
 using TgaGateway2.Services;
 using TgaGateway2.Handlers.TrainingComponentDocuments;
 
@@ -242,6 +244,135 @@ namespace TgaGateway2
             Console.WriteLine($"Latest documents CSV saved to: {outputCsvPath}");
         }
 
+        /// <summary>
+        /// Reads a CSV with a training_code column, fetches release files from Supabase for each code,
+        /// downloads the selected XML (latest release, prefer Complete then R), and saves each XML
+        /// as {code}.xml in the xml folder.
+        /// </summary>
+        public static async Task ExportReleaseFilesXmlAsync(
+            string inputCsvPath,
+            string outputDirectory,
+            string columnName = "training_code",
+            bool hasHeader = true)
+        {
+            if (string.IsNullOrWhiteSpace(inputCsvPath))
+            {
+                throw new ArgumentException("Input CSV path is required.", nameof(inputCsvPath));
+            }
+
+            if (string.IsNullOrWhiteSpace(outputDirectory))
+            {
+                throw new ArgumentException("Output directory is required.", nameof(outputDirectory));
+            }
+
+            if (!File.Exists(inputCsvPath))
+            {
+                throw new FileNotFoundException($"Input CSV file not found: {inputCsvPath}");
+            }
+
+            var lines = File.ReadAllLines(inputCsvPath);
+            if (lines.Length == 0)
+            {
+                Console.WriteLine("Input CSV is empty.");
+                return;
+            }
+
+            var startIndex = 0;
+            var columnIndex = 0;
+            if (hasHeader)
+            {
+                var header = ParseCsvLine(lines[0]);
+                columnIndex = FindColumnIndex(header, columnName);
+                if (columnIndex < 0)
+                {
+                    throw new Exception($"Column '{columnName}' not found in CSV header.");
+                }
+                startIndex = 1;
+            }
+
+            var codes = new List<string>();
+            for (var i = startIndex; i < lines.Length; i++)
+            {
+                var row = ParseCsvLine(lines[i]);
+                if (columnIndex >= row.Count)
+                {
+                    continue;
+                }
+
+                var code = (row[columnIndex] ?? string.Empty).Trim();
+                if (!string.IsNullOrWhiteSpace(code))
+                {
+                    codes.Add(code);
+                }
+            }
+
+            if (codes.Count == 0)
+            {
+                Console.WriteLine("No training codes found in input CSV.");
+                return;
+            }
+
+            var xmlDir = Path.Combine(outputDirectory, "xml");
+            Directory.CreateDirectory(xmlDir);
+
+            var queryService = new SupabaseQueryService();
+            var processedCount = 0;
+            var notCreated = new List<string>();
+
+            foreach (var code in codes)
+            {
+                processedCount++;
+                Console.WriteLine($"Processing {processedCount}/{codes.Count}: {code}");
+
+                try
+                {
+                    var releaseFiles = await queryService.GetReleaseFilesByCode(code);
+                    if (releaseFiles == null || releaseFiles.Count == 0)
+                    {
+                        notCreated.Add($"{code} (no release files in database)");
+                        Console.WriteLine($"  [NOT CREATED] {code}: No release files found in database.");
+                        continue;
+                    }
+
+                    var candidates = ReleaseFileHelper.SelectReleaseFilesByRelease(releaseFiles);
+                    if (candidates.Count == 0)
+                    {
+                        notCreated.Add($"{code} (no XML in release_files)");
+                        Console.WriteLine($"  [NOT CREATED] {code}: No XML files in release_files.");
+                        continue;
+                    }
+
+                    var candidate = candidates[0];
+                    var completeResult = await ReleaseFileHelper.LoadLinesXmlOnly(candidate.Complete);
+                    var xmlBytes = completeResult.Bytes;
+
+                    if (xmlBytes != null && xmlBytes.Length > 0)
+                    {
+                        var safeCode = string.Join("_", (code ?? string.Empty).Split(Path.GetInvalidFileNameChars()));
+                        var xmlFileName = safeCode + ".xml";
+                        var fullXmlPath = Path.Combine(xmlDir, xmlFileName);
+                        File.WriteAllBytes(fullXmlPath, xmlBytes);
+                    }
+                    else
+                    {
+                        notCreated.Add($"{code} (XML download empty)");
+                        Console.WriteLine($"  [NOT CREATED] {code}: XML download returned empty.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    notCreated.Add($"{code} ({ex.Message})");
+                    Console.WriteLine($"  [NOT CREATED] {code}: Failed - {ex.Message}");
+                }
+            }
+
+            Console.WriteLine($"XML files saved to: {xmlDir}");
+            if (notCreated.Count > 0)
+            {
+                Console.WriteLine($"Not created ({notCreated.Count}): {string.Join(", ", notCreated)}");
+            }
+        }
+
         private static int FindColumnIndex(IReadOnlyList<string> header, string columnName)
         {
             for (var i = 0; i < header.Count; i++)
@@ -303,7 +434,7 @@ namespace TgaGateway2
                 return string.Empty;
             }
 
-            var needsQuotes = value.IndexOfAny(new[] { ',', '"', '\n', '\r' }) >= 0;
+            var needsQuotes = value.IndexOfAny(new[] { ',', '"', '\n', '\r', '\t' }) >= 0;
             var escaped = value.Replace("\"", "\"\"");
             return needsQuotes ? $"\"{escaped}\"" : escaped;
         }
