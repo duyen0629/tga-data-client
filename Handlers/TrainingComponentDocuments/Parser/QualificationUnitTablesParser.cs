@@ -245,8 +245,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     currentSpecialistGroup = null;
                     continue;
                 }
-                // "Group A - Specialist Electives" or "Group A: Specialist Electives"
-                var specialistMatch = Regex.Match(rowText, @"^Group\s+([A-Za-z0-9]+)\s*[-:]\s*(.+)$", RegexOptions.IgnoreCase);
+                // "Group A - Specialist Electives" or "Group A: Specialist elective units" (may appear with "Elective units" in same cell)
+                var specialistMatch = Regex.Match(rowText, @"Group\s+([A-Za-z0-9]+)\s*[-:]\s*(.+)", RegexOptions.IgnoreCase);
                 if (specialistMatch.Success && rowText.IndexOf("Specialist", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
                     currentSection = "specialist";
@@ -260,8 +260,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     }
                     continue;
                 }
-                // "Group B - General Electives" or "Group B: General Electives"
-                var generalMatch = Regex.Match(rowText, @"^Group\s+([A-Za-z0-9]+)\s*[-:]\s*(.+)$", RegexOptions.IgnoreCase);
+                // "Group B - General Electives" or "Group B: General Electives" (may appear with "Elective units" in same cell)
+                var generalMatch = Regex.Match(rowText, @"Group\s+([A-Za-z0-9]+)\s*[-:]\s*(.+)", RegexOptions.IgnoreCase);
                 if (generalMatch.Success && rowText.IndexOf("General", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
                     currentSection = "general";

@@ -35,10 +35,12 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     packagingRules["core_units_required"] = coreRequired;
                 }
 
-                var electiveMatch = Regex.Match(text, @"(\d+)\s*elective\s*units?", RegexOptions.IgnoreCase);
+                // Prefer summary format ("5 elective units." or "5 elective units, of which:") over detail phrases ("2 elective units from Group A")
+                // Only set when the elective phrase ends the string or is followed by ", of which" (summary style)
+                var electiveMatch = Regex.Match(text, @"(\d+)\s*elective\s*units?(?:\.?\s*$|,\s*of\s*which)", RegexOptions.IgnoreCase);
                 if (!electiveMatch.Success)
                 {
-                    electiveMatch = Regex.Match(text, @"(\d+)\s*electives?", RegexOptions.IgnoreCase);
+                    electiveMatch = Regex.Match(text, @"(\d+)\s*electives?(?:\.?\s*$|,\s*of\s*which)", RegexOptions.IgnoreCase);
                 }
                 if (electiveMatch.Success && int.TryParse(electiveMatch.Groups[1].Value, out var electiveRequired))
                 {

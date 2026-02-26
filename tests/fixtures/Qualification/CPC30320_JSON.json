@@ -1,0 +1,1576 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "CPC\\CPC30320_R2.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Updated reference to general construction induction training program.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with CPC Construction, Plumbing and Services Training Package Release 5.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Supersedes and is equivalent to CPC30318 Certificate III in Concreting.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "There are no entry requirements for this qualification.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "To achieve this qualification, competency must be demonstrated in:",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "22 units of competency:",
+            "type": "bullet",
+            "order": 2,
+            "indent": 0,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "17 core units",
+            "type": "bullet",
+            "order": 3,
+            "indent": 1,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": "packaging_rules-2"
+          },
+          {
+            "text": "5 elective units.",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": "packaging_rules-2"
+          },
+          {
+            "text": "For the elective units:",
+            "type": "paragraph",
+            "order": 5,
+            "indent": null,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "3 units must be selected from Group A",
+            "type": "bullet",
+            "order": 6,
+            "indent": 0,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "the remaining 2 elective units may be selected from Group A and/or Group B or from any currently endorsed Training Package or accredited course at Certificate III or Certificate IV level.",
+            "type": "bullet",
+            "order": 7,
+            "indent": 0,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": "packaging_rules-5"
+          },
+          {
+            "text": "Prerequisite units",
+            "type": "paragraph",
+            "order": 8,
+            "indent": null,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisite requirements. All prerequisite requirements are packaged in the qualification.",
+            "type": "paragraph",
+            "order": 9,
+            "indent": null,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCA3002*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out setting out",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCA3028*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Erect and dismantle formwork for footings and slabs on ground",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2002*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out hand excavation",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2006",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply basic levelling procedures",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1012",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work effectively and sustainably in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1013",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Plan and organise work",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1014",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct workplace communication",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1015",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out measurements and calculations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM2001*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Read and interpret plans and specifications",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON2021*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Handle concreting materials and components",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON2022*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Select, use and maintain concreting plant, tools and equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3035*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Determine concrete supply requirements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3041*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Place concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3042*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Finish concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3043*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Cure concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCSF2004*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Place and fix reinforcement materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCWHS2001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply WHS requirements, policies and procedures in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Elective units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_1_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Group A: Specialist elective units",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_1_2",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3036*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Plan concrete work and brief team",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3044*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply decorative finishes to concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3046*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Repair and rectify concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3047*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Cut concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3048*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Construct tilt panels on site",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3049*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and finish sprayed concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3050*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out high performance concreting",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3051*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct off-form vertical concrete operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3053*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Slump test concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3054*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate concrete agitator trucks",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3055*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Install topping slabs",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3056*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct concrete pump delivery operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON3057*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Core concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group B: General elective units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2007*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Use explosive power tools",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2008*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Erect and dismantle restricted height scaffolding",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2012*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work safely at heights",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCLBM3001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to operate a concrete placing boom",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1016",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Identify requirements for safe precast and tilt-up work",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCSF2003*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Cut and bend materials using oxy-LPG equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCSF3001*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply reinforcement schedule",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 10,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [],
+        "order": 4,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPC Construction, Plumbing and Services Training Package Release 5.0",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPC Construction, Plumbing and Services Training Package Release 4.0",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-1_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "E/NE",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-1_4_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPC30320 Certificate III in Concreting",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPC30318 Certificate III in Concreting",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supersedes and is equivalent to CPC30318 Certificate III in Concreting.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "E",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_4_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2",
+            "Column 3",
+            "Column 4"
+          ]
+        },
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion volumes to this training package are available at the VETNet website - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=7e15fa6a-68b8-4097-b099-030a5569b1ad",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "CPCCCA3002",
+          "title": "Carry out setting out",
+          "item_id": "core_unit-1",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCCA3028",
+          "title": "Erect and dismantle formwork for footings and slabs on ground",
+          "item_id": "core_unit-2",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCCM2002",
+          "title": "Carry out hand excavation",
+          "item_id": "core_unit-3",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCCM2006",
+          "title": "Apply basic levelling procedures",
+          "item_id": "core_unit-4",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1012",
+          "title": "Work effectively and sustainably in the construction industry",
+          "item_id": "core_unit-5",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1013",
+          "title": "Plan and organise work",
+          "item_id": "core_unit-6",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1014",
+          "title": "Conduct workplace communication",
+          "item_id": "core_unit-7",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM1015",
+          "title": "Carry out measurements and calculations",
+          "item_id": "core_unit-8",
+          "asterisk": false
+        },
+        {
+          "code": "CPCCOM2001",
+          "title": "Read and interpret plans and specifications",
+          "item_id": "core_unit-9",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCON2021",
+          "title": "Handle concreting materials and components",
+          "item_id": "core_unit-10",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCON2022",
+          "title": "Select, use and maintain concreting plant, tools and equipment",
+          "item_id": "core_unit-11",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCON3035",
+          "title": "Determine concrete supply requirements",
+          "item_id": "core_unit-12",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCON3041",
+          "title": "Place concrete",
+          "item_id": "core_unit-13",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCON3042",
+          "title": "Finish concrete",
+          "item_id": "core_unit-14",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCON3043",
+          "title": "Cure concrete",
+          "item_id": "core_unit-15",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCSF2004",
+          "title": "Place and fix reinforcement materials",
+          "item_id": "core_unit-16",
+          "asterisk": true
+        },
+        {
+          "code": "CPCCWHS2001",
+          "title": "Apply WHS requirements, policies and procedures in the construction industry",
+          "item_id": "core_unit-17",
+          "asterisk": false
+        }
+      ],
+      "total_units": 22,
+      "elective_rules": [
+        {
+          "text": "To achieve this qualification, competency must be demonstrated in:",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "22 units of competency:",
+          "type": "bullet",
+          "order": 2,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "17 core units",
+          "type": "bullet",
+          "order": 3,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "5 elective units.",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "For the elective units:",
+          "type": "paragraph",
+          "order": 5,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "3 units must be selected from Group A",
+          "type": "bullet",
+          "order": 6,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-5"
+        },
+        {
+          "text": "the remaining 2 elective units may be selected from Group A and/or Group B or from any currently endorsed Training Package or accredited course at Certificate III or Certificate IV level.",
+          "type": "bullet",
+          "order": 7,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-5"
+        },
+        {
+          "text": "Prerequisite units",
+          "type": "paragraph-bold",
+          "order": 8,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "An asterisk (*) against a unit code below indicates that there is a prerequisite requirement that must be met. Prerequisite unit(s) must be assessed before assessment of any unit of competency with an asterisk. Check the unit of competency for information on specific prerequisite requirements. All prerequisite requirements are packaged in the qualification.",
+          "type": "paragraph",
+          "order": 9,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "core_units_required": 17,
+      "general_elective_units": [
+        {
+          "key": "GroupB",
+          "items": [
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools",
+              "item_id": "general_elective_unit_GroupB-1",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCCM2008",
+              "title": "Erect and dismantle restricted height scaffolding",
+              "item_id": "general_elective_unit_GroupB-2",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCCM2012",
+              "title": "Work safely at heights",
+              "item_id": "general_elective_unit_GroupB-3",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCLBM3001",
+              "title": "Licence to operate a concrete placing boom",
+              "item_id": "general_elective_unit_GroupB-4",
+              "asterisk": false
+            },
+            {
+              "code": "CPCCOM1016",
+              "title": "Identify requirements for safe precast and tilt-up work",
+              "item_id": "general_elective_unit_GroupB-5",
+              "asterisk": false
+            },
+            {
+              "code": "CPCCSF2003",
+              "title": "Cut and bend materials using oxy-LPG equipment",
+              "item_id": "general_elective_unit_GroupB-6",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCSF3001",
+              "title": "Apply reinforcement schedule",
+              "item_id": "general_elective_unit_GroupB-7",
+              "asterisk": true
+            }
+          ],
+          "title": "General elective units"
+        }
+      ],
+      "elective_units_required": 5,
+      "prerequisite_requirements": [],
+      "specialist_elective_units": [
+        {
+          "key": "GroupA",
+          "items": [
+            {
+              "code": "CPCCON3036",
+              "title": "Plan concrete work and brief team",
+              "item_id": "specialist_elective_unit_GroupA-1",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3044",
+              "title": "Apply decorative finishes to concrete",
+              "item_id": "specialist_elective_unit_GroupA-2",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3046",
+              "title": "Repair and rectify concrete",
+              "item_id": "specialist_elective_unit_GroupA-3",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3047",
+              "title": "Cut concrete",
+              "item_id": "specialist_elective_unit_GroupA-4",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3048",
+              "title": "Construct tilt panels on site",
+              "item_id": "specialist_elective_unit_GroupA-5",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3049",
+              "title": "Apply and finish sprayed concrete",
+              "item_id": "specialist_elective_unit_GroupA-6",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3050",
+              "title": "Carry out high performance concreting",
+              "item_id": "specialist_elective_unit_GroupA-7",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3051",
+              "title": "Conduct off-form vertical concrete operations",
+              "item_id": "specialist_elective_unit_GroupA-8",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3053",
+              "title": "Slump test concrete",
+              "item_id": "specialist_elective_unit_GroupA-9",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3054",
+              "title": "Operate concrete agitator trucks",
+              "item_id": "specialist_elective_unit_GroupA-10",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3055",
+              "title": "Install topping slabs",
+              "item_id": "specialist_elective_unit_GroupA-11",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3056",
+              "title": "Conduct concrete pump delivery operations",
+              "item_id": "specialist_elective_unit_GroupA-12",
+              "asterisk": true
+            },
+            {
+              "code": "CPCCON3057",
+              "title": "Core concrete",
+              "item_id": "specialist_elective_unit_GroupA-13",
+              "asterisk": true
+            }
+          ],
+          "title": "Specialist elective units"
+        }
+      ]
+    }
+  }
