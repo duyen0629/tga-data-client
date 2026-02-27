@@ -133,6 +133,9 @@
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationElectiveRulesParser.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationElectiveUnitsParser.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationParser.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationUnitTablePrerequisites.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationUnitTableSectionMatcher.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationUnitTableUnitExtractor.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationUnitTablesParser.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationSpecialistElectiveUnitsParser.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\QualificationUnitHelper.cs" />
