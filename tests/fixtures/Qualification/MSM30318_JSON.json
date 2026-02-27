@@ -1,0 +1,1658 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "MSM\\MSM30318_R4.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [
+          {
+            "text": "Release 4. Fourteen low use units removed from elective bank as determined at December 2020 AISC meeting in response to Skills Ministers' objectives. Equivalent.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "modification_history-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Release 3. Imported units updated to current versions. Equivalent.",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "modification_history-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Release 2. Imported units updated to current versions. Equivalent.",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "modification_history-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Release 1. New qualification. Supersedes and is equivalent to PMC30116 Certificate III in Manufactured Mineral Products, change to packaging rules.",
+            "type": "paragraph",
+            "order": 4,
+            "indent": null,
+            "item_id": "modification_history-4",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 1,
+        "table": null,
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "There are no entry requirements for this qualification.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Total number of units = 18",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "5 core units",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_2",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "13 elective units, consisting of:",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_3",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "a maximum of 1 unit from Group A Measurements",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_1_4",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_3"
+                  },
+                  {
+                    "text": "up to 4 units from any endorsed Training Package or accredited course – these units must be relevant to the work outcome",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_1_5",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_3"
+                  },
+                  {
+                    "text": "All electives chosen must contribute to a valid, industry-supported vocational outcome.",
+                    "type": "paragraph",
+                    "order": 6,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_6",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMENV272",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Participate in environmentally sustainable work practices",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMWHS200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work safely",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP100",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply workplace context to own job",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP101",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Clean workplace or equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP102",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Communicate in the workplace",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Electives",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Group A Measurements",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_2",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prerequisites",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMOPS101",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Make measurements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "PMAOPS101",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Read dials and indicators",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Other electives",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prerequisites",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM1016",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Identify requirements for safe tilt-up work",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MEM09002B",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Interpret technical drawing",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSAPMSUP201A",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Receive or despatch goods",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMOPS200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMOPS212",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Use organisation computers or data systems",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Organise self",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC301",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Store materials for production",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC302",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate equipment to blend/mix materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC303",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate grinding equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC304",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare for production",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC307",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate a calcining kiln",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC321",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Batch mix concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC322",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Deliver concrete to site",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC323",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare asphalt",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC324",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Move materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC325",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate bulk materials handling equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC326",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Deliver customer service",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC329",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare moulds and dies",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC400",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out stock control",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC401",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Set up and tune a process",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC402",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Process raw meal into product",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "MSMPMC307",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_3_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Operate a calcining kiln",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_3_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP106",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work in a team",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Achieve work outcomes",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP210",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Process and record information",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP240",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Undertake minor maintenance",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP280",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Manage conflict at work",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP330",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Develop and adjust a production schedule",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMWHS300",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Facilitate the implementation of WHS for a work group",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "MSMWHS200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_3_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Work safely",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_3_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSS402040",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply 5S procedures",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSS402051",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply quality standards",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMPO304E",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct wheel loader operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2",
+            "Column 3"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Release 4. Fourteen low use units removed from elective bank as determined at December 2020 AISC meeting in response to Skills Ministers' objectives. Equivalent.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Release 3. Imported units updated to current versions. Equivalent.",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "qualification_mapping_information-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Release 2. Imported units updated to current versions. Equivalent.",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "qualification_mapping_information-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Release 1. New qualification. Supersedes and is equivalent to PMC30116 Certificate III in Manufactured Mineral Products, change to packaging rules.",
+            "type": "paragraph",
+            "order": 4,
+            "indent": null,
+            "item_id": "qualification_mapping_information-4",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guides are available at VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=d1287d36-dff4-4e9f-ad2c-9d6270054027",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "MSMENV272",
+          "title": "Participate in environmentally sustainable work practices",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMWHS200",
+          "title": "Work safely",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMSUP100",
+          "title": "Apply workplace context to own job",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMSUP101",
+          "title": "Clean workplace or equipment",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMSUP102",
+          "title": "Communicate in the workplace",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 18,
+      "elective_rules": [
+        {
+          "text": "Total number of units = 18",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "5 core units",
+          "type": "bullet",
+          "order": 2,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "13 elective units, consisting of:",
+          "type": "bullet",
+          "order": 3,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "a maximum of 1 unit from Group A Measurements",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "up to 4 units from any endorsed Training Package or accredited course – these units must be relevant to the work outcome",
+          "type": "bullet",
+          "order": 5,
+          "indent": 1,
+          "content": [
+            {
+              "bold": false,
+              "text": "up to"
+            },
+            {
+              "bold": true,
+              "text": "4"
+            },
+            {
+              "bold": false,
+              "text": "units from any endorsed Training Package or accredited course – these units must be relevant to the work outcome"
+            }
+          ],
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "All electives chosen must contribute to a valid, industry-supported vocational outcome.",
+          "type": "paragraph",
+          "order": 6,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "MSMOPS101",
+              "title": "Make measurements",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS101",
+              "title": "Read dials and indicators",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A Measurements",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "CPCCCM1016",
+              "title": "Identify requirements for safe tilt-up work",
+              "item_id": "elective_unit_OtherElectives-1",
+              "asterisk": 0
+            },
+            {
+              "code": "MEM09002B",
+              "title": "Interpret technical drawing",
+              "item_id": "elective_unit_OtherElectives-2",
+              "asterisk": 0
+            },
+            {
+              "code": "MSAPMSUP201A",
+              "title": "Receive or despatch goods",
+              "item_id": "elective_unit_OtherElectives-3",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMOPS200",
+              "title": "Operate equipment",
+              "item_id": "elective_unit_OtherElectives-4",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMOPS212",
+              "title": "Use organisation computers or data systems",
+              "item_id": "elective_unit_OtherElectives-5",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC200",
+              "title": "Organise self",
+              "item_id": "elective_unit_OtherElectives-6",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC301",
+              "title": "Store materials for production",
+              "item_id": "elective_unit_OtherElectives-7",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC302",
+              "title": "Operate equipment to blend/mix materials",
+              "item_id": "elective_unit_OtherElectives-8",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC303",
+              "title": "Operate grinding equipment",
+              "item_id": "elective_unit_OtherElectives-9",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC304",
+              "title": "Prepare for production",
+              "item_id": "elective_unit_OtherElectives-10",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC307",
+              "title": "Operate a calcining kiln",
+              "item_id": "elective_unit_OtherElectives-11",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC321",
+              "title": "Batch mix concrete",
+              "item_id": "elective_unit_OtherElectives-12",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC322",
+              "title": "Deliver concrete to site",
+              "item_id": "elective_unit_OtherElectives-13",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC323",
+              "title": "Prepare asphalt",
+              "item_id": "elective_unit_OtherElectives-14",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC324",
+              "title": "Move materials",
+              "item_id": "elective_unit_OtherElectives-15",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC325",
+              "title": "Operate bulk materials handling equipment",
+              "item_id": "elective_unit_OtherElectives-16",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC326",
+              "title": "Deliver customer service",
+              "item_id": "elective_unit_OtherElectives-17",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC329",
+              "title": "Prepare moulds and dies",
+              "item_id": "elective_unit_OtherElectives-18",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC400",
+              "title": "Carry out stock control",
+              "item_id": "elective_unit_OtherElectives-19",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC401",
+              "title": "Set up and tune a process",
+              "item_id": "elective_unit_OtherElectives-20",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC402",
+              "title": "Process raw meal into product",
+              "item_id": "elective_unit_OtherElectives-21",
+              "asterisk": 0,
+              "prerequisites": [
+                {
+                  "code": "MSMPMC307",
+                  "title": "Operate a calcining kiln"
+                }
+              ]
+            },
+            {
+              "code": "MSMSUP106",
+              "title": "Work in a team",
+              "item_id": "elective_unit_OtherElectives-22",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP200",
+              "title": "Achieve work outcomes",
+              "item_id": "elective_unit_OtherElectives-23",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP210",
+              "title": "Process and record information",
+              "item_id": "elective_unit_OtherElectives-24",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP240",
+              "title": "Undertake minor maintenance",
+              "item_id": "elective_unit_OtherElectives-25",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP280",
+              "title": "Manage conflict at work",
+              "item_id": "elective_unit_OtherElectives-26",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP330",
+              "title": "Develop and adjust a production schedule",
+              "item_id": "elective_unit_OtherElectives-27",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMWHS300",
+              "title": "Facilitate the implementation of WHS for a work group",
+              "item_id": "elective_unit_OtherElectives-28",
+              "asterisk": 0,
+              "prerequisites": [
+                {
+                  "code": "MSMWHS200",
+                  "title": "Work safely"
+                }
+              ]
+            },
+            {
+              "code": "MSS402040",
+              "title": "Apply 5S procedures",
+              "item_id": "elective_unit_OtherElectives-29",
+              "asterisk": 0
+            },
+            {
+              "code": "MSS402051",
+              "title": "Apply quality standards",
+              "item_id": "elective_unit_OtherElectives-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO304E",
+              "title": "Conduct wheel loader operations",
+              "item_id": "elective_unit_OtherElectives-31",
+              "asterisk": 0
+            }
+          ],
+          "title": "Other electives",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 5,
+      "elective_units_required": 13,
+      "prerequisite_requirements": []
+    }
+  }

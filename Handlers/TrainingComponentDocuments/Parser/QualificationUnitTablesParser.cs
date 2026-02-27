@@ -264,6 +264,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             var unitsWithAsteriskForPrereq = new List<(string code, string title, int asteriskCount)>();
             var inlinePrerequisites = new List<Dictionary<string, object>>();
             const string prereqLinePattern = @"^(\*+)\s*Prerequisite\s+unit\s+([A-Z]{2,10}\d{2,6}[A-Z]?)\s+(.+)$";
+            var electiveHasPrerequisitesColumn = false;
 
             for (var i = 0; i < rows.Count; i++)
             {
@@ -314,6 +315,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 }
                 // Match hyphen (-), colon (:), en-dash (–), em-dash (—) for "Group B – Site Manager"
                 var groupMatch = Regex.Match(rowText, @"Group\s+([A-Za-z0-9]+)\s*[-:\u2013\u2014]\s*(.+)", RegexOptions.IgnoreCase);
+                // "Group A Measurements" (space between id and title, no hyphen/colon)
+                var groupMatchSpace = Regex.Match(rowText, @"Group\s+([A-Za-z0-9]+)\s+(.+)", RegexOptions.IgnoreCase);
                 // "Group A" or "Group B" (no title) - when in elective section, creates elective groups
                 var groupNoTitleMatch = Regex.Match(rowText, @"^Group\s+([A-Za-z0-9]+)\s*$", RegexOptions.IgnoreCase);
                 // Check specialist/general FIRST - "Elective units" + "Group A: Specialist elective units" in same cell must route to specialist, not elective
@@ -373,6 +376,33 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     }
                     continue;
                 }
+                // "Group A Measurements" (space between id and title, no hyphen/colon) - when in elective section
+                if (groupMatchSpace.Success && currentSection == "elective")
+                {
+                    currentElectiveGroup = "Group" + groupMatchSpace.Groups[1].Value.Trim();
+                    var groupTitle = groupMatchSpace.Value.Trim(); // Keep full original text
+                    if (!electiveGroupsMap.ContainsKey(currentElectiveGroup))
+                    {
+                        electiveGroups.Add((currentElectiveGroup, groupTitle, new List<Dictionary<string, object>>()));
+                        electiveGroupsMap[currentElectiveGroup] = electiveGroups.Count - 1;
+                        electiveOrderByGroup[currentElectiveGroup] = 1;
+                    }
+                    continue;
+                }
+                // "Other electives" - creates elective group when in elective section
+                var rowTrimmed = rowText.Trim();
+                if (currentSection == "elective" && (string.Equals(rowTrimmed, "Other electives", StringComparison.OrdinalIgnoreCase)
+                    || string.Equals(rowTrimmed, "Other", StringComparison.OrdinalIgnoreCase)))
+                {
+                    currentElectiveGroup = "OtherElectives";
+                    if (!electiveGroupsMap.ContainsKey(currentElectiveGroup))
+                    {
+                        electiveGroups.Add((currentElectiveGroup, rowTrimmed, new List<Dictionary<string, object>>()));
+                        electiveGroupsMap[currentElectiveGroup] = electiveGroups.Count - 1;
+                        electiveOrderByGroup[currentElectiveGroup] = 1;
+                    }
+                    continue;
+                }
                 // "Group X - Title" in specialist/general section without matching above - create new group in current section
                 if (groupMatch.Success && currentSection != null)
                 {
@@ -398,6 +428,18 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                             specialistGroupsMap[currentSpecialistGroup] = specialistElectiveGroups.Count - 1;
                             specialistOrderByGroup[currentSpecialistGroup] = 1;
                         }
+                        continue;
+                    }
+                }
+
+                // Elective table header with Prerequisites column (Unit code | Unit title | Prerequisites)
+                if (tds.Count >= 3 && currentSection == "elective")
+                {
+                    var cellTextsForHeader = tds.Select(td => CommonParser.ExtractInlineText(td)).Select(t => (t ?? string.Empty).Trim()).ToList();
+                    if (cellTextsForHeader.Any(c => c.IndexOf("Prerequisites", StringComparison.OrdinalIgnoreCase) >= 0)
+                        && !Regex.IsMatch(rowText, unitCodePattern))
+                    {
+                        electiveHasPrerequisitesColumn = true;
                         continue;
                     }
                 }
@@ -480,6 +522,15 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                             title = (cellTexts[1] ?? string.Empty).Trim();
                         }
                         entry = new Dictionary<string, object> { { "code", unitCode }, { "title", title }, { "asterisk", asterisk } };
+                        // Parse prerequisites from third column when elective table has Prerequisites column
+                        if (electiveHasPrerequisitesColumn && tds.Count >= 3 && currentSection == "elective")
+                        {
+                            var prereqList = ParsePrerequisitesFromCell(tds[2], ns, unitCodePattern);
+                            if (prereqList != null && prereqList.Count > 0)
+                            {
+                                entry["prerequisites"] = prereqList;
+                            }
+                        }
                     }
                 }
 
@@ -522,6 +573,55 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             }
 
             return (coreUnits, electiveUnits, electiveGroups, specialistElectiveGroups, generalElectiveGroups, inlinePrerequisites);
+        }
+
+        /// <summary>
+        /// Parses prerequisite units from a table cell (e.g. Prerequisites column).
+        /// Returns list of { code, title } or null if empty.
+        /// </summary>
+        private static List<Dictionary<string, object>> ParsePrerequisitesFromCell(XElement cell, XNamespace ns, string unitCodePattern)
+        {
+            var texts = new List<string>();
+            foreach (var p in cell.Elements(ns + "p"))
+            {
+                var t = (CommonParser.ExtractInlineText(p) ?? string.Empty).Trim();
+                if (!string.IsNullOrWhiteSpace(t))
+                    texts.Add(t);
+            }
+            if (texts.Count == 0)
+            {
+                var fullText = (CommonParser.ExtractInlineText(cell) ?? string.Empty).Trim();
+                if (string.IsNullOrWhiteSpace(fullText))
+                    return null;
+                texts.AddRange(fullText.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(s => s.Trim()).Where(s => !string.IsNullOrWhiteSpace(s)));
+            }
+            var result = new List<Dictionary<string, object>>();
+            for (var i = 0; i < texts.Count; i++)
+            {
+                var text = texts[i];
+                var prereq = QualificationUnitHelper.ParseCodeAndTitleFromCell(text, unitCodePattern);
+                if (prereq != null && !string.IsNullOrWhiteSpace(prereq["code"] as string))
+                {
+                    var title = (prereq["title"] as string) ?? string.Empty;
+                    // If title is empty and next paragraph has no unit code, use it as title (code and title in separate paragraphs)
+                    if (string.IsNullOrWhiteSpace(title) && i + 1 < texts.Count)
+                    {
+                        var nextText = texts[i + 1];
+                        if (!Regex.IsMatch(nextText, unitCodePattern))
+                        {
+                            title = nextText.Trim();
+                            i++; // Skip the title paragraph
+                        }
+                    }
+                    result.Add(new Dictionary<string, object>
+                    {
+                        { "code", prereq["code"] },
+                        { "title", title ?? string.Empty }
+                    });
+                }
+            }
+            return result.Count > 0 ? result : null;
         }
 
         private static (string title, int asterisk) NormalizeTitleAndAsterisk(string title)
