@@ -14,7 +14,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
         private static bool IsStopPoint(string text)
         {
             var t = (text ?? string.Empty).Trim();
-            return t.Equals("Core Units", StringComparison.OrdinalIgnoreCase)
+            return t.StartsWith("Core Units", StringComparison.OrdinalIgnoreCase)
                 || t.Equals("Core", StringComparison.OrdinalIgnoreCase)
                 || t.Equals("Prerequisite requirements", StringComparison.OrdinalIgnoreCase);
         }

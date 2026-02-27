@@ -265,8 +265,10 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                 }
 
                 // Check for section header
+                var rowTrimmed = rowText.Trim();
                 if (string.Equals(rowText, "Core units", StringComparison.OrdinalIgnoreCase) || string.Equals(rowText, "Core Units", StringComparison.OrdinalIgnoreCase)
-                    || string.Equals(rowText.Trim(), "Core", StringComparison.OrdinalIgnoreCase))
+                    || string.Equals(rowTrimmed, "Core", StringComparison.OrdinalIgnoreCase)
+                    || rowTrimmed.StartsWith("Core units", StringComparison.OrdinalIgnoreCase))
                 {
                     currentSection = "core";
                     currentElectiveGroup = null;
@@ -377,7 +379,6 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     continue;
                 }
                 // "Other electives" - creates elective group when in elective section
-                var rowTrimmed = rowText.Trim();
                 if (currentSection == "elective" && (string.Equals(rowTrimmed, "Other electives", StringComparison.OrdinalIgnoreCase)
                     || string.Equals(rowTrimmed, "Other", StringComparison.OrdinalIgnoreCase)))
                 {
