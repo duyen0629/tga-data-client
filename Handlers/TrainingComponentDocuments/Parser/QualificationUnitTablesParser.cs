@@ -60,33 +60,19 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                         continue;
                     }
                     var prevText = (CommonParser.ExtractInlineText(children[j]) ?? string.Empty).Trim();
-                    // Try "Group X: Title" first (any length)
-                    var groupWithTitleMatch = Regex.Match(prevText, @"^Group\s+([A-Za-z0-9]+)\s*:\s*(.+)$", RegexOptions.IgnoreCase);
-                    if (groupWithTitleMatch.Success)
+                    // Match "Group X - Title", "Group X: Title", or "Group X" (short only)
+                    var groupMatch = Regex.Match(prevText, @"^Group\s+([A-Za-z0-9]+)(?:\s*[-:\u2013\u2014]\s*(.+))?\s*$", RegexOptions.IgnoreCase);
+                    if (!groupMatch.Success) continue;
+                    var groupTitle = groupMatch.Groups[2].Success ? groupMatch.Groups[2].Value.Trim() : null;
+                    if (groupTitle == null && prevText.Length > 25) continue; // "Group X" without title only when short
+                    if (groupTitle == null && j < i - 1)
                     {
-                        currentElectiveGroup = "Group" + groupWithTitleMatch.Groups[1].Value.Trim();
-                        currentElectiveGroupTitle = groupWithTitleMatch.Groups[2].Value.Trim();
-                        break;
+                        var betweenText = (CommonParser.ExtractInlineText(children[i - 1]) ?? string.Empty).Trim();
+                        if (betweenText.Length <= 25) continue;
                     }
-                    // Try "Group X" (short text only, to avoid false matches)
-                    if (prevText.Length <= 25)
-                    {
-                        var groupMatch = Regex.Match(prevText, @"^Group\s+([A-Za-z0-9]+)\s*$", RegexOptions.IgnoreCase);
-                        if (groupMatch.Success)
-                        {
-                            if (j < i - 1)
-                            {
-                                var betweenText = (CommonParser.ExtractInlineText(children[i - 1]) ?? string.Empty).Trim();
-                                if (betweenText.Length <= 25)
-                                {
-                                    continue;
-                                }
-                            }
-                            currentElectiveGroup = "Group" + groupMatch.Groups[1].Value.Trim();
-                            currentElectiveGroupTitle = string.Empty;
-                            break;
-                        }
-                    }
+                    currentElectiveGroup = "Group" + groupMatch.Groups[1].Value.Trim();
+                    currentElectiveGroupTitle = groupTitle ?? string.Empty;
+                    break;
                 }
 
                 // Table may contain Core, Elective, Specialist Elective, and General Elective sections (split by section header rows)
@@ -265,6 +251,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             var inlinePrerequisites = new List<Dictionary<string, object>>();
             const string prereqLinePattern = @"^(\*+)\s*Prerequisite\s+unit\s+([A-Z]{2,10}\d{2,6}[A-Z]?)\s+(.+)$";
             var electiveHasPrerequisitesColumn = false;
+            var coreHasPrerequisitesColumn = false;
 
             for (var i = 0; i < rows.Count; i++)
             {
@@ -432,14 +419,17 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     }
                 }
 
-                // Elective table header with Prerequisites column (Unit code | Unit title | Prerequisites)
-                if (tds.Count >= 3 && currentSection == "elective")
+                // Table header with Prerequisites column (Unit code | Unit title | Prerequisites) - for core or elective
+                if (tds.Count >= 3 && (currentSection == "core" || currentSection == "elective"))
                 {
                     var cellTextsForHeader = tds.Select(td => CommonParser.ExtractInlineText(td)).Select(t => (t ?? string.Empty).Trim()).ToList();
                     if (cellTextsForHeader.Any(c => c.IndexOf("Prerequisites", StringComparison.OrdinalIgnoreCase) >= 0)
                         && !Regex.IsMatch(rowText, unitCodePattern))
                     {
-                        electiveHasPrerequisitesColumn = true;
+                        if (currentSection == "core")
+                            coreHasPrerequisitesColumn = true;
+                        else
+                            electiveHasPrerequisitesColumn = true;
                         continue;
                     }
                 }
@@ -522,8 +512,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                             title = (cellTexts[1] ?? string.Empty).Trim();
                         }
                         entry = new Dictionary<string, object> { { "code", unitCode }, { "title", title }, { "asterisk", asterisk } };
-                        // Parse prerequisites from third column when elective table has Prerequisites column
-                        if (electiveHasPrerequisitesColumn && tds.Count >= 3 && currentSection == "elective")
+                        // Parse prerequisites from third column when table has Prerequisites column (core or elective)
+                        if (tds.Count >= 3 && ((coreHasPrerequisitesColumn && currentSection == "core") || (electiveHasPrerequisitesColumn && currentSection == "elective")))
                         {
                             var prereqList = ParsePrerequisitesFromCell(tds[2], ns, unitCodePattern);
                             if (prereqList != null && prereqList.Count > 0)

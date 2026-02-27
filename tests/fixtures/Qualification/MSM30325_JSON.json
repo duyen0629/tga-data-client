@@ -1,0 +1,2274 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "MSM\\MSM30325_R1.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [
+          {
+            "text": "This qualification was first released in MSM Manufacturing Training Package Release 9.0.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "modification_history-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 1,
+        "table": null,
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "There are no entry requirements for this qualification.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "Total number of units = 18",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "5 core units",
+            "type": "bullet",
+            "order": 2,
+            "indent": 0,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "13 elective units, consisting of:",
+            "type": "bullet",
+            "order": 3,
+            "indent": 0,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "at least 9 from the list below, with a maximum of 1 unit from Group A Measurements",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": "packaging_rules-3"
+          },
+          {
+            "text": "up to 4 units from any endorsed Training Package or accredited course – these units must be relevant to the work outcome.",
+            "type": "bullet",
+            "order": 5,
+            "indent": 1,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-3"
+          },
+          {
+            "text": "All electives chosen must contribute to a valid, industry-supported vocational outcome.",
+            "type": "paragraph",
+            "order": 6,
+            "indent": null,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Any combination of electives that meets the rules above may be selected for the award of the Certificate III in Manufactured Mineral Products. Where appropriate, electives may be selected to achieve specialisations as follows:",
+            "type": "paragraph",
+            "order": 7,
+            "indent": null,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "for the award of MSM30325 Certificate III in Manufactured Mineral Products (precast concrete), at least 4 units must be selected from Group B.",
+            "type": "bullet",
+            "order": 8,
+            "indent": 0,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": "packaging_rules-7"
+          },
+          {
+            "text": "Units with prerequisite requirements are marked with an asterisk.",
+            "type": "paragraph",
+            "order": 9,
+            "indent": null,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "CORE UNITS",
+            "type": "paragraph",
+            "order": 10,
+            "indent": null,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "ELECTIVE UNITS",
+            "type": "paragraph",
+            "order": 12,
+            "indent": null,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Group A - Measurements",
+            "type": "paragraph",
+            "order": 13,
+            "indent": null,
+            "item_id": "packaging_rules-13",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Group B - Precast concrete",
+            "type": "paragraph",
+            "order": 15,
+            "indent": null,
+            "item_id": "packaging_rules-15",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Group C",
+            "type": "paragraph",
+            "order": 17,
+            "indent": null,
+            "item_id": "packaging_rules-17",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prerequisites",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "AUMABA012",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate load shifting equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2007",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Use explosive power tools",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2012",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work safely at heights",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCLDG3001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to perform dogging",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCOM1016",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Identify requirements for safe precast and tilt-up work",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCON2021",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Handle concreting materials and components",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCSF2003",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Cut and bend materials using oxy-LPG equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCSF2004",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Place and fix reinforcement materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCSF2006",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Machine-cut reinforcement materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCLRG3001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to perform rigging basic level",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCLRG3002",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to perform rigging intermediate level",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCPRE3000",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Lift and place prefabricated concrete elements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCPRE3001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Patch prefabricated components of concrete elements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCSIL3001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work with products and materials containing crystalline silica",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCWHS2001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply WHS requirements, policies and procedures in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MEM09002",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Interpret technical drawing",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MEM12023",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Perform engineering measurements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MEM12024",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Perform computations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MEM13015",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work safely and effectively in manufacturing and engineering",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MEM16006",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Organise and communicate information",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSAPMSUP201A",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Receive or despatch goods",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMOPS200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMOPS212",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Use organisation computers or data systems",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Organise self",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC301",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Store materials for production",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC302",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate equipment to blend/mix materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC303",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate grinding equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC304",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare for production",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC307",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate a calcining kiln",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC321",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Batch mix concrete",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC322",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Deliver concrete to site",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC323",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare asphalt",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC324",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Move materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC325",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate bulk materials handling equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC326",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Deliver customer service",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC329",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare moulds and dies",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC400",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out stock control",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC401",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Set up and tune a process",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPMC402",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Process raw meal into product",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP106",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work in a team",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP200",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Achieve work outcomes",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP210",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Process and record information",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP240",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Undertake minor maintenance",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP280",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Manage conflict at work",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMSUP330",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-46_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Develop and adjust a production schedule",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-46_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMWHS300",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Facilitate the implementation of WHS for a work group",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "*",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSS402042",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-48_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply 5S procedures",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-48_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSS402055",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-49_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply quality standards",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-49_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMPO304E",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-50_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct wheel loader operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-50_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLID0016",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-51_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate a forklift",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-51_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC0023",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-52_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to operate a slewing mobile crane (up to 60 tonnes)",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-52_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC0040",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-53_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to operate a non-slewing mobile crane (greater than 3 tonnes capacity)",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-53_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            }
+          ],
+          "order": 18,
+          "columns": [
+            "Column 1",
+            "Column 2",
+            "Column 3"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [],
+        "order": 4,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Current Code and Title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "qualification_mapping_information_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Previous Code and Title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "qualification_mapping_information_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "qualification_mapping_information_cell-1_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Equivalence",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "qualification_mapping_information_cell-1_4_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSM30325 Certificate III in Manufactured Mineral Products",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "MSM30318 Certificate III in Manufactured Mineral Products",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "The addition of a precast specialisation, five new units of competency including updates to the electives.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_3_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Equivalent",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "qualification_mapping_information_cell-2_4_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2",
+            "Column 3",
+            "Column 4"
+          ]
+        },
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion volumes, including implementation guides, are found on the national register: - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=d1287d36-dff4-4e9f-ad2c-9d6270054027",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "MSMENV272",
+          "title": "Participate in environmentally sustainable work practices",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMWHS200",
+          "title": "Work safely",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMSUP100",
+          "title": "Apply workplace context to own job",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMSUP101",
+          "title": "Clean workplace or equipment",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "MSMSUP102",
+          "title": "Communicate in the workplace",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 18,
+      "elective_rules": [
+        {
+          "text": "Total number of units = 18",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "5 core units",
+          "type": "bullet",
+          "order": 2,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "13 elective units, consisting of:",
+          "type": "bullet",
+          "order": 3,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": "elective_rules-1"
+        },
+        {
+          "text": "at least 9 from the list below, with a maximum of 1 unit from Group A Measurements",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "up to 4 units from any endorsed Training Package or accredited course – these units must be relevant to the work outcome.",
+          "type": "bullet",
+          "order": 5,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-3"
+        },
+        {
+          "text": "All electives chosen must contribute to a valid, industry-supported vocational outcome.",
+          "type": "paragraph",
+          "order": 6,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Any combination of electives that meets the rules above may be selected for the award of the Certificate III in Manufactured Mineral Products. Where appropriate, electives may be selected to achieve specialisations as follows:",
+          "type": "paragraph",
+          "order": 7,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "for the award of MSM30325 Certificate III in Manufactured Mineral Products (precast concrete), at least 4 units must be selected from Group B.",
+          "type": "bullet",
+          "order": 8,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": "elective_rules-7"
+        },
+        {
+          "text": "Units with prerequisite requirements are marked with an asterisk.",
+          "type": "paragraph",
+          "order": 9,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "MSMOPS101",
+              "title": "Make measurements",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS101",
+              "title": "Read dials and indicators",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A - Measurements",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "MSMPMC333",
+              "title": "Meet compliance and quality requirements in precast concrete manufacture",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC334",
+              "title": "Assemble, use and maintain moulds in precast concrete manufacture",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC335",
+              "title": "Fabricate, assemble and place reinforcement in precast concrete products",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC336",
+              "title": "Cast, finish and cure precast concrete products",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC337",
+              "title": "Prestress concrete in precast elements",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B - Precast concrete",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "AUMABA012",
+              "title": "Operate load shifting equipment",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools",
+              "item_id": "elective_unit_GroupC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2012",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupC-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLDG3001",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCOM1016",
+              "title": "Identify requirements for safe precast and tilt-up work",
+              "item_id": "elective_unit_GroupC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCON2021",
+              "title": "Handle concreting materials and components",
+              "item_id": "elective_unit_GroupC-6",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCSF2003",
+              "title": "Cut and bend materials using oxy-LPG equipment",
+              "item_id": "elective_unit_GroupC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCSF2004",
+              "title": "Place and fix reinforcement materials",
+              "item_id": "elective_unit_GroupC-8",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCSF2006",
+              "title": "Machine-cut reinforcement materials",
+              "item_id": "elective_unit_GroupC-9",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupC-10",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3002",
+              "title": "Licence to perform rigging intermediate level",
+              "item_id": "elective_unit_GroupC-11",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCPRE3000",
+              "title": "Lift and place prefabricated concrete elements",
+              "item_id": "elective_unit_GroupC-12",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCPRE3001",
+              "title": "Patch prefabricated components of concrete elements",
+              "item_id": "elective_unit_GroupC-13",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCSIL3001",
+              "title": "Work with products and materials containing crystalline silica",
+              "item_id": "elective_unit_GroupC-14",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "item_id": "elective_unit_GroupC-15",
+              "asterisk": 0
+            },
+            {
+              "code": "MEM09002",
+              "title": "Interpret technical drawing",
+              "item_id": "elective_unit_GroupC-16",
+              "asterisk": 0
+            },
+            {
+              "code": "MEM12023",
+              "title": "Perform engineering measurements",
+              "item_id": "elective_unit_GroupC-17",
+              "asterisk": 0
+            },
+            {
+              "code": "MEM12024",
+              "title": "Perform computations",
+              "item_id": "elective_unit_GroupC-18",
+              "asterisk": 0
+            },
+            {
+              "code": "MEM13015",
+              "title": "Work safely and effectively in manufacturing and engineering",
+              "item_id": "elective_unit_GroupC-19",
+              "asterisk": 0
+            },
+            {
+              "code": "MEM16006",
+              "title": "Organise and communicate information",
+              "item_id": "elective_unit_GroupC-20",
+              "asterisk": 0
+            },
+            {
+              "code": "MSAPMSUP201A",
+              "title": "Receive or despatch goods",
+              "item_id": "elective_unit_GroupC-21",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMOPS200",
+              "title": "Operate equipment",
+              "item_id": "elective_unit_GroupC-22",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMOPS212",
+              "title": "Use organisation computers or data systems",
+              "item_id": "elective_unit_GroupC-23",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC200",
+              "title": "Organise self",
+              "item_id": "elective_unit_GroupC-24",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC301",
+              "title": "Store materials for production",
+              "item_id": "elective_unit_GroupC-25",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC302",
+              "title": "Operate equipment to blend/mix materials",
+              "item_id": "elective_unit_GroupC-26",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC303",
+              "title": "Operate grinding equipment",
+              "item_id": "elective_unit_GroupC-27",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC304",
+              "title": "Prepare for production",
+              "item_id": "elective_unit_GroupC-28",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC307",
+              "title": "Operate a calcining kiln",
+              "item_id": "elective_unit_GroupC-29",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC321",
+              "title": "Batch mix concrete",
+              "item_id": "elective_unit_GroupC-30",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC322",
+              "title": "Deliver concrete to site",
+              "item_id": "elective_unit_GroupC-31",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC323",
+              "title": "Prepare asphalt",
+              "item_id": "elective_unit_GroupC-32",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC324",
+              "title": "Move materials",
+              "item_id": "elective_unit_GroupC-33",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC325",
+              "title": "Operate bulk materials handling equipment",
+              "item_id": "elective_unit_GroupC-34",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC326",
+              "title": "Deliver customer service",
+              "item_id": "elective_unit_GroupC-35",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC329",
+              "title": "Prepare moulds and dies",
+              "item_id": "elective_unit_GroupC-36",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC400",
+              "title": "Carry out stock control",
+              "item_id": "elective_unit_GroupC-37",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC401",
+              "title": "Set up and tune a process",
+              "item_id": "elective_unit_GroupC-38",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPMC402",
+              "title": "Process raw meal into product",
+              "item_id": "elective_unit_GroupC-39",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP106",
+              "title": "Work in a team",
+              "item_id": "elective_unit_GroupC-40",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP200",
+              "title": "Achieve work outcomes",
+              "item_id": "elective_unit_GroupC-41",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP210",
+              "title": "Process and record information",
+              "item_id": "elective_unit_GroupC-42",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP240",
+              "title": "Undertake minor maintenance",
+              "item_id": "elective_unit_GroupC-43",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP280",
+              "title": "Manage conflict at work",
+              "item_id": "elective_unit_GroupC-44",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMSUP330",
+              "title": "Develop and adjust a production schedule",
+              "item_id": "elective_unit_GroupC-45",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMWHS300",
+              "title": "Facilitate the implementation of WHS for a work group",
+              "item_id": "elective_unit_GroupC-46",
+              "asterisk": 0
+            },
+            {
+              "code": "MSS402042",
+              "title": "Apply 5S procedures",
+              "item_id": "elective_unit_GroupC-47",
+              "asterisk": 0
+            },
+            {
+              "code": "MSS402055",
+              "title": "Apply quality standards",
+              "item_id": "elective_unit_GroupC-48",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO304E",
+              "title": "Conduct wheel loader operations",
+              "item_id": "elective_unit_GroupC-49",
+              "asterisk": 0
+            },
+            {
+              "code": "TLID0016",
+              "title": "Operate a forklift",
+              "item_id": "elective_unit_GroupC-50",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0023",
+              "title": "Licence to operate a slewing mobile crane (up to 60 tonnes)",
+              "item_id": "elective_unit_GroupC-51",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0040",
+              "title": "Licence to operate a non-slewing mobile crane (greater than 3 tonnes capacity)",
+              "item_id": "elective_unit_GroupC-52",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group C",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 5,
+      "elective_units_required": 13,
+      "prerequisite_requirements": []
+    }
+  }
