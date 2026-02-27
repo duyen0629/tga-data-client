@@ -15,8 +15,13 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
 
         internal static bool IsCoreSectionHeader(string rowTrimmed)
         {
-            return string.Equals(rowTrimmed, "Core", StringComparison.OrdinalIgnoreCase)
-                || rowTrimmed.StartsWith("Core units", StringComparison.OrdinalIgnoreCase);
+            if (string.Equals(rowTrimmed, "Core", StringComparison.OrdinalIgnoreCase))
+                return true;
+            if (rowTrimmed.StartsWith("Core units", StringComparison.OrdinalIgnoreCase))
+                return true;
+            // Handle split text e.g. "Core u nits" (XML has "Core </cs>u\n<cs>nits</cs>")
+            var collapsed = Regex.Replace(rowTrimmed ?? string.Empty, @"\s+", "");
+            return collapsed.StartsWith("Coreunits", StringComparison.OrdinalIgnoreCase);
         }
 
         internal static bool IsElectiveSectionHeader(string rowTrimmed)

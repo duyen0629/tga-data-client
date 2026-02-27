@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using TgaGateway2.Handlers.TrainingComponentDocuments.Type;
 
@@ -14,9 +15,13 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
         private static bool IsStopPoint(string text)
         {
             var t = (text ?? string.Empty).Trim();
-            return t.StartsWith("Core Units", StringComparison.OrdinalIgnoreCase)
+            if (t.StartsWith("Core Units", StringComparison.OrdinalIgnoreCase)
                 || t.Equals("Core", StringComparison.OrdinalIgnoreCase)
-                || t.Equals("Prerequisite requirements", StringComparison.OrdinalIgnoreCase);
+                || t.Equals("Prerequisite requirements", StringComparison.OrdinalIgnoreCase))
+                return true;
+            // Handle split text e.g. "Core u nits" (XML has "Core </cs>u\n<cs>nits</cs>")
+            var collapsed = Regex.Replace(t, @"\s+", "");
+            return collapsed.StartsWith("Coreunits", StringComparison.OrdinalIgnoreCase);
         }
 
         /// <summary>
