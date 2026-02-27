@@ -275,11 +275,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
                     currentSpecialistGroup = null;
                     continue;
                 }
-                // "Elective units", "Elective Units", or "Electives" - may appear alone or combined with "Group A - Building" in same cell
-                if (string.Equals(rowText, "Elective units", StringComparison.OrdinalIgnoreCase) || string.Equals(rowText, "Elective Units", StringComparison.OrdinalIgnoreCase)
-                    || string.Equals(rowText.Trim(), "Electives", StringComparison.OrdinalIgnoreCase)
-                    || rowText.StartsWith("Elective units", StringComparison.OrdinalIgnoreCase) || rowText.StartsWith("Elective Units", StringComparison.OrdinalIgnoreCase)
-                    || rowText.Trim().StartsWith("Electives", StringComparison.OrdinalIgnoreCase))
+                // "Elective units", "Elective Units", "Electives", or "Elective" - may appear alone or combined with "Group A - Building" in same cell
+                if (rowTrimmed.StartsWith("Elective", StringComparison.OrdinalIgnoreCase))
                 {
                     currentSection = "elective";
                     currentElectiveGroup = null;
