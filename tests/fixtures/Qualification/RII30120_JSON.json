@@ -1,0 +1,1216 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "RII\\RII30120_R2.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version was released with RII Resources and Infrastructure Industry Training Package Version 7.1.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Version created to add RIICOM302D and RIIMCO303E to electives list.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 7.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 13",
+            "type": "bullet",
+            "order": 2,
+            "indent": 2,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "3 core units plus",
+            "type": "bullet",
+            "order": 3,
+            "indent": 1,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "10 elective units, of which:",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "1 must be from Group A",
+            "type": "bullet",
+            "order": 5,
+            "indent": 0,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "1 must be from Group B",
+            "type": "bullet",
+            "order": 6,
+            "indent": 0,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "at least 3 must be from Group C",
+            "type": "bullet",
+            "order": 7,
+            "indent": 0,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "no more than 3 may be from Group D",
+            "type": "bullet",
+            "order": 8,
+            "indent": 0,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "no more than 2 may be from elsewhere in this or any other currently endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 9,
+            "indent": 0,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "Elective units must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid industry-supported vocational outcome.",
+            "type": "paragraph",
+            "order": 10,
+            "indent": null,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+            "type": "paragraph",
+            "order": 11,
+            "indent": null,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+            "type": "paragraph",
+            "order": 12,
+            "indent": null,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "*Note the following prerequisite unit requirements.",
+            "type": "paragraph",
+            "order": 14,
+            "indent": null,
+            "item_id": "packaging_rules-14",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "UNIT IN THIS QUALIFICATION",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "PREREQUISITE UNIT",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCLSF3001A Licence to erect, alter and dismantle scaffolding intermediate level",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCLSF2001A Licence to erect, alter and dismantle scaffolding basic level",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPER300 Issue work permits",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "MSMWHS201 Conduct hazard analysis",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 15,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to RII30115 Certificate III in Surface Extraction Operations.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guides are available from VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "RIIENV201E",
+          "title": "Identify and assess environmental and heritage concerns",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIRIS301E",
+          "title": "Apply risk management processes",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIWHS201E",
+          "title": "Work safely and follow WHS policies and procedures",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 13,
+      "elective_rules": [
+        {
+          "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 13",
+          "type": "paragraph-bold",
+          "order": 2,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "3 core units plus",
+          "type": "bullet",
+          "order": 3,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "3 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "10 elective units, of which:",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "10 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "1 must be from Group A",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "1 must be from Group B",
+          "type": "bullet",
+          "order": 6,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "at least 3 must be from Group C",
+          "type": "bullet",
+          "order": 7,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "no more than 3 may be from Group D",
+          "type": "bullet",
+          "order": 8,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "no more than 2 may be from elsewhere in this or any other currently endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 9,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "Elective units must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid industry-supported vocational outcome.",
+          "type": "paragraph",
+          "order": 10,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+          "type": "paragraph",
+          "order": 11,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-11",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+          "type": "paragraph",
+          "order": 12,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-12",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "RIICOM301E",
+              "title": "Communicate information",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICOM302D",
+              "title": "Communicate workplace information",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIIGOV201E",
+              "title": "Comply with site work processes/procedures",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIQUA201E",
+              "title": "Maintain and monitor site quality standards",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "MSMPER300",
+              "title": "Issue work permits",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 1
+            },
+            {
+              "code": "RIIARO301",
+              "title": "Work safely in autonomous environments",
+              "item_id": "elective_unit_GroupC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIARO302",
+              "title": "Work safely with remotely piloted aircraft systems",
+              "item_id": "elective_unit_GroupC-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIARO303",
+              "title": "Operate equipment in autonomous environments",
+              "item_id": "elective_unit_GroupC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIARO304",
+              "title": "Coordinate and interact with autonomous systems",
+              "item_id": "elective_unit_GroupC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIARO305",
+              "title": "Build and maintain routes for autonomous operations",
+              "item_id": "elective_unit_GroupC-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIARO306",
+              "title": "Respond to obstructions to autonomous operations",
+              "item_id": "elective_unit_GroupC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIARO307",
+              "title": "Activate and deactivate autonomous systems",
+              "item_id": "elective_unit_GroupC-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBHD301E",
+              "title": "Conduct surface blast hole drilling operations",
+              "item_id": "elective_unit_GroupC-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN309F",
+              "title": "Conduct telescopic materials handler operations",
+              "item_id": "elective_unit_GroupC-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMCO302D",
+              "title": "Conduct surface miner operations",
+              "item_id": "elective_unit_GroupC-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMCO303E",
+              "title": "Conduct auger miner operations",
+              "item_id": "elective_unit_GroupC-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX301D",
+              "title": "Conduct dredging operations",
+              "item_id": "elective_unit_GroupC-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX302D",
+              "title": "Assess ground conditions",
+              "item_id": "elective_unit_GroupC-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX303",
+              "title": "Conduct local geotechnical risk control in surface operations",
+              "item_id": "elective_unit_GroupC-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPG301D",
+              "title": "Control and monitor automated plant/machinery",
+              "item_id": "elective_unit_GroupC-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO206D",
+              "title": "Conduct bulk water truck operations",
+              "item_id": "elective_unit_GroupC-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO301E",
+              "title": "Conduct hydraulic excavator operations",
+              "item_id": "elective_unit_GroupC-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO302E",
+              "title": "Conduct hydraulic shovel operations",
+              "item_id": "elective_unit_GroupC-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO303E",
+              "title": "Conduct rope shovel operations",
+              "item_id": "elective_unit_GroupC-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO304E",
+              "title": "Conduct wheel loader operations",
+              "item_id": "elective_unit_GroupC-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO305F",
+              "title": "Conduct coal stockpile dozer operations",
+              "item_id": "elective_unit_GroupC-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO306D",
+              "title": "Operate plant/machinery on live stockpiles",
+              "item_id": "elective_unit_GroupC-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO308F",
+              "title": "Conduct tracked dozer operations",
+              "item_id": "elective_unit_GroupC-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO309F",
+              "title": "Conduct wheeled dozer operations",
+              "item_id": "elective_unit_GroupC-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO310F",
+              "title": "Conduct grader operations",
+              "item_id": "elective_unit_GroupC-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO312E",
+              "title": "Conduct scraper operations",
+              "item_id": "elective_unit_GroupC-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO313E",
+              "title": "Conduct face loader operations",
+              "item_id": "elective_unit_GroupC-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO319E",
+              "title": "Conduct backhoe/loader operations",
+              "item_id": "elective_unit_GroupC-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO329F",
+              "title": "Conduct dragline operations",
+              "item_id": "elective_unit_GroupC-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO331E",
+              "title": "Conduct operations with stockpile dozer",
+              "item_id": "elective_unit_GroupC-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO334E",
+              "title": "Conduct skid steer loader operations using attachments",
+              "item_id": "elective_unit_GroupC-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO335E",
+              "title": "Conduct skid steer loader operations without attachments",
+              "item_id": "elective_unit_GroupC-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO336E",
+              "title": "Conduct belly dump truck operations",
+              "item_id": "elective_unit_GroupC-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO337E",
+              "title": "Conduct articulated haul truck operations",
+              "item_id": "elective_unit_GroupC-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO338E",
+              "title": "Conduct rigid haul truck operations",
+              "item_id": "elective_unit_GroupC-36",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB307D",
+              "title": "Conduct conventional core drilling",
+              "item_id": "elective_unit_GroupC-37",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB330",
+              "title": "Conduct down-hole hammer drilling",
+              "item_id": "elective_unit_GroupC-38",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPEO301E",
+              "title": "Conduct conveyor-car high wall mining operations",
+              "item_id": "elective_unit_GroupC-39",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO301D",
+              "title": "Conduct crushing and screening plant operations",
+              "item_id": "elective_unit_GroupC-40",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO302D",
+              "title": "Perform process control room operations",
+              "item_id": "elective_unit_GroupC-41",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO303D",
+              "title": "Conduct sand wash plant operations",
+              "item_id": "elective_unit_GroupC-42",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM301F",
+              "title": "Test operational functions of vehicles and equipment",
+              "item_id": "elective_unit_GroupC-43",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM301E",
+              "title": "Blend stockpile materials",
+              "item_id": "elective_unit_GroupC-44",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM302E",
+              "title": "Conduct stockpile reclaiming operations",
+              "item_id": "elective_unit_GroupC-45",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM303E",
+              "title": "Move and position materials to form stockpiles",
+              "item_id": "elective_unit_GroupC-46",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM304E",
+              "title": "Maintain stockpiles",
+              "item_id": "elective_unit_GroupC-47",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH201E",
+              "title": "Operate a light vehicle",
+              "item_id": "elective_unit_GroupC-48",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH304E",
+              "title": "Conduct tip truck operations",
+              "item_id": "elective_unit_GroupC-49",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH305F",
+              "title": "Operate and maintain a four wheel drive vehicle",
+              "item_id": "elective_unit_GroupC-50",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH307F",
+              "title": "Operate a heavy rigid vehicle",
+              "item_id": "elective_unit_GroupC-51",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group C",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "AHCNAR303",
+              "title": "Implement revegetation works",
+              "item_id": "elective_unit_GroupD-1",
+              "asterisk": 0
+            },
+            {
+              "code": "AHCSAW301",
+              "title": "Construct conservation earthworks",
+              "item_id": "elective_unit_GroupD-2",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBPUR301",
+              "title": "Purchase goods and services",
+              "item_id": "elective_unit_GroupD-3",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBSTR401",
+              "title": "Promote innovation in team environments",
+              "item_id": "elective_unit_GroupD-4",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupD-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupD-6",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "item_id": "elective_unit_GroupD-7",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLSF3001A",
+              "title": "Licence to erect, alter and dismantle scaffolding intermediate level",
+              "item_id": "elective_unit_GroupD-8",
+              "asterisk": 1
+            },
+            {
+              "code": "HLTAID011",
+              "title": "Provide first aid",
+              "item_id": "elective_unit_GroupD-9",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL913004",
+              "title": "Plan and conduct laboratory/field work",
+              "item_id": "elective_unit_GroupD-10",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL924003",
+              "title": "Process and interpret data",
+              "item_id": "elective_unit_GroupD-11",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL943003",
+              "title": "Work safely with instruments that emit ionising radiation",
+              "item_id": "elective_unit_GroupD-12",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL973013",
+              "title": "Perform basic tests",
+              "item_id": "elective_unit_GroupD-13",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMWHS201",
+              "title": "Conduct hazard analysis",
+              "item_id": "elective_unit_GroupD-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBEF302E",
+              "title": "Monitor site production activities",
+              "item_id": "elective_unit_GroupD-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA201E",
+              "title": "Support shotfiring operations",
+              "item_id": "elective_unit_GroupD-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA205E",
+              "title": "Store, handle and transport explosives",
+              "item_id": "elective_unit_GroupD-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA301E",
+              "title": "Conduct surface shotfiring operations",
+              "item_id": "elective_unit_GroupD-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA305E",
+              "title": "Conduct secondary blasting",
+              "item_id": "elective_unit_GroupD-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA307E",
+              "title": "Conduct a blast survey",
+              "item_id": "elective_unit_GroupD-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC310E",
+              "title": "Construct and maintain roads",
+              "item_id": "elective_unit_GroupD-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR301E",
+              "title": "Respond to work site incidents",
+              "item_id": "elective_unit_GroupD-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR302E",
+              "title": "Respond to local emergencies and incidents",
+              "item_id": "elective_unit_GroupD-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR308E",
+              "title": "Extricate and transport people involved in incidents",
+              "item_id": "elective_unit_GroupD-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR406",
+              "title": "Provide support for rescue operations",
+              "item_id": "elective_unit_GroupD-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupD-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN301E",
+              "title": "Operate elevating work platform",
+              "item_id": "elective_unit_GroupD-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN302D",
+              "title": "Conduct intermediate scaffolding operations",
+              "item_id": "elective_unit_GroupD-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN304E",
+              "title": "Conduct slewing crane operations",
+              "item_id": "elective_unit_GroupD-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN305D",
+              "title": "Operate a gantry or overhead crane",
+              "item_id": "elective_unit_GroupD-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN307E",
+              "title": "Operate a vehicle loading crane",
+              "item_id": "elective_unit_GroupD-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN311F",
+              "title": "Conduct operations with integrated tool carrier",
+              "item_id": "elective_unit_GroupD-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPEO206D",
+              "title": "Lay and recover cables and hoses",
+              "item_id": "elective_unit_GroupD-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupD-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS401E",
+              "title": "Apply site risk management system",
+              "item_id": "elective_unit_GroupD-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM303E",
+              "title": "Shutdown dredge for operator maintenance",
+              "item_id": "elective_unit_GroupD-36",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM304E",
+              "title": "Install, commission and maintain major conveyor equipment and systems",
+              "item_id": "elective_unit_GroupD-37",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM306E",
+              "title": "Service and maintain conveyors, feeders and hoppers",
+              "item_id": "elective_unit_GroupD-38",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM307E",
+              "title": "Service and maintain crushers",
+              "item_id": "elective_unit_GroupD-39",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM308E",
+              "title": "Service and maintain screens",
+              "item_id": "elective_unit_GroupD-40",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM309E",
+              "title": "Service and maintain pumps",
+              "item_id": "elective_unit_GroupD-41",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISTD301D",
+              "title": "Take environmental samples and measurements",
+              "item_id": "elective_unit_GroupD-42",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH302E",
+              "title": "Operate multi-combination vehicle",
+              "item_id": "elective_unit_GroupD-43",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH303F",
+              "title": "Drive heavy combination vehicle",
+              "item_id": "elective_unit_GroupD-44",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH306E",
+              "title": "Operate a mine service vehicle",
+              "item_id": "elective_unit_GroupD-45",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS301E",
+              "title": "Conduct safety and health investigations",
+              "item_id": "elective_unit_GroupD-46",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIC3004",
+              "title": "Drive heavy rigid vehicle",
+              "item_id": "elective_unit_GroupD-47",
+              "asterisk": 0
+            },
+            {
+              "code": "TLID2022",
+              "title": "Conduct weighbridge operations",
+              "item_id": "elective_unit_GroupD-48",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0002",
+              "title": "Licence to operate a vehicle loading crane (capacity 10 metre tonnes and above)",
+              "item_id": "elective_unit_GroupD-49",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0005",
+              "title": "Licence to operate a boom-type elevating work platform (boom length 11 metres or more)",
+              "item_id": "elective_unit_GroupD-50",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0006",
+              "title": "Licence to operate a bridge and gantry crane",
+              "item_id": "elective_unit_GroupD-51",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0010",
+              "title": "Licence to operate a slewing mobile crane (up to 20 tonnes)",
+              "item_id": "elective_unit_GroupD-52",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC2016",
+              "title": "Licence to drive a heavy rigid vehicle",
+              "item_id": "elective_unit_GroupD-53",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC3017",
+              "title": "Licence to drive a heavy combination vehicle",
+              "item_id": "elective_unit_GroupD-54",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC3018",
+              "title": "Licence to drive a multi-combination vehicle",
+              "item_id": "elective_unit_GroupD-55",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group D",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 3,
+      "elective_units_required": 10,
+      "prerequisite_requirements": [
+        {
+          "item_id": "prerequisite_requirement-1",
+          "unit_of_competency": {
+            "code": "CPCCLSF3001A",
+            "title": "Licence to erect, alter and dismantle scaffolding intermediate level",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-2",
+          "unit_of_competency": {
+            "code": "MSMPER300",
+            "title": "Issue work permits",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "MSMWHS201",
+              "title": "Conduct hazard analysis",
+              "asterisk": 0
+            }
+          ]
+        }
+      ]
+    }
+  }

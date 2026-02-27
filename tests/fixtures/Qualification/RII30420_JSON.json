@@ -1,0 +1,1134 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "RII\\RII30420_R1.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 7.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 13",
+            "type": "bullet",
+            "order": 2,
+            "indent": 2,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "4 core units plus",
+            "type": "bullet",
+            "order": 3,
+            "indent": 1,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "9 elective units, of which:",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "1 must be from Group A",
+            "type": "bullet",
+            "order": 5,
+            "indent": 0,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "at least 6 must be from Group B",
+            "type": "bullet",
+            "order": 6,
+            "indent": 0,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "no more than 2 may be from Group C",
+            "type": "bullet",
+            "order": 7,
+            "indent": 0,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "no more than 2 may be from elsewhere in this or any other currently endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 8,
+            "indent": 0,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "Elective units must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid industry-supported vocational outcome.",
+            "type": "paragraph",
+            "order": 9,
+            "indent": null,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+            "type": "paragraph",
+            "order": 10,
+            "indent": null,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+            "type": "paragraph",
+            "order": 11,
+            "indent": null,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "*Note the following prerequisite unit requirements.",
+            "type": "paragraph",
+            "order": 13,
+            "indent": null,
+            "item_id": "packaging_rules-13",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "UNIT IN THIS QUALIFICATION",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "PREREQUISITE UNIT",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSMPER300 Issue work permits",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "MSMWHS201 Conduct hazard analysis",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 14,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to RII30415 Certificate III in Resource Processing.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "RIICOM201E",
+          "title": "Communicate in the workplace",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIENV201E",
+          "title": "Identify and assess environmental and heritage concerns",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIRIS301E",
+          "title": "Apply risk management processes",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIWHS201E",
+          "title": "Work safely and follow WHS policies and procedures",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 13,
+      "elective_rules": [
+        {
+          "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 13",
+          "type": "paragraph-bold",
+          "order": 2,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "4 core units plus",
+          "type": "bullet",
+          "order": 3,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "4 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "9 elective units, of which:",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "9 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "1 must be from Group A",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "at least 6 must be from Group B",
+          "type": "bullet",
+          "order": 6,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "no more than 2 may be from Group C",
+          "type": "bullet",
+          "order": 7,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "no more than 2 may be from elsewhere in this or any other currently endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 8,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "Elective units must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid industry-supported vocational outcome.",
+          "type": "paragraph",
+          "order": 9,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+          "type": "paragraph",
+          "order": 10,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+          "type": "paragraph",
+          "order": 11,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-11",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "MSMPER200",
+              "title": "Work in accordance with an issued permit",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMPER300",
+              "title": "Issue work permits",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 1
+            },
+            {
+              "code": "RIIGOV201E",
+              "title": "Comply with site work processes/procedures",
+              "item_id": "elective_unit_GroupA-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIQUA201E",
+              "title": "Maintain and monitor site quality standards",
+              "item_id": "elective_unit_GroupA-4",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "MSL943003",
+              "title": "Work safely with instruments that emit ionising radiation",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS338",
+              "title": "Communicate and monitor pipeline activities",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS342",
+              "title": "Conduct pipeline pigging",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS343",
+              "title": "Transfer bulk fluids into/out of storage facility",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "PPMSTM320",
+              "title": "Manage steam boiler start up",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "PPMSTM330",
+              "title": "Shut down and bank steam boiler",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICOM301E",
+              "title": "Communicate information",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR302E",
+              "title": "Respond to local emergencies and incidents",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN309F",
+              "title": "Conduct telescopic materials handler operations",
+              "item_id": "elective_unit_GroupB-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN311F",
+              "title": "Conduct operations with integrated tool carrier",
+              "item_id": "elective_unit_GroupB-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMCP301D",
+              "title": "Monitor plant operations for coal preparation",
+              "item_id": "elective_unit_GroupB-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPG301D",
+              "title": "Control and monitor automated plant/machinery",
+              "item_id": "elective_unit_GroupB-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO301E",
+              "title": "Conduct hydraulic excavator operations",
+              "item_id": "elective_unit_GroupB-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO304E",
+              "title": "Conduct wheel loader operations",
+              "item_id": "elective_unit_GroupB-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO305F",
+              "title": "Conduct coal stockpile dozer operations",
+              "item_id": "elective_unit_GroupB-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO306D",
+              "title": "Operate plant/machinery on live stockpiles",
+              "item_id": "elective_unit_GroupB-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO308F",
+              "title": "Conduct tracked dozer operations",
+              "item_id": "elective_unit_GroupB-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO309F",
+              "title": "Conduct wheeled dozer operations",
+              "item_id": "elective_unit_GroupB-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO310F",
+              "title": "Conduct grader operations",
+              "item_id": "elective_unit_GroupB-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO319E",
+              "title": "Conduct backhoe/loader operations",
+              "item_id": "elective_unit_GroupB-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO331E",
+              "title": "Conduct operations with stockpile dozer",
+              "item_id": "elective_unit_GroupB-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO334E",
+              "title": "Conduct skid steer loader operations using attachments",
+              "item_id": "elective_unit_GroupB-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO335E",
+              "title": "Conduct skid steer loader operations without attachments",
+              "item_id": "elective_unit_GroupB-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO336E",
+              "title": "Conduct belly dump truck operations",
+              "item_id": "elective_unit_GroupB-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO337E",
+              "title": "Conduct articulated haul truck operations",
+              "item_id": "elective_unit_GroupB-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO338E",
+              "title": "Conduct rigid haul truck operations",
+              "item_id": "elective_unit_GroupB-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE301D",
+              "title": "Conduct calcinations activities",
+              "item_id": "elective_unit_GroupB-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE302D",
+              "title": "Conduct bacterial oxidation",
+              "item_id": "elective_unit_GroupB-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE303D",
+              "title": "Conduct filtering process",
+              "item_id": "elective_unit_GroupB-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE304D",
+              "title": "Conduct heavy media separation",
+              "item_id": "elective_unit_GroupB-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE305D",
+              "title": "Conduct high tension separation",
+              "item_id": "elective_unit_GroupB-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE306D",
+              "title": "Conduct leaching process",
+              "item_id": "elective_unit_GroupB-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE308D",
+              "title": "Conduct thickening and clarifying process",
+              "item_id": "elective_unit_GroupB-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE309D",
+              "title": "Conduct wet gravity separation",
+              "item_id": "elective_unit_GroupB-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE310D",
+              "title": "Conduct flotation process",
+              "item_id": "elective_unit_GroupB-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE311D",
+              "title": "Conduct magnetic separation",
+              "item_id": "elective_unit_GroupB-36",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPEO201E",
+              "title": "Conduct conveyor operations",
+              "item_id": "elective_unit_GroupB-37",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPEO203D",
+              "title": "Conduct stacker operations",
+              "item_id": "elective_unit_GroupB-38",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPEO205D",
+              "title": "Conduct ship loading operations",
+              "item_id": "elective_unit_GroupB-39",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPEO302E",
+              "title": "Operate and monitor ore car dumpers",
+              "item_id": "elective_unit_GroupB-40",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPGP201D",
+              "title": "Conduct pump operations",
+              "item_id": "elective_unit_GroupB-41",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPGP202D",
+              "title": "Handle reagents",
+              "item_id": "elective_unit_GroupB-42",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPGP301D",
+              "title": "Conduct drying activities",
+              "item_id": "elective_unit_GroupB-43",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPGP302D",
+              "title": "Monitor and operate auxiliary plant and equipment",
+              "item_id": "elective_unit_GroupB-44",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPHA301D",
+              "title": "Conduct milling/grinding",
+              "item_id": "elective_unit_GroupB-45",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPHA302D",
+              "title": "Operate and monitor filter processes",
+              "item_id": "elective_unit_GroupB-46",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRE301D",
+              "title": "Conduct electrowinning/electro-refining operations",
+              "item_id": "elective_unit_GroupB-47",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRE302D",
+              "title": "Conduct elution processes",
+              "item_id": "elective_unit_GroupB-48",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRE303D",
+              "title": "Conduct gold room operations",
+              "item_id": "elective_unit_GroupB-49",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO301D",
+              "title": "Conduct crushing and screening plant operations",
+              "item_id": "elective_unit_GroupB-50",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO302D",
+              "title": "Perform process control room operations",
+              "item_id": "elective_unit_GroupB-51",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPSM302D",
+              "title": "Cast ingots",
+              "item_id": "elective_unit_GroupB-52",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPSM304D",
+              "title": "Operate furnaces",
+              "item_id": "elective_unit_GroupB-53",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM202E",
+              "title": "Isolate and access plant",
+              "item_id": "elective_unit_GroupB-54",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM301E",
+              "title": "Blend stockpile materials",
+              "item_id": "elective_unit_GroupB-55",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM302E",
+              "title": "Conduct stockpile reclaiming operations",
+              "item_id": "elective_unit_GroupB-56",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM304E",
+              "title": "Maintain stockpiles",
+              "item_id": "elective_unit_GroupB-57",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWBP203E",
+              "title": "Monitor tailings dam environments",
+              "item_id": "elective_unit_GroupB-58",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS301E",
+              "title": "Conduct safety and health investigations",
+              "item_id": "elective_unit_GroupB-59",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG302D",
+              "title": "Reclaim and treat water",
+              "item_id": "elective_unit_GroupB-60",
+              "asterisk": 0
+            },
+            {
+              "code": "UEPOPS316",
+              "title": "Operate and monitor boiler steam/water cycle",
+              "item_id": "elective_unit_GroupB-61",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBINS309",
+              "title": "Maintain business records",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "MSMWHS201",
+              "title": "Conduct hazard analysis",
+              "item_id": "elective_unit_GroupC-3",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS202",
+              "title": "Operate fluid mixing equipment",
+              "item_id": "elective_unit_GroupC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS205",
+              "title": "Operate heat exchangers",
+              "item_id": "elective_unit_GroupC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS208",
+              "title": "Operate chemical separation equipment",
+              "item_id": "elective_unit_GroupC-6",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS223",
+              "title": "Operate and monitor valve systems",
+              "item_id": "elective_unit_GroupC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS230",
+              "title": "Monitor, operate and maintain pipeline stations and equipment",
+              "item_id": "elective_unit_GroupC-8",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS246",
+              "title": "Operate separation equipment",
+              "item_id": "elective_unit_GroupC-9",
+              "asterisk": 0
+            },
+            {
+              "code": "PMAOPS247",
+              "title": "Operate powered separation equipment",
+              "item_id": "elective_unit_GroupC-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR205D",
+              "title": "Apply initial response First Aid",
+              "item_id": "elective_unit_GroupC-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR301E",
+              "title": "Respond to work site incidents",
+              "item_id": "elective_unit_GroupC-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR303E",
+              "title": "Operate in self-contained regenerative oxygen breathing apparatus",
+              "item_id": "elective_unit_GroupC-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR308E",
+              "title": "Extricate and transport people involved in incidents",
+              "item_id": "elective_unit_GroupC-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN305D",
+              "title": "Operate a gantry or overhead crane",
+              "item_id": "elective_unit_GroupC-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN307E",
+              "title": "Operate a vehicle loading crane",
+              "item_id": "elective_unit_GroupC-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMCP202D",
+              "title": "Conduct rail dispatch operations",
+              "item_id": "elective_unit_GroupC-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX203D",
+              "title": "Break oversize rock",
+              "item_id": "elective_unit_GroupC-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO206D",
+              "title": "Conduct bulk water truck operations",
+              "item_id": "elective_unit_GroupC-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO208F",
+              "title": "Operate support equipment",
+              "item_id": "elective_unit_GroupC-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE201D",
+              "title": "Conduct aeration process",
+              "item_id": "elective_unit_GroupC-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE202D",
+              "title": "Conduct digestion process",
+              "item_id": "elective_unit_GroupC-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE203D",
+              "title": "Conduct precipitation operations",
+              "item_id": "elective_unit_GroupC-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPBE204D",
+              "title": "Conduct reduction process",
+              "item_id": "elective_unit_GroupC-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPEO204D",
+              "title": "Conduct shore side mooring operations",
+              "item_id": "elective_unit_GroupC-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPGP203D",
+              "title": "Operate compressors",
+              "item_id": "elective_unit_GroupC-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPHA201D",
+              "title": "Operate raw material feed systems",
+              "item_id": "elective_unit_GroupC-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO202D",
+              "title": "Conduct screening and conveying operations",
+              "item_id": "elective_unit_GroupC-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO204D",
+              "title": "Bulk package and store product",
+              "item_id": "elective_unit_GroupC-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO205D",
+              "title": "Conduct blending plant operations",
+              "item_id": "elective_unit_GroupC-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupC-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM301F",
+              "title": "Test operational functions of vehicles and equipment",
+              "item_id": "elective_unit_GroupC-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM304E",
+              "title": "Install, commission and maintain major conveyor equipment and systems",
+              "item_id": "elective_unit_GroupC-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISTD301D",
+              "title": "Take environmental samples and measurements",
+              "item_id": "elective_unit_GroupC-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH201E",
+              "title": "Operate a light vehicle",
+              "item_id": "elective_unit_GroupC-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH302E",
+              "title": "Operate multi-combination vehicle",
+              "item_id": "elective_unit_GroupC-36",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH304E",
+              "title": "Conduct tip truck operations",
+              "item_id": "elective_unit_GroupC-37",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH305F",
+              "title": "Operate and maintain a four wheel drive vehicle",
+              "item_id": "elective_unit_GroupC-38",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWBP201E",
+              "title": "Treat and dispose of rejects and tailings",
+              "item_id": "elective_unit_GroupC-39",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWBP202E",
+              "title": "Distribute tailings",
+              "item_id": "elective_unit_GroupC-40",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202E",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupC-41",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupC-42",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIA0003",
+              "title": "Complete and check import/export documentation",
+              "item_id": "elective_unit_GroupC-43",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0002",
+              "title": "Licence to operate a vehicle loading crane (capacity 10 metre tonnes and above)",
+              "item_id": "elective_unit_GroupC-44",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0006",
+              "title": "Licence to operate a bridge and gantry crane",
+              "item_id": "elective_unit_GroupC-45",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC3018",
+              "title": "Licence to drive a multi-combination vehicle",
+              "item_id": "elective_unit_GroupC-46",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group C",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 4,
+      "elective_units_required": 9,
+      "prerequisite_requirements": [
+        {
+          "item_id": "prerequisite_requirement-1",
+          "unit_of_competency": {
+            "code": "MSMPER300",
+            "title": "Issue work permits",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "MSMWHS201",
+              "title": "Conduct hazard analysis",
+              "asterisk": 0
+            }
+          ]
+        }
+      ]
+    }
+  }

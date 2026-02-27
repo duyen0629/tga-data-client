@@ -1,0 +1,1951 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "RII\\RII20920_R3.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 3",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version was released with RII Resources and infrastructure Training Package version 8.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "HLTAID003 Provide first aid updated to HLTAID011 Provide First Aid as directed by the Department of Education, Skills and Employment.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 7.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "The following elective units of competency have been deleted as directed by the AISC:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "RIINHB209E Assist guided boring",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-3_2_3",
+                    "parent_bullet_item_id": "modification_history_cell-3_2_2"
+                  },
+                  {
+                    "text": "RIINHB213D Assist cable tool drilling",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-3_2_4",
+                    "parent_bullet_item_id": "modification_history_cell-3_2_2"
+                  },
+                  {
+                    "text": "RIINHB216E Assist underground in-seam directional drilling.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-3_2_5",
+                    "parent_bullet_item_id": "modification_history_cell-3_2_2"
+                  },
+                  {
+                    "text": "The above training products were identified as having zero enrolments over a three year period.",
+                    "type": "paragraph",
+                    "order": 6,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_6",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 5.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Minor change to add the following units of competency to the elective list:",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_2_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "RIIHAN213E Work effectively in the drilling industry",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-4_2_3",
+                    "parent_bullet_item_id": "modification_history_cell-4_2_2"
+                  },
+                  {
+                    "text": "RIISAM215E Carry out drilling industry operational maintenance.",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "modification_history_cell-4_2_4",
+                    "parent_bullet_item_id": "modification_history_cell-4_2_2"
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+            "type": "bullet",
+            "order": 1,
+            "indent": 1,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 12",
+            "type": "bullet",
+            "order": 2,
+            "indent": 2,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 3,
+            "indent": 1,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "4 elective units, of which:",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "at least one (1) must be chosen from Group A",
+            "type": "bullet",
+            "order": 5,
+            "indent": 1,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "no more than three (3) may be chosen from Group B",
+            "type": "bullet",
+            "order": 6,
+            "indent": 1,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "no more than one (1) may be chosen from within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 7,
+            "indent": 1,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "All elective units selected from outside this qualification must reflect current occupational and learning outcomes of this AQF qualification level.",
+            "type": "bullet",
+            "order": 8,
+            "indent": 1,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are both licensed and non-licensed units of competency relating to high risk work in the Resources and Infrastructure Industry Training Package. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+            "type": "bullet",
+            "order": 9,
+            "indent": 1,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are no prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+            "type": "bullet",
+            "order": 10,
+            "indent": 1,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core units of competency",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBWOR203",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work effectively with others",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICOM201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Communicate in the workplace",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIENV201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Identify and assess environmental and heritage concerns",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Load, secure and unload drilling equipment and materials",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB202E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Set up and pack up drill sites",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB203E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Support drilling processes",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-8_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRIS201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct local risk control",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-9_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWHS201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work safely and follow WHS policies and procedures",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-10_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Electives",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group A",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-13_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB205F",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist continuous flight auger drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB206E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist large diameter auger drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB208E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist diamond core drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-16_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB210E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-17_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist surface directional drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-17_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB211E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-18_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist mud rotary drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-18_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB217E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-19_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist horizontal direction drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-19_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB219E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-20_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist with reverse circulation drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-20_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB220",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-21_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist coil tube drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-21_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB221",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-22_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist rotary air drilling",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-22_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB222",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-23_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist sonic drilling operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-23_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group B",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-24_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-25_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-25_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBDIV301",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-26_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work effectively with diversity",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-26_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCLDG3001A",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-27_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to perform dogging",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-27_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "HLTAID011",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-28_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Provide First Aid",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-28_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICCM210D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-29_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Install trench support",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-29_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICRC203D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-30_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Install sub-soil drainage",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-30_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR202E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-31_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Contribute to the control of emergencies and critical situations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-31_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIHAN206E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-32_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Transport plant, equipment and personnel",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-32_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIHAN208E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-33_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Perform dogging",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-33_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIHAN213E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-34_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work effectively in the drilling industry",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-34_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIHAN307E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-35_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate a vehicle loading crane",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-35_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIHAN309F",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-36_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct telescopic materials handler operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-36_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIHAN311F",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-37_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct operations with integrated tool carrier",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-37_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMPO304E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-38_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct wheel loader operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-38_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIINHB218E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-39_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist grouting and cementing operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-39_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIOGD205E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-40_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Support blow out prevention operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-40_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIOGD206E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-41_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assist and monitor well control operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-41_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIQUA201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-42_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Maintain and monitor site quality standards",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-42_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRIS202E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-43_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Respond to site based spills",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-43_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIISAM202E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-44_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Isolate and access plant",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-44_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIISAM215E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-45_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out drilling industry operational maintenance",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-45_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIISTD202D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-46_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Collect routine site samples",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-46_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIUND206D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-47_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Install hand held underground ground support",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-47_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIVEH201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-48_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate a light vehicle",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-48_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIVEH203E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-49_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate a light vehicle underground",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-49_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIVEH305F",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-50_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate and maintain a four wheel drive vehicle",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-50_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWHS204E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-51_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work safely at heights",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-51_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC0003",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-52_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to operate a forklift truck",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-52_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 11,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to RII20915 Certificate II in Drilling Operations.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "BSBWOR203",
+          "title": "Work effectively with others",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "RIICOM201E",
+          "title": "Communicate in the workplace",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIENV201E",
+          "title": "Identify and assess environmental and heritage concerns",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "RIINHB201E",
+          "title": "Load, secure and unload drilling equipment and materials",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "RIINHB202E",
+          "title": "Set up and pack up drill sites",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        },
+        {
+          "code": "RIINHB203E",
+          "title": "Support drilling processes",
+          "item_id": "core_unit-6",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIRIS201E",
+          "title": "Conduct local risk control",
+          "item_id": "core_unit-7",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIWHS201E",
+          "title": "Work safely and follow WHS policies and procedures",
+          "item_id": "core_unit-8",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 12,
+      "elective_rules": [
+        {
+          "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+          "type": "bullet",
+          "order": 1,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 12",
+          "type": "paragraph-bold",
+          "order": 2,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 3,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "4 elective units, of which:",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "4 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "at least one (1) must be chosen from Group A",
+          "type": "bullet",
+          "order": 5,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "no more than three (3) may be chosen from Group B",
+          "type": "bullet",
+          "order": 6,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "no more than one (1) may be chosen from within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 7,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "All elective units selected from outside this qualification must reflect current occupational and learning outcomes of this AQF qualification level.",
+          "type": "bullet",
+          "order": 8,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are both licensed and non-licensed units of competency relating to high risk work in the Resources and Infrastructure Industry Training Package. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+          "type": "bullet",
+          "order": 9,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are no prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+          "type": "bullet",
+          "order": 10,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "RIINHB205F",
+              "title": "Assist continuous flight auger drilling",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB206E",
+              "title": "Assist large diameter auger drilling",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB208E",
+              "title": "Assist diamond core drilling",
+              "item_id": "elective_unit_GroupA-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB210E",
+              "title": "Assist surface directional drilling",
+              "item_id": "elective_unit_GroupA-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB211E",
+              "title": "Assist mud rotary drilling",
+              "item_id": "elective_unit_GroupA-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB217E",
+              "title": "Assist horizontal direction drilling",
+              "item_id": "elective_unit_GroupA-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB219E",
+              "title": "Assist with reverse circulation drilling",
+              "item_id": "elective_unit_GroupA-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB220",
+              "title": "Assist coil tube drilling",
+              "item_id": "elective_unit_GroupA-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB221",
+              "title": "Assist rotary air drilling",
+              "item_id": "elective_unit_GroupA-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB222",
+              "title": "Assist sonic drilling operations",
+              "item_id": "elective_unit_GroupA-10",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBDIV301",
+              "title": "Work effectively with diversity",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "HLTAID011",
+              "title": "Provide First Aid",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM210D",
+              "title": "Install trench support",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC203D",
+              "title": "Install sub-soil drainage",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR202E",
+              "title": "Contribute to the control of emergencies and critical situations",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN206E",
+              "title": "Transport plant, equipment and personnel",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN213E",
+              "title": "Work effectively in the drilling industry",
+              "item_id": "elective_unit_GroupB-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN307E",
+              "title": "Operate a vehicle loading crane",
+              "item_id": "elective_unit_GroupB-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN309F",
+              "title": "Conduct telescopic materials handler operations",
+              "item_id": "elective_unit_GroupB-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN311F",
+              "title": "Conduct operations with integrated tool carrier",
+              "item_id": "elective_unit_GroupB-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO304E",
+              "title": "Conduct wheel loader operations",
+              "item_id": "elective_unit_GroupB-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIINHB218E",
+              "title": "Assist grouting and cementing operations",
+              "item_id": "elective_unit_GroupB-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIOGD205E",
+              "title": "Support blow out prevention operations",
+              "item_id": "elective_unit_GroupB-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIOGD206E",
+              "title": "Assist and monitor well control operations",
+              "item_id": "elective_unit_GroupB-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIQUA201E",
+              "title": "Maintain and monitor site quality standards",
+              "item_id": "elective_unit_GroupB-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupB-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM202E",
+              "title": "Isolate and access plant",
+              "item_id": "elective_unit_GroupB-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM215E",
+              "title": "Carry out drilling industry operational maintenance",
+              "item_id": "elective_unit_GroupB-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISTD202D",
+              "title": "Collect routine site samples",
+              "item_id": "elective_unit_GroupB-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIUND206D",
+              "title": "Install hand held underground ground support",
+              "item_id": "elective_unit_GroupB-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH201E",
+              "title": "Operate a light vehicle",
+              "item_id": "elective_unit_GroupB-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH203E",
+              "title": "Operate a light vehicle underground",
+              "item_id": "elective_unit_GroupB-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH305F",
+              "title": "Operate and maintain a four wheel drive vehicle",
+              "item_id": "elective_unit_GroupB-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupB-26",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0003",
+              "title": "Licence to operate a forklift truck",
+              "item_id": "elective_unit_GroupB-27",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 8,
+      "elective_units_required": 4,
+      "prerequisite_requirements": []
+    }
+  }

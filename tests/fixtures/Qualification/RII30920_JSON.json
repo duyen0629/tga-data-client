@@ -1,0 +1,5678 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "RII\\RII30920_R4.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 4",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version was released with RII Resources and infrastructure Training Package version 8.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "HLTAID003 Provide first aid updated to HLTAID011 Provide First Aid as directed by the Department of Education, Skills and Employment.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 3",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version was released with RII Resources and Infrastructure Industry Training Package Version 7.1.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Minor change to replace incorrect elective unit code BSBOPS301 with correct unit code and title BSBOPS304 Deliver and monitor a service to customers.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version was released with RII Resources and Infrastructure Training Package version 7.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Version created to fix typographical and/or unit grid errors.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-4_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 6.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Minor change to add RIIMPO339A Conduct side tipper operations to the elective list.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-5_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisations",
+            "type": "paragraph",
+            "order": 2,
+            "indent": null,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The qualification has core and elective units of competency that cover the skills for the following eight (8) specialist and one (1) general civil construction specialisations:",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 1 – Bituminous Surfacing",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 2 – Bridge Construction and Maintenance",
+            "type": "bullet",
+            "order": 5,
+            "indent": 1,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 3 – Pipe Laying",
+            "type": "bullet",
+            "order": 6,
+            "indent": 1,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 4 – Road Construction and Maintenance",
+            "type": "bullet",
+            "order": 7,
+            "indent": 1,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 5 – Road Marking",
+            "type": "bullet",
+            "order": 8,
+            "indent": 1,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 6 – Tunnel Construction",
+            "type": "bullet",
+            "order": 9,
+            "indent": 1,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 7 – Timber Bridge Construction and Maintenance",
+            "type": "bullet",
+            "order": 10,
+            "indent": 1,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 8 – Traffic Management",
+            "type": "bullet",
+            "order": 11,
+            "indent": 1,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 9 – Civil Construction General",
+            "type": "bullet",
+            "order": 12,
+            "indent": 1,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The core and elective unit requirements of one (1) specialisation must be met for this qualification to be awarded.",
+            "type": "paragraph",
+            "order": 13,
+            "indent": null,
+            "item_id": "packaging_rules-13",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "All elective units selected for this qualification must reflect current occupational and learning outcomes of this AQF qualification level.",
+            "type": "paragraph",
+            "order": 14,
+            "indent": null,
+            "item_id": "packaging_rules-14",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+            "type": "paragraph",
+            "order": 15,
+            "indent": null,
+            "item_id": "packaging_rules-15",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+            "type": "paragraph",
+            "order": 16,
+            "indent": null,
+            "item_id": "packaging_rules-16",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Bituminous Surfacing) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 17,
+            "indent": 2,
+            "item_id": "packaging_rules-17",
+            "parent_bullet_item_id": "packaging_rules-12"
+          },
+          {
+            "text": "Total number of units = 25",
+            "type": "bullet",
+            "order": 18,
+            "indent": 1,
+            "item_id": "packaging_rules-18",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 19,
+            "indent": 1,
+            "item_id": "packaging_rules-19",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "17 elective units, of which:",
+            "type": "bullet",
+            "order": 20,
+            "indent": 1,
+            "item_id": "packaging_rules-20",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "at least four (4) must be chosen from the electives in Group A and/or Group B",
+            "type": "bullet",
+            "order": 21,
+            "indent": 0,
+            "item_id": "packaging_rules-21",
+            "parent_bullet_item_id": "packaging_rules-16"
+          },
+          {
+            "text": "up to nine (9) may be chosen from the electives in Group C",
+            "type": "bullet",
+            "order": 22,
+            "indent": 0,
+            "item_id": "packaging_rules-22",
+            "parent_bullet_item_id": "packaging_rules-16"
+          },
+          {
+            "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 23,
+            "indent": 0,
+            "item_id": "packaging_rules-23",
+            "parent_bullet_item_id": "packaging_rules-16"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Bridge Construction and Maintenance) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 24,
+            "indent": 2,
+            "item_id": "packaging_rules-24",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 26",
+            "type": "bullet",
+            "order": 25,
+            "indent": 1,
+            "item_id": "packaging_rules-25",
+            "parent_bullet_item_id": "packaging_rules-23"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 26,
+            "indent": 1,
+            "item_id": "packaging_rules-26",
+            "parent_bullet_item_id": "packaging_rules-23"
+          },
+          {
+            "text": "18 elective units, of which:",
+            "type": "bullet",
+            "order": 27,
+            "indent": 1,
+            "item_id": "packaging_rules-27",
+            "parent_bullet_item_id": "packaging_rules-23"
+          },
+          {
+            "text": "eight (8) must be chosen from Group D",
+            "type": "bullet",
+            "order": 28,
+            "indent": 0,
+            "item_id": "packaging_rules-28",
+            "parent_bullet_item_id": "packaging_rules-16"
+          },
+          {
+            "text": "at least two (2) must be chosen from Group E",
+            "type": "bullet",
+            "order": 29,
+            "indent": 0,
+            "item_id": "packaging_rules-29",
+            "parent_bullet_item_id": "packaging_rules-16"
+          },
+          {
+            "text": "at least three (3) must be chosen from Group F",
+            "type": "bullet",
+            "order": 30,
+            "indent": 0,
+            "item_id": "packaging_rules-30",
+            "parent_bullet_item_id": "packaging_rules-16"
+          },
+          {
+            "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 31,
+            "indent": 0,
+            "item_id": "packaging_rules-31",
+            "parent_bullet_item_id": "packaging_rules-16"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Pipe Laying) the following packaging rules apply:",
+            "type": "paragraph",
+            "order": 32,
+            "indent": null,
+            "item_id": "packaging_rules-32",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 26",
+            "type": "bullet",
+            "order": 33,
+            "indent": 1,
+            "item_id": "packaging_rules-33",
+            "parent_bullet_item_id": "packaging_rules-31"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 34,
+            "indent": 1,
+            "item_id": "packaging_rules-34",
+            "parent_bullet_item_id": "packaging_rules-31"
+          },
+          {
+            "text": "18 elective units, of which:",
+            "type": "bullet",
+            "order": 35,
+            "indent": 1,
+            "item_id": "packaging_rules-35",
+            "parent_bullet_item_id": "packaging_rules-31"
+          },
+          {
+            "text": "ten (10) must be chosen from Group G",
+            "type": "bullet",
+            "order": 36,
+            "indent": 0,
+            "item_id": "packaging_rules-36",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least one (1) must be chosen from Group H",
+            "type": "bullet",
+            "order": 37,
+            "indent": 0,
+            "item_id": "packaging_rules-37",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least three (3) must be chosen from Group I",
+            "type": "bullet",
+            "order": 38,
+            "indent": 0,
+            "item_id": "packaging_rules-38",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "up to three (3) may be chosen from the electives below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 39,
+            "indent": 0,
+            "item_id": "packaging_rules-39",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Road Construction and Maintenance) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 40,
+            "indent": 2,
+            "item_id": "packaging_rules-40",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 26",
+            "type": "bullet",
+            "order": 41,
+            "indent": 1,
+            "item_id": "packaging_rules-41",
+            "parent_bullet_item_id": "packaging_rules-39"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 42,
+            "indent": 1,
+            "item_id": "packaging_rules-42",
+            "parent_bullet_item_id": "packaging_rules-39"
+          },
+          {
+            "text": "18 elective units, of which:",
+            "type": "bullet",
+            "order": 43,
+            "indent": 1,
+            "item_id": "packaging_rules-43",
+            "parent_bullet_item_id": "packaging_rules-39"
+          },
+          {
+            "text": "nine (9) must be chosen from Group J",
+            "type": "bullet",
+            "order": 44,
+            "indent": 0,
+            "item_id": "packaging_rules-44",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least two (2) must be chosen from Group K",
+            "type": "bullet",
+            "order": 45,
+            "indent": 0,
+            "item_id": "packaging_rules-45",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least two (2) must be chosen from Group L",
+            "type": "bullet",
+            "order": 46,
+            "indent": 0,
+            "item_id": "packaging_rules-46",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "up to four (4) may be chosen from the electives below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+            "type": "bullet",
+            "order": 47,
+            "indent": 0,
+            "item_id": "packaging_rules-47",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least five (5) of the eighteen (18) elective units chosen must be road construction and maintenance (RIICRC) units.",
+            "type": "bullet",
+            "order": 48,
+            "indent": 0,
+            "item_id": "packaging_rules-48",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Road Marking) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 49,
+            "indent": 2,
+            "item_id": "packaging_rules-49",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 23",
+            "type": "bullet",
+            "order": 50,
+            "indent": 1,
+            "item_id": "packaging_rules-50",
+            "parent_bullet_item_id": "packaging_rules-48"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 51,
+            "indent": 1,
+            "item_id": "packaging_rules-51",
+            "parent_bullet_item_id": "packaging_rules-48"
+          },
+          {
+            "text": "15 elective units, of which:",
+            "type": "bullet",
+            "order": 52,
+            "indent": 1,
+            "item_id": "packaging_rules-52",
+            "parent_bullet_item_id": "packaging_rules-48"
+          },
+          {
+            "text": "four (4) must be chosen from Group M",
+            "type": "bullet",
+            "order": 53,
+            "indent": 0,
+            "item_id": "packaging_rules-53",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least one (1) must be chosen from Group N",
+            "type": "bullet",
+            "order": 54,
+            "indent": 0,
+            "item_id": "packaging_rules-54",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least six (6) must be chosen from Group O",
+            "type": "bullet",
+            "order": 55,
+            "indent": 0,
+            "item_id": "packaging_rules-55",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "up to three (3) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+            "type": "bullet",
+            "order": 56,
+            "indent": 0,
+            "item_id": "packaging_rules-56",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least seven (7) of the fifteen (15) elective units chosen must be road marking (RIICRM) units.",
+            "type": "bullet",
+            "order": 57,
+            "indent": 0,
+            "item_id": "packaging_rules-57",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Tunnel Construction) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 58,
+            "indent": 2,
+            "item_id": "packaging_rules-58",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 26",
+            "type": "bullet",
+            "order": 59,
+            "indent": 1,
+            "item_id": "packaging_rules-59",
+            "parent_bullet_item_id": "packaging_rules-57"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 60,
+            "indent": 1,
+            "item_id": "packaging_rules-60",
+            "parent_bullet_item_id": "packaging_rules-57"
+          },
+          {
+            "text": "18 elective units, of which:",
+            "type": "bullet",
+            "order": 61,
+            "indent": 1,
+            "item_id": "packaging_rules-61",
+            "parent_bullet_item_id": "packaging_rules-57"
+          },
+          {
+            "text": "at least five (5) must be chosen from Group P",
+            "type": "bullet",
+            "order": 62,
+            "indent": 0,
+            "item_id": "packaging_rules-62",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least six (6) must be chosen from Group Q",
+            "type": "bullet",
+            "order": 63,
+            "indent": 0,
+            "item_id": "packaging_rules-63",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least two (2) must be chosen from Group R",
+            "type": "bullet",
+            "order": 64,
+            "indent": 0,
+            "item_id": "packaging_rules-64",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+            "type": "bullet",
+            "order": 65,
+            "indent": 0,
+            "item_id": "packaging_rules-65",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least two (2) of the eighteen (18) elective units chosen must be tunnel construction (RIICTC) units.",
+            "type": "bullet",
+            "order": 66,
+            "indent": 0,
+            "item_id": "packaging_rules-66",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Timber Bridge Construction and Maintenance) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 67,
+            "indent": 2,
+            "item_id": "packaging_rules-67",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 29",
+            "type": "bullet",
+            "order": 68,
+            "indent": 1,
+            "item_id": "packaging_rules-68",
+            "parent_bullet_item_id": "packaging_rules-66"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 69,
+            "indent": 1,
+            "item_id": "packaging_rules-69",
+            "parent_bullet_item_id": "packaging_rules-66"
+          },
+          {
+            "text": "21 elective units, of which:",
+            "type": "bullet",
+            "order": 70,
+            "indent": 1,
+            "item_id": "packaging_rules-70",
+            "parent_bullet_item_id": "packaging_rules-66"
+          },
+          {
+            "text": "twelve (12) must be chosen from Group S",
+            "type": "bullet",
+            "order": 71,
+            "indent": 0,
+            "item_id": "packaging_rules-71",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least two (2) must be chosen from Group T",
+            "type": "bullet",
+            "order": 72,
+            "indent": 0,
+            "item_id": "packaging_rules-72",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least two (2) must be chosen from Group U",
+            "type": "bullet",
+            "order": 73,
+            "indent": 0,
+            "item_id": "packaging_rules-73",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 74,
+            "indent": 0,
+            "item_id": "packaging_rules-74",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (Traffic Management) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 75,
+            "indent": 2,
+            "item_id": "packaging_rules-75",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 25",
+            "type": "bullet",
+            "order": 76,
+            "indent": 1,
+            "item_id": "packaging_rules-76",
+            "parent_bullet_item_id": "packaging_rules-74"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 77,
+            "indent": 1,
+            "item_id": "packaging_rules-77",
+            "parent_bullet_item_id": "packaging_rules-74"
+          },
+          {
+            "text": "17 elective units, of which:",
+            "type": "bullet",
+            "order": 78,
+            "indent": 1,
+            "item_id": "packaging_rules-78",
+            "parent_bullet_item_id": "packaging_rules-74"
+          },
+          {
+            "text": "eight (8) must be chosen from Group V",
+            "type": "bullet",
+            "order": 79,
+            "indent": 0,
+            "item_id": "packaging_rules-79",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least four (4) must be chosen from Group W",
+            "type": "bullet",
+            "order": 80,
+            "indent": 0,
+            "item_id": "packaging_rules-80",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least three (3) must be chosen from Group X",
+            "type": "bullet",
+            "order": 81,
+            "indent": 0,
+            "item_id": "packaging_rules-81",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "up to two (2) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 82,
+            "indent": 0,
+            "item_id": "packaging_rules-82",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "To be awarded the Certificate III in Civil Construction (General) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 83,
+            "indent": 2,
+            "item_id": "packaging_rules-83",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 25",
+            "type": "bullet",
+            "order": 84,
+            "indent": 1,
+            "item_id": "packaging_rules-84",
+            "parent_bullet_item_id": "packaging_rules-82"
+          },
+          {
+            "text": "8 core units plus",
+            "type": "bullet",
+            "order": 85,
+            "indent": 1,
+            "item_id": "packaging_rules-85",
+            "parent_bullet_item_id": "packaging_rules-82"
+          },
+          {
+            "text": "17 elective units, of which:",
+            "type": "bullet",
+            "order": 86,
+            "indent": 1,
+            "item_id": "packaging_rules-86",
+            "parent_bullet_item_id": "packaging_rules-82"
+          },
+          {
+            "text": "at least four (4) must be chosen from one of Groups YA-YK",
+            "type": "bullet",
+            "order": 87,
+            "indent": 0,
+            "item_id": "packaging_rules-87",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least ten (10) must be chosen from Group Z",
+            "type": "bullet",
+            "order": 88,
+            "indent": 0,
+            "item_id": "packaging_rules-88",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "up to three (3) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+            "type": "bullet",
+            "order": 89,
+            "indent": 0,
+            "item_id": "packaging_rules-89",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "at least five (5) of the seventeen (17) elective units chosen must have a numerical code beginning with 3.",
+            "type": "bullet",
+            "order": 90,
+            "indent": 0,
+            "item_id": "packaging_rules-90",
+            "parent_bullet_item_id": "packaging_rules-32"
+          },
+          {
+            "text": "*Note the following prerequisite unit requirements.",
+            "type": "bullet",
+            "order": 92,
+            "indent": 1,
+            "item_id": "packaging_rules-92",
+            "parent_bullet_item_id": "packaging_rules-90"
+          },
+          {
+            "text": "Specialisations",
+            "type": "paragraph",
+            "order": 94,
+            "indent": null,
+            "item_id": "packaging_rules-94",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The achievement of a specialisation will be identified on testamurs as follows:",
+            "type": "paragraph",
+            "order": 95,
+            "indent": null,
+            "item_id": "packaging_rules-95",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Bituminous Surfacing)",
+            "type": "bullet",
+            "order": 96,
+            "indent": 0,
+            "item_id": "packaging_rules-96",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Bridge Construction and Maintenance)",
+            "type": "bullet",
+            "order": 97,
+            "indent": 0,
+            "item_id": "packaging_rules-97",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Pipe Laying)",
+            "type": "bullet",
+            "order": 98,
+            "indent": 0,
+            "item_id": "packaging_rules-98",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Road Construction and Maintenance)",
+            "type": "bullet",
+            "order": 99,
+            "indent": 0,
+            "item_id": "packaging_rules-99",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Road Marking)",
+            "type": "bullet",
+            "order": 100,
+            "indent": 0,
+            "item_id": "packaging_rules-100",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Tunnel Construction)",
+            "type": "bullet",
+            "order": 101,
+            "indent": 0,
+            "item_id": "packaging_rules-101",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Timber Bridge Construction and Maintenance)",
+            "type": "bullet",
+            "order": 102,
+            "indent": 0,
+            "item_id": "packaging_rules-102",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Traffic Management)",
+            "type": "bullet",
+            "order": 103,
+            "indent": 0,
+            "item_id": "packaging_rules-103",
+            "parent_bullet_item_id": "packaging_rules-95"
+          },
+          {
+            "text": "RII30920 Certificate III in Civil Construction (Civil Construction General)",
+            "type": "bullet",
+            "order": 104,
+            "indent": 0,
+            "item_id": "packaging_rules-104",
+            "parent_bullet_item_id": "packaging_rules-95"
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCCM2007 Use explosive power tools",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCLRG3001A Licence to perform rigging – basic level",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCLDG3001A Licence to perform dogging",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "CPCCSF2004 Place and fix reinforcement materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCWHS2001 Apply WHS requirements, policies and procedures in the construction industry",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICBM302E Install pre-cast girders",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCLDG3001A Licence to Perform Dogging",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICBM305E Install pre-cast concrete bridge decks",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "CPCCLDG3001A Licence to Perform Dogging",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWHS304 Implement traffic management plans on high volume roads",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "RIIWHS302E Implement traffic management plans",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWHS305 Implement traffic management plans on motorways and freeways",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "RIIWHS302E Implement traffic management plans",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 93,
+          "columns": [
+            "UNIT IN THIS QUALIFICATION",
+            "PREREQUISITE UNITS"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to RII30919 Certificate III in Civil Construction.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guides are available from VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "RIIBEF201E",
+          "title": "Plan and organise work",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "RIICCM201E",
+          "title": "Carry out measurements and calculations",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "RIICCM203E",
+          "title": "Read and interpret plans and job specifications",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "RIICOM201E",
+          "title": "Communicate in the workplace",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIRIS301E",
+          "title": "Apply risk management processes",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        },
+        {
+          "code": "RIISAM203E",
+          "title": "Use hand and power tools",
+          "item_id": "core_unit-6",
+          "asterisk": 0
+        },
+        {
+          "code": "RIISAM204E",
+          "title": "Operate small plant and equipment",
+          "item_id": "core_unit-7",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIWHS201E",
+          "title": "Work safely and follow WHS policies and procedures",
+          "item_id": "core_unit-8",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 25,
+      "elective_rules": [
+        {
+          "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisations",
+          "type": "paragraph-bold",
+          "order": 2,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The qualification has core and elective units of competency that cover the skills for the following eight (8) specialist and one (1) general civil construction specialisations:",
+          "type": "paragraph",
+          "order": 3,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 1 – Bituminous Surfacing",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 2 – Bridge Construction and Maintenance",
+          "type": "bullet",
+          "order": 5,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 3 – Pipe Laying",
+          "type": "bullet",
+          "order": 6,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 4 – Road Construction and Maintenance",
+          "type": "bullet",
+          "order": 7,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 5 – Road Marking",
+          "type": "bullet",
+          "order": 8,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 6 – Tunnel Construction",
+          "type": "bullet",
+          "order": 9,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 7 – Timber Bridge Construction and Maintenance",
+          "type": "bullet",
+          "order": 10,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 8 – Traffic Management",
+          "type": "bullet",
+          "order": 11,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-11",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 9 – Civil Construction General",
+          "type": "bullet",
+          "order": 12,
+          "indent": 1,
+          "content": null,
+          "item_id": "elective_rules-12",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The core and elective unit requirements of one (1) specialisation must be met for this qualification to be awarded.",
+          "type": "paragraph",
+          "order": 13,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-13",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "All elective units selected for this qualification must reflect current occupational and learning outcomes of this AQF qualification level.",
+          "type": "paragraph",
+          "order": 14,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-14",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+          "type": "paragraph",
+          "order": 15,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-15",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+          "type": "paragraph",
+          "order": 16,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-16",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Bituminous Surfacing) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 17,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-17",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 25",
+          "type": "paragraph-bold",
+          "order": 18,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-18",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 19,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-19",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "17 elective units, of which:",
+          "type": "bullet",
+          "order": 20,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "17 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-20",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "at least four (4) must be chosen from the electives in Group A and/or Group B",
+          "type": "bullet",
+          "order": 21,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-21",
+          "parent_bullet_item_id": "elective_rules-18"
+        },
+        {
+          "text": "up to nine (9) may be chosen from the electives in Group C",
+          "type": "bullet",
+          "order": 22,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-22",
+          "parent_bullet_item_id": "elective_rules-18"
+        },
+        {
+          "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 23,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-23",
+          "parent_bullet_item_id": "elective_rules-18"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Bridge Construction and Maintenance) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 24,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-24",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 26",
+          "type": "paragraph-bold",
+          "order": 25,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-25",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 26,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-26",
+          "parent_bullet_item_id": "elective_rules-23"
+        },
+        {
+          "text": "18 elective units, of which:",
+          "type": "bullet",
+          "order": 27,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "18 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-27",
+          "parent_bullet_item_id": "elective_rules-23"
+        },
+        {
+          "text": "eight (8) must be chosen from Group D",
+          "type": "bullet",
+          "order": 28,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-28",
+          "parent_bullet_item_id": "elective_rules-25"
+        },
+        {
+          "text": "at least two (2) must be chosen from Group E",
+          "type": "bullet",
+          "order": 29,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-29",
+          "parent_bullet_item_id": "elective_rules-25"
+        },
+        {
+          "text": "at least three (3) must be chosen from Group F",
+          "type": "bullet",
+          "order": 30,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-30",
+          "parent_bullet_item_id": "elective_rules-25"
+        },
+        {
+          "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 31,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-31",
+          "parent_bullet_item_id": "elective_rules-25"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Pipe Laying) the following packaging rules apply:",
+          "type": "header",
+          "order": 32,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-32",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 26",
+          "type": "paragraph-bold",
+          "order": 33,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-33",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 34,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-34",
+          "parent_bullet_item_id": "elective_rules-31"
+        },
+        {
+          "text": "18 elective units, of which:",
+          "type": "bullet",
+          "order": 35,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "18 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-35",
+          "parent_bullet_item_id": "elective_rules-31"
+        },
+        {
+          "text": "ten (10) must be chosen from Group G",
+          "type": "bullet",
+          "order": 36,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-36",
+          "parent_bullet_item_id": "elective_rules-33"
+        },
+        {
+          "text": "at least one (1) must be chosen from Group H",
+          "type": "bullet",
+          "order": 37,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-37",
+          "parent_bullet_item_id": "elective_rules-33"
+        },
+        {
+          "text": "at least three (3) must be chosen from Group I",
+          "type": "bullet",
+          "order": 38,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-38",
+          "parent_bullet_item_id": "elective_rules-33"
+        },
+        {
+          "text": "up to three (3) may be chosen from the electives below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 39,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-39",
+          "parent_bullet_item_id": "elective_rules-33"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Road Construction and Maintenance) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 40,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-40",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 26",
+          "type": "paragraph-bold",
+          "order": 41,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-41",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 42,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-42",
+          "parent_bullet_item_id": "elective_rules-39"
+        },
+        {
+          "text": "18 elective units, of which:",
+          "type": "bullet",
+          "order": 43,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "18 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-43",
+          "parent_bullet_item_id": "elective_rules-39"
+        },
+        {
+          "text": "nine (9) must be chosen from Group J",
+          "type": "bullet",
+          "order": 44,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-44",
+          "parent_bullet_item_id": "elective_rules-41"
+        },
+        {
+          "text": "at least two (2) must be chosen from Group K",
+          "type": "bullet",
+          "order": 45,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-45",
+          "parent_bullet_item_id": "elective_rules-41"
+        },
+        {
+          "text": "at least two (2) must be chosen from Group L",
+          "type": "bullet",
+          "order": 46,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-46",
+          "parent_bullet_item_id": "elective_rules-41"
+        },
+        {
+          "text": "up to four (4) may be chosen from the electives below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+          "type": "bullet",
+          "order": 47,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-47",
+          "parent_bullet_item_id": "elective_rules-41"
+        },
+        {
+          "text": "at least five (5) of the eighteen (18) elective units chosen must be road construction and maintenance (RIICRC) units.",
+          "type": "bullet",
+          "order": 48,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-48",
+          "parent_bullet_item_id": "elective_rules-41"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Road Marking) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 49,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-49",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 23",
+          "type": "paragraph-bold",
+          "order": 50,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-50",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 51,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-51",
+          "parent_bullet_item_id": "elective_rules-48"
+        },
+        {
+          "text": "15 elective units, of which:",
+          "type": "bullet",
+          "order": 52,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "15 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-52",
+          "parent_bullet_item_id": "elective_rules-48"
+        },
+        {
+          "text": "four (4) must be chosen from Group M",
+          "type": "bullet",
+          "order": 53,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-53",
+          "parent_bullet_item_id": "elective_rules-50"
+        },
+        {
+          "text": "at least one (1) must be chosen from Group N",
+          "type": "bullet",
+          "order": 54,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-54",
+          "parent_bullet_item_id": "elective_rules-50"
+        },
+        {
+          "text": "at least six (6) must be chosen from Group O",
+          "type": "bullet",
+          "order": 55,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-55",
+          "parent_bullet_item_id": "elective_rules-50"
+        },
+        {
+          "text": "up to three (3) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+          "type": "bullet",
+          "order": 56,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-56",
+          "parent_bullet_item_id": "elective_rules-50"
+        },
+        {
+          "text": "at least seven (7) of the fifteen (15) elective units chosen must be road marking (RIICRM) units.",
+          "type": "bullet",
+          "order": 57,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-57",
+          "parent_bullet_item_id": "elective_rules-50"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Tunnel Construction) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 58,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-58",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 26",
+          "type": "paragraph-bold",
+          "order": 59,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-59",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 60,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-60",
+          "parent_bullet_item_id": "elective_rules-57"
+        },
+        {
+          "text": "18 elective units, of which:",
+          "type": "bullet",
+          "order": 61,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "18 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-61",
+          "parent_bullet_item_id": "elective_rules-57"
+        },
+        {
+          "text": "at least five (5) must be chosen from Group P",
+          "type": "bullet",
+          "order": 62,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-62",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "at least six (6) must be chosen from Group Q",
+          "type": "bullet",
+          "order": 63,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-63",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "at least two (2) must be chosen from Group R",
+          "type": "bullet",
+          "order": 64,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-64",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+          "type": "bullet",
+          "order": 65,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-65",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "at least two (2) of the eighteen (18) elective units chosen must be tunnel construction (RIICTC) units.",
+          "type": "bullet",
+          "order": 66,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-66",
+          "parent_bullet_item_id": "elective_rules-59"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Timber Bridge Construction and Maintenance) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 67,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-67",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 29",
+          "type": "paragraph-bold",
+          "order": 68,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-68",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 69,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-69",
+          "parent_bullet_item_id": "elective_rules-66"
+        },
+        {
+          "text": "21 elective units, of which:",
+          "type": "bullet",
+          "order": 70,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "21 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-70",
+          "parent_bullet_item_id": "elective_rules-66"
+        },
+        {
+          "text": "twelve (12) must be chosen from Group S",
+          "type": "bullet",
+          "order": 71,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-71",
+          "parent_bullet_item_id": "elective_rules-68"
+        },
+        {
+          "text": "at least two (2) must be chosen from Group T",
+          "type": "bullet",
+          "order": 72,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-72",
+          "parent_bullet_item_id": "elective_rules-68"
+        },
+        {
+          "text": "at least two (2) must be chosen from Group U",
+          "type": "bullet",
+          "order": 73,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-73",
+          "parent_bullet_item_id": "elective_rules-68"
+        },
+        {
+          "text": "up to four (4) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 74,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-74",
+          "parent_bullet_item_id": "elective_rules-68"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (Traffic Management) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 75,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-75",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 25",
+          "type": "paragraph-bold",
+          "order": 76,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-76",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 77,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-77",
+          "parent_bullet_item_id": "elective_rules-74"
+        },
+        {
+          "text": "17 elective units, of which:",
+          "type": "bullet",
+          "order": 78,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "17 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-78",
+          "parent_bullet_item_id": "elective_rules-74"
+        },
+        {
+          "text": "eight (8) must be chosen from Group V",
+          "type": "bullet",
+          "order": 79,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-79",
+          "parent_bullet_item_id": "elective_rules-76"
+        },
+        {
+          "text": "at least four (4) must be chosen from Group W",
+          "type": "bullet",
+          "order": 80,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-80",
+          "parent_bullet_item_id": "elective_rules-76"
+        },
+        {
+          "text": "at least three (3) must be chosen from Group X",
+          "type": "bullet",
+          "order": 81,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-81",
+          "parent_bullet_item_id": "elective_rules-76"
+        },
+        {
+          "text": "up to two (2) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 82,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-82",
+          "parent_bullet_item_id": "elective_rules-76"
+        },
+        {
+          "text": "To be awarded the Certificate III in Civil Construction (General) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 83,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-83",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 25",
+          "type": "paragraph-bold",
+          "order": 84,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-84",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "8 core units plus",
+          "type": "bullet",
+          "order": 85,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "8 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-85",
+          "parent_bullet_item_id": "elective_rules-82"
+        },
+        {
+          "text": "17 elective units, of which:",
+          "type": "bullet",
+          "order": 86,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "17 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-86",
+          "parent_bullet_item_id": "elective_rules-82"
+        },
+        {
+          "text": "at least four (4) must be chosen from one of Groups YA-YK",
+          "type": "bullet",
+          "order": 87,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-87",
+          "parent_bullet_item_id": "elective_rules-84"
+        },
+        {
+          "text": "at least ten (10) must be chosen from Group Z",
+          "type": "bullet",
+          "order": 88,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-88",
+          "parent_bullet_item_id": "elective_rules-84"
+        },
+        {
+          "text": "up to three (3) may be chosen from the electives listed below, elsewhere within this training package, or from another endorsed training package, or from an accredited course",
+          "type": "bullet",
+          "order": 89,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-89",
+          "parent_bullet_item_id": "elective_rules-84"
+        },
+        {
+          "text": "at least five (5) of the seventeen (17) elective units chosen must have a numerical code beginning with 3.",
+          "type": "bullet",
+          "order": 90,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-90",
+          "parent_bullet_item_id": "elective_rules-84"
+        },
+        {
+          "text": "Specialisations",
+          "type": "paragraph-bold",
+          "order": 91,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-91",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The achievement of a specialisation will be identified on testamurs as follows:",
+          "type": "paragraph",
+          "order": 92,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-92",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Bituminous Surfacing)",
+          "type": "bullet",
+          "order": 93,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-93",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Bridge Construction and Maintenance)",
+          "type": "bullet",
+          "order": 94,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-94",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Pipe Laying)",
+          "type": "bullet",
+          "order": 95,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-95",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Road Construction and Maintenance)",
+          "type": "bullet",
+          "order": 96,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-96",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Road Marking)",
+          "type": "bullet",
+          "order": 97,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-97",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Tunnel Construction)",
+          "type": "bullet",
+          "order": 98,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-98",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Timber Bridge Construction and Maintenance)",
+          "type": "bullet",
+          "order": 99,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-99",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Traffic Management)",
+          "type": "bullet",
+          "order": 100,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-100",
+          "parent_bullet_item_id": "elective_rules-92"
+        },
+        {
+          "text": "RII30920 Certificate III in Civil Construction (Civil Construction General)",
+          "type": "bullet",
+          "order": 101,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-101",
+          "parent_bullet_item_id": "elective_rules-92"
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "RIICBS202E",
+              "title": "Hand spread asphalt",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS301E",
+              "title": "Conduct profile planer operations",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS302E",
+              "title": "Conduct paver screeding operations",
+              "item_id": "elective_unit_GroupA-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS303E",
+              "title": "Conduct materials transfer vehicle operations",
+              "item_id": "elective_unit_GroupA-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS304E",
+              "title": "Compact asphalt with rollers",
+              "item_id": "elective_unit_GroupA-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS305E",
+              "title": "Conduct asphalt paver operation",
+              "item_id": "elective_unit_GroupA-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS311E",
+              "title": "Produce asphalt products",
+              "item_id": "elective_unit_GroupA-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS313",
+              "title": "Conduct tack coat spraying operations",
+              "item_id": "elective_unit_GroupA-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM207E",
+              "title": "Spread and compact materials manually",
+              "item_id": "elective_unit_GroupA-9",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A Asphalt Surfacing",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICBS306E",
+              "title": "Conduct micro surfacing operations",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS307E",
+              "title": "Conduct bitumen sprayer operations",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS308E",
+              "title": "Load aggregate using purpose built loaders",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS309E",
+              "title": "Conduct self-propelled aggregate spreader operations",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS312E",
+              "title": "Conduct bitumen tanker operations",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS314",
+              "title": "Conduct aggregate spreader box operations",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS315",
+              "title": "Roll aggregate in sprayed sealing operations",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS402E",
+              "title": "Supervise the application of bituminous sprayed treatments",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B Spray Sealing",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBOPS304",
+              "title": "Deliver and monitor a service to customers",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBOPS402",
+              "title": "Coordinate business operational plans",
+              "item_id": "elective_unit_GroupC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupC-3",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBXTW301",
+              "title": "Work in a team",
+              "item_id": "elective_unit_GroupC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS203E",
+              "title": "Safely handle bituminous materials",
+              "item_id": "elective_unit_GroupC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS207E",
+              "title": "Take samples of road surfacing materials",
+              "item_id": "elective_unit_GroupC-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS310E",
+              "title": "Conduct patching operations",
+              "item_id": "elective_unit_GroupC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS316",
+              "title": "Conduct pavement sweeping operations",
+              "item_id": "elective_unit_GroupC-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS317",
+              "title": "Conduct road maintenance operations",
+              "item_id": "elective_unit_GroupC-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupC-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIIMG301E",
+              "title": "Maintain site records",
+              "item_id": "elective_unit_GroupC-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupC-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM201E",
+              "title": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+              "item_id": "elective_unit_GroupC-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH304E",
+              "title": "Conduct tip truck operations",
+              "item_id": "elective_unit_GroupC-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupC-15",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group C Bituminous Surfacing (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICCM202E",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupD-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupD-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupD-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM207E",
+              "title": "Spread and compact materials manually",
+              "item_id": "elective_unit_GroupD-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM208E",
+              "title": "Carry out basic levelling",
+              "item_id": "elective_unit_GroupD-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM201E",
+              "title": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+              "item_id": "elective_unit_GroupD-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupD-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG203E",
+              "title": "Drain and dewater civil construction sites",
+              "item_id": "elective_unit_GroupD-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group D Bridge Construction and Maintenance (Specialisation Core)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICBM301E",
+              "title": "Maintain concrete bridges",
+              "item_id": "elective_unit_GroupE-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM302E",
+              "title": "Install pre-cast girders",
+              "item_id": "elective_unit_GroupE-2",
+              "asterisk": 1
+            },
+            {
+              "code": "RIICBM303E",
+              "title": "Install pre-cast parapets",
+              "item_id": "elective_unit_GroupE-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM304E",
+              "title": "Operate bridge inspection units",
+              "item_id": "elective_unit_GroupE-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM305E",
+              "title": "Install pre-cast concrete bridge decks",
+              "item_id": "elective_unit_GroupE-5",
+              "asterisk": 1
+            },
+            {
+              "code": "RIICBM306E",
+              "title": "Undertake concreting work on concrete bridges",
+              "item_id": "elective_unit_GroupE-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM307E",
+              "title": "Construct formwork and false work on concrete bridges",
+              "item_id": "elective_unit_GroupE-7",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group E Bridge Construction and Maintenance (Technical)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupF-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools",
+              "item_id": "elective_unit_GroupF-2",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupF-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001A",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupF-4",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "item_id": "elective_unit_GroupF-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCSF2004",
+              "title": "Place and fix reinforcement materials",
+              "item_id": "elective_unit_GroupF-6",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "item_id": "elective_unit_GroupF-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM201E",
+              "title": "Strip pile heads",
+              "item_id": "elective_unit_GroupF-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM209E",
+              "title": "Carry out concrete work",
+              "item_id": "elective_unit_GroupF-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM210E",
+              "title": "Install trench support",
+              "item_id": "elective_unit_GroupF-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM211E",
+              "title": "Construct and dismantle fences and gates",
+              "item_id": "elective_unit_GroupF-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC201E",
+              "title": "Repair potholes",
+              "item_id": "elective_unit_GroupF-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC208E",
+              "title": "Lay pipes",
+              "item_id": "elective_unit_GroupF-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupF-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN211D",
+              "title": "Conduct basic scaffolding operations",
+              "item_id": "elective_unit_GroupF-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN301E",
+              "title": "Operate elevating work platform",
+              "item_id": "elective_unit_GroupF-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN302D",
+              "title": "Conduct intermediate scaffolding operations",
+              "item_id": "elective_unit_GroupF-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIIMG301E",
+              "title": "Maintain site records",
+              "item_id": "elective_unit_GroupF-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupF-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupF-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM205E",
+              "title": "Cut, weld and bend materials",
+              "item_id": "elective_unit_GroupF-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202E",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupF-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupF-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupF-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG301E",
+              "title": "Control construction site water tables",
+              "item_id": "elective_unit_GroupF-25",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0003",
+              "title": "Licence to operate a forklift truck",
+              "item_id": "elective_unit_GroupF-26",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group F Bridge Construction and Maintenance (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICCM202E",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupG-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupG-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupG-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM207E",
+              "title": "Spread and compact materials manually",
+              "item_id": "elective_unit_GroupG-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM208E",
+              "title": "Carry out basic levelling",
+              "item_id": "elective_unit_GroupG-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM210E",
+              "title": "Install trench support",
+              "item_id": "elective_unit_GroupG-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC208E",
+              "title": "Lay pipes",
+              "item_id": "elective_unit_GroupG-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM201E",
+              "title": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+              "item_id": "elective_unit_GroupG-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupG-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG203E",
+              "title": "Drain and dewater civil construction sites",
+              "item_id": "elective_unit_GroupG-10",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group G Pipe Laying (Specialisation Core)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICPL301E",
+              "title": "Install water mains pipelines",
+              "item_id": "elective_unit_GroupH-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL302E",
+              "title": "Install stormwater systems",
+              "item_id": "elective_unit_GroupH-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL303E",
+              "title": "Install sewer pipelines",
+              "item_id": "elective_unit_GroupH-3",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group H Pipe Laying (Technical)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupI-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools",
+              "item_id": "elective_unit_GroupI-2",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupI-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001A",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupI-4",
+              "asterisk": 1
+            },
+            {
+              "code": "PMBWELD302",
+              "title": "Electrofusion weld polyethylene pipelines",
+              "item_id": "elective_unit_GroupI-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM209E",
+              "title": "Carry out concrete work",
+              "item_id": "elective_unit_GroupI-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM211E",
+              "title": "Construct and dismantle fences and gates",
+              "item_id": "elective_unit_GroupI-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL304E",
+              "title": "Install pre-cast gully pits",
+              "item_id": "elective_unit_GroupI-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL305E",
+              "title": "Install pre-cast access chambers",
+              "item_id": "elective_unit_GroupI-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC201E",
+              "title": "Repair potholes",
+              "item_id": "elective_unit_GroupI-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC203E",
+              "title": "Install sub-soil drainage",
+              "item_id": "elective_unit_GroupI-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC209E",
+              "title": "Lay reinforced concrete box culverts",
+              "item_id": "elective_unit_GroupI-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC301E",
+              "title": "Maintain drainage systems",
+              "item_id": "elective_unit_GroupI-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupI-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN211D",
+              "title": "Conduct basic scaffolding operations",
+              "item_id": "elective_unit_GroupI-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN301E",
+              "title": "Operate elevating work platform",
+              "item_id": "elective_unit_GroupI-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIIMG301E",
+              "title": "Maintain site records",
+              "item_id": "elective_unit_GroupI-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO327E",
+              "title": "Conduct pipe layer operations",
+              "item_id": "elective_unit_GroupI-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupI-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupI-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM205E",
+              "title": "Cut, weld and bend materials",
+              "item_id": "elective_unit_GroupI-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202E",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupI-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupI-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupI-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG301E",
+              "title": "Control construction site water tables",
+              "item_id": "elective_unit_GroupI-25",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group I Pipe Laying (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICCM202E",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupJ-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupJ-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupJ-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM207E",
+              "title": "Spread and compact materials manually",
+              "item_id": "elective_unit_GroupJ-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM208E",
+              "title": "Carry out basic levelling",
+              "item_id": "elective_unit_GroupJ-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC201E",
+              "title": "Repair potholes",
+              "item_id": "elective_unit_GroupJ-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM201E",
+              "title": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+              "item_id": "elective_unit_GroupJ-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupJ-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG203E",
+              "title": "Drain and dewater civil construction sites",
+              "item_id": "elective_unit_GroupJ-9",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group J Road Construction and Maintenance (Specialisation Core)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICRC301E",
+              "title": "Maintain drainage systems",
+              "item_id": "elective_unit_GroupK-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC302E",
+              "title": "Place and form concrete kerb, channel and fixtures",
+              "item_id": "elective_unit_GroupK-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC303E",
+              "title": "Lay pavers",
+              "item_id": "elective_unit_GroupK-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC304E",
+              "title": "Maintain sealed roads",
+              "item_id": "elective_unit_GroupK-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC305E",
+              "title": "Conduct road construction paver screeding operations",
+              "item_id": "elective_unit_GroupK-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC306E",
+              "title": "Conduct earthworks",
+              "item_id": "elective_unit_GroupK-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC307E",
+              "title": "Conduct road pavement construction",
+              "item_id": "elective_unit_GroupK-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC309E",
+              "title": "Conduct stabiliser operations",
+              "item_id": "elective_unit_GroupK-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC311E",
+              "title": "Conduct concrete road paver operations",
+              "item_id": "elective_unit_GroupK-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC312E",
+              "title": "Set up and maintain concrete paver stringlines",
+              "item_id": "elective_unit_GroupK-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC313E",
+              "title": "Conduct concrete road curing and texturing operations",
+              "item_id": "elective_unit_GroupK-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC314E",
+              "title": "Handle concrete materials",
+              "item_id": "elective_unit_GroupK-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC315E",
+              "title": "Use concreting materials and equipment",
+              "item_id": "elective_unit_GroupK-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC316E",
+              "title": "Place and compact concrete",
+              "item_id": "elective_unit_GroupK-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC317E",
+              "title": "Finish concrete pavements",
+              "item_id": "elective_unit_GroupK-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC318E",
+              "title": "Cure concrete",
+              "item_id": "elective_unit_GroupK-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC319E",
+              "title": "Saw and cut concrete pavements to initiate planned cracks",
+              "item_id": "elective_unit_GroupK-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC320E",
+              "title": "Seal concrete pavements",
+              "item_id": "elective_unit_GroupK-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC321E",
+              "title": "Use automated paving guidance systems",
+              "item_id": "elective_unit_GroupK-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC322E",
+              "title": "Receive, check and record concrete deliveries",
+              "item_id": "elective_unit_GroupK-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC323E",
+              "title": "Insert tie bars in fresh concrete",
+              "item_id": "elective_unit_GroupK-21",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group K Road Construction and Maintenance (Technical)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupL-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools",
+              "item_id": "elective_unit_GroupL-2",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupL-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001A",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupL-4",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "item_id": "elective_unit_GroupL-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCSF2004",
+              "title": "Place and fix reinforcement materials",
+              "item_id": "elective_unit_GroupL-6",
+              "asterisk": 1
+            },
+            {
+              "code": "FWPCOT2239",
+              "title": "Trim and cut felled trees",
+              "item_id": "elective_unit_GroupL-7",
+              "asterisk": 0
+            },
+            {
+              "code": "FWPFGM3212",
+              "title": "Fall trees manually (intermediate)",
+              "item_id": "elective_unit_GroupL-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS202E",
+              "title": "Hand spread asphalt",
+              "item_id": "elective_unit_GroupL-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS203E",
+              "title": "Safely handle bituminous materials",
+              "item_id": "elective_unit_GroupL-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS301E",
+              "title": "Conduct profile planer operations",
+              "item_id": "elective_unit_GroupL-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM209E",
+              "title": "Carry out concrete work",
+              "item_id": "elective_unit_GroupL-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM210E",
+              "title": "Install trench support",
+              "item_id": "elective_unit_GroupL-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM211E",
+              "title": "Construct and dismantle fences and gates",
+              "item_id": "elective_unit_GroupL-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL302E",
+              "title": "Install stormwater systems",
+              "item_id": "elective_unit_GroupL-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL304E",
+              "title": "Install pre-cast gully pits",
+              "item_id": "elective_unit_GroupL-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL305E",
+              "title": "Install pre-cast access chambers",
+              "item_id": "elective_unit_GroupL-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC202E",
+              "title": "Install signs",
+              "item_id": "elective_unit_GroupL-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC203E",
+              "title": "Install sub-soil drainage",
+              "item_id": "elective_unit_GroupL-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC204E",
+              "title": "Install and maintain roadside fixtures",
+              "item_id": "elective_unit_GroupL-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC205E",
+              "title": "Install utility poles",
+              "item_id": "elective_unit_GroupL-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC206E",
+              "title": "Install pre-cast concrete crash barriers",
+              "item_id": "elective_unit_GroupL-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC207E",
+              "title": "Install noise barriers",
+              "item_id": "elective_unit_GroupL-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC208E",
+              "title": "Lay pipes",
+              "item_id": "elective_unit_GroupL-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC209E",
+              "title": "Lay reinforced concrete box culverts",
+              "item_id": "elective_unit_GroupL-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN201E",
+              "title": "Operate a forklift",
+              "item_id": "elective_unit_GroupL-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupL-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN211D",
+              "title": "Conduct basic scaffolding operations",
+              "item_id": "elective_unit_GroupL-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN301E",
+              "title": "Operate elevating work platform",
+              "item_id": "elective_unit_GroupL-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN307E",
+              "title": "Operate a vehicle loading crane",
+              "item_id": "elective_unit_GroupL-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIIMG301E",
+              "title": "Maintain site records",
+              "item_id": "elective_unit_GroupL-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupL-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupL-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM205E",
+              "title": "Cut, weld and bend materials",
+              "item_id": "elective_unit_GroupL-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202E",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupL-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupL-36",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupL-37",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG301E",
+              "title": "Control construction site water tables",
+              "item_id": "elective_unit_GroupL-38",
+              "asterisk": 0
+            },
+            {
+              "code": "TLID3011",
+              "title": "Conduct specialised forklift operations",
+              "item_id": "elective_unit_GroupL-39",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0003",
+              "title": "Licence to operate a forklift truck",
+              "item_id": "elective_unit_GroupL-40",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group L Road Construction and Maintenance (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICRM202E",
+              "title": "Handle and store road marking materials",
+              "item_id": "elective_unit_GroupM-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM204E",
+              "title": "Prepare surfaces for road marking",
+              "item_id": "elective_unit_GroupM-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIIMG301E",
+              "title": "Maintain site records",
+              "item_id": "elective_unit_GroupM-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM201E",
+              "title": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+              "item_id": "elective_unit_GroupM-4",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group M Road Marking (Specialisation Core)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICRM301E",
+              "title": "Conduct ride on road marking operations",
+              "item_id": "elective_unit_GroupN-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM302E",
+              "title": "Conduct long line road marking operations",
+              "item_id": "elective_unit_GroupN-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM303E",
+              "title": "Conduct thermo plastic road marking operations",
+              "item_id": "elective_unit_GroupN-3",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group N Road Marking (Technical)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupO-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupO-2",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001A",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupO-3",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "item_id": "elective_unit_GroupO-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupO-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupO-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM208E",
+              "title": "Carry out basic levelling",
+              "item_id": "elective_unit_GroupO-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM209E",
+              "title": "Carry out concrete work",
+              "item_id": "elective_unit_GroupO-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC202E",
+              "title": "Install signs",
+              "item_id": "elective_unit_GroupO-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM201F",
+              "title": "Escort mobile works",
+              "item_id": "elective_unit_GroupO-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM203E",
+              "title": "Conduct pedestrian road marking operations",
+              "item_id": "elective_unit_GroupO-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM205E",
+              "title": "Conduct road marking measuring operations",
+              "item_id": "elective_unit_GroupO-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM206E",
+              "title": "Conduct airless and atomised spraying operations",
+              "item_id": "elective_unit_GroupO-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM207E",
+              "title": "Install raised pavement markers",
+              "item_id": "elective_unit_GroupO-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN201E",
+              "title": "Operate a forklift",
+              "item_id": "elective_unit_GroupO-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupO-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN301E",
+              "title": "Operate elevating work platform",
+              "item_id": "elective_unit_GroupO-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN307E",
+              "title": "Operate a vehicle loading crane",
+              "item_id": "elective_unit_GroupO-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupO-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupO-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM205E",
+              "title": "Cut, weld and bend materials",
+              "item_id": "elective_unit_GroupO-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupO-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupO-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupO-24",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0003",
+              "title": "Licence to operate a forklift truck",
+              "item_id": "elective_unit_GroupO-25",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group O Road Marking (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICCM202E",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupP-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupP-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupP-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM207E",
+              "title": "Spread and compact materials manually",
+              "item_id": "elective_unit_GroupP-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM208E",
+              "title": "Carry out basic levelling",
+              "item_id": "elective_unit_GroupP-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC203E",
+              "title": "Install sub-soil drainage",
+              "item_id": "elective_unit_GroupP-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM201E",
+              "title": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+              "item_id": "elective_unit_GroupP-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG203E",
+              "title": "Drain and dewater civil construction sites",
+              "item_id": "elective_unit_GroupP-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group P Tunnel Construction (Specialisation Core)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIIBLA303E",
+              "title": "Conduct underground development shotfiring",
+              "item_id": "elective_unit_GroupQ-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM211E",
+              "title": "Construct and dismantle fences and gates",
+              "item_id": "elective_unit_GroupQ-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW302E",
+              "title": "Install temporary and permanent rock anchors",
+              "item_id": "elective_unit_GroupQ-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW303E",
+              "title": "Install primary ground supports",
+              "item_id": "elective_unit_GroupQ-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC301E",
+              "title": "Maintain drainage systems",
+              "item_id": "elective_unit_GroupQ-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC301E",
+              "title": "Install tunnelling constructions services",
+              "item_id": "elective_unit_GroupQ-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC302E",
+              "title": "Line tunnels",
+              "item_id": "elective_unit_GroupQ-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC303E",
+              "title": "Excavate tunnel by machine",
+              "item_id": "elective_unit_GroupQ-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC304E",
+              "title": "Muck out tunnel earthworks",
+              "item_id": "elective_unit_GroupQ-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC305E",
+              "title": "Construct portals",
+              "item_id": "elective_unit_GroupQ-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC306",
+              "title": "Conduct tunnel boring machine operations",
+              "item_id": "elective_unit_GroupQ-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN301E",
+              "title": "Operate elevating work platform",
+              "item_id": "elective_unit_GroupQ-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIUND310E",
+              "title": "Apply shotcrete underground",
+              "item_id": "elective_unit_GroupQ-13",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group Q Tunnel Construction (Technical)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupR-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools",
+              "item_id": "elective_unit_GroupR-2",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupR-3",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001A",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupR-4",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "item_id": "elective_unit_GroupR-5",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "item_id": "elective_unit_GroupR-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA202F",
+              "title": "Support underground shotfiring operations",
+              "item_id": "elective_unit_GroupR-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA205E",
+              "title": "Store, handle and transport explosives",
+              "item_id": "elective_unit_GroupR-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM209E",
+              "title": "Carry out concrete work",
+              "item_id": "elective_unit_GroupR-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM210E",
+              "title": "Install trench support",
+              "item_id": "elective_unit_GroupR-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM211E",
+              "title": "Construct and dismantle fences and gates",
+              "item_id": "elective_unit_GroupR-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC201E",
+              "title": "Repair potholes",
+              "item_id": "elective_unit_GroupR-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC208E",
+              "title": "Lay pipes",
+              "item_id": "elective_unit_GroupR-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupR-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN211D",
+              "title": "Conduct basic scaffolding operations",
+              "item_id": "elective_unit_GroupR-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupR-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupR-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM205E",
+              "title": "Cut, weld and bend materials",
+              "item_id": "elective_unit_GroupR-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202E",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupR-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupR-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupR-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupR-22",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0003",
+              "title": "Licence to operate a forklift truck",
+              "item_id": "elective_unit_GroupR-23",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group R Tunnel Construction (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICCM202E",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupS-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupS-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupS-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM210E",
+              "title": "Install trench support",
+              "item_id": "elective_unit_GroupS-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB201E",
+              "title": "Maintain timber bridges",
+              "item_id": "elective_unit_GroupS-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB301E",
+              "title": "Undertake visual inspections",
+              "item_id": "elective_unit_GroupS-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB302E",
+              "title": "Install temporary support members",
+              "item_id": "elective_unit_GroupS-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB304E",
+              "title": "Install or replace sub-structure members",
+              "item_id": "elective_unit_GroupS-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB305E",
+              "title": "Install or replace super-structure members",
+              "item_id": "elective_unit_GroupS-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB306E",
+              "title": "Splice and connect timber members",
+              "item_id": "elective_unit_GroupS-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM201E",
+              "title": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+              "item_id": "elective_unit_GroupS-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupS-12",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group S Timber Bridge Construction and Maintenance (Specialisation Core)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICBM304E",
+              "title": "Operate bridge inspection units",
+              "item_id": "elective_unit_GroupT-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM307E",
+              "title": "Construct formwork and false work on concrete bridges",
+              "item_id": "elective_unit_GroupT-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM211E",
+              "title": "Construct and dismantle fences and gates",
+              "item_id": "elective_unit_GroupT-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW304E",
+              "title": "Conduct pile driving operations",
+              "item_id": "elective_unit_GroupT-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW306E",
+              "title": "Direct pile driving operations",
+              "item_id": "elective_unit_GroupT-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB303E",
+              "title": "Erect temporary modular support systems (baileys) on existing bridges",
+              "item_id": "elective_unit_GroupT-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB307E",
+              "title": "Assemble and disassemble temporary modular bridges",
+              "item_id": "elective_unit_GroupT-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB308E",
+              "title": "Install or replace truss members",
+              "item_id": "elective_unit_GroupT-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB309E",
+              "title": "Construct, maintain and remove coffer dams",
+              "item_id": "elective_unit_GroupT-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB310E",
+              "title": "Construct specialised timber deck systems",
+              "item_id": "elective_unit_GroupT-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN302D",
+              "title": "Conduct intermediate scaffolding operations",
+              "item_id": "elective_unit_GroupT-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupT-12",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group T Timber Bridge Construction and Maintenance (Technical)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupU-1",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupU-2",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001A",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupU-3",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "item_id": "elective_unit_GroupU-4",
+              "asterisk": 0
+            },
+            {
+              "code": "FWPCOT2239",
+              "title": "Trim and cut felled trees",
+              "item_id": "elective_unit_GroupU-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM207E",
+              "title": "Spread and compact materials manually",
+              "item_id": "elective_unit_GroupU-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM208E",
+              "title": "Carry out basic levelling",
+              "item_id": "elective_unit_GroupU-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM209E",
+              "title": "Carry out concrete work",
+              "item_id": "elective_unit_GroupU-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB202E",
+              "title": "Apply bridge durability treatments",
+              "item_id": "elective_unit_GroupU-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB203E",
+              "title": "Produce bridge drawings and sketches",
+              "item_id": "elective_unit_GroupU-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupU-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN211D",
+              "title": "Conduct basic scaffolding operations",
+              "item_id": "elective_unit_GroupU-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupU-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupU-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM205E",
+              "title": "Cut, weld and bend materials",
+              "item_id": "elective_unit_GroupU-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202E",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupU-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupU-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG203E",
+              "title": "Drain and dewater civil construction sites",
+              "item_id": "elective_unit_GroupU-18",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0003",
+              "title": "Licence to operate a forklift truck",
+              "item_id": "elective_unit_GroupU-19",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group U Timber Bridge Construction and Maintenance (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "FBPOPR1010",
+              "title": "Carry out manual handling tasks",
+              "item_id": "elective_unit_GroupV-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupV-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM203E",
+              "title": "Work as a safety observer/spotter",
+              "item_id": "elective_unit_GroupV-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISTD201E",
+              "title": "Read and interpret maps",
+              "item_id": "elective_unit_GroupV-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIVEH201E",
+              "title": "Operate a light vehicle",
+              "item_id": "elective_unit_GroupV-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupV-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupV-7",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIE3004",
+              "title": "Prepare workplace documents",
+              "item_id": "elective_unit_GroupV-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group V Traffic Management (Specialisation Core)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICRM201F",
+              "title": "Escort mobile works",
+              "item_id": "elective_unit_GroupW-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWD503E",
+              "title": "Prepare traffic management plans and traffic guidance schemes",
+              "item_id": "elective_unit_GroupW-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM201E",
+              "title": "Position, set-up and operate variable message signs",
+              "item_id": "elective_unit_GroupW-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM202E",
+              "title": "Position, set-up and operate portable traffic signals",
+              "item_id": "elective_unit_GroupW-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM301E",
+              "title": "Operate truck or trailer mounted attenuators",
+              "item_id": "elective_unit_GroupW-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS206",
+              "title": "Control traffic with portable traffic control devices and temporary traffic signs",
+              "item_id": "elective_unit_GroupW-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS303",
+              "title": "Position, set up and program portable traffic control devices",
+              "item_id": "elective_unit_GroupW-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS304",
+              "title": "Implement traffic management plans on high volume roads",
+              "item_id": "elective_unit_GroupW-8",
+              "asterisk": 1
+            },
+            {
+              "code": "RIIWHS305",
+              "title": "Implement traffic management plans on motorways and freeways",
+              "item_id": "elective_unit_GroupW-9",
+              "asterisk": 1
+            }
+          ],
+          "title": "Group W Traffic Management (Technical)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBSUS211",
+              "title": "Participate in sustainable work practices",
+              "item_id": "elective_unit_GroupX-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupX-2",
+              "asterisk": 0
+            },
+            {
+              "code": "HLTAID011",
+              "title": "Provide First Aid",
+              "item_id": "elective_unit_GroupX-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBEF202E",
+              "title": "Identify and rectify site operating problems",
+              "item_id": "elective_unit_GroupX-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBEF301D",
+              "title": "Run on-site operations",
+              "item_id": "elective_unit_GroupX-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBEF402D",
+              "title": "Supervise on-site operations",
+              "item_id": "elective_unit_GroupX-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupX-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC202E",
+              "title": "Install signs",
+              "item_id": "elective_unit_GroupX-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC206E",
+              "title": "Install pre-cast concrete crash barriers",
+              "item_id": "elective_unit_GroupX-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIGOV201E",
+              "title": "Comply with site work processes/procedures",
+              "item_id": "elective_unit_GroupX-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIGOV401E",
+              "title": "Apply, monitor and report on compliance systems",
+              "item_id": "elective_unit_GroupX-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN201E",
+              "title": "Operate a forklift",
+              "item_id": "elective_unit_GroupX-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIQUA201E",
+              "title": "Maintain and monitor site quality standards",
+              "item_id": "elective_unit_GroupX-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS402E",
+              "title": "Carry out the risk management process",
+              "item_id": "elective_unit_GroupX-14",
+              "asterisk": 0
+            },
+            {
+              "code": "TAEDEL301",
+              "title": "Provide work skill instruction",
+              "item_id": "elective_unit_GroupX-15",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIE2007",
+              "title": "Use communications systems",
+              "item_id": "elective_unit_GroupX-16",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIL1001",
+              "title": "Complete workplace orientation/induction procedures",
+              "item_id": "elective_unit_GroupX-17",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group X Traffic Management (General)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICBS202E",
+              "title": "Hand spread asphalt",
+              "item_id": "elective_unit_GroupYA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS207E",
+              "title": "Take samples of road surfacing materials",
+              "item_id": "elective_unit_GroupYA-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS301E",
+              "title": "Conduct profile planer operations",
+              "item_id": "elective_unit_GroupYA-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS302E",
+              "title": "Conduct paver screeding operations",
+              "item_id": "elective_unit_GroupYA-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS304E",
+              "title": "Compact asphalt with rollers",
+              "item_id": "elective_unit_GroupYA-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS305E",
+              "title": "Conduct asphalt paver operation",
+              "item_id": "elective_unit_GroupYA-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS310E",
+              "title": "Conduct patching operations",
+              "item_id": "elective_unit_GroupYA-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS311E",
+              "title": "Produce asphalt products",
+              "item_id": "elective_unit_GroupYA-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS317",
+              "title": "Conduct road maintenance operations",
+              "item_id": "elective_unit_GroupYA-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS203E",
+              "title": "Safely handle bituminous materials",
+              "item_id": "elective_unit_GroupYA-10",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YA General – Asphalt Surfacing",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICBS203E",
+              "title": "Safely handle bituminous materials",
+              "item_id": "elective_unit_GroupYB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS303E",
+              "title": "Conduct materials transfer vehicle operations",
+              "item_id": "elective_unit_GroupYB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS306E",
+              "title": "Conduct micro surfacing operations",
+              "item_id": "elective_unit_GroupYB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS307E",
+              "title": "Conduct bitumen sprayer operations",
+              "item_id": "elective_unit_GroupYB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS308E",
+              "title": "Load aggregate using purpose built loaders",
+              "item_id": "elective_unit_GroupYB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS309E",
+              "title": "Conduct self-propelled aggregate spreader operations",
+              "item_id": "elective_unit_GroupYB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS312E",
+              "title": "Conduct bitumen tanker operations",
+              "item_id": "elective_unit_GroupYB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS313",
+              "title": "Conduct tack coat spraying operations",
+              "item_id": "elective_unit_GroupYB-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS314",
+              "title": "Conduct aggregate spreader box operations",
+              "item_id": "elective_unit_GroupYB-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS315",
+              "title": "Roll aggregate in sprayed sealing operations",
+              "item_id": "elective_unit_GroupYB-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS316",
+              "title": "Conduct pavement sweeping operations",
+              "item_id": "elective_unit_GroupYB-11",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YB General – Spray Sealing",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICBM201E",
+              "title": "Strip pile heads",
+              "item_id": "elective_unit_GroupYC-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM301E",
+              "title": "Maintain concrete bridges",
+              "item_id": "elective_unit_GroupYC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM302E",
+              "title": "Install pre-cast girders",
+              "item_id": "elective_unit_GroupYC-3",
+              "asterisk": 1
+            },
+            {
+              "code": "RIICBM303E",
+              "title": "Install pre-cast parapets",
+              "item_id": "elective_unit_GroupYC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM304E",
+              "title": "Operate bridge inspection units",
+              "item_id": "elective_unit_GroupYC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM305E",
+              "title": "Install pre-cast concrete bridge decks",
+              "item_id": "elective_unit_GroupYC-6",
+              "asterisk": 1
+            },
+            {
+              "code": "RIICBM306E",
+              "title": "Undertake concreting work on concrete bridges",
+              "item_id": "elective_unit_GroupYC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBM307E",
+              "title": "Construct formwork and false work on concrete bridges",
+              "item_id": "elective_unit_GroupYC-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YC General – Concrete Bridge Construction",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICFW301E",
+              "title": "Construct underpinning",
+              "item_id": "elective_unit_GroupYD-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW302E",
+              "title": "Install temporary and permanent rock anchors",
+              "item_id": "elective_unit_GroupYD-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW303E",
+              "title": "Install primary ground supports",
+              "item_id": "elective_unit_GroupYD-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW304E",
+              "title": "Conduct pile driving operations",
+              "item_id": "elective_unit_GroupYD-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW305E",
+              "title": "Conduct cast in-situ pilings operations",
+              "item_id": "elective_unit_GroupYD-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW306E",
+              "title": "Direct pile driving operations",
+              "item_id": "elective_unit_GroupYD-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW307E",
+              "title": "Direct cast in-situ piling operations",
+              "item_id": "elective_unit_GroupYD-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICFW308",
+              "title": "Conduct screw piling operations",
+              "item_id": "elective_unit_GroupYD-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YD General – Foundations",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICPL301E",
+              "title": "Install water mains pipelines",
+              "item_id": "elective_unit_GroupYE-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL302E",
+              "title": "Install stormwater systems",
+              "item_id": "elective_unit_GroupYE-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL303E",
+              "title": "Install sewer pipelines",
+              "item_id": "elective_unit_GroupYE-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL304E",
+              "title": "Install pre-cast gully pits",
+              "item_id": "elective_unit_GroupYE-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL305E",
+              "title": "Install pre-cast access chambers",
+              "item_id": "elective_unit_GroupYE-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC208E",
+              "title": "Lay pipes",
+              "item_id": "elective_unit_GroupYE-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC209E",
+              "title": "Lay reinforced concrete box culverts",
+              "item_id": "elective_unit_GroupYE-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC301E",
+              "title": "Maintain drainage systems",
+              "item_id": "elective_unit_GroupYE-8",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YE General – Pipe Laying",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICRM201F",
+              "title": "Escort mobile works",
+              "item_id": "elective_unit_GroupYF-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM202E",
+              "title": "Handle and store road marking materials",
+              "item_id": "elective_unit_GroupYF-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM203E",
+              "title": "Conduct pedestrian road marking operations",
+              "item_id": "elective_unit_GroupYF-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM204E",
+              "title": "Prepare surfaces for road marking",
+              "item_id": "elective_unit_GroupYF-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM205E",
+              "title": "Conduct road marking measuring operations",
+              "item_id": "elective_unit_GroupYF-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM206E",
+              "title": "Conduct airless and atomised spraying operations",
+              "item_id": "elective_unit_GroupYF-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM207E",
+              "title": "Install raised pavement markers",
+              "item_id": "elective_unit_GroupYF-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM301E",
+              "title": "Conduct ride on road marking operations",
+              "item_id": "elective_unit_GroupYF-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM302E",
+              "title": "Conduct long line road marking operations",
+              "item_id": "elective_unit_GroupYF-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRM303E",
+              "title": "Conduct thermo plastic road marking operations",
+              "item_id": "elective_unit_GroupYF-10",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YF General – Road Marking",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICTB201E",
+              "title": "Maintain timber bridges",
+              "item_id": "elective_unit_GroupYG-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB202E",
+              "title": "Apply bridge durability treatments",
+              "item_id": "elective_unit_GroupYG-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB203E",
+              "title": "Produce bridge drawings and sketches",
+              "item_id": "elective_unit_GroupYG-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB301E",
+              "title": "Undertake visual inspections",
+              "item_id": "elective_unit_GroupYG-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB302E",
+              "title": "Install temporary support members",
+              "item_id": "elective_unit_GroupYG-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB303E",
+              "title": "Erect temporary modular support systems (baileys) on existing bridges",
+              "item_id": "elective_unit_GroupYG-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB304E",
+              "title": "Install or replace sub-structure members",
+              "item_id": "elective_unit_GroupYG-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB305E",
+              "title": "Install or replace super-structure members",
+              "item_id": "elective_unit_GroupYG-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB306E",
+              "title": "Splice and connect timber members",
+              "item_id": "elective_unit_GroupYG-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB307E",
+              "title": "Assemble and disassemble temporary modular bridges",
+              "item_id": "elective_unit_GroupYG-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB308E",
+              "title": "Install or replace truss members",
+              "item_id": "elective_unit_GroupYG-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB309E",
+              "title": "Construct, maintain and remove coffer dams",
+              "item_id": "elective_unit_GroupYG-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTB310E",
+              "title": "Construct specialised timber deck systems",
+              "item_id": "elective_unit_GroupYG-13",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YG General – Timber Bridge Construction",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICTT301E",
+              "title": "Conduct fluid assisted directional boring",
+              "item_id": "elective_unit_GroupYH-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT302E",
+              "title": "Conduct impact moling, ramming and augering operations",
+              "item_id": "elective_unit_GroupYH-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT303E",
+              "title": "Control micro tunnelling and pipe-jacking operations",
+              "item_id": "elective_unit_GroupYH-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT304E",
+              "title": "Undertake on-line replacement for existing pipeline systems",
+              "item_id": "elective_unit_GroupYH-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT305E",
+              "title": "Undertake localised repair and sealing of existing pipeline systems",
+              "item_id": "elective_unit_GroupYH-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT306E",
+              "title": "Install cure in-place linings for existing pipeline systems",
+              "item_id": "elective_unit_GroupYH-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT307E",
+              "title": "Spray linings for existing pipeline systems",
+              "item_id": "elective_unit_GroupYH-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT308E",
+              "title": "Install close-fit linings for existing pipeline systems",
+              "item_id": "elective_unit_GroupYH-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT309E",
+              "title": "Install slip lining in existing pipeline systems",
+              "item_id": "elective_unit_GroupYH-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT310E",
+              "title": "Renovate large diameter pipes and chambers",
+              "item_id": "elective_unit_GroupYH-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIOGF302E",
+              "title": "Operate drilling fluids and mud pits",
+              "item_id": "elective_unit_GroupYH-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIOGN303E",
+              "title": "Operate, monitor and maintain mud systems",
+              "item_id": "elective_unit_GroupYH-12",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YH General – Trenchless Technology",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICTC301E",
+              "title": "Install tunnelling constructions services",
+              "item_id": "elective_unit_GroupYI-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC302E",
+              "title": "Line tunnels",
+              "item_id": "elective_unit_GroupYI-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC303E",
+              "title": "Excavate tunnel by machine",
+              "item_id": "elective_unit_GroupYI-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC304E",
+              "title": "Muck out tunnel earthworks",
+              "item_id": "elective_unit_GroupYI-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC305E",
+              "title": "Construct portals",
+              "item_id": "elective_unit_GroupYI-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC306",
+              "title": "Conduct tunnel boring machine operations",
+              "item_id": "elective_unit_GroupYI-6",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YI General – Tunnelling",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIIBEF301D",
+              "title": "Run on-site operations",
+              "item_id": "elective_unit_GroupYJ-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWD503E",
+              "title": "Prepare traffic management plans and traffic guidance schemes",
+              "item_id": "elective_unit_GroupYJ-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS402E",
+              "title": "Carry out the risk management process",
+              "item_id": "elective_unit_GroupYJ-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM201E",
+              "title": "Position, set-up and operate variable message signs",
+              "item_id": "elective_unit_GroupYJ-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM202E",
+              "title": "Position, set-up and operate portable traffic signals",
+              "item_id": "elective_unit_GroupYJ-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM301E",
+              "title": "Operate truck or trailer mounted attenuators",
+              "item_id": "elective_unit_GroupYJ-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS206",
+              "title": "Control traffic with portable traffic control devices and temporary traffic signs",
+              "item_id": "elective_unit_GroupYJ-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS303",
+              "title": "Position, set up and program portable traffic control devices",
+              "item_id": "elective_unit_GroupYJ-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS304",
+              "title": "Implement traffic management plans on high volume roads",
+              "item_id": "elective_unit_GroupYJ-9",
+              "asterisk": 1
+            },
+            {
+              "code": "RIIWHS305",
+              "title": "Implement traffic management plans on motorways and freeways",
+              "item_id": "elective_unit_GroupYJ-10",
+              "asterisk": 1
+            }
+          ],
+          "title": "Group YJ General – Traffic Management",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "ICTCBL334",
+              "title": "Install underground enclosures and conduit",
+              "item_id": "elective_unit_GroupYK-1",
+              "asterisk": 0
+            },
+            {
+              "code": "PMBWELD301",
+              "title": "Butt weld polyethylene plastic pipelines",
+              "item_id": "elective_unit_GroupYK-2",
+              "asterisk": 0
+            },
+            {
+              "code": "PMBWELD302",
+              "title": "Electrofusion weld polyethylene pipelines",
+              "item_id": "elective_unit_GroupYK-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM202E",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupYK-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL301E",
+              "title": "Install water mains pipelines",
+              "item_id": "elective_unit_GroupYK-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL303E",
+              "title": "Install sewer pipelines",
+              "item_id": "elective_unit_GroupYK-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC203E",
+              "title": "Install sub-soil drainage",
+              "item_id": "elective_unit_GroupYK-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN308F",
+              "title": "Load and unload plant",
+              "item_id": "elective_unit_GroupYK-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO320F",
+              "title": "Conduct civil construction excavator operations",
+              "item_id": "elective_unit_GroupYK-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG203E",
+              "title": "Drain and dewater civil construction sites",
+              "item_id": "elective_unit_GroupYK-10",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group YK General – Utilities",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBOPS304",
+              "title": "Deliver and monitor a service to customers",
+              "item_id": "elective_unit_GroupZ-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBOPS402",
+              "title": "Coordinate business operational plans",
+              "item_id": "elective_unit_GroupZ-2",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBTWK301",
+              "title": "Use inclusive work practices",
+              "item_id": "elective_unit_GroupZ-3",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBXTW301",
+              "title": "Work in a team",
+              "item_id": "elective_unit_GroupZ-4",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCCM2007",
+              "title": "Use explosive power tools",
+              "item_id": "elective_unit_GroupZ-5",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "item_id": "elective_unit_GroupZ-6",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCLRG3001A",
+              "title": "Licence to perform rigging basic level",
+              "item_id": "elective_unit_GroupZ-7",
+              "asterisk": 1
+            },
+            {
+              "code": "CPCCLSF2001A",
+              "title": "Licence to erect, alter and dismantle scaffolding basic level",
+              "item_id": "elective_unit_GroupZ-8",
+              "asterisk": 0
+            },
+            {
+              "code": "CPCCSF2004",
+              "title": "Place and fix reinforcement materials",
+              "item_id": "elective_unit_GroupZ-9",
+              "asterisk": 1
+            },
+            {
+              "code": "FWPCOT2239",
+              "title": "Trim and cut felled trees",
+              "item_id": "elective_unit_GroupZ-10",
+              "asterisk": 0
+            },
+            {
+              "code": "FWPFGM3212",
+              "title": "Fall trees manually (intermediate)",
+              "item_id": "elective_unit_GroupZ-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA201E",
+              "title": "Support shotfiring operations",
+              "item_id": "elective_unit_GroupZ-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA202F",
+              "title": "Support underground shotfiring operations",
+              "item_id": "elective_unit_GroupZ-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA205E",
+              "title": "Store, handle and transport explosives",
+              "item_id": "elective_unit_GroupZ-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA301E",
+              "title": "Conduct surface shotfiring operations",
+              "item_id": "elective_unit_GroupZ-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA303E",
+              "title": "Conduct underground development shotfiring",
+              "item_id": "elective_unit_GroupZ-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM202E",
+              "title": "Identify, locate and protect underground services",
+              "item_id": "elective_unit_GroupZ-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM205F",
+              "title": "Carry out manual excavation",
+              "item_id": "elective_unit_GroupZ-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM206E",
+              "title": "Support plant operations",
+              "item_id": "elective_unit_GroupZ-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM207E",
+              "title": "Spread and compact materials manually",
+              "item_id": "elective_unit_GroupZ-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM208E",
+              "title": "Carry out basic levelling",
+              "item_id": "elective_unit_GroupZ-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM209E",
+              "title": "Carry out concrete work",
+              "item_id": "elective_unit_GroupZ-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM210E",
+              "title": "Install trench support",
+              "item_id": "elective_unit_GroupZ-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCM211E",
+              "title": "Construct and dismantle fences and gates",
+              "item_id": "elective_unit_GroupZ-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC201E",
+              "title": "Repair potholes",
+              "item_id": "elective_unit_GroupZ-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC202E",
+              "title": "Install signs",
+              "item_id": "elective_unit_GroupZ-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC203E",
+              "title": "Install sub-soil drainage",
+              "item_id": "elective_unit_GroupZ-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC204E",
+              "title": "Install and maintain roadside fixtures",
+              "item_id": "elective_unit_GroupZ-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC205E",
+              "title": "Install utility poles",
+              "item_id": "elective_unit_GroupZ-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC206E",
+              "title": "Install pre-cast concrete crash barriers",
+              "item_id": "elective_unit_GroupZ-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC207E",
+              "title": "Install noise barriers",
+              "item_id": "elective_unit_GroupZ-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC302E",
+              "title": "Place and form concrete kerb, channel and fixtures",
+              "item_id": "elective_unit_GroupZ-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC303E",
+              "title": "Lay pavers",
+              "item_id": "elective_unit_GroupZ-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC304E",
+              "title": "Maintain sealed roads",
+              "item_id": "elective_unit_GroupZ-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC305E",
+              "title": "Conduct road construction paver screeding operations",
+              "item_id": "elective_unit_GroupZ-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC306E",
+              "title": "Conduct earthworks",
+              "item_id": "elective_unit_GroupZ-36",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC307E",
+              "title": "Conduct road pavement construction",
+              "item_id": "elective_unit_GroupZ-37",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN201E",
+              "title": "Operate a forklift",
+              "item_id": "elective_unit_GroupZ-38",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN208E",
+              "title": "Perform dogging",
+              "item_id": "elective_unit_GroupZ-39",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN211D",
+              "title": "Conduct basic scaffolding operations",
+              "item_id": "elective_unit_GroupZ-40",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN301E",
+              "title": "Operate elevating work platform",
+              "item_id": "elective_unit_GroupZ-41",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN307E",
+              "title": "Operate a vehicle loading crane",
+              "item_id": "elective_unit_GroupZ-42",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN308F",
+              "title": "Load and unload plant",
+              "item_id": "elective_unit_GroupZ-43",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIHAN309F",
+              "title": "Conduct telescopic materials handler operations",
+              "item_id": "elective_unit_GroupZ-44",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIIMG301E",
+              "title": "Maintain site records",
+              "item_id": "elective_unit_GroupZ-45",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO318F",
+              "title": "Conduct civil construction skid steer loader operations",
+              "item_id": "elective_unit_GroupZ-46",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO334E",
+              "title": "Conduct skid steer loader operations using attachments",
+              "item_id": "elective_unit_GroupZ-47",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO339A",
+              "title": "Conduct side tipper operations",
+              "item_id": "elective_unit_GroupZ-48",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS201E",
+              "title": "Conduct local risk control",
+              "item_id": "elective_unit_GroupZ-49",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS202E",
+              "title": "Respond to site based spills",
+              "item_id": "elective_unit_GroupZ-50",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRTM203E",
+              "title": "Work as a safety observer/spotter",
+              "item_id": "elective_unit_GroupZ-51",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM205E",
+              "title": "Cut, weld and bend materials",
+              "item_id": "elective_unit_GroupZ-52",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS202E",
+              "title": "Enter and work in confined spaces",
+              "item_id": "elective_unit_GroupZ-53",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS204E",
+              "title": "Work safely at heights",
+              "item_id": "elective_unit_GroupZ-54",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS205E",
+              "title": "Control traffic with stop-slow bat",
+              "item_id": "elective_unit_GroupZ-55",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupZ-56",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG203E",
+              "title": "Drain and dewater civil construction sites",
+              "item_id": "elective_unit_GroupZ-57",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG301E",
+              "title": "Control construction site water tables",
+              "item_id": "elective_unit_GroupZ-58",
+              "asterisk": 0
+            },
+            {
+              "code": "TLID3011",
+              "title": "Conduct specialised forklift operations",
+              "item_id": "elective_unit_GroupZ-59",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0003",
+              "title": "Licence to operate a forklift truck",
+              "item_id": "elective_unit_GroupZ-60",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group Z General – General and Other Units",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 8,
+      "elective_units_required": 17,
+      "prerequisite_requirements": [
+        {
+          "item_id": "prerequisite_requirement-1",
+          "unit_of_competency": {
+            "code": "CPCCCM2007",
+            "title": "Use explosive power tools",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-2",
+          "unit_of_competency": {
+            "code": "CPCCLRG3001A",
+            "title": "Licence to perform rigging – basic level",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to perform dogging",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-3",
+          "unit_of_competency": {
+            "code": "CPCCSF2004",
+            "title": "Place and fix reinforcement materials",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCWHS2001",
+              "title": "Apply WHS requirements, policies and procedures in the construction industry",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-4",
+          "unit_of_competency": {
+            "code": "RIICBM302E",
+            "title": "Install pre-cast girders",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to Perform Dogging",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-5",
+          "unit_of_competency": {
+            "code": "RIICBM305E",
+            "title": "Install pre-cast concrete bridge decks",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "CPCCLDG3001A",
+              "title": "Licence to Perform Dogging",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-6",
+          "unit_of_competency": {
+            "code": "RIIWHS304",
+            "title": "Implement traffic management plans on high volume roads",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-7",
+          "unit_of_competency": {
+            "code": "RIIWHS305",
+            "title": "Implement traffic management plans on motorways and freeways",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "asterisk": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
