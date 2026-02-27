@@ -1,0 +1,2465 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "RII\\RII40120_R1.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 7.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 13",
+            "type": "bullet",
+            "order": 2,
+            "indent": 2,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "4 core units plus",
+            "type": "bullet",
+            "order": 3,
+            "indent": 1,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "9 elective units, of which:",
+            "type": "bullet",
+            "order": 4,
+            "indent": 1,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "1 must be from Group A",
+            "type": "bullet",
+            "order": 5,
+            "indent": 0,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "at least 2 must be from Group B",
+            "type": "bullet",
+            "order": 6,
+            "indent": 0,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "no more than 4 may be from Group C",
+            "type": "bullet",
+            "order": 7,
+            "indent": 0,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "no more than 1 may be from Group D",
+            "type": "bullet",
+            "order": 8,
+            "indent": 0,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "no more than 2 may be from elsewhere in this or any other currently endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 9,
+            "indent": 0,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": "packaging_rules-1"
+          },
+          {
+            "text": "Elective units must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid industry-supported vocational outcome.",
+            "type": "paragraph",
+            "order": 10,
+            "indent": null,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+            "type": "paragraph",
+            "order": 11,
+            "indent": null,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are no prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+            "type": "paragraph",
+            "order": 12,
+            "indent": null,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core units of competency",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICOM301E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Communicate information",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIENV302E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply environmentally sustainable work practices",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIGOV401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply, monitor and report on compliance systems",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRIS401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply site risk management system",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Electives",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group A",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-9_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBWHS411",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Implement and monitor WHS policies, procedures and programs",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-10_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWHS402E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Examine and maintain mine safety",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group B",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-13_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIARO401",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise autonomous operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIBLA401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Manage blasting operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR302E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Respond to local emergencies and incidents",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-16_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-17_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor emergency preparedness and response systems in surface operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-17_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMEX401D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-18_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply pit plan",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-18_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMEX402E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-19_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise dredging operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-19_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMEX404E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-20_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor systems for stable mining",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-20_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMEX405E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-21_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor systems and methods of surface coal mining",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-21_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMEX407",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-22_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor the ground control management plan",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-22_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMEX408",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-23_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise overburden dump operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-23_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMPO401D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-24_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise mobile plant operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-24_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIMPO403D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-25_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Monitor interaction of heavy and light vehicles and mining equipment",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-25_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIPRO401D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-26_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise processing operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-26_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIPRO402D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-27_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise recycled materials operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-27_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRAI401D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-28_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor mine services and infrastructure systems",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-28_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRAI402D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-29_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor site plant and resource management plan",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-29_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIISRM401D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-30_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor the site stockpile management plan",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-30_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIISTD401",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-31_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Monitor quarry laboratory operations and the quality of results",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-31_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWBP401D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-32_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor site waste and by-products management plan",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-32_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWMG401D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-33_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply and monitor the site water management plan",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-33_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group C",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-34_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-35_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-35_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBESB401",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-36_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Research and develop business plans",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-36_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBESB403",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-37_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Plan finances for new business ventures",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-37_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBESB404",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-38_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Market new business ventures",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-38_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBFIN401",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-39_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Report on financial activity",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-39_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBHRM413",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-40_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Support the learning and development of teams and individuals",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-40_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBINS402",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-41_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Coordinate workplace information systems",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-41_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBLDR411",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-42_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Demonstrate leadership in the workplace",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-42_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBOPS402",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-43_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Coordinate business operational plans",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-43_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBOPS404",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-44_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Implement customer service strategies",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-44_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBPEF402",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-45_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Develop personal work priorities",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-45_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "BSBWHS521",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-46_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Ensure a safe workplace for a work area",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-46_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "ICTICT312",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-47_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Use advanced features of applications",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-47_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIBLA301E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-48_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct surface shotfiring operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-48_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIBLA402E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-49_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Monitor and control the effects of blasting on the environment",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-49_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICCR401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-50_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Develop and maintain positive community relations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-50_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIENV401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-51_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise dust and noise control",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-51_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR201E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-52_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct fire team operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-52_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR301E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-53_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Respond to work site incidents",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-53_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR403E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-54_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Lead rescue teams",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-54_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR406",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-55_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Provide support for rescue operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-55_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIILAT402E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-56_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Provide leadership in the supervision of diverse work teams",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-56_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIQUA401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-57_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply a quality management system on site",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-57_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRIS301E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-58_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply risk management processes",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-58_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRIS403D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-59_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Manage and coordinate spill response",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-59_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIRIS501E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-60_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Implement and maintain management systems to control risk",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-60_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIISAM401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-61_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply site plant, equipment and infrastructure maintenance management plans",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-61_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIISAM403E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-62_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Commission/recommission plant",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-62_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWHS301E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-63_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct safety and health investigations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-63_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIWHS401E",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-64_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Supervise work in confined spaces",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-64_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TAEASS301",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-65_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Contribute to assessment",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-65_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TAEASS401",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-66_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Plan assessment activities and processes",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-66_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TAEASS402",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-67_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assess competence",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-67_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TAEASS403",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-68_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Participate in assessment validation",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-68_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TAEDEL301",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-69_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Provide work skill instruction",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-69_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-70_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Unit code",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-71_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Unit title",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-71_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "HLTAID011",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-72_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Provide first aid",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-72_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIIERR205D",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-73_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply initial response First Aid",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 1,
+                    "item_id": "packaging_rules_cell-73_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 13,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to RII40115 Certificate IV in Surface Extraction Operations.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "RIICOM301E",
+          "title": "Communicate information",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIENV302E",
+          "title": "Apply environmentally sustainable work practices",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIGOV401E",
+          "title": "Apply, monitor and report on compliance systems",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIRIS401E",
+          "title": "Apply site risk management system",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 13,
+      "elective_rules": [
+        {
+          "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 13",
+          "type": "paragraph-bold",
+          "order": 2,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "4 core units plus",
+          "type": "bullet",
+          "order": 3,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "4 core units"
+            },
+            {
+              "bold": false,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "9 elective units, of which:",
+          "type": "bullet",
+          "order": 4,
+          "indent": 1,
+          "content": [
+            {
+              "bold": true,
+              "text": "9 elective units,"
+            },
+            {
+              "bold": false,
+              "text": "of which:"
+            }
+          ],
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "1 must be from Group A",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "at least 2 must be from Group B",
+          "type": "bullet",
+          "order": 6,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "no more than 4 may be from Group C",
+          "type": "bullet",
+          "order": 7,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "no more than 1 may be from Group D",
+          "type": "bullet",
+          "order": 8,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "no more than 2 may be from elsewhere in this or any other currently endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 9,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "Elective units must be relevant to the work environment and the qualification, maintain the overall integrity of the AQF alignment, not duplicate the outcome of another unit chosen for the qualification, and contribute to a valid industry-supported vocational outcome.",
+          "type": "paragraph",
+          "order": 10,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The elective bank contains both licensed and non-licensed units of competency relating to high risk work in the resources and infrastructure industry. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+          "type": "paragraph",
+          "order": 11,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-11",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are no prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+          "type": "paragraph",
+          "order": 12,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-12",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "BSBWHS411",
+              "title": "Implement and monitor WHS policies, procedures and programs",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS402E",
+              "title": "Examine and maintain mine safety",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIIARO401",
+              "title": "Supervise autonomous operations",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA401E",
+              "title": "Manage blasting operations",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR302E",
+              "title": "Respond to local emergencies and incidents",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR401E",
+              "title": "Apply and monitor emergency preparedness and response systems in surface operations",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX401D",
+              "title": "Apply pit plan",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX402E",
+              "title": "Supervise dredging operations",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX404E",
+              "title": "Apply and monitor systems for stable mining",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX405E",
+              "title": "Apply and monitor systems and methods of surface coal mining",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX407",
+              "title": "Apply and monitor the ground control management plan",
+              "item_id": "elective_unit_GroupB-9",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX408",
+              "title": "Supervise overburden dump operations",
+              "item_id": "elective_unit_GroupB-10",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO401D",
+              "title": "Supervise mobile plant operations",
+              "item_id": "elective_unit_GroupB-11",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO403D",
+              "title": "Monitor interaction of heavy and light vehicles and mining equipment",
+              "item_id": "elective_unit_GroupB-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO401D",
+              "title": "Supervise processing operations",
+              "item_id": "elective_unit_GroupB-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIPRO402D",
+              "title": "Supervise recycled materials operations",
+              "item_id": "elective_unit_GroupB-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRAI401D",
+              "title": "Apply and monitor mine services and infrastructure systems",
+              "item_id": "elective_unit_GroupB-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRAI402D",
+              "title": "Apply and monitor site plant and resource management plan",
+              "item_id": "elective_unit_GroupB-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISRM401D",
+              "title": "Apply and monitor the site stockpile management plan",
+              "item_id": "elective_unit_GroupB-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISTD401",
+              "title": "Monitor quarry laboratory operations and the quality of results",
+              "item_id": "elective_unit_GroupB-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWBP401D",
+              "title": "Apply and monitor site waste and by-products management plan",
+              "item_id": "elective_unit_GroupB-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWMG401D",
+              "title": "Apply and monitor the site water management plan",
+              "item_id": "elective_unit_GroupB-20",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "BSBESB401",
+              "title": "Research and develop business plans",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBESB403",
+              "title": "Plan finances for new business ventures",
+              "item_id": "elective_unit_GroupC-2",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBESB404",
+              "title": "Market new business ventures",
+              "item_id": "elective_unit_GroupC-3",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBFIN401",
+              "title": "Report on financial activity",
+              "item_id": "elective_unit_GroupC-4",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBHRM413",
+              "title": "Support the learning and development of teams and individuals",
+              "item_id": "elective_unit_GroupC-5",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBINS402",
+              "title": "Coordinate workplace information systems",
+              "item_id": "elective_unit_GroupC-6",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBLDR411",
+              "title": "Demonstrate leadership in the workplace",
+              "item_id": "elective_unit_GroupC-7",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBOPS402",
+              "title": "Coordinate business operational plans",
+              "item_id": "elective_unit_GroupC-8",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBOPS404",
+              "title": "Implement customer service strategies",
+              "item_id": "elective_unit_GroupC-9",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBPEF402",
+              "title": "Develop personal work priorities",
+              "item_id": "elective_unit_GroupC-10",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBWHS521",
+              "title": "Ensure a safe workplace for a work area",
+              "item_id": "elective_unit_GroupC-11",
+              "asterisk": 0
+            },
+            {
+              "code": "ICTICT312",
+              "title": "Use advanced features of applications",
+              "item_id": "elective_unit_GroupC-12",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA301E",
+              "title": "Conduct surface shotfiring operations",
+              "item_id": "elective_unit_GroupC-13",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA402E",
+              "title": "Monitor and control the effects of blasting on the environment",
+              "item_id": "elective_unit_GroupC-14",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCR401E",
+              "title": "Develop and maintain positive community relations",
+              "item_id": "elective_unit_GroupC-15",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIENV401E",
+              "title": "Supervise dust and noise control",
+              "item_id": "elective_unit_GroupC-16",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR201E",
+              "title": "Conduct fire team operations",
+              "item_id": "elective_unit_GroupC-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR301E",
+              "title": "Respond to work site incidents",
+              "item_id": "elective_unit_GroupC-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR403E",
+              "title": "Lead rescue teams",
+              "item_id": "elective_unit_GroupC-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR406",
+              "title": "Provide support for rescue operations",
+              "item_id": "elective_unit_GroupC-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIILAT402E",
+              "title": "Provide leadership in the supervision of diverse work teams",
+              "item_id": "elective_unit_GroupC-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIQUA401E",
+              "title": "Apply a quality management system on site",
+              "item_id": "elective_unit_GroupC-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS301E",
+              "title": "Apply risk management processes",
+              "item_id": "elective_unit_GroupC-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS403D",
+              "title": "Manage and coordinate spill response",
+              "item_id": "elective_unit_GroupC-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS501E",
+              "title": "Implement and maintain management systems to control risk",
+              "item_id": "elective_unit_GroupC-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM401E",
+              "title": "Apply site plant, equipment and infrastructure maintenance management plans",
+              "item_id": "elective_unit_GroupC-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM403E",
+              "title": "Commission/recommission plant",
+              "item_id": "elective_unit_GroupC-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS301E",
+              "title": "Conduct safety and health investigations",
+              "item_id": "elective_unit_GroupC-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS401E",
+              "title": "Supervise work in confined spaces",
+              "item_id": "elective_unit_GroupC-29",
+              "asterisk": 0
+            },
+            {
+              "code": "TAEASS301",
+              "title": "Contribute to assessment",
+              "item_id": "elective_unit_GroupC-30",
+              "asterisk": 0
+            },
+            {
+              "code": "TAEASS401",
+              "title": "Plan assessment activities and processes",
+              "item_id": "elective_unit_GroupC-31",
+              "asterisk": 0
+            },
+            {
+              "code": "TAEASS402",
+              "title": "Assess competence",
+              "item_id": "elective_unit_GroupC-32",
+              "asterisk": 0
+            },
+            {
+              "code": "TAEASS403",
+              "title": "Participate in assessment validation",
+              "item_id": "elective_unit_GroupC-33",
+              "asterisk": 0
+            },
+            {
+              "code": "TAEDEL301",
+              "title": "Provide work skill instruction",
+              "item_id": "elective_unit_GroupC-34",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group C",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "HLTAID011",
+              "title": "Provide first aid",
+              "item_id": "elective_unit_GroupD-1",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIERR205D",
+              "title": "Apply initial response First Aid",
+              "item_id": "elective_unit_GroupD-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group D",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 4,
+      "elective_units_required": 9,
+      "prerequisite_requirements": []
+    }
+  }

@@ -1,0 +1,1380 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "RII\\RII40720_R2.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [],
+        "order": 1,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Comments",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 2",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version was released with RII Resources and Infrastructure Training Package version 7.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Version created to fix typographical and/or unit grid errors.",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "modification_history_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Release 1",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "This version first released with RII Resources and Infrastructure Industry Training Package Version 6.0.",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "modification_history_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "Nil.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [
+          {
+            "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "packaging_rules-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisations",
+            "type": "bullet",
+            "order": 2,
+            "indent": 2,
+            "item_id": "packaging_rules-2",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The qualification has core and elective units of competency that cover the skills for the following two (2) specialisations:",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "packaging_rules-3",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 1 – Supervision",
+            "type": "paragraph",
+            "order": 4,
+            "indent": null,
+            "item_id": "packaging_rules-4",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisation 2 – Operations",
+            "type": "paragraph",
+            "order": 5,
+            "indent": null,
+            "item_id": "packaging_rules-5",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The core and elective unit requirements of one (1) specialisation must be met for this qualification to be awarded.",
+            "type": "paragraph",
+            "order": 6,
+            "indent": null,
+            "item_id": "packaging_rules-6",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "To be awarded the Certificate IV in Civil Construction (Supervision) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 7,
+            "indent": 2,
+            "item_id": "packaging_rules-7",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 12",
+            "type": "bullet",
+            "order": 8,
+            "indent": 2,
+            "item_id": "packaging_rules-8",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "5 core units plus",
+            "type": "bullet",
+            "order": 9,
+            "indent": 2,
+            "item_id": "packaging_rules-9",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "7 elective units, of which:",
+            "type": "bullet",
+            "order": 10,
+            "indent": 2,
+            "item_id": "packaging_rules-10",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "at least three (3) must be chosen from Group A",
+            "type": "bullet",
+            "order": 11,
+            "indent": 0,
+            "item_id": "packaging_rules-11",
+            "parent_bullet_item_id": "packaging_rules-6"
+          },
+          {
+            "text": "at least two (2) must be chosen from Group B",
+            "type": "bullet",
+            "order": 12,
+            "indent": 0,
+            "item_id": "packaging_rules-12",
+            "parent_bullet_item_id": "packaging_rules-6"
+          },
+          {
+            "text": "no more than two (2) units may be chosen from elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 13,
+            "indent": 0,
+            "item_id": "packaging_rules-13",
+            "parent_bullet_item_id": "packaging_rules-6"
+          },
+          {
+            "text": "To be awarded the Certificate IV in Civil Construction (Operations) the following packaging rules apply:",
+            "type": "bullet",
+            "order": 14,
+            "indent": 2,
+            "item_id": "packaging_rules-14",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Total number of units = 12",
+            "type": "bullet",
+            "order": 15,
+            "indent": 2,
+            "item_id": "packaging_rules-15",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "5 core units plus",
+            "type": "bullet",
+            "order": 16,
+            "indent": 2,
+            "item_id": "packaging_rules-16",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "7 elective units, of which:",
+            "type": "bullet",
+            "order": 17,
+            "indent": 2,
+            "item_id": "packaging_rules-17",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "at least two (2) must be chosen from Group A",
+            "type": "bullet",
+            "order": 18,
+            "indent": 0,
+            "item_id": "packaging_rules-18",
+            "parent_bullet_item_id": "packaging_rules-6"
+          },
+          {
+            "text": "at least three (3) must be chosen from Group B",
+            "type": "bullet",
+            "order": 19,
+            "indent": 0,
+            "item_id": "packaging_rules-19",
+            "parent_bullet_item_id": "packaging_rules-6"
+          },
+          {
+            "text": "no more than two (2) units may be chosen from elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+            "type": "bullet",
+            "order": 20,
+            "indent": 0,
+            "item_id": "packaging_rules-20",
+            "parent_bullet_item_id": "packaging_rules-6"
+          },
+          {
+            "text": "All elective units selected from outside this qualification must reflect current occupational and learning outcomes of this AQF qualification level.",
+            "type": "paragraph",
+            "order": 21,
+            "indent": null,
+            "item_id": "packaging_rules-21",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are both licensed and non-licensed units of competency relating to high risk work in the Resources and Infrastructure Industry Training Package. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+            "type": "paragraph",
+            "order": 22,
+            "indent": null,
+            "item_id": "packaging_rules-22",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+            "type": "paragraph",
+            "order": 23,
+            "indent": null,
+            "item_id": "packaging_rules-23",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "*Note the following prerequisite requirements.",
+            "type": "paragraph",
+            "order": 25,
+            "indent": null,
+            "item_id": "packaging_rules-25",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "Specialisations",
+            "type": "bullet",
+            "order": 27,
+            "indent": 2,
+            "item_id": "packaging_rules-27",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "The achievement of a specialisation will be identified on testamurs as follows:",
+            "type": "paragraph",
+            "order": 28,
+            "indent": null,
+            "item_id": "packaging_rules-28",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "RII40720 Certificate IV in Civil Construction (Supervision)",
+            "type": "bullet",
+            "order": 29,
+            "indent": 0,
+            "item_id": "packaging_rules-29",
+            "parent_bullet_item_id": "packaging_rules-28"
+          },
+          {
+            "text": "RII40720 Certificate IV in Civil Construction (Operations).",
+            "type": "bullet",
+            "order": 30,
+            "indent": 0,
+            "item_id": "packaging_rules-30",
+            "parent_bullet_item_id": "packaging_rules-28"
+          }
+        ],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICTC402 Supervise tunnel boring machine operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "RIICTC306 Conduct tunnel boring machine operations",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSL975031 Supervise sampling, inspections and testing at construction sites",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "MSL954004 Obtain representative samples in accordance with sampling plan",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-2_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "MSL973021 Conduct field-based acceptance tests for construction materials",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-2_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "MSL975044 Perform complex tests to measure engineering properties of materials",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "MSL973022 Conduct laboratory-based acceptance tests for construction materials",
+                    "type": "bullet",
+                    "order": 1,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "MSL974026 Perform tests to determine the properties of construction materials",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-3_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 26,
+          "columns": [
+            "UNIT IN THIS QUALIFICATION",
+            "PREREQUISITE UNITS"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "Supersedes and is equivalent to RII40715 Certificate IV in Civil Construction Supervision and RII40615 Certificate IV in Civil Construction Operations.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guide is found on VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=88a61002-9a21-4386-aaf8-69c76e675272",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "BSBLDR411",
+          "title": "Demonstrate leadership in the workplace",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "BSBOPS402",
+          "title": "Coordinate business operational plans",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "BSBWHS411",
+          "title": "Implement and monitor WHS policies, procedures and programs to meet legislative requirements",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "RIICWM401E",
+          "title": "Supervise civil works",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "RIIRIS401E",
+          "title": "Apply site risk management system",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 12,
+      "elective_rules": [
+        {
+          "text": "The following provides the packaging rules for this qualification, followed by the list of relevant units of competency.",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisations",
+          "type": "paragraph-bold",
+          "order": 2,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The qualification has core and elective units of competency that cover the skills for the following two (2) specialisations:",
+          "type": "paragraph",
+          "order": 3,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 1 – Supervision",
+          "type": "paragraph",
+          "order": 4,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisation 2 – Operations",
+          "type": "paragraph",
+          "order": 5,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The core and elective unit requirements of one (1) specialisation must be met for this qualification to be awarded.",
+          "type": "paragraph",
+          "order": 6,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "To be awarded the Certificate IV in Civil Construction (Supervision) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 7,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 12",
+          "type": "paragraph-bold",
+          "order": 8,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "5 core units plus",
+          "type": "paragraph-bold",
+          "order": 9,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-9",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "7 elective units, of which:",
+          "type": "paragraph-bold",
+          "order": 10,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-10",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "at least three (3) must be chosen from Group A",
+          "type": "bullet",
+          "order": 11,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-11",
+          "parent_bullet_item_id": "elective_rules-10"
+        },
+        {
+          "text": "at least two (2) must be chosen from Group B",
+          "type": "bullet",
+          "order": 12,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-12",
+          "parent_bullet_item_id": "elective_rules-10"
+        },
+        {
+          "text": "no more than two (2) units may be chosen from elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 13,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-13",
+          "parent_bullet_item_id": "elective_rules-10"
+        },
+        {
+          "text": "To be awarded the Certificate IV in Civil Construction (Operations) the following packaging rules apply:",
+          "type": "paragraph-bold",
+          "order": 14,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-14",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Total number of units = 12",
+          "type": "paragraph-bold",
+          "order": 15,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-15",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "5 core units plus",
+          "type": "paragraph-bold",
+          "order": 16,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-16",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "7 elective units, of which:",
+          "type": "paragraph-bold",
+          "order": 17,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-17",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "at least two (2) must be chosen from Group A",
+          "type": "bullet",
+          "order": 18,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-18",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "at least three (3) must be chosen from Group B",
+          "type": "bullet",
+          "order": 19,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-19",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "no more than two (2) units may be chosen from elsewhere within this training package, or from another endorsed training package, or from an accredited course.",
+          "type": "bullet",
+          "order": 20,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-20",
+          "parent_bullet_item_id": "elective_rules-17"
+        },
+        {
+          "text": "All elective units selected from outside this qualification must reflect current occupational and learning outcomes of this AQF qualification level.",
+          "type": "paragraph",
+          "order": 21,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-21",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are both licensed and non-licensed units of competency relating to high risk work in the Resources and Infrastructure Industry Training Package. To be appointed under any statutory requirements in related roles, units of competency should be selected to meet the state/territory licensing requirements.",
+          "type": "paragraph",
+          "order": 22,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-22",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "There are prerequisites to imported units listed in this qualification. Where a unit is imported as an elective care must be taken to ensure that all prerequisites specified are complied with.",
+          "type": "paragraph",
+          "order": 23,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-23",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Specialisations",
+          "type": "paragraph-bold",
+          "order": 24,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-24",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "The achievement of a specialisation will be identified on testamurs as follows:",
+          "type": "paragraph",
+          "order": 25,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-25",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "RII40720 Certificate IV in Civil Construction (Supervision)",
+          "type": "bullet",
+          "order": 26,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-26",
+          "parent_bullet_item_id": "elective_rules-25"
+        },
+        {
+          "text": "RII40720 Certificate IV in Civil Construction (Operations).",
+          "type": "bullet",
+          "order": 27,
+          "indent": 0,
+          "content": null,
+          "item_id": "elective_rules-27",
+          "parent_bullet_item_id": "elective_rules-25"
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "BSBESB401",
+              "title": "Research and develop business plans",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBESB403",
+              "title": "Plan finances for new business ventures",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBESB404",
+              "title": "Market new business ventures",
+              "item_id": "elective_unit_GroupA-3",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBFIN401",
+              "title": "Report on financial activity",
+              "item_id": "elective_unit_GroupA-4",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBFIN501",
+              "title": "Manage budgets and financial plans",
+              "item_id": "elective_unit_GroupA-5",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBHRM413",
+              "title": "Support the learning and development of teams and individuals",
+              "item_id": "elective_unit_GroupA-6",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBINS402",
+              "title": "Coordinate workplace information systems",
+              "item_id": "elective_unit_GroupA-7",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBOPS404",
+              "title": "Implement customer service strategies",
+              "item_id": "elective_unit_GroupA-8",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBSTR401",
+              "title": "Promote innovation in team environments",
+              "item_id": "elective_unit_GroupA-9",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBSTR402",
+              "title": "Implement continuous improvement",
+              "item_id": "elective_unit_GroupA-10",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBSUS411",
+              "title": "Implement and monitor environmentally sustainable work practices",
+              "item_id": "elective_unit_GroupA-11",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBPEF402",
+              "title": "Develop personal work priorities",
+              "item_id": "elective_unit_GroupA-12",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBPMG424",
+              "title": "Apply project human resources management approaches",
+              "item_id": "elective_unit_GroupA-13",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBPMG427",
+              "title": "Apply project procurement procedures",
+              "item_id": "elective_unit_GroupA-14",
+              "asterisk": 0
+            },
+            {
+              "code": "BSBPMG430",
+              "title": "Undertake project work",
+              "item_id": "elective_unit_GroupA-15",
+              "asterisk": 0
+            },
+            {
+              "code": "LGACOM401A",
+              "title": "Administer contracts",
+              "item_id": "elective_unit_GroupA-16",
+              "asterisk": 0
+            },
+            {
+              "code": "LGACOM402A",
+              "title": "Arrange contracts",
+              "item_id": "elective_unit_GroupA-17",
+              "asterisk": 0
+            },
+            {
+              "code": "LGACOM409A",
+              "title": "Prepare tender documentation",
+              "item_id": "elective_unit_GroupA-18",
+              "asterisk": 0
+            },
+            {
+              "code": "LGACOM410A",
+              "title": "Prepare response to tenders",
+              "item_id": "elective_unit_GroupA-19",
+              "asterisk": 0
+            },
+            {
+              "code": "LGADMIN417A",
+              "title": "Conduct community consultations",
+              "item_id": "elective_unit_GroupA-20",
+              "asterisk": 0
+            },
+            {
+              "code": "LGAWORK403A",
+              "title": "Manage civil plant and resources",
+              "item_id": "elective_unit_GroupA-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICCR401E",
+              "title": "Develop and maintain positive community relations",
+              "item_id": "elective_unit_GroupA-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICOM301E",
+              "title": "Communicate information",
+              "item_id": "elective_unit_GroupA-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWD503E",
+              "title": "Prepare traffic management plans and traffic guidance schemes",
+              "item_id": "elective_unit_GroupA-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWM503E",
+              "title": "Prepare civil works cost estimates",
+              "item_id": "elective_unit_GroupA-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWM504E",
+              "title": "Prepare civil works bill of quantities",
+              "item_id": "elective_unit_GroupA-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWM505E",
+              "title": "Prepare civil works schedule of rates",
+              "item_id": "elective_unit_GroupA-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIENV401E",
+              "title": "Supervise dust and noise control",
+              "item_id": "elective_unit_GroupA-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIENV402E",
+              "title": "Implement and monitor environmental policies",
+              "item_id": "elective_unit_GroupA-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIGOV401E",
+              "title": "Apply, monitor and report on compliance systems",
+              "item_id": "elective_unit_GroupA-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIILAT402E",
+              "title": "Provide leadership in the supervision of diverse work teams",
+              "item_id": "elective_unit_GroupA-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIQUA401E",
+              "title": "Apply a quality management system on site",
+              "item_id": "elective_unit_GroupA-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRAI402D",
+              "title": "Apply and monitor site plant and resource management plan",
+              "item_id": "elective_unit_GroupA-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS301E",
+              "title": "Apply risk management processes",
+              "item_id": "elective_unit_GroupA-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIRIS403E",
+              "title": "Manage and coordinate spill response",
+              "item_id": "elective_unit_GroupA-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIISAM401E",
+              "title": "Apply site plant, equipment and infrastructure maintenance management plans",
+              "item_id": "elective_unit_GroupA-36",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A (General Supervision)",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "LGAWORK401A",
+              "title": "Develop works maintenance schedule",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "LGAWORK402A",
+              "title": "Prepare for operational works",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL924003",
+              "title": "Process and interpret data",
+              "item_id": "elective_unit_GroupB-3",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL953003",
+              "title": "Receive and prepare samples for testing",
+              "item_id": "elective_unit_GroupB-4",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL954004",
+              "title": "Obtain representative samples in accordance with sampling plan",
+              "item_id": "elective_unit_GroupB-5",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL973013",
+              "title": "Perform basic tests",
+              "item_id": "elective_unit_GroupB-6",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL973014",
+              "title": "Prepare working solutions",
+              "item_id": "elective_unit_GroupB-7",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL973018",
+              "title": "Prepare trial batches for evaluation",
+              "item_id": "elective_unit_GroupB-8",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL973021",
+              "title": "Conduct field-based acceptance tests for construction materials",
+              "item_id": "elective_unit_GroupB-9",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL973022",
+              "title": "Conduct laboratory-based acceptance tests for construction materials",
+              "item_id": "elective_unit_GroupB-10",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL974016",
+              "title": "Perform physical and mechanical tests",
+              "item_id": "elective_unit_GroupB-11",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL974017",
+              "title": "Prepare, standardise and use solutions",
+              "item_id": "elective_unit_GroupB-12",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL974019",
+              "title": "Perform chemical tests and procedures",
+              "item_id": "elective_unit_GroupB-13",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL974026",
+              "title": "Perform tests to determine the properties of construction materials",
+              "item_id": "elective_unit_GroupB-14",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL975031",
+              "title": "Supervise sampling, inspections and testing at construction sites",
+              "item_id": "elective_unit_GroupB-15",
+              "asterisk": 1
+            },
+            {
+              "code": "MSL975044",
+              "title": "Perform complex tests to measure engineering properties of materials",
+              "item_id": "elective_unit_GroupB-16",
+              "asterisk": 1
+            },
+            {
+              "code": "RIIBLA301E",
+              "title": "Conduct surface shotfiring operations",
+              "item_id": "elective_unit_GroupB-17",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA401E",
+              "title": "Manage blasting operations",
+              "item_id": "elective_unit_GroupB-18",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIBLA402E",
+              "title": "Monitor and control the effects of blasting on the environment",
+              "item_id": "elective_unit_GroupB-19",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS401E",
+              "title": "Supervise asphalt paving and compaction operations",
+              "item_id": "elective_unit_GroupB-20",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS402E",
+              "title": "Supervise the application of bituminous sprayed treatments",
+              "item_id": "elective_unit_GroupB-21",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS403E",
+              "title": "Supervise the application of polymer modified binders",
+              "item_id": "elective_unit_GroupB-22",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS404E",
+              "title": "Supervise the selection and use of bituminous emulsions",
+              "item_id": "elective_unit_GroupB-23",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS405E",
+              "title": "Supervise micro surfacing operations",
+              "item_id": "elective_unit_GroupB-24",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS406E",
+              "title": "Supervise pavement profiling operations using a profiler",
+              "item_id": "elective_unit_GroupB-25",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS407E",
+              "title": "Supervise the manufacture and delivery of hot mix asphalt",
+              "item_id": "elective_unit_GroupB-26",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS408E",
+              "title": "Supervise the manufacture of cold mixes",
+              "item_id": "elective_unit_GroupB-27",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS409E",
+              "title": "Supervise the manufacture of polymer modified binders",
+              "item_id": "elective_unit_GroupB-28",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS410E",
+              "title": "Supervise the manufacture of bituminous emulsions",
+              "item_id": "elective_unit_GroupB-29",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICBS411E",
+              "title": "Supervise the manufacture of micro surfacing mixes",
+              "item_id": "elective_unit_GroupB-30",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICPL401E",
+              "title": "Supervise the installation of underground services using open excavation",
+              "item_id": "elective_unit_GroupB-31",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC401E",
+              "title": "Supervise flexible pavement construction",
+              "item_id": "elective_unit_GroupB-32",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC402E",
+              "title": "Supervise rigid pavement construction",
+              "item_id": "elective_unit_GroupB-33",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC403E",
+              "title": "Supervise the stabilisation of materials",
+              "item_id": "elective_unit_GroupB-34",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC404E",
+              "title": "Inspect and report on pavement condition",
+              "item_id": "elective_unit_GroupB-35",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC405E",
+              "title": "Carry out pavement condition measurement",
+              "item_id": "elective_unit_GroupB-36",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICRC406E",
+              "title": "Supervise pavement maintenance",
+              "item_id": "elective_unit_GroupB-37",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICSG401E",
+              "title": "Supervise civil concrete structure construction",
+              "item_id": "elective_unit_GroupB-38",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICSG402E",
+              "title": "Supervise civil steel structure construction",
+              "item_id": "elective_unit_GroupB-39",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICSG403E",
+              "title": "Supervise civil timber structure construction",
+              "item_id": "elective_unit_GroupB-40",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICSG404E",
+              "title": "Supervise civil masonry, crib and gabion structure construction",
+              "item_id": "elective_unit_GroupB-41",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICSG405E",
+              "title": "Carry out inspections of civil structures",
+              "item_id": "elective_unit_GroupB-42",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICSG406E",
+              "title": "Supervise maintenance of civil structures",
+              "item_id": "elective_unit_GroupB-43",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC306",
+              "title": "Conduct tunnel boring machine operations",
+              "item_id": "elective_unit_GroupB-44",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC401E",
+              "title": "Supervise tunnel construction",
+              "item_id": "elective_unit_GroupB-45",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTC402",
+              "title": "Supervise tunnel boring machine operations",
+              "item_id": "elective_unit_GroupB-46",
+              "asterisk": 1
+            },
+            {
+              "code": "RIICTT401E",
+              "title": "Supervise the installation of underground services using trenchless technology",
+              "item_id": "elective_unit_GroupB-47",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICTT402E",
+              "title": "Supervise repair and rehabilitation of underground services using trenchless technology",
+              "item_id": "elective_unit_GroupB-48",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWD525E",
+              "title": "Select pavement surfacing",
+              "item_id": "elective_unit_GroupB-49",
+              "asterisk": 0
+            },
+            {
+              "code": "RIICWM402E",
+              "title": "Supervise civil works contractors",
+              "item_id": "elective_unit_GroupB-50",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIDML401E",
+              "title": "Supervise demolitions",
+              "item_id": "elective_unit_GroupB-51",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMEX403E",
+              "title": "Supervise canal construction",
+              "item_id": "elective_unit_GroupB-52",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIMPO402D",
+              "title": "Apply the principles of earthworks construction",
+              "item_id": "elective_unit_GroupB-53",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS302E",
+              "title": "Implement traffic management plans",
+              "item_id": "elective_unit_GroupB-54",
+              "asterisk": 0
+            },
+            {
+              "code": "RIIWHS401E",
+              "title": "Supervise work in confined spaces",
+              "item_id": "elective_unit_GroupB-55",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B (Operations)",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 5,
+      "elective_units_required": 7,
+      "prerequisite_requirements": [
+        {
+          "item_id": "prerequisite_requirement-1",
+          "unit_of_competency": {
+            "code": "RIICTC402",
+            "title": "Supervise tunnel boring machine operations",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "RIICTC306",
+              "title": "Conduct tunnel boring machine operations",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-2",
+          "unit_of_competency": {
+            "code": "MSL975031",
+            "title": "Supervise sampling, inspections and testing at construction sites",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "MSL954004",
+              "title": "Obtain representative samples in accordance with sampling plan",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL973021",
+              "title": "Conduct field-based acceptance tests for construction materials",
+              "asterisk": 0
+            }
+          ]
+        },
+        {
+          "item_id": "prerequisite_requirement-3",
+          "unit_of_competency": {
+            "code": "MSL975044",
+            "title": "Perform complex tests to measure engineering properties of materials",
+            "asterisk": 0
+          },
+          "prerequisite_requirement": [
+            {
+              "code": "MSL973022",
+              "title": "Conduct laboratory-based acceptance tests for construction materials",
+              "asterisk": 0
+            },
+            {
+              "code": "MSL974026",
+              "title": "Perform tests to determine the properties of construction materials",
+              "asterisk": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
