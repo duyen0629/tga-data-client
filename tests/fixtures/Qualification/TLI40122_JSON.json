@@ -1,0 +1,1910 @@
+{
+    "source": {
+      "complete": {
+        "format": "xml",
+        "relative_path": "TLI\\TLI40122_R2.xml"
+      }
+    },
+    "sections": [
+      {
+        "key": "modification_history",
+        "items": [
+          {
+            "text": "Release 2. This is the second release of this qualification in the TLI Transport and Logistics Training Package with the following unit updated:",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "modification_history-1",
+            "parent_bullet_item_id": null
+          },
+          {
+            "text": "TLIF0080 Implement and monitor the safety duties of transport activities (Chain of Responsibility).",
+            "type": "bullet",
+            "order": 2,
+            "indent": 0,
+            "item_id": "modification_history-2",
+            "parent_bullet_item_id": "modification_history-1"
+          },
+          {
+            "text": "Release 1. This is the first release of this qualification in the TLI Transport and Logistics Training Package.",
+            "type": "paragraph",
+            "order": 3,
+            "indent": null,
+            "item_id": "modification_history-3",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 1,
+        "table": null,
+        "title": "Modification History"
+      },
+      {
+        "key": "entry_requirements",
+        "items": [
+          {
+            "text": "There are no entry requirements for this qualification.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "entry_requirements-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 2,
+        "table": null,
+        "title": "Entry Requirements"
+      },
+      {
+        "key": "packaging_rules",
+        "items": [],
+        "order": 3,
+        "table": {
+          "rows": [
+            {
+              "cells": [
+                [
+                  {
+                    "text": "A total of 12 units of competency comprising:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "5 core units, plus",
+                    "type": "bullet",
+                    "order": 2,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_2",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "All units in one of the specialist elective groups, plus",
+                    "type": "bullet",
+                    "order": 3,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_3",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "5 general elective units if selecting specialist elective Group, A, B, D, or",
+                    "type": "bullet",
+                    "order": 4,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_4",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "6 general elective units if selecting specialist elective Group C.",
+                    "type": "bullet",
+                    "order": 5,
+                    "indent": 0,
+                    "item_id": "packaging_rules_cell-1_1_5",
+                    "parent_bullet_item_id": "packaging_rules_cell-1_1_1"
+                  },
+                  {
+                    "text": "Up to 3 of the general elective units may be selected, from any relevant nationally endorsed Training Package or accredited course. The general elective units must contribute to the vocational outcomes of the qualification.",
+                    "type": "paragraph",
+                    "order": 6,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_6",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Where imported units are selected, care must be taken to ensure that all prerequisite units specified are complied with. Prerequisites attached to any of the units must be obtained and are additional to the number of units required for the qualification.",
+                    "type": "paragraph",
+                    "order": 7,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_7",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Where a prerequisite is attached to a unit it is identified by the symbol ∟",
+                    "type": "paragraph",
+                    "order": 8,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-1_1_8",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Core units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-2_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIB0002",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out vehicle inspection",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-3_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC0033",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply low risk heavy vehicle driving behaviours",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-4_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC1051",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate commercial vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-5_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF2010",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply fatigue management strategies",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-6_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF4095",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply work health and safety requirements for driving operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-7_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Specialist elective units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-8_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Select one Group (job role) from the following options:",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Group A: Chemical and Fuel Tanker",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_2",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Group B: LP Gas Tanker",
+                    "type": "paragraph",
+                    "order": 3,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_3",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Group C: Heavy Vehicle Recovery",
+                    "type": "paragraph",
+                    "order": 4,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_4",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "Group D: Bitumen Tanker",
+                    "type": "paragraph",
+                    "order": 5,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-9_1_5",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group A: Chemical and Fuel Tanker",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-10_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC0022",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate chemical and fuel tanker",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "∟TLILIC0001 Licence to transport dangerous goods by road",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-11_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC0001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to transport dangerous goods by road",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-12_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group B: LP Gas Tanker",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-13_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC0003",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate LP gas tanker",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "∟TLILIC0001 Licence to transport dangerous goods by road",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-14_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC0001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to transport dangerous goods by road",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-15_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group C: Heavy Vehicle Recovery",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-16_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC0011",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct heavy vehicle recovery operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-17_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "Group D: Bitumen Tanker",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-18_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "RIICBS312E",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct bitumen tanker operations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-19_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC0001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to transport dangerous goods by road",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-20_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "General elective units",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-21_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "DEFVEH001",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Conduct recovery vehicle operations in a field environment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-22_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "DEFVEH002",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Extract disabled equipment using winching techniques in a field environment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-23_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC0003",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate LP gas tanker",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "∟TLILIC0001 Licence to transport dangerous goods by road",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-24_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC0022",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate chemical and fuel tanker",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_2_1",
+                    "parent_bullet_item_id": null
+                  },
+                  {
+                    "text": "∟TLILIC0001 Licence to transport dangerous goods by road",
+                    "type": "paragraph",
+                    "order": 2,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-25_2_2",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC3003",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Drive medium rigid vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-26_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC3004",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Drive heavy rigid vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-27_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC3005",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Drive heavy combination vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-28_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIC4006",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Drive multi-combination vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-29_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIE0009",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out basic workplace calculations",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-30_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIE4025",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Prepare and process transport documentation for dangerous goods",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-31_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF0005",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply a fatigue risk management system",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-32_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF0006",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Administer a fatigue risk management system",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-33_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF0009",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Ensure the safety of transport activities (Chain of Responsibility)",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-34_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF0012",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Implement and coordinate accident-emergency procedures",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-35_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF0080",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Implement and monitor the safety duties of transport activities (Chain of Responsibility)",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-36_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF2018",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Operate firefighting equipment",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-37_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF3091",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Apply awareness of dangerous goods and hazardous materials requirements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-38_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF3096",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Carry out emergency response to a dangerous goods incident",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-39_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF4065",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Ensure compliance with Australian Dangerous Goods Code",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-40_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIF4066",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Implement and supervise transport regulations compliance systems",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-41_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIH0005",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Interpret road maps and navigate pre-determined routes",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-42_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIH0006",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Plan and navigate routes",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-43_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIL0005",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Assess and confirm customer transport requirements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-44_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC0024",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to operate a vehicle loading crane (capacity 10 metre tonnes and above)",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-45_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC2015",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-46_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to drive a medium rigid vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-46_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC2016",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to drive a heavy rigid vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-47_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC3017",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-48_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to drive a heavy combination vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-48_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLILIC3018",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-49_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Licence to drive a multi-combination vehicle",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-49_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIU1009",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-50_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Monitor plant and equipment in an environmentally sustainable manner",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-50_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIX0022",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-51_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Decommission fuel storage and dispensing systems",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-51_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIX0024",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-52_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Install, modify and commission fuel storage and dispensing systems",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-52_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIX0025",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-53_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Maintain fuel storage and dispensing systems",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-53_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIX0026",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-54_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work in compliance with fuel storage and dispensing site requirements",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-54_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            },
+            {
+              "cells": [
+                [
+                  {
+                    "text": "TLIX0027",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-55_1_1",
+                    "parent_bullet_item_id": null
+                  }
+                ],
+                [
+                  {
+                    "text": "Work safely at a fuel storage and dispensing site",
+                    "type": "paragraph",
+                    "order": 1,
+                    "indent": null,
+                    "item_id": "packaging_rules_cell-55_2_1",
+                    "parent_bullet_item_id": null
+                  }
+                ]
+              ]
+            }
+          ],
+          "order": 1,
+          "columns": [
+            "Column 1",
+            "Column 2"
+          ]
+        },
+        "title": "Packaging Rules"
+      },
+      {
+        "key": "qualification_mapping_information",
+        "items": [
+          {
+            "text": "This qualification replaces and is equivalent to TLI40121 Certificate IV in Driving Operations.",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "qualification_mapping_information-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 4,
+        "table": null,
+        "title": "Qualification Mapping Information"
+      },
+      {
+        "key": "links",
+        "items": [
+          {
+            "text": "Companion Volume Implementation Guides are found in VETNet - https://vetnet.gov.au/Pages/TrainingDocs.aspx?q=df441c6e-213d-43e3-874c-0b3f7036d851",
+            "type": "paragraph",
+            "order": 1,
+            "indent": null,
+            "item_id": "links-1",
+            "parent_bullet_item_id": null
+          }
+        ],
+        "order": 5,
+        "table": null,
+        "title": "Links"
+      }
+    ],
+    "packing_rules_extracted": {
+      "core_units": [
+        {
+          "code": "TLIB0002",
+          "title": "Carry out vehicle inspection",
+          "item_id": "core_unit-1",
+          "asterisk": 0
+        },
+        {
+          "code": "TLIC0033",
+          "title": "Apply low risk heavy vehicle driving behaviours",
+          "item_id": "core_unit-2",
+          "asterisk": 0
+        },
+        {
+          "code": "TLIC1051",
+          "title": "Operate commercial vehicle",
+          "item_id": "core_unit-3",
+          "asterisk": 0
+        },
+        {
+          "code": "TLIF2010",
+          "title": "Apply fatigue management strategies",
+          "item_id": "core_unit-4",
+          "asterisk": 0
+        },
+        {
+          "code": "TLIF4095",
+          "title": "Apply work health and safety requirements for driving operations",
+          "item_id": "core_unit-5",
+          "asterisk": 0
+        }
+      ],
+      "total_units": 12,
+      "elective_rules": [
+        {
+          "text": "A total of 12 units of competency comprising:",
+          "type": "paragraph",
+          "order": 1,
+          "indent": null,
+          "content": [
+            {
+              "bold": false,
+              "text": "A total of"
+            },
+            {
+              "bold": true,
+              "text": "12 units"
+            },
+            {
+              "bold": false,
+              "text": "of competency comprising:"
+            }
+          ],
+          "item_id": "elective_rules-1",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "5 core units, plus",
+          "type": "paragraph-bold",
+          "order": 2,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-2",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "All units in one of the specialist elective groups, plus",
+          "type": "bullet",
+          "order": 3,
+          "indent": 0,
+          "content": [
+            {
+              "bold": true,
+              "text": "All units in one"
+            },
+            {
+              "bold": false,
+              "text": "of the specialist elective groups,"
+            },
+            {
+              "bold": true,
+              "text": "plus"
+            }
+          ],
+          "item_id": "elective_rules-3",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "5 general elective units if selecting specialist elective Group, A, B, D, or",
+          "type": "bullet",
+          "order": 4,
+          "indent": 0,
+          "content": [
+            {
+              "bold": true,
+              "text": "5 general elective units"
+            },
+            {
+              "bold": false,
+              "text": "if selecting specialist elective Group, A, B, D,"
+            },
+            {
+              "bold": true,
+              "text": "or"
+            }
+          ],
+          "item_id": "elective_rules-4",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "6 general elective units if selecting specialist elective Group C.",
+          "type": "bullet",
+          "order": 5,
+          "indent": 0,
+          "content": [
+            {
+              "bold": true,
+              "text": "6 general elective units"
+            },
+            {
+              "bold": false,
+              "text": "if selecting specialist elective Group C."
+            }
+          ],
+          "item_id": "elective_rules-5",
+          "parent_bullet_item_id": "elective_rules-2"
+        },
+        {
+          "text": "Up to 3 of the general elective units may be selected, from any relevant nationally endorsed Training Package or accredited course. The general elective units must contribute to the vocational outcomes of the qualification.",
+          "type": "paragraph",
+          "order": 6,
+          "indent": null,
+          "content": [
+            {
+              "bold": true,
+              "text": "Up to 3 of the general elective units"
+            },
+            {
+              "bold": false,
+              "text": "may be selected, from any relevant nationally endorsed Training Package or accredited course. The general elective units must contribute to the vocational outcomes of the qualification."
+            }
+          ],
+          "item_id": "elective_rules-6",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Where imported units are selected, care must be taken to ensure that all prerequisite units specified are complied with. Prerequisites attached to any of the units must be obtained and are additional to the number of units required for the qualification.",
+          "type": "paragraph",
+          "order": 7,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-7",
+          "parent_bullet_item_id": null
+        },
+        {
+          "text": "Where a prerequisite is attached to a unit it is identified by the symbol ∟",
+          "type": "paragraph",
+          "order": 8,
+          "indent": null,
+          "content": null,
+          "item_id": "elective_rules-8",
+          "parent_bullet_item_id": null
+        }
+      ],
+      "elective_units": [
+        {
+          "items": [
+            {
+              "code": "TLIC0022",
+              "title": "Operate chemical and fuel tanker\n∟TLILIC0001 Licence to transport dangerous goods by road",
+              "item_id": "elective_unit_GroupA-1",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0001",
+              "title": "Licence to transport dangerous goods by road",
+              "item_id": "elective_unit_GroupA-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group A - Chemical and Fuel TankerGroup B: LP Gas TankerGroup C: Heavy Vehicle RecoveryGroup D: Bitumen Tanker",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "TLIC0003",
+              "title": "Operate LP gas tanker\n∟TLILIC0001 Licence to transport dangerous goods by road",
+              "item_id": "elective_unit_GroupB-1",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0001",
+              "title": "Licence to transport dangerous goods by road",
+              "item_id": "elective_unit_GroupB-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group B - LP Gas Tanker",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "TLIC0011",
+              "title": "Conduct heavy vehicle recovery operations",
+              "item_id": "elective_unit_GroupC-1",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group C - Heavy Vehicle Recovery",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "RIICBS312E",
+              "title": "Conduct bitumen tanker operations",
+              "item_id": "elective_unit_GroupD-1",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0001",
+              "title": "Licence to transport dangerous goods by road",
+              "item_id": "elective_unit_GroupD-2",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group D - Bitumen Tanker",
+          "category": "Elective units"
+        },
+        {
+          "items": [
+            {
+              "code": "DEFVEH001",
+              "title": "Conduct recovery vehicle operations in a field environment",
+              "item_id": "elective_unit_GeneralElectiveUnits-1",
+              "asterisk": 0
+            },
+            {
+              "code": "DEFVEH002",
+              "title": "Extract disabled equipment using winching techniques in a field environment",
+              "item_id": "elective_unit_GeneralElectiveUnits-2",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIC0003",
+              "title": "Operate LP gas tanker\n∟TLILIC0001 Licence to transport dangerous goods by road",
+              "item_id": "elective_unit_GeneralElectiveUnits-3",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIC0022",
+              "title": "Operate chemical and fuel tanker\n∟TLILIC0001 Licence to transport dangerous goods by road",
+              "item_id": "elective_unit_GeneralElectiveUnits-4",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIC3003",
+              "title": "Drive medium rigid vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-5",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIC3004",
+              "title": "Drive heavy rigid vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-6",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIC3005",
+              "title": "Drive heavy combination vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-7",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIC4006",
+              "title": "Drive multi-combination vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-8",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIE0009",
+              "title": "Carry out basic workplace calculations",
+              "item_id": "elective_unit_GeneralElectiveUnits-9",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIE4025",
+              "title": "Prepare and process transport documentation for dangerous goods",
+              "item_id": "elective_unit_GeneralElectiveUnits-10",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF0005",
+              "title": "Apply a fatigue risk management system",
+              "item_id": "elective_unit_GeneralElectiveUnits-11",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF0006",
+              "title": "Administer a fatigue risk management system",
+              "item_id": "elective_unit_GeneralElectiveUnits-12",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF0009",
+              "title": "Ensure the safety of transport activities (Chain of Responsibility)",
+              "item_id": "elective_unit_GeneralElectiveUnits-13",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF0012",
+              "title": "Implement and coordinate accident-emergency procedures",
+              "item_id": "elective_unit_GeneralElectiveUnits-14",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF0080",
+              "title": "Implement and monitor the safety duties of transport activities (Chain of Responsibility)",
+              "item_id": "elective_unit_GeneralElectiveUnits-15",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF2018",
+              "title": "Operate firefighting equipment",
+              "item_id": "elective_unit_GeneralElectiveUnits-16",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF3091",
+              "title": "Apply awareness of dangerous goods and hazardous materials requirements",
+              "item_id": "elective_unit_GeneralElectiveUnits-17",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF3096",
+              "title": "Carry out emergency response to a dangerous goods incident",
+              "item_id": "elective_unit_GeneralElectiveUnits-18",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF4065",
+              "title": "Ensure compliance with Australian Dangerous Goods Code",
+              "item_id": "elective_unit_GeneralElectiveUnits-19",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIF4066",
+              "title": "Implement and supervise transport regulations compliance systems",
+              "item_id": "elective_unit_GeneralElectiveUnits-20",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIH0005",
+              "title": "Interpret road maps and navigate pre-determined routes",
+              "item_id": "elective_unit_GeneralElectiveUnits-21",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIH0006",
+              "title": "Plan and navigate routes",
+              "item_id": "elective_unit_GeneralElectiveUnits-22",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIL0005",
+              "title": "Assess and confirm customer transport requirements",
+              "item_id": "elective_unit_GeneralElectiveUnits-23",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC0024",
+              "title": "Licence to operate a vehicle loading crane (capacity 10 metre tonnes and above)",
+              "item_id": "elective_unit_GeneralElectiveUnits-24",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC2015",
+              "title": "Licence to drive a medium rigid vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-25",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC2016",
+              "title": "Licence to drive a heavy rigid vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-26",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC3017",
+              "title": "Licence to drive a heavy combination vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-27",
+              "asterisk": 0
+            },
+            {
+              "code": "TLILIC3018",
+              "title": "Licence to drive a multi-combination vehicle",
+              "item_id": "elective_unit_GeneralElectiveUnits-28",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIU1009",
+              "title": "Monitor plant and equipment in an environmentally sustainable manner",
+              "item_id": "elective_unit_GeneralElectiveUnits-29",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIX0022",
+              "title": "Decommission fuel storage and dispensing systems",
+              "item_id": "elective_unit_GeneralElectiveUnits-30",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIX0024",
+              "title": "Install, modify and commission fuel storage and dispensing systems",
+              "item_id": "elective_unit_GeneralElectiveUnits-31",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIX0025",
+              "title": "Maintain fuel storage and dispensing systems",
+              "item_id": "elective_unit_GeneralElectiveUnits-32",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIX0026",
+              "title": "Work in compliance with fuel storage and dispensing site requirements",
+              "item_id": "elective_unit_GeneralElectiveUnits-33",
+              "asterisk": 0
+            },
+            {
+              "code": "TLIX0027",
+              "title": "Work safely at a fuel storage and dispensing site",
+              "item_id": "elective_unit_GeneralElectiveUnits-34",
+              "asterisk": 0
+            }
+          ],
+          "title": "Group alElectiveUnits - General elective units",
+          "category": "Elective units"
+        }
+      ],
+      "core_units_required": 5,
+      "prerequisite_requirements": []
+    }
+  }
