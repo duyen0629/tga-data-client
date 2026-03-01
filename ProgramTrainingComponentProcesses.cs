@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using training.gov.au.services;
 using TgaGateway2.Handlers.TrainingComponentDocuments;
 using TgaGateway2.Handlers.TrainingComponentService;
 using TgaGateway2.Services;
@@ -235,6 +237,51 @@ namespace TgaGateway2
                     startDate: new DateTime(2016, 1, 15), // 15/01/2016
                     endDate: new DateTime(2026, 1, 15),   // 15/01/2026
                     maxResults: 0); // 0 = fetch all via pagination
+            }
+        }
+
+        private static async Task GetTrainingComponentSummaryForCode(string trainingComponentCode)
+        {
+            // Try Supabase first
+            var queryService = new SupabaseQueryService();
+            var summary = await queryService.GetTrainingComponentSummaryByCode(trainingComponentCode);
+            if (summary != null)
+            {
+                Console.WriteLine($"=== training_component_summary for {trainingComponentCode} (from Supabase) ===");
+                foreach (var kvp in summary)
+                {
+                    var value = kvp.Value?.ToString() ?? "(null)";
+                    if (value.Length > 100) value = value.Substring(0, 97) + "...";
+                    Console.WriteLine($"  {kvp.Key}: {value}");
+                }
+                return;
+            }
+
+            // Fallback: fetch from TGA API via GetDetails
+            Console.WriteLine($"  Not in Supabase. Fetching from TGA API (GetDetails)...");
+            using (var summaryService = new TrainingComponentSummaryService())
+            {
+                var details = summaryService.GetDetailsByCode(trainingComponentCode);
+                if (details == null)
+                {
+                    Console.WriteLine($"No training_component_summary found for code: {trainingComponentCode}");
+                    return;
+                }
+                Console.WriteLine($"=== training_component_summary for {trainingComponentCode} (from TGA API) ===");
+                Console.WriteLine($"  code: {details.Code}");
+                Console.WriteLine($"  title: {details.Title}");
+                Console.WriteLine($"  component_type: {details.ComponentType}");
+                Console.WriteLine($"  is_confidential: {details.IsConfidential}");
+                Console.WriteLine($"  created_date: {details.CreatedDate}");
+                Console.WriteLine($"  updated_date: {details.UpdatedDate}");
+                if (details.UsageRecommendations != null && details.UsageRecommendations.Length > 0)
+                {
+                    var ur = details.UsageRecommendations[0];
+                    Console.WriteLine($"  usage_recommendation: {ur?.State}");
+                    Console.WriteLine($"  start_date: {ur?.StartDate}");
+                }
+                if (details is TrainingComponent2 tc2)
+                    Console.WriteLine($"  is_legacy_data: {tc2.IsLegacyData}");
             }
         }
 

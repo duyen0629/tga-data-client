@@ -178,6 +178,38 @@ namespace TgaGateway2.Services
             return totalProcessed;
         }
 
+        /// <summary>
+        /// Fetches training component details by exact code via GetDetails (TGA API).
+        /// Returns the full TrainingComponent, or null if not found.
+        /// </summary>
+        public TrainingComponent GetDetailsByCode(string code)
+        {
+            EnsureNotDisposed();
+            if (string.IsNullOrWhiteSpace(code))
+            {
+                return null;
+            }
+
+            var request = new TrainingComponentDetailsRequest
+            {
+                Code = code,
+                InformationRequest = new TrainingComponentInformationRequested
+                {
+                    ShowUsageRecommendation = true
+                }
+            };
+
+            try
+            {
+                return _trainingComponentClient.GetDetails(request);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"  ERROR fetching details for {code}: {ex.Message}");
+                return null;
+            }
+        }
+
         private void EnsureNotDisposed()
         {
             if (_disposed)

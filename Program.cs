@@ -92,7 +92,7 @@ namespace TgaGateway2
                 var outputDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs");
                 await CSVTrainingCodeCheck.ExportReleaseFilesXmlAsync(csvScopeQualificationPath, outputDir, "training_code", hasHeader: true);
 
-
+                // await GetTrainingComponentSummaryForCode("CPC10126");
             }
         }
 

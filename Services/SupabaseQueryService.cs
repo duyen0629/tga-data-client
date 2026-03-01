@@ -32,6 +32,45 @@ namespace TgaGateway2.Services
         }
 
         /// <summary>
+        /// Gets the full training_component_summary row for the given code, or null if not found.
+        /// </summary>
+        public async Task<Dictionary<string, object>> GetTrainingComponentSummaryByCode(string trainingComponentCode)
+        {
+            if (string.IsNullOrWhiteSpace(trainingComponentCode))
+            {
+                return null;
+            }
+
+            var endpointUrl = $"{_supabaseUrl}/rest/v1/training_component_summaries" +
+                              $"?select=*" +
+                              $"&code=eq.{Uri.EscapeDataString(trainingComponentCode)}" +
+                              $"&limit=1";
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.DefaultRequestHeaders.Add("apikey", _supabaseKey);
+                httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_supabaseKey}");
+
+                var response = await httpClient.GetAsync(endpointUrl);
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Supabase API error ({response.StatusCode}): {errorContent}");
+                }
+
+                var json = await response.Content.ReadAsStringAsync();
+                var serializer = new JavaScriptSerializer();
+                var rows = serializer.Deserialize<List<Dictionary<string, object>>>(json) ?? new List<Dictionary<string, object>>();
+                if (rows.Count == 0)
+                {
+                    return null;
+                }
+
+                return rows[0];
+            }
+        }
+
+        /// <summary>
         /// Gets component_type from training_component_summaries for the given code, or null if not found.
         /// </summary>
         public async Task<string> GetComponentTypeByCode(string trainingComponentCode)
