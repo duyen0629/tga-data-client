@@ -278,10 +278,14 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Parser
             {
                 return string.IsNullOrEmpty(title) ? string.Empty : title;
             }
-            // "GeneralElectives" and "OtherElectives" are section headers, not "Group X" - use title as-is
+            // "GeneralElectives", "GeneralElectiveUnits", and "OtherElectives" are section headers, not "Group X" - use title as-is
             if (string.Equals(key, "GeneralElectives", StringComparison.OrdinalIgnoreCase))
             {
                 return string.IsNullOrEmpty(title) ? "General Electives" : title;
+            }
+            if (string.Equals(key, "GeneralElectiveUnits", StringComparison.OrdinalIgnoreCase))
+            {
+                return string.IsNullOrEmpty(title) ? "General elective units" : title;
             }
             if (string.Equals(key, "OtherElectives", StringComparison.OrdinalIgnoreCase))
             {
