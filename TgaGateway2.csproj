@@ -227,6 +227,7 @@
     <None Include="scripts\training-component-service\validation_codes_table.sql" />
     <None Include="scripts\training-component-service\recognition_manager_assignments_table.sql" />
     <None Include="scripts\training-component-documents\training_component_documents_table.sql" />
+    <None Include="scripts\training-component-documents\add_usage_recommendation_to_training_component_documents.sql" />
     <None Include="scripts\training-component-documents\training_component_item_status_table.sql" />
     <None Include="scripts\classification\nrt_classification_schemes_table.sql" />
     <None Include="scripts\classification\nrt_classification_scheme_values_table.sql" />

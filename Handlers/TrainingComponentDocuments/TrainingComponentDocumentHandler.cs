@@ -41,14 +41,16 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                     return;
                 }
 
-                var componentType = await queryService.GetComponentTypeByCode(trainingComponentCode);
+                var summaryFields = await queryService.GetSummaryFieldsForDocumentByCode(trainingComponentCode);
+                var componentType = summaryFields.ComponentType;
+                var usageRecommendation = summaryFields.UsageRecommendation;
                 if (string.Equals(componentType, "Qualification", StringComparison.OrdinalIgnoreCase))
                 {
-                    await ProcessReleaseFilesForTrainingComponentDocumentAsQualification(supabaseService, trainingComponentCode, releaseFiles, componentType);
+                    await ProcessReleaseFilesForTrainingComponentDocumentAsQualification(supabaseService, trainingComponentCode, releaseFiles, componentType, usageRecommendation);
                 }
                 else
                 {
-                    await ProcessReleaseFilesForTrainingComponentDocumentAsUnit(supabaseService, trainingComponentCode, releaseFiles);
+                    await ProcessReleaseFilesForTrainingComponentDocumentAsUnit(supabaseService, trainingComponentCode, releaseFiles, componentType, usageRecommendation);
                 }
             }
             catch (Exception ex)
@@ -75,14 +77,16 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                     return;
                 }
 
-                var componentType = await queryService.GetComponentTypeByCode(trainingComponentCode);
+                var summaryFields = await queryService.GetSummaryFieldsForDocumentByCode(trainingComponentCode);
+                var componentType = summaryFields.ComponentType;
+                var usageRecommendation = summaryFields.UsageRecommendation;
                 if (!string.Equals(componentType, "Qualification", StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine($"  Code {trainingComponentCode} is not a Qualification (component_type={componentType ?? "null"}). Skipping.");
                     return;
                 }
 
-                await ProcessReleaseFilesForTrainingComponentDocumentAsQualification(supabaseService, trainingComponentCode, releaseFiles, componentType);
+                await ProcessReleaseFilesForTrainingComponentDocumentAsQualification(supabaseService, trainingComponentCode, releaseFiles, componentType, usageRecommendation);
             }
             catch (Exception ex)
             {
@@ -129,13 +133,16 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                     foreach (var group in grouped)
                     {
                         string componentType = null;
+                        string usageRecommendation = null;
                         try
                         {
-                            componentType = await queryService.GetComponentTypeByCode(group.Key);
+                            var summaryFields = await queryService.GetSummaryFieldsForDocumentByCode(group.Key);
+                            componentType = summaryFields.ComponentType;
+                            usageRecommendation = summaryFields.UsageRecommendation;
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine($"   Could not get component_type for {group.Key}, skipping: {ex.Message}");
+                            Console.WriteLine($"   Could not get summary fields for {group.Key}, skipping: {ex.Message}");
                             continue;
                         }
 
@@ -143,7 +150,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                         {
                             try
                             {
-                                var saved = await ProcessReleaseFilesForTrainingComponentDocumentAsUnit(supabaseService, group.Key, group.ToList());
+                                var saved = await ProcessReleaseFilesForTrainingComponentDocumentAsUnit(supabaseService, group.Key, group.ToList(), componentType, usageRecommendation);
                                 pageSaved += saved;
                             }
                             catch (Exception ex)
@@ -157,7 +164,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                         {
                             try
                             {
-                                var saved = await ProcessReleaseFilesForTrainingComponentDocumentAsQualification(supabaseService, group.Key, group.ToList(), componentType);
+                                var saved = await ProcessReleaseFilesForTrainingComponentDocumentAsQualification(supabaseService, group.Key, group.ToList(), componentType, usageRecommendation);
                                 pageSaved += saved;
                             }
                             catch (Exception ex)
@@ -208,24 +215,15 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
         private static async Task<int> ProcessReleaseFilesForTrainingComponentDocumentAsUnit(
             SupabaseService supabaseService,
             string trainingComponentCode,
-            List<ReleaseFileRow> releaseFiles)
+            List<ReleaseFileRow> releaseFiles,
+            string componentType,
+            string usageRecommendation)
         {
             var candidates = ReleaseFileHelper.SelectReleaseFilesByRelease(releaseFiles);
             if (candidates.Count == 0)
             {
                 Console.WriteLine($"No matching XML file found for {trainingComponentCode}.");
                 return 0;
-            }
-
-            string componentType = null;
-            try
-            {
-                var queryService = new SupabaseQueryService();
-                componentType = await queryService.GetComponentTypeByCode(trainingComponentCode);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"     Could not fetch component_type from summaries for {trainingComponentCode}: {ex.Message}");
             }
 
             var savedCount = 0;
@@ -240,6 +238,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                         trainingComponentCode,
                         candidate.ReleaseNumber,
                         componentType,
+                        usageRecommendation,
                         completeResult.SelectedRelativePath,
                         completeResult.FormatUsed,
                         completeResult.Bytes);
@@ -266,6 +265,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                         TrainingComponentCode = trainingComponentCode,
                         ReleaseNumber = candidate.ReleaseNumber,
                         ComponentType = componentType,
+                        UsageRecommendation = usageRecommendation,
                         Title = trainingComponentCode,
                         SourceFiles = new JsonRaw(sourceFilesJson),
                         ContentJson = null,
@@ -293,7 +293,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             SupabaseService supabaseService,
             string trainingComponentCode,
             List<ReleaseFileRow> releaseFiles,
-            string componentType)
+            string componentType,
+            string usageRecommendation)
         {
             var candidates = ReleaseFileHelper.SelectReleaseFilesByRelease(releaseFiles);
             if (candidates.Count == 0)
@@ -314,6 +315,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                         trainingComponentCode,
                         candidate.ReleaseNumber,
                         componentType,
+                        usageRecommendation,
                         completeResult.SelectedRelativePath,
                         completeResult.FormatUsed,
                         completeResult.Bytes);
@@ -340,6 +342,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                         TrainingComponentCode = trainingComponentCode,
                         ReleaseNumber = candidate.ReleaseNumber,
                         ComponentType = componentType,
+                        UsageRecommendation = usageRecommendation,
                         Title = trainingComponentCode,
                         SourceFiles = new JsonRaw(sourceFilesJson),
                         ContentJson = null,
@@ -367,6 +370,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             string trainingComponentCode,
             string releaseNumber,
             string componentType,
+            string usageRecommendation,
             string relativePath,
             string formatUsed,
             byte[] xmlBytes)
@@ -403,6 +407,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 TrainingComponentCode = trainingComponentCode,
                 ReleaseNumber = releaseNumber,
                 ComponentType = componentType,
+                UsageRecommendation = usageRecommendation,
                 Title = title,
                 SourceFiles = new JsonRaw(sourceFilesJson),
                 ContentJson = new JsonRaw(contentJsonRaw),
@@ -415,6 +420,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             string trainingComponentCode,
             string releaseNumber,
             string componentType,
+            string usageRecommendation,
             string relativePath,
             string formatUsed,
             byte[] xmlBytes)
@@ -450,6 +456,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 TrainingComponentCode = trainingComponentCode,
                 ReleaseNumber = releaseNumber,
                 ComponentType = componentType,
+                UsageRecommendation = usageRecommendation,
                 Title = title,
                 SourceFiles = new JsonRaw(sourceFilesJson),
                 ContentJson = new JsonRaw(contentJsonRaw),

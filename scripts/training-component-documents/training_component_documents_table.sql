@@ -6,6 +6,7 @@ CREATE TABLE training_component_documents (
     training_component_code TEXT NOT NULL,
     release_number TEXT NOT NULL,
     component_type TEXT, -- from training_component_summaries
+    usage_recommendation TEXT, -- from training_component_summaries
     title TEXT,
     source_files JSONB, -- e.g., { complete: { relative_path, generated_date }, assessment_requirements: { ... } }
     content_json JSONB, -- merged, display-ready sections

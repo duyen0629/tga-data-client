@@ -71,17 +71,19 @@ namespace TgaGateway2.Services
         }
 
         /// <summary>
-        /// Gets component_type from training_component_summaries for the given code, or null if not found.
+        /// Gets component_type and usage_recommendation from training_component_summaries for document saves.
+        /// Returns an object with null properties when the code is empty or no row exists.
         /// </summary>
-        public async Task<string> GetComponentTypeByCode(string trainingComponentCode)
+        public async Task<TrainingComponentSummaryForDocument> GetSummaryFieldsForDocumentByCode(string trainingComponentCode)
         {
+            var result = new TrainingComponentSummaryForDocument();
             if (string.IsNullOrWhiteSpace(trainingComponentCode))
             {
-                return null;
+                return result;
             }
 
             var endpointUrl = $"{_supabaseUrl}/rest/v1/training_component_summaries" +
-                              $"?select=component_type" +
+                              $"?select=component_type,usage_recommendation" +
                               $"&code=eq.{Uri.EscapeDataString(trainingComponentCode)}" +
                               $"&limit=1";
 
@@ -102,11 +104,13 @@ namespace TgaGateway2.Services
                 var rows = serializer.Deserialize<List<Dictionary<string, object>>>(json) ?? new List<Dictionary<string, object>>();
                 if (rows.Count == 0)
                 {
-                    return null;
+                    return result;
                 }
 
                 var row = rows[0];
-                return row.ContainsKey("component_type") ? row["component_type"]?.ToString() : null;
+                result.ComponentType = row.ContainsKey("component_type") ? row["component_type"]?.ToString() : null;
+                result.UsageRecommendation = row.ContainsKey("usage_recommendation") ? row["usage_recommendation"]?.ToString() : null;
+                return result;
             }
         }
 
@@ -262,5 +266,14 @@ namespace TgaGateway2.Services
         public string TrainingComponentCode { get; set; }
         public string ReleaseNumber { get; set; }
         public object ContentJson { get; set; }
+    }
+
+    /// <summary>
+    /// Fields from training_component_summaries used when building training_component_documents rows.
+    /// </summary>
+    public class TrainingComponentSummaryForDocument
+    {
+        public string ComponentType { get; set; }
+        public string UsageRecommendation { get; set; }
     }
 }

@@ -43,6 +43,7 @@ namespace TgaGateway2.Tests
                     trainingComponentCode,
                     candidate.ReleaseNumber,
                     componentType: null,
+                    usageRecommendation: null,
                     xmlPath,
                     "xml",
                     xmlBytes);
@@ -85,6 +86,7 @@ namespace TgaGateway2.Tests
                     trainingComponentCode,
                     candidate.ReleaseNumber,
                     componentType,
+                    usageRecommendation: null,
                     xmlPath,
                     "xml",
                     xmlBytes);

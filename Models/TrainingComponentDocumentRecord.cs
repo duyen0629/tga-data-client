@@ -18,6 +18,9 @@ namespace TgaGateway2.Models
         public string ComponentType { get; set; }
 
         [DataMember]
+        public string UsageRecommendation { get; set; }
+
+        [DataMember]
         public string Title { get; set; }
 
         [DataMember]
