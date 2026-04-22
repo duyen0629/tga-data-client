@@ -19,8 +19,7 @@ namespace TgaGateway2.Services
         public DeletedTrainingComponentService()
         {
             _trainingComponentClient = new TrainingComponentServiceClient("TrainingComponentServiceBasicHttpEndpoint");
-            _trainingComponentClient.ClientCredentials.UserName.UserName = "WebService.Read";
-            _trainingComponentClient.ClientCredentials.UserName.Password = "Asdf098";
+            TgaSoapConfig.ApplyUserNameCredentials(_trainingComponentClient.ClientCredentials);
         }
 
         /// <summary>

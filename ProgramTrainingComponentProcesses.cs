@@ -99,8 +99,8 @@ namespace TgaGateway2
                     summaryService,
                     assignmentService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -114,8 +114,8 @@ namespace TgaGateway2
                     summaryService,
                     assignmentService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -129,8 +129,8 @@ namespace TgaGateway2
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -144,8 +144,8 @@ namespace TgaGateway2
                     summaryService,
                     contactService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -159,8 +159,8 @@ namespace TgaGateway2
                     summaryService,
                     classificationService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -174,8 +174,8 @@ namespace TgaGateway2
                     summaryService,
                     mappingService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -189,8 +189,8 @@ namespace TgaGateway2
                     summaryService,
                     currencyPeriodService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -204,8 +204,8 @@ namespace TgaGateway2
                     summaryService,
                     usageRecommendationService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -219,8 +219,8 @@ namespace TgaGateway2
                     summaryService,
                     completionMappingService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -234,8 +234,8 @@ namespace TgaGateway2
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -306,8 +306,8 @@ namespace TgaGateway2
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -321,8 +321,8 @@ namespace TgaGateway2
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -334,8 +334,8 @@ namespace TgaGateway2
                 var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
                     summaryService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -347,8 +347,8 @@ namespace TgaGateway2
                 var deletedTrainingComponents = await DeletedTrainingComponentHandler.ProcessDeletedTrainingComponents(
                     deletedService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
+                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
                     maxResults: 0,                        // 0 = fetch all via pagination
                     pageSize: 500);
             }

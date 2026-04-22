@@ -173,6 +173,7 @@
     <Compile Include="Models\RtoClassificationSchemeRecord.cs" />
     <Compile Include="Models\RtoClassificationSchemeValueRecord.cs" />
     <Compile Include="Models\OrganisationSummaryRecord.cs" />
+    <Compile Include="Services\TgaSoapConfig.cs" />
     <Compile Include="Services\AddressStateService.cs" />
     <Compile Include="Services\ClassificationService.cs" />
     <Compile Include="Services\ClassificationPurposeService.cs" />

@@ -15,8 +15,7 @@ namespace TgaGateway2.Services
         public TgaOrganisationService()
         {
             _channelFactory = new System.ServiceModel.ChannelFactory<IOrganisationService>("OrganisationServiceBasicHttpEndpoint");
-            _channelFactory.Credentials.UserName.UserName = "WebService.Read";
-            _channelFactory.Credentials.UserName.Password = "Asdf098";
+            TgaSoapConfig.ApplyUserNameCredentials(_channelFactory.Credentials);
             _organisationChannel = _channelFactory.CreateChannel();
         }
 

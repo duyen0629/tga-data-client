@@ -18,8 +18,7 @@ namespace TgaGateway2.Services
         public TgaClassificationService()
         {
             _channelFactory = new System.ServiceModel.ChannelFactory<IClassificationService>("ClassificationServiceBasicHttpEndpoint");
-            _channelFactory.Credentials.UserName.UserName = "WebService.Read";
-            _channelFactory.Credentials.UserName.Password = "Asdf098";
+            TgaSoapConfig.ApplyUserNameCredentials(_channelFactory.Credentials);
             _classificationChannel = _channelFactory.CreateChannel();
         }
 
