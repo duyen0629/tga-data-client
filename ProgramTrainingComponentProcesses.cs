@@ -10,6 +10,15 @@ namespace TgaGateway2
 {
     internal partial class Program
     {
+        /// <summary>
+        /// Default TGA modified-date search window: from ten years ago through the current time (<c>DateTime.Now</c> for both bounds in one call).
+        /// </summary>
+        public static (DateTime startDate, DateTime endDate) GetTgaDefaultModifiedDateRange()
+        {
+            var end = DateTime.Now;
+            return (end.AddYears(-10), end);
+        }
+
         private static async Task ProcessRecognitionManagers(SupabaseService supabaseService)
         {
             using (var recognitionManagerService = new RecognitionManagerService())
@@ -95,12 +104,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var assignmentService = new RecognitionManagerAssignmentService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var recognitionManagerAssignments = await RecognitionManagerAssignmentHandler.ProcessRecognitionManagerAssignments(
                     summaryService,
                     assignmentService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -110,12 +120,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var assignmentService = new DataManagerAssignmentService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var dataManagerAssignments = await DataManagerAssignmentHandler.ProcessDataManagerAssignments(
                     summaryService,
                     assignmentService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -125,12 +136,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var releaseService = new ReleaseService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var releases = await ReleaseHandler.ProcessReleases(
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -140,12 +152,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var contactService = new ContactService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var contacts = await ContactHandler.ProcessContacts(
                     summaryService,
                     contactService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -155,12 +168,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var classificationService = new ClassificationService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var classifications = await ClassificationHandler.ProcessClassifications(
                     summaryService,
                     classificationService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -170,12 +184,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var mappingService = new MappingService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var mappings = await MappingHandler.ProcessMappings(
                     summaryService,
                     mappingService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -185,12 +200,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var currencyPeriodService = new CurrencyPeriodService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var currencyPeriods = await CurrencyPeriodHandler.ProcessCurrencyPeriods(
                     summaryService,
                     currencyPeriodService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -200,12 +216,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var usageRecommendationService = new UsageRecommendationService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var usageRecommendations = await UsageRecommendationHandler.ProcessUsageRecommendations(
                     summaryService,
                     usageRecommendationService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -215,12 +232,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var completionMappingService = new CompletionMappingService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var completionMappings = await CompletionMappingHandler.ProcessCompletionMappings(
                     summaryService,
                     completionMappingService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -230,12 +248,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var releaseService = new ReleaseService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var releaseFiles = await ReleaseFileHandler.ProcessReleaseFiles(
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -302,12 +321,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var releaseService = new ReleaseService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var releaseComponents = await ReleaseComponentHandler.ProcessReleaseComponents(
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -317,12 +337,13 @@ namespace TgaGateway2
             using (var summaryService = new TrainingComponentSummaryService())
             using (var releaseService = new ReleaseService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var unitGridEntries = await UnitGridEntryHandler.ProcessUnitGridEntries(
                     summaryService,
                     releaseService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -331,11 +352,12 @@ namespace TgaGateway2
         {
             using (var summaryService = new TrainingComponentSummaryService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var trainingComponentSummaries = await TrainingComponentSummaryHandler.ProcessTrainingComponentSummaries(
                     summaryService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0); // 0 = fetch all via pagination
             }
         }
@@ -344,11 +366,12 @@ namespace TgaGateway2
         {
             using (var deletedService = new DeletedTrainingComponentService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 var deletedTrainingComponents = await DeletedTrainingComponentHandler.ProcessDeletedTrainingComponents(
                     deletedService,
                     supabaseService,
-                    startDate: new DateTime(2016, 4, 22), // 22/04/2016
-                    endDate: new DateTime(2016, 4, 22),   // 22/04/2016
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0,                        // 0 = fetch all via pagination
                     pageSize: 500);
             }

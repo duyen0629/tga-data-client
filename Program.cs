@@ -62,37 +62,20 @@ namespace TgaGateway2
 
         private static async Task RunAllProcesses()
         {
+            var tgaDateRange = GetTgaDefaultModifiedDateRange();
+            Console.WriteLine(
+                $"TGA default modified-date range: start={tgaDateRange.startDate:yyyy-MM-dd HH:mm:ss}, end={tgaDateRange.endDate:yyyy-MM-dd HH:mm:ss}");
+            Console.WriteLine();
+
             // Initialize services
             using (var tgaService = new TgaDataService())
             using (var supabaseService = new SupabaseService())
             {
-                //-----------Training Component Service -----------
+                // //-----------Training Component Service -----------
                 await RunTrainingComponentServiceProcesses(tgaService, supabaseService);
 
                 //-----------Training Component Documents -----------
                 await RunTrainingComponentDocumentProcess(supabaseService);
-
-                //-----------Organisation Service -----------
-                await RunOrganisationServiceProcesses(supabaseService);
-
-                //-----------Classification Service -----------
-                await RunClassificationServiceProcesses(supabaseService);
-
-                //-----------CSV Training Code Check -----------
-                var csvPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "RTOScopeExport.csv"));
-                var csvLogPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "csv-training-code-check.txt");
-                await CSVTrainingCodeCheck.RunAsync(supabaseService, csvPath, "training_code", hasHeader: true, processMissing: true, logPath: csvLogPath);
-
-                //-----------CSV Export Latest Documents -----------
-                var latestDocsCsvPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "training-component-documents-latest.csv");
-                await CSVTrainingCodeCheck.ExportLatestDocumentsToCsvAsync(supabaseService, csvPath, latestDocsCsvPath, "training_code", hasHeader: true);
-
-                // -----------Export Release Files XML -----------
-                var csvScopeQualificationPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "RTOScopeQualification.csv"));
-                var outputDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs");
-                await CSVTrainingCodeCheck.ExportReleaseFilesXmlAsync(csvScopeQualificationPath, outputDir, "training_code", hasHeader: true);
-
-                // await GetTrainingComponentSummaryForCode("CPC10126");
             }
         }
 

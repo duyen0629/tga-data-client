@@ -13,11 +13,12 @@ namespace TgaGateway2
 
             using (var summaryService = new OrganisationSummaryService())
             {
+                var (startDate, endDate) = GetTgaDefaultModifiedDateRange();
                 await OrganisationSummaryHandler.ProcessOrganisationSummaries(
                     summaryService,
                     supabaseService,
-                    startDate: new DateTime(2016, 1, 15), // 15/01/2016
-                    endDate: new DateTime(2026, 1, 15),   // 15/01/2026
+                    startDate: startDate,
+                    endDate: endDate,
                     maxResults: 0,
                     pageSize: 500);
             }
