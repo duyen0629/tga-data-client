@@ -4,7 +4,6 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
@@ -233,15 +232,13 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
 
                 try
                 {
-                    var completeResult = await ReleaseFileHelper.LoadLinesXmlOnly(candidate.Complete);
+                    var xmlParts = await TrainingComponentDocumentMergeHelper.LoadOrderedXmlPartsAsync(candidate);
                     var record = BuildRecordFromXmlBytesForUnit(
                         trainingComponentCode,
                         candidate.ReleaseNumber,
                         componentType,
                         usageRecommendation,
-                        completeResult.SelectedRelativePath,
-                        completeResult.FormatUsed,
-                        completeResult.Bytes);
+                        xmlParts);
 
                     await supabaseService.SaveToSupabase(new[] { record }, "training_component_documents");
                     Console.WriteLine("   ✓ training_component_documents saved.");
@@ -250,16 +247,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 catch (Exception ex)
                 {
                     Console.WriteLine($"     Failed to process {trainingComponentCode} release {candidate.ReleaseNumber}. Saving error record...");
-                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
-                    var sourceFiles = new
-                    {
-                        complete = new
-                        {
-                            relative_path = candidate?.Complete?.XmlPath,
-                            format = "xml"
-                        }
-                    };
-                    var sourceFilesJson = CommonParser.SanitizeJson(serializer.Serialize(sourceFiles));
+                    var sourceFiles = TrainingComponentDocumentMergeHelper.BuildSourceFilesJsonForError(
+                        TrainingComponentDocumentMergeHelper.GetXmlSourcePaths(candidate));
                     var errorRecord = new TrainingComponentDocumentRecord
                     {
                         TrainingComponentCode = trainingComponentCode,
@@ -267,7 +256,7 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                         ComponentType = componentType,
                         UsageRecommendation = usageRecommendation,
                         Title = trainingComponentCode,
-                        SourceFiles = new JsonRaw(sourceFilesJson),
+                        SourceFiles = new JsonRaw(sourceFiles),
                         ContentJson = null,
                         RawXml = null,
                         ParsedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ", CultureInfo.InvariantCulture),
@@ -310,15 +299,13 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
 
                 try
                 {
-                    var completeResult = await ReleaseFileHelper.LoadLinesXmlOnly(candidate.Complete);
+                    var xmlParts = await TrainingComponentDocumentMergeHelper.LoadOrderedXmlPartsAsync(candidate);
                     var record = BuildRecordFromXmlBytesForQualification(
                         trainingComponentCode,
                         candidate.ReleaseNumber,
                         componentType,
                         usageRecommendation,
-                        completeResult.SelectedRelativePath,
-                        completeResult.FormatUsed,
-                        completeResult.Bytes);
+                        xmlParts);
 
                     await supabaseService.SaveToSupabase(new[] { record }, "training_component_documents");
                     Console.WriteLine("   ✓ training_component_documents (Qualification) saved.");
@@ -327,16 +314,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
                 catch (Exception ex)
                 {
                     Console.WriteLine($"     Failed to process Qualification {trainingComponentCode} release {candidate.ReleaseNumber}. Saving error record...");
-                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
-                    var sourceFiles = new
-                    {
-                        complete = new
-                        {
-                            relative_path = candidate?.Complete?.XmlPath,
-                            format = "xml"
-                        }
-                    };
-                    var sourceFilesJson = CommonParser.SanitizeJson(serializer.Serialize(sourceFiles));
+                    var sourceFilesJson = TrainingComponentDocumentMergeHelper.BuildSourceFilesJsonForError(
+                        TrainingComponentDocumentMergeHelper.GetXmlSourcePaths(candidate));
                     var errorRecord = new TrainingComponentDocumentRecord
                     {
                         TrainingComponentCode = trainingComponentCode,
@@ -371,23 +350,37 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             string releaseNumber,
             string componentType,
             string usageRecommendation,
-            string relativePath,
-            string formatUsed,
-            byte[] xmlBytes)
+            IReadOnlyList<(byte[] bytes, string relativePath)> xmlOrdered)
         {
-            var lines = ReleaseFileHelper.ExtractLinesFromXml(xmlBytes);
+            if (xmlOrdered == null || xmlOrdered.Count == 0)
+            {
+                throw new ArgumentException("At least one XML source is required.", nameof(xmlOrdered));
+            }
+
+            var firstBytes = xmlOrdered[0].bytes;
+            var lines = ReleaseFileHelper.ExtractLinesFromXml(firstBytes);
             var title = CommonParser.ExtractTitle(trainingComponentCode, lines) ?? trainingComponentCode;
 
-            var (sections, packagingRules) = QualificationParser.ParserSectionFromXmlForQualification(xmlBytes);
-
-            var sourceFiles = new
+            var (firstSections, packagingRules) = QualificationParser.ParserSectionFromXmlForQualification(firstBytes);
+            var allQualSections = new List<DocumentSection>(firstSections);
+            for (var i = 1; i < xmlOrdered.Count; i++)
             {
-                complete = new
+                var next = xmlOrdered[i].bytes;
+                if (next == null || next.Length == 0)
                 {
-                    relative_path = relativePath,
-                    format = formatUsed ?? "xml"
+                    continue;
                 }
-            };
+
+                var (arSections, _) = QualificationParser.ParserSectionFromXmlForQualification(next);
+                allQualSections.AddRange(arSections);
+            }
+
+            var sections = TrainingComponentDocumentMergeHelper.DeduplicateDocumentSections(allQualSections);
+
+            var sourceMeta = xmlOrdered
+                .Select(x => (path: x.relativePath, format: "xml"))
+                .ToList();
+            var sourceFiles = TrainingComponentDocumentMergeHelper.BuildSourceFilesForOrderedXml(sourceMeta);
 
             // packing_rules_extracted is created and extracted from the Packaging rules section in sections
             var contentObj = new Dictionary<string, object>
@@ -400,7 +393,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
             var sourceFilesJson = CommonParser.SanitizeJson(serializer.Serialize(sourceFiles));
             var contentJsonRaw = CommonParser.SanitizeJson(serializer.Serialize(contentObj));
-            var rawXml = xmlBytes != null ? Encoding.UTF8.GetString(xmlBytes) : null;
+            var rawXml = TrainingComponentDocumentMergeHelper.BuildConcatenatedRawXml(
+                xmlOrdered.Select(x => x.bytes).ToList());
 
             return new TrainingComponentDocumentRecord
             {
@@ -421,24 +415,34 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             string releaseNumber,
             string componentType,
             string usageRecommendation,
-            string relativePath,
-            string formatUsed,
-            byte[] xmlBytes)
+            IReadOnlyList<(byte[] bytes, string relativePath)> xmlOrdered)
         {
-            var lines = ReleaseFileHelper.ExtractLinesFromXml(xmlBytes);
+            if (xmlOrdered == null || xmlOrdered.Count == 0)
+            {
+                throw new ArgumentException("At least one XML source is required.", nameof(xmlOrdered));
+            }
+
+            var firstBytes = xmlOrdered[0].bytes;
+            var lines = ReleaseFileHelper.ExtractLinesFromXml(firstBytes);
             var title = CommonParser.ExtractTitle(trainingComponentCode, lines) ?? trainingComponentCode;
 
-            var completeSections = UnitParser.ParserSectionFromXmlForUnit(xmlBytes);
-            var mergedSections = completeSections;
-
-            var sourceFiles = new
+            var allUnitSections = new List<DocumentSection>();
+            foreach (var part in xmlOrdered)
             {
-                complete = new
+                if (part.bytes == null || part.bytes.Length == 0)
                 {
-                    relative_path = relativePath,
-                    format = formatUsed ?? "xml"
+                    continue;
                 }
-            };
+
+                allUnitSections.AddRange(UnitParser.ParserSectionFromXmlForUnit(part.bytes));
+            }
+
+            var mergedSections = TrainingComponentDocumentMergeHelper.DeduplicateDocumentSections(allUnitSections);
+
+            var sourceMeta = xmlOrdered
+                .Select(x => (path: x.relativePath, format: "xml"))
+                .ToList();
+            var sourceFiles = TrainingComponentDocumentMergeHelper.BuildSourceFilesForOrderedXml(sourceMeta);
 
             var contentJson = new
             {
@@ -449,7 +453,8 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments
             var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
             var sourceFilesJson = CommonParser.SanitizeJson(serializer.Serialize(sourceFiles));
             var contentJsonRaw = CommonParser.SanitizeJson(serializer.Serialize(contentJson));
-            var rawXml = xmlBytes != null ? Encoding.UTF8.GetString(xmlBytes) : null;
+            var rawXml = TrainingComponentDocumentMergeHelper.BuildConcatenatedRawXml(
+                xmlOrdered.Select(x => x.bytes).ToList());
 
             return new TrainingComponentDocumentRecord
             {

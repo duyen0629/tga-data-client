@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Web.Script.Serialization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TgaGateway2.Handlers.TrainingComponentDocuments;
+using TgaGateway2.Handlers.TrainingComponentDocuments.Helper;
 using TgaGateway2.Handlers.TrainingComponentDocuments.Parser;
 using TgaGateway2.Services;
 
@@ -135,6 +136,88 @@ namespace TgaGateway2.Tests
             var actualJson = records[0].ContentJson?.Value;
 
             AssertJsonEquivalent(expectedJson, actualJson, code);
+        }
+
+        [TestMethod]
+        public void SelectReleaseFilesByRelease_IncludesAllXmlPathsMatchingReleaseToken()
+        {
+            var rows = new List<ReleaseFileRow>
+            {
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\CPCCDE3030_Complete_R1.docx" },
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\CPCCDE3030_R1.xml" },
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\CPCCDE3030_AssessmentRequirements_R1.xml" },
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\CPCCDE3030_Complete_R1.pdf" }
+            };
+
+            var selections = ReleaseFileHelper.SelectReleaseFilesByRelease(rows);
+
+            Assert.AreEqual(1, selections.Count, "Expected one release group.");
+            Assert.AreEqual(2, selections[0].XmlSources.Count);
+            var paths = selections[0].XmlSources.Select(s => s.XmlPath).ToList();
+            CollectionAssert.AreEquivalent(
+                new[]
+                {
+                    @"CPC\CPCCDE3030_R1.xml",
+                    @"CPC\CPCCDE3030_AssessmentRequirements_R1.xml"
+                },
+                paths);
+            Assert.IsTrue(
+                paths[0].EndsWith("CPCCDE3030_R1.xml", StringComparison.OrdinalIgnoreCase),
+                "Shorter / primary-ordered path should be merged first.");
+        }
+
+        [TestMethod]
+        public void PathMatchesReleaseToken_DoesNotConfuse_R1_With_R10()
+        {
+            Assert.IsTrue(ReleaseFileHelper.PathMatchesReleaseToken(@"CPC\UNIT_R1.xml", "_R1"));
+            Assert.IsFalse(ReleaseFileHelper.PathMatchesReleaseToken(@"CPC\UNIT_R10.xml", "_R1"));
+        }
+
+        [TestMethod]
+        public void SelectReleaseFilesByRelease_WhenCompleteXmlExists_UsesOnlyCompleteXml()
+        {
+            var rows = new List<ReleaseFileRow>
+            {
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\CPCCDE3030_Complete_R1.xml" },
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\CPCCDE3030_R1.xml" },
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\CPCCDE3030_AssessmentRequirements_R1.xml" }
+            };
+
+            var selections = ReleaseFileHelper.SelectReleaseFilesByRelease(rows);
+
+            Assert.AreEqual(1, selections.Count);
+            Assert.AreEqual(1, selections[0].XmlSources.Count);
+            Assert.AreEqual(@"CPC\CPCCDE3030_Complete_R1.xml", selections[0].XmlSources[0].XmlPath);
+        }
+
+        [TestMethod]
+        public void SelectReleaseFilesByRelease_NoComplete_BlankReleaseNumber_TakesAllXmlInGroup()
+        {
+            var rows = new List<ReleaseFileRow>
+            {
+                new ReleaseFileRow { release_number = "", relative_path = @"PKG\first.xml" },
+                new ReleaseFileRow { release_number = "", relative_path = @"PKG\second.xml" }
+            };
+
+            var selections = ReleaseFileHelper.SelectReleaseFilesByRelease(rows);
+
+            Assert.AreEqual(1, selections.Count, "Empty release_number rows group together.");
+            Assert.AreEqual(2, selections[0].XmlSources.Count);
+        }
+
+        [TestMethod]
+        public void SelectReleaseFilesByRelease_NoComplete_NoTokenMatch_FallsBackToAllXml()
+        {
+            var rows = new List<ReleaseFileRow>
+            {
+                new ReleaseFileRow { release_number = "1", relative_path = @"CPC\NoReleaseSegmentInName.xml" }
+            };
+
+            var selections = ReleaseFileHelper.SelectReleaseFilesByRelease(rows);
+
+            Assert.AreEqual(1, selections.Count);
+            Assert.AreEqual(1, selections[0].XmlSources.Count);
+            Assert.AreEqual(@"CPC\NoReleaseSegmentInName.xml", selections[0].XmlSources[0].XmlPath);
         }
 
         [TestMethod]

@@ -97,7 +97,11 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Type
     internal sealed class ReleaseFileSelection
     {
         public string ReleaseNumber { get; set; }
-        public ReleaseFileInfo Complete { get; set; }
+        /// <summary>
+        /// All XML release files for this release number (paths matching _R{release}, or every .xml in the group when none match).
+        /// Downloaded and merged in this order.
+        /// </summary>
+        public List<ReleaseFileInfo> XmlSources { get; set; }
     }
 
     internal sealed class LoadedLinesResult

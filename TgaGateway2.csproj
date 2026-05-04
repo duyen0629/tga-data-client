@@ -124,6 +124,7 @@
     <Compile Include="Handlers\TrainingComponentDocuments\Helper\ElementPerformanceCriteriaHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Helper\ProcessErrorHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Helper\ReleaseFileHelper.cs" />
+    <Compile Include="Handlers\TrainingComponentDocuments\Helper\TrainingComponentDocumentMergeHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Helper\SectionKeyHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Helper\TableHelper.cs" />
     <Compile Include="Handlers\TrainingComponentDocuments\Parser\CommonParser.cs" />

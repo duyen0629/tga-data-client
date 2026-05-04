@@ -27,16 +27,32 @@ namespace TgaGateway2.Tests
 
             foreach (var candidate in candidates)
             {
-                var xmlPath = candidate?.Complete?.XmlPath;
-                if (string.IsNullOrWhiteSpace(xmlPath))
+                if (candidate?.XmlSources == null || candidate.XmlSources.Count == 0)
                 {
                     continue;
                 }
 
-                var xmlBytes = xmlBytesProvider(xmlPath);
-                if (xmlBytes == null || xmlBytes.Length == 0)
+                var ordered = new List<(byte[] bytes, string relativePath)>();
+                foreach (var src in candidate.XmlSources)
                 {
-                    throw new Exception($"Missing XML bytes for {xmlPath}");
+                    var p = src?.XmlPath;
+                    if (string.IsNullOrWhiteSpace(p))
+                    {
+                        continue;
+                    }
+
+                    var xmlBytes = xmlBytesProvider(p);
+                    if (xmlBytes == null || xmlBytes.Length == 0)
+                    {
+                        throw new Exception($"Missing XML bytes for {p}");
+                    }
+
+                    ordered.Add((xmlBytes, p));
+                }
+
+                if (ordered.Count == 0)
+                {
+                    continue;
                 }
 
                 var record = TrainingComponentDocumentHandler.BuildRecordFromXmlBytesForUnit(
@@ -44,9 +60,7 @@ namespace TgaGateway2.Tests
                     candidate.ReleaseNumber,
                     componentType: null,
                     usageRecommendation: null,
-                    xmlPath,
-                    "xml",
-                    xmlBytes);
+                    ordered);
 
                 records.Add(record);
             }
@@ -70,16 +84,32 @@ namespace TgaGateway2.Tests
 
             foreach (var candidate in candidates)
             {
-                var xmlPath = candidate?.Complete?.XmlPath;
-                if (string.IsNullOrWhiteSpace(xmlPath))
+                if (candidate?.XmlSources == null || candidate.XmlSources.Count == 0)
                 {
                     continue;
                 }
 
-                var xmlBytes = xmlBytesProvider(xmlPath);
-                if (xmlBytes == null || xmlBytes.Length == 0)
+                var ordered = new List<(byte[] bytes, string relativePath)>();
+                foreach (var src in candidate.XmlSources)
                 {
-                    throw new Exception($"Missing XML bytes for {xmlPath}");
+                    var p = src?.XmlPath;
+                    if (string.IsNullOrWhiteSpace(p))
+                    {
+                        continue;
+                    }
+
+                    var xmlBytes = xmlBytesProvider(p);
+                    if (xmlBytes == null || xmlBytes.Length == 0)
+                    {
+                        throw new Exception($"Missing XML bytes for {p}");
+                    }
+
+                    ordered.Add((xmlBytes, p));
+                }
+
+                if (ordered.Count == 0)
+                {
+                    continue;
                 }
 
                 var record = TrainingComponentDocumentHandler.BuildRecordFromXmlBytesForQualification(
@@ -87,9 +117,7 @@ namespace TgaGateway2.Tests
                     candidate.ReleaseNumber,
                     componentType,
                     usageRecommendation: null,
-                    xmlPath,
-                    "xml",
-                    xmlBytes);
+                    ordered);
 
                 records.Add(record);
             }

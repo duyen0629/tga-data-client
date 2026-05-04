@@ -343,17 +343,22 @@ namespace TgaGateway2
                     }
 
                     var candidate = candidates[0];
-                    var completeResult = await ReleaseFileHelper.LoadLinesXmlOnly(candidate.Complete);
-                    var xmlBytes = completeResult.Bytes;
-
-                    if (xmlBytes != null && xmlBytes.Length > 0)
+                    var safeCode = string.Join("_", (code ?? string.Empty).Split(Path.GetInvalidFileNameChars()));
+                    var wroteAny = false;
+                    for (var si = 0; si < candidate.XmlSources.Count; si++)
                     {
-                        var safeCode = string.Join("_", (code ?? string.Empty).Split(Path.GetInvalidFileNameChars()));
-                        var xmlFileName = safeCode + ".xml";
-                        var fullXmlPath = Path.Combine(xmlDir, xmlFileName);
-                        File.WriteAllBytes(fullXmlPath, xmlBytes);
+                        var loaded = await ReleaseFileHelper.LoadLinesXmlOnly(candidate.XmlSources[si]);
+                        if (loaded.Bytes == null || loaded.Bytes.Length == 0)
+                        {
+                            continue;
+                        }
+
+                        var xmlFileName = si == 0 ? safeCode + ".xml" : safeCode + "_" + si + ".xml";
+                        File.WriteAllBytes(Path.Combine(xmlDir, xmlFileName), loaded.Bytes);
+                        wroteAny = true;
                     }
-                    else
+
+                    if (!wroteAny)
                     {
                         notCreated.Add($"{code} (XML download empty)");
                         Console.WriteLine($"  [NOT CREATED] {code}: XML download returned empty.");

@@ -13,14 +13,17 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Helper
 {
     /// <summary>
     /// Loads release files (download, parse release number, extract lines from XML or PDF)
-    /// and selects which file to use per release.
+    /// and groups XML sources per release for merge.
     /// </summary>
     internal static class ReleaseFileHelper
     {
         private const string TrainingComponentFilesBaseUrl = "https://training.gov.au/TrainingComponentFiles/";
 
         /// <summary>
-        /// Groups release files by release number and selects one XML per release (prefer Complete, then R, then first).
+        /// Groups by release_number. If the group has any .xml whose path contains _Complete_, all those Complete .xml
+        /// rows are selected (no _R{release_number} filter on Complete paths).
+        /// If there is no Complete .xml, selects every .xml whose path matches _R{release_number}; if none match, all .xml in the group.
+        /// Merge order within the picked set: _Complete_ first, then shorter path, then alphabetical.
         /// </summary>
         internal static List<ReleaseFileSelection> SelectReleaseFilesByRelease(List<ReleaseFileRow> releaseFiles)
         {
@@ -35,28 +38,105 @@ namespace TgaGateway2.Handlers.TrainingComponentDocuments.Helper
                         .Where(r => r.relative_path.EndsWith(".xml", StringComparison.OrdinalIgnoreCase))
                         .ToList();
 
-                    var completeXml = xmlFiles.FirstOrDefault(r =>
-                        r.relative_path.IndexOf("_Complete_", StringComparison.OrdinalIgnoreCase) >= 0);
+                    var releaseKey = (g.Key ?? string.Empty).Trim();
+                    var token = string.IsNullOrEmpty(releaseKey) ? null : "_R" + releaseKey;
 
-                    var releaseXml = xmlFiles.FirstOrDefault(r =>
-                        r.relative_path.IndexOf("_R", StringComparison.OrdinalIgnoreCase) >= 0);
+                    var completeXmls = xmlFiles
+                        .Where(r => r.relative_path.IndexOf("_Complete_", StringComparison.OrdinalIgnoreCase) >= 0)
+                        .ToList();
 
-                    var selectedXml = completeXml ?? releaseXml ?? xmlFiles.FirstOrDefault();
+                    List<ReleaseFileRow> picked;
+                    if (completeXmls.Count > 0)
+                    {
+                        picked = completeXmls.ToList();
+                    }
+                    else
+                    {
+                        if (string.IsNullOrEmpty(token))
+                        {
+                            picked = xmlFiles;
+                        }
+                        else
+                        {
+                            picked = xmlFiles
+                                .Where(r => PathMatchesReleaseToken(r.relative_path, token))
+                                .ToList();
+                            if (picked.Count == 0)
+                            {
+                                picked = xmlFiles;
+                            }
+                        }
+                    }
+
+                    picked = DistinctReleaseFileRowsByPath(picked);
+                    picked = OrderXmlRowsForMerge(picked);
 
                     return new ReleaseFileSelection
                     {
                         ReleaseNumber = g.Key,
-                        Complete = selectedXml == null ? null : new ReleaseFileInfo
-                        {
-                            XmlPath = selectedXml?.relative_path
-                        }
+                        XmlSources = picked
+                            .Select(r => new ReleaseFileInfo { XmlPath = r.relative_path })
+                            .ToList()
                     };
                 })
-                .Where(x => x.Complete != null)
+                .Where(x => x.XmlSources != null && x.XmlSources.Count > 0)
                 .OrderByDescending(x => ParseReleaseNumber(x.ReleaseNumber))
                 .ToList();
 
             return grouped;
+        }
+
+        /// <summary>
+        /// True when <paramref name="needle"/> appears as a release segment (followed by '.', '_', or end), not as a prefix of a longer release (e.g. _R1 vs _R10).
+        /// </summary>
+        internal static bool PathMatchesReleaseToken(string relativePath, string needle)
+        {
+            if (string.IsNullOrEmpty(relativePath) || string.IsNullOrEmpty(needle))
+            {
+                return true;
+            }
+
+            for (var start = 0; start < relativePath.Length;)
+            {
+                var i = relativePath.IndexOf(needle, start, StringComparison.OrdinalIgnoreCase);
+                if (i < 0)
+                {
+                    return false;
+                }
+
+                var after = i + needle.Length;
+                if (after >= relativePath.Length)
+                {
+                    return true;
+                }
+
+                var c = relativePath[after];
+                if (c == '.' || c == '_')
+                {
+                    return true;
+                }
+
+                start = i + 1;
+            }
+
+            return false;
+        }
+
+        private static List<ReleaseFileRow> DistinctReleaseFileRowsByPath(List<ReleaseFileRow> rows)
+        {
+            return rows
+                .GroupBy(r => (r.relative_path ?? string.Empty).TrimStart('/'), StringComparer.OrdinalIgnoreCase)
+                .Select(g => g.First())
+                .ToList();
+        }
+
+        private static List<ReleaseFileRow> OrderXmlRowsForMerge(List<ReleaseFileRow> rows)
+        {
+            return rows
+                .OrderBy(r => r.relative_path.IndexOf("_Complete_", StringComparison.OrdinalIgnoreCase) >= 0 ? 0 : 1)
+                .ThenBy(r => r.relative_path.Length)
+                .ThenBy(r => r.relative_path, StringComparer.OrdinalIgnoreCase)
+                .ToList();
         }
 
         internal static int ParseReleaseNumber(string releaseNumber)
